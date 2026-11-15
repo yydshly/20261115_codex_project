@@ -10,7 +10,7 @@
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
-| 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) |
+| 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
 
 ## 项目图览
 
@@ -28,7 +28,7 @@
 
 2026-11-15 本库整理，3600×8300。实际成片、官方预览、成熟作品与 LUME 示例模型资产图分别署名；完整出处和验证范围见项目说明。
 
-[进入研究](projects/0001-animation-skills-atlas/README.md) · [原仓库](https://github.com/remotion-dev/skills)
+[进入研究](projects/0001-animation-skills-atlas/README.md) · [原仓库](https://github.com/remotion-dev/skills) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html)
 
 <!-- PROJECTS:END -->
 
@@ -59,6 +59,6 @@ python scripts/projects.py check
 | [Web 部署约定](docs/deployment.md) | 多个演示站点的目录、路径与发布方式 |
 | [研究模板](templates/project/README.md) | 每个子项目的研究提纲 |
 
-已配置 GitHub Pages 统一发布工作流，首项为动画制作研究图谱。站点状态与公开地址以索引和项目发布记录为准；其他项目按明确发布任务接入。
+已启用 [GitHub Pages 总导航](https://yydshly.github.io/20261115_codex_project/)，首项为动画制作研究图谱。内容和验证记录在项目目录中保留；其他项目按明确发布任务接入。
 
 第三方项目的源码与素材遵循各自许可证；研究记录应注明来源、验证范围与仍待确认的问题。

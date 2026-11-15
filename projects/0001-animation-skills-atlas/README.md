@@ -2,19 +2,19 @@
 
 以 **AI＋Remotion 制作视频**为主线，对照 18 项动画技术、成熟作品与三工具同案成片，说明各工具负责什么、何时值得加、能省哪些制作工作，以及哪些暂时不必学。
 
-本轮整理已完成，研究保持暂缓；现在将完整站点发布到 GitHub Pages，公开地址在上线验证后写入根索引。
+本轮整理已完成，研究保持暂缓。**[打开完整在线总结与效果图谱](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html)**；已通过 GitHub Pages 发布与公开地址检查。
 
 ## 从哪里看
 
 | 阅读目标 | 页面 | 能获得什么 |
 | --- | --- | --- |
-| 先形成整体认识 | [阶段总结与动态效果图谱](web/summary.html) | 五条共识、18 项技术卡片、大幅实际画面、8 段可播放预览、完整 AI 视频选型表 |
-| 看清真实价值 | [六库的成熟作品与归因](web/cases.html) | Spotify Wrapped、DARK、ProgressBar.js、ZIM、p5.js 等；分别说明设计、框架和底层库的贡献 |
-| 比较实际制作 | [Remotion / Manim / Motion Canvas 同案](web/compare.html) | 同一主题的初稿与改稿成片、制作路线、实际源码差异、计时及验证边界 |
-| 亲手操作 | [六件本站交互实验](web/showcase.html) | 连续改目标、相机 seek、多对象流程、SVG 编排、Lottie 状态与 GIF 实际导出 |
-| 查技能和工具入口 | [原始 18 项目录与 13 个 Remotion Skill 任务](web/index.html) | 分类、搜索、边界、原始仓库和任务提示 |
-| 看基础机制 | [运行实验室](web/lab.html) | 实际 npm 运行库与数学、流程片段；与成熟作品分开呈现 |
-| 查素材出处 | [素材与引用说明](web/sources.html) | 逐项来源、作者、媒体角色及素材许可说明 |
+| 先形成整体认识 | [阶段总结与动态效果图谱](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) | 五条共识、18 项技术卡片、大幅实际画面、8 段可播放预览、完整 AI 视频选型表 |
+| 看清真实价值 | [六库的成熟作品与归因](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/cases.html) | Spotify Wrapped、DARK、ProgressBar.js、ZIM、p5.js 等；分别说明设计、框架和底层库的贡献 |
+| 比较实际制作 | [Remotion / Manim / Motion Canvas 同案](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/compare.html) | 同一主题的初稿与改稿成片、制作路线、实际源码差异、计时及验证边界 |
+| 亲手操作 | [六件本站交互实验](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/showcase.html) | 连续改目标、相机 seek、多对象流程、SVG 编排、Lottie 状态与 GIF 实际导出 |
+| 查技能和工具入口 | [原始 18 项目录与 13 个 Remotion Skill 任务](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/index.html) | 分类、搜索、边界、原始仓库和任务提示 |
+| 看基础机制 | [运行实验室](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/lab.html) | 实际 npm 运行库与数学、流程片段；与成熟作品分开呈现 |
+| 查素材出处 | [素材与引用说明](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/sources.html) | 逐项来源、作者、媒体角色及素材许可说明 |
 
 站内首页、案例、同案对比和实验均相互链接。动态预览按视区播放，支持暂停与放大；离线资料可下载 [高清 PNG](assets/technology-understanding.png) 与 [可缩放 SVG](assets/technology-understanding.svg)。
 

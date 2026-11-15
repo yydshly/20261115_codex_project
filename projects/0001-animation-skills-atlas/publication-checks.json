@@ -9,5 +9,6 @@
     8300
   ],
   "browser_interactions": "not retested; tool unavailable",
-  "public_http": "pending deployment"
+  "public_http": "published entry and navigation HTTP 200; full deployed import graph in publication-http-checks.json",
+  "github_actions": "success: https://github.com/yydshly/20261115_codex_project/actions/runs/43731196566"
 }
