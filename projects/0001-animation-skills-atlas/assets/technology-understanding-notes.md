@@ -32,7 +32,7 @@
 
 LUME 模型来源与许可：[Khronos glTF-Sample-Assets / DamagedHelmet](https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/DamagedHelmet/README.md)。其余完整图片 URL 和逐项原作地址见媒体清单。Spotify 的实际案例分析仍在 cases.html 中保留；当前总图的 Lottie 画面采用官方仓库可访问的公开动图，没有用其他图片冒充 Spotify。
 
-第三方媒体权利属于原作者。公开预览不意味着允许任意再分发：本轮仅本地研究，没有部署。下载的预览、视频、栅格导出位于 Git 忽略的 `web/public/summary/`；含嵌入媒体的生成 SVG `assets/technology-understanding.svg` 也已忽略。保留结构化来源和生成脚本。字体为本机微软雅黑，未嵌入字体文件。
+第三方媒体权利属于原作者，公开预览不代表通用商业再分发授权。本轮按用户要求将研究网页公开发布，并把 PNG / SVG 引导图作为正式研究图件提交。网站只提供带分析和署名的效果展示；原作和逐项归因保留，不提供完整第三方工程或商业素材包。视频与网站必需预览通过单独媒体 Release 恢复，不作为构建产物提交。完整说明见 `../THIRD_PARTY_NOTICES.md` 和 `../publication.md`。字体为本机微软雅黑，未嵌入字体文件。
 
 ## 复现
 

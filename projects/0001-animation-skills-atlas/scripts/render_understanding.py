@@ -1,7 +1,7 @@
 """Render the project understanding as one self-contained SVG and a high-res PNG.
 
 Uses structured notes, real rendered frames and attributed public previews.
-Generated outputs embed third-party images for local research and are ignored.
+The approved guide SVG/PNG are editorial assets; raw media and build output stay outside Git history.
 Run from any directory: python projects/0001-animation-skills-atlas/scripts/render_understanding.py
 """
 from pathlib import Path

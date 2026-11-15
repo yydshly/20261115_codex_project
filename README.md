@@ -59,6 +59,6 @@ python scripts/projects.py check
 | [Web 部署约定](docs/deployment.md) | 多个演示站点的目录、路径与发布方式 |
 | [研究模板](templates/project/README.md) | 每个子项目的研究提纲 |
 
-当前完成研究总库的初始化。首个实际 Web 项目接入时，再配置 GitHub Pages 发布。
+已配置 GitHub Pages 统一发布工作流，首项为动画制作研究图谱。站点状态与公开地址以索引和项目发布记录为准；其他项目按明确发布任务接入。
 
 第三方项目的源码与素材遵循各自许可证；研究记录应注明来源、验证范围与仍待确认的问题。
