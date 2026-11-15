@@ -8,6 +8,8 @@ on:
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -38,12 +40,14 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Validate registry and build complete site
         run: |
+          python -m unittest discover -s tests -v
           python scripts/projects.py check
           python scripts/build_site.py
       - uses: actions/upload-pages-artifact@v4
         with:
           path: _site
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
