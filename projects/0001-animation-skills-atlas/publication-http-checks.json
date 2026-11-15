@@ -1,0 +1,416 @@
+{
+  "checked_at_utc": "2026-11-15T15:46:25.961115+00:00",
+  "base_url": "https://yydshly.github.io/20261115_codex_project/",
+  "deployment_run": "https://github.com/yydshly/20261115_codex_project/actions/runs/43731196566",
+  "deployment_commit": "00462ebc3479994e9c982a6fb667db4a86e2cb3b",
+  "requests": 78,
+  "failures": [],
+  "range_requests": [
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/remotion-v2.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/845025",
+      "readBytes": 1024
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/lottie-loop.mp4",
+      "status": 206,
+      "contentRange": "bytes 0-1023/161327",
+      "readBytes": 1024
+    }
+  ],
+  "results": [
+    {
+      "path": "demos/0001-animation-skills-atlas/app.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/ai-video-section-B4rX8aVY.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/cases-C06AiQQV.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/cases-CrqF-65D.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/compare-B803bHRv.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/compare-IR2fHIQJ.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/favicon-DsTWeP40.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/gifenc-DVM2k0EV.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/index-BJ2AcXoE.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/lab-B3iW1ivh.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/lab-BMdeBHQ6.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/lottie-B3nQONJg.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/lottie_light-C-Q6jyjW.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/main-D8q4C9Xm.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/modulepreload-polyfill-P2Xu9kJm.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/modules-k1f4JNGb.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/ola.min-Bfj2Ycfr.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/preload-helper-B36WbcOb.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/proton.min-BTH1IzFx.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/shifty-DsORNtZ_.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/showcase-BwmoX9NS.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/showcase-Df_8eT5d.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/summary-BJW1ETMZ.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/assets/summary-DtqP-v0Z.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/atlas-sample.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/cases.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/compare.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/canvas-v1-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/canvas-v1.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/canvas-v2-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/canvas-v2.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/manim-v1-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/manim-v1.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/manim-v2-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/manim-v2.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/remotion-v1-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/remotion-v1.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/remotion-v2-poster.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/remotion-v2.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/comparison/report.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/lab.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/manim-frame.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/motion-canvas/project.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/motion-canvas/src/project-BjGZYOT1.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/resources.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/showcase-assets/cloudpost-original.json",
+      "status": 200,
+      "type": "application/json; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/showcase-assets/stay-curious-256.gif",
+      "status": 200,
+      "type": "image/gif"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/showcase.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/sources.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/anime-loop.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/anime.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/babylon.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/blender.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/gifenc-loop.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/gifenc.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/godot.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/konva.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/lottie-loop.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/lottie.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/lume.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/manim.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/manim.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/motion-canvas.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/motion.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/motion.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/ola.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/proton.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/remotion.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/shifty-loop.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/shifty.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/three.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/tweenjs.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/effects/two.jpg",
+      "status": 200,
+      "type": "image/jpeg"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/summary/technology-understanding.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "path": "demos/0001-animation-skills-atlas/vector-similarity.mp4",
+      "status": 200,
+      "type": "video/mp4"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html; charset=utf-8"
+    }
+  ],
+  "browser_interactions": "not retested in this session",
+  "resource_discovery": "actual deployed HTML and JS import graph; no local build hash assumptions"
+}
