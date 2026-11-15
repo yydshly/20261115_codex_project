@@ -1,0 +1,13 @@
+{
+  "build": "passed from isolated clean npm ci",
+  "html_pages": 8,
+  "html_local_resources_checked": 26,
+  "media_files_sha256_verified": 44,
+  "animated_previews": 8,
+  "guide_dimensions": [
+    3600,
+    8300
+  ],
+  "browser_interactions": "not retested; tool unavailable",
+  "public_http": "pending deployment"
+}

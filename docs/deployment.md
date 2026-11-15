@@ -1,42 +1,39 @@
-# Web 部署约定
+# GitHub Pages 发布约定
 
-当前仓库只完成研究总库初始化，尚未部署 Web，也未启用 GitHub Pages。项目没有可访问的演示时，`demo_url` 保持 `null`。
+首个已接入发布的项目为 `0001-animation-skills-atlas`。研究源码、正式引导图与验证记录保存在 Git；视频和预览文件通过带 SHA-256 清单的媒体 Release 恢复。站点构建产物 `_site/` 不提交。
 
-GitHub Pages 为每个仓库提供一个站点，可在同一站点下放置多个项目入口。本仓库计划使用项目站点，其地址前缀为 `https://yydshly.github.io/20261115_codex_project/`；这只是未来约定地址，不代表已经上线。Pages 托管静态文件，不提供应用后端运行环境。参见 [GitHub Pages 官方说明](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)。
+## 公开路径
 
-## 一个站点，多个入口
+- 总导航：`https://yydshly.github.io/20261115_codex_project/`
+- 动画研究总结：`https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html`
+- 项目目录下还包含 `index.html`（原始目录）、`cases.html`、`compare.html`、`showcase.html`、`lab.html`、`sources.html`。
 
-每个项目按需在自己的 `web/` 下开发，技术栈可以独立选择。将各项目构建后的静态文件汇总到同一个发布目录：
+上述为固定发布路径；实际首次上线结果与检查时间见项目 `publication.md`。登记表的 `demo_url` 只在公开页面验证通过后填写。
 
-```text
-projects/<id>-<slug>/web/       # 项目源码，实际开发时再创建
-_site/
-  index.html                  # 总导航
-  demos/
-    <id>-<slug>/
-      index.html
-      assets/
+## 构建与发布
+
+`.github/workflows/pages.yml` 在 main 上相关文件变更或手动触发时运行：锁文件安装前端依赖 → 校验登记表 → 校验并恢复媒体 → 构建 Vite 多页面站点 → 生成 `_site/index.html` 导航 → 上传统一 Pages artifact → 发布。
+
+```powershell
+cd projects/0001-animation-skills-atlas/web
+npm ci
+cd ../../..
+python scripts/projects.py check
+python scripts/build_site.py
 ```
 
-例如，`0001-example-project` 的预期公开路径为：
+`build_site.py` 仅构建明确接入的项目，不因其他项目存在 `web/` 就自动发布。每个项目未来按需加入统一构建，保持 `_site/demos/<id>-<slug>/`。一份 Pages artifact 汇总所有明确发布的项目，避免不同项目覆盖整个站点。
 
-```text
-/20261115_codex_project/demos/0001-example-project/
-```
+## 视频与预览
 
-`_site/` 是汇总构建产物，不作为研究源码提交。未来部署时统一构建、统一上传、统一发布，避免不同项目分别发布整个站点而相互覆盖。带服务端、数据库或私密凭据的功能需要另行选择后端托管方式。
+`projects/0001-animation-skills-atlas/publication-media.json` 记录公开媒体包 URL、包哈希与逐文件哈希。下载、文件列表和哈希不一致时构建失败。解包只允许项目 `web/public/` 内的相对路径，拒绝目录穿越。
 
-## 为子路径构建
+媒体包由 `projects/0001-animation-skills-atlas/scripts/package_publication_media.py` 从当前有效媒体白名单生成；不收集依赖、临时帧、私人资料、校验截图或完整第三方工程。发布包为网页展示资源，不是第三方商业素材包。归因与许可说明见项目 `THIRD_PARTY_NOTICES.md`。
 
-- 各项目的资源基础路径需包含仓库名前缀和自己的演示目录，或使用经验证的相对路径。
-- 不要将资源地址写死为 `/assets/...`，该地址会跳到域名根目录。
-- SPA 需要选择适合静态托管的路由方式，例如 hash 路由，或明确处理刷新和深层链接访问。
-- 各项目分别记录构建命令、运行环境及产物目录。统一发布时只收集可公开的静态文件，不上传 `.env`、密钥或本地数据。
+本地已有媒体包时可用 `python scripts/build_site.py --media-archive <本地 zip 路径>`，仍执行全部哈希验证。Pages 不提供后端；纯前端交互和浏览器内导出可运行，私密凭据不得进入 artifact。
 
-## 首次发布时
+## 子路径与验收
 
-1. 确定首个 Web 项目的框架、构建命令和子路径配置，并完成本地验证。
-2. 建立统一汇总流程，生成 `_site/index.html` 和各项目入口。
-3. 再配置 GitHub Pages 发布；可参考 [官方自定义工作流指南](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。本轮不添加部署工作流。
-4. 发布后检查导航、图片、静态资源、刷新和深层链接，确认演示可访问后再填写 `demo_url`。
-5. 运行 `python scripts/projects.py render` 和 `python scripts/projects.py check`，同步根 README。
+Vite 使用经验证的相对路径，全部页面与媒体保留在 `/20261115_codex_project/demos/0001-animation-skills-atlas/`。不使用跳到域名根目录的 `/assets/...`。每次发布检查主入口、深层页面、脚本、样式、引导图、18 张预览、8 段动态效果和同案成片；视频须可解码并支持请求。
+
+发布成功后更新 `demo_url`，运行 `python scripts/projects.py render` 与 `check`，提交登记表、生成 README 和本项目相关文件。其他聊天未完成的项目保留原工作区，单独研究，不随本次发布提交。

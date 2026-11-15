@@ -1,0 +1,24 @@
+{
+  "engine": "remotion",
+  "revision": 2,
+  "wallSeconds": 23.328,
+  "bytes": 845025,
+  "sha256": "3ee1d6c48a52eb92ab4a09faa443a2947dc7d2f1b80acd4ff2ef49f4f4d69318",
+  "command": [
+    "node",
+    "node_modules/@remotion/cli/remotion-cli.js",
+    "render",
+    "remotion/compare-index.jsx",
+    "SameCase",
+    "F:\\codex_project2\\1115_codex_project\\projects\\0001-animation-skills-atlas\\web\\public\\comparison\\remotion-v2.mp4",
+    "--codec=h264",
+    "--concurrency=4"
+  ],
+  "timeLocal": "recorded locally; see file mtime",
+  "metadata": {
+    "duration": 24.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "相似，来自方向。",
+  "subtitle": "语义检索 · 二维方向示意",
+  "query": "怎么让接口响应更快？",
+  "revisedQuery": "退休年龄政策有什么变化？",
+  "documents": ["缓存与索引优化", "退休年龄新规"],
+  "angles": [20, 80],
+  "revisionRequest": "加入第二个问题，演示查询方向改变与排序反转；新增 6 秒讲解；将结果卡的“相似度”改为“方向接近度”。",
+  "baselineSeconds": 18,
+  "revisedSeconds": 24,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "audio": "无配音；三版使用统一中文字幕",
+  "font": "Microsoft YaHei",
+  "caveat": "文档向量与问题方向由本案例设定；分数取夹角余弦，不是实际模型检索测评。"
+}

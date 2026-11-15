@@ -1,0 +1,16 @@
+{
+  "engine": "motion-canvas",
+  "revision": 2,
+  "wallSeconds": 26.876,
+  "result": 0,
+  "encodingSeconds": 1.447,
+  "bytes": 521581,
+  "sha256": "cf9903da2a11e2bb74b73a359a901c6493f85723c4504e2f95adf0879e1db05f",
+  "frames": 576,
+  "metadata": {
+    "duration": 24.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1"
+  }
+}
