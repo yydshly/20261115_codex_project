@@ -1,0 +1,10 @@
+# Local rendered samples; reproduce with npm run render:sample.
+public/*.mp4
+public/*.png
+
+public/motion-canvas/
+public/comparison/
+public/showcase-assets/
+
+# Reproducible high-resolution poster raster exports.
+public/summary/

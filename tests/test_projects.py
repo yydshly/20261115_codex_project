@@ -46,6 +46,22 @@ class ResearchWorkflowTests(unittest.TestCase):
             code = projects.main()
         return code, output.getvalue(), errors.getvalue()
 
+    def test_highlights_are_escaped_and_placed_before_the_preview(self):
+        self.add()
+        data = json.loads((self.root / "projects.json").read_text(encoding="utf-8"))
+        item = data["projects"][0]
+        item["highlights"] = ["内容 A < B", "价值：说明制作取舍"]
+        image = self.root / "projects/0001-alpha/assets/guide.svg"
+        image.write_text('<svg xmlns="http://www.w3.org/2000/svg"/>', encoding="utf-8")
+        item["preview"] = {"path": "projects/0001-alpha/assets/guide.svg", "alt": "引导图", "caption": "来源"}
+        projects.validate(data, self.root)
+        rendered = projects.render_index(data)
+        self.assertIn("内容 A &lt; B", rendered)
+        self.assertLess(rendered.index("价值：说明制作取舍"), rendered.index("![引导图]"))
+        item["highlights"] = "not-an-array"
+        with self.assertRaises(ValueError):
+            projects.validate(data, self.root)
+
     def test_empty_repository_renders_without_inventing_projects(self):
         self.assertEqual(self.command("render")[0], 0)
         code, output, errors = self.command("check")

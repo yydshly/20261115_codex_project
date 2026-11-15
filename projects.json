@@ -1,5 +1,32 @@
 {
   "schema_version": 1,
-  "next_id": 1,
-  "projects": []
+  "next_id": 8,
+  "projects": [
+    {
+      "id": "0001",
+      "order": 1,
+      "slug": "animation-skills-atlas",
+      "name": "动画制作 Skills 图谱",
+      "summary": "以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。",
+      "repository": "https://github.com/remotion-dev/skills",
+      "status": "paused",
+      "tags": [
+        "动画制作",
+        "Agent Skills",
+        "能力图谱",
+        "静态网页"
+      ],
+      "preview": {
+        "path": "projects/0001-animation-skills-atlas/assets/technology-understanding.png",
+        "alt": "18 项动画技术效果全景图：大幅作品画面对应作用、场景、效果、引入成本和 AI 视频选型。",
+        "caption": "2026-11-15 本库整理，3600×8300。实际成片、官方预览、成熟作品与 LUME 示例模型资产图分别署名；完整出处和验证范围见项目说明。"
+      },
+      "demo_url": null,
+      "highlights": [
+        "内容：18 项技术的作用、场景、效果和成本；六库真实案例、三工具同案改稿、六件交互实验、8 段动态预览及 13 个 Remotion Skill 任务入口。",
+        "价值：区分素材、动画规则、绘图、场景与成片输出，结合实际任务说明能省什么工作，避免只因“效果相似”或“库很多”而盲目选型。",
+        "阅读引导：先看在线总结与效果图谱，再看真实案例和同案制作证据；下图为本轮生成的技术效果全景，可点击放大。"
+      ]
+    }
+  ]
 }

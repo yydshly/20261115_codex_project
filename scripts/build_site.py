@@ -1,0 +1,74 @@
+"""Build explicitly selected web projects into a single GitHub Pages artifact."""
+from pathlib import Path, PurePosixPath
+from html import escape
+from zipfile import ZipFile
+import argparse
+import hashlib
+import json
+import os
+import shutil
+import subprocess
+import urllib.request
+
+ROOT = Path(__file__).resolve().parents[1]
+SLUG = '0001-animation-skills-atlas'
+PROJECT = ROOT / 'projects' / SLUG
+PUBLIC = PROJECT / 'web/public'
+
+def hydrate(archive_path=None):
+    record = json.loads((PROJECT / 'publication-media.json').read_text(encoding='utf-8'))
+    archive = Path(archive_path) if archive_path else ROOT / '.local/publication-media/animation-atlas-media-20261115.zip'
+    if not archive.exists():
+        archive.parent.mkdir(parents=True, exist_ok=True)
+        with urllib.request.urlopen(record['url'], timeout=90) as response:
+            data = response.read(60_000_001)
+        if len(data) > 60_000_000:
+            raise ValueError('Published media exceeds 60 MB budget')
+        archive.write_bytes(data)
+    if hashlib.sha256(archive.read_bytes()).hexdigest() != record['sha256']:
+        raise ValueError('Published media checksum mismatch')
+    expected = {item['path']: item['sha256'] for item in record['files']}
+    with ZipFile(archive) as bundle:
+        if set(bundle.namelist()) != set(expected):
+            raise ValueError('Published archive file list differs from manifest')
+        for name in bundle.namelist():
+            relative = PurePosixPath(name)
+            target = PUBLIC / name
+            if relative.is_absolute() or '..' in relative.parts or '\\' in name or not target.resolve().is_relative_to(PUBLIC.resolve()):
+                raise ValueError('Unsafe archive member')
+            data = bundle.read(name)
+            if hashlib.sha256(data).hexdigest() != expected[name]:
+                raise ValueError('Published file checksum mismatch: ' + name)
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+    (PUBLIC / 'summary').mkdir(parents=True, exist_ok=True)
+    shutil.copy2(PROJECT / 'assets/technology-understanding.png', PUBLIC / 'summary/technology-understanding.png')
+    return len(expected)
+
+def navigation():
+    registry = json.loads((ROOT / 'projects.json').read_text(encoding='utf-8'))
+    cards = []
+    for project in sorted(registry['projects'], key=lambda p: p['order']):
+        local = project['id'] + '-' + project['slug'] == SLUG
+        href = f'./demos/{SLUG}/summary.html' if local else project.get('demo_url')
+        if not href:
+            continue
+        cards.append(f'<article><span>{escape(project["id"])} / 研究与实践</span><h2><a href="{escape(href)}">{escape(project["name"])}</a></h2><p>{escape(project["summary"])}</p>' + ''.join(f'<p>{escape(item)}</p>' for item in project.get('highlights', [])) + f'<a class="action" href="{escape(href)}">进入完整网页 ↗</a><a href="https://github.com/yydshly/20261115_codex_project/tree/main/projects/{escape(project["id"]+"-"+project["slug"])}">研究与源码 ↗</a>' + (f'<a href="{escape(href)}"><img src="./demos/{SLUG}/summary/technology-understanding.png" alt="18 项技术的作用、场景、效果和 AI 视频选型引导图" loading="lazy"></a>' if local else '') + '</article>')
+    return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GitHub 项目研究索引</title><style>body{margin:0;background:#101b23;color:#e5eadd;font:16px/1.9 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1100px;margin:auto;padding:45px 25px}a{color:#c8e49b}h1{font-size:38px;line-height:1.5}h2{font-size:28px}article{padding:30px;margin:35px 0;background:#192a31;border:1px solid #3f5749;border-radius:9px}article>span{font-size:12px;color:#91ac92}p{color:#a5b9a6}img{width:100%;height:auto;display:block;margin-top:28px}.action{display:inline-block;padding:9px 15px;border:1px solid #7c9760;border-radius:4px;margin:15px 22px 10px 0}footer{font-size:12px;color:#819a86}</style></head><body><main><p>RESEARCH / EXAMPLES / DECISIONS</p><h1>GitHub 项目研究索引</h1><p>按编号整理内容、实践结果和选择依据。先读摘要，再进入效果、案例和可核查的研究记录。</p>' + ''.join(cards) + '<footer>原始项目、素材与研究结论分别署名。<a href="https://github.com/yydshly/20261115_codex_project">查看 GitHub 仓库 ↗</a></footer></main></body></html>'
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--media-archive')
+    args = parser.parse_args()
+    count = hydrate(args.media_archive or os.environ.get('ANIMATION_MEDIA_ARCHIVE'))
+    subprocess.run([shutil.which('npm') or 'npm', 'run', 'build'], cwd=PROJECT / 'web', check=True)
+    output = ROOT / '_site'
+    target = output / 'demos' / SLUG
+    target.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(PROJECT / 'web/dist', target, dirs_exist_ok=True)
+    (output / 'index.html').write_text(navigation(), encoding='utf-8')
+    (output / '.nojekyll').write_text('', encoding='utf-8')
+    print(json.dumps({'output': str(output), 'media_files': count, 'project': SLUG}))
+
+if __name__ == '__main__':
+    main()

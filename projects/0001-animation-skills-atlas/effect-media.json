@@ -1,0 +1,217 @@
+{
+  "remotion": {
+    "title": "同案成片 · 余弦相似度",
+    "credit": "本站原创 / Remotion 实际渲染",
+    "source": "./compare.html",
+    "type": "video",
+    "play": "./comparison/remotion-v2.mp4",
+    "poster": "remotion.jpg",
+    "focus": "字幕、图表、镜头与音画统一编排",
+    "note": "实际成片关键帧；不是 Remotion 能力上限。"
+  },
+  "motion-canvas": {
+    "title": "同案成片 · 向量关系展开",
+    "credit": "本站原创 / Motion Canvas 实际渲染",
+    "source": "./compare.html",
+    "type": "video",
+    "play": "./comparison/canvas-v2.mp4",
+    "poster": "motion-canvas.jpg",
+    "focus": "向量、标注与图解按讲解时序展开",
+    "note": "实际成片关键帧；不是 Motion Canvas 能力上限。"
+  },
+  "manim": {
+    "title": "Opening Manim · 公式与网格变换",
+    "credit": "Manim Community 官方示例",
+    "source": "https://www.manim.community/",
+    "type": "video",
+    "file": "manim.mp4",
+    "download": "https://www.manim.community/examples/OpeningManim.mp4",
+    "poster": "manim.jpg",
+    "focus": "公式、坐标与非线性网格变换",
+    "note": "官方示例预览；与本站同案实测分开。"
+  },
+  "lottie": {
+    "title": "Lottie · 跨界面的产品动效",
+    "credit": "Lottie Web 官方仓库 / Example3",
+    "source": "https://github.com/airbnb/lottie-web",
+    "type": "gif",
+    "file": "lottie-example3.gif",
+    "download": "https://raw.githubusercontent.com/airbnb/lottie-web/master/gifs/Example3.gif",
+    "poster": "lottie.jpg",
+    "focus": "设计好的品牌动效成为可复用资产",
+    "note": "官方发布的产品动效预览；画面和关键帧由设计人员制作，Lottie 负责资产播放。"
+  },
+  "anime": {
+    "title": "Anime.js v4 · 标志编排",
+    "credit": "Julian Garnier / Anime.js 官方",
+    "source": "https://animejs.com/",
+    "type": "gif",
+    "file": "anime-dark.gif",
+    "download": "https://raw.githubusercontent.com/juliangarnier/anime/master/assets/images/animejs-v4-logo-animation-dark.gif",
+    "poster": "anime.jpg",
+    "focus": "路径、形变、错时动作统一到时间线",
+    "note": "官方发布动图；不是由库自动设计画面。",
+    "reference": "https://github.com/juliangarnier/anime"
+  },
+  "motion": {
+    "title": "Motion · 景深画廊与弹簧切换",
+    "credit": "本站画廊编排 / Motion 真实弹簧轨迹 / 官方仓库示例照片",
+    "source": "https://github.com/motiondivision/motion",
+    "type": "video",
+    "file": "motion.mp4",
+    "poster": "motion.jpg",
+    "focus": "有空间感的卡片布局与响应式过渡",
+    "note": "本站制作的实际渲染片段；Motion 计算弹簧轨迹，Remotion 按帧输出。照片来自 Motion 官方示例，不是本站原创照片。",
+    "assets": [
+      {
+        "file": "motion-escape.jpg",
+        "download": "https://raw.githubusercontent.com/motiondivision/motion/main/dev/html/public/photos/assets/escape.jpg"
+      },
+      {
+        "file": "motion-papertales.jpg",
+        "download": "https://raw.githubusercontent.com/motiondivision/motion/main/dev/html/public/photos/assets/papertales.jpg"
+      },
+      {
+        "file": "motion-quietcoast.jpg",
+        "download": "https://raw.githubusercontent.com/motiondivision/motion/main/dev/html/public/photos/assets/quietcoast.jpg"
+      },
+      {
+        "file": "motion-push.jpg",
+        "download": "https://raw.githubusercontent.com/motiondivision/motion/main/dev/html/public/photos/assets/push.jpg"
+      }
+    ]
+  },
+  "ola": {
+    "title": "DARK · 沉浸式剧集网站",
+    "credit": "Olivier3lanc / folio-dark 作者作品",
+    "source": "https://olivier3lanc.me/folio-dark/",
+    "type": "image",
+    "file": "ola.webp",
+    "download": "https://raw.githubusercontent.com/olivier3lanc/folio-dark/master/img/dark-cinematics.webp",
+    "poster": "ola.jpg",
+    "focus": "变化目标的平滑跟随，服务沉浸式交互",
+    "note": "Ola 仅负责部分数值平滑；作品另用滚动工具和影像素材。非 Netflix 官方站。"
+  },
+  "shifty": {
+    "title": "ProgressBar.js · 进度反馈",
+    "credit": "Kimmo Brunfeldt / ProgressBar.js",
+    "source": "https://kimmobrunfeldt.github.io/progressbar.js/",
+    "type": "gif",
+    "file": "shifty.gif",
+    "download": "https://raw.githubusercontent.com/kimmobrunfeldt/progressbar.js/master/docs/img/animation.gif",
+    "poster": "shifty.jpg",
+    "focus": "进度路径与数值同步补间",
+    "note": "成熟上层组件的效果；依赖 Shifty 2.x，不等于已验证 3.x 直接替换。",
+    "reference": "https://github.com/kimmobrunfeldt/progressbar.js"
+  },
+  "tweenjs": {
+    "title": "Scrambled Pics · 照片拼图",
+    "credit": "ZIM / Scrambled Pics · 官方案例图",
+    "source": "https://zimjs.com/scrambled.html",
+    "type": "image",
+    "file": "tweenjs.png",
+    "download": "https://zimjs.com/scrambled/scrambled_pics.png",
+    "poster": "tweenjs.jpg",
+    "focus": "对象移动、动作序列与游戏反馈",
+    "note": "ZIM 动画基于 TweenJS；这不是整个产品仅使用 TweenJS 的证明。"
+  },
+  "two": {
+    "title": "Two.js · 官方图形效果集",
+    "credit": "Jono Brandel / Two.js 官方示例总览",
+    "source": "https://two.js.org/examples/",
+    "type": "image",
+    "file": "two.jpg",
+    "download": "https://two.js.org/images/thumbnail.jpg",
+    "poster": "two.jpg",
+    "focus": "描边、裁切、渐变和图形分组的二维创作",
+    "note": "官网发布的多示例效果总览；不是独立视频模板。"
+  },
+  "konva": {
+    "title": "Polotno · 完整设计编辑器",
+    "credit": "Polotno / Konva 官方 Canvas Editor 案例",
+    "source": "https://konvajs.org/docs/sandbox/Canvas_Editor.html",
+    "type": "image",
+    "file": "konva.jpg",
+    "download": "https://konvajs.org/assets/demos/polotno.jpg",
+    "poster": "konva.jpg",
+    "focus": "对象选择、缩放、文本与画布编辑",
+    "note": "Polotno 是建立在 Konva 上的商业 SDK；模板、工具栏和业务并非 Konva 自动提供。"
+  },
+  "proton": {
+    "title": "Proton · 官方粒子效果",
+    "credit": "drawcall / Proton 官方网站",
+    "source": "https://drawcall.github.io/Proton/",
+    "type": "image",
+    "file": "proton.jpg",
+    "download": "https://drawcall.github.io/Proton/static/media/banner1.7af606fb.jpg",
+    "poster": "proton.jpg",
+    "focus": "大量粒子的发射、行为与生命周期",
+    "note": "官方公开效果画面；不将粒子库当成完整三维或视频引擎。"
+  },
+  "three": {
+    "title": "Three.js · 物理透射材质",
+    "credit": "Three.js 官方 Examples",
+    "source": "https://threejs.org/examples/#webgl_materials_physical_transmission",
+    "type": "image",
+    "file": "three.jpg",
+    "download": "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/screenshots/webgl_materials_physical_transmission.jpg",
+    "poster": "three.jpg",
+    "focus": "产品材质、照明与相机共同塑造质感",
+    "note": "官方示例截图；材质、模型、光照共同产生效果。"
+  },
+  "blender": {
+    "title": "Sprite Fright · 开放电影",
+    "credit": "Blender Studio · 官方影片预览",
+    "source": "https://www.youtube.com/watch?v=_cMxraX_5RE",
+    "type": "image",
+    "file": "blender.jpg",
+    "download": "https://i.ytimg.com/vi/_cMxraX_5RE/maxresdefault.jpg",
+    "poster": "blender.jpg",
+    "focus": "角色表演、材质、灯光与电影镜头",
+    "note": "Blender 团队完整电影制作成果；本项目没有运行该影片的制作工程。"
+  },
+  "lume": {
+    "title": "LUME · glTF 模型与环境光",
+    "credit": "LUME 示例模型 / Damaged Helmet · ctxwing / theblueturtle_",
+    "source": "https://lume.io/examples/gltf-model.html",
+    "type": "image",
+    "file": "lume.png",
+    "download": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/DamagedHelmet/screenshot/screenshot.png",
+    "poster": "lume.jpg",
+    "focus": "以网页元素组织有空间层次的场景",
+    "note": "静态为官方示例所用模型资产的预览，非本站 LUME 渲染。ctxwing 重建转换：CC BY 4.0；theblueturtle_ 原版本：CC BY-NC 4.0。",
+    "reference": "https://github.com/KhronosGroup/glTF-Sample-Assets/blob/main/Models/DamagedHelmet/README.md"
+  },
+  "babylon": {
+    "title": "Babylon.js · Clustered Lighting",
+    "credit": "Babylon.js 官方功能演示",
+    "source": "https://www.babylonjs.com/",
+    "type": "image",
+    "file": "babylon.png",
+    "download": "https://www.babylonjs.com/assets/img/clusteredLighting.png",
+    "poster": "babylon.jpg",
+    "focus": "多光源、复杂场景与实时光照",
+    "note": "官方演示截图；本项目没有本地复现该场景。"
+  },
+  "godot": {
+    "title": "DOGWALK · 雪地里的可玩世界",
+    "credit": "Blender Studio / Godot 官方 Showcase",
+    "source": "https://godotengine.org/showcase/dogwalk/",
+    "type": "image",
+    "file": "godot.jpg",
+    "download": "https://raw.githubusercontent.com/godotengine/godot-website/master/assets/showcase/dogwalk/dogwalk-1.jpg",
+    "poster": "godot.jpg",
+    "focus": "角色控制、场景状态与互动叙事",
+    "note": "游戏运行使用 Godot；美术由 Blender Studio 制作。本项目未复现工程。"
+  },
+  "gifenc": {
+    "title": "LOOP PRESS · 实际编码的动态海报",
+    "credit": "本站原创 / gifenc 实际编码输出",
+    "source": "./showcase.html#gifenc",
+    "type": "gif",
+    "play": "./showcase-assets/stay-curious-256.gif",
+    "poster": "gifenc.jpg",
+    "focus": "逐帧画稿变成独立可发送的 GIF",
+    "note": "画面由本站 Canvas 绘制，gifenc 只负责量化与编码；不负责创意和绘图。"
+  }
+}

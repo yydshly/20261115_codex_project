@@ -88,6 +88,9 @@ def validate(data, root):
         require(isinstance(project.get("repository"), str)
                 and REPOSITORY.fullmatch(project["repository"]),
                 f"{pid} 的 repository 必须是 https://github.com/owner/repo")
+        highlights = project.get("highlights", [])
+        require(isinstance(highlights, list) and all(line(item) for item in highlights),
+                f"{pid} 的 highlights 必须是单行非空字符串数组")
         require(isinstance(project.get("status"), str) and project["status"] in STATES,
                 f"{pid} 的 status 不受支持")
         tags = project.get("tags")
@@ -160,10 +163,12 @@ def render_index(data):
             preview = project["preview"]
             lines += ["", f"### {project['id']} · {md(project['name'])}", "",
                       md(project["summary"]), "",
+                      *[part for item in project.get("highlights", []) for part in (md(item), "")],
                       f"![{md(preview['alt'])}]({url(preview['path'])})", "",
                       md(preview["caption"]), "",
                       f"[进入研究]({project_path(project)}/README.md) · "
-                      f"[原仓库]({project['repository']})"]
+                      f"[原仓库]({project['repository']})"
+                      + (f" · [在线网页]({url(project['demo_url'])})" if project["demo_url"] else "")]
     return "\n".join(lines)
 
 

@@ -47,6 +47,7 @@ python scripts/projects.py check
 | --- | --- |
 | `id`、`order`、`slug` | 稳定编号、展示排序和目录短名 |
 | `name`、`summary` | 项目名称和一句话摘要，避免把长篇研究内容写入摘要 |
+| `highlights` | 可选，简述与阅读引导的字符串数组；出现在索引表下的项目图览中 |
 | `repository` | 原项目的 HTTPS GitHub 仓库地址 |
 | `status` | `queued` 待研究、`researching` 研究中、`validated` 已验证、`paused` 暂停、`archived` 已归档 |
 | `tags` | 标签字符串数组；没有标签时为 `[]` |

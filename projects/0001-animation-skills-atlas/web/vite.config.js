@@ -1,0 +1,4 @@
+import {defineConfig} from 'vite';
+import {resolve} from 'node:path';
+import {readFileSync} from 'node:fs';
+export default defineConfig({base:'./',optimizeDeps:{include:['@motion-canvas/player','@motion-canvas/core','chroma-js']},plugins:[{name:'keep-classic-directory-scripts',generateBundle(){for(const fileName of ['resources.js','app.js'])this.emitFile({type:'asset',fileName,source:readFileSync(resolve(import.meta.dirname,fileName),'utf8')});}}],build:{rollupOptions:{input:{index:resolve(import.meta.dirname,'index.html'),lab:resolve(import.meta.dirname,'lab.html'),compare:resolve(import.meta.dirname,'compare.html'),showcase:resolve(import.meta.dirname,'showcase.html'),cases:resolve(import.meta.dirname,'cases.html'),summary:resolve(import.meta.dirname,'summary.html'),sources:resolve(import.meta.dirname,'sources.html')}}}});

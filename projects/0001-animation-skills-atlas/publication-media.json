@@ -1,0 +1,185 @@
+{
+  "version": "2026-11-15",
+  "url": "https://github.com/yydshly/20261115_codex_project/releases/download/animation-atlas-media-20261115/animation-atlas-media-20261115.zip",
+  "sha256": "91184bb9cefcf1cd1dba4f86083752b3957de2adeb9fb8d84f0d72b7c9f6e4f5",
+  "bytes": 9711355,
+  "files": [
+    {
+      "path": "atlas-sample.mp4",
+      "sha256": "4b5285c61e886e2e97507a0571bd093d35f2c243f21a78e7756baf706b0495ca"
+    },
+    {
+      "path": "comparison/canvas-v1-poster.jpg",
+      "sha256": "da50c98eff8c004b257b527a49fa78582ebb40b028fb187935044c2d746fdee8"
+    },
+    {
+      "path": "comparison/canvas-v1.mp4",
+      "sha256": "4e7c3854c0d07f707758735672c9f801624882b9de5937f770af558c6b0c3e61"
+    },
+    {
+      "path": "comparison/canvas-v2-poster.jpg",
+      "sha256": "3eabacc642d5bb221fbfcce63f7e2424d7d1451714bbe26bec4c256d85e2df19"
+    },
+    {
+      "path": "comparison/canvas-v2.mp4",
+      "sha256": "cf9903da2a11e2bb74b73a359a901c6493f85723c4504e2f95adf0879e1db05f"
+    },
+    {
+      "path": "comparison/manim-v1-poster.jpg",
+      "sha256": "3b250599c93455f69ddcee5bdb499183a1734c15f5d2e00eb8ae71191761a05f"
+    },
+    {
+      "path": "comparison/manim-v1.mp4",
+      "sha256": "9d000cc4e3286bf6867b28caf7753fdc4769636a617082c93032e9f2766b7f8b"
+    },
+    {
+      "path": "comparison/manim-v2-poster.jpg",
+      "sha256": "1859830fb9c675c1de6070f59d39076af65bb53ce6fdc4b78c0e47668d37ec2e"
+    },
+    {
+      "path": "comparison/manim-v2.mp4",
+      "sha256": "82cdddedf991a1acc2cefd36acbf1f27062ecaac785430c79daa92b5772ee339"
+    },
+    {
+      "path": "comparison/remotion-v1-poster.jpg",
+      "sha256": "dbe837a533aee872948cd4c9dfc60d06dabef1342dadf890e6c209875c5598fc"
+    },
+    {
+      "path": "comparison/remotion-v1.mp4",
+      "sha256": "aa02ea40ddfe090f2439a9089e95aa2e94d45844d4cb51a44a181972c1d956ac"
+    },
+    {
+      "path": "comparison/remotion-v2-poster.jpg",
+      "sha256": "dcd8b9a84daeb064b823a4e389c240ab066635f20a77ca4407a97ad29e9cfb70"
+    },
+    {
+      "path": "comparison/remotion-v2.mp4",
+      "sha256": "3ee1d6c48a52eb92ab4a09faa443a2947dc7d2f1b80acd4ff2ef49f4f4d69318"
+    },
+    {
+      "path": "comparison/report.json",
+      "sha256": "000450a8ebaf451255a2334fa7a67964b370ec1c3b3dca40374ef89a7170f5e3"
+    },
+    {
+      "path": "manim-frame.png",
+      "sha256": "729480bd5bfe16ab8d5a2f4728232fd97b61990f01114c5a06818ef6c567fbcd"
+    },
+    {
+      "path": "motion-canvas/project.js",
+      "sha256": "673c0b25ab7c2fdead52d298200a554fe1ed2706fc7b5e88edfb5b8674e4981c"
+    },
+    {
+      "path": "motion-canvas/src/project-BjGZYOT1.js",
+      "sha256": "06f943678e4c930920d7da7db98ba4c14df1e91a3010bf9fbcd738f83d23cf85"
+    },
+    {
+      "path": "showcase-assets/cloudpost-original.json",
+      "sha256": "7b5e41642cd8dacb92c70dbdeef94a56a22fe4374a811232afb3f379f5db3916"
+    },
+    {
+      "path": "showcase-assets/stay-curious-256.gif",
+      "sha256": "44c2f234709a7ba1e2001d12b61ececf0f6dc1b03c6e60dc0f1d2cb5be273162"
+    },
+    {
+      "path": "summary/effects/anime-loop.mp4",
+      "sha256": "c77f91abc613a43792be16cd19441e7ee6c86387bcc81bd131b02c97c338c80c"
+    },
+    {
+      "path": "summary/effects/anime.jpg",
+      "sha256": "68c0ad0b2157f960e27fcad4e18f55f3f3a5ee7522da0f5f5837aea3e9636206"
+    },
+    {
+      "path": "summary/effects/babylon.jpg",
+      "sha256": "09a407e88ce673da9c8a25e5bec396df96ea9f3d55e3f46eea86f5a8866e673a"
+    },
+    {
+      "path": "summary/effects/blender.jpg",
+      "sha256": "63bb0519dd3706cd64c2c46def73c8316c2c591c09d4358d5200dc5f23fabbc6"
+    },
+    {
+      "path": "summary/effects/gifenc-loop.mp4",
+      "sha256": "3e6fca09d13fca478c394644bcbe41ea46b92e80d39d6bb58f06b0d9bafc552c"
+    },
+    {
+      "path": "summary/effects/gifenc.jpg",
+      "sha256": "3d8e9e46ea1063ced04ef5cf2b8f69258c7e263bed0fcb43f87f1553f4c8ae44"
+    },
+    {
+      "path": "summary/effects/godot.jpg",
+      "sha256": "b2fd4b6ca67f1ce5a6a00e71f63d2afddb0c5ded590fba76c97b0ffb035a34f9"
+    },
+    {
+      "path": "summary/effects/konva.jpg",
+      "sha256": "934cc827196997b4c3e0dca09302d7f9f6d3ffc10b3f2fa8bb1711ed6180b9cb"
+    },
+    {
+      "path": "summary/effects/lottie-loop.mp4",
+      "sha256": "aa5e6861f5caf82f08df1ebe80a0b54b97b20976632d824f4a11d8a2f2dc0ddb"
+    },
+    {
+      "path": "summary/effects/lottie.jpg",
+      "sha256": "7e6933aa37f411c1ed39fd155abc1493cf2229d2a33fe98b6dc7cbc316d35d58"
+    },
+    {
+      "path": "summary/effects/lume.jpg",
+      "sha256": "b6cce13b97df6dba62745ff18d05ae5b59b8c734bc9b19728c2c839ceea32e18"
+    },
+    {
+      "path": "summary/effects/manim.jpg",
+      "sha256": "d734a518f250e560c300e10eba5385f77e2ce661c81f413c2262a6d769a6519e"
+    },
+    {
+      "path": "summary/effects/manim.mp4",
+      "sha256": "d15e2fc858aeca0621f01aa2afd35b12288844f259c74497c2130b91da384332"
+    },
+    {
+      "path": "summary/effects/motion-canvas.jpg",
+      "sha256": "249a34f83ef33dfdff9533628141ef002a224a3c043ea98f225ec0b8990c0a53"
+    },
+    {
+      "path": "summary/effects/motion.jpg",
+      "sha256": "93e3ab15cd609e170a333e6a5026a75f84f7b28860083aed1b60112473f4d3bc"
+    },
+    {
+      "path": "summary/effects/motion.mp4",
+      "sha256": "924a39d633f7b484162a4a6ea6bf4e990626c1669e13b7dfb693c61c71463d70"
+    },
+    {
+      "path": "summary/effects/ola.jpg",
+      "sha256": "e4dc936a0be36c6b10874754380965d38d48439319a0f430bebccec215c89420"
+    },
+    {
+      "path": "summary/effects/proton.jpg",
+      "sha256": "b0c9f5337b8c39ae357e2ad1f96e257150cce2c9ddd7fd680b01f0d6671ee062"
+    },
+    {
+      "path": "summary/effects/remotion.jpg",
+      "sha256": "9f6d6335da1472012c9d844660475193c2ff5d95c00a4b63d1057869d3272f79"
+    },
+    {
+      "path": "summary/effects/shifty-loop.mp4",
+      "sha256": "99d1a86c2e9e487d27726eb78d93a311d0f7a998abad294f5f978d9bb6fa26e2"
+    },
+    {
+      "path": "summary/effects/shifty.jpg",
+      "sha256": "1d867ad6ad57dac7dd474faa331ceb77621d81161036f6690742aee88426cb4f"
+    },
+    {
+      "path": "summary/effects/three.jpg",
+      "sha256": "bfd5c2fef71cfff61eece501cbe7988fd2da3ac77b322c9a110549d4022032e1"
+    },
+    {
+      "path": "summary/effects/tweenjs.jpg",
+      "sha256": "0d5e43f0bd7f2dabf874f89f078460e61b4e5e18a7d383ad0b0af7f15450e30e"
+    },
+    {
+      "path": "summary/effects/two.jpg",
+      "sha256": "e290264773b0b8477cc9747a343fb2ede2c5da720992923bdd9d7aacd4d4c284"
+    },
+    {
+      "path": "vector-similarity.mp4",
+      "sha256": "fc7eafbcee7a05d5eeebc1cc216b5de06617e022c0342a85ad18f071c9aea768"
+    }
+  ],
+  "purpose": "Published site display resources; per-item credits and rights remain in THIRD_PARTY_NOTICES.md. Not a commercial stock asset pack."
+}

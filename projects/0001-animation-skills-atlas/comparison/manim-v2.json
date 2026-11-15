@@ -1,0 +1,26 @@
+{
+  "engine": "manim",
+  "revision": 2,
+  "wallSeconds": 38.028,
+  "bytes": 485145,
+  "sha256": "82cdddedf991a1acc2cefd36acbf1f27062ecaac785430c79daa92b5772ee339",
+  "command": [
+    "F:\\codex_project2\\1115_codex_project\\.local\\manim-env\\Scripts\\python.exe",
+    "-m",
+    "manim",
+    "-qm",
+    "--fps",
+    "24",
+    "--media_dir",
+    "F:\\codex_project2\\1115_codex_project\\.local\\case-manim",
+    "F:\\codex_project2\\1115_codex_project\\projects\\0001-animation-skills-atlas\\experiments\\case_manim.py",
+    "SameCase"
+  ],
+  "timeLocal": "recorded locally; see file mtime",
+  "metadata": {
+    "duration": 24.0,
+    "width": 1280,
+    "height": 720,
+    "fps": "24/1"
+  }
+}
