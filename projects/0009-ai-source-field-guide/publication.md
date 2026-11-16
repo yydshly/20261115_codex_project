@@ -24,8 +24,21 @@
 
 ## 发布状态
 
-本文件先记录发布目标与检查口径。实际公开验证后补充 PR、提交、Actions 运行、HTTP 结果与检查时间，再回填 `demo_url`。
+- 内容发布 PR：[#3](https://github.com/yydshly/20261115_codex_project/pull/3)，已合并。
+- 内容提交：`ca3d772b141279eb2919b37e1a48489cf5e93224`；合并提交：`8be5650457694117d60cec3031b6a706b234e326`。
+- 首次正式部署：[GitHub Actions 43808890762](https://github.com/yydshly/20261115_codex_project/actions/runs/43808890762)，构建与部署均成功。
+- 在线指南：[index.html](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html)。
+- 关系图：[map.html](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/map.html)；总导航：[研究索引](https://yydshly.github.io/20261115_codex_project/)。
+- 公开 HTTP 验收：2026-11-16 13:15:58（Asia/Shanghai），12 项全部通过，见 [publication-http-checks.json](publication-http-checks.json)。本次验收后回填 `demo_url`。
+- 本地完整站点构建通过，11 项单元测试通过；原动画图谱的 44 份媒体恢复及完整性检查通过。PR 检查也已通过。
+- 发布使用独立工作副本，只收录项目 0009 及必要的索引、测试和部署配置；未发布其他尚未纳入本轮的本地项目。
+
+本记录描述上述内容版本的实际验收。在线链接、截图、HTTP 检查脚本与本记录随后作为发布归档更新提交，不将尚未完成的未来部署写成已验证。
 
 ## 检查范围
 
-本地浏览器已检查正文、关系图、缩放、筛选与研究记录生成；发布还需核对公开入口、脚本、样式、PNG / SVG、子路径资源和 Actions 最终结果。发布成功不代表对所列第三方工具做过完整能力验收。
+公开入口、脚本、样式、PNG / SVG 均返回 HTTP 200；本项目 10 个导出文件与线上内容一致（文本统一换行后比较，PNG 逐字节比较）。原动画图谱入口仍可访问。关系图为 2400×1500，根导航与指南首页均使用这一简化版本。
+
+内置浏览器实际打开正式 HTTPS 页面，确认首页的价值说明、引导图、11 个入口、筛选与搜索；关系图缩放可放大并恢复适应宽度。390×844 视口下文档宽度和滚动宽度均为 375 CSS px，无页面横向溢出。实际截图见 [首页](assets/published-home.jpg)、[关系图](assets/published-map.jpg)、[窄屏](assets/published-mobile.jpg)。
+
+复查命令：先运行 `python scripts/build.py`，再运行 `python scripts/check_publication.py`。它只核对本站公开资源，外部作者文章与第三方工具能力仍以各自来源及后续实测为准。

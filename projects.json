@@ -50,7 +50,7 @@
         "alt": "AI与开源信息源关系图，按发现、理解、验证、实践四个阶段串联11个平台、7位作者和4个项目，展示原始证据与实测反馈路径",
         "caption": "2026-11-16 本库原创关系图，2400×1500；连线表示研究用途，不代表作者隶属、项目合作或必须组合使用，完整链接与边界另见详细清单。"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
       "source_url": "https://x.com/yxl44/status/2121581932412895507",
       "highlights": [
         "理解：平台提供候选，作者解释机制与取舍，仓库、模型卡和实测支撑判断，项目让理解进入实践。",
