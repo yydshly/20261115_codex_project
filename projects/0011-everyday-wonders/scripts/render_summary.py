@@ -114,7 +114,7 @@ class Poster:
         output.mkdir(exist_ok=True)
         png, svg = output / "creative-summary-v1.png", output / "creative-summary-v1.svg"
         self.image.save(png, optimize=True, dpi=(144,144))
-        svg.write_text("\n".join(self.svg + ["</svg>"]), encoding="utf-8")
+        svg.write_text("\n".join(self.svg + ["</svg>"]), encoding="utf-8", newline="\n")
         metadata = {"date":"2026-11-16","size":[W,H],"method":"Pillow精确中文排版；同时输出原生SVG。未调用图片生成服务。","content_source":"summary-map.json；故事名称、编号和阶段读取stories.json；参考图映射读取research.json。","quoted_source":"https://x.com/VidusheWrites/status/2121596512878870615","text_blocks":len(self.text_log),"text_layout":self.text_log,"png_sha256":hashlib.sha256(png.read_bytes()).hexdigest(),"svg_sha256":hashlib.sha256(svg.read_bytes()).hexdigest()}
         (output / "creative-summary-v1.meta.json").write_text(json.dumps(metadata,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
         print(f"Rendered {png.name} ({W}×{H}); editable SVG; {len(self.text_log)} checked text blocks.")

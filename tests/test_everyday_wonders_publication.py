@@ -79,6 +79,8 @@ class EverydayWondersPublicationTests(unittest.TestCase):
         image = (output/'assets/creative-summary-v1.png').read_bytes()
         self.assertEqual(hashlib.sha256(image).hexdigest(), meta['png_sha256'])
         self.assertEqual(meta['size'], [2400,4480])
+        svg = (output/'assets/creative-summary-v1.svg').read_bytes()
+        self.assertEqual(hashlib.sha256(svg).hexdigest(), meta['svg_sha256'])
         archive = json.loads((output/'stories.json').read_text(encoding='utf-8'))
         self.assertEqual(len(archive['stories']),7)
         self.assertEqual(sum(x['stage']=='seed' for x in archive['stories']),5)
