@@ -6,11 +6,12 @@
 
 ## 子项目索引
 
-已收录 **1** 个项目。
+已收录 **2** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
+| 2 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) |
 
 ## 项目图览
 
@@ -29,6 +30,22 @@
 2026-11-15 本库整理，3600×8300。实际成片、官方预览、成熟作品与 LUME 示例模型资产图分别署名；完整出处和验证范围见项目说明。
 
 [进入研究](projects/0001-animation-skills-atlas/README.md) · [原仓库](https://github.com/remotion-dev/skills) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html)
+
+### 0009 · 知源 · AI 与开源信息源指南
+
+把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。
+
+理解：平台提供候选，作者解释机制与取舍，仓库、模型卡和实测支撑判断，项目让理解进入实践。
+
+价值：用11个平台、7位作者和4个项目建立有次序的研究路径，减少无目的刷信息流，留下可复查的选择与验证记录。
+
+阅读引导：先看下方简化关系图，再进入完整指南和可点击节点；详细清单图保留全部参考链接与使用边界。
+
+![AI与开源信息源关系图，按发现、理解、验证、实践四个阶段串联11个平台、7位作者和4个项目，展示原始证据与实测反馈路径](projects/0009-ai-source-field-guide/assets/relation-map.png)
+
+2026-11-16 本库原创关系图，2400×1500；连线表示研究用途，不代表作者隶属、项目合作或必须组合使用，完整链接与边界另见详细清单。
+
+[进入研究](projects/0009-ai-source-field-guide/README.md) · [原仓库](https://github.com/yydshly/20261115_codex_project)
 
 <!-- PROJECTS:END -->
 

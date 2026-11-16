@@ -1,0 +1,14 @@
+{
+  "width": 3000,
+  "height": 5731,
+  "platforms": 11,
+  "authors": 7,
+  "repositories": 4,
+  "paths": 3,
+  "unique_links": 36,
+  "expected_links": 36,
+  "all_links_covered": true,
+  "rendered_text_lines": 282,
+  "date": "2026-11-16",
+  "note": "Typography and link coverage checked; SVG links need a supporting browser, PNG is static."
+}

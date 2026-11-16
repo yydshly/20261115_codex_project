@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'projects/0001-animation-skills-atlas/**'
+      - 'projects/0009-ai-source-field-guide/**'
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'

@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AI 与开源信息源的价值、关注入口和研究方法。从发现项目，到核对证据，再到实际验证。">
+  <meta name="color-scheme" content="light">
+  <title>知源 · AI 与开源信息源指南</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <aside class="rail" aria-label="页面导航">
+    <a class="brand" href="#top" aria-label="知源，返回顶部"><span class="brand-mark" aria-hidden="true">知</span><span>知源<small>SOURCE FIELD NOTES</small></span></a>
+    <div class="rail-intro">AI 与开源项目<br>信息获取的个人指南</div>
+    <nav>
+      <a href="#understanding" class="nav-link"><span>01</span> 我们的判断</a>
+      <a href="#platforms" class="nav-link"><span>02</span> 信息源地图</a>
+      <a href="#reading" class="nav-link"><span>03</span> 长文的价值</a>
+      <a href="#following" class="nav-link"><span>04</span> 具体关注清单</a>
+      <a href="#practice" class="nav-link"><span>05</span> 把信息用起来</a>
+    </nav>
+    <div class="rail-note"><span class="tiny-dot"></span> 来自一次真实的讨论<p>从「值得收藏吗」<br>到「怎样形成自己的判断」</p><a href="#sources">来源与阅读边界 ↗</a><small>整理于 2026.11.16</small></div>
+  </aside>
+
+  <main id="main">
+    <header class="topbar" id="top"><span>研究笔记 <b>/</b> 0009</span><a href="map.html">关系图总览 <span aria-hidden="true">↗</span></a></header>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow"><span></span> AI & OPEN SOURCE · A PERSONAL FIELD GUIDE</p>
+        <h1 id="hero-title">少刷一点，<br><em>看深一点。</em></h1>
+        <p class="hero-lead">平台帮你发现，作者帮你理解，<br class="desktop-break">证据与项目，帮你形成自己的判断。</p>
+        <p class="hero-description">把 AI 与开源信息源连成「发现 → 理解 → 验证 → 实践」的路径：少花时间漫游信息流，选出适合的工具，读懂技术取舍，并留下可复查、可复用的实践记录。</p>
+        <div class="hero-actions"><a class="button primary" href="map.html">关系图看懂路径 <span aria-hidden="true">↗</span></a><a class="text-link" href="#understanding">从完整讨论开始 ↓</a></div>
+      </div>
+      <figure class="hero-visual hero-guide-map"><a href="map.html" aria-label="打开可放大的AI信息源简化关系图"><img src="../assets/relation-map.png" width="2400" height="1500" alt="简化关系图：发现、理解、验证、实践四个阶段串联平台、作者和项目，原始证据与实测反馈帮助更新判断。"></a><figcaption><strong>一张图，先看清它们怎样配合。</strong><span>点击放大，节点可打开入口 ↗</span></figcaption></figure>
+      <div class="hero-index"><div><strong>11<span>处</span></strong><p>信息源入口<small>原帖 10 个平台 + Hugging Face</small></p></div><div><strong>07<span>位</span></strong><p>具体作者<small>按内容与当前需求选择</small></p></div><div><strong>03<span>条</span></strong><p>研究路径<small>从问题出发，回到实践</small></p></div></div>
+    </section>
+
+    <section id="understanding" class="section understanding">
+      <div class="section-heading"><div><p class="eyebrow">01 / OUR UNDERSTANDING</p><h2>这些网站，真的有价值吗？</h2></div><span class="margin-note">先回答最重要的问题。</span></div>
+      <div class="judgment"><span class="quote-mark" aria-hidden="true">“</span><div><h3>有。具体的作者、证据与用途，<br>决定了你能得到多少价值。</h3><p>收藏一个网站，只是多了一个入口。能否帮助你做出更好的选择、解决一个问题，才是这次讨论采用的衡量标准。</p></div></div>
+      <div class="principles"><article><span class="principle-number">01</span><h3>平台提供入口</h3><p>GitHub 的热度、社区的点赞、专栏的付费门槛，都需要结合具体内容判断，不能单独证明质量。</p></article><article><span class="principle-number">02</span><h3>证据支撑判断</h3><p>优先寻找代码、原始资料、运行配置、对比方法与失败案例。把作者的结论和自己的验证分开记录。</p></article><article><span class="principle-number">03</span><h3>问题决定去处</h3><p>找模型、读原理、查报错，需要不同入口。带着一个问题进入，完成一次验证后离开。</p></article></div>
+      <div class="claim-note"><span>讨论的起点</span><p>原帖建议收藏十个平台，并提出「每天半小时」即可获得显著信息优势。<strong>帖内未提供这一收益的统计依据。</strong>这里保留网站导航的价值，把实际收益交给后续验证。</p><a href="https://x.com/yxl44/status/2121581932412895507" target="_blank" rel="noopener noreferrer">阅读原帖 ↗</a></div>
+    </section>
+
+    <section id="platforms" class="section platform-section">
+      <div class="section-heading"><div><p class="eyebrow">02 / THE SOURCE MAP</p><h2>给每个入口，安排一个用途。</h2></div><p>无需每天逛完所有平台。<br>先选择你现在想做的事。</p></div>
+      <div class="map-toolbar"><div class="filter-group" role="group" aria-label="按用途筛选平台"><button class="filter active" data-filter="all" aria-pressed="true">全部入口</button><button class="filter" data-filter="discover" aria-pressed="false">发现项目</button><button class="filter" data-filter="learn" aria-pressed="false">深入理解</button><button class="filter" data-filter="feedback" aria-pressed="false">使用反馈</button><button class="filter" data-filter="collaborate" aria-pressed="false">项目协作</button></div><label class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">搜索平台、用途或关键词</span><input id="platform-search" type="search" placeholder="搜索平台或关键词" autocomplete="off"></label></div>
+      <div class="list-caption"><span>平台 / 适合的任务</span><span>阅读建议</span></div>
+      <div id="platform-list" class="platform-list"></div>
+      <p id="platform-result" class="result-count" role="status" aria-live="polite"></p>
+      <div id="empty-state" class="empty-state" hidden><h3>暂时没有匹配的入口</h3><p>试试「模型」「教程」「反馈」，或恢复全部入口。</p><button id="reset-filter" class="button">重置筛选</button></div>
+      <noscript><p class="noscript-note">互动地图需要 JavaScript。核心判断、长文对比和研究方法仍可阅读；完整入口也记录在项目 README 中。</p></noscript>
+    </section>
+
+    <section id="reading" class="section reading-section">
+      <div class="section-heading"><div><p class="eyebrow">03 / READ BEYOND THE HEADLINE</p><h2>Substack 与 Medium，<br>到底补充了什么？</h2></div><p>把「看见一个项目」<br>推进到「理解一个选择」。</p></div>
+      <div class="reading-comparison"><article class="substack-panel"><span class="platform-wordmark">Substack<span>▤</span></span><p class="reading-kicker">从作者出发 · 持续跟踪</p><h3>读一个人<br>怎样形成判断。</h3><p>作者经营自己的订阅专栏，通过邮件、网页与 App 分发内容。适合连续阅读同一领域的研究分析，观察观点怎样随新证据更新。</p><div class="reading-example"><span>可以这样开始</span><a href="https://magazine.sebastianraschka.com/" target="_blank" rel="noopener noreferrer">Ahead of AI · Sebastian Raschka ↗</a><p>想深入模型结构与研究方法时阅读。先读免费文章，再判断是否值得长期订阅。</p></div></article><article class="medium-panel"><span class="platform-wordmark">Medium<span>●</span></span><p class="reading-kicker">从问题出发 · 寻找文章</p><h3>看一次实践<br>怎样走到结果。</h3><p>作者、主题与刊物共同组织的长文平台。适合搜索具体教程、实现过程和项目复盘，继续追到文中的原始资料与代码。</p><div class="reading-example"><span>可以这样开始</span><a href="https://medium.com/tag/large-language-models" target="_blank" rel="noopener noreferrer">LLM 主题入口 ↗</a><p>用具体工具名和问题缩小范围；检查文章日期、依赖版本、实验条件与代码是否对应。</p></div></article></div>
+      <div class="reading-bottom"><p><strong>这是使用侧重点的区别。</strong>两者都可以关注作者、发现文章，平台本身不保证质量。</p><p>Substack 通常按具体专栏付费；Medium 主要通过平台会员阅读会员限定文章。免费内容可先用来判断适配程度。<a href="#sources">订阅机制来源 ↓</a></p></div>
+    </section>
+
+    <section id="following" class="section following-section">
+      <div class="section-heading"><div><p class="eyebrow">04 / A SMALL, USEFUL READING LIST</p><h2>值得跟踪的，具体到人。</h2></div><p>按你当前的用途安排阅读。<br>下面的顺序是建议，不是全网排名。</p></div>
+      <div class="follow-tabs" role="tablist" aria-label="关注清单类型"><button id="tab-authors" role="tab" aria-selected="true" aria-controls="authors-panel" tabindex="0">作者与专栏 <span>07</span></button><button id="tab-projects" role="tab" aria-selected="false" aria-controls="projects-panel" tabindex="-1">项目仓库 <span>04</span></button></div>
+      <div id="authors-panel" role="tabpanel" aria-labelledby="tab-authors"><div id="author-list" class="author-list"></div></div>
+      <div id="projects-panel" role="tabpanel" aria-labelledby="tab-projects" hidden><div id="repo-list" class="repo-list"></div></div>
+      <div class="small-start"><span class="small-spark" aria-hidden="true">✳</span><p><strong>先建立一份小清单。</strong>GitHub、Hugging Face、LocalLLaMA 用于发现与核对；Simon Willison 与阮一峰用于补充阅读。其他作者随问题加入，每次只深入一个候选项目。</p></div>
+    </section>
+
+    <section id="practice" class="section practice-section">
+      <div class="section-heading"><div><p class="eyebrow">05 / FROM INFORMATION TO ACTION</p><h2>从一个具体问题开始。</h2></div><p>下面是建议的研究路径。<br>示例帮助组织工作，不代表项目已被验证。</p></div>
+      <div class="path-picker" role="group" aria-label="选择研究目标"><button class="path-button active" data-path="find" aria-pressed="true">我想找一个能用的工具</button><button class="path-button" data-path="evaluate" aria-pressed="false">我想判断项目是否靠谱</button><button class="path-button" data-path="understand" aria-pressed="false">我想深入理解一项技术</button></div>
+      <div id="research-path" class="research-path" aria-live="polite"></div>
+      <div class="worksheet"><div class="worksheet-intro"><p class="eyebrow">A NOTE FOR YOUR NEXT PROJECT</p><h3>读完以后，<br>留下一份自己的记录。</h3><p>把问题、出处与验证边界放在一起。勾选只是整理进度，不能自动证明内容可靠。</p><label for="research-question">我现在想解决的问题</label><textarea id="research-question" rows="3" placeholder="例如：能否在我的电脑上运行一个中文文档检索工具？" maxlength="600"></textarea><button id="export-note" class="button primary">生成研究记录 <span aria-hidden="true">↗</span></button><p class="privacy-note">问题与勾选仅用于本次页面生成，不上传，也不自动保存。</p></div><fieldset class="evidence-checklist"><legend>准备继续研究前，逐项确认</legend><label><input type="checkbox" name="evidence" value="来源可追溯：作者、原文或原仓库明确"><span><strong>来源可追溯</strong><small>作者、原文或原仓库明确</small></span><span class="check-number">01</span></label><label><input type="checkbox" name="evidence" value="有原始证据：代码、实验、配置或直接资料"><span><strong>有原始证据</strong><small>有代码、实验、配置或直接资料</small></span><span class="check-number">02</span></label><label><input type="checkbox" name="evidence" value="运行条件清楚：版本、硬件、数据和前置依赖"><span><strong>运行条件清楚</strong><small>版本、硬件、数据和前置依赖</small></span><span class="check-number">03</span></label><label><input type="checkbox" name="evidence" value="限制有说明：失败情形、成本和适用边界"><span><strong>限制有说明</strong><small>失败情形、成本和适用边界</small></span><span class="check-number">04</span></label><label><input type="checkbox" name="evidence" value="对当前有用：能帮助做选择或安排一次验证"><span><strong>对当前有用</strong><small>能帮助做选择或安排一次验证</small></span><span class="check-number">05</span></label><p id="check-status" role="status" aria-live="polite">已确认 0 / 5 项 · 从原始来源开始。</p></fieldset></div>
+      <div id="note-preview" class="note-preview" hidden><div><h3>你的研究记录</h3><a id="download-note" class="button" download="ai-project-research-note.md">下载 Markdown ↗</a></div><label for="note-content">可直接选取以下文本，保存到自己的研究笔记</label><textarea id="note-content" readonly rows="15"></textarea><p role="status" id="note-status"></p></div>
+    </section>
+
+    <section id="sources" class="section sources-section"><div class="section-heading"><div><p class="eyebrow">SOURCES & LIMITS</p><h2>让每个判断，都有来处。</h2></div><span class="margin-note">阅读记录：2026.11.15 — 11.16</span></div><div class="source-boundaries"><div><span class="source-tag">原作者声明</span><p>平台定位、订阅与分发方式，引用官方说明和作者主页。原帖的效率承诺未获得数据支持。</p></div><div><span class="source-tag blue">本次整理判断</span><p>优先级、阅读建议和研究路径，来自我们的讨论，按 AI 与开源项目研究的用途安排。</p></div><div><span class="source-tag green">验证范围</span><p>查看过所列入口与部分内容样本；未逐篇审阅，也未在本项目中运行所列第三方软件。入口与规则可能变化。</p></div></div><details class="source-details"><summary>查看参考来源与核对记录 <span aria-hidden="true">＋</span></summary><ol id="source-list" class="source-list"></ol></details></section>
+    <footer><a class="footer-brand" href="#top">知源 <span>↑</span></a><p>把信息带回自己的问题里。</p><span>项目 0009 · 本库原创整理 · 2026</span></footer>
+  </main>
+</body>
+</html>

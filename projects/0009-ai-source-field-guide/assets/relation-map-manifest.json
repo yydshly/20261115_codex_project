@@ -1,0 +1,473 @@
+{
+  "width": 2400,
+  "height": 1500,
+  "platforms": 11,
+  "authors": 7,
+  "repositories": 4,
+  "nodes": 24,
+  "external_links": 23,
+  "text_lines": 77,
+  "node_overlap": false,
+  "date": "2026-11-16",
+  "relation_meaning": "研究用途和使用顺序；不是作者隶属、项目合作或必须组合使用。",
+  "nodes_data": [
+    {
+      "id": "github",
+      "name": "GitHub",
+      "kind": "platform",
+      "url": "https://github.com/trending?since=weekly",
+      "x": 98,
+      "y": 475,
+      "width": 220,
+      "height": 110,
+      "value": "开源代码"
+    },
+    {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "kind": "platform",
+      "url": "https://huggingface.co/models?sort=trending",
+      "x": 342,
+      "y": 475,
+      "width": 220,
+      "height": 110,
+      "value": "模型 / 论文 / 演示"
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "kind": "platform",
+      "url": "https://news.ycombinator.com/show",
+      "x": 98,
+      "y": 650,
+      "width": 220,
+      "height": 110,
+      "value": "作者发布与讨论"
+    },
+    {
+      "id": "producthunt",
+      "name": "Product Hunt",
+      "kind": "platform",
+      "url": "https://www.producthunt.com/",
+      "x": 342,
+      "y": 650,
+      "width": 220,
+      "height": 110,
+      "value": "新工具与产品"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "kind": "platform",
+      "url": "https://www.linkedin.com/",
+      "x": 98,
+      "y": 825,
+      "width": 220,
+      "height": 110,
+      "value": "跟踪从业者"
+    },
+    {
+      "id": "threads",
+      "name": "Threads",
+      "kind": "platform",
+      "url": "https://www.threads.com/",
+      "x": 342,
+      "y": 825,
+      "width": 220,
+      "height": 110,
+      "value": "补充创作者线索"
+    },
+    {
+      "id": "ruanyifeng",
+      "name": "阮一峰",
+      "kind": "author",
+      "url": "https://www.ruanyifeng.com/blog/weekly/index.html",
+      "x": 98,
+      "y": 1062,
+      "width": 464,
+      "height": 110,
+      "value": "作者推荐：发现工具"
+    },
+    {
+      "id": "substack",
+      "name": "Substack",
+      "kind": "platform",
+      "url": "https://magazine.sebastianraschka.com/",
+      "x": 668,
+      "y": 475,
+      "width": 220,
+      "height": 110,
+      "value": "跟作者，持续读"
+    },
+    {
+      "id": "medium",
+      "name": "Medium",
+      "kind": "platform",
+      "url": "https://medium.com/tag/large-language-models",
+      "x": 912,
+      "y": 475,
+      "width": 220,
+      "height": 110,
+      "value": "带问题，找文章"
+    },
+    {
+      "id": "Simon Willison",
+      "name": "Simon Willison",
+      "kind": "author",
+      "url": "https://simonwillison.net/tags/llms/",
+      "x": 668,
+      "y": 770,
+      "width": 220,
+      "height": 110,
+      "value": "动手实验"
+    },
+    {
+      "id": "宝玉",
+      "name": "宝玉",
+      "kind": "author",
+      "url": "https://baoyu.io/",
+      "x": 912,
+      "y": 770,
+      "width": 220,
+      "height": 110,
+      "value": "中文解读"
+    },
+    {
+      "id": "Andrej Karpathy",
+      "name": "Andrej Karpathy",
+      "kind": "author",
+      "url": "https://karpathy.ai/",
+      "x": 668,
+      "y": 952,
+      "width": 220,
+      "height": 110,
+      "value": "模型原理"
+    },
+    {
+      "id": "Sebastian Raschka",
+      "name": "Sebastian Raschka",
+      "kind": "author",
+      "url": "https://sebastianraschka.com/blog/",
+      "x": 912,
+      "y": 952,
+      "width": 220,
+      "height": 110,
+      "value": "架构与研究"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "kind": "platform",
+      "url": "https://www.reddit.com/r/LocalLLaMA/",
+      "x": 1238,
+      "y": 475,
+      "width": 464,
+      "height": 110,
+      "value": "实测 / 配置 / 失败案例"
+    },
+    {
+      "id": "github-evidence",
+      "name": "仓库讨论",
+      "kind": "platform",
+      "url": "https://github.com/ggml-org/llama.cpp/discussions",
+      "x": 1238,
+      "y": 700,
+      "width": 220,
+      "height": 110,
+      "value": "看维护回应"
+    },
+    {
+      "id": "hf-evidence",
+      "name": "模型卡",
+      "kind": "platform",
+      "url": "https://huggingface.co/models?sort=trending",
+      "x": 1482,
+      "y": 700,
+      "width": 220,
+      "height": 110,
+      "value": "查条件与限制"
+    },
+    {
+      "id": "discord",
+      "name": "Discord",
+      "kind": "platform",
+      "url": "https://discord.com/",
+      "x": 1238,
+      "y": 865,
+      "width": 220,
+      "height": 110,
+      "value": "提问与复现"
+    },
+    {
+      "id": "telegram",
+      "name": "Telegram",
+      "kind": "platform",
+      "url": "https://telegram.org/",
+      "x": 1482,
+      "y": 865,
+      "width": 220,
+      "height": 110,
+      "value": "核实项目公告"
+    },
+    {
+      "id": "hamel",
+      "name": "Hamel Husain",
+      "kind": "author",
+      "url": "https://hamel.dev/",
+      "x": 1238,
+      "y": 1062,
+      "width": 464,
+      "height": 110,
+      "value": "评估效果，分析失败"
+    },
+    {
+      "id": "llama.cpp",
+      "name": "llama.cpp",
+      "kind": "project",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "x": 1808,
+      "y": 475,
+      "width": 464,
+      "height": 110,
+      "value": "本地运行模型"
+    },
+    {
+      "id": "vLLM",
+      "name": "vLLM",
+      "kind": "project",
+      "url": "https://github.com/vllm-project/vllm",
+      "x": 1808,
+      "y": 615,
+      "width": 464,
+      "height": 110,
+      "value": "提供推理服务"
+    },
+    {
+      "id": "Transformers",
+      "name": "Transformers",
+      "kind": "project",
+      "url": "https://github.com/huggingface/transformers",
+      "x": 1808,
+      "y": 755,
+      "width": 464,
+      "height": 110,
+      "value": "使用与理解模型"
+    },
+    {
+      "id": "LangGraph",
+      "name": "LangGraph",
+      "kind": "project",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "x": 1808,
+      "y": 895,
+      "width": 464,
+      "height": 110,
+      "value": "组织 Agent 工作流"
+    },
+    {
+      "id": "eugene",
+      "name": "Eugene Yan",
+      "kind": "author",
+      "url": "https://eugeneyan.com/start-here/",
+      "x": 1808,
+      "y": 1062,
+      "width": 464,
+      "height": 110,
+      "value": "系统工程与产品实践"
+    }
+  ],
+  "edges_data": [
+    {
+      "points": [
+        [
+          330,
+          405
+        ],
+        [
+          330,
+          442
+        ]
+      ],
+      "relation": "发现阶段使用下方来源",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          589,
+          340
+        ],
+        [
+          639,
+          340
+        ]
+      ],
+      "relation": "发现 → 理解",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          900,
+          405
+        ],
+        [
+          900,
+          442
+        ]
+      ],
+      "relation": "理解阶段使用下方来源",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          1159,
+          340
+        ],
+        [
+          1209,
+          340
+        ]
+      ],
+      "relation": "理解 → 验证",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          1470,
+          405
+        ],
+        [
+          1470,
+          442
+        ]
+      ],
+      "relation": "验证阶段使用下方来源",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          1729,
+          340
+        ],
+        [
+          1779,
+          340
+        ]
+      ],
+      "relation": "验证 → 实践",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          2040,
+          405
+        ],
+        [
+          2040,
+          442
+        ]
+      ],
+      "relation": "实践阶段使用下方来源",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          208,
+          585
+        ],
+        [
+          208,
+          619
+        ],
+        [
+          1470,
+          619
+        ]
+      ],
+      "relation": "GitHub 提供原始实现与维护证据",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          452,
+          585
+        ],
+        [
+          452,
+          619
+        ]
+      ],
+      "relation": "Hugging Face 提供模型卡与运行条件",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          1470,
+          619
+        ],
+        [
+          1470,
+          660
+        ],
+        [
+          1348,
+          660
+        ],
+        [
+          1348,
+          700
+        ]
+      ],
+      "relation": "回到仓库核对",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          1470,
+          660
+        ],
+        [
+          1592,
+          660
+        ],
+        [
+          1592,
+          700
+        ]
+      ],
+      "relation": "回到模型卡核对",
+      "type": "use"
+    },
+    {
+      "points": [
+        [
+          2040,
+          1222
+        ],
+        [
+          2040,
+          1280
+        ],
+        [
+          1470,
+          1280
+        ],
+        [
+          1470,
+          1222
+        ]
+      ],
+      "relation": "把实测与报错带回社区，更新判断",
+      "type": "feedback"
+    }
+  ]
+}
