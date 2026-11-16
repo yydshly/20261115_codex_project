@@ -1,0 +1,592 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="5731" viewBox="0 0 3000 5731" aria-labelledby="map-title map-description">
+<title id="map-title">知源：AI 与开源信息源全景图</title>
+<desc id="map-description">11 个平台的链接、作用、意义和使用边界，7 位作者、4 个项目、3 条研究路径、5 项检查标准，以及全部原始来源链接。蓝色名称可以点击。</desc>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}a:hover text{fill:#173D92}a:focus{outline:4px solid #315BBA}</style>
+<rect width="100%" height="100%" fill="#F7F6F0"/>
+<rect x="130" y="92" width="64" height="64" rx="7" fill="#315BBA" stroke="none" stroke-width="1"/>
+<text x="143" y="134.44" font-size="38" font-weight="700" fill="#FFFEFA">知</text>
+<text x="218" y="127.76" font-size="27" font-weight="700" fill="#315BBA">知源 / SOURCE FIELD NOTES</text>
+<text x="1945" y="131.12" font-size="24" font-weight="400" fill="#667267">0009  ·  2026.11.16  ·  AI &amp; OPEN SOURCE</text>
+<text x="130" y="269.52" font-size="79" font-weight="700" fill="#26364A">AI 与开源信息源，一张图读懂怎么用。</text>
+<text x="130" y="344.52" font-size="29" font-weight="400" fill="#667267">11 个平台  /  7 位作者  /  4 个项目  /  3 条研究路径  ·  蓝色名称在矢量版与网页版中可点击</text>
+<rect x="130" y="390" width="2740" height="110" rx="8" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="158" y="452.28" font-size="31" font-weight="700" fill="#5B775B">核心判断</text>
+<text x="345" y="452.40" font-size="30" font-weight="400" fill="#26364A">价值来自具体作者、原始证据与当前用途。能帮助你做选择、解决问题，才值得继续读。</text>
+<rect x="130" y="555" width="484" height="165" rx="10" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="155" y="596.24" font-size="23" font-weight="400" fill="#315BBA">01</text>
+<text x="208" y="604.56" font-size="37" font-weight="700" fill="#26364A">具体问题</text>
+<text x="155" y="668.00" font-size="25" font-weight="400" fill="#667267">先说清自己想解决什么</text>
+<line x1="631" y1="636" x2="676" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="665" y1="628" x2="676" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="665" y1="644" x2="676" y2="636" stroke="#315BBA" stroke-width="3"/>
+<rect x="694" y="555" width="484" height="165" rx="10" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="719" y="596.24" font-size="23" font-weight="400" fill="#315BBA">02</text>
+<text x="772" y="604.56" font-size="37" font-weight="700" fill="#26364A">发现候选</text>
+<text x="719" y="668.00" font-size="25" font-weight="400" fill="#667267">找项目、模型与完整解释</text>
+<line x1="1195" y1="636" x2="1240" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="1229" y1="628" x2="1240" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="1229" y1="644" x2="1240" y2="636" stroke="#315BBA" stroke-width="3"/>
+<rect x="1258" y="555" width="484" height="165" rx="10" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="1283" y="596.24" font-size="23" font-weight="400" fill="#315BBA">03</text>
+<text x="1336" y="604.56" font-size="37" font-weight="700" fill="#26364A">核验证据</text>
+<text x="1283" y="668.00" font-size="25" font-weight="400" fill="#667267">查原文、代码、配置与限制</text>
+<line x1="1759" y1="636" x2="1804" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="1793" y1="628" x2="1804" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="1793" y1="644" x2="1804" y2="636" stroke="#315BBA" stroke-width="3"/>
+<rect x="1822" y="555" width="484" height="165" rx="10" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="1847" y="596.24" font-size="23" font-weight="400" fill="#315BBA">04</text>
+<text x="1900" y="604.56" font-size="37" font-weight="700" fill="#26364A">形成判断</text>
+<text x="1847" y="668.00" font-size="25" font-weight="400" fill="#667267">区分作者声明与自己的推断</text>
+<line x1="2323" y1="636" x2="2368" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="2357" y1="628" x2="2368" y2="636" stroke="#315BBA" stroke-width="3"/>
+<line x1="2357" y1="644" x2="2368" y2="636" stroke="#315BBA" stroke-width="3"/>
+<rect x="2386" y="555" width="484" height="165" rx="10" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="2411" y="596.24" font-size="23" font-weight="400" fill="#315BBA">05</text>
+<text x="2464" y="604.56" font-size="37" font-weight="700" fill="#26364A">最小实践</text>
+<text x="2411" y="668.00" font-size="25" font-weight="400" fill="#667267">试一次，记录结果与边界</text>
+<text x="130" y="824.64" font-size="28" font-weight="700" fill="#315BBA">01</text>
+<text x="208" y="834.60" font-size="45" font-weight="700" fill="#26364A">信息源地图：入口、价值、用法与判断边界</text>
+<text x="130" y="885.76" font-size="27" font-weight="400" fill="#667267">阅读建议按 AI 与开源项目研究安排；这是用途划分，不是平台质量排行榜。</text>
+<rect x="130" y="910" width="2740" height="67" rx="5" fill="#E7EBE3" stroke="none" stroke-width="1"/>
+<text x="150" y="951.76" font-size="27" font-weight="700" fill="#26364A">入口 / 链接</text>
+<text x="675" y="951.76" font-size="27" font-weight="700" fill="#26364A">作用与意义</text>
+<text x="1405" y="951.76" font-size="27" font-weight="700" fill="#26364A">怎样使用</text>
+<text x="2200" y="951.76" font-size="27" font-weight="700" fill="#26364A">需要核对的边界</text>
+<rect x="130" y="977" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="996" width="5" height="113" rx="2" fill="#315BBA" stroke="none" stroke-width="1"/>
+<a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><title>https://github.com/trending?since=weekly</title>
+<rect x="147" y="986" width="135.0" height="52" fill="transparent"/>
+<text x="151" y="1021.80" font-size="35" font-weight="700" fill="#315BBA">GitHub</text>
+<line x1="151" y1="1034" x2="278.0" y2="1034" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1066.24" font-size="23" font-weight="400" fill="#667267">主要入口</text>
+<a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer" aria-label="周榜"><title>https://github.com/trending?since=weekly</title>
+<rect x="147" y="1083" width="54.0" height="40" fill="transparent"/>
+<text x="151" y="1108.24" font-size="23" font-weight="400" fill="#315BBA">周榜</text>
+<line x1="151" y1="1119" x2="197.0" y2="1119" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://github.com/ggml-org/llama.cpp/discussions" target="_blank" rel="noopener noreferrer" aria-label="项目讨论"><title>https://github.com/ggml-org/llama.cpp/discussions</title>
+<rect x="215.0" y="1083" width="100.0" height="40" fill="transparent"/>
+<text x="219.0" y="1108.24" font-size="23" font-weight="400" fill="#315BBA">项目讨论</text>
+<line x1="219.0" y1="1119" x2="311.0" y2="1119" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1025.64" font-size="28" font-weight="400" fill="#26364A">代码与维护状态的直接证据。</text>
+<text x="675" y="1066.64" font-size="28" font-weight="400" fill="#26364A">帮助判断项目是否值得进入候选。</text>
+<text x="1405" y="1025.64" font-size="28" font-weight="400" fill="#26364A">周榜发现 → 查 README、许可证、近期提交和 Issue →</text>
+<text x="1405" y="1066.64" font-size="28" font-weight="400" fill="#26364A"> 安排试跑。</text>
+<text x="2200" y="1025.64" font-size="28" font-weight="400" fill="#26364A">Star 和榜单反映关注度；适配程度与可靠性需要另</text>
+<text x="2200" y="1066.64" font-size="28" font-weight="400" fill="#26364A">行验证。</text>
+<line x1="130" y1="1128" x2="2870" y2="1128" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1147" width="5" height="113" rx="2" fill="#315BBA" stroke="none" stroke-width="1"/>
+<a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face"><title>https://huggingface.co/models?sort=trending</title>
+<rect x="147" y="1137" width="249.984375" height="52" fill="transparent"/>
+<text x="151" y="1172.80" font-size="35" font-weight="700" fill="#315BBA">Hugging Face</text>
+<line x1="151" y1="1185" x2="392.984375" y2="1185" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1217.24" font-size="23" font-weight="400" fill="#667267">主要入口 · 本次补充</text>
+<a href="https://huggingface.co/models?sort=trending" target="_blank" rel="noopener noreferrer" aria-label="模型"><title>https://huggingface.co/models?sort=trending</title>
+<rect x="147" y="1234" width="54.0" height="40" fill="transparent"/>
+<text x="151" y="1259.24" font-size="23" font-weight="400" fill="#315BBA">模型</text>
+<line x1="151" y1="1270" x2="197.0" y2="1270" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://huggingface.co/papers/trending" target="_blank" rel="noopener noreferrer" aria-label="论文"><title>https://huggingface.co/papers/trending</title>
+<rect x="215.0" y="1234" width="54.0" height="40" fill="transparent"/>
+<text x="219.0" y="1259.24" font-size="23" font-weight="400" fill="#315BBA">论文</text>
+<line x1="219.0" y1="1270" x2="265.0" y2="1270" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://huggingface.co/spaces" target="_blank" rel="noopener noreferrer" aria-label="Spaces"><title>https://huggingface.co/spaces</title>
+<rect x="283.0" y="1234" width="85.0" height="40" fill="transparent"/>
+<text x="287.0" y="1259.24" font-size="23" font-weight="400" fill="#315BBA">Spaces</text>
+<line x1="287.0" y1="1270" x2="364.0" y2="1270" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://discuss.huggingface.co/" target="_blank" rel="noopener noreferrer" aria-label="论坛"><title>https://discuss.huggingface.co/</title>
+<rect x="382.0" y="1234" width="54.0" height="40" fill="transparent"/>
+<text x="386.0" y="1259.24" font-size="23" font-weight="400" fill="#315BBA">论坛</text>
+<line x1="386.0" y1="1270" x2="432.0" y2="1270" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1176.64" font-size="28" font-weight="400" fill="#26364A">把模型、论文、代码和演示串起来。</text>
+<text x="675" y="1217.64" font-size="28" font-weight="400" fill="#26364A">方便从效果追到实现与研究。</text>
+<text x="1405" y="1176.64" font-size="28" font-weight="400" fill="#26364A">从模型、论文榜或 Spaces 切入；继续查模型卡、数据、</text>
+<text x="1405" y="1217.64" font-size="28" font-weight="400" fill="#26364A">代码和论坛。</text>
+<text x="2200" y="1176.64" font-size="28" font-weight="400" fill="#26364A">模型许可与软件许可分别查看；在线演示不能代替</text>
+<text x="2200" y="1217.64" font-size="28" font-weight="400" fill="#26364A">本地测试。</text>
+<line x1="130" y1="1279" x2="2870" y2="1279" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1279" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="1298" width="5" height="113" rx="2" fill="#315BBA" stroke="none" stroke-width="1"/>
+<a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener noreferrer" aria-label="Reddit"><title>https://www.reddit.com/r/LocalLLaMA/</title>
+<rect x="147" y="1288" width="122.984375" height="52" fill="transparent"/>
+<text x="151" y="1323.80" font-size="35" font-weight="700" fill="#315BBA">Reddit</text>
+<line x1="151" y1="1336" x2="265.984375" y2="1336" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1368.24" font-size="23" font-weight="400" fill="#667267">围绕项目查</text>
+<a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener noreferrer" aria-label="r/LocalLLaMA"><title>https://www.reddit.com/r/LocalLLaMA/</title>
+<rect x="147" y="1385" width="160.0" height="40" fill="transparent"/>
+<text x="151" y="1410.24" font-size="23" font-weight="400" fill="#315BBA">r/LocalLLaMA</text>
+<line x1="151" y1="1421" x2="303.0" y2="1421" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1327.64" font-size="28" font-weight="400" fill="#26364A">找到用户的配置、踩坑和失败经验。</text>
+<text x="675" y="1368.64" font-size="28" font-weight="400" fill="#26364A">帮助发现演示之外的问题。</text>
+<text x="1405" y="1327.64" font-size="28" font-weight="400" fill="#26364A">在 r/LocalLLaMA 搜具体模型或工具，比较版本、硬件与</text>
+<text x="1405" y="1368.64" font-size="28" font-weight="400" fill="#26364A">测试方法。</text>
+<text x="2200" y="1327.64" font-size="28" font-weight="400" fill="#26364A">实测与争论混杂；个人体验有环境限制，评论需追</text>
+<text x="2200" y="1368.64" font-size="28" font-weight="400" fill="#26364A">溯证据。</text>
+<line x1="130" y1="1430" x2="2870" y2="1430" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1449" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://news.ycombinator.com/show" target="_blank" rel="noopener noreferrer" aria-label="Hacker News"><title>https://news.ycombinator.com/show</title>
+<rect x="147" y="1439" width="237.984375" height="52" fill="transparent"/>
+<text x="151" y="1474.80" font-size="35" font-weight="700" fill="#315BBA">Hacker News</text>
+<line x1="151" y1="1487" x2="380.984375" y2="1487" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1519.24" font-size="23" font-weight="400" fill="#667267">每周选读</text>
+<a href="https://news.ycombinator.com/show" target="_blank" rel="noopener noreferrer" aria-label="Show HN"><title>https://news.ycombinator.com/show</title>
+<rect x="147" y="1536" width="112.0" height="40" fill="transparent"/>
+<text x="151" y="1561.24" font-size="23" font-weight="400" fill="#315BBA">Show HN</text>
+<line x1="151" y1="1572" x2="255.0" y2="1572" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://news.ycombinator.com/" target="_blank" rel="noopener noreferrer" aria-label="首页"><title>https://news.ycombinator.com/</title>
+<rect x="273.0" y="1536" width="54.0" height="40" fill="transparent"/>
+<text x="277.0" y="1561.24" font-size="23" font-weight="400" fill="#315BBA">首页</text>
+<line x1="277.0" y1="1572" x2="323.0" y2="1572" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1478.64" font-size="28" font-weight="400" fill="#26364A">发现开发者作品与技术讨论。</text>
+<text x="675" y="1519.64" font-size="28" font-weight="400" fill="#26364A">看作者如何解释取舍、回应质疑。</text>
+<text x="1405" y="1478.64" font-size="28" font-weight="400" fill="#26364A">从 Show HN 进入项目与评论，关注性能、成本和替代方</text>
+<text x="1405" y="1519.64" font-size="28" font-weight="400" fill="#26364A">案。</text>
+<text x="2200" y="1478.64" font-size="28" font-weight="400" fill="#26364A">不限 AI，也不保证全部开源；技术结论与许可证</text>
+<text x="2200" y="1519.64" font-size="28" font-weight="400" fill="#26364A">需逐项查。</text>
+<line x1="130" y1="1581" x2="2870" y2="1581" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1581" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="1600" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://magazine.sebastianraschka.com/" target="_blank" rel="noopener noreferrer" aria-label="Substack"><title>https://magazine.sebastianraschka.com/</title>
+<rect x="147" y="1590" width="166.0" height="52" fill="transparent"/>
+<text x="151" y="1625.80" font-size="35" font-weight="700" fill="#315BBA">Substack</text>
+<line x1="151" y1="1638" x2="309.0" y2="1638" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1670.24" font-size="23" font-weight="400" fill="#667267">少量长期订阅</text>
+<a href="https://magazine.sebastianraschka.com/" target="_blank" rel="noopener noreferrer" aria-label="Ahead of AI"><title>https://magazine.sebastianraschka.com/</title>
+<rect x="147" y="1687" width="139.0" height="40" fill="transparent"/>
+<text x="151" y="1712.24" font-size="23" font-weight="400" fill="#315BBA">Ahead of AI</text>
+<line x1="151" y1="1723" x2="282.0" y2="1723" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://support.substack.com/hc/en-us/articles/33655200073620-A-reader-s-guide-to-Substack" target="_blank" rel="noopener noreferrer" aria-label="读者指南"><title>https://support.substack.com/hc/en-us/articles/33655200073620-A-reader-s-guide-to-Substack</title>
+<rect x="300.0" y="1687" width="100.0" height="40" fill="transparent"/>
+<text x="304.0" y="1712.24" font-size="23" font-weight="400" fill="#315BBA">读者指南</text>
+<line x1="304.0" y1="1723" x2="396.0" y2="1723" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1629.64" font-size="28" font-weight="400" fill="#26364A">持续阅读一位作者怎样形成判断。</text>
+<text x="675" y="1670.64" font-size="28" font-weight="400" fill="#26364A">适合系统跟踪研究与技术趋势。</text>
+<text x="1405" y="1629.64" font-size="28" font-weight="400" fill="#26364A">先读免费内容；挑两三位适合当前问题的作者，再决定长</text>
+<text x="1405" y="1670.64" font-size="28" font-weight="400" fill="#26364A">期订阅。</text>
+<text x="2200" y="1629.64" font-size="28" font-weight="400" fill="#26364A">付费与长篇幅不证明质量；区分观点、研究事实和</text>
+<text x="2200" y="1670.64" font-size="28" font-weight="400" fill="#26364A">适用条件。</text>
+<line x1="130" y1="1732" x2="2870" y2="1732" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1751" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://medium.com/tag/large-language-models" target="_blank" rel="noopener noreferrer" aria-label="Medium"><title>https://medium.com/tag/large-language-models</title>
+<rect x="147" y="1741" width="154.0" height="52" fill="transparent"/>
+<text x="151" y="1776.80" font-size="35" font-weight="700" fill="#315BBA">Medium</text>
+<line x1="151" y1="1789" x2="297.0" y2="1789" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1821.24" font-size="23" font-weight="400" fill="#667267">按问题搜索</text>
+<a href="https://medium.com/tag/large-language-models" target="_blank" rel="noopener noreferrer" aria-label="LLM 主题"><title>https://medium.com/tag/large-language-models</title>
+<rect x="147" y="1838" width="107.0" height="40" fill="transparent"/>
+<text x="151" y="1863.24" font-size="23" font-weight="400" fill="#315BBA">LLM 主题</text>
+<line x1="151" y1="1874" x2="250.0" y2="1874" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://help.medium.com/hc/en-us/articles/35754720183063-Follow-writers-and-publications" target="_blank" rel="noopener noreferrer" aria-label="关注说明"><title>https://help.medium.com/hc/en-us/articles/35754720183063-Follow-writers-and-publications</title>
+<rect x="268.0" y="1838" width="100.0" height="40" fill="transparent"/>
+<text x="272.0" y="1863.24" font-size="23" font-weight="400" fill="#315BBA">关注说明</text>
+<line x1="272.0" y1="1874" x2="364.0" y2="1874" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1780.64" font-size="28" font-weight="400" fill="#26364A">查完整教程、实现过程与项目复盘。</text>
+<text x="675" y="1821.64" font-size="28" font-weight="400" fill="#26364A">补充“为什么这样做”的解释。</text>
+<text x="1405" y="1780.64" font-size="28" font-weight="400" fill="#26364A">按工具名或具体问题找文章，检查日期、版本、代码与实</text>
+<text x="1405" y="1821.64" font-size="28" font-weight="400" fill="#26364A">验条件。</text>
+<text x="2200" y="1780.64" font-size="28" font-weight="400" fill="#26364A">逐篇核验；热门推荐不能代替证据，旧教程可能不</text>
+<text x="2200" y="1821.64" font-size="28" font-weight="400" fill="#26364A">适配。</text>
+<line x1="130" y1="1883" x2="2870" y2="1883" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="1883" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="1902" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer" aria-label="Product Hunt"><title>https://www.producthunt.com/</title>
+<rect x="147" y="1892" width="248.0" height="52" fill="transparent"/>
+<text x="151" y="1927.80" font-size="35" font-weight="700" fill="#315BBA">Product Hunt</text>
+<line x1="151" y1="1940" x2="391.0" y2="1940" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="1972.24" font-size="23" font-weight="400" fill="#667267">有需要时看</text>
+<a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer" aria-label="产品发布"><title>https://www.producthunt.com/</title>
+<rect x="147" y="1989" width="100.0" height="40" fill="transparent"/>
+<text x="151" y="2014.24" font-size="23" font-weight="400" fill="#315BBA">产品发布</text>
+<line x1="151" y1="2025" x2="243.0" y2="2025" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="1931.64" font-size="28" font-weight="400" fill="#26364A">发现新产品及其使用场景。</text>
+<text x="675" y="1972.64" font-size="28" font-weight="400" fill="#26364A">为选工具、看产品设计提供线索。</text>
+<text x="1405" y="1931.64" font-size="28" font-weight="400" fill="#26364A">看到产品后进入官网与仓库，核对功能、定价、数据去向</text>
+<text x="1405" y="1972.64" font-size="28" font-weight="400" fill="#26364A">和源码。</text>
+<text x="2200" y="1931.64" font-size="28" font-weight="400" fill="#26364A">发布信息有推广目的；榜单成绩与产品适用性要分</text>
+<text x="2200" y="1972.64" font-size="28" font-weight="400" fill="#26364A">别判断。</text>
+<line x1="130" y1="2034" x2="2870" y2="2034" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="2053" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><title>https://www.linkedin.com/</title>
+<rect x="147" y="2043" width="158.984375" height="52" fill="transparent"/>
+<text x="151" y="2078.80" font-size="35" font-weight="700" fill="#315BBA">LinkedIn</text>
+<line x1="151" y1="2091" x2="301.984375" y2="2091" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="2123.24" font-size="23" font-weight="400" fill="#667267">按人关注</text>
+<a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="职业社区"><title>https://www.linkedin.com/</title>
+<rect x="147" y="2140" width="100.0" height="40" fill="transparent"/>
+<text x="151" y="2165.24" font-size="23" font-weight="400" fill="#315BBA">职业社区</text>
+<line x1="151" y1="2176" x2="243.0" y2="2176" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="2082.64" font-size="28" font-weight="400" fill="#26364A">跟踪从业者与团队的公开经验。</text>
+<text x="675" y="2123.64" font-size="28" font-weight="400" fill="#26364A">补充项目背景、人才与组织线索。</text>
+<text x="1405" y="2082.64" font-size="28" font-weight="400" fill="#26364A">围绕明确的作者或团队关注，沿文章追到正式公告和原项</text>
+<text x="1405" y="2123.64" font-size="28" font-weight="400" fill="#26364A">目。</text>
+<text x="2200" y="2082.64" font-size="28" font-weight="400" fill="#26364A">自述可能带有品牌宣传；技术能力与产品效果仍需</text>
+<text x="2200" y="2123.64" font-size="28" font-weight="400" fill="#26364A">核验。</text>
+<line x1="130" y1="2185" x2="2870" y2="2185" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="2185" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="2204" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://discord.com/" target="_blank" rel="noopener noreferrer" aria-label="Discord"><title>https://discord.com/</title>
+<rect x="147" y="2194" width="142.0" height="52" fill="transparent"/>
+<text x="151" y="2229.80" font-size="35" font-weight="700" fill="#315BBA">Discord</text>
+<line x1="151" y1="2242" x2="285.0" y2="2242" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="2274.24" font-size="23" font-weight="400" fill="#667267">使用项目后加入</text>
+<a href="https://discord.com/" target="_blank" rel="noopener noreferrer" aria-label="官网"><title>https://discord.com/</title>
+<rect x="147" y="2291" width="54.0" height="40" fill="transparent"/>
+<text x="151" y="2316.24" font-size="23" font-weight="400" fill="#315BBA">官网</text>
+<line x1="151" y1="2327" x2="197.0" y2="2327" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer" aria-label="项目社区入口"><title>https://huggingface.co/</title>
+<rect x="215.0" y="2291" width="146.0" height="40" fill="transparent"/>
+<text x="219.0" y="2316.24" font-size="23" font-weight="400" fill="#315BBA">项目社区入口</text>
+<line x1="219.0" y1="2327" x2="357.0" y2="2327" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="2233.64" font-size="28" font-weight="400" fill="#26364A">进入具体项目的协作现场。</text>
+<text x="675" y="2274.64" font-size="28" font-weight="400" fill="#26364A">查问题、提问、了解开发进展。</text>
+<text x="1405" y="2233.64" font-size="28" font-weight="400" fill="#26364A">从项目官网或 README 加入；先搜旧问题，再带版本和</text>
+<text x="1405" y="2274.64" font-size="28" font-weight="400" fill="#26364A">复现提问。</text>
+<text x="2200" y="2233.64" font-size="28" font-weight="400" fill="#26364A">价值来自具体社区；重要聊天结论追到 Issue、文</text>
+<text x="2200" y="2274.64" font-size="28" font-weight="400" fill="#26364A">档或版本记录。</text>
+<line x1="130" y1="2336" x2="2870" y2="2336" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="2355" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://telegram.org/" target="_blank" rel="noopener noreferrer" aria-label="Telegram"><title>https://telegram.org/</title>
+<rect x="147" y="2345" width="171.953125" height="52" fill="transparent"/>
+<text x="151" y="2380.80" font-size="35" font-weight="700" fill="#315BBA">Telegram</text>
+<line x1="151" y1="2393" x2="314.953125" y2="2393" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="2425.24" font-size="23" font-weight="400" fill="#667267">有明确来源再加入</text>
+<a href="https://telegram.org/" target="_blank" rel="noopener noreferrer" aria-label="官网"><title>https://telegram.org/</title>
+<rect x="147" y="2442" width="54.0" height="40" fill="transparent"/>
+<text x="151" y="2467.24" font-size="23" font-weight="400" fill="#315BBA">官网</text>
+<line x1="151" y1="2478" x2="197.0" y2="2478" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="2384.64" font-size="28" font-weight="400" fill="#26364A">接收已确认来源的频道公告。</text>
+<text x="675" y="2425.64" font-size="28" font-weight="400" fill="#26364A">补充项目消息与交流。</text>
+<text x="1405" y="2384.64" font-size="28" font-weight="400" fill="#26364A">仅从项目官网或维护者提供的链接加入，收到消息后查正</text>
+<text x="1405" y="2425.64" font-size="28" font-weight="400" fill="#26364A">式资料。</text>
+<text x="2200" y="2384.64" font-size="28" font-weight="400" fill="#26364A">传播快不证明准确；本轮未逐一审阅具体频道，不</text>
+<text x="2200" y="2425.64" font-size="28" font-weight="400" fill="#26364A">推荐未知群组。</text>
+<line x1="130" y1="2487" x2="2870" y2="2487" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="2487" width="2740" height="151" rx="0" fill="#F0F2EB" stroke="none" stroke-width="1"/>
+<rect x="130" y="2506" width="5" height="113" rx="2" fill="#A9B49E" stroke="none" stroke-width="1"/>
+<a href="https://www.threads.com/" target="_blank" rel="noopener noreferrer" aria-label="Threads"><title>https://www.threads.com/</title>
+<rect x="147" y="2496" width="148.0" height="52" fill="transparent"/>
+<text x="151" y="2531.80" font-size="35" font-weight="700" fill="#315BBA">Threads</text>
+<line x1="151" y1="2544" x2="291.0" y2="2544" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="151" y="2576.24" font-size="23" font-weight="400" fill="#667267">可选入口</text>
+<a href="https://www.threads.com/" target="_blank" rel="noopener noreferrer" aria-label="官网 / 访问受限"><title>https://www.threads.com/</title>
+<rect x="147" y="2593" width="170.0" height="40" fill="transparent"/>
+<text x="151" y="2618.24" font-size="23" font-weight="400" fill="#315BBA">官网 / 访问受限</text>
+<line x1="151" y1="2629" x2="313.0" y2="2629" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="675" y="2535.64" font-size="28" font-weight="400" fill="#26364A">补充跟踪创作者和开发者。</text>
+<text x="675" y="2576.64" font-size="28" font-weight="400" fill="#26364A">通过人及作品发现新线索。</text>
+<text x="1405" y="2535.64" font-size="28" font-weight="400" fill="#26364A">已有明确关注对象时使用，再沿作品链接进入文章与代</text>
+<text x="1405" y="2576.64" font-size="28" font-weight="400" fill="#26364A">码。</text>
+<text x="2200" y="2535.64" font-size="28" font-weight="400" fill="#26364A">本轮官网抓取遇 429，未核对内容样本；作为可选</text>
+<text x="2200" y="2576.64" font-size="28" font-weight="400" fill="#26364A">补充入口。</text>
+<line x1="130" y1="2638" x2="2870" y2="2638" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="2732.64" font-size="28" font-weight="700" fill="#315BBA">02</text>
+<text x="208" y="2742.60" font-size="45" font-weight="700" fill="#26364A">长文的价值：理解一个选择是怎样形成的</text>
+<rect x="130" y="2818" width="1355" height="292" rx="9" fill="#F0E5DB" stroke="none" stroke-width="1"/>
+<text x="159" y="2875.20" font-size="40" font-weight="700" fill="#BA6844">Substack</text>
+<text x="560" y="2874.88" font-size="26" font-weight="400" fill="#BA6844">从作者出发 · 持续跟踪</text>
+<text x="159" y="2940.92" font-size="34" font-weight="700" fill="#26364A">追踪观点怎样随新证据更新</text>
+<text x="159" y="2992.64" font-size="28" font-weight="400" fill="#26364A">订阅具体作者或刊物，通过邮件、网页与 App 阅读；先看原始引用、实验与判断边界。</text>
+<text x="159" y="3089.00" font-size="25" font-weight="400" fill="#667267">通常按具体专栏付费；也有免费内容。</text>
+<rect x="1515" y="2818" width="1355" height="292" rx="9" fill="#E6ECE1" stroke="none" stroke-width="1"/>
+<text x="1544" y="2875.20" font-size="40" font-weight="700" fill="#5B775B">Medium</text>
+<text x="1945" y="2874.88" font-size="26" font-weight="400" fill="#5B775B">从问题出发 · 寻找文章</text>
+<text x="1544" y="2940.92" font-size="34" font-weight="700" fill="#26364A">看清一次实践怎样走到结果</text>
+<text x="1544" y="2992.64" font-size="28" font-weight="400" fill="#26364A">通过作者、主题与刊物发现教程和复盘；追到原代码，核对日期、依赖版本与实验条件。</text>
+<text x="1544" y="3089.00" font-size="25" font-weight="400" fill="#667267">主要通过平台会员读会员限定文章。</text>
+<text x="130" y="3173.64" font-size="28" font-weight="400" fill="#667267">两者都能关注作者、发现文章。按作者和具体内容判断质量，先读免费内容再决定是否订阅。</text>
+<text x="130" y="3289.64" font-size="28" font-weight="700" fill="#315BBA">03</text>
+<text x="208" y="3296.84" font-size="43" font-weight="700" fill="#26364A">具体关注：7 位作者</text>
+<text x="1950" y="3289.64" font-size="28" font-weight="700" fill="#315BBA">04</text>
+<text x="2028" y="3296.84" font-size="43" font-weight="700" fill="#26364A">长期跟踪：4 个仓库</text>
+<text x="130" y="3372.24" font-size="23" font-weight="400" fill="#667267">01</text>
+<a href="https://simonwillison.net/tags/llms/" target="_blank" rel="noopener noreferrer" aria-label="Simon Willison"><title>https://simonwillison.net/tags/llms/</title>
+<rect x="181" y="3344" width="234.0" height="47" fill="transparent"/>
+<text x="185" y="3375.40" font-size="30" font-weight="700" fill="#315BBA">Simon Willison</text>
+<line x1="185" y1="3387" x2="411.0" y2="3387" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3375.64" font-size="28" font-weight="400" fill="#26364A">LLM 动手实验、工具与开源实践</text>
+<text x="640" y="3412.24" font-size="23" font-weight="400" fill="#667267">simonwillison.net</text>
+<line x1="130" y1="3429" x2="1870" y2="3429" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3462.24" font-size="23" font-weight="400" fill="#667267">02</text>
+<a href="https://www.ruanyifeng.com/blog/weekly/index.html" target="_blank" rel="noopener noreferrer" aria-label="阮一峰"><title>https://www.ruanyifeng.com/blog/weekly/index.html</title>
+<rect x="181" y="3434" width="98.0" height="47" fill="transparent"/>
+<text x="185" y="3465.40" font-size="30" font-weight="700" fill="#315BBA">阮一峰</text>
+<line x1="185" y1="3477" x2="275.0" y2="3477" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3465.64" font-size="28" font-weight="400" fill="#26364A">中文工具发现、开发资源与技术趋势</text>
+<text x="640" y="3502.24" font-size="23" font-weight="400" fill="#667267">www.ruanyifeng.com</text>
+<line x1="130" y1="3519" x2="1870" y2="3519" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3552.24" font-size="23" font-weight="400" fill="#667267">03</text>
+<a href="https://karpathy.ai/" target="_blank" rel="noopener noreferrer" aria-label="Andrej Karpathy"><title>https://karpathy.ai/</title>
+<rect x="181" y="3524" width="254.0" height="47" fill="transparent"/>
+<text x="185" y="3555.40" font-size="30" font-weight="700" fill="#315BBA">Andrej Karpathy</text>
+<line x1="185" y1="3567" x2="431.0" y2="3567" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3555.64" font-size="28" font-weight="400" fill="#26364A">神经网络、LLM 原理与小型实现</text>
+<text x="640" y="3592.24" font-size="23" font-weight="400" fill="#667267">karpathy.ai</text>
+<line x1="130" y1="3609" x2="1870" y2="3609" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3642.24" font-size="23" font-weight="400" fill="#667267">04</text>
+<a href="https://sebastianraschka.com/blog/" target="_blank" rel="noopener noreferrer" aria-label="Sebastian Raschka"><title>https://sebastianraschka.com/blog/</title>
+<rect x="181" y="3614" width="284.0" height="47" fill="transparent"/>
+<text x="185" y="3645.40" font-size="30" font-weight="700" fill="#315BBA">Sebastian Raschka</text>
+<line x1="185" y1="3657" x2="461.0" y2="3657" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3645.64" font-size="28" font-weight="400" fill="#26364A">模型架构、训练、推理与论文解读</text>
+<text x="640" y="3682.24" font-size="23" font-weight="400" fill="#667267">sebastianraschka.com</text>
+<line x1="130" y1="3699" x2="1870" y2="3699" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3732.24" font-size="23" font-weight="400" fill="#667267">05</text>
+<a href="https://hamel.dev/" target="_blank" rel="noopener noreferrer" aria-label="Hamel Husain"><title>https://hamel.dev/</title>
+<rect x="181" y="3704" width="218.0" height="47" fill="transparent"/>
+<text x="185" y="3735.40" font-size="30" font-weight="700" fill="#315BBA">Hamel Husain</text>
+<line x1="185" y1="3747" x2="395.0" y2="3747" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3735.64" font-size="28" font-weight="400" fill="#26364A">AI 效果评估、错误分析与调试</text>
+<text x="640" y="3772.24" font-size="23" font-weight="400" fill="#667267">hamel.dev</text>
+<line x1="130" y1="3789" x2="1870" y2="3789" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3822.24" font-size="23" font-weight="400" fill="#667267">06</text>
+<a href="https://eugeneyan.com/start-here/" target="_blank" rel="noopener noreferrer" aria-label="Eugene Yan"><title>https://eugeneyan.com/start-here/</title>
+<rect x="181" y="3794" width="180.953125" height="47" fill="transparent"/>
+<text x="185" y="3825.40" font-size="30" font-weight="700" fill="#315BBA">Eugene Yan</text>
+<line x1="185" y1="3837" x2="357.953125" y2="3837" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3825.64" font-size="28" font-weight="400" fill="#26364A">AI 系统、搜索推荐与产品工程</text>
+<text x="640" y="3862.24" font-size="23" font-weight="400" fill="#667267">eugeneyan.com</text>
+<line x1="130" y1="3879" x2="1870" y2="3879" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="3912.24" font-size="23" font-weight="400" fill="#667267">07</text>
+<a href="https://baoyu.io/" target="_blank" rel="noopener noreferrer" aria-label="宝玉"><title>https://baoyu.io/</title>
+<rect x="181" y="3884" width="68.0" height="47" fill="transparent"/>
+<text x="185" y="3915.40" font-size="30" font-weight="700" fill="#315BBA">宝玉</text>
+<line x1="185" y1="3927" x2="245.0" y2="3927" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="640" y="3915.64" font-size="28" font-weight="400" fill="#26364A">AI 编程实践、中文解读与翻译</text>
+<text x="640" y="3952.24" font-size="23" font-weight="400" fill="#667267">baoyu.io</text>
+<line x1="130" y1="3969" x2="1870" y2="3969" stroke="#D9DED4" stroke-width="2"/>
+<a href="https://github.com/ggml-org/llama.cpp" target="_blank" rel="noopener noreferrer" aria-label="llama.cpp"><title>https://github.com/ggml-org/llama.cpp</title>
+<rect x="1946" y="3344" width="175.0" height="51" fill="transparent"/>
+<text x="1950" y="3378.92" font-size="34" font-weight="700" fill="#315BBA">llama.cpp</text>
+<line x1="1950" y1="3391" x2="2117.0" y2="3391" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="1950" y="3421.64" font-size="28" font-weight="400" fill="#26364A">本地 LLM 推理。</text>
+<text x="1950" y="3458.12" font-size="24" font-weight="400" fill="#667267">模型支持、硬件适配、性能变化与用户讨论</text>
+<text x="1950" y="3491.48" font-size="21" font-weight="400" fill="#667267">ggml-org  ·  MIT</text>
+<line x1="1950" y1="3500" x2="2870" y2="3500" stroke="#D9DED4" stroke-width="2"/>
+<a href="https://github.com/vllm-project/vllm" target="_blank" rel="noopener noreferrer" aria-label="vLLM"><title>https://github.com/vllm-project/vllm</title>
+<rect x="1946" y="3504" width="101.0" height="51" fill="transparent"/>
+<text x="1950" y="3538.92" font-size="34" font-weight="700" fill="#315BBA">vLLM</text>
+<line x1="1950" y1="3551" x2="2043.0" y2="3551" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="1950" y="3581.64" font-size="28" font-weight="400" fill="#26364A">LLM 推理与服务。</text>
+<text x="1950" y="3618.12" font-size="24" font-weight="400" fill="#667267">服务部署、新模型接入和性能问题</text>
+<text x="1950" y="3651.48" font-size="21" font-weight="400" fill="#667267">vllm-project  ·  Apache-2.0</text>
+<line x1="1950" y1="3660" x2="2870" y2="3660" stroke="#D9DED4" stroke-width="2"/>
+<a href="https://github.com/langchain-ai/langgraph" target="_blank" rel="noopener noreferrer" aria-label="LangGraph"><title>https://github.com/langchain-ai/langgraph</title>
+<rect x="1946" y="3664" width="197.0" height="51" fill="transparent"/>
+<text x="1950" y="3698.92" font-size="34" font-weight="700" fill="#315BBA">LangGraph</text>
+<line x1="1950" y1="3711" x2="2139.0" y2="3711" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="1950" y="3741.64" font-size="28" font-weight="400" fill="#26364A">Agent 开发。</text>
+<text x="1950" y="3778.12" font-size="24" font-weight="400" fill="#667267">工作流实现、示例和版本变化</text>
+<text x="1950" y="3811.48" font-size="21" font-weight="400" fill="#667267">langchain-ai  ·  MIT</text>
+<line x1="1950" y1="3820" x2="2870" y2="3820" stroke="#D9DED4" stroke-width="2"/>
+<a href="https://github.com/huggingface/transformers" target="_blank" rel="noopener noreferrer" aria-label="Transformers"><title>https://github.com/huggingface/transformers</title>
+<rect x="1946" y="3824" width="235.953125" height="51" fill="transparent"/>
+<text x="1950" y="3858.92" font-size="34" font-weight="700" fill="#315BBA">Transformers</text>
+<line x1="1950" y1="3871" x2="2177.953125" y2="3871" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<text x="1950" y="3901.64" font-size="28" font-weight="400" fill="#26364A">模型训练与推理框架。</text>
+<text x="1950" y="3938.12" font-size="24" font-weight="400" fill="#667267">模型实现、使用示例和兼容性问题</text>
+<text x="1950" y="3971.48" font-size="21" font-weight="400" fill="#667267">huggingface  ·  Apache-2.0</text>
+<line x1="1950" y1="3980" x2="2870" y2="3980" stroke="#D9DED4" stroke-width="2"/>
+<rect x="130" y="4017" width="2740" height="78" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="154" y="4064.76" font-size="27" font-weight="700" fill="#5B775B">先建立小清单</text>
+<text x="370" y="4064.76" font-size="27" font-weight="400" fill="#26364A">GitHub + Hugging Face + LocalLLaMA 查项目；Simon Willison + 阮一峰补充阅读。其余随问题加入。</text>
+<text x="130" y="4189.64" font-size="28" font-weight="700" fill="#315BBA">05</text>
+<text x="208" y="4199.60" font-size="45" font-weight="700" fill="#26364A">三条研究路径：把阅读带回实际问题</text>
+<rect x="130" y="4275" width="893" height="383" rx="9" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="157" y="4327.92" font-size="34" font-weight="700" fill="#315BBA">找一个能用的工具</text>
+<text x="157" y="4375.00" font-size="25" font-weight="400" fill="#667267">例：中文文档检索</text>
+<text x="157" y="4434.24" font-size="23" font-weight="400" fill="#315BBA">01</text>
+<text x="208" y="4437.52" font-size="29" font-weight="700" fill="#26364A">发现候选</text>
+<text x="157" y="4482.24" font-size="23" font-weight="400" fill="#315BBA">02</text>
+<text x="208" y="4485.52" font-size="29" font-weight="700" fill="#26364A">核对条件</text>
+<text x="157" y="4530.24" font-size="23" font-weight="400" fill="#315BBA">03</text>
+<text x="208" y="4533.52" font-size="29" font-weight="700" fill="#26364A">补充经验</text>
+<text x="157" y="4578.24" font-size="23" font-weight="400" fill="#315BBA">04</text>
+<text x="208" y="4581.52" font-size="29" font-weight="700" fill="#26364A">最小验证</text>
+<text x="157" y="4641.24" font-size="23" font-weight="400" fill="#667267">发现 → 条件 → 反馈 → 样本文档试跑</text>
+<rect x="1053" y="4275" width="893" height="383" rx="9" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="1080" y="4327.92" font-size="34" font-weight="700" fill="#315BBA">判断项目是否值得研究</text>
+<text x="1080" y="4375.00" font-size="25" font-weight="400" fill="#667267">例：新出现的 AI Agent</text>
+<text x="1080" y="4434.24" font-size="23" font-weight="400" fill="#315BBA">01</text>
+<text x="1131" y="4437.52" font-size="29" font-weight="700" fill="#26364A">拆开声明</text>
+<text x="1080" y="4482.24" font-size="23" font-weight="400" fill="#315BBA">02</text>
+<text x="1131" y="4485.52" font-size="29" font-weight="700" fill="#26364A">查原始证据</text>
+<text x="1080" y="4530.24" font-size="23" font-weight="400" fill="#315BBA">03</text>
+<text x="1131" y="4533.52" font-size="29" font-weight="700" fill="#26364A">看维护回应</text>
+<text x="1080" y="4578.24" font-size="23" font-weight="400" fill="#315BBA">04</text>
+<text x="1131" y="4581.52" font-size="29" font-weight="700" fill="#26364A">限定结论</text>
+<text x="1080" y="4641.24" font-size="23" font-weight="400" fill="#667267">声明 → 证据 → 维护回应 → 限定结论</text>
+<rect x="1976" y="4275" width="893" height="383" rx="9" fill="#FFFEFA" stroke="#D9DED4" stroke-width="1"/>
+<text x="2003" y="4327.92" font-size="34" font-weight="700" fill="#315BBA">深入理解一项技术</text>
+<text x="2003" y="4375.00" font-size="25" font-weight="400" fill="#667267">例：模型为何更省内存</text>
+<text x="2003" y="4434.24" font-size="23" font-weight="400" fill="#315BBA">01</text>
+<text x="2054" y="4437.52" font-size="29" font-weight="700" fill="#26364A">明确问题</text>
+<text x="2003" y="4482.24" font-size="23" font-weight="400" fill="#315BBA">02</text>
+<text x="2054" y="4485.52" font-size="29" font-weight="700" fill="#26364A">读完整解释</text>
+<text x="2003" y="4530.24" font-size="23" font-weight="400" fill="#315BBA">03</text>
+<text x="2054" y="4533.52" font-size="29" font-weight="700" fill="#26364A">追到原资料</text>
+<text x="2003" y="4578.24" font-size="23" font-weight="400" fill="#315BBA">04</text>
+<text x="2054" y="4581.52" font-size="29" font-weight="700" fill="#26364A">做对照实验</text>
+<text x="2003" y="4641.24" font-size="23" font-weight="400" fill="#667267">缩小问题 → 长文 → 原资料 → 对照实验</text>
+<text x="130" y="4752.64" font-size="28" font-weight="700" fill="#315BBA">06</text>
+<text x="208" y="4762.60" font-size="45" font-weight="700" fill="#26364A">五项阅读检查：勾选是进度，结论需要验证</text>
+<rect x="130" y="4838" width="532" height="133" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="150" y="4876.24" font-size="23" font-weight="400" fill="#5B775B">01</text>
+<text x="201" y="4879.52" font-size="29" font-weight="700" fill="#26364A">来源可追溯</text>
+<text x="150" y="4932.00" font-size="25" font-weight="400" fill="#667267">作者、原文、原仓库明确</text>
+<rect x="682" y="4838" width="532" height="133" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="702" y="4876.24" font-size="23" font-weight="400" fill="#5B775B">02</text>
+<text x="753" y="4879.52" font-size="29" font-weight="700" fill="#26364A">有原始证据</text>
+<text x="702" y="4932.00" font-size="25" font-weight="400" fill="#667267">代码、配置、实验或直接资料</text>
+<rect x="1234" y="4838" width="532" height="133" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="1254" y="4876.24" font-size="23" font-weight="400" fill="#5B775B">03</text>
+<text x="1305" y="4879.52" font-size="29" font-weight="700" fill="#26364A">运行条件清楚</text>
+<text x="1254" y="4932.00" font-size="25" font-weight="400" fill="#667267">版本、硬件、数据与依赖</text>
+<rect x="1786" y="4838" width="532" height="133" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="1806" y="4876.24" font-size="23" font-weight="400" fill="#5B775B">04</text>
+<text x="1857" y="4879.52" font-size="29" font-weight="700" fill="#26364A">限制有说明</text>
+<text x="1806" y="4932.00" font-size="25" font-weight="400" fill="#667267">失败情形、成本和适用边界</text>
+<rect x="2338" y="4838" width="532" height="133" rx="6" fill="#E9EEE2" stroke="none" stroke-width="1"/>
+<text x="2358" y="4876.24" font-size="23" font-weight="400" fill="#5B775B">05</text>
+<text x="2409" y="4879.52" font-size="29" font-weight="700" fill="#26364A">对当前有用</text>
+<text x="2358" y="4932.00" font-size="25" font-weight="400" fill="#667267">帮助选择或安排一次验证</text>
+<text x="130" y="5041.28" font-size="31" font-weight="700" fill="#26364A">留下一份研究记录</text>
+<text x="450" y="5039.76" font-size="27" font-weight="400" fill="#667267">研究问题 / 原始链接 / 版本与许可 / 作者声明 / 我的推断 / 实际验证 / 失败与未确认项 / 下一步</text>
+<line x1="130" y1="5114" x2="2870" y2="5114" stroke="#D9DED4" stroke-width="3"/>
+<text x="130" y="5181.52" font-size="29" font-weight="700" fill="#BA6844">作者声明</text>
+<text x="130" y="5230.88" font-size="26" font-weight="400" fill="#667267">原帖的“每天半小时”收益承诺未见统计依据；平台介绍以官方说明为来</text>
+<text x="130" y="5270.88" font-size="26" font-weight="400" fill="#667267">源。</text>
+<text x="1053" y="5181.52" font-size="29" font-weight="700" fill="#315BBA">整理判断</text>
+<text x="1053" y="5230.88" font-size="26" font-weight="400" fill="#667267">平台优先级、阅读方法和研究路径，按我们当前的 AI 与开源项目研究需求</text>
+<text x="1053" y="5270.88" font-size="26" font-weight="400" fill="#667267">安排。</text>
+<text x="1976" y="5181.52" font-size="29" font-weight="700" fill="#5B775B">验证边界</text>
+<text x="1976" y="5230.88" font-size="26" font-weight="400" fill="#667267">查看过入口与部分内容样本；未逐篇审阅，未在本项目运行第三方软件；规</text>
+<text x="1976" y="5270.88" font-size="26" font-weight="400" fill="#667267">则可能变化。</text>
+<text x="130" y="5386.52" font-size="29" font-weight="700" fill="#26364A">参考来源与进一步阅读</text>
+<a href="https://x.com/yxl44/status/2121581932412895507" target="_blank" rel="noopener noreferrer" aria-label="原帖"><title>https://x.com/yxl44/status/2121581932412895507</title>
+<rect x="126" y="5422" width="56.0" height="41" fill="transparent"/>
+<text x="130" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">原帖</text>
+<line x1="130" y1="5459" x2="178.0" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://github.com/trending?since=weekly" target="_blank" rel="noopener noreferrer" aria-label="GitHub 周榜"><title>https://github.com/trending?since=weekly</title>
+<rect x="214.0" y="5422" width="145.0" height="41" fill="transparent"/>
+<text x="218.0" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">GitHub 周榜</text>
+<line x1="218.0" y1="5459" x2="355.0" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://huggingface.co/changelog/trending-papers" target="_blank" rel="noopener noreferrer" aria-label="HF 论文榜机制"><title>https://huggingface.co/changelog/trending-papers</title>
+<rect x="391.0" y="5422" width="167.0" height="41" fill="transparent"/>
+<text x="395.0" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">HF 论文榜机制</text>
+<line x1="395.0" y1="5459" x2="554.0" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://huggingface.co/" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face 官网"><title>https://huggingface.co/</title>
+<rect x="590.0" y="5422" width="221.984375" height="41" fill="transparent"/>
+<text x="594.0" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Hugging Face 官网</text>
+<line x1="594.0" y1="5459" x2="807.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://www.reddit.com/r/LocalLLaMA/" target="_blank" rel="noopener noreferrer" aria-label="LocalLLaMA"><title>https://www.reddit.com/r/LocalLLaMA/</title>
+<rect x="843.984375" y="5422" width="143.0" height="41" fill="transparent"/>
+<text x="847.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">LocalLLaMA</text>
+<line x1="847.984375" y1="5459" x2="982.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://news.ycombinator.com/show" target="_blank" rel="noopener noreferrer" aria-label="Show HN"><title>https://news.ycombinator.com/show</title>
+<rect x="1018.984375" y="5422" width="117.0" height="41" fill="transparent"/>
+<text x="1022.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Show HN</text>
+<line x1="1022.984375" y1="5459" x2="1131.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://support.substack.com/hc/en-us/articles/360037830631-How-do-readers-subscribe-to-my-Substack-publication" target="_blank" rel="noopener noreferrer" aria-label="Substack 订阅说明"><title>https://support.substack.com/hc/en-us/articles/360037830631-How-do-readers-subscribe-to-my-Substack-publication</title>
+<rect x="1167.984375" y="5422" width="213.0" height="41" fill="transparent"/>
+<text x="1171.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Substack 订阅说明</text>
+<line x1="1171.984375" y1="5459" x2="1376.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://support.substack.com/hc/en-us/articles/18687769631252-How-can-readers-pay-for-a-subscription-on-my-Substack-publication" target="_blank" rel="noopener noreferrer" aria-label="Substack 付费说明"><title>https://support.substack.com/hc/en-us/articles/18687769631252-How-can-readers-pay-for-a-subscription-on-my-Substack-publication</title>
+<rect x="1412.984375" y="5422" width="213.0" height="41" fill="transparent"/>
+<text x="1416.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Substack 付费说明</text>
+<line x1="1416.984375" y1="5459" x2="1621.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://help.medium.com/hc/en-us/articles/35754720183063-Follow-writers-and-publications" target="_blank" rel="noopener noreferrer" aria-label="Medium 关注说明"><title>https://help.medium.com/hc/en-us/articles/35754720183063-Follow-writers-and-publications</title>
+<rect x="1657.984375" y="5422" width="206.0" height="41" fill="transparent"/>
+<text x="1661.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Medium 关注说明</text>
+<line x1="1661.984375" y1="5459" x2="1859.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://help.medium.com/hc/en-us/articles/115004545567-Become-a-Medium-Member" target="_blank" rel="noopener noreferrer" aria-label="Medium 会员说明"><title>https://help.medium.com/hc/en-us/articles/115004545567-Become-a-Medium-Member</title>
+<rect x="1895.984375" y="5422" width="206.0" height="41" fill="transparent"/>
+<text x="1899.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Medium 会员说明</text>
+<line x1="1899.984375" y1="5459" x2="2097.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://medium.com/tag/large-language-models" target="_blank" rel="noopener noreferrer" aria-label="Medium LLM 主题"><title>https://medium.com/tag/large-language-models</title>
+<rect x="2133.984375" y="5422" width="212.0" height="41" fill="transparent"/>
+<text x="2137.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Medium LLM 主题</text>
+<line x1="2137.984375" y1="5459" x2="2341.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://simonwillison.net/tags/llms/" target="_blank" rel="noopener noreferrer" aria-label="Simon 的实验记录"><title>https://simonwillison.net/tags/llms/</title>
+<rect x="2377.984375" y="5422" width="207.0" height="41" fill="transparent"/>
+<text x="2381.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Simon 的实验记录</text>
+<line x1="2381.984375" y1="5459" x2="2580.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://sebastianraschka.com/blog/" target="_blank" rel="noopener noreferrer" aria-label="Raschka 文章目录"><title>https://sebastianraschka.com/blog/</title>
+<rect x="2616.984375" y="5422" width="204.0" height="41" fill="transparent"/>
+<text x="2620.984375" y="5448.12" font-size="24" font-weight="400" fill="#315BBA">Raschka 文章目录</text>
+<line x1="2620.984375" y1="5459" x2="2816.984375" y2="5459" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://hamel.dev/blog/posts/evals-faq/" target="_blank" rel="noopener noreferrer" aria-label="Hamel 评估指南"><title>https://hamel.dev/blog/posts/evals-faq/</title>
+<rect x="126" y="5474" width="185.0" height="41" fill="transparent"/>
+<text x="130" y="5500.12" font-size="24" font-weight="400" fill="#315BBA">Hamel 评估指南</text>
+<line x1="130" y1="5511" x2="307.0" y2="5511" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://eugeneyan.com/start-here/" target="_blank" rel="noopener noreferrer" aria-label="Eugene 文章入口"><title>https://eugeneyan.com/start-here/</title>
+<rect x="343.0" y="5474" width="197.0" height="41" fill="transparent"/>
+<text x="347.0" y="5500.12" font-size="24" font-weight="400" fill="#315BBA">Eugene 文章入口</text>
+<line x1="347.0" y1="5511" x2="536.0" y2="5511" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer" aria-label="Product Hunt"><title>https://www.producthunt.com/</title>
+<rect x="572.0" y="5474" width="163.0" height="41" fill="transparent"/>
+<text x="576.0" y="5500.12" font-size="24" font-weight="400" fill="#315BBA">Product Hunt</text>
+<line x1="576.0" y1="5511" x2="731.0" y2="5511" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<a href="https://www.threads.com/" target="_blank" rel="noopener noreferrer" aria-label="Threads / 访问受限"><title>https://www.threads.com/</title>
+<rect x="767.0" y="5474" width="219.0" height="41" fill="transparent"/>
+<text x="771.0" y="5500.12" font-size="24" font-weight="400" fill="#315BBA">Threads / 访问受限</text>
+<line x1="771.0" y1="5511" x2="982.0" y2="5511" stroke="#A9BCE4" stroke-width="1"/>
+</a>
+<line x1="130" y1="5576" x2="2870" y2="5576" stroke="#D9DED4" stroke-width="2"/>
+<text x="130" y="5630.00" font-size="25" font-weight="400" fill="#667267">知源 · 本库原创整理 · 来源查看时间：2026.11.15—16 · 图中路径为研究建议，不代表第三方能力已验证。</text>
+<text x="130" y="5678.00" font-size="25" font-weight="400" fill="#667267">高清 PNG 适合保存；SVG / 网页版保留全部入口与来源的可点击链接。放大后逐行阅读。</text>
+</svg>

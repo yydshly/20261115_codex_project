@@ -24,6 +24,8 @@ python scripts/build_site.py
 
 `build_site.py` 仅构建明确接入的项目，不因其他项目存在 `web/` 就自动发布。每个项目未来按需加入统一构建，保持 `_site/demos/<id>-<slug>/`。一份 Pages artifact 汇总所有明确发布的项目，避免不同项目覆盖整个站点。
 
+本次明确接入 `0009-ai-source-field-guide`：先运行该项目的标准库静态导出，再复制到 `_site/demos/0009-ai-source-field-guide/`。`index.html` 为完整指南，`map.html` 为简化关系图阅读页；`assets/relation-map.png` 同时用于项目首页和总导航引导。总导航由登记表中的摘要、价值说明、图片描述和发布白名单生成，保留动画图谱。实际发布结果见项目 `publication.md`。
+
 ## 视频与预览
 
 `projects/0001-animation-skills-atlas/publication-media.json` 记录公开媒体包 URL、包哈希与逐文件哈希。下载、文件列表和哈希不一致时构建失败。解包只允许项目 `web/public/` 内的相对路径，拒绝目录穿越。
