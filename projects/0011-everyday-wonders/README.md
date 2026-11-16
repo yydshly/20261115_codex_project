@@ -2,6 +2,7 @@
 
 从“普通生活动作触发奇幻变化”的参考短片出发，整理原片效果、创作价值、四条故事方向，以及五个故事种子和两份完整短片方向。以后按需选择故事，继续分镜、试制与成片。
 
+- 在线入口：[一图总览](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) · [完整研究](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/index.html) · [故事档案](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/index.html#stories)。
 - 阅读入口：[一图总览](web/map.html) → [完整研究](web/index.html) → [七份故事](stories.md)。核心内容不依赖网络。
 - 本地启动：[start.cmd](start.cmd)，端口52921。
 - 原始来源：[@VidusheWrites 的 Loves sleeping 帖文及视频](https://x.com/VidusheWrites/status/2121596512878870615)。没有确认影片创作者与上游源码仓库，以 source_url 登记。

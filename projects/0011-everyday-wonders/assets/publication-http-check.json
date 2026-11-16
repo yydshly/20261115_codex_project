@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-11-16T15:18:13+08:00",
+  "timezone": "Asia/Shanghai",
+  "base": "https://yydshly.github.io/20261115_codex_project/",
+  "resources": [
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/",
+      "status": 200,
+      "bytes": 5884,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html",
+      "status": 200,
+      "bytes": 6498,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/index.html",
+      "status": 200,
+      "bytes": 12260,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/app.js",
+      "status": 200,
+      "bytes": 14080,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/data.js",
+      "status": 200,
+      "bytes": 32776,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/styles.css",
+      "status": 200,
+      "bytes": 28788,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/favicon.svg",
+      "status": 200,
+      "bytes": 238,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/assets/creative-summary-v1.png",
+      "status": 200,
+      "bytes": 1426459,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/assets/creative-summary-v1.svg",
+      "status": 200,
+      "bytes": 182757,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories.md",
+      "status": 200,
+      "bytes": 19881,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/style-guide.md",
+      "status": 200,
+      "bytes": 4764,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/reference-study.md",
+      "status": 200,
+      "bytes": 4723,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/assets/SOURCES.md",
+      "status": 200,
+      "bytes": 2632,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/THIRD_PARTY_NOTICES.md",
+      "status": 200,
+      "bytes": 1075,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-001.md",
+      "status": 200,
+      "bytes": 2321,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-002.md",
+      "status": 200,
+      "bytes": 2216,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-003.md",
+      "status": 200,
+      "bytes": 2489,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-004.md",
+      "status": 200,
+      "bytes": 2405,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-005.md",
+      "status": 200,
+      "bytes": 2222,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-006.md",
+      "status": 200,
+      "bytes": 4008,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/stories/EW-007.md",
+      "status": 200,
+      "bytes": 3772,
+      "content_type": "text/markdown; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html",
+      "status": 200,
+      "bytes": 8602,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
+      "status": 200,
+      "bytes": 15152,
+      "content_type": "text/html; charset=utf-8"
+    }
+  ],
+  "guide": {
+    "size": [
+      2400,
+      4480
+    ],
+    "png_sha256": "c2a50bdcb4bd35072aa6299cbd8cd66ed26151f9cfbdee68bbb2b8d86ae48127",
+    "svg_sha256": "d526851116c28c44dac5f7a91c386dc0eb9c10014c721b3dfeb5236e8191acb8",
+    "matches_repository": true
+  },
+  "summary_matches": true,
+  "existing_sites_preserved": true,
+  "transport": "PowerShell Invoke-WebRequest / system network stack"
+}
