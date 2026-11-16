@@ -85,9 +85,15 @@ def validate(data, root):
         slugs.add(slug)
         for field in ("name", "summary"):
             require(line(project.get(field)), f"{pid} 缺少单行非空字段 {field}")
-        require(isinstance(project.get("repository"), str)
-                and REPOSITORY.fullmatch(project["repository"]),
-                f"{pid} 的 repository 必须是 https://github.com/owner/repo")
+        repository = project.get("repository")
+        source_url = project.get("source_url")
+        require(repository is None or (isinstance(repository, str)
+                and REPOSITORY.fullmatch(repository)),
+                f"{pid} 的 repository 必须是 https://github.com/owner/repo 或 null")
+        require(source_url is None or https_url(source_url),
+                f"{pid} 的 source_url 必须是 HTTPS 地址")
+        require(repository is not None or source_url is not None,
+                f"{pid} 至少需要 repository 或 source_url")
         highlights = project.get("highlights", [])
         require(isinstance(highlights, list) and all(line(item) for item in highlights),
                 f"{pid} 的 highlights 必须是单行非空字符串数组")
@@ -139,6 +145,15 @@ def url(value):
     return quote(value, safe="/:#?&=%+-._~")
 
 
+def source_links(project):
+    links = []
+    if project.get("repository"):
+        links.append(f"[原仓库]({project['repository']})")
+    if project.get("source_url"):
+        links.append(f"[参考来源]({url(project['source_url'])})")
+    return " · ".join(links)
+
+
 def render_index(data):
     projects = sorted(data["projects"], key=lambda project: project["order"])
     lines = ["## 子项目索引", "", f"已收录 **{len(projects)}** 个项目。", ""]
@@ -148,7 +163,7 @@ def render_index(data):
     lines += ["| 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |",
               "| --- | --- | --- | --- | --- | --- |"]
     for rank, project in enumerate(projects, 1):
-        links = f"[原仓库]({project['repository']})"
+        links = source_links(project)
         if project["demo_url"]:
             links += f" · [演示]({url(project['demo_url'])})"
         lines.append(
@@ -167,7 +182,7 @@ def render_index(data):
                       f"![{md(preview['alt'])}]({url(preview['path'])})", "",
                       md(preview["caption"]), "",
                       f"[进入研究]({project_path(project)}/README.md) · "
-                      f"[原仓库]({project['repository']})"
+                      + source_links(project)
                       + (f" · [在线网页]({url(project['demo_url'])})" if project["demo_url"] else "")]
     return "\n".join(lines)
 
@@ -187,7 +202,7 @@ def write_text(path, content):
         handle.write(content)
 
 
-def add_project(root, slug, name, repository, summary):
+def add_project(root, slug, name, repository, summary, source_url=None):
     data = load_registry(root)
     require(SLUG.fullmatch(slug), "slug 只允许小写英文、数字与连字符")
     require(all(project["slug"] != slug for project in data["projects"]),
@@ -200,13 +215,21 @@ def add_project(root, slug, name, repository, summary):
         "status": "queued", "tags": [], "preview": None, "demo_url": None,
     }
     require(line(name) and line(summary), "名称和摘要必须为单行非空文本")
-    require(REPOSITORY.fullmatch(repository), "原仓库地址必须为 https://github.com/owner/repo")
+    require(repository is None or (isinstance(repository, str)
+            and REPOSITORY.fullmatch(repository)),
+            "原仓库地址必须为 https://github.com/owner/repo")
+    require(source_url is None or https_url(source_url), "参考来源必须为 HTTPS 地址")
+    require(repository is not None or source_url is not None,
+            "至少需要 repository 或 source_url")
+    if source_url is not None:
+        project["source_url"] = source_url
     folder = local_path(root, project_path(project))
     require(not folder.exists(), f"目录已存在：{folder.name}")
     template = (root / "templates/project/README.md").read_text(encoding="utf-8")
     replacements = {key: md(project[key]) for key in ("id", "name", "summary")}
-    replacements["repository"] = repository
-    template = re.sub(r"\{\{(id|name|summary|repository)\}\}",
+    replacements["repository"] = repository or source_url
+    replacements["source_links"] = source_links(project)
+    template = re.sub(r"\{\{(id|name|summary|repository|source_links)\}\}",
                       lambda match: replacements[match.group(1)], template)
     data["projects"].append(project)
     data["next_id"] += 1
@@ -225,14 +248,17 @@ def main():
     add = commands.add_parser("add", help="创建下一个编号的研究项目")
     add.add_argument("slug")
     add.add_argument("--name", required=True)
-    add.add_argument("--repository", required=True)
+    source = add.add_mutually_exclusive_group(required=True)
+    source.add_argument("--repository", help="原项目的 GitHub 仓库")
+    source.add_argument("--source-url", help="未公开仓库时的原始参考来源 HTTPS 地址")
     add.add_argument("--summary", required=True)
     commands.add_parser("render", help="根据 projects.json 更新首页")
     commands.add_parser("check", help="检查元数据、目录、图片及首页同步")
     args = parser.parse_args()
     try:
         if args.command == "add":
-            project = add_project(ROOT, args.slug, args.name, args.repository, args.summary)
+            project = add_project(ROOT, args.slug, args.name, args.repository,
+                                  args.summary, source_url=args.source_url)
             print(f"Created {project_path(project)}")
         else:
             data = load_registry(ROOT)

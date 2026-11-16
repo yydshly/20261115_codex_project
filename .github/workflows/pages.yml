@@ -6,6 +6,7 @@ on:
     paths:
       - 'projects/0001-animation-skills-atlas/**'
       - 'projects/0009-ai-source-field-guide/**'
+      - 'projects/0011-everyday-wonders/**'
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'

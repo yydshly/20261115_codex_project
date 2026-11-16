@@ -26,6 +26,8 @@ python scripts/build_site.py
 
 本次明确接入 `0009-ai-source-field-guide`：先运行该项目的标准库静态导出，再复制到 `_site/demos/0009-ai-source-field-guide/`。`index.html` 为完整指南，`map.html` 为简化关系图阅读页；`assets/relation-map.png` 同时用于项目首页和总导航引导。总导航由登记表中的摘要、价值说明、图片描述和发布白名单生成，保留动画图谱。实际发布结果见项目 `publication.md`。
 
+本轮另接入 `0011-everyday-wonders`：运行 `python scripts/build.py --dist`，导出到 `_site/demos/0011-everyday-wonders/`。入口 `map.html` 以 `assets/creative-summary-v1.png` 为引导，链接完整研究 `index.html` 和七份故事。总导航读取登记表的摘要、价值说明与引导图，保留 `0001` 动画图谱和 `0009` 知源指南。静态构建不重新渲染总结图、不安装Pillow；本项目无前端依赖。实际公开结果见该项目 `publication.md`。
+
 ## 视频与预览
 
 `projects/0001-animation-skills-atlas/publication-media.json` 记录公开媒体包 URL、包哈希与逐文件哈希。下载、文件列表和哈希不一致时构建失败。解包只允许项目 `web/public/` 内的相对路径，拒绝目录穿越。

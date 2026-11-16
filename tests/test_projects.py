@@ -29,7 +29,7 @@ class ResearchWorkflowTests(unittest.TestCase):
         )
         projects.write_text(
             self.root / "templates/project/README.md",
-            "# {{id}} · {{name}}\n\n{{summary}}\n\n[原仓库]({{repository}})\n",
+            "# {{id}} · {{name}}\n\n{{summary}}\n\n{{source_links}}\n",
         )
 
     def add(self, slug="alpha", name="Alpha", summary="研究这个项目的用途"):
@@ -180,6 +180,37 @@ class ResearchWorkflowTests(unittest.TestCase):
         before = (self.root / "projects.json").read_bytes()
         with self.assertRaises(ValueError):
             self.add("../outside", "Invalid")
+        self.assertEqual((self.root / "projects.json").read_bytes(), before)
+        self.assertEqual(list((self.root / "projects").iterdir()), [])
+
+    def test_reference_only_project_preserves_source_identity_and_stable_ids(self):
+        original = self.add()
+        reference = projects.add_project(
+            self.root, "reference", "影像研究", None, "研究原始演示",
+            source_url="https://example.com/post/123",
+        )
+        self.assertEqual((original["id"], reference["id"]), ("0001", "0002"))
+        registry = projects.load_registry(self.root)
+        self.assertIsNone(registry["projects"][1]["repository"])
+        index = projects.render_index(registry)
+        self.assertIn("[原仓库](https://github.com/example/alpha)", index)
+        self.assertIn("[参考来源](https://example.com/post/123)", index)
+        self.assertNotIn("[原仓库](https://example.com", index)
+        readme = (self.root / "projects/0002-reference/README.md").read_text(encoding="utf-8")
+        self.assertIn("[参考来源](https://example.com/post/123)", readme)
+        self.assertNotIn("{{", readme)
+        registry["projects"][1]["preview"] = {
+            "path": "projects/0002-reference/assets/preview.svg", "alt": "观察画面", "caption": "参考截图"
+        }
+        projects.write_text(self.root / registry["projects"][1]["preview"]["path"], "<svg/>")
+        projects.validate(registry, self.root)
+        self.assertIn("[参考来源](https://example.com/post/123)", projects.render_index(registry))
+
+    def test_missing_or_invalid_reference_is_rejected_before_any_write(self):
+        before = (self.root / "projects.json").read_bytes()
+        for source_url in (None, "http://example.com", "https://user:secret@example.com", "not a url"):
+            with self.subTest(source_url=source_url), self.assertRaises(ValueError):
+                projects.add_project(self.root, "reference", "参考", None, "来源检查", source_url)
         self.assertEqual((self.root / "projects.json").read_bytes(), before)
         self.assertEqual(list((self.root / "projects").iterdir()), [])
 

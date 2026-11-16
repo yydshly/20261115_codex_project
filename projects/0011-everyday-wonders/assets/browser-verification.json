@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-16",
+  "story": "从原片阅读到价值理解、故事筛选、逐段阅读与导出任务书",
+  "checks": [
+    "切换到海滩情境，画面事实、理解与复用建议对应更新",
+    "引用图放大、Escape关闭",
+    "键盘End切到最后一处电话亭情境",
+    "完整方向筛选显示2/7",
+    "故事种子筛选显示5/7",
+    "关键词影子筛到EW-002并更新正文",
+    "无结果显示0/7和重置入口，隐藏旧正文",
+    "EW-007全文6场景与准备事项展开",
+    "当前故事创作任务书实际下载并检查标题、场景、风险和生成后记录字段",
+    "EW-007深链接刷新后恢复相同故事",
+    "390×844窄屏模拟：实际内容宽375，无横向溢出",
+    "窄屏完整方向筛选、EW-006选择与正文自动定位"
+  ],
+  "desktop": {
+    "images": [
+      {
+        "complete": true,
+        "naturalWidth": 284,
+        "src": "assets/reference-17-garden.jpg"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 284,
+        "src": "assets/reference-15-moon.jpg"
+      },
+      {
+        "complete": true,
+        "naturalWidth": 284,
+        "src": "assets/reference-05-night.jpg"
+      }
+    ],
+    "scrollWidth": 1265,
+    "storyButtons": 7,
+    "title": "日常奇想 · 参考影像与故事创作档案",
+    "width": 1265
+  },
+  "download": {
+    "story": "EW-007",
+    "characters": 1622,
+    "hasTitle": true,
+    "hasScenes": true,
+    "hasChecklist": true,
+    "hasRisk": true
+  },
+  "mobile": {
+    "bodyTextSize": "13px",
+    "scrollWidth": 375,
+    "storyTitle": "替城市收工的人",
+    "width": 375
+  },
+  "console": [],
+  "offlineDirectOpen": {
+    "verified": false,
+    "reason": "内置浏览器仅允许HTTP和HTTPS，未对file协议进行实际打开验收；已通过本地HTTP完成页面与交互验证。"
+  }
+}
