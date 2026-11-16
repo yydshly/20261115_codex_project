@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
 | 2 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
-| 3 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) |
+| 3 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 
 ## 项目图览
 
@@ -62,7 +62,7 @@
 
 2026-11-16 本库整理，2400×4480；文字、故事与图文编排为本次讨论沉淀，内含原片定位缩略图，画面权利归相关权利人。
 
-[进入研究](projects/0011-everyday-wonders/README.md) · [参考来源](https://x.com/VidusheWrites/status/2121596512878870615)
+[进入研究](projects/0011-everyday-wonders/README.md) · [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html)
 
 <!-- PROJECTS:END -->
 

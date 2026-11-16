@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-16",
+  "page": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html",
+  "guide": {
+    "complete": true,
+    "height": 4480,
+    "width": 2400
+  },
+  "checks": [
+    "公开总览页原图2400×4480实际加载",
+    "总览页进入故事档案显示7/7",
+    "完整方向筛选和EW-007六场景阅读",
+    "公开地址带story参数刷新仍为EW-007",
+    "公开总览页390像素模拟宽度无横向溢出"
+  ],
+  "story": {
+    "title": "替城市收工的人",
+    "scenes": 6,
+    "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/index.html?story=EW-007#stories"
+  },
+  "mobile": {
+    "guideLoaded": true,
+    "naturalWidth": 2400,
+    "scrollWidth": 375,
+    "width": 375
+  },
+  "console": []
+}
