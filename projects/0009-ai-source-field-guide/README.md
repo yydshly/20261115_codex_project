@@ -2,13 +2,14 @@
 
 把网站收藏清单整理为可阅读、可筛选的个人研究指南。保留讨论中的质疑：平台提供入口，具体作者、证据与用途决定阅读收益；原帖的效率承诺没有提供统计依据。
 
-- 网页入口：[web/index.html](web/index.html)
+- 在线指南：[打开网页](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) · [简化关系图阅读页](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/map.html) · [总库导航](https://yydshly.github.io/20261115_codex_project/)
+- 网页源码：[web/index.html](web/index.html)
 - 关系总览：[高清 PNG](assets/relation-map.png) · [可点击 SVG](assets/relation-map.svg) · [放大阅读页](web/map.html)
 - 详细清单图：[完整长图](assets/source-map.png) · [含全部参考链接的 SVG](assets/source-map.svg)
 - 原始来源：[@yxl44 的十个平台清单](https://x.com/yxl44/status/2121581932412895507)
 - 整理日期：2026-11-16，Asia/Shanghai
 - 研究状态：以根目录 `projects.json` 为准；验证范围见 [verification.md](verification.md)
-- 本地静态网页，未配置发布，`demo_url` 为 `null`
+- 已通过 GitHub Pages 发布；配置、提交与公开验收见 [publication.md](publication.md)
 
 ## 它解决什么问题
 
@@ -64,6 +65,7 @@
 | [scripts/make_source_map.py](scripts/make_source_map.py) | 从既有清单生成同内容 PNG、可点击 SVG 与链接覆盖清单 |
 | [scripts/make_relation_map.py](scripts/make_relation_map.py) | 生成简洁关系图、PNG / SVG 与节点和连线说明 |
 | [scripts/build.py](scripts/build.py) | 用标准库导出六个页面文件和四份图形，修正资源相对路径 |
+| [scripts/check_publication.py](scripts/check_publication.py) | 核对公开入口、资源类型、导出内容与引导图尺寸，生成 HTTP 检查记录 |
 | [start.cmd](start.cmd) | 启动仅监听本机的预览 |
 
 页面没有远程字体、第三方脚本、统计或后端依赖。外部链接由读者点击后进入对应服务。关闭 JavaScript 时，正文仍可阅读，完整入口见本 README。
@@ -85,13 +87,13 @@ python -m http.server 52919 --bind 127.0.0.1 --directory dist
 python scripts/build.py
 ```
 
-`dist/` 被 Git 忽略；脚本不递归清理目录。资源使用相对路径，未来可放在 `/20261115_codex_project/demos/0009-ai-source-field-guide/`。本次未修改总库部署配置。
+`dist/` 被 Git 忽略；脚本不递归清理目录。资源使用相对路径，已部署到 `/20261115_codex_project/demos/0009-ai-source-field-guide/`。总库构建明确加入本项目，并保留原动画图谱；发布过程见 [publication.md](publication.md)。
 
 更新总图时运行 `python scripts/make_source_map.py`，再执行静态导出。图形生成使用本机已有 Node.js、Pillow 与微软雅黑字体，不下载依赖或字体。生成器会检查文字宽度、画布边界和清单中全部链接是否覆盖。网页本身不依赖 Pillow，也不需要安装 npm 包。
 
 更新关系图时运行 `python scripts/make_relation_map.py`。脚本复用原有字体与数据读取逻辑，检查主入口覆盖、文字边界和节点重叠，再输出 `relation-map.png`、`relation-map.svg` 与 `relation-map-manifest.json`。简图只呈现主要入口；完整参考链接仍以详细清单为准。
 
-验证环境：Windows、Python 3.10.11、Node.js v22.15.0 与 Codex 内置浏览器。普通脚本和相对资源路径支持在允许本地文件的浏览器打开；内置浏览器禁止 `file:`，本次验收使用本机 HTTP。下载事件未获得完成反馈；已验证的记录获取方式是页面内预览与文本选取。完整结果见 [verification.md](verification.md)。
+验证环境：Windows、Python 3.10.11、Node.js v22.15.0 与 Codex 内置浏览器；GitHub Actions 使用 Python 3.12 与 Node.js 22。内置浏览器验收覆盖本机 HTTP 和正式 HTTPS 网页。下载事件未获得完成反馈；已验证的记录获取方式是页面内预览与文本选取。完整结果见 [verification.md](verification.md)。
 
 ## 图片与演示
 
@@ -99,12 +101,14 @@ python scripts/build.py
 
 [关系图浏览器实际渲染](assets/relation-map-browser.jpg) · [详细清单图](assets/source-map.png) · [原网页预览](assets/overview.jpg) · [原网页窄屏截图](assets/mobile.jpg)。图形和截图来自本库原创整理，2026-11-16；没有嵌入第三方网站截图。见 [assets/SOURCES.md](assets/SOURCES.md)。
 
+[正式网页首页](assets/published-home.jpg) · [正式关系图阅读页](assets/published-map.jpg) · [正式网页窄屏截图](assets/published-mobile.jpg)。
+
 ## 后续计划
 
 - 按真实使用反馈调整关注顺序，记录对具体项目选择产生的帮助。
 - 链接或规则变化时更新来源记录，不以页面冒充实时监测。
 - 新增案例时补上环境、版本和验证结果。
-- 有明确发布任务后，再接入统一站点构建并验证公开地址。
+- 持续保留可重跑的发布检查；内容更新后通过 PR 与 GitHub Pages 工作流发布。
 
 ## 来源与许可
 

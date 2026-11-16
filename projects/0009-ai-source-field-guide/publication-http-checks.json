@@ -1,0 +1,118 @@
+{
+  "checked_at_utc": "2026-11-16T05:15:58Z",
+  "base_url": "https://yydshly.github.io/20261115_codex_project/",
+  "all_passed": true,
+  "checks": [
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4379,
+      "sha256": "8be9581d400d6de14d4667e4d1d9785fe0677e243440440f58f79bc8db5adc09",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 8602,
+      "sha256": "65ceff4f17a7a9c2712e3f20bd2b795e6e38c5bc5994e6bec500e23106113d9e",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15152,
+      "content_matches_export": true,
+      "sha256": "a9f5bacb229602c744054b52f18d5945dbdfe63626b39e7a2d616f12abacad2c",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/map.html",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 4433,
+      "content_matches_export": true,
+      "sha256": "de2ca79cf323525a92c775f37456b0b05e5ee2327749fa60606d52f72eee15ed",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/styles.css",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 28286,
+      "content_matches_export": true,
+      "sha256": "c571fde9f381ac1b1ba3733aecc14765cad8694ddab015ed60f3012320a969a8",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/app.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 8346,
+      "content_matches_export": true,
+      "sha256": "ad3830a6210b9f4ec2130f922aeaafb0184a477b921c5de9674d4410696d86f0",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/map.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 2072,
+      "content_matches_export": true,
+      "sha256": "a1897ea42c62ce28d5985d7603460ea78493c45372842de10301d08fd99b6383",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/data.js",
+      "status": 200,
+      "content_type": "application/javascript; charset=utf-8",
+      "bytes": 14687,
+      "content_matches_export": true,
+      "sha256": "550e308fdf9732a4fd89175a077abe9390cbbbc8989b2481510c82bce7879759",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/assets/relation-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 316576,
+      "content_matches_export": true,
+      "image_size": [
+        2400,
+        1500
+      ],
+      "sha256": "b1aaf753f771ea3987d0d4652ce8be1a0c135caa42da355a6ea6351e97da677a",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/assets/relation-map.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 23382,
+      "content_matches_export": true,
+      "sha256": "2af799dd4114258adf50c1f6b938f8af5c81db8766c8610037f3e46c42b6af19",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/assets/source-map.png",
+      "status": 200,
+      "content_type": "image/png",
+      "bytes": 1618643,
+      "content_matches_export": true,
+      "sha256": "16cc15614fa62fa158f7f448e4bc1489413af4966c64999c9893379fbd550103",
+      "ok": true
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/assets/source-map.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "bytes": 57769,
+      "content_matches_export": true,
+      "sha256": "d50ac30a94aab0b36c69f6ff375fbc30c759b22d24f65c09df1e29fb1bfa206b",
+      "ok": true
+    }
+  ],
+  "note": "Text hashes normalize CRLF to LF; binary PNG matches are exact. Browser interactions are recorded separately."
+}
