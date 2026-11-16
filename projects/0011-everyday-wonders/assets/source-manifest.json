@@ -1,0 +1,37 @@
+{
+  "source_url": "https://x.com/VidusheWrites/status/2121596512878870615",
+  "captured": "2026-11-16",
+  "method": "Codex 内置浏览器定位截图，可见画面裁取，非原始视频抽帧；无视频原件复制。",
+  "images": [
+    {
+      "path": "reference-00-bedroom.jpg",
+      "bytes": 18793,
+      "sha256": "b043d78337c13c32d7bc2f471c1c028c5c8b2aecb9a96fbd16223a3832510507"
+    },
+    {
+      "path": "reference-05-night.jpg",
+      "bytes": 20306,
+      "sha256": "848b0dd1b855fb94ca7355f6b31263d82c41140a9e0d2af9c22ed6ba835007b5"
+    },
+    {
+      "path": "reference-10-seaside.jpg",
+      "bytes": 19853,
+      "sha256": "1a6b151f3ee9ace661d3293c4015f59a697305794146cdd8a0aec30dbb9c72e1"
+    },
+    {
+      "path": "reference-15-moon.jpg",
+      "bytes": 20795,
+      "sha256": "d5a5b1eb2ff09ad737e6d0c7f848e172dd91ef76481214d303541a105b22ac44"
+    },
+    {
+      "path": "reference-17-garden.jpg",
+      "bytes": 23776,
+      "sha256": "d3caabd8ae3b4293d615ed6082bb89a4cbde81398a2fd0fbbea6b09b39ee71d0"
+    },
+    {
+      "path": "reference-22-autumn.jpg",
+      "bytes": 35489,
+      "sha256": "dd494b6ce099902836ea94b417f1fe3125067e6f0623fb782234d4b22eb2e20b"
+    }
+  ]
+}

@@ -16,14 +16,18 @@ SLUG = '0001-animation-skills-atlas'
 PROJECT = ROOT / 'projects' / SLUG
 PUBLIC = PROJECT / 'web/public'
 SOURCE_GUIDE = '0009-ai-source-field-guide'
-STATIC_PROJECTS = {SOURCE_GUIDE: 'index.html'}
+EVERYDAY_WONDERS = '0011-everyday-wonders'
+STATIC_PROJECTS = {SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html'}
 
 
 def build_static_projects(output):
     """Include only the static projects explicitly authorized for publication."""
     for slug, entry in STATIC_PROJECTS.items():
         project = ROOT / 'projects' / slug
-        subprocess.run([sys.executable, str(project / 'scripts/build.py')], check=True)
+        command = [sys.executable, str(project / 'scripts/build.py')]
+        if slug == EVERYDAY_WONDERS:
+            command.append('--dist')
+        subprocess.run(command, check=True)
         source = project / 'dist'
         if not (source / entry).is_file():
             raise ValueError('Static project entry is missing: ' + slug)
@@ -71,7 +75,11 @@ def navigation():
             picture = f'./demos/{SLUG}/summary/technology-understanding.png'
         elif slug in STATIC_PROJECTS:
             href = f'./demos/{slug}/{STATIC_PROJECTS[slug]}'
+            preview_path = (project.get('preview') or {}).get('path', '')
+            prefix = f'projects/{slug}/'
             picture = f'./demos/{slug}/assets/relation-map.png' if slug == SOURCE_GUIDE else None
+            if preview_path.startswith(prefix):
+                picture = f'./demos/{slug}/' + preview_path[len(prefix):]
         else:
             href = project.get('demo_url')
             picture = None

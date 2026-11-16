@@ -12,6 +12,14 @@ python scripts/projects.py add example-project --name "项目名称" --repositor
 
 此命令分配新编号，在 `projects.json` 登记项目，并从模板创建 `projects/<id>-<slug>/README.md` 和 `assets/.gitkeep`。只在实际开发 Web 时创建该项目的 `web/`。
 
+参考影像或产品尚未公开源码时，使用真实来源登记，不用其他作者的仓库替代：
+
+```shell
+python scripts/projects.py add reference-study --name "参考作品研究" --source-url "https://example.com/original-post" --summary "分析原始作品的视觉与体验"
+```
+
+`--repository` 与 `--source-url` 二选一。参考研究的 `repository` 为 `null`，另存 `source_url`；首页显示“参考来源”。仍遵循 `schema_version: 1`，原有 GitHub 项目无需迁移。
+
 修改登记信息后执行：
 
 ```shell
@@ -48,7 +56,8 @@ python scripts/projects.py check
 | `id`、`order`、`slug` | 稳定编号、展示排序和目录短名 |
 | `name`、`summary` | 项目名称和一句话摘要，避免把长篇研究内容写入摘要 |
 | `highlights` | 可选，简述与阅读引导的字符串数组；出现在索引表下的项目图览中 |
-| `repository` | 原项目的 HTTPS GitHub 仓库地址 |
+| `repository` | 原项目的 HTTPS GitHub 仓库地址；未公开源码的参考研究为 `null` |
+| `source_url` | 可选，原始参考来源的 HTTPS 地址；`repository` 为 `null` 时必填 |
 | `status` | `queued` 待研究、`researching` 研究中、`validated` 已验证、`paused` 暂停、`archived` 已归档 |
 | `tags` | 标签字符串数组；没有标签时为 `[]` |
 | `preview` | 无图片时为 `null`，有图片时为 `{"path": "projects/0001-example-project/assets/overview.png", "alt": "图片内容说明", "caption": "截图描述及来源"}` |

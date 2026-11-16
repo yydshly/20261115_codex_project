@@ -2,7 +2,7 @@
 
 {{summary}}
 
-- 原项目：[{{repository}}]({{repository}})
+- 原始来源：{{source_links}}
 - 研究状态：以根目录 `projects.json` 为准
 - 演示入口：尚未部署
 
