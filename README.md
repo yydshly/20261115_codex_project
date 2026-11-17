@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **12** 个项目。
+已收录 **13** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -19,9 +19,10 @@
 | 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 | 8 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/) |
 | 9 | `0017` | [观式 · 100 个设计与影像网站](projects/0017-design-reference-atlas/README.md) | 把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。 | 已验证 | [参考来源](https://x.com/EianLu/status/2121219503988113557) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/) |
-| 10 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
-| 11 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
-| 12 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 10 | `0018` | [定制 Bot · 分工、能力与研究迁移](projects/0018-bot-role-research/README.md) | 以完整信息图和交互图厘清 Bot 身份、工具权限和协作价值，整理交易与研究的讨论，并说明八到五岗位的功能迁移。 | 已验证 | [参考来源](https://x.com/Bober_smart/status/2121686230467285097) |
+| 11 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
+| 12 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
+| 13 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 
 ## 项目图览
 
@@ -178,6 +179,22 @@
 本库生成的效果、原理与项目价值总览原图，3200×5768，九张真实代表预览与四条应用路线；不重新绘制。预览版权归原权利人，具体原作机制与证据范围以逐站解析为准。
 
 [进入研究](projects/0017-design-reference-atlas/README.md) · [参考来源](https://x.com/EianLu/status/2121219503988113557) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/)
+
+### 0018 · 定制 Bot · 分工、能力与研究迁移
+
+以完整信息图和交互图厘清 Bot 身份、工具权限和协作价值，整理交易与研究的讨论，并说明八到五岗位的功能迁移。
+
+理解：我们已有搜集与研究能力，重点是组织目标、证据、工具权限和交接；五岗位可以由单任务顺序完成。
+
+图解：完整PNG/SVG、五组8到5转换、原双场景交互图与讨论；EXIT到适配包含新增研究判断，并非等价改名。
+
+价值与边界：留下适配理由、原始证据、最小试验与可回查积累；原帖收益和官方归属未核实，研究采集与定时未部署。
+
+[![完整研究引导图：身份与工具、八个交易岗位、五个研究岗位、转换关系、讨论结论和未验证边界](projects/0018-bot-role-research/assets/bot-role-overview.png)](projects/0018-bot-role-research/assets/bot-role-overview.png)
+
+沿用2026-11-16生成的3200×7230完整图原件，2026-11-17整理发布。图内未发布字样是制作时的历史记录；原帖能力与收益未核实，研究机器人仍未部署。
+
+[进入研究](projects/0018-bot-role-research/README.md) · [参考来源](https://x.com/Bober_smart/status/2121686230467285097)
 
 ### 0019 · 山河共造 · 多人文明世界创作档案
 

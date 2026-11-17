@@ -34,7 +34,7 @@ class CanalResearchIntegrationTests(unittest.TestCase):
     def test_default_publication_includes_only_explicitly_approved_research(self):
         self.assertIn('0003-ai-wide-area-modeling', site.STATIC_PROJECTS)
         self.assertIn('./demos/0003-ai-wide-area-modeling/', self.navigation(False))
-        self.assertNotIn('0018-bot-role-research', site.STATIC_PROJECTS)
+        self.assertIn('0018-bot-role-research', site.STATIC_PROJECTS)
 
     def test_opt_in_preview_adds_research_and_preserves_existing_navigation(self):
         html = self.navigation(True)

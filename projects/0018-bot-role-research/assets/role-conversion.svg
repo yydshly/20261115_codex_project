@@ -1,0 +1,377 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3200" height="1320" viewBox="0 2960 3200 1320" role="img" aria-labelledby="figure-title figure-desc">
+<title id="figure-title">重点转换：八个交易岗位到五个研究岗位</title>
+<desc id="figure-desc">原帖岗位按功能合并、保留、替换和抽象新增，形成五个研究岗位。EXIT到适配评估包含新的研究判断，不是等价改名。这是研究设计，未部署。</desc>
+<style>text{font-family:"Microsoft YaHei","Noto Sans CJK SC",sans-serif}a:hover text{text-decoration:underline}</style>
+<rect x="0" y="2960" width="3200" height="1320" fill="#F5F3ED"/>
+<text x="120.0" y="112.3" font-size="31" font-weight="700" fill="#286C60">0018  /  BOT ROLE RESEARCH</text>
+<text x="120.0" y="256.1" font-size="99" font-weight="700" fill="#18363B">从交易岗位，到研究协作</text>
+<text x="120.0" y="342.1" font-size="41" font-weight="400" fill="#52666A">把一张可点击关系图，展开成可独立阅读的完整研究图。</text>
+<text x="120.0" y="396.5" font-size="29" font-weight="400" fill="#52666A">2026.11.16  ·  原帖描述 / 我们的判断 / 研究迁移设计分别标明</text>
+<text x="120.0" y="498.0" font-size="33" font-weight="700" fill="#286C60">01</text>
+<text x="210.0" y="508.4" font-size="55" font-weight="700" fill="#18363B">原帖讲什么：链上代币交易的分工方案</text>
+<text x="120.0" y="564.3" font-size="31" font-weight="400" fill="#52666A">以下数字和产品能力来自作者叙述；具体币种未公开，偏向小币是语境推断。[S1–S2]</text>
+<rect x="120" y="595" width="900" height="360" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="654.3" font-size="39" font-weight="700" fill="#18363B">作者宣称的成效</text>
+<text x="148.0" y="716.2" font-size="32" font-weight="400" fill="#52666A">8 个 Agent · 每月 200 美元</text>
+<text x="148.0" y="763.2" font-size="32" font-weight="400" fill="#52666A">164 代币 → 21 候选 → 8 次交易</text>
+<text x="148.0" y="810.2" font-size="32" font-weight="400" fill="#52666A">上周净赚 8,700 美元</text>
+<text x="148.0" y="857.2" font-size="32" font-weight="400" fill="#52666A">马斯克转发等说法均未核实</text>
+<rect x="1150" y="595" width="900" height="360" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="654.3" font-size="39" font-weight="700" fill="#18363B">实际讨论的交易对象</text>
+<text x="1178.0" y="716.2" font-size="32" font-weight="400" fill="#52666A">合约 / 钱包 / 资金池 / 链上交易</text>
+<text x="1178.0" y="763.2" font-size="32" font-weight="400" fill="#52666A">对象：链上代币，不是公司股权</text>
+<text x="1178.0" y="810.2" font-size="32" font-weight="400" fill="#52666A">区块链记录持有与转移，不保证价值</text>
+<text x="1178.0" y="857.2" font-size="32" font-weight="400" fill="#52666A">偏小币、可能含迷因币属于推断</text>
+<text x="1178.0" y="904.2" font-size="32" font-weight="400" fill="#52666A">具体币种、本金与完整交易记录未知</text>
+<rect x="2180" y="595" width="900" height="360" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="654.3" font-size="39" font-weight="700" fill="#18363B">本库当前做了什么</text>
+<text x="2208.0" y="716.2" font-size="32" font-weight="400" fill="#52666A">读取原帖与教程文字，整理讨论</text>
+<text x="2208.0" y="763.2" font-size="32" font-weight="400" fill="#52666A">原视频未完成实播核验</text>
+<text x="2208.0" y="810.2" font-size="32" font-weight="400" fill="#52666A">官方归属、费用与能力未独立核验</text>
+<text x="2208.0" y="857.2" font-size="32" font-weight="400" fill="#52666A">未运行交易或研究机器人</text>
+<text x="120.0" y="1028.0" font-size="33" font-weight="700" fill="#286C60">02</text>
+<text x="210.0" y="1038.4" font-size="55" font-weight="700" fill="#18363B">身份如何变成能力：四层关系缺一不可</text>
+<text x="120.0" y="1094.3" font-size="31" font-weight="400" fill="#52666A">身份定义分工，工具与权限决定执行范围，交接规则把信息变成可追溯的结果。</text>
+<rect x="120" y="1125" width="680" height="200" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="146.0" y="1187.0" font-size="42" font-weight="700" fill="#18363B">身份约定</text>
+<text x="146.0" y="1241.3" font-size="31" font-weight="400" fill="#52666A">角色、目标、边界、交付格式、何时停止与升</text>
+<text x="146.0" y="1286.3" font-size="31" font-weight="400" fill="#52666A">级。</text>
+<polyline points="811,1220 868,1220" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="853.5070831249884" y1="1228.8856828918213" x2="868" y2="1220" stroke="#286C60" stroke-width="4"/>
+<line x1="853.5070831249884" y1="1211.1143171081787" x2="868" y2="1220" stroke="#286C60" stroke-width="4"/>
+<rect x="880" y="1125" width="680" height="200" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="906.0" y="1187.0" font-size="42" font-weight="700" fill="#18363B">工具与权限</text>
+<text x="906.0" y="1241.3" font-size="31" font-weight="400" fill="#52666A">浏览器、终端、数据接口、文件与记忆；必须</text>
+<text x="906.0" y="1286.3" font-size="31" font-weight="400" fill="#52666A">实际接入和授权。</text>
+<polyline points="1571,1220 1628,1220" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1613.5070831249884" y1="1228.8856828918213" x2="1628" y2="1220" stroke="#286C60" stroke-width="4"/>
+<line x1="1613.5070831249884" y1="1211.1143171081787" x2="1628" y2="1220" stroke="#286C60" stroke-width="4"/>
+<rect x="1640" y="1125" width="680" height="200" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1666.0" y="1187.0" font-size="42" font-weight="700" fill="#18363B">协作交接</text>
+<text x="1666.0" y="1241.3" font-size="31" font-weight="400" fill="#52666A">统一输入输出、核对来源、处理异常、保留人</text>
+<text x="1666.0" y="1286.3" font-size="31" font-weight="400" fill="#52666A">工审批。</text>
+<polyline points="2331,1220 2388,1220" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2373.507083124988" y1="1228.8856828918213" x2="2388" y2="1220" stroke="#286C60" stroke-width="4"/>
+<line x1="2373.507083124988" y1="1211.1143171081787" x2="2388" y2="1220" stroke="#286C60" stroke-width="4"/>
+<rect x="2400" y="1125" width="680" height="200" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2426.0" y="1187.0" font-size="42" font-weight="700" fill="#18363B">价值结果</text>
+<text x="2426.0" y="1241.3" font-size="31" font-weight="400" fill="#52666A">减少重复操作，保留证据、决策依据和后续行</text>
+<text x="2426.0" y="1286.3" font-size="31" font-weight="400" fill="#52666A">动。</text>
+<text x="120.0" y="1391.9" font-size="34" font-weight="400" fill="#98622B">身份名称本身不会新增执行能力；多个 Bot 也不能自动成为彼此隔离的安全环境。</text>
+<text x="120.0" y="1488.0" font-size="33" font-weight="700" fill="#286C60">03</text>
+<text x="210.0" y="1498.4" font-size="55" font-weight="700" fill="#18363B">交互图展开：8 个交易岗位如何关联</text>
+<text x="120.0" y="1554.3" font-size="31" font-weight="400" fill="#52666A">按原帖描述整理的功能示意，非实测系统架构；每岗同时展开输入、工具、交付、价值与边界。[S1–S2]</text>
+<rect x="1150" y="1585" width="900" height="120" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1180.0" y="1638.7" font-size="36" font-weight="700" fill="#18363B">人工审批：关键选择与敏感步骤</text>
+<text x="1180.0" y="1684.6" font-size="28" font-weight="400" fill="#52666A">目标 · 边界 · 接管；由总协调员衔接</text>
+<polyline points="1600,1717 1600,1758" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round" stroke-dasharray="12 10"/>
+<line x1="1591.1143171081787" y1="1743.5070831249884" x2="1600" y2="1758" stroke="#98622B" stroke-width="4"/>
+<line x1="1608.8856828918213" y1="1743.5070831249884" x2="1600" y2="1758" stroke="#98622B" stroke-width="4"/>
+<polyline points="1032,1920 1138,1920" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1123.5070831249884" y1="1928.8856828918213" x2="1138" y2="1920" stroke="#98622B" stroke-width="4"/>
+<line x1="1123.5070831249884" y1="1911.1143171081787" x2="1138" y2="1920" stroke="#98622B" stroke-width="4"/>
+<polyline points="1032,2285 1080,2285 1080,1944 1138,1944" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1123.5070831249884" y1="1952.8856828918213" x2="1138" y2="1944" stroke="#98622B" stroke-width="4"/>
+<line x1="1123.5070831249884" y1="1935.1143171081787" x2="1138" y2="1944" stroke="#98622B" stroke-width="4"/>
+<polyline points="1032,2650 1050,2650 1050,1968 1138,1968" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1123.5070831249884" y1="1976.8856828918213" x2="1138" y2="1968" stroke="#98622B" stroke-width="4"/>
+<line x1="1123.5070831249884" y1="1959.1143171081787" x2="1138" y2="1968" stroke="#98622B" stroke-width="4"/>
+<polyline points="1600,2082 1600,2198" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1591.1143171081787" y1="2183.507083124988" x2="1600" y2="2198" stroke="#98622B" stroke-width="4"/>
+<line x1="1608.8856828918213" y1="2183.507083124988" x2="1600" y2="2198" stroke="#98622B" stroke-width="4"/>
+<polyline points="2062,2360 2115,2360 2115,1920 2168,1920" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2153.507083124988" y1="1928.8856828918213" x2="2168" y2="1920" stroke="#98622B" stroke-width="4"/>
+<line x1="2153.507083124988" y1="1911.1143171081787" x2="2168" y2="1920" stroke="#98622B" stroke-width="4"/>
+<polyline points="2630,2082 2630,2123" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2621.114317108179" y1="2108.507083124988" x2="2630" y2="2123" stroke="#98622B" stroke-width="4"/>
+<line x1="2638.885682891821" y1="2108.507083124988" x2="2630" y2="2123" stroke="#98622B" stroke-width="4"/>
+<polyline points="3092,1920 3150,1920 3150,2650 3092,2650" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="3106.492916875012" y1="2641.114317108179" x2="3092" y2="2650" stroke="#98622B" stroke-width="4"/>
+<line x1="3106.492916875012" y1="2658.885682891821" x2="3092" y2="2650" stroke="#98622B" stroke-width="4"/>
+<polyline points="2168,2285 2145,2285 2145,2820 2062,2820" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2076.492916875012" y1="2811.114317108179" x2="2062" y2="2820" stroke="#98622B" stroke-width="4"/>
+<line x1="2076.492916875012" y1="2828.885682891821" x2="2062" y2="2820" stroke="#98622B" stroke-width="4"/>
+<polyline points="2168,2650 2100,2650 2100,2845 2062,2845" fill="none" stroke="#98622B" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2076.492916875012" y1="2836.114317108179" x2="2062" y2="2845" stroke="#98622B" stroke-width="4"/>
+<line x1="2076.492916875012" y1="2853.885682891821" x2="2062" y2="2845" stroke="#98622B" stroke-width="4"/>
+<rect x="120" y="1770" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="1829.2" font-size="40" font-weight="700" fill="#18363B">SEARCH · 情报员</text>
+<rect x="148" y="1846" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="148.0" y="1891.3" font-size="31" font-weight="400" fill="#52666A">输入：市场与社群线索</text>
+<text x="148.0" y="1930.3" font-size="31" font-weight="400" fill="#52666A">需要：搜索、浏览器、信息接口</text>
+<text x="148.0" y="1969.3" font-size="31" font-weight="400" fill="#52666A">交付：候选代币清单</text>
+<text x="148.0" y="2008.3" font-size="31" font-weight="400" fill="#52666A">价值：减少重复搜集</text>
+<text x="148.0" y="2052.0" font-size="25" font-weight="400" fill="#98622B">边界：线索需要核实</text>
+<rect x="120" y="2135" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="2194.2" font-size="40" font-weight="700" fill="#18363B">WHALE · 大户观察员</text>
+<rect x="148" y="2211" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="148.0" y="2256.3" font-size="31" font-weight="400" fill="#52666A">输入：重点钱包的交易与持仓</text>
+<text x="148.0" y="2295.3" font-size="31" font-weight="400" fill="#52666A">需要：链上数据接口</text>
+<text x="148.0" y="2334.3" font-size="31" font-weight="400" fill="#52666A">交付：大额资金动向</text>
+<text x="148.0" y="2373.3" font-size="31" font-weight="400" fill="#52666A">价值：补充资金行为线索</text>
+<text x="148.0" y="2417.0" font-size="25" font-weight="400" fill="#98622B">边界：大户行为不保证方向</text>
+<rect x="120" y="2500" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="2559.2" font-size="40" font-weight="700" fill="#18363B">SHILL · 舆情员</text>
+<rect x="148" y="2576" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="148.0" y="2621.3" font-size="31" font-weight="400" fill="#52666A">输入：讨论、互动与账号提及</text>
+<text x="148.0" y="2660.3" font-size="31" font-weight="400" fill="#52666A">需要：社群搜索与统计</text>
+<text x="148.0" y="2699.3" font-size="31" font-weight="400" fill="#52666A">交付：热度变化摘要</text>
+<text x="148.0" y="2738.3" font-size="31" font-weight="400" fill="#52666A">价值：补充市场情绪线索</text>
+<text x="148.0" y="2782.0" font-size="25" font-weight="400" fill="#98622B">边界：热度不等于项目价值</text>
+<rect x="1150" y="1770" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="1829.2" font-size="40" font-weight="700" fill="#18363B">HEAD OF DESK · 总协调员</text>
+<rect x="1178" y="1846" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="1178.0" y="1891.3" font-size="31" font-weight="400" fill="#52666A">输入：各岗位结果与任务规则</text>
+<text x="1178.0" y="1930.3" font-size="31" font-weight="400" fill="#52666A">需要：共享记录与任务调度</text>
+<text x="1178.0" y="1969.3" font-size="31" font-weight="400" fill="#52666A">交付：汇总、交接、审批请求</text>
+<text x="1178.0" y="2008.3" font-size="31" font-weight="400" fill="#52666A">价值：组织协作与异常升级</text>
+<text x="1178.0" y="2052.0" font-size="25" font-weight="400" fill="#98622B">边界：原帖未公开完整实现</text>
+<rect x="1150" y="2210" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="2269.2" font-size="40" font-weight="700" fill="#18363B">RISK · 风控员</text>
+<rect x="1178" y="2286" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="1178.0" y="2331.3" font-size="31" font-weight="400" fill="#52666A">输入：候选代币与合约信息</text>
+<text x="1178.0" y="2370.3" font-size="31" font-weight="400" fill="#52666A">需要：链上及合约检查工具</text>
+<text x="1178.0" y="2409.3" font-size="31" font-weight="400" fill="#52666A">交付：风险标记与检查结果</text>
+<text x="1178.0" y="2448.3" font-size="31" font-weight="400" fill="#52666A">价值：筛查明显风险</text>
+<text x="1178.0" y="2492.0" font-size="25" font-weight="400" fill="#98622B">边界：通过检查不保证安全</text>
+<rect x="2180" y="1770" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="1829.2" font-size="40" font-weight="700" fill="#18363B">SNIPER · 交易执行员</text>
+<rect x="2208" y="1846" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="2208.0" y="1891.3" font-size="31" font-weight="400" fill="#52666A">输入：通过检查的交易计划</text>
+<text x="2208.0" y="1930.3" font-size="31" font-weight="400" fill="#52666A">需要：钱包授权与交易接口</text>
+<text x="2208.0" y="1969.3" font-size="31" font-weight="400" fill="#52666A">交付：下单与成交记录</text>
+<text x="2208.0" y="2008.3" font-size="31" font-weight="400" fill="#52666A">价值：减少手工下单操作</text>
+<text x="2208.0" y="2052.0" font-size="25" font-weight="400" fill="#98622B">边界：速度、成交与收益未实测</text>
+<rect x="2180" y="2135" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="2194.2" font-size="40" font-weight="700" fill="#18363B">RUG · 异常监控员</text>
+<rect x="2208" y="2211" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="2208.0" y="2256.3" font-size="31" font-weight="400" fill="#52666A">输入：持仓、开发者钱包与资金池</text>
+<text x="2208.0" y="2295.3" font-size="31" font-weight="400" fill="#52666A">需要：持续监测与相应授权</text>
+<text x="2208.0" y="2334.3" font-size="31" font-weight="400" fill="#52666A">交付：异常告警或退出触发</text>
+<text x="2208.0" y="2373.3" font-size="31" font-weight="400" fill="#52666A">价值：持续发现异常变化</text>
+<text x="2208.0" y="2417.0" font-size="25" font-weight="400" fill="#98622B">边界：不保证发现或成功退出</text>
+<rect x="2180" y="2500" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="2559.2" font-size="40" font-weight="700" fill="#18363B">EXIT · 退出管理员</text>
+<rect x="2208" y="2576" width="72" height="5" rx="0" fill="#98622B" stroke="none" stroke-width="0"/>
+<text x="2208.0" y="2621.3" font-size="31" font-weight="400" fill="#52666A">输入：持仓、行情与退出规则</text>
+<text x="2208.0" y="2660.3" font-size="31" font-weight="400" fill="#52666A">需要：行情与交易接口</text>
+<text x="2208.0" y="2699.3" font-size="31" font-weight="400" fill="#52666A">交付：止盈止损执行记录</text>
+<text x="2208.0" y="2738.3" font-size="31" font-weight="400" fill="#52666A">价值：按规则管理退出</text>
+<text x="2208.0" y="2782.0" font-size="25" font-weight="400" fill="#98622B">边界：规则不保证盈利</text>
+<rect x="1150" y="2740" width="900" height="170" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="2799.7" font-size="36" font-weight="700" fill="#18363B">预期：减少盯盘，保留交易与退出记录</text>
+<text x="1178.0" y="2889.5" font-size="29" font-weight="400" fill="#98622B">收益与执行效果未验证</text>
+<text x="120.0" y="3038.0" font-size="33" font-weight="700" fill="#286C60">04</text>
+<text x="210.0" y="3048.4" font-size="55" font-weight="700" fill="#18363B">重点转换：从 8 个交易岗，到 5 个研究岗</text>
+<text x="120.0" y="3104.3" font-size="31" font-weight="400" fill="#52666A">按功能重新合并、保留、替换与新增；不是把 8 个名字机械改成 5 个名字。以下映射是我们的设计。</text>
+<text x="148.0" y="3164.4" font-size="30" font-weight="400" fill="#52666A">原帖岗位与可抽象功能</text>
+<text x="1158.0" y="3164.4" font-size="30" font-weight="400" fill="#52666A">研究岗位</text>
+<text x="1825.0" y="3164.4" font-size="30" font-weight="400" fill="#52666A">转换后的能力与交付</text>
+<rect x="120" y="3205" width="890" height="175" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="3259.8" font-size="35" font-weight="700" fill="#18363B">SEARCH / WHALE / SHILL</text>
+<text x="148.0" y="3319.4" font-size="30" font-weight="400" fill="#52666A">多来源搜集与信号汇总</text>
+<polyline points="1024,3307 1116,3307" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1101.5070831249884" y1="3315.885682891821" x2="1116" y2="3307" stroke="#286C60" stroke-width="4"/>
+<line x1="1101.5070831249884" y1="3298.114317108179" x2="1116" y2="3307" stroke="#286C60" stroke-width="4"/>
+<text x="1014.0" y="3266.4" font-size="22" font-weight="400" fill="#286C60">合并</text>
+<rect x="1130" y="3205" width="600" height="175" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1158.0" y="3271.0" font-size="42" font-weight="700" fill="#18363B">发现员</text>
+<text x="1158.0" y="3326.5" font-size="29" font-weight="400" fill="#52666A">带原始链接的候选清单</text>
+<text x="1825.0" y="3254.3" font-size="31" font-weight="400" fill="#18363B">从代币、钱包和热度信号，转为项目、作者和作品线索。</text>
+<rect x="120" y="3400" width="890" height="175" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="3454.8" font-size="35" font-weight="700" fill="#18363B">RISK / RUG</text>
+<text x="148.0" y="3514.4" font-size="30" font-weight="400" fill="#52666A">事前检查与后续异常核对</text>
+<polyline points="1024,3502 1116,3502" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1101.5070831249884" y1="3510.885682891821" x2="1116" y2="3502" stroke="#286C60" stroke-width="4"/>
+<line x1="1101.5070831249884" y1="3493.114317108179" x2="1116" y2="3502" stroke="#286C60" stroke-width="4"/>
+<text x="1014.0" y="3461.4" font-size="22" font-weight="400" fill="#286C60">合并</text>
+<rect x="1130" y="3400" width="600" height="175" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1158.0" y="3466.0" font-size="42" font-weight="700" fill="#18363B">核验员</text>
+<text x="1158.0" y="3521.5" font-size="29" font-weight="400" fill="#52666A">证据与限制记录</text>
+<text x="1825.0" y="3449.3" font-size="31" font-weight="400" fill="#18363B">从合约和资金池风险，转为来源、许可、运行条件及后续变化。</text>
+<rect x="120" y="3595" width="890" height="175" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="3649.8" font-size="35" font-weight="700" fill="#18363B">HEAD OF DESK</text>
+<text x="148.0" y="3709.4" font-size="30" font-weight="400" fill="#52666A">目标、汇总、交接与升级</text>
+<polyline points="1024,3697 1116,3697" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1101.5070831249884" y1="3705.885682891821" x2="1116" y2="3697" stroke="#286C60" stroke-width="4"/>
+<line x1="1101.5070831249884" y1="3688.114317108179" x2="1116" y2="3697" stroke="#286C60" stroke-width="4"/>
+<text x="1014.0" y="3656.4" font-size="22" font-weight="400" fill="#286C60">保留</text>
+<rect x="1130" y="3595" width="600" height="175" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1158.0" y="3661.0" font-size="42" font-weight="700" fill="#18363B">总协调员</text>
+<text x="1158.0" y="3716.5" font-size="29" font-weight="400" fill="#52666A">一致的研究任务与结论</text>
+<text x="1825.0" y="3644.3" font-size="31" font-weight="400" fill="#18363B">统一研究标准，协调岗位并把重要取舍交给人。</text>
+<rect x="120" y="3790" width="890" height="175" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="3844.8" font-size="35" font-weight="700" fill="#18363B">SNIPER</text>
+<text x="148.0" y="3904.4" font-size="30" font-weight="400" fill="#52666A">把计划落实为具体操作</text>
+<polyline points="1024,3892 1116,3892" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1101.5070831249884" y1="3900.885682891821" x2="1116" y2="3892" stroke="#286C60" stroke-width="4"/>
+<line x1="1101.5070831249884" y1="3883.114317108179" x2="1116" y2="3892" stroke="#286C60" stroke-width="4"/>
+<text x="1014.0" y="3851.4" font-size="22" font-weight="400" fill="#286C60">替换</text>
+<rect x="1130" y="3790" width="600" height="175" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1158.0" y="3856.0" font-size="42" font-weight="700" fill="#18363B">整理员</text>
+<text x="1158.0" y="3911.5" font-size="29" font-weight="400" fill="#52666A">可回查的研究卡片</text>
+<text x="1825.0" y="3839.3" font-size="31" font-weight="400" fill="#18363B">把钱包下单替换为受限的资料整理与文档写入。</text>
+<rect x="120" y="3985" width="890" height="175" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="4039.8" font-size="35" font-weight="700" fill="#18363B">EXIT</text>
+<text x="148.0" y="4099.4" font-size="30" font-weight="400" fill="#52666A">按规则决定继续或退出</text>
+<polyline points="1024,4087 1116,4087" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1101.5070831249884" y1="4095.885682891821" x2="1116" y2="4087" stroke="#286C60" stroke-width="4"/>
+<line x1="1101.5070831249884" y1="4078.114317108179" x2="1116" y2="4087" stroke="#286C60" stroke-width="4"/>
+<text x="1014.0" y="4046.4" font-size="22" font-weight="400" fill="#286C60">抽象＋新增</text>
+<rect x="1130" y="3985" width="600" height="175" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1158.0" y="4051.0" font-size="42" font-weight="700" fill="#18363B">适配评估员</text>
+<text x="1158.0" y="4106.5" font-size="29" font-weight="400" fill="#52666A">研究建议与最小试验</text>
+<text x="1825.0" y="4034.3" font-size="31" font-weight="400" fill="#18363B">新增相关性、证据和试验成本判断，决定继续、暂缓或归档；不等同于止盈止损。</text>
+<text x="120.0" y="4232.3" font-size="31" font-weight="400" fill="#98622B">特别注意：EXIT → 适配评估包含新增的研究判断；它与止盈止损不构成等价替换。</text>
+<text x="120.0" y="4338.0" font-size="33" font-weight="700" fill="#286C60">05</text>
+<text x="210.0" y="4348.4" font-size="55" font-weight="700" fill="#18363B">研究图：把散乱线索变成有依据的研究卡片</text>
+<text x="120.0" y="4404.3" font-size="31" font-weight="400" fill="#52666A">这是尚未部署的迁移示意；岗位交接强调证据、适用性和下一步试验，不把自动收集等同于完成研究。</text>
+<rect x="120" y="4435" width="900" height="120" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="4493.6" font-size="37" font-weight="700" fill="#18363B">输入：GitHub / X 的公开线索</text>
+<text x="148.0" y="4537.6" font-size="28" font-weight="400" fill="#52666A">保留原始链接、发现时间与覆盖限制</text>
+<rect x="1150" y="4435" width="900" height="120" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="4491.8" font-size="35" font-weight="700" fill="#18363B">人定方向：兴趣、当前问题与研究取舍</text>
+<text x="1178.0" y="4537.6" font-size="28" font-weight="400" fill="#52666A">反馈到筛选标准；重要取舍保留人工决策</text>
+<polyline points="570,4567 570,4618" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="561.1143171081787" y1="4603.507083124989" x2="570" y2="4618" stroke="#286C60" stroke-width="4"/>
+<line x1="578.8856828918211" y1="4603.507083124989" x2="570" y2="4618" stroke="#286C60" stroke-width="4"/>
+<polyline points="1032,4780 1138,4780" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1123.5070831249884" y1="4788.8856828918215" x2="1138" y2="4780" stroke="#286C60" stroke-width="4"/>
+<line x1="1123.5070831249884" y1="4771.1143171081785" x2="1138" y2="4780" stroke="#286C60" stroke-width="4"/>
+<polyline points="2062,4780 2168,4780" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2153.507083124988" y1="4788.8856828918215" x2="2168" y2="4780" stroke="#286C60" stroke-width="4"/>
+<line x1="2153.507083124988" y1="4771.1143171081785" x2="2168" y2="4780" stroke="#286C60" stroke-width="4"/>
+<polyline points="2630,4942 2630,4998 570,4998 570,5038" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="561.1143171081787" y1="5023.507083124989" x2="570" y2="5038" stroke="#286C60" stroke-width="4"/>
+<line x1="578.8856828918211" y1="5023.507083124989" x2="570" y2="5038" stroke="#286C60" stroke-width="4"/>
+<polyline points="1032,5200 1138,5200" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="1123.5070831249884" y1="5208.8856828918215" x2="1138" y2="5200" stroke="#286C60" stroke-width="4"/>
+<line x1="1123.5070831249884" y1="5191.1143171081785" x2="1138" y2="5200" stroke="#286C60" stroke-width="4"/>
+<polyline points="2062,5200 2168,5200" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round"/>
+<line x1="2153.507083124988" y1="5208.8856828918215" x2="2168" y2="5200" stroke="#286C60" stroke-width="4"/>
+<line x1="2153.507083124988" y1="5191.1143171081785" x2="2168" y2="5200" stroke="#286C60" stroke-width="4"/>
+<polyline points="1138,4495 1080,4495 1080,5150 1032,5150" fill="none" stroke="#286C60" stroke-width="4" stroke-linejoin="round" stroke-dasharray="12 10"/>
+<line x1="1046.4929168750116" y1="5141.1143171081785" x2="1032" y2="5150" stroke="#286C60" stroke-width="4"/>
+<line x1="1046.4929168750116" y1="5158.8856828918215" x2="1032" y2="5150" stroke="#286C60" stroke-width="4"/>
+<rect x="120" y="4630" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="4689.2" font-size="40" font-weight="700" fill="#18363B">发现员</text>
+<rect x="148" y="4706" width="72" height="5" rx="0" fill="#286C60" stroke="none" stroke-width="0"/>
+<text x="148.0" y="4751.3" font-size="31" font-weight="400" fill="#52666A">输入：GitHub / X 公开线索</text>
+<text x="148.0" y="4790.3" font-size="31" font-weight="400" fill="#52666A">需要：搜索与浏览器</text>
+<text x="148.0" y="4829.3" font-size="31" font-weight="400" fill="#52666A">交付：候选项目、原始链接与时间</text>
+<text x="148.0" y="4868.3" font-size="31" font-weight="400" fill="#52666A">价值：扩大有效发现</text>
+<text x="148.0" y="4912.0" font-size="25" font-weight="400" fill="#286C60">边界：访问受限时保留覆盖说明</text>
+<rect x="1150" y="4630" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="4689.2" font-size="40" font-weight="700" fill="#18363B">核验员</text>
+<rect x="1178" y="4706" width="72" height="5" rx="0" fill="#286C60" stroke="none" stroke-width="0"/>
+<text x="1178.0" y="4751.3" font-size="31" font-weight="400" fill="#52666A">输入：仓库、作者、文档与许可</text>
+<text x="1178.0" y="4790.3" font-size="31" font-weight="400" fill="#52666A">需要：原始资料读取</text>
+<text x="1178.0" y="4829.3" font-size="31" font-weight="400" fill="#52666A">交付：事实、作者宣称、未知项</text>
+<text x="1178.0" y="4868.3" font-size="31" font-weight="400" fill="#52666A">价值：提高信息可靠性</text>
+<text x="1178.0" y="4912.0" font-size="25" font-weight="400" fill="#286C60">边界：读文档不等于运行验证</text>
+<rect x="2180" y="4630" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="4689.2" font-size="40" font-weight="700" fill="#18363B">适配评估员</text>
+<rect x="2208" y="4706" width="72" height="5" rx="0" fill="#286C60" stroke="none" stroke-width="0"/>
+<text x="2208.0" y="4751.3" font-size="31" font-weight="400" fill="#52666A">输入：证据、现有项目与研究问题</text>
+<text x="2208.0" y="4790.3" font-size="31" font-weight="400" fill="#52666A">需要：本库索引与需求记录</text>
+<text x="2208.0" y="4829.3" font-size="31" font-weight="400" fill="#52666A">交付：具体增量、成本与最小试验</text>
+<text x="2208.0" y="4868.3" font-size="31" font-weight="400" fill="#52666A">价值：说明为什么值得研究</text>
+<text x="2208.0" y="4912.0" font-size="25" font-weight="400" fill="#286C60">边界：这是新增的研究取舍</text>
+<rect x="120" y="5050" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="5109.2" font-size="40" font-weight="700" fill="#18363B">总协调员</text>
+<rect x="148" y="5126" width="72" height="5" rx="0" fill="#286C60" stroke="none" stroke-width="0"/>
+<text x="148.0" y="5171.3" font-size="31" font-weight="400" fill="#52666A">输入：研究目标与各岗位结果</text>
+<text x="148.0" y="5210.3" font-size="31" font-weight="400" fill="#52666A">需要：共享记录与交接规则</text>
+<text x="148.0" y="5249.3" font-size="31" font-weight="400" fill="#52666A">交付：统一取舍、交接与异常处理</text>
+<text x="148.0" y="5288.3" font-size="31" font-weight="400" fill="#52666A">价值：减少遗漏和重复劳动</text>
+<text x="148.0" y="5332.0" font-size="25" font-weight="400" fill="#286C60">边界：多岗位不自动提高正确率</text>
+<rect x="1150" y="5050" width="900" height="300" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="5109.2" font-size="40" font-weight="700" fill="#18363B">整理员</text>
+<rect x="1178" y="5126" width="72" height="5" rx="0" fill="#286C60" stroke="none" stroke-width="0"/>
+<text x="1178.0" y="5171.3" font-size="31" font-weight="400" fill="#52666A">输入：筛选理由、证据与研究建议</text>
+<text x="1178.0" y="5210.3" font-size="31" font-weight="400" fill="#52666A">需要：受限的文档写入工具</text>
+<text x="1178.0" y="5249.3" font-size="31" font-weight="400" fill="#52666A">交付：研究卡片、来源与下一步</text>
+<text x="1178.0" y="5288.3" font-size="31" font-weight="400" fill="#52666A">价值：方便回查和继续研究</text>
+<text x="1178.0" y="5332.0" font-size="25" font-weight="400" fill="#286C60">边界：未运行的能力保持待验证</text>
+<rect x="2180" y="5050" width="900" height="300" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="5109.3" font-size="39" font-weight="700" fill="#18363B">预期价值结果</text>
+<text x="2208.0" y="5170.3" font-size="31" font-weight="400" fill="#52666A">候选为什么值得看，有证据可查</text>
+<text x="2208.0" y="5217.3" font-size="31" font-weight="400" fill="#52666A">说明与已有项目的关系及增量</text>
+<text x="2208.0" y="5264.3" font-size="31" font-weight="400" fill="#52666A">给出一个可执行的最小试验</text>
+<text x="2208.0" y="5311.3" font-size="31" font-weight="400" fill="#52666A">保留暂缓、未知与失败的理由</text>
+<text x="120.0" y="5478.0" font-size="33" font-weight="700" fill="#286C60">06</text>
+<text x="210.0" y="5488.4" font-size="55" font-weight="700" fill="#18363B">讨论的认识变化：交易对象、价值与可借鉴部分</text>
+<text x="120.0" y="5544.3" font-size="31" font-weight="400" fill="#52666A">以下为讨论结论与判断边界；不作投资建议，也不把所有加密资产或小币一概定性。[S3–S7]</text>
+<rect x="120" y="5575" width="900" height="350" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="5634.3" font-size="39" font-weight="700" fill="#18363B">小币：接盘与赌博性质</text>
+<text x="148.0" y="5696.2" font-size="32" font-weight="400" fill="#52666A">无实用或收入支撑、只靠热度转售时，</text>
+<text x="148.0" y="5743.2" font-size="32" font-weight="400" fill="#52666A">盈利依赖后续买家，赌博性质很强。</text>
+<text x="148.0" y="5790.2" font-size="32" font-weight="400" fill="#52666A">卖出需要买家本身，不足以证明骗局。</text>
+<text x="148.0" y="5837.2" font-size="32" font-weight="400" fill="#52666A">股票代表公司所有权，可由经营支撑。</text>
+<text x="148.0" y="5884.2" font-size="32" font-weight="400" fill="#52666A">小币名称本身不能作法律定性。</text>
+<rect x="1150" y="5575" width="900" height="350" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="5634.3" font-size="39" font-weight="700" fill="#18363B">比特币：功能与价格要分开</text>
+<text x="1178.0" y="5696.2" font-size="32" font-weight="400" fill="#52666A">价值主张：点对点转账、有限发行、</text>
+<text x="1178.0" y="5743.2" font-size="32" font-weight="400" fill="#52666A">自行保管与网络接受；不产企业利润。</text>
+<text x="1178.0" y="5790.2" font-size="32" font-weight="400" fill="#52666A">这些功能不能推出固定合理价格，</text>
+<text x="1178.0" y="5837.2" font-size="32" font-weight="400" fill="#52666A">只靠涨价获利仍依赖后续买家。</text>
+<rect x="2180" y="5575" width="900" height="350" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="5634.3" font-size="39" font-weight="700" fill="#18363B">我们的选择：借鉴协作机制</text>
+<text x="2208.0" y="5696.2" font-size="32" font-weight="400" fill="#52666A">围绕明确问题组织搜集、核验和判断。</text>
+<text x="2208.0" y="5743.2" font-size="32" font-weight="400" fill="#52666A">角色数量、名称和 AI 都不保证正确。</text>
+<text x="2208.0" y="5790.2" font-size="32" font-weight="400" fill="#52666A">图表与网页是研究成果；</text>
+<text x="2208.0" y="5837.2" font-size="32" font-weight="400" fill="#52666A">自动采集、定时与机器人尚未部署。</text>
+<text x="120.0" y="6018.0" font-size="33" font-weight="700" fill="#286C60">07</text>
+<text x="210.0" y="6028.4" font-size="55" font-weight="700" fill="#18363B">证据与边界：把宣称、设计与已完成内容分开</text>
+<text x="120.0" y="6084.3" font-size="31" font-weight="400" fill="#52666A">本图为本库原创研究整理，不是机器人运行截图；产品归属、收益和真实执行能力保留未核实说明。</text>
+<rect x="120" y="6115" width="900" height="260" rx="16" fill="#F3EBDD" stroke="#D6DFDA" stroke-width="2"/>
+<text x="148.0" y="6174.3" font-size="39" font-weight="700" fill="#18363B">原作者宣称</text>
+<text x="148.0" y="6234.4" font-size="30" font-weight="400" fill="#52666A">8 个交易岗位与云端执行方式</text>
+<text x="148.0" y="6281.4" font-size="30" font-weight="400" fill="#52666A">费用、收益、扫描及成交数量</text>
+<text x="148.0" y="6328.4" font-size="30" font-weight="400" fill="#52666A">马斯克转发与 Grok Bot 官方归属</text>
+<rect x="1150" y="6115" width="900" height="260" rx="16" fill="#FFFEFA" stroke="#D6DFDA" stroke-width="2"/>
+<text x="1178.0" y="6174.3" font-size="39" font-weight="700" fill="#18363B">我们的推断与设计</text>
+<text x="1178.0" y="6234.4" font-size="30" font-weight="400" fill="#52666A">交易偏向小币的语境判断</text>
+<text x="1178.0" y="6281.4" font-size="30" font-weight="400" fill="#52666A">8 岗位 → 5 岗位的功能迁移</text>
+<text x="1178.0" y="6328.4" font-size="30" font-weight="400" fill="#52666A">研究图的交接、筛选和价值目标</text>
+<rect x="2180" y="6115" width="900" height="260" rx="16" fill="#E6F0EB" stroke="#D6DFDA" stroke-width="2"/>
+<text x="2208.0" y="6174.3" font-size="39" font-weight="700" fill="#18363B">本轮实际交付</text>
+<text x="2208.0" y="6234.4" font-size="30" font-weight="400" fill="#52666A">讨论记录、来源与能力边界</text>
+<text x="2208.0" y="6281.4" font-size="30" font-weight="400" fill="#52666A">完整 PNG / SVG 与转换图</text>
+<text x="2208.0" y="6328.4" font-size="30" font-weight="400" fill="#52666A">交互阅读页；验证范围另见记录</text>
+<text x="120.0" y="6453.2" font-size="32" font-weight="400" fill="#98622B">环境表述需要区分：原帖称各 Agent 有浏览器、终端与记忆；教程称同账号共享一台云电脑、文件和登录会话。后者也未经官方文档独立核验。[S1–S2]</text>
+<text x="120.0" y="6587.3" font-size="31" font-weight="700" fill="#18363B">原始来源与基础资料（SVG 中标题可点击；完整链接与访问说明见网页及 assets/SOURCES.md）</text>
+<a href="https://x.com/Bober_smart/status/2121686230467285097" target="_blank" rel="noopener noreferrer"><title>https://x.com/Bober_smart/status/2121686230467285097</title>
+<text x="120.0" y="6654.6" font-size="28" font-weight="400" fill="#286C60">S1  原帖 / 8 岗位与收益宣称</text>
+</a>
+<text x="120.0" y="6698.0" font-size="25" font-weight="400" fill="#52666A">x.com/Bober_smart/status/2121686230467285097</text>
+<a href="https://x.com/Bober_smart/status/2091901718061531571" target="_blank" rel="noopener noreferrer"><title>https://x.com/Bober_smart/status/2091901718061531571</title>
+<text x="1650.0" y="6654.6" font-size="28" font-weight="400" fill="#286C60">S2  关联教程 / 身份、工具、共享环境与审批</text>
+</a>
+<text x="1650.0" y="6698.0" font-size="25" font-weight="400" fill="#52666A">x.com/Bober_smart/status/2091901718061531571</text>
+<a href="https://www.sec.gov/newsroom/speeches-statements/staff-statement-meme-coins" target="_blank" rel="noopener noreferrer"><title>https://www.sec.gov/newsroom/speeches-statements/staff-statement-meme-coins</title>
+<text x="120.0" y="6766.6" font-size="28" font-weight="400" fill="#286C60">S3  SEC 工作人员 / 典型迷因币的用途与风险</text>
+</a>
+<text x="120.0" y="6810.0" font-size="25" font-weight="400" fill="#52666A">sec.gov · Staff Statement on Meme Coins</text>
+<a href="https://bitcoin.org/bitcoin.pdf" target="_blank" rel="noopener noreferrer"><title>https://bitcoin.org/bitcoin.pdf</title>
+<text x="1650.0" y="6766.6" font-size="28" font-weight="400" fill="#286C60">S4  Bitcoin 白皮书 / 点对点支付的技术设计</text>
+</a>
+<text x="1650.0" y="6810.0" font-size="25" font-weight="400" fill="#52666A">bitcoin.org/bitcoin.pdf</text>
+<a href="https://bitcoin.org/en/faq" target="_blank" rel="noopener noreferrer"><title>https://bitcoin.org/en/faq</title>
+<text x="120.0" y="6878.6" font-size="28" font-weight="400" fill="#286C60">S5  Bitcoin.org FAQ / 发行、使用与失败风险</text>
+</a>
+<text x="120.0" y="6922.0" font-size="25" font-weight="400" fill="#52666A">bitcoin.org/en/faq · 项目社区来源</text>
+<a href="https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024" target="_blank" rel="noopener noreferrer"><title>https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024</title>
+<text x="1650.0" y="6878.6" font-size="28" font-weight="400" fill="#286C60">S6  Investor.gov / Bitcoin、Ether ETP 风险</text>
+</a>
+<text x="1650.0" y="6922.0" font-size="25" font-weight="400" fill="#52666A">Investor Bulletin · 2024-09-09</text>
+<a href="https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks" target="_blank" rel="noopener noreferrer"><title>https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks</title>
+<text x="120.0" y="6990.6" font-size="28" font-weight="400" fill="#286C60">S7  Investor.gov / 股票所有权与分红</text>
+</a>
+<text x="120.0" y="7034.0" font-size="25" font-weight="400" fill="#52666A">Stocks – FAQs</text>
+<a href="https://ethereum.org/zh/developers/docs/intro-to-ether/" target="_blank" rel="noopener noreferrer"><title>https://ethereum.org/zh/developers/docs/intro-to-ether/</title>
+<text x="1650.0" y="6990.6" font-size="28" font-weight="400" fill="#286C60">S8  Ethereum.org / 加密货币与以太币基本用途</text>
+</a>
+<text x="1650.0" y="7034.0" font-size="25" font-weight="400" fill="#52666A">ethereum.org · 以太币技术简介</text>
+<text x="120.0" y="7172.6" font-size="28" font-weight="400" fill="#52666A">0018 · 定制 Bot 研究  /  原帖方案未实测 · 研究自动化未部署 · 本地整理，尚未公开发布</text>
+</svg>

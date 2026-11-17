@@ -104,3 +104,8 @@ CI 额外按锁文件安装该项目的 Three.js。`scripts/build.py` 先按 `pu
 用户于 2026-11-17 明确授权加入 `0016-abyssal-world-notes`，入口为 `demos/0016-abyssal-world-notes/index.html`。摘要和阅读页说明原库的程序化海底、可读源码与验收任务书价值，以及本库七项原创创作提示词。完整中英文原文、原创任务书、三张实测图与 MIT 来源一并保留，原创任务书尚未执行。
 
 总导航与网页的引导图使用本轮生成的 `assets/understanding-summary.png` 原件，2400×5595，哈希不变。标准库构建与发布检查核对原图、截图、完整文本、相对路径及 8 MiB 预算，不在 CI 重绘图片或安装额外依赖。仅加入本项目的白名单和触发路径，保留既有公开项目；真实提交、Actions 和公开资源核验见本项目 `publication.md`，实际验证后才填写 `demo_url`。
+
+
+## 定制 Bot 研究网页公开发布
+
+`0018-bot-role-research` 于 2026-11-17 获得用户明确提交与公开部署授权，已加入发布白名单。`scripts/build.py --publication` 导出六项理解、完整图、重点转换图、原交互图、讨论和来源；标准库 `check_publication.py` 核对相对资源、8→5 迁移、8 个来源、原图哈希和 8 MiB 预算。网页与总导航沿用 3200×7230 的 `assets/bot-role-overview.png` 原件，不在 CI 重绘或安装字体。保留其他已公开项目，未授权的本地研究不随本轮提交。公开路径为 `/20261115_codex_project/demos/0018-bot-role-research/`，实际公开验收后才填写 `demo_url`；PR、Actions 与验收证据见项目 `publication.md`。本地仍支持 `--site-preview`，网页发布不表示研究机器人、自动采集或定时已部署。

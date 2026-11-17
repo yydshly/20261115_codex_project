@@ -1,0 +1,545 @@
+{
+  "generated_on": "2026-11-16",
+  "kind": "original-research-illustration",
+  "width": 3200,
+  "height": 7230,
+  "trading_roles": [
+    "search",
+    "whale",
+    "shill",
+    "head",
+    "risk",
+    "sniper",
+    "rug",
+    "exit"
+  ],
+  "research_roles": [
+    "discover",
+    "verify",
+    "fit",
+    "coordinate",
+    "document"
+  ],
+  "conversion_groups": 5,
+  "conversion_crop": {
+    "y": 2960,
+    "height": 1320
+  },
+  "conversion_rows": [
+    {
+      "from": [
+        "search",
+        "whale",
+        "shill"
+      ],
+      "to": "discover",
+      "rect": [
+        120,
+        3205,
+        2960,
+        175
+      ]
+    },
+    {
+      "from": [
+        "risk",
+        "rug"
+      ],
+      "to": "verify",
+      "rect": [
+        120,
+        3400,
+        2960,
+        175
+      ]
+    },
+    {
+      "from": [
+        "head"
+      ],
+      "to": "coordinate",
+      "rect": [
+        120,
+        3595,
+        2960,
+        175
+      ]
+    },
+    {
+      "from": [
+        "sniper"
+      ],
+      "to": "document",
+      "rect": [
+        120,
+        3790,
+        2960,
+        175
+      ]
+    },
+    {
+      "from": [
+        "exit"
+      ],
+      "to": "fit",
+      "rect": [
+        120,
+        3985,
+        2960,
+        175
+      ]
+    }
+  ],
+  "source_links": [
+    "https://bitcoin.org/bitcoin.pdf",
+    "https://bitcoin.org/en/faq",
+    "https://ethereum.org/zh/developers/docs/intro-to-ether/",
+    "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024",
+    "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+    "https://www.sec.gov/newsroom/speeches-statements/staff-statement-meme-coins",
+    "https://x.com/Bober_smart/status/2091901718061531571",
+    "https://x.com/Bober_smart/status/2121686230467285097"
+  ],
+  "text_items": 226,
+  "text_bounds_checked": true,
+  "edges": [
+    {
+      "points": [
+        [
+          811,
+          1220
+        ],
+        [
+          868,
+          1220
+        ]
+      ],
+      "relation": "能力层衔接",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1571,
+          1220
+        ],
+        [
+          1628,
+          1220
+        ]
+      ],
+      "relation": "能力层衔接",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2331,
+          1220
+        ],
+        [
+          2388,
+          1220
+        ]
+      ],
+      "relation": "能力层衔接",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1600,
+          1717
+        ],
+        [
+          1600,
+          1758
+        ]
+      ],
+      "relation": "人工审批 → 总协调",
+      "kind": "control"
+    },
+    {
+      "points": [
+        [
+          1032,
+          1920
+        ],
+        [
+          1138,
+          1920
+        ]
+      ],
+      "relation": "SEARCH → HEAD",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1032,
+          2285
+        ],
+        [
+          1080,
+          2285
+        ],
+        [
+          1080,
+          1944
+        ],
+        [
+          1138,
+          1944
+        ]
+      ],
+      "relation": "WHALE → HEAD",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1032,
+          2650
+        ],
+        [
+          1050,
+          2650
+        ],
+        [
+          1050,
+          1968
+        ],
+        [
+          1138,
+          1968
+        ]
+      ],
+      "relation": "SHILL → HEAD",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1600,
+          2082
+        ],
+        [
+          1600,
+          2198
+        ]
+      ],
+      "relation": "HEAD → RISK",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2062,
+          2360
+        ],
+        [
+          2115,
+          2360
+        ],
+        [
+          2115,
+          1920
+        ],
+        [
+          2168,
+          1920
+        ]
+      ],
+      "relation": "RISK → SNIPER",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2630,
+          2082
+        ],
+        [
+          2630,
+          2123
+        ]
+      ],
+      "relation": "SNIPER → RUG",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          3092,
+          1920
+        ],
+        [
+          3150,
+          1920
+        ],
+        [
+          3150,
+          2650
+        ],
+        [
+          3092,
+          2650
+        ]
+      ],
+      "relation": "SNIPER → EXIT",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2168,
+          2285
+        ],
+        [
+          2145,
+          2285
+        ],
+        [
+          2145,
+          2820
+        ],
+        [
+          2062,
+          2820
+        ]
+      ],
+      "relation": "RUG → 退出记录",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2168,
+          2650
+        ],
+        [
+          2100,
+          2650
+        ],
+        [
+          2100,
+          2845
+        ],
+        [
+          2062,
+          2845
+        ]
+      ],
+      "relation": "EXIT → 退出记录",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1024,
+          3307
+        ],
+        [
+          1116,
+          3307
+        ]
+      ],
+      "relation": "合并 → 发现员",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1024,
+          3502
+        ],
+        [
+          1116,
+          3502
+        ]
+      ],
+      "relation": "合并 → 核验员",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1024,
+          3697
+        ],
+        [
+          1116,
+          3697
+        ]
+      ],
+      "relation": "保留 → 总协调员",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1024,
+          3892
+        ],
+        [
+          1116,
+          3892
+        ]
+      ],
+      "relation": "替换 → 整理员",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1024,
+          4087
+        ],
+        [
+          1116,
+          4087
+        ]
+      ],
+      "relation": "抽象＋新增 → 适配评估员",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          570,
+          4567
+        ],
+        [
+          570,
+          4618
+        ]
+      ],
+      "relation": "线索 → 发现",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1032,
+          4780
+        ],
+        [
+          1138,
+          4780
+        ]
+      ],
+      "relation": "发现 → 核验",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2062,
+          4780
+        ],
+        [
+          2168,
+          4780
+        ]
+      ],
+      "relation": "核验 → 适配",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2630,
+          4942
+        ],
+        [
+          2630,
+          4998
+        ],
+        [
+          570,
+          4998
+        ],
+        [
+          570,
+          5038
+        ]
+      ],
+      "relation": "适配 → 协调",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1032,
+          5200
+        ],
+        [
+          1138,
+          5200
+        ]
+      ],
+      "relation": "协调 → 整理",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          2062,
+          5200
+        ],
+        [
+          2168,
+          5200
+        ]
+      ],
+      "relation": "整理 → 交付",
+      "kind": "delivery"
+    },
+    {
+      "points": [
+        [
+          1138,
+          4495
+        ],
+        [
+          1080,
+          4495
+        ],
+        [
+          1080,
+          5150
+        ],
+        [
+          1032,
+          5150
+        ]
+      ],
+      "relation": "人工目标 → 协调",
+      "kind": "control"
+    }
+  ],
+  "font": "Installed Microsoft YaHei; font files are not redistributed",
+  "scope": "根据原帖、关联教程与本次讨论整理；原帖能力及收益未独立验证，研究团队是迁移设计，未部署或开启定时。",
+  "files": [
+    {
+      "path": "bot-role-overview.png",
+      "sha256": "cfb333f34c996af11dac6473ef8b3283380f3b74c2f0da6da7e284c69f8b9f4c"
+    },
+    {
+      "path": "bot-role-overview.svg",
+      "sha256": "71e4c92f0c1af0e38512b60c570543bfab586817c9605119cff5832422205010"
+    },
+    {
+      "path": "role-conversion.png",
+      "sha256": "32dd6843e847c5e1a13a459e4fcf4feb206a6a231939cb5eb6ba7a10e1a6beb3"
+    },
+    {
+      "path": "role-conversion.svg",
+      "sha256": "b76bad20a66bf5e177a2cd75894028ba4d632a2fb97aa932bcce2a8c872bd985"
+    },
+    {
+      "path": "overview-preview.jpg",
+      "sha256": "d68b83f4f473d53948a9ebef396be61ac7fd5efbb0b461d2f0cd9bef51dc608f"
+    }
+  ]
+}
