@@ -33,6 +33,13 @@ def check(site):
                 'life.html', 'shelter.html', 'arranging.html', 'design.html'}
     if {p.name for p in pages} != expected:
         errors.append('The nine published pages are incomplete')
+    home = (site/'index.html').read_text(encoding='utf-8')
+    for entry in ['index.html?visit=preview&amp;space=outside', 'index.html?visit=preview&amp;space=inside',
+                  'index.html?visit=home', 'demo-home.css']:
+        if entry not in home:
+            errors.append('Missing game/demo entry: '+entry)
+    if '<main>\\n' in home:
+        errors.append('Literal escaped newline in the homepage')
     data = (site/'js/understanding-data.mjs').read_text(encoding='utf-8')
     elements = data.split('export const ELEMENTS = [', 1)[1].split('\n];', 1)[0]
     pages[(site/'understanding.html').resolve()].ids += ['element-'+s for s in re.findall(r"\bid:'([^']+)'", elements)]
