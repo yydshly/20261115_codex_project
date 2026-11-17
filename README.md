@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- | --- |
 | 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
 | 2 | `0003` | [从单图到可编辑三维 · 运河世界研究](projects/0003-ai-wide-area-modeling/README.md) | 从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。 | 研究中 | [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) |
-| 3 | `0005` | [风归小庭 · 像素风与庭院游戏](projects/0005-wind-return-garden/README.md) | 从 SpriteCook 素材出发，验证分层风动与可玩庭院，整理素材价值、实际效果、创作复用和 AI 居民扩展路线。 | 已验证 | [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) |
+| 3 | `0005` | [风归小庭 · 像素风与庭院游戏](projects/0005-wind-return-garden/README.md) | 从 SpriteCook 素材出发，验证分层风动与可玩庭院，整理素材价值、实际效果、创作复用和 AI 居民扩展路线。 | 已验证 | [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html) |
 | 4 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 5 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 | 6 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
@@ -69,7 +69,7 @@
 
 沿用本轮生成的3200×4400 v2图谱，含18处原素材与真实研究画面；点击放大。素材来源、制作能力与体验价值分别说明，AI居民、视频和三维扩展仍待验证。
 
-[进入研究](projects/0005-wind-return-garden/README.md) · [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation)
+[进入研究](projects/0005-wind-return-garden/README.md) · [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html)
 
 ### 0009 · 知源 · AI 与开源信息源指南
 

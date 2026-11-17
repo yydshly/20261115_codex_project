@@ -20,7 +20,7 @@
 - [庭院布置与邻居来信](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/arranging.html) · [我的布置与信件册](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/#arrangement)：两只花盆、长椅与茶桌，三条小径、两种铺面，五封回应行动的故事来信。
 - [我们的游戏设计 v0.3](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/design.html) · [完整设计文档](research/game-design.md)：AI 居民的自主日常、平等交流、游戏运行职责与三种玩法模式，区分现有原型和目标设计。
 - [从素材到体验 / 研究图谱 v2](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html) · [含原图与实景的高清图谱](assets/understanding-research-map-v2-public.png) · [完整矢量图](assets/understanding-research-map-v2-public.svg)：素材入口、实时效果、庭院用途、创作迁移、价值与 AI 方向，第三方素材分别署名。
-- 本地发布构建已通过，实际远端提交、Actions 与上线结果见 [发布记录](publication.md)。demo_url 在公开验收后填写。
+- 已通过 GitHub Pages 上线并完成公开页面验收。源提交、Actions、截图与实际范围见 [发布记录](publication.md)；总库 demo_url 已登记为研究总览。
 
 ## 它解决什么问题
 
