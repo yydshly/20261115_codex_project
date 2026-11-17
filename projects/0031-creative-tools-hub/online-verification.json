@@ -1,0 +1,739 @@
+{
+  "checked_at_utc": "2026-11-17T14:39:53.351009+00:00",
+  "url": "https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/",
+  "checks": {
+    "root_status": 200,
+    "summary_present": true,
+    "highlights_present": true,
+    "original_guide_in_root_navigation": true,
+    "navigation_all_accessible": true,
+    "resource_hashes_match": true,
+    "all_video_ranges": true
+  },
+  "resource_count": 69,
+  "resources": [
+    {
+      "path": "app.js",
+      "status": 200,
+      "bytes": 6027,
+      "sha256": "0f8fb0833aa94ca029e65e6e36f6deefa7c045977629370fb0ae9b92ed1e3e26",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "assets/creative-tools-overview-preview.jpg",
+      "status": 200,
+      "bytes": 701268,
+      "sha256": "833e0c54bb86dc210ca30f8f0d2782da768af380b06ffbb98d37ad56b14d6446",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/creative-tools-overview.png",
+      "status": 200,
+      "bytes": 5315151,
+      "sha256": "e41c8fdbdf549304220d70487aa102d532c85ca87bc9f52538c721a221ae7c7f",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/creative-tools-overview.svg",
+      "status": 200,
+      "bytes": 2032837,
+      "sha256": "d1c97ab81921797b001428bc5c6bcc7e9d2248642cf2180d58b36546a14a5051",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/mark.svg",
+      "status": 200,
+      "bytes": 244,
+      "sha256": "2b50638ba90be8ebdf98af8eb8901028061e63c1e20d21d7cdd22ebd32a0bafe",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/overview-cover.jpg",
+      "status": 200,
+      "bytes": 238338,
+      "sha256": "bc1e1cad48f2f8858ec7b92af7bc1b79ae122d602e873f1afd6937652e23fc7d",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "status": 200,
+      "bytes": 4862,
+      "sha256": "d93337e73aca88a70cc0ea99979375e7edcb9542202603015f31507b4538835e",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "assets/thumbs/anthropic.jpg",
+      "status": 200,
+      "bytes": 81230,
+      "sha256": "d7609213127b3c093315fef5e0acd7a8a4ed70b721832a7f39cf0efed198524c",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/blender.jpg",
+      "status": 200,
+      "bytes": 72448,
+      "sha256": "1a777b6510c51be8b14dc85c15ce89e1c31b87dcdce7b84409fabfcd9b6b6b3d",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/comfyui.jpg",
+      "status": 200,
+      "bytes": 106324,
+      "sha256": "fc9d9a5d63ab41cf7cb8c3b7ea3a02ce10f69bf3cd83a767c7309089c24b1531",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/effectcraft.jpg",
+      "status": 200,
+      "bytes": 81887,
+      "sha256": "23c52c158027aa2dabad1f0e47d57485f50889b43ef4b0e01d096e4ae40f4e77",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/gsap.jpg",
+      "status": 200,
+      "bytes": 58928,
+      "sha256": "0a9616be5bc130f70a455498133c35677f4ad5a2cb2caba139b17f629908a3b6",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/hyperframes.jpg",
+      "status": 200,
+      "bytes": 37929,
+      "sha256": "cf0d05319fb9d75b402969e8066ca435352f486d26716c9e6eda035899de77df",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/impeccable.jpg",
+      "status": 200,
+      "bytes": 276101,
+      "sha256": "b1571041bb28fb78c92d1bde7952ef94d703b6ad3ad492b31ed630ae8a52c346",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/lemo.jpg",
+      "status": 200,
+      "bytes": 101876,
+      "sha256": "53f3d1af5ed5f27dddbb49e9ba0c53cd5fd03b8e275772301bc994db8457689c",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/opus.jpg",
+      "status": 200,
+      "bytes": 91103,
+      "sha256": "addffb7b1dae2267030332538dfead165d6e9c780cc18fd1df8aafa6645e0bfd",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/pixelfx.jpg",
+      "status": 200,
+      "bytes": 111584,
+      "sha256": "ca4b12a58e25125508fa7ea3122ec0fe35e8c3f35132b1fc423c921637458a47",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/rea.jpg",
+      "status": 200,
+      "bytes": 163909,
+      "sha256": "51491e542ecc35590a73e1d3e11f3b92950e983c18ef2883efb3649f028547df",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/remotion.jpg",
+      "status": 200,
+      "bytes": 65873,
+      "sha256": "fe3f0b7f13de4f6cceb500e786039fd821bd2a6197a8d1942ae0c175a3b7e42a",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/three.jpg",
+      "status": 200,
+      "bytes": 105229,
+      "sha256": "7c620ebd32d77761a9ef989751ee230b93f6d32b9b1ff29e84be15e2962298be",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "assets/thumbs/unslop.jpg",
+      "status": 200,
+      "bytes": 80147,
+      "sha256": "4bf5d750f36b9d8ad60f29ee7139e673772035722eef29c4f644061121a32c22",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 82799,
+      "sha256": "b6b43206d92e10988b025ef23ba1d1b0a2e7b979bcde6e480063739f3f40fd14",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "licenses/0010-CREDITS",
+      "status": 200,
+      "bytes": 1652,
+      "sha256": "2b6a54edc2409d44a5d1ddee9e6190625f26d7c2f7b39b72d6d21f1c7ad515aa",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "licenses/0013-NOTICE.txt",
+      "status": 200,
+      "bytes": 1350,
+      "sha256": "da0bcaacfb01ca924ab8913383315172e634c7b94cdf29337d92a763f299fa19",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "licenses/0027-UPSTREAM-LICENSE.txt",
+      "status": 200,
+      "bytes": 18656,
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "licenses/0027-UPSTREAM-NOTICE.md",
+      "status": 200,
+      "bytes": 1220,
+      "sha256": "217895dd0883e27248ace30be618c9d0740cd7c93b6d159cd387f4b3485547fb",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "map.html",
+      "status": 200,
+      "bytes": 2351,
+      "sha256": "dd5c4fdd65c94f21b1ee7b5a9ed3f5e18a2a38381d19cf840cfa24ba9b354bc3",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "map.js",
+      "status": 200,
+      "bytes": 770,
+      "sha256": "e4150e3120119d89cd273589a1c0804518ba0069e034f701197d75d411acbc1e",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "media/effectcraft-v2.mp4",
+      "status": 200,
+      "bytes": 1328439,
+      "sha256": "d0d5e000729ee7f95d7ed4163d94b4b47d779132ca1782269bb02afb97692f25",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "media/lemo-v2.mp4",
+      "status": 200,
+      "bytes": 10034295,
+      "sha256": "50530d3fa937df2f39aa11e052a54a6fe117a3d3f436d8c6a0ffb4dbdbb460c2",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "media/pixelfx-abc.mp4",
+      "status": 200,
+      "bytes": 2339089,
+      "sha256": "24a37d407ab3492c5979ea1a3c78f9b7def846853b65a11997be79be09e58c08",
+      "match": true,
+      "comparison": "exact-bytes"
+    },
+    {
+      "path": "notes/anthropic.md",
+      "status": 200,
+      "bytes": 4116,
+      "sha256": "534a5b3813740b35efde368966fa5b49195b4e29234c3a5a444336e3d5b24cea",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/blender.md",
+      "status": 200,
+      "bytes": 4279,
+      "sha256": "8df1fecf3fb92bb27efb2d71aa6dc6d271d8c9783e4cc3b66836e842f84d7065",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/comfyui.md",
+      "status": 200,
+      "bytes": 5346,
+      "sha256": "bb329a4887b90a7e30bb0cf792a6d8e0e4e531cbd49309fe1384ad3ca225c65a",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/effectcraft.md",
+      "status": 200,
+      "bytes": 5792,
+      "sha256": "f9a02fdff3a2c5f1f7a0036622f21c406f6f5f1b9b275f6063db81d5f144f025",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/gsap.md",
+      "status": 200,
+      "bytes": 5326,
+      "sha256": "f15ffdb18d8673ca36d26205342e4c613ff632376d99a9f8f891f631a700267d",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/hyperframes.md",
+      "status": 200,
+      "bytes": 5198,
+      "sha256": "57dd2d3a06687099662dd03ed31e9641681ed7b28445b2622be6a88e0a21b6ea",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/impeccable.md",
+      "status": 200,
+      "bytes": 6323,
+      "sha256": "a813f1c8b8d23f7e60d226b95081ec8580277bab10e8f27cf7daeca3640e2363",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/lemo.md",
+      "status": 200,
+      "bytes": 7145,
+      "sha256": "18573743094b0e54b7c669416bd6b791f98c2c0291f8274e4606fbcb68261113",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/opus.md",
+      "status": 200,
+      "bytes": 5834,
+      "sha256": "c3781afa284f6bf7c3a63dfb54e1ab85ddc93eee965d32a5f3fa871928d4061c",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/pixelfx.md",
+      "status": 200,
+      "bytes": 9594,
+      "sha256": "43d908a89b3055ca05b068746363efd9ef70bd87debff32974b340c0e22b1ed8",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/rea.md",
+      "status": 200,
+      "bytes": 4433,
+      "sha256": "4fc8a736fd517857e0e07354748b6d930408b4f45753c8c03917e908a00cfd11",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/remotion-skills.md",
+      "status": 200,
+      "bytes": 752,
+      "sha256": "e4d8adb1500ed8c825aec75b3e948b23849d307bed6a79cce6f85118a1147c8a",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/remotion.md",
+      "status": 200,
+      "bytes": 751,
+      "sha256": "d87303be81d1fd70b25926536da93c0ab4542023f70be446471583396d6e2c7c",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/three.md",
+      "status": 200,
+      "bytes": 778,
+      "sha256": "36461a827b0e21621a838f91c49229390661cf0e2efa4caac8b1048c3bb3325c",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "notes/unslop.md",
+      "status": 200,
+      "bytes": 5747,
+      "sha256": "4039be0bea15886d7304288760cb0e029f939c8b0a125ca4e3ba80de41b07403",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "publication-media.json",
+      "status": 200,
+      "bytes": 885,
+      "sha256": "0aef9cb0b302d611d4a693acda96afcc0a57f0dad7dc832e955a57b94df1a333",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "publication.md",
+      "status": 200,
+      "bytes": 870,
+      "sha256": "fd8f7f4790291d98dda1ad070a53012d4e1fa37996da6b09b850cbe0151a3596",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "bytes": 4807,
+      "sha256": "efedea42a042977acdef50571dbbb2a533a375538e4e9692031ac39a3e431407",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "research.json",
+      "status": 200,
+      "bytes": 34191,
+      "sha256": "ab0ce680e4ccdb66c146576939e1cba5ed1da88b904a94ad9041aea00ff96b6b",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "source-manifest.json",
+      "status": 200,
+      "bytes": 17831,
+      "sha256": "054253a1eda1d0db334878e6f12c1392d0e03913a90d652ed5c22fcbf3575c71",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/anthropic.html",
+      "status": 200,
+      "bytes": 7894,
+      "sha256": "7df4c25bdb4a3c8d66aa0127d086107b92667aa807a0f4d23ece70d64b77c228",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/blender.html",
+      "status": 200,
+      "bytes": 8144,
+      "sha256": "23f98395f3583f5be8d91326abb286a2c7149bdf08cd5b6c9bcf6fc18b2a540a",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/comfyui.html",
+      "status": 200,
+      "bytes": 9176,
+      "sha256": "6ac555606673e93ffd4049c1b13855da113967ee891e93c61cd891c9e8ddbf1e",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/effectcraft.html",
+      "status": 200,
+      "bytes": 10336,
+      "sha256": "8f65e6787537ce3643bd610ed26fdf24649dc417635582eb805dc646cf67010e",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/gsap.html",
+      "status": 200,
+      "bytes": 9430,
+      "sha256": "8d5d852a48cfe01ec796fa2b018d3d18fa7df46eaf804d4d50dd3574b8853d15",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/hyperframes.html",
+      "status": 200,
+      "bytes": 9371,
+      "sha256": "be18cf2aa4b0d600693fc5179bc8b5abd0aa95135ffdea9287de7bbae9a13805",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/impeccable.html",
+      "status": 200,
+      "bytes": 10217,
+      "sha256": "13688c9fc92996269e01a2ab462192a2e28be7bd9f44308800b561d36a148e7a",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/lemo.html",
+      "status": 200,
+      "bytes": 11715,
+      "sha256": "31661e52f96fc175366882649f49d3b24a967752a1534f35274f5e52d7046511",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/opus.html",
+      "status": 200,
+      "bytes": 10122,
+      "sha256": "04cf41b6c072e8efc26a3f8ff39b9eaa0d4ad4e351731dffd59720cf5da86264",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/pixelfx.html",
+      "status": 200,
+      "bytes": 14309,
+      "sha256": "e3c4766bfb7f5dc8cfbe04b01c565e05f07457d34ee117aef9cbe046b5f87366",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/rea.html",
+      "status": 200,
+      "bytes": 8577,
+      "sha256": "85f004138948115d75511e3f2c319cc56598dcc84a4846e3dc800211c86036ec",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/remotion-skills.html",
+      "status": 200,
+      "bytes": 4182,
+      "sha256": "6e52f17523f9ddfc6639d151ea1c473b06c50ae3738c8c6052ba268f3ce7c15f",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/remotion.html",
+      "status": 200,
+      "bytes": 4893,
+      "sha256": "cdcac410f81b425b4ff50a5fa7d2a9bf879ba5d3cbc648f52b0b64f68b734bb6",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/three.html",
+      "status": 200,
+      "bytes": 4253,
+      "sha256": "4c1fda15deb5e56404b6f23ef10d6947ce51b6da473a97bbcb5864db5fc6a5c6",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "studies/unslop.html",
+      "status": 200,
+      "bytes": 9516,
+      "sha256": "f39c54916b68f5ca5a164f5bacbe0389b939581d421cb16defa7a1d66247c813",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "bytes": 9882,
+      "sha256": "5f6d27619b465f8ab28e4be82f7e7bf719a97cbe01396bc8769f0cf085b06459",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "status": 200,
+      "bytes": 2954,
+      "sha256": "5b8a13615719c08b783221a9bd7c3ec8b89fa39199702154711c07949669a1d7",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    },
+    {
+      "path": "verification.json",
+      "status": 200,
+      "bytes": 4905,
+      "sha256": "4de334128e500144c572ec4b518f7f70f52ba8078d70f45644ce14741a884ba0",
+      "match": true,
+      "comparison": "LF-normalized-text"
+    }
+  ],
+  "video_ranges": [
+    {
+      "path": "media/lemo-v2.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/10034295"
+    },
+    {
+      "path": "media/pixelfx-abc.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/2339089"
+    },
+    {
+      "path": "media/effectcraft-v2.mp4",
+      "status": 206,
+      "bytes": 1024,
+      "content_range": "bytes 0-1023/1328439"
+    }
+  ],
+  "navigation": [
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/index.html",
+      "status": 200
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/index.html",
+      "status": 200
+    }
+  ],
+  "deployment": {
+    "source_commit": "01943703eb2c0bec39af9ede4895d35a20d0e402",
+    "merge_commit": "1d57b07f3349e4feec1f186862e7a4601312361f",
+    "pull_request": "https://github.com/yydshly/20261115_codex_project/pull/20",
+    "actions": "https://github.com/yydshly/20261115_codex_project/actions/runs/44104546549",
+    "result": "success"
+  },
+  "scope": "First deployed build. Later source-link corrections and this evidence record are checked by the publication export and CI; this is not an all-library retest.",
+  "comparison_policy": "Images and videos: exact bytes. Text: CRLF/LF normalization only; raw remote SHA-256 is still recorded.",
+  "browser_checks": [
+    {
+      "name": "Original guide",
+      "result": "pass",
+      "natural_dimensions": [
+        3200,
+        10440
+      ],
+      "cards": 15
+    },
+    {
+      "name": "Scenario search",
+      "result": "pass",
+      "query": "写实",
+      "visible": [
+        "comfyui",
+        "blender",
+        "three"
+      ]
+    },
+    {
+      "name": "Digital-human route",
+      "result": "pass",
+      "alternatives": [
+        "hyperframes",
+        "remotion",
+        "effectcraft"
+      ],
+      "optional_motion": "gsap"
+    },
+    {
+      "name": "Comparison",
+      "result": "pass",
+      "tools": [
+        "remotion",
+        "remotion-skills",
+        "pixelfx"
+      ]
+    },
+    {
+      "name": "Image enlargement",
+      "result": "pass",
+      "tool": "hyperframes",
+      "dimensions": [
+        960,
+        540
+      ],
+      "credit_present": true
+    },
+    {
+      "name": "Guide zoom",
+      "result": "pass",
+      "actual_width": 3200,
+      "actual_zoom": 100,
+      "fit_width": "pass"
+    },
+    {
+      "name": "Self-contained study and video",
+      "result": "pass",
+      "tool": "effectcraft",
+      "duration": 6,
+      "current_time": 6,
+      "ended": true,
+      "ready_state": 4,
+      "error": null
+    },
+    {
+      "name": "Mobile layout",
+      "result": "pass",
+      "viewport": [
+        390,
+        844
+      ],
+      "document_width": 375,
+      "horizontal_overflow": false,
+      "scenario_search": "pass",
+      "viewport_restored": true
+    }
+  ],
+  "followup": "Restored HTTPS source links from the original research notes after a local-path replacement damaged them; all 15 notes now retain a repository or official source URL."
+}

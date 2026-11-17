@@ -75,6 +75,6 @@ python review.py
 
 本轮实际复用 `engine.js` 与 `plants.js`，未改这两个文件；庭院几何、人物造型、动作、相机、纸张生成和音乐为本轮编写。角色是简化的水彩代码造型，精细表情与自然肢体表演仍有明显提升空间。未测其他 98 种风格、长片、多角色连续表演或一般意义上的“一键复刻”。
 
-上游：[Lemo-Opuscar](http〈本机研究路径〉 2.0.0，固定提交 [`3a7132b996be0241c1ea0ab180d519f06e6f10b6`](http〈本机研究路径〉
+上游：[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)，版本 2.0.0，固定提交 [`3a7132b996be0241c1ea0ab180d519f06e6f10b6`](https://github.com/lemomo-ai/lemo-opuscar/tree/3a7132b996be0241c1ea0ab180d519f06e6f10b6)。[风格规则](https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/styles/watercolor/STYLE.md)、[导演方法](https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/DIRECTOR.md)、[制作流程](https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/TECHNIQUE.md)。
 
 完整素材清单见 [CREDITS](episodes/wind-in-the-garden/CREDITS)：代码 MIT；上游文档 CC BY-NC 4.0，并附其为自有影片制作提供的额外许可；Noto Serif SC 字体 OFL。未使用原样片音乐、人物、素材或片尾署名，使用者仍需对以后加入的素材确认权利。

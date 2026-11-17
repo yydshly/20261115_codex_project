@@ -4,7 +4,7 @@
 
 # 0025 · GSAP · 控制画面的动作与节奏
 
-先看作者效果，再说明价值：[本地研究页](web/index.html)。预览地址为`htt〈本机研究路径〉`，仅在本机预览服务运行时可用，未公开部署。
+先看作者效果，再说明价值：[本地研究页](web/index.html)。预览地址为`〈本机预览地址〉`，仅在本机预览服务运行时可用，未公开部署。
 
 **一句话：把准备好的文字、图片、图形或已有三维对象，按我们的节奏动起来。** 它改变对象属性并管理动画时间线，能编排顺序、重叠、缓动，并控制播放、暂停、倒放与定位。
 
@@ -12,8 +12,8 @@
 
 页面直接播放官网公开video元素所使用的远程媒体，保留作者与出处，没有下载或镜像媒体：
 
-- [GSAP官网](http〈本机研究路径〉 Showreel 2025，约42秒，多位创作者作品的集锦。本轮在本地页面实播，并观察选定时点。
-- [GSAP文字工具页](http〈本机研究路径〉 Dream，作者Liubomyr Ulytskyi，约26秒。本轮在本地页面实播，并观察选定时点。
+- [GSAP官网](https://gsap.com/)的GSAP Showreel 2025，约42秒，多位创作者作品的集锦。本轮在本地页面实播，并观察选定时点。
+- [GSAP文字工具页](https://gsap.com/text/)推荐的Nocturnal Dream，作者Liubomyr Ulytskyi，约26秒。本轮在本地页面实播，并观察选定时点。
 
 完整作品同时依赖设计、素材、渲染等，不将全部视觉质量归因于GSAP。实际观察范围、尺寸与时点见[verification.json](verification.json)，媒体原地址见[source-notes.json](source-notes.json)。远程嵌入受来源可用性及网络影响；页面提供官网出处。
 
@@ -44,7 +44,7 @@
 
 ## 参考文字、目标与改写
 
-作者首页的“Animate Anything”为原文节选。我们参考的是[Timeline](http〈本机研究路径〉
+作者首页的“Animate Anything”为原文节选。我们参考的是[Timeline](https://gsap.com/docs/v3/GSAP/Timeline/)与[属性动画](https://gsap.com/docs/v3/GSAP/gsap.to()/)方法，没有公开AI生成提示词可直接照搬。
 
 目标是把我们的安静庭院风格落实为短距离移动、柔和减速、较慢错开与可检查的时间线。完整原创输入在[OUR_BRIEF.md](OUR_BRIEF.md)，已落实为本轮网页示意；网页另列保留、改变与新增要求。
 
@@ -52,7 +52,7 @@ Rea-Video可以帮助分析参考与整理任务；Blender或生成工具准备�
 
 ## 版本、验证与限制
 
-2026-11-17核对[greensock/GSAP](http〈本机研究路径〉`5e6c35ff8eedea12d4f229129def635277d8b0f2`（2026-11-04），`package.json`版本3.15.1。读取README、package及dist头部信息，并核对官方Timeline、gsap.to、Installation、ScrollTrigger文档与许可页。
+2026-11-17核对[greensock/GSAP](https://github.com/greensock/GSAP)提交`5e6c35ff8eedea12d4f229129def635277d8b0f2`（2026-11-04），`package.json`版本3.15.1。读取README、package及dist头部信息，并核对官方Timeline、gsap.to、Installation、ScrollTrigger文档与许可页。
 
 页面从固定版本jsDelivr地址加载GSAP，保留其权利声明；未复制完整源码、依赖目录或第三方媒体。自有脚本通过`node --check`。浏览器检查包括动画播放、风格切换、时间拖动与版面，具体通过项以verification.json为准。
 
@@ -68,4 +68,4 @@ python -m http.server 53025 --bind 127.0.0.1 --directory <本项目绝对目录>
 
 打开`/web/index.html`。外部资源仅包括GSAP固定版本脚本与官网原视频；无账号、上传、统计或生成接口。网页示意的参数位于`web/app.js`的`buildSequence`中；修改后重新加载即可检查。
 
-GSAP为其Standard License，非MIT。详见[UPSTREAM-NOTICE.md](UPSTREAM-NOTICE.md)与[官方许可](http〈本机研究路径〉
+GSAP为其Standard License，非MIT。详见[UPSTREAM-NOTICE.md](UPSTREAM-NOTICE.md)与[官方许可](https://gsap.com/standard-license/)。代码可读与免费不等于没有使用条件；具体媒体权利另行核对。本库原理图不是官方作品截图或引擎性能证明。

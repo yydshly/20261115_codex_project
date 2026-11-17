@@ -60,4 +60,4 @@ python projects/0031-creative-tools-hub/scripts/check_publication.py
 
 更新研究文字时编辑research.json。可选的`scripts/render_local.py`用于本机继续整理图文，需要Pillow和微软雅黑；本轮发布不执行它，原图哈希由发布检查锁定。
 
-提交、Actions、公开地址与上线交互验收见[publication.md](publication.md)。登记表demo_url只在公开页面验证通过后回填。
+网页已公开部署，登记表demo_url在正式页面验证通过后回填。提交、Actions与上线交互验收见[发布记录](publication.md)和[首次线上核验](online-verification.json)。

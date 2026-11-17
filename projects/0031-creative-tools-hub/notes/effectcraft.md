@@ -11,7 +11,7 @@ PixelFX 提供像素动态素材；EffectCraft 负责把素材和文字组织成
 - [修改版 6 秒视频](renders/title-v2.mp4) · [初稿](renders/title-v1.mp4)，两版无声音。
 - [初稿可编辑项目](title-v1.ecproj) · [修改版可编辑项目](title-v2.ecproj)。
 - [真实操作与导出记录](trial-record.json) · [原生引擎状态](engine-state.json)。
-- [官方仓库](http〈本机研究路径〉 · [固定版本 v0.24.1](http〈本机研究路径〉
+- [官方仓库](https://github.com/storytold/effectcraft) · [固定版本 v0.24.1](https://github.com/storytold/effectcraft/releases/tag/v0.24.1)。
 
 ![EffectCraft 原生渲染同帧对照：初稿文字覆盖原素材，修改版将新增标题放到右上方并改色、改文案](assets/title-comparison.jpg)
 
@@ -61,7 +61,7 @@ python -X utf8 projects/0014-effectcraft-trial/scripts/revise_trial.py
 ## 来源与许可
 
 - EffectCraft：MIT OR Apache-2.0；固定发布提交 `582344dd4ef462362c02e56e3094de7af01847ab`。
-- [v0.24.1 操作文档](http〈本机研究路径〉
+- [v0.24.1 操作文档](https://github.com/storytold/effectcraft/blob/v0.24.1/docs/agents.md)。
 - 背景视频为本库 0010 原创《风来小庭》V2，部分水彩绘景工具复用 Lemo-Opuscar MIT 代码，具体见该项目 CREDITS。本次使用无音轨的 picture.mp4。
 - 新增标题、副标题和验证脚本为本轮原创；Microsoft YaHei 仅用于本机文字渲染，没有分发字体文件。
 - `assets/import-probe.png` 是较早一次导入检查，来自 0013 的 PixelFX 对照视频，特效的 MIT 署名沿用该项目 NOTICE；封面和最终两版使用的是 0010 水彩底片。

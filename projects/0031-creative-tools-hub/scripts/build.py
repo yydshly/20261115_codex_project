@@ -86,7 +86,7 @@ def main():
         for source in (ROOT/folder).glob("*"):
             if source.is_file():
                 target=out/folder/source.name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(source,target)
-    for name in ["README.md","source-manifest.json","verification.json","publication-media.json","publication.md","THIRD_PARTY_NOTICES.md"]:
+    for name in ["README.md","source-manifest.json","verification.json","online-verification.json","publication-media.json","publication.md","THIRD_PARTY_NOTICES.md"]:
         source=ROOT/name
         if source.is_file():shutil.copyfile(source,out/name)
     (out/"research.json").write_text(json.dumps(pub_data,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

@@ -8,9 +8,9 @@
 
 **最新一章：雨后归来。** 在六款效果接入之后，庭院已扩成 704×448 的连续世界。角色可以走动和绕岸寻路，点亮三盏晚归灯、给花圃浇水、和猫同行，最后回家泡茶。雨会浇花、熄灭露天火，花开后保留实际花朵；灯、花、猫和归家状态会在当前浏览器记住。世界原创绘景与真实特效使用同一套像素缓冲，本地运行，无声音。
 
-**PixelFX 的实际贡献另做了控制实验：** [同场景 A/B/C 同步对照与一轮返修](COMPARISON.md)。固定机位和世界状态，比较关闭、当前、自然风格返修三版；参数修改加首轮静帧核对实测 2 分 19 秒，完整任务与导出另有记录。可直接打开 [同步对照页](htt〈本机研究路径〉 或 [12 秒对照片](renders/comparison/abc-synchronized.mp4)。
+**PixelFX 的实际贡献另做了控制实验：** [同场景 A/B/C 同步对照与一轮返修](COMPARISON.md)。固定机位和世界状态，比较关闭、当前、自然风格返修三版；参数修改加首轮静帧核对实测 2 分 19 秒，完整任务与导出另有记录。可直接打开 [同步对照页](〈本机预览地址〉) 或 [12 秒对照片](renders/comparison/abc-synchronized.mp4)。
 
-- [进入可探索的世界](htt〈本机研究路径〉 / WASD、点击地面行走，E / 空格互动；地图可选目的地并步行前往。
+- [进入可探索的世界](〈本机预览地址〉)：方向键 / WASD、点击地面行走，E / 空格互动；地图可选目的地并步行前往。
 - [30 秒连续实走预览](renders/world-walk.mp4)：正常模拟速度，从院门点灯、遇猫、过桥、看花到归家，没有镜头间传送。
 - [完整世界与交互说明](WORLD.md)、[世界检查](world-verification.json)、[连续渲染记录](world-render-record.json)。
 
@@ -24,7 +24,7 @@
 
 ## 进入样例
 
-- [保留的特效实验页](htt〈本机研究路径〉
+- [保留的特效实验页](〈本机预览地址〉)：四个庭院场景，可点池塘、触发花开、查看完整原效果、改色、调速、调光。
 - [20 秒动态预览](renders/pixelfx-garden-preview.mp4)：萤火夜 → 小雨 → 花瓣 → 蓝焰，每段 5 秒，无声音。
 - 双击 [web/start.cmd](web/start.cmd) 启动；页面源码也可直接打开，但浏览器 ES Modules 通常需要本地 HTTP 服务。
 
@@ -92,8 +92,8 @@ npm run render:world
 
 ## 来源与许可
 
-- [PixelFX / Patch](http〈本机研究路径〉
-- 流程参考：[PixelFX 技能](http〈本机研究路径〉
+- [PixelFX / Patch](https://github.com/patch-gg/pixelfx)，[固定源码](https://github.com/patch-gg/pixelfx/tree/5294518ce7c72e48b6100a744596e0acf57f2826)，[官方图库](https://patch-gg.github.io/pixelfx/)，MIT。
+- 流程参考：[PixelFX 技能](https://github.com/patch-gg/pixelfx/blob/5294518ce7c72e48b6100a744596e0acf57f2826/skills/pixelfx/SKILL.md)。本次只选现有效果与参数，不宣称开发了六套原创特效。
 - 按上游通知保留 Hugo Duprez / Sprite Fusion、Hollow Crown / rehan-remade 等 MIT 署名。未使用或复制 Patch Pixel 专有字体。
 - 庭院背景、场景合成和交互为本轮原创代码，无第三方位图、角色或音乐。完整说明见 [web/NOTICE.txt](web/NOTICE.txt) 和 [上游通知](web/vendor/pixelfx/NOTICE.md)。
-- 本地研究尚未公开部署。后续若有明确发布任务，可选择静态托管或按 PixelFX 指南发布到 [Patch](http〈本机研究路径〉
+- 本地研究尚未公开部署。后续若有明确发布任务，可选择静态托管或按 PixelFX 指南发布到 [Patch](https://patch.gg)。
