@@ -50,7 +50,7 @@ def main():
         'media_sources':sorted(media),'original_full_video_and_comparison_not_embedded':True,
         'guide_sha256':expected,'guide_is_exact_generated_png':True,'source_text_hashes':'passed',
         'template_crc_and_privacy':'passed','template_file_hashes':'passed',
-        'localhost_media_server_required':False,'live_deployment':'pending'}
+        'localhost_media_server_required':False,'live_deployment':'recorded separately in live-verification.json'}
     (ROOT/'publication-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(json.dumps(report))
 if __name__=='__main__':main()

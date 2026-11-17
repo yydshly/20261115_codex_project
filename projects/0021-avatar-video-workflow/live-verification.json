@@ -1,0 +1,337 @@
+{
+  "verified_at_utc": "2026-11-17T04:08:09.028401+00:00",
+  "url": "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html",
+  "deployment_commit": "f48690c338bb34750f8609584a6d493da529afbe",
+  "deployment_run": "https://github.com/yydshly/20261115_codex_project/actions/runs/44014653316",
+  "six_pages": {
+    "index.html": {
+      "status": 200,
+      "bytes": 12598
+    },
+    "effects.html": {
+      "status": 200,
+      "bytes": 18558
+    },
+    "methods.html": {
+      "status": 200,
+      "bytes": 14170
+    },
+    "value.html": {
+      "status": 200,
+      "bytes": 16512
+    },
+    "template.html": {
+      "status": 200,
+      "bytes": 9470
+    },
+    "sources.html": {
+      "status": 200,
+      "bytes": 27614
+    }
+  },
+  "checked_public_assets": {
+    "DISCUSSION.md": {
+      "status": 200,
+      "bytes": 10260,
+      "sha256": "6cd40faacd159d4ab0746527b794ade2b71019b4290f0f93546759cc64228393",
+      "expected_hash_verified": false
+    },
+    "README.md": {
+      "status": 200,
+      "bytes": 7215,
+      "sha256": "22dc5b4492f5bf1d5bcb028611774bd341321a208e3b351059cfa72c4f1bd059",
+      "expected_hash_verified": false
+    },
+    "app.js": {
+      "status": 200,
+      "bytes": 12575,
+      "sha256": "533dac834cbe759413c496ecfc9b873a1a8cf0a0b326eac7c2a61edb8bb9a1b8",
+      "expected_hash_verified": false
+    },
+    "assets/avatar-research-overview-v1.png": {
+      "status": 200,
+      "bytes": 11150205,
+      "sha256": "232a6040914ae2ea62e6ce601a01c125753e023f861323f03d5ae0503bc6246a",
+      "expected_hash_verified": true
+    },
+    "assets/avatar-research-overview-v1.svg": {
+      "status": 200,
+      "bytes": 2617090,
+      "sha256": "7e39c848895b3bc7e09189f2d8dc82329637459a5125d9ca2c273b66be90b3f5",
+      "expected_hash_verified": true
+    },
+    "assets/comparison.jpg": {
+      "status": 200,
+      "bytes": 130224,
+      "sha256": "273f2aa9c9bbe539eae872a4fe6ecb0f20a036a03e0fb79fc540eb66ac6850e4",
+      "expected_hash_verified": false
+    },
+    "assets/complete-poster.jpg": {
+      "status": 200,
+      "bytes": 141839,
+      "sha256": "0540433af873c33008cb92db35c81e2bc31133d29ccce7ebfd3e412b74e9dcb8",
+      "expected_hash_verified": false
+    },
+    "assets/complete-storyboard.jpg": {
+      "status": 200,
+      "bytes": 380108,
+      "sha256": "b77938720fb110411affae75eb49a14a70f2f2c4ce6949dd95e2be246d01737f",
+      "expected_hash_verified": false
+    },
+    "assets/image-manifest.json": {
+      "status": 200,
+      "bytes": 3336,
+      "sha256": "16daaeb4b305c0411b24ad02beb73685b3886919502d2915a87b50c34673e1a9",
+      "expected_hash_verified": false
+    },
+    "assets/matting-poster.jpg": {
+      "status": 200,
+      "bytes": 144786,
+      "sha256": "a7824777ce7f8622057ebeac1c5e8548a9a15f5a567e4a617b889924027422cc",
+      "expected_hash_verified": false
+    },
+    "assets/overview-manifest.json": {
+      "status": 200,
+      "bytes": 4669,
+      "sha256": "5b3addaa290c981f20135f35baba56b38fa64f8d15c67985e76233110c6d1353",
+      "expected_hash_verified": false
+    },
+    "assets/overview-preview.jpg": {
+      "status": 200,
+      "bytes": 226072,
+      "sha256": "251e9daf549d4ebb817d2779f327c95163b5398e9ae2317ea548c056d8fe25b7",
+      "expected_hash_verified": true
+    },
+    "assets/presenter.png": {
+      "status": 200,
+      "bytes": 525285,
+      "sha256": "359c99221f1f8409193c8bfdfdf5f6bb35499081f5844386fae6e34583c46bd5",
+      "expected_hash_verified": false
+    },
+    "assets/reference-city.jpg": {
+      "status": 200,
+      "bytes": 69207,
+      "sha256": "dbe2d0c7ebb5cc085031381367b92e956aad802a38b8b035b32978fde077f842",
+      "expected_hash_verified": false
+    },
+    "assets/reference-poster.jpg": {
+      "status": 200,
+      "bytes": 39710,
+      "sha256": "d192ce92de14a1c58200974a9c691479975106719e928c6260a4f766d926bc61",
+      "expected_hash_verified": false
+    },
+    "assets/scene-overview.jpg": {
+      "status": 200,
+      "bytes": 302152,
+      "sha256": "0a7455a5ab7ff0e638147720f7c4a9eddb9f673611dbf5ced0af839cba4a0b5b",
+      "expected_hash_verified": false
+    },
+    "assets/scene-poster.jpg": {
+      "status": 200,
+      "bytes": 73984,
+      "sha256": "c2c89be72efc2f1dd5669b6309ca6e85c43744f8b7d88ff891bf1d9978bd97a4",
+      "expected_hash_verified": false
+    },
+    "assets/template-poster.jpg": {
+      "status": 200,
+      "bytes": 123873,
+      "sha256": "41b63c27bf381f701d27808ff42e0bfa5d8d8a4e5215ba68486ae3816097a0c6",
+      "expected_hash_verified": false
+    },
+    "assets/template-storyboard.jpg": {
+      "status": 200,
+      "bytes": 310525,
+      "sha256": "715bd3196f9fefb33e0ffb993f0f1d13051ee2c15dbfb6b312acba34c379fdef",
+      "expected_hash_verified": false
+    },
+    "data.js": {
+      "status": 200,
+      "bytes": 39082,
+      "sha256": "b752a4c52368f3ab20afb0e1398fad351a43decadf5c591a5d15b65397b3e240",
+      "expected_hash_verified": false
+    },
+    "downloads/avatar-motion-template-v1.zip": {
+      "status": 200,
+      "bytes": 407502,
+      "sha256": "a08eb7113495320761497eb1da602d7d7adde013b6ae552f938109c0b88f0ac5",
+      "expected_hash_verified": false
+    },
+    "downloads/captions.example.srt": {
+      "status": 200,
+      "bytes": 133,
+      "sha256": "a28b90e704ca6fca4b2d9cd8b4f1eccf2188074bb4fcb737ab5d19f7ef800f76",
+      "expected_hash_verified": false
+    },
+    "downloads/copy.example.json": {
+      "status": 200,
+      "bytes": 837,
+      "sha256": "15b59e69aaafaa2ada4b5b278cdc511dd23f7e93731e0daae327085ee2127430",
+      "expected_hash_verified": false
+    },
+    "effects.html": {
+      "status": 200,
+      "bytes": 18558,
+      "sha256": "3d5212cc962dea3a9c86e78b5e196088614a2898c4453d2b990f11c295747c25",
+      "expected_hash_verified": false
+    },
+    "evidence/complete.json": {
+      "status": 200,
+      "bytes": 3309,
+      "sha256": "8bf1fc82c7176f605f1361dd1a754d11535755f809e18bc08aff482032a3ba01",
+      "expected_hash_verified": false
+    },
+    "evidence/matting.json": {
+      "status": 200,
+      "bytes": 797,
+      "sha256": "2c2e22aa66865d238eab5e04b0126ea156f192b3256247fc1e292f260b560693",
+      "expected_hash_verified": false
+    },
+    "evidence/portability.json": {
+      "status": 200,
+      "bytes": 221,
+      "sha256": "8b988d7a5dfaaccd60c4b0ddf85d5d4a12e94692100d132f5dbb653936d6197a",
+      "expected_hash_verified": false
+    },
+    "evidence/scene.json": {
+      "status": 200,
+      "bytes": 1084,
+      "sha256": "5c2a0be2821690ad4058052b0caed50da4347f72b0565a9e4ca2f534819de564",
+      "expected_hash_verified": false
+    },
+    "evidence/template.json": {
+      "status": 200,
+      "bytes": 1692,
+      "sha256": "e26045d6dede5069e238f0cd9ee1a62bd8895e4bdec43025e7515f53e21b83db",
+      "expected_hash_verified": false
+    },
+    "index.html": {
+      "status": 200,
+      "bytes": 12598,
+      "sha256": "68cbadd220df2012f0c160eed9b18c5185b4ca31e904c98ecca6c1e9e85a1d10",
+      "expected_hash_verified": false
+    },
+    "mark.svg": {
+      "status": 200,
+      "bytes": 347,
+      "sha256": "ba7b0b42364037a163acfda9773df5d138d86e293a833a7b4851a742e27852ae",
+      "expected_hash_verified": false
+    },
+    "media.json": {
+      "status": 200,
+      "bytes": 1275,
+      "sha256": "330529bade66be270149e1105eb21a9affdc8ebc8870abe434a8ba281873524a",
+      "expected_hash_verified": false
+    },
+    "media/complete.mp4": {
+      "status": 200,
+      "bytes": 4143240,
+      "sha256": "38ad27887b26f625370c1e5c8d7c9992ec370fc6c7a47f691479d1db6829303c",
+      "expected_hash_verified": true
+    },
+    "media/matting.mp4": {
+      "status": 200,
+      "bytes": 816312,
+      "sha256": "dc8abb9f6f4cf47593ce732714177b000f7dc29b395b76af9995fcc5b55d4f56",
+      "expected_hash_verified": true
+    },
+    "media/scene.mp4": {
+      "status": 200,
+      "bytes": 3780183,
+      "sha256": "5a5ade818c1fe527ca779bd693f7483f740a9ba5cd35c8c4844fa042b0fef0df",
+      "expected_hash_verified": true
+    },
+    "media/template.mp4": {
+      "status": 200,
+      "bytes": 2769749,
+      "sha256": "0ddd9aa94d20d812f191e0795133f3d4153e6da918d16c61183e410f864bfd83",
+      "expected_hash_verified": true
+    },
+    "methods.html": {
+      "status": 200,
+      "bytes": 14170,
+      "sha256": "99b50d38e4bca8220db29e6086b28a316cdf95a08d70ad8724b9687d5335c072",
+      "expected_hash_verified": false
+    },
+    "overview-summary.json": {
+      "status": 200,
+      "bytes": 8668,
+      "sha256": "94019992a5e1e297d6da16b431f12e01bc7d00b7f3409397c4d61418b6789f98",
+      "expected_hash_verified": false
+    },
+    "sources.html": {
+      "status": 200,
+      "bytes": 27614,
+      "sha256": "549927721bbebc8409427e9882ead715207801a2409102b0f2adf05b6eacd2fd",
+      "expected_hash_verified": false
+    },
+    "styles.css": {
+      "status": 200,
+      "bytes": 34482,
+      "sha256": "d1cc547d3e59467934ad31bf151804a6b9a73b7967a6bb34235b074aa0cd3b62",
+      "expected_hash_verified": false
+    },
+    "template-manifest.json": {
+      "status": 200,
+      "bytes": 2032,
+      "sha256": "9af09dddece8229f38724972bbb76f6b571b8f02f7135d572973e105ad6f435b",
+      "expected_hash_verified": false
+    },
+    "template.html": {
+      "status": 200,
+      "bytes": 9470,
+      "sha256": "ce82bd83be5a67c90a36a0af5fc397ec992000146f7b8eaf649a1f7576145728",
+      "expected_hash_verified": false
+    },
+    "template/avatar-motion-template/SKILL.md": {
+      "status": 200,
+      "bytes": 4293,
+      "sha256": "06ee1c3f65477978e7661fb51cb2b7e4d1ce3204c028483551e96854ff56864c",
+      "expected_hash_verified": false
+    },
+    "template/avatar-motion-template/references/configuration.md": {
+      "status": 200,
+      "bytes": 6555,
+      "sha256": "b969c6102e6cda436e4fe68cdc1454a98d5266c1d4aede98e73e3692d30417fb",
+      "expected_hash_verified": false
+    },
+    "value.html": {
+      "status": 200,
+      "bytes": 16512,
+      "sha256": "cd34c2eec063db7a52ce752be483cb9034c374368e5bd63f56ed9500de28e44e",
+      "expected_hash_verified": false
+    },
+    "verification.json": {
+      "status": 200,
+      "bytes": 1739,
+      "sha256": "d02022064dbb611267e3274980f95880aebeb27646815d723e5b53e0c9520857",
+      "expected_hash_verified": false
+    }
+  },
+  "exact_generated_guide_verified": true,
+  "four_media_hashes_verified": true,
+  "media_byte_ranges": {
+    "media/matting.mp4": {
+      "status": 206,
+      "content_range": "bytes 0-1023/816312"
+    },
+    "media/scene.mp4": {
+      "status": 206,
+      "content_range": "bytes 0-1023/3780183"
+    },
+    "media/complete.mp4": {
+      "status": 206,
+      "content_range": "bytes 0-1023/4143240"
+    },
+    "media/template.mp4": {
+      "status": 206,
+      "content_range": "bytes 0-1023/2769749"
+    }
+  },
+  "root_summary_and_full_guide_link": "passed",
+  "existing_published_entries": {
+    "demos/0001-animation-skills-atlas/summary.html": 200,
+    "demos/0009-ai-source-field-guide/index.html": 200,
+    "demos/0011-everyday-wonders/map.html": 200
+  },
+  "verification_method": "Live HTTPS content, size, SHA-256 and Range requests. Browser interaction checks remain the separately recorded local checks."
+}

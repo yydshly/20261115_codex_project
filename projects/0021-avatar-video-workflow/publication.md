@@ -24,4 +24,14 @@
 
 - 21 项仓库与发布测试通过，覆盖完整引导图跳转、媒体白名单、坏包拒绝与已有站点导航保留。
 - 公开静态产物与完整原图校验结果见 `publication-verification.json`。
-- 线上地址和部署结果在公网验收完成后追加；登记表 `demo_url` 在验收前保持 `null`。
+- 公网验收通过后已登记正式 `demo_url`，详细请求与哈希结果见 [live-verification.json](live-verification.json)。
+
+## 已上线与公网验收
+
+- [打开数字人口播研究网页](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html)
+- [发布 PR #7](https://github.com/yydshly/20261115_codex_project/pull/7)，合并提交 `f48690c338bb34750f8609584a6d493da529afbe`。
+- [首次正式部署流水线](https://github.com/yydshly/20261115_codex_project/actions/runs/44014653316)：成功。
+- 六个页面、46 个引用资源通过公网 HTTPS 检查；完整 PNG、SVG、预览及四段样片 SHA-256 与源文件一致。
+- 四段视频的 Range 请求均返回 206，Content-Range 与文件大小吻合。
+- 总索引包含本轮摘要与完整图跳转；原有动画图谱、知源、日常奇想三个页面均返回 200。
+- 本轮线上验收检查 HTTP、实际文件和哈希；浏览器交互验证沿用单独保存的本地检查记录，没有将其写成新的线上交互验收。

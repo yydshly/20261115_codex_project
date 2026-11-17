@@ -5,7 +5,8 @@
 - 原始来源：[参考来源](https://x.com/AndyL5cc/status/2121553136615596139)
 - 研究状态：以根目录 `projects.json` 为准
 - 本地网页：`http://127.0.0.1:52961/20261115_codex_project/demos/0021-avatar-video-workflow/index.html`
-- 发布方式：已接入既有 GitHub Pages 构建；线上验收记录见 [publication.md](publication.md)，验收前 `demo_url` 保持 `null`
+- 在线网页：[数字人口播研究档案](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html)
+- 发布方式：沿用 GitHub Pages；2026-11-17 公网验收通过，见 [publication.md](publication.md) 与 [逐资源验收记录](live-verification.json)
 
 ## 它解决什么问题
 
