@@ -10,6 +10,7 @@ on:
       - 'projects/0005-wind-return-garden/**'
       - 'projects/0009-ai-source-field-guide/**'
       - 'projects/0011-everyday-wonders/**'
+      - 'projects/0019-shanhe-co-creation/**'
       - 'projects/0021-avatar-video-workflow/**'
       - 'projects.json'
       - 'scripts/build_site.py'

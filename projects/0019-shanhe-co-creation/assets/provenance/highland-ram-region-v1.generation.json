@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-15",
+  "type": "First playable region visual-development concept, not an implemented game",
+  "iteration": 1,
+  "tool": "built-in image_gen__imagegen",
+  "model": "not exposed by tool",
+  "seed": "not exposed by tool",
+  "prompt": "Use case: stylized-concept.\nCreate a NEW broad regional establishing concept illustration that EXPANDS THE WORLD surrounding the APPROVED settlement corner in the supplied image. The input is the authoritative reference for species, environment art style, materials, proportions and the recognizable existing lakeshore lodge/fishing neighborhood. This is a new viewpoint and a new larger composition, not a claim of pixel-exact outpainting. ONE unified wide landscape panorama, no split panels, labels, titles, UI, map icons or text. It should show a compelling FIRST PLAYABLE REGION, not an entire continent or endless city.\n\nART INTENT: The user likes the reference as ONE CORNER of a dwelling place but needs a more complete fantasy world worth living in and exploring. Preserve its substantial adult ram-folk and thick timber/dark-stone/slate material language, and expand from a cozy shore corner into a legible interconnected living region. A welcoming home, a lively settlement, useful surrounding land and intriguing destinations beyond must all be visible. The village and its people feel rooted in the mountain landscape. Strong fantasy identity but no war scene or generic fairytale resort.\n\nCAMERA: A scenic slightly elevated viewpoint from a rocky approach ridge overlooking the highland lake and its inhabited basin, with a clear walkable foreground path flowing down into the settlement. Broad terrain and distinct linked districts, not a miniature toy diorama, not a directly top-down illustrated map. There is no giant foreground character blocking the world. At most two or three small adult ram-folk walkers in the foreground to establish scale, each about one-tenth of image height. Give enough detail in the midground to read paths, doorways, communal spaces and human-scale reasons to visit. Use near, middle and far depth layers.\n\nREGIONAL GEOGRAPHY AND DISTRICTS, organically integrated in ONE landscape:\n1. RECOGNIZABLE EXISTING LAKESHORE NEIGHBORHOOD in the nearer left quarter: the supplied image's hefty open-front communal lodge, weathered slab-slate roof, dark rough stone, copper-braced heavy timber beams, teal and rust hanging cloths, broad low stone fishing landing and net workshop. A few ADULT ram-folk fishing and talking at their natural scale. Preserve this reference's visual language exactly enough that the place feels familiar. This area is only one neighborhood now.\n2. TOWN CENTER further along the same shore in the main midground: an irregular broad stone commons with a communal hearth and a few rugged fabric market shelters, a substantial inn, shared workshop and roughly twenty homes grouped into three uneven natural clusters on sheltered terraces. A visible main street joins the lakeshore neighborhood to this center, then a stone bridge crosses the stream feeding the lake. Varied buildings with coherent construction, broad horn-friendly doors and wide walkways, not rows of identical cottages. Several small groups of ram-folk with different occupations, enough activity to suggest a social hub without crowding.\n3. PRODUCTIVE UPLAND TERRACES beyond the town: a few fenced alpine pasture enclosures with shaggy pack animals, low flax/crop strips, a working watermill at a tributary, cloth-drying frames and useful storage barns. The paths and watercourse visibly connect food, wool, cloth and timber work to the town. This open pastoral belt gives the settlement room to breathe; it is not a flower garden. Wind-combed green-ochre meadow, broad natural rock outcrops.\n4. A DISTINCT FOREST-AND-REED EXPLORATION EDGE across the right-hand inlet: sparse dark conifer woodland, mossy boulders, a quiet reed cove and a small fisher's shelter reachable by a shore trail. A route disappears into the trees. This is noticeably wilder and more private than the town, with a tiny restrained glimmer among old water-worn stones. Not spooky, poisoned or filled with monsters.\n5. AN OLD HIGHLAND WATERWORK LANDMARK where a steep tributary descends behind the forest: one large weathered masonry aqueduct or ancient sluice structure partly broken against the cliffs, with a waterfall spilling through its lower level. Its shape is different from the domestic buildings; half-understood old mountain engineering invites future exploration and story. Restrained copper-green mineral light at one channel, no enormous glowing portal or floating stone arch. A real visible trail leads toward it.\n6. A MOUNTAIN PASS AND WAYSTATION in the upper distance: a compact sturdy roadside lodge, a broad old switchback trail and a worn bridge crossing a gorge. The route then vanishes between sunlit high ridges, suggesting other settlements beyond. An unobtrusive small ferry on the lake and an opposite-shore landing suggest a second way to travel.\n\nAll districts must share coherent physically plausible geography: lake is a highland basin, stream flows downhill from distant mountains through the waterworks/woodland and pasture edge to the lake; roads follow contours, bridges cross actual streams or gorges, no stairs ending in air, no isolated disconnected buildings. Include varied terrain heights without enclosing everything in sheer gray walls. Mountains frame one side, open sunlit valley and sky give the other side breathing space. Lake water is blue-green with rocky margins and reeds, not tropical turquoise.\n\nSPECIES AND MATERIAL IDENTITY:\nAll visible people are the same ORIGINAL ADULT RAM-FOLK as the reference: broad heavy humanoid bodies, sheep muzzles, curled amber ram horns, charcoal/cream/earth-tone wool, cloven hooves and practical teal/rust/ochre woven garments. No cute childlike sheep mascots or humans. Buildings feel built by and sized for these substantial horned people. Weathered slate roofs, irregular dark stone, thick curved-or-braced timber, copper fittings, wool cloth and a few concentric curve motifs. No hobbit-hole doors, cone tents, mass-produced round cute cottages, castles, giant skulls or totem poles.\n\nRENDERING AND LIGHT:\nMatch the reference's confident sculpted stylized 3D game art and broad painted material zones. Strong readable shapes, realistic-enough spatial scale, restraint in tiny details, rich but balanced color. Late-afternoon clear highland daylight, warm roofs/stone and hearths balanced by cool lake and distant mountains. Clear visual hierarchy: town center and connected shoreline first, land-use transitions second, exploratory landmarks third. Make the whole region feel discoverable from its roads and shorelines, with shelter, daily work and future adventure coexisting. No photoreal cinema, no sugary children's-book softness, no extreme bloom or haze obscuring spatial connections.",
+  "input_images": [
+    {
+      "path": "highland-ram-village-v2.png",
+      "role": "User-approved local residential/fishing corner; environment style, material and species continuity reference"
+    }
+  ],
+  "source_image_path": "exec-3aeed9ce-ef63-4aba-90a3-d2f073958ee3.png",
+  "saved_image_path": "highland-ram-region-v1.png",
+  "region_proposal": {
+    "status": "Proposed extension; user approved only the earlier local lakeshore scene before this generation.",
+    "districts": [
+      {
+        "name": "湖岸生活区",
+        "purpose": "居住、钓鱼、邻里交流；保留此前认可的建筑与材质方向"
+      },
+      {
+        "name": "镇中心",
+        "purpose": "集市、旅店、公共炉火、居民交往与活动"
+      },
+      {
+        "name": "高地生产区",
+        "purpose": "牧场、作物、水磨坊、织物与日常生产"
+      },
+      {
+        "name": "林地与静湾",
+        "purpose": "采集、偏僻钓点、发现与小规模探索"
+      },
+      {
+        "name": "旧水道",
+        "purpose": "承接地方历史与探索主线的遗迹"
+      },
+      {
+        "name": "山口驿站与渡口",
+        "purpose": "连接外部聚落、贸易和后续区域"
+      }
+    ],
+    "proposed_story_direction": "围绕旧水道、山口交通和湖上航线逐步了解区域历史并建立与外部聚落的联系，尚未定稿。"
+  },
+  "review": {
+    "observations": [
+      "Recognizable reference-style communal lodge and fishing shelf remain at the nearer left shore.",
+      "Market commons, dwellings, agricultural terraces, mill, woodland, waterworks, pass roads and a ferry are visible in one landscape.",
+      "The teal/rust textile and substantial slate/wood/stone language continues across the region."
+    ],
+    "limitations": [
+      "This is a spatial and art-direction illustration; road traversability, scene dimensions, water flow and sightlines are not verified in 3D.",
+      "Small distant characters and structures need individual design work.",
+      "This depicts a proposed starting region, not a completed whole-world design."
+    ]
+  },
+  "archive_note": "Exact submitted prompts retained; machine-specific absolute paths normalized to basenames and tool path hints omitted."
+}

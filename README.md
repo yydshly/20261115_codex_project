@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **7** 个项目。
+已收录 **8** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -16,7 +16,8 @@
 | 4 | `0005` | [风归小庭 · 像素风与庭院游戏](projects/0005-wind-return-garden/README.md) | 从 SpriteCook 素材出发，验证分层风动与可玩庭院，整理素材价值、实际效果、创作复用和 AI 居民扩展路线。 | 已验证 | [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html) |
 | 5 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 6 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
-| 7 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 7 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) |
+| 8 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 
 ## 项目图览
 
@@ -121,6 +122,28 @@
 2026-11-16 本库整理，2400×4480；文字、故事与图文编排为本次讨论沉淀，内含原片定位缩略图，画面权利归相关权利人。
 
 [进入研究](projects/0011-everyday-wonders/README.md) · [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html)
+
+### 0019 · 山河共造 · 多人文明世界创作档案
+
+从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。
+
+参考与理解：从Thorgram原帖的湖岸聚集、钓鱼与闲聊出发，提炼值得停留的生活空间、鲜明种族和自然社交；原视频版本与服务器未核实。
+
+世界与故事：保存五张概念、原始参考和13步探索；原创岚角族与环境共享文化，七章完整故事把旧水道、六聚落、技术权威与共同代价串联。
+
+玩家与学习价值：走动、钓鱼、聊天形成起点，再通过观察、试验、制作与协作理解材料、设施、交换和制度，逐步留下社区历史。
+
+对我们的意义：沉淀美术规则、人物弧、多人选择边界和验证顺序，作为后续策划、美术与程序的共同依据，避免把概念图误当成可交付游戏。
+
+能力与后期：当前完成研究网站、故事与规则示意；三维角色、实机与联网待制作，文明生活世界、活动创作器及学习平台仍需真实验证。
+
+阅读引导：先点击本轮生成的高清总览图，再进入环境人物、完整故事、多人机制和后期产品；来源、被否定方案与实际验证分别保存。
+
+[![山河共造理解与能力总览：高地世界、岚角族与人物、七章主线、游戏构造、学习创造、多人规则、能力现状与后期产品价值](projects/0019-shanhe-co-creation/assets/shanhe-understanding-overview-v1.png)](projects/0019-shanhe-co-creation/assets/shanhe-understanding-overview-v1.png)
+
+本轮生成的3200×12684高清总览图，10个模块、约3600字符；使用已有概念原图与可校对排版，原图保持不变。点击查看完整图；现有成果、故事与系统草案、后期待验证价值分别标注。
+
+[进入研究](projects/0019-shanhe-co-creation/README.md) · [参考来源](https://x.com/thorgram/status/2121601256557051920)
 
 ### 0021 · 数字人口播制作 · 能力、样片与复用工作流
 

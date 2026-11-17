@@ -1,0 +1,244 @@
+{
+  "project": "0019-shanhe-co-creation",
+  "date": "2026-11-17",
+  "status": "passed_web_checks",
+  "published": false,
+  "game_implemented": false,
+  "content_checks": {
+    "pages": 7,
+    "internal_resources_and_links": 206,
+    "full_story_sections": 13,
+    "full_story_paragraphs": 73,
+    "story_characters": 5326,
+    "original_image_hashes_verified": 6,
+    "supplementary_image_hashes_verified": 1
+  },
+  "browser": {
+    "project": "0019-shanhe-co-creation",
+    "date": "2026-11-17",
+    "mode": "isolated headless browser against localhost only",
+    "http_pages": {
+      "index": 26363,
+      "exploration": 20739,
+      "world": 13960,
+      "story": 26777,
+      "systems": 16795,
+      "future": 12060,
+      "sources": 11381
+    },
+    "layouts": [
+      {
+        "page": "index",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "exploration",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "world",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "story",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "systems",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "future",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "sources",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "index",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "exploration",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "world",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "story",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "systems",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "future",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "sources",
+        "viewport": "390x844",
+        "overflow": false
+      }
+    ],
+    "vote_ui_cases": 81,
+    "progress_ui_cases": 32,
+    "interaction_checks": [
+      "comparison keyboard 0/100",
+      "image filters 2/3/all",
+      "lightbox image, next and Escape",
+      "Chinese search and no-results",
+      "all 6 district tabs",
+      "reading font persistence and focus",
+      "reading position",
+      "local notes persistence and JSON export",
+      "mobile navigation"
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "home-visual-atlas-desktop.png",
+      "home-visuals-desktop.png",
+      "home-visuals-mobile.png",
+      "index-desktop.png",
+      "index-mobile.png",
+      "overview-header-qa.png",
+      "overview-middle-qa.png",
+      "overview-top-qa.png",
+      "overview-value-qa.png",
+      "overview-web-desktop.png",
+      "overview-web-mobile.png",
+      "story-desktop.png",
+      "story-focus.png",
+      "story-mobile.png",
+      "world-desktop.png"
+    ],
+    "game_validation": false,
+    "published": false
+  },
+  "scope": "Local static website and browser-only explanatory interactions. No real multiplayer, game client, character assets, scientific simulation or educational outcomes validated.",
+  "homepage_visual_update": {
+    "date": "2026-11-17",
+    "project": "0019-shanhe-co-creation",
+    "purpose": "Make character and all concept images directly discoverable on the homepage",
+    "checks": [
+      {
+        "viewport": "1440x1000",
+        "character_fully_visible_in_first_view": true,
+        "hero_images": 2,
+        "atlas_images_loaded_and_opened": 6,
+        "horizontal_overflow": false,
+        "console_errors": []
+      },
+      {
+        "viewport": "390x844",
+        "character_fully_visible_in_first_view": true,
+        "hero_images": 2,
+        "atlas_images_loaded_and_opened": 6,
+        "horizontal_overflow": false,
+        "console_errors": []
+      }
+    ],
+    "original_images_modified": false
+  },
+  "overview_image": {
+    "schema_version": 1,
+    "date": "2026-11-17",
+    "type": "original code-typeset overview with unchanged existing concept PNGs",
+    "method": "Deterministic HTML/CSS layout; isolated local Chromium rasterization; no new image-generation call and no model-generated lettering",
+    "source_data": "overview-summary.json",
+    "source_html": "overview/board-v1.html",
+    "output": "shanhe-understanding-overview-v1.png",
+    "width": 3200,
+    "height": 12684,
+    "bytes": 10806913,
+    "sha256": "ec8be3195d61b6287a55201f3af5e96053eedc14584e03dbd73025a17741ba35",
+    "rendered_modules": 10,
+    "rendered_text_characters": 3627,
+    "layout_overflows": [],
+    "console_errors": [],
+    "source_images": [
+      {
+        "file": "fantasy-town-concept-v1.png",
+        "sha256": "e6d1bf526a33514c1dd1e576f54a2731fac629ea5d11c929c1fe1035f9824bed"
+      },
+      {
+        "file": "highland-ram-character-v1.png",
+        "sha256": "3f04123dbcf88c222d49991ed0f33cd4d03ebd1c1f78f7bc52b7877f21150262"
+      },
+      {
+        "file": "highland-ram-region-v1.png",
+        "sha256": "c4a0c73f38e2d330211c98c31e4bbe5a7db659bcc8c7234bbcc6bcd9b5aa2a4a"
+      },
+      {
+        "file": "highland-ram-village-v1.png",
+        "sha256": "0de145e819e6f1efa8aab308cee9531b05267bc737ea8779a38079413b11ed1f"
+      },
+      {
+        "file": "highland-ram-village-v2.png",
+        "sha256": "62225bd702a933adb3668ccc35bfd0e9918e8cfd157fc64fd286c6d61d601d1c"
+      }
+    ],
+    "notes": "Story and game construction are design proposals; current validated capability is creative documentation and the local research website."
+  },
+  "overview_web": {
+    "date": "2026-11-17",
+    "checks": [
+      {
+        "viewport": "1440x1000",
+        "full_png_dimensions": [
+          3200,
+          12684
+        ],
+        "lightbox_and_original_link": true,
+        "horizontal_overflow": false,
+        "console_errors": []
+      },
+      {
+        "viewport": "390x844",
+        "full_png_dimensions": [
+          3200,
+          12684
+        ],
+        "lightbox_and_original_link": true,
+        "horizontal_overflow": false,
+        "console_errors": []
+      }
+    ],
+    "source_and_output_resources_http_200": 4,
+    "original_images_modified": false
+  },
+  "style_recovery": {
+    "critical_assets_nonempty": true,
+    "full_browser_suite_after_restoration": "passed",
+    "original_images_modified": false
+  },
+  "publication_preflight": {
+    "date": "2026-11-17",
+    "public_build": true,
+    "registry": "passed",
+    "content_pages": 7,
+    "local_links_checked": 206,
+    "image_hashes_verified": 7,
+    "shared_regression_tests": 34,
+    "shared_regression_skipped": 1,
+    "scope": "Static research website only; no game capability validated"
+  }
+}

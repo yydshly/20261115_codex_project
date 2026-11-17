@@ -1,0 +1,8 @@
+.reference-note{padding:28px 30px;margin:26px 0 34px;border:1px solid var(--line);background:#1b2e30}
+.reference-note h3{font-size:25px;margin:0 0 14px}.reference-note p{font-size:15px;line-height:1.95;margin:12px 0;color:#bed0c7}.reference-note small{display:block;font-size:12px;line-height:1.9;color:#90a8a0}
+.understanding-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.understanding-card{padding:24px;border:1px solid var(--line);background:#16282b}
+.understanding-card h3{font-size:23px;margin:0 0 14px;line-height:1.5}.understanding-card p{font-size:14px;line-height:1.95;margin:12px 0 0;color:#b6cbc1}
+.understanding-subtitle{font-size:29px;margin:38px 0 22px}.capability-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.understanding-section>.small-meta{line-height:1.9}.download-links{display:flex;flex-wrap:wrap;gap:20px}
+@media(max-width:700px){.reference-note{padding:22px}.reference-note h3{font-size:23px}.reference-note p{font-size:14px}.understanding-grid,.capability-grid{grid-template-columns:1fr}.understanding-card{padding:22px}.understanding-card h3{font-size:23px}.understanding-subtitle{font-size:26px;line-height:1.5}}
