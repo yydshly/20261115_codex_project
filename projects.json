@@ -29,36 +29,6 @@
       ]
     },
     {
-      "id": "0002",
-      "order": 2,
-      "slug": "valley-garden",
-      "name": "溪谷花园 · 从氛围到可漫游空间",
-      "summary": "以田园视频为氛围参考，用程序搭景与免费素材整合保留两版三维漫游，对照空间、细节和环境反馈，积累可复用的浏览器体验。",
-      "repository": null,
-      "status": "validated",
-      "tags": [
-        "Three.js",
-        "三维漫游",
-        "程序化场景",
-        "素材整合",
-        "空间体验"
-      ],
-      "preview": {
-        "path": "projects/0002-valley-garden/assets/research-overview-20261117/valley-garden-research-overview.png",
-        "full_path": "projects/0002-valley-garden/assets/research-overview-20261117/valley-garden-research-overview.png",
-        "alt": "溪谷花园研究总览：程序搭景到素材整合、两版实景对照、素材来源和对我们的价值",
-        "caption": "本聊天生成的研究总览，基于两版真实运行截图与已核对的来源记录；1086×1448，点击放大。"
-      },
-      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/",
-      "highlights": [
-        "研究过程：内置浏览器观察原参考，程序搭景建立空间，再整合模型、PBR、高程、光照、动作与声音，记录实际效果及边界。",
-        "两版入口：介绍页对照原视频、代码版 V1 与精致素材版 V2；可页内启动、切换、放大或独立漫游，两版保留。",
-        "直接价值：验证空间与氛围方案，支持展示沟通；49 条来源索引保留网站、原始链接、许可与本地记录，便于查找和继续复用。",
-        "阅读引导：下图为我们生成的研究总览，含两版实际运行截图、制作过程、来源与价值；可在网页中放大。"
-      ],
-      "source_url": "https://x.com/siradisidekor/status/2121702120852492788"
-    },
-    {
       "id": "0003",
       "order": 3,
       "slug": "ai-wide-area-modeling",
@@ -116,37 +86,6 @@
         "制作价值：把统一风格的形象变成可调效果、可用场景和持续状态，保留原件、结构、参数、模块、同素材对照和验收方法。",
         "扩展方向：自有素材、完整生活事件、居民自主日常与平等交流，以及环境视频和三维花园的机制迁移；真实AI和跨项目集成尚未完成。",
         "游戏入口：主页直接演示庭院，一键切到房间；可以漫步、摸猫、看窗景、在炉边停留和开关灯。“我的庭院”继续已有存档。"
-      ]
-    },
-    {
-      "id": "0008",
-      "order": 8,
-      "slug": "pelican-layout-study",
-      "name": "鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展",
-      "summary": "从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。",
-      "repository": null,
-      "status": "validated",
-      "tags": [
-        "原片研究",
-        "艺术意境",
-        "历史语境",
-        "氛围规划",
-        "创作方法"
-      ],
-      "preview": {
-        "path": "projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.jpg",
-        "full_path": "projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.png",
-        "alt": "艺术巡游研究总览图：原片证据、四种创作价值、扩展方向及光雨传送实验教训",
-        "caption": "本次生成的研究总览图（2026-11-17），点击查看5400×4050完整原图；原片引用与我们的实验截图分别标注。"
-      },
-      "demo_url": null,
-      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
-      "highlights": [
-        "原作价值：同一骑行题目进入不同艺术与媒介系统，主角随画风转译；每幕有独立意境，空间、顺序与结尾将差异串成完整体验。",
-        "对我们的意义：学习组织艺术体验的能力，先明确艺术、历史与氛围，再规划构图、材料、光影、情绪和前后承接，最后选择角色与技术。",
-        "扩展方向：艺术导览、历史与地方记忆、光雨季节的氛围旅程；比较行旅、传送、进入细节、世界形变、同地换时、行动触发与形状接棒。",
-        "实际效果：保留《光的几种语言》《雨的三种距离》、早期白鸟动效、七种连接及46秒传送原型；明确情绪不足、普通3D demo感与遮挡构图问题，工程通过不等于艺术达标。",
-        "完整阅读：使用本次生成总览图作引导，提供21条逐幕证据、12章综合分析、12份专题和12份数据，支持全文搜索、放大与实验入口；原作观察、研究解读、原创实验和未知项分别标注。"
       ]
     },
     {
@@ -208,34 +147,6 @@
       ]
     },
     {
-      "id": "0016",
-      "order": 16,
-      "slug": "abyssal-world-notes",
-      "name": "海的生成 · 海底世界与提示词手记",
-      "summary": "研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。",
-      "repository": "https://github.com/Noniv/abyssal-garden",
-      "status": "validated",
-      "tags": [
-        "研究总结",
-        "静态网页",
-        "海底世界",
-        "程序化场景",
-        "提示词"
-      ],
-      "preview": {
-        "path": "projects/0016-abyssal-world-notes/assets/understanding-summary.png",
-        "alt": "海的生成一图总结：鲸尾森林、沉船峡谷、紫色洞窟三张实测画面，实现机制、研究价值与七项原创沉淀提示词",
-        "caption": "2026-11-17 本库原创图文排版，2400×5595；嵌入 Noniv 场景实测截图并保留 MIT 来源。原创海底世界任务书尚未执行。",
-        "full_path": "projects/0016-abyssal-world-notes/assets/understanding-summary.png"
-      },
-      "demo_url": null,
-      "highlights": [
-        "原库价值：用真实海底效果对照可读源码，理解空间构图、水下光照、密集内容与性能控制；原始提示词提供目标、取舍与验收方法。",
-        "我们的沉淀：从独立设计出发，整理创作目标、气质、空间、画面、技术取舍、验收和交付七项原创要求；不照搬作者的引擎、设备与单文件限制，任务书尚未执行。",
-        "阅读引导：先看本轮生成的完整总结图，再切换三视点、阅读机制与作者中英文原文，最后查看我们的原创任务书及可复制文本；图内海底画面为 Noniv 场景实测截图。"
-      ]
-    },
-    {
       "id": "0019",
       "order": 19,
       "slug": "shanhe-co-creation",
@@ -265,6 +176,97 @@
         "对我们的意义：沉淀美术规则、人物弧、多人选择边界和验证顺序，作为后续策划、美术与程序的共同依据，避免把概念图误当成可交付游戏。",
         "能力与后期：当前完成研究网站、故事与规则示意；三维角色、实机与联网待制作，文明生活世界、活动创作器及学习平台仍需真实验证。",
         "阅读引导：先点击本轮生成的高清总览图，再进入环境人物、完整故事、多人机制和后期产品；来源、被否定方案与实际验证分别保存。"
+      ]
+    },
+    {
+      "id": "0021",
+      "order": 21,
+      "slug": "avatar-video-workflow",
+      "name": "数字人口播制作 · 能力、样片与复用工作流",
+      "summary": "从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。",
+      "repository": null,
+      "status": "validated",
+      "tags": [
+        "数字人口播",
+        "视频后期",
+        "工作流模板",
+        "三维场景",
+        "交互研究网页"
+      ],
+      "preview": {
+        "path": "projects/0021-avatar-video-workflow/assets/overview-preview.jpg",
+        "alt": "数字人口播研究全景图顶部预览，展示四层能力与核心理解；完整图展开真实效果、制作流程、模板价值、后续路线和28个问题",
+        "caption": "2026-11-17 本轮生成的研究全景图；点击顶部预览查看 3200×26588 完整 PNG。包含真实样片、14 个模块与 28 问，人物和原声来自 @tm_uchal；已实测与待验证分别标明。",
+        "full_path": "projects/0021-avatar-video-workflow/assets/avatar-research-overview-v1.png"
+      },
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html",
+      "source_url": "https://x.com/AndyL5cc/status/2121553136615596139",
+      "highlights": [
+        "理解与思路：以14模块、28问的完整研究图，梳理模型、数字人平台、编排、内容与后期的分工，保留原作者声明、实测和判断的区别。",
+        "实际效果：5秒抠像与字幕、5秒三维屏幕、10秒整合和6秒换配置片；保留连续原声与音画校对，人物仍是二维视频素材。",
+        "复用价值：本次创建的后期模板可替换素材和文字，复用抠像与三维缓存；新人物、真实图表、上游生成和批量收益仍需进一步验证。",
+        "阅读引导：先点击下图看完整全景，再进入网页播放样片、看制作方法与选型价值，最后使用配置导出和模板源码。"
+      ]
+    },
+    {
+      "id": "0002",
+      "order": 2,
+      "slug": "valley-garden",
+      "name": "溪谷花园 · 从氛围到可漫游空间",
+      "summary": "以田园视频为氛围参考，用程序搭景与免费素材整合保留两版三维漫游，对照空间、细节和环境反馈，积累可复用的浏览器体验。",
+      "repository": null,
+      "status": "validated",
+      "tags": [
+        "Three.js",
+        "三维漫游",
+        "程序化场景",
+        "素材整合",
+        "空间体验"
+      ],
+      "preview": {
+        "path": "projects/0002-valley-garden/assets/research-overview-20261117/valley-garden-research-overview.png",
+        "full_path": "projects/0002-valley-garden/assets/research-overview-20261117/valley-garden-research-overview.png",
+        "alt": "溪谷花园研究总览：程序搭景到素材整合、两版实景对照、素材来源和对我们的价值",
+        "caption": "本聊天生成的研究总览，基于两版真实运行截图与已核对的来源记录；1086×1448，点击放大。"
+      },
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/",
+      "highlights": [
+        "研究过程：内置浏览器观察原参考，程序搭景建立空间，再整合模型、PBR、高程、光照、动作与声音，记录实际效果及边界。",
+        "两版入口：介绍页对照原视频、代码版 V1 与精致素材版 V2；可页内启动、切换、放大或独立漫游，两版保留。",
+        "直接价值：验证空间与氛围方案，支持展示沟通；49 条来源索引保留网站、原始链接、许可与本地记录，便于查找和继续复用。",
+        "阅读引导：下图为我们生成的研究总览，含两版实际运行截图、制作过程、来源与价值；可在网页中放大。"
+      ],
+      "source_url": "https://x.com/siradisidekor/status/2121702120852492788"
+    },
+    {
+      "id": "0008",
+      "order": 8,
+      "slug": "pelican-layout-study",
+      "name": "鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展",
+      "summary": "从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。",
+      "repository": null,
+      "status": "validated",
+      "tags": [
+        "原片研究",
+        "艺术意境",
+        "历史语境",
+        "氛围规划",
+        "创作方法"
+      ],
+      "preview": {
+        "path": "projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.jpg",
+        "full_path": "projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.png",
+        "alt": "艺术巡游研究总览图：原片证据、四种创作价值、扩展方向及光雨传送实验教训",
+        "caption": "本次生成的研究总览图（2026-11-17），点击查看5400×4050完整原图；原片引用与我们的实验截图分别标注。"
+      },
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "highlights": [
+        "原作价值：同一骑行题目进入不同艺术与媒介系统，主角随画风转译；每幕有独立意境，空间、顺序与结尾将差异串成完整体验。",
+        "对我们的意义：学习组织艺术体验的能力，先明确艺术、历史与氛围，再规划构图、材料、光影、情绪和前后承接，最后选择角色与技术。",
+        "扩展方向：艺术导览、历史与地方记忆、光雨季节的氛围旅程；比较行旅、传送、进入细节、世界形变、同地换时、行动触发与形状接棒。",
+        "实际效果：保留《光的几种语言》《雨的三种距离》、早期白鸟动效、七种连接及46秒传送原型；明确情绪不足、普通3D demo感与遮挡构图问题，工程通过不等于艺术达标。",
+        "完整阅读：使用本次生成总览图作引导，提供21条逐幕证据、12章综合分析、12份专题和12份数据，支持全文搜索、放大与实验入口；原作观察、研究解读、原创实验和未知项分别标注。"
       ]
     },
     {
@@ -298,33 +300,31 @@
       ]
     },
     {
-      "id": "0021",
-      "order": 21,
-      "slug": "avatar-video-workflow",
-      "name": "数字人口播制作 · 能力、样片与复用工作流",
-      "summary": "从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。",
-      "repository": null,
+      "id": "0016",
+      "order": 16,
+      "slug": "abyssal-world-notes",
+      "name": "海的生成 · 海底世界与提示词手记",
+      "summary": "研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。",
+      "repository": "https://github.com/Noniv/abyssal-garden",
       "status": "validated",
       "tags": [
-        "数字人口播",
-        "视频后期",
-        "工作流模板",
-        "三维场景",
-        "交互研究网页"
+        "研究总结",
+        "静态网页",
+        "海底世界",
+        "程序化场景",
+        "提示词"
       ],
       "preview": {
-        "path": "projects/0021-avatar-video-workflow/assets/overview-preview.jpg",
-        "alt": "数字人口播研究全景图顶部预览，展示四层能力与核心理解；完整图展开真实效果、制作流程、模板价值、后续路线和28个问题",
-        "caption": "2026-11-17 本轮生成的研究全景图；点击顶部预览查看 3200×26588 完整 PNG。包含真实样片、14 个模块与 28 问，人物和原声来自 @tm_uchal；已实测与待验证分别标明。",
-        "full_path": "projects/0021-avatar-video-workflow/assets/avatar-research-overview-v1.png"
+        "path": "projects/0016-abyssal-world-notes/assets/understanding-summary.png",
+        "alt": "海的生成一图总结：鲸尾森林、沉船峡谷、紫色洞窟三张实测画面，实现机制、研究价值与七项原创沉淀提示词",
+        "caption": "2026-11-17 本库原创图文排版，2400×5595；嵌入 Noniv 场景实测截图并保留 MIT 来源。原创海底世界任务书尚未执行。",
+        "full_path": "projects/0016-abyssal-world-notes/assets/understanding-summary.png"
       },
-      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html",
-      "source_url": "https://x.com/AndyL5cc/status/2121553136615596139",
+      "demo_url": null,
       "highlights": [
-        "理解与思路：以14模块、28问的完整研究图，梳理模型、数字人平台、编排、内容与后期的分工，保留原作者声明、实测和判断的区别。",
-        "实际效果：5秒抠像与字幕、5秒三维屏幕、10秒整合和6秒换配置片；保留连续原声与音画校对，人物仍是二维视频素材。",
-        "复用价值：本次创建的后期模板可替换素材和文字，复用抠像与三维缓存；新人物、真实图表、上游生成和批量收益仍需进一步验证。",
-        "阅读引导：先点击下图看完整全景，再进入网页播放样片、看制作方法与选型价值，最后使用配置导出和模板源码。"
+        "原库价值：用真实海底效果对照可读源码，理解空间构图、水下光照、密集内容与性能控制；原始提示词提供目标、取舍与验收方法。",
+        "我们的沉淀：从独立设计出发，整理创作目标、气质、空间、画面、技术取舍、验收和交付七项原创要求；不照搬作者的引擎、设备与单文件限制，任务书尚未执行。",
+        "阅读引导：先看本轮生成的完整总结图，再切换三视点、阅读机制与作者中英文原文，最后查看我们的原创任务书及可复制文本；图内海底画面为 Noniv 场景实测截图。"
       ]
     }
   ]
