@@ -7,7 +7,7 @@
 - 本地网页：[研究首页](http://127.0.0.1:52942/20261115_codex_project/demos/0020-human-nature-film-study/index.html) · [完整分析](http://127.0.0.1:52942/20261115_codex_project/demos/0020-human-nature-film-study/analysis.html) · [制作档案](http://127.0.0.1:52942/20261115_codex_project/demos/0020-human-nature-film-study/archive.html)
 - 完整文字：[ANALYSIS.md](ANALYSIS.md)，由[analysis.json](analysis.json)生成
 - 一图汇总：[理解、价值与创作思路高清PNG](assets/understanding-map-v1.png) · [可编辑矢量SVG](assets/understanding-map-v1.svg)，2400×5166
-- 公开部署：已获用户明确授权，发布准备中；真实上线验收后填写 `demo_url`，见[publication.md](publication.md)
+- 公开网页：[风与春研究](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html)；2026-11-17命令行验收通过，见[publication.md](publication.md)
 
 ## 它解决什么问题
 
@@ -60,7 +60,7 @@
 - 研究整理：2026-11-17；本次对话与实际制作档案。
 - 环境：Windows，Python 3.10+；仅首次制作网页视频副本需要FFmpeg。
 - 视频：8个720×1280的H.264/AAC网页副本，约35.91MiB；原始制作文件不改动。
-- 检查结果见[verification.json](verification.json)。浏览器验证和创作效果分别记录。
+- 检查结果见[verification.json](verification.json)与[live-verification.json](live-verification.json)。本次提交和发布按用户要求只通过Git与命令行；历史浏览器检查和创作效果分别记录。
 - 第一版曾在内置浏览器实播两版整片和第1、6镜，完成版本/主题切换、镜头定位、并排播放、提示词复制与390/320像素手机排版检查。原截图仅记录第一版网页。
 - 本轮重新检查三页导出、完整分析内容、九条原话、参考先于试片的阅读顺序、本地资源、8段视频哈希和HTTP分段请求。浏览器工具在本轮中途不可用，新版排版尚待复核；历史浏览器检查不用于证明新布局。声音听审未完成。
 
@@ -87,7 +87,7 @@ python projects/0020-human-nature-film-study/scripts/prepare_media.py --episode-
 
 首页首先使用原帖开场附近的真实画面截图，并明确注明来源和权利；图中人物打开窗，面向室外绿植。本次AI试片的实际抽帧另行标注，不混为原参考。每张试片图的原始镜头、时间与哈希见媒体清单；虚构人物/院落参考单独标注。`assets/overview.jpg`和`assets/qa/`中的网页截图记录第一版布局。
 
-本地导出位于`_site/demos/0020-human-nature-film-study/`，保留仓库子路径`/20261115_codex_project/`。本轮已获GitHub Pages公开部署与提交授权；真实地址和上线验收见`publication.md`。
+本地导出位于`_site/demos/0020-human-nature-film-study/`，保留仓库子路径`/20261115_codex_project/`。已部署GitHub Pages；三页HTTP200、八段视频分段请求与原引导图SHA-256验收通过，记录见`publication.md`。
 
 ## 后续计划
 

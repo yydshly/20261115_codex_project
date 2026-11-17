@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "authorized_date": "2026-11-17",
-  "status": "prepared",
+  "status": "live_verified",
   "url": "https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
   "provider": "GitHub Pages",
   "source_repository": "https://github.com/yydshly/20261115_codex_project",
@@ -12,5 +12,11 @@
     "sha256": "1f2034e59f1b8c2f2eb82806a85116a4911e7c4418c69ac358e7b166fdd75960",
     "original_delivered_file_unchanged": true
   },
-  "generation_credits_added": 0
+  "generation_credits_added": 0,
+  "verified_at": "2026-11-17T17:12:01+08:00",
+  "source_commit": "cbe682f5ef599e66e67b31b12f3c3e6efcba4699",
+  "deployment_commit": "34a4887acdff36038bb997f624d312eee1d8671f",
+  "actions_url": "https://github.com/yydshly/20261115_codex_project/actions/runs/44052881520",
+  "actions_conclusion": "success",
+  "verification": "three pages HTTP200, original guide SHA-256, 8 videos first/suffix HTTP206, shared navigation"
 }
