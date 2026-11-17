@@ -4,7 +4,7 @@
 
 ## 阅读入口与范围
 
-固定公开路径：`https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/`。实际可访问与否以文末上线核验为准。
+固定公开路径：`https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/`。已实际访问并核验。
 
 首页先展示引导图，再分析原作怎样成立、原作的艺术与规划价值，以及对我们的意义。保留20幕与真实结尾的逐幕证据、12份专题全文、12份数据和全文搜索。《光》《雨》、白鸟动效、七种连接和传送均可从实验区进入，状态和失败边界单独标注。
 
@@ -20,4 +20,13 @@
 
 ## 实际上线核验
 
-待本轮提交、Actions 构建与公开资源验证后填写；在验证前，登记表 `demo_url` 保持 `null`。
+2026-11-17 17:17（Asia/Shanghai）完成公开HTTP核验，并在内置浏览器实际访问。
+
+- 内容提交：[4cc8b46](https://github.com/yydshly/20261115_codex_project/commit/4cc8b462d0827769b9c678fe85002e26bfdbb05b)。后续保留并行项目提交，修正SVG跨平台换行与校验记录。
+- 完整构建与部署：[运行44053507316](https://github.com/yydshly/20261115_codex_project/actions/runs/44053507316)，提交 `bf65cd6b6effd25d0ee892932d652b5015fb8770`，build / deploy均成功。
+- 232个公开文件全部返回HTTP 200，覆盖32个HTML页面、源码模块、样式、原片引用、实验画面及第三方运行时。三种引导图逐字节哈希与选定原件一致，PNG为 `a16cbc6f36af770f22d047cab175a1cdfc5e54784437b37cd4271905ce05fd2e`。
+- 总导航含本项目、完整摘要、同图预览与完整PNG链接。内置浏览器核对12章与21场景；《雨》开始行旅并切到54秒空江，传送进入播放，《光》进入观看状态，抽查控制台无error/warn。
+- 1280×900与390×844排版无横向溢出；真实公开首页截图为 `assets/publication-live-home-20261117.jpg`。详细HTTP清单：[publication-http-check.json](assets/publication-http-check.json)。
+- 本次部署只证明研究页与实验入口可公开访问；未提升或重新通过实验艺术质量。最新文档提交补入正式 `demo_url` 与以上实测记录。
+
+推送范围已比较：所有其他项目的Git树对象与登记项不变，无删除或重命名；必要总库变更仅为索引、白名单、路径触发和部署说明。没有强制覆盖远端更新。

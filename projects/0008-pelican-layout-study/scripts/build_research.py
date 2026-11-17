@@ -51,7 +51,7 @@ def header(base='../'):
 
 
 def shell(title, content, base='../'):
-    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#172c28"><title>{esc(title)} · 艺术巡游研究档案</title><link rel="stylesheet" href="{base}research.css"><script defer src="{base}research-data.js"></script><script defer src="{base}research.js"></script></head><body data-base="{base}">{header(base)}{content}<footer class="research-footer"><a href="{base}index.html">回到研究总览 ↑</a><p>完整记录，保留判断的依据。<br><span>本地研究档案 · {UPDATED}</span></p><a href="index.html">浏览全部档案 ↗</a></footer>{SEARCH_DIALOG}</body></html>'''
+    return f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#172c28"><title>{esc(title)} · 艺术巡游研究档案</title><link rel="stylesheet" href="{base}research.css"><script defer src="{base}research-data.js"></script><script defer src="{base}research.js"></script></head><body data-base="{base}">{header(base)}{content}<footer class="research-footer"><a href="{base}index.html">回到研究总览 ↑</a><p>完整记录，保留判断的依据。<br><span>研究档案 · {UPDATED}</span></p><a href="index.html">浏览全部档案 ↗</a></footer>{SEARCH_DIALOG}</body></html>'''
 
 
 class Markdown:

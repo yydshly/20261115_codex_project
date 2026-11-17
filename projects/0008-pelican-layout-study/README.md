@@ -6,7 +6,8 @@
 
 2026-11-17已将网页重整为完整研究汇总。开篇优先分析原效果的组成、核心价值和对我们创作的意义；12个阅读章节之后接完整专题档案。实验保留为历史案例与失败边界，当前不继续扩展艺术演示，也不把技术测试通过当作艺术效果已复现。
 
-- 网页入口：[web/index.html](web/index.html)
+- 正式网页：[艺术巡游研究汇总](https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/)
+- 网页源码：[web/research-template.html](web/research-template.html)（构建生成 web/index.html）
 - 一图汇总：[高清 PNG](assets/research-understanding-map-20261117.png) · [可编辑 SVG](assets/research-understanding-map-20261117.svg)；原片证据 → 创作价值 → 扩展方向，并接入《光》《雨》与传送实验的实际截图。
 - 本地预览：[http://127.0.0.1:52918/](http://127.0.0.1:52918/)，服务启动时可访问
 - 全部专题网页：[完整研究档案](web/archive/index.html)，12份专题全文、12份原始数据；支持全文和段落搜索
@@ -19,7 +20,7 @@
 - 思路沉淀：[creative-framework.md](creative-framework.md)
 - 综合分析：[analysis.md](analysis.md)
 - 逐场景全文：[scene-notes.md](scene-notes.md)
-- 发布范围与实际状态：[publication.md](publication.md)；上线核验前，`demo_url` 保持 `null`
+- 已部署并实际验收：[发布记录](publication.md) · [公开资源校验](assets/publication-http-check.json)；232个文件返回HTTP 200，三种引导图与原件哈希一致。
 
 ## 页面内容
 
@@ -39,7 +40,9 @@
 
 ## 研究网站实际截图
 
-![研究汇总首页：先读原作效果拆解、价值与创作意义](assets/research-home-20261117.jpg)
+![GitHub公开研究首页：生成总览图引导原作拆解、价值与我们的扩展](assets/publication-live-home-20261117.jpg)
+
+上图为2026-11-17内置浏览器实际访问GitHub Pages的截图。原作价值、我们的意义和扩展实验在同一研究主线中，实验未达艺术目标的结论仍保留。
 
 [逐幕图文阅读](assets/research-reader-20261117.jpg) · [完整档案目录](assets/research-archive-20261117.jpg) · [全文搜索](assets/research-search-20261117.jpg) · [手机首页](assets/research-mobile-20261117.jpg) · [手机场景阅读](assets/research-mobile-reader-20261117.jpg)。2026-11-17内置浏览器实际截图，分别核对1280×900与390×844视口。原片图片仍按原来源与权利边界引用。
 

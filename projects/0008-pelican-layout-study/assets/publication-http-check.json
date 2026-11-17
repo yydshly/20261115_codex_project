@@ -1,0 +1,969 @@
+{
+  "checked_at": "2026-11-17T17:17:13+08:00",
+  "url": "https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/",
+  "source_commit": "bf65cd6b6effd25d0ee892932d652b5015fb8770",
+  "actions_run": "https://github.com/yydshly/20261115_codex_project/actions/runs/44053507316",
+  "actions_result": "success",
+  "http_files_checked": 232,
+  "http_failures": [],
+  "guide_files": [
+    {
+      "file": "research-understanding-map-20261117.png",
+      "bytes": 4429714,
+      "sha256": "a16cbc6f36af770f22d047cab175a1cdfc5e54784437b37cd4271905ce05fd2e",
+      "matches_original": true
+    },
+    {
+      "file": "research-understanding-map-20261117.svg",
+      "bytes": 663104,
+      "sha256": "b8deffc9bb32701ac0d39017a0f1acb95d395a1bbc2342b2854b2047d6075f30",
+      "matches_original": true
+    },
+    {
+      "file": "research-understanding-map-20261117.jpg",
+      "bytes": 3187495,
+      "sha256": "4a69340cf6a9dd85be8f8304b80a2ef2f2e1c42362adec68c909f47c0c048e8c",
+      "matches_original": true
+    }
+  ],
+  "root_navigation": "project entry, same guide preview, exact full PNG link verified",
+  "resources": [
+    {
+      "file": "app.js",
+      "status": 200
+    },
+    {
+      "file": "archive/analysis.html",
+      "status": 200
+    },
+    {
+      "file": "archive/art-studies.html",
+      "status": 200
+    },
+    {
+      "file": "archive/connections.html",
+      "status": 200
+    },
+    {
+      "file": "archive/creative-framework.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-art-studies.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-browser-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-connections-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-experiments-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-generation-record.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-portal-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-prompts.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-rain-3d-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-rain-art-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-scenes.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-source-manifest.html",
+      "status": 200
+    },
+    {
+      "file": "archive/data-static-verification.html",
+      "status": 200
+    },
+    {
+      "file": "archive/experiments.html",
+      "status": 200
+    },
+    {
+      "file": "archive/index.html",
+      "status": 200
+    },
+    {
+      "file": "archive/portal-art-direction.html",
+      "status": 200
+    },
+    {
+      "file": "archive/project-readme.html",
+      "status": 200
+    },
+    {
+      "file": "archive/rain-art-direction.html",
+      "status": 200
+    },
+    {
+      "file": "archive/rain-journey.html",
+      "status": 200
+    },
+    {
+      "file": "archive/scene-notes.html",
+      "status": 200
+    },
+    {
+      "file": "archive/sources.html",
+      "status": 200
+    },
+    {
+      "file": "archive/verification.html",
+      "status": 200
+    },
+    {
+      "file": "art-data.js",
+      "status": 200
+    },
+    {
+      "file": "art-studies.css",
+      "status": 200
+    },
+    {
+      "file": "art-studies.js",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies-mobile.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/light-cathedral-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/light-darkroom-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/light-garden-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/rain-bamboo-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/rain-eaves-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/art-studies/rain-river-v1.webp",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-action.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-arrival.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-detail.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-match-moon.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-match-umbrella.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-mobile-arrival.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-mobile-detail.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-mobile-portal.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-mobile-walk.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-morph.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-portal.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-time.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/connections-walk.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/creative-thinking.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-coast.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-engraving.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-forest.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-immersive.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-mobile-scale.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-moon.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-overview.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-scale-far.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-scale-near.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/demo-signal.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/emotion-path.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/ending-analysis.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/extensions.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/journey.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/layout-lab.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-ending.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-mobile-playing.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-mobile.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-playing.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-transition-1.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-transition-2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-emotion-v2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-mobile.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-study-2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-study.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/light-transition.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-journey.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-lab.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-reader.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-story-home.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-story.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile-thinking.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/mobile.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/overview.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/publication-home-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/publication-mobile-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-bamboo.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-eaves.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-entry.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-mobile-bamboo.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-mobile-entry.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-mobile-river.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-3d-river.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-bamboo.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-eaves.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-entry.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-mobile-bamboo.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-mobile-eaves.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-mobile-river.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-art-river.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-ending.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-mobile-playing.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-mobile.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-playing.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-transition-1.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-transition-2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-emotion-v2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-immersive.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-study-3.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-study.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/rain-transition.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reader.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/contact-sheet.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/ending-120.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/ending-123.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/ending-126.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/ending-128.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-116.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-2.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-22.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-31.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-52.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-65.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-88.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/frame-99.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/pedaling-sequence.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-01.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-02.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-03.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-04.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-05.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-06.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-07.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-08.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-09.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-10.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-11.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-12.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-13.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-14.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-15.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-16.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-17.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-18.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-19.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/reference/scene-20.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-archive-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-home-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-mobile-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-mobile-reader-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-reader-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-search-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-understanding-map-20261117.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/research-understanding-map-20261117.png",
+      "status": 200
+    },
+    {
+      "file": "assets/research-understanding-map-20261117.svg",
+      "status": 200
+    },
+    {
+      "file": "assets/review-20261117-comparison.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/review-20261117-garden.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/review-20261117-lookback.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/review-20261117-threshold.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/story-departure.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/story-home.jpg",
+      "status": 200
+    },
+    {
+      "file": "assets/story-night.jpg",
+      "status": 200
+    },
+    {
+      "file": "connections-score.mjs",
+      "status": 200
+    },
+    {
+      "file": "connections-world.mjs",
+      "status": 200
+    },
+    {
+      "file": "connections.css",
+      "status": 200
+    },
+    {
+      "file": "connections.html",
+      "status": 200
+    },
+    {
+      "file": "connections.js",
+      "status": 200
+    },
+    {
+      "file": "experiments.css",
+      "status": 200
+    },
+    {
+      "file": "experiments.html",
+      "status": 200
+    },
+    {
+      "file": "experiments.js",
+      "status": 200
+    },
+    {
+      "file": "index.html",
+      "status": 200
+    },
+    {
+      "file": "light.html",
+      "status": 200
+    },
+    {
+      "file": "portal-score.mjs",
+      "status": 200
+    },
+    {
+      "file": "portal-world.mjs",
+      "status": 200
+    },
+    {
+      "file": "portal.html",
+      "status": 200
+    },
+    {
+      "file": "rain-art.mjs",
+      "status": 200
+    },
+    {
+      "file": "rain-ink.mjs",
+      "status": 200
+    },
+    {
+      "file": "rain-journey.css",
+      "status": 200
+    },
+    {
+      "file": "rain-journey.js",
+      "status": 200
+    },
+    {
+      "file": "rain-route.mjs",
+      "status": 200
+    },
+    {
+      "file": "rain-still.html",
+      "status": 200
+    },
+    {
+      "file": "rain-traveler.mjs",
+      "status": 200
+    },
+    {
+      "file": "rain-world.mjs",
+      "status": 200
+    },
+    {
+      "file": "rain.html",
+      "status": 200
+    },
+    {
+      "file": "reader.css",
+      "status": 200
+    },
+    {
+      "file": "reader.js",
+      "status": 200
+    },
+    {
+      "file": "records/analysis.md",
+      "status": 200
+    },
+    {
+      "file": "records/art-studies.md",
+      "status": 200
+    },
+    {
+      "file": "records/connections.md",
+      "status": 200
+    },
+    {
+      "file": "records/creative-framework.md",
+      "status": 200
+    },
+    {
+      "file": "records/data-art-studies.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-browser-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-connections-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-experiments-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-generation-record.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-portal-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-prompts.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-rain-3d-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-rain-art-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-scenes.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-source-manifest.json",
+      "status": 200
+    },
+    {
+      "file": "records/data-static-verification.json",
+      "status": 200
+    },
+    {
+      "file": "records/experiments.md",
+      "status": 200
+    },
+    {
+      "file": "records/files/assets--art-studies--emotion-v2-verification.json.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/assets--research-understanding-map-record.json.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/publication.md.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/scripts--build.py.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/scripts--build_research.py.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/scripts--build_understanding_map.py.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/scripts--vendor_three.py.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/scripts--verify_research.py.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/start.cmd.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/tests--rain-route.test.mjs.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/web--art-template.html.txt",
+      "status": 200
+    },
+    {
+      "file": "records/files/web--research-template.html.txt",
+      "status": 200
+    },
+    {
+      "file": "records/portal-art-direction.md",
+      "status": 200
+    },
+    {
+      "file": "records/project-readme.md",
+      "status": 200
+    },
+    {
+      "file": "records/rain-art-direction.md",
+      "status": 200
+    },
+    {
+      "file": "records/rain-journey.md",
+      "status": 200
+    },
+    {
+      "file": "records/scene-notes.md",
+      "status": 200
+    },
+    {
+      "file": "records/sources.md",
+      "status": 200
+    },
+    {
+      "file": "records/verification.md",
+      "status": 200
+    },
+    {
+      "file": "research-data.js",
+      "status": 200
+    },
+    {
+      "file": "research.css",
+      "status": 200
+    },
+    {
+      "file": "research.js",
+      "status": 200
+    },
+    {
+      "file": "scenes.js",
+      "status": 200
+    },
+    {
+      "file": "styles.css",
+      "status": 200
+    },
+    {
+      "file": "vendor/three/LICENSE",
+      "status": 200
+    },
+    {
+      "file": "vendor/three/Reflector.js",
+      "status": 200
+    },
+    {
+      "file": "vendor/three/provenance.json",
+      "status": 200
+    },
+    {
+      "file": "vendor/three/three.core.min.js",
+      "status": 200
+    },
+    {
+      "file": "vendor/three/three.module.min.js",
+      "status": 200
+    }
+  ],
+  "browser_checks": [
+    "1280x900 and390x844 no horizontal overflow",
+    "public homepage guide loaded and21 scene tabs",
+    "rain entered journey and switched to river at00:54",
+    "portal ready andplaying",
+    "light entered journey",
+    "rain, portal, light sampled console error/warn empty"
+  ],
+  "art_quality": "Existing experiments remain explicitly below reference art quality; deployment does not change that conclusion."
+}
