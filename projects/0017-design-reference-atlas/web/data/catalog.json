@@ -1,0 +1,1969 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "100 个提升审美的设计网站大赏",
+    "url": "https://x.com/EianLu/status/2121219503988113557",
+    "post_url": "https://x.com/EianLu/status/2121430416808894617",
+    "author": "Eian / @EianLu",
+    "article_date": "2026-11-13",
+    "accessed_at": "2026-11-16"
+  },
+  "categories": [
+    {
+      "id": "awards",
+      "name": "大赛与奖项",
+      "subtitle": "从获奖作品校准视觉标准",
+      "count": 12
+    },
+    {
+      "id": "motion",
+      "name": "动态设计与视频",
+      "subtitle": "看节奏、转场与制作过程",
+      "count": 14
+    },
+    {
+      "id": "three-d",
+      "name": "3D 与渲染",
+      "subtitle": "观察建模、材质与光影",
+      "count": 9
+    },
+    {
+      "id": "cinema",
+      "name": "电影画面与镜头参考",
+      "subtitle": "拆解构图、用光与镜头语言",
+      "count": 7
+    },
+    {
+      "id": "ui",
+      "name": "UI 设计",
+      "subtitle": "从真实产品理解界面与流程",
+      "count": 16
+    },
+    {
+      "id": "web",
+      "name": "网页灵感",
+      "subtitle": "寻找页面结构与视觉方向",
+      "count": 10
+    },
+    {
+      "id": "frontend",
+      "name": "前端与交互",
+      "subtitle": "把视觉参考转成可运行的交互",
+      "count": 16
+    },
+    {
+      "id": "type-color",
+      "name": "字体与配色",
+      "subtitle": "建立文字层级与颜色秩序",
+      "count": 10
+    },
+    {
+      "id": "collect",
+      "name": "日常收集灵感",
+      "subtitle": "积累可检索、可解释的参考",
+      "count": 6
+    }
+  ],
+  "sites": [
+    {
+      "id": 1,
+      "category": "awards",
+      "name": "Pwnisher 3D 渲染挑战赛",
+      "url": "https://www.youtube.com/@pwnisher",
+      "purpose": "观看统一动作与机位约束下的全球 3D 创作合集。",
+      "look_for": "对照相同动作如何通过场景、灯光与材质变成不同叙事。",
+      "tags": [
+        "3D",
+        "创作比赛",
+        "灯光"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.youtube.com/@pwnisher",
+        "title": "挑战赛与作品视频",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 2,
+      "category": "awards",
+      "name": "Awwwards",
+      "url": "https://www.awwwards.com/",
+      "purpose": "浏览网页奖项和提名作品，寻找视觉与交互设计方向。",
+      "look_for": "分开记录版式层级、滚动节奏和交互反馈。",
+      "tags": [
+        "网页",
+        "奖项",
+        "交互"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.awwwards.com/",
+        "title": "获奖网页精选",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 3,
+      "category": "awards",
+      "name": "CSS Design Awards",
+      "url": "https://www.cssdesignawards.com/",
+      "purpose": "发现按界面、体验与创新维度评选的网页作品。",
+      "look_for": "比较同类站点的导航、动效与可用性取舍。",
+      "tags": [
+        "网页",
+        "奖项",
+        "UI"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.cssdesignawards.com/",
+        "title": "获奖网站作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 4,
+      "category": "awards",
+      "name": "The FWA",
+      "url": "https://thefwa.com/",
+      "purpose": "查看实验性数字体验与创意互动项目。",
+      "look_for": "关注鼠标、声音、WebGL 等输入如何参与表达。",
+      "tags": [
+        "创意开发",
+        "数字体验",
+        "WebGL"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://thefwa.com/",
+        "title": "数字互动作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 5,
+      "category": "awards",
+      "name": "The Motion Awards",
+      "url": "https://motionawards.com/",
+      "purpose": "按用途浏览片头、广告及品牌动态设计获奖项目。",
+      "look_for": "选一个类别比较叙事结构、画面风格与声音配合。",
+      "tags": [
+        "动态设计",
+        "奖项",
+        "片头"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://motionawards.com/",
+        "title": "动态设计获奖作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 6,
+      "category": "awards",
+      "name": "Apple Design Awards",
+      "url": "https://developer.apple.com/design/awards/",
+      "purpose": "查看 Apple 设计奖入选应用与官方评述。",
+      "look_for": "把官方评述对应到应用操作反馈与平台特性。",
+      "tags": [
+        "应用",
+        "交互",
+        "奖项"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://developer.apple.com/design/awards/",
+        "title": "获奖应用与游戏",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 7,
+      "category": "awards",
+      "name": "D&AD",
+      "url": "https://www.dandad.org/",
+      "purpose": "查阅品牌、广告与视觉设计领域的奖项作品。",
+      "look_for": "追踪一个创意如何延伸为平面、影像和品牌触点。",
+      "tags": [
+        "品牌",
+        "广告",
+        "平面"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.dandad.org/",
+        "title": "设计与广告获奖案例",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 8,
+      "category": "awards",
+      "name": "The One Show & ADC",
+      "url": "https://www.oneclub.org/",
+      "purpose": "查找广告创意与视觉工艺案例。",
+      "look_for": "分别观察创意命题、字体排印和制作完成度。",
+      "tags": [
+        "广告",
+        "艺术指导",
+        "排版"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.oneclub.org/",
+        "title": "One Show 与 ADC 案例",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 9,
+      "category": "awards",
+      "name": "Runway AI Film Festival",
+      "url": "https://aif.runwayml.com/",
+      "purpose": "观看 AI 影像节项目，了解生成影像创作方向。",
+      "look_for": "比较工具效果与故事表达各自承担了什么作用。",
+      "tags": [
+        "AI影像",
+        "短片",
+        "电影节"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://aif.runwayml.com/",
+        "title": "AI 影像节作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 10,
+      "category": "awards",
+      "name": "Tokyo TDC",
+      "url": "https://tokyotypedirectorsclub.org/",
+      "purpose": "查看以字体与视觉表达为核心的设计奖项作品。",
+      "look_for": "观察字形、网格与留白如何共同构成画面。",
+      "tags": [
+        "字体",
+        "海报",
+        "实验视觉"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://tokyotypedirectorsclub.org/",
+        "title": "字体与视觉设计作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 11,
+      "category": "awards",
+      "name": "Annecy 安纳西国际动画节",
+      "url": "https://www.annecyfestival.com/",
+      "purpose": "查阅国际动画节入选及获奖作品信息。",
+      "look_for": "按短片或委托作品寻找美术风格与动画叙事参考。",
+      "tags": [
+        "动画",
+        "短片",
+        "电影节"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.annecyfestival.com/",
+        "title": "动画节入选与获奖作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 12,
+      "category": "awards",
+      "name": "Ciclope Festival",
+      "url": "https://www.ciclopefestival.com/",
+      "purpose": "按影视广告制作工种寻找获奖项目。",
+      "look_for": "围绕摄影、调色或剪辑单项拆解。",
+      "tags": [
+        "广告",
+        "摄影",
+        "调色"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.ciclopefestival.com/",
+        "title": "影视制作获奖项目",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 13,
+      "category": "motion",
+      "name": "Motionographer",
+      "url": "https://motionographer.com/",
+      "purpose": "阅读动态设计精选项目与创作者幕后介绍。",
+      "look_for": "将成片与制作说明对照，找出视觉规则与关键决策。",
+      "tags": [
+        "动态设计",
+        "幕后",
+        "动画"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://motionographer.com/",
+        "title": "动态设计精选与幕后",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 14,
+      "category": "motion",
+      "name": "STASH",
+      "url": "https://www.stashmedia.tv/",
+      "purpose": "检索商业动画、视效与品牌动态作品及制作花絮。",
+      "look_for": "按技术或风格归类，比较成片与制作过程。",
+      "tags": [
+        "视效",
+        "商业动画",
+        "幕后"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://www.stashmedia.tv/",
+        "title": "商业动画与视效片库",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 15,
+      "category": "motion",
+      "name": "Art of the Title",
+      "url": "https://www.artofthetitle.com/",
+      "purpose": "研究电影、剧集和游戏片头及主创访谈。",
+      "look_for": "对照草图、分镜与成片，分析信息出现的节奏。",
+      "tags": [
+        "片头",
+        "电影",
+        "主创访谈"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.artofthetitle.com/",
+        "title": "片头设计与制作访谈",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 16,
+      "category": "motion",
+      "name": "Vimeo Staff Picks",
+      "url": "https://vimeo.com/channels/staffpicks",
+      "purpose": "观看人工精选的实拍、动画与纪录短片。",
+      "look_for": "记录开场、转折与结尾如何在有限时长里衔接。",
+      "tags": [
+        "短片",
+        "动画",
+        "纪录片"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://vimeo.com/channels/staffpicks",
+        "title": "Vimeo 编辑精选短片",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 17,
+      "category": "motion",
+      "name": "Behance 动态设计专区",
+      "url": "https://www.behance.net/galleries/motion",
+      "purpose": "浏览动态设计及情绪板、风格帧和过程展示。",
+      "look_for": "沿情绪板、动态分镜到成片观察风格延续。",
+      "tags": [
+        "动态设计",
+        "风格帧",
+        "过程"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.behance.net/galleries/motion",
+        "title": "Motion 动态设计项目",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 18,
+      "category": "motion",
+      "name": "Short of the Week",
+      "url": "https://www.shortoftheweek.com/",
+      "purpose": "发现独立短片，结合编辑评论理解叙事。",
+      "look_for": "关注人物目标、冲突和结尾如何压缩进短片。",
+      "tags": [
+        "独立短片",
+        "叙事",
+        "影评"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.shortoftheweek.com/",
+        "title": "独立短片精选",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 19,
+      "category": "motion",
+      "name": "Directors Notes",
+      "url": "https://directorsnotes.com/",
+      "purpose": "阅读独立导演访谈，了解创作与制作条件。",
+      "look_for": "把创意目标与预算、拍摄和后期限制联系起来。",
+      "tags": [
+        "导演",
+        "短片",
+        "制作访谈"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://directorsnotes.com/",
+        "title": "短片与导演访谈",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 20,
+      "category": "motion",
+      "name": "Sakugabooru",
+      "url": "https://www.sakugabooru.com/",
+      "purpose": "按作品、作者和动作类型检索动画作画片段。",
+      "look_for": "观察动作预备、加速、停顿和收势。",
+      "tags": [
+        "动画",
+        "动作",
+        "逐帧"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.sakugabooru.com/",
+        "title": "作画片段与标签检索",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 21,
+      "category": "motion",
+      "name": "Promonews",
+      "url": "https://www.promonews.tv/",
+      "purpose": "查看新近 MV、广告与导演创作说明。",
+      "look_for": "对照音乐段落观察剪辑点、色彩与镜头风格。",
+      "tags": [
+        "MV",
+        "广告",
+        "剪辑"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.promonews.tv/",
+        "title": "MV 与商业影像",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 22,
+      "category": "motion",
+      "name": "BUCK",
+      "url": "https://buck.co/",
+      "purpose": "浏览品牌动态、动画与混合媒介项目。",
+      "look_for": "研究同一品牌在二维、三维和实拍之间的统一。",
+      "tags": [
+        "工作室",
+        "品牌动态",
+        "混合媒介"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://buck.co/",
+        "title": "BUCK 工作室作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 23,
+      "category": "motion",
+      "name": "ManvsMachine",
+      "url": "https://mvsm.com/",
+      "purpose": "参考以产品、材质与三维视觉为主的商业作品。",
+      "look_for": "观察高光、表面细节和运动如何突出产品。",
+      "tags": [
+        "工作室",
+        "产品广告",
+        "3D"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://mvsm.com/",
+        "title": "ManvsMachine 作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 24,
+      "category": "motion",
+      "name": "Oddfellows",
+      "url": "https://oddfellows.tv/",
+      "purpose": "浏览插画、二维角色与品牌动画项目。",
+      "look_for": "关注配色关系、角色动作与镜头连接。",
+      "tags": [
+        "工作室",
+        "2D动画",
+        "插画"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://oddfellows.tv/",
+        "title": "Oddfellows 动画项目",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 25,
+      "category": "motion",
+      "name": "Golden Wolf",
+      "url": "https://www.goldenwolf.tv/",
+      "purpose": "查看角色动画与商业视觉作品。",
+      "look_for": "拆解夸张透视、形变与快节奏剪辑的配合。",
+      "tags": [
+        "工作室",
+        "角色动画",
+        "风格化"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.goldenwolf.tv/",
+        "title": "Golden Wolf 动画作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 26,
+      "category": "motion",
+      "name": "Ordinary Folk",
+      "url": "https://www.ordinaryfolk.co/",
+      "purpose": "研究几何图形、二维动态与品牌叙事作品。",
+      "look_for": "观察简单形状如何通过缓动与节奏形成表现力。",
+      "tags": [
+        "工作室",
+        "几何动画",
+        "缓动"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.ordinaryfolk.co/",
+        "title": "Ordinary Folk 动态作品",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 27,
+      "category": "three-d",
+      "name": "ArtStation",
+      "url": "https://www.artstation.com/",
+      "purpose": "查找概念设计、角色、场景与三维美术作品。",
+      "look_for": "对照成品与过程图区分设计、模型和灯光的作用。",
+      "tags": [
+        "CG",
+        "概念设计",
+        "游戏美术"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.artstation.com/",
+        "title": "数字美术作品集",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 28,
+      "category": "three-d",
+      "name": "The Rookies",
+      "url": "https://www.therookies.co/",
+      "purpose": "浏览学生与新人在动画、游戏和视效领域的作品。",
+      "look_for": "查看同类作品集如何组织过程与成果证据。",
+      "tags": [
+        "作品集",
+        "新人",
+        "3D"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.therookies.co/",
+        "title": "新人作品与年度赛事",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 29,
+      "category": "three-d",
+      "name": "80 Level",
+      "url": "https://80.lv/",
+      "purpose": "阅读游戏美术与三维场景的制作拆解。",
+      "look_for": "沿建模、材质、灯光步骤寻找可复用方法。",
+      "tags": [
+        "游戏美术",
+        "制作拆解",
+        "材质"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://80.lv/",
+        "title": "三维项目与制作拆解",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 30,
+      "category": "three-d",
+      "name": "Sketchfab",
+      "url": "https://sketchfab.com/",
+      "purpose": "在浏览器中转动查看三维模型及检查视图。",
+      "look_for": "切换视角与通道观察轮廓、布线和表面细节。",
+      "tags": [
+        "3D模型",
+        "在线查看",
+        "模型结构"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://sketchfab.com/",
+        "title": "可旋转查看的三维模型",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 31,
+      "category": "three-d",
+      "name": "befores & afters",
+      "url": "https://beforesandafters.com/",
+      "purpose": "了解影视视效镜头的前后对照与幕后制作。",
+      "look_for": "比较实拍、数字资产和合成各自的贡献。",
+      "tags": [
+        "影视视效",
+        "合成",
+        "幕后"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://beforesandafters.com/",
+        "title": "视效前后对照与访谈",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 32,
+      "category": "three-d",
+      "name": "fxguide",
+      "url": "https://www.fxguide.com/",
+      "purpose": "阅读影视视效、渲染与制作管线的技术报道。",
+      "look_for": "带着具体问题阅读并核对所讨论的工具版本。",
+      "tags": [
+        "视效技术",
+        "渲染",
+        "制作管线"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.fxguide.com/",
+        "title": "视效技术文章入口",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 33,
+      "category": "three-d",
+      "name": "Blender Studio",
+      "url": "https://studio.blender.org/",
+      "purpose": "查看官方工作室短片、训练资料和项目资产。",
+      "look_for": "把最终镜头与灯光、绑定或场景工程对照。",
+      "tags": [
+        "Blender",
+        "开源动画",
+        "工程研究"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://studio.blender.org/",
+        "title": "Blender 工作室短片",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 34,
+      "category": "three-d",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "purpose": "查找 HDRI、PBR 材质和扫描模型等三维资产。",
+      "look_for": "观察材质尺度、粗糙度与环境光对渲染的影响。",
+      "tags": [
+        "HDRI",
+        "PBR材质",
+        "3D资产"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://polyhaven.com/",
+        "title": "环境光、材质与模型预览",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 35,
+      "category": "three-d",
+      "name": "Beeple Everydays",
+      "url": "https://beeple-crap.com/everydays",
+      "purpose": "浏览长期持续创作的每日数字图像档案。",
+      "look_for": "按年份比较构图、主题与技术表现变化。",
+      "tags": [
+        "数字艺术",
+        "持续创作",
+        "3D"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://beeple-crap.com/everydays",
+        "title": "Everydays 图像档案",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 36,
+      "category": "cinema",
+      "name": "ShotDeck",
+      "url": "https://shotdeck.com/",
+      "purpose": "按画面条件检索电影静帧，建立镜头参考。",
+      "look_for": "为构图、光线与色彩分别选择参考。",
+      "tags": [
+        "电影截图",
+        "构图",
+        "用光"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://shotdeck.com/",
+        "title": "电影静帧与镜头检索",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 37,
+      "category": "cinema",
+      "name": "FILMGRAB",
+      "url": "https://film-grab.com/",
+      "purpose": "按影片浏览精选静帧，研究整部电影的视觉倾向。",
+      "look_for": "连续查看关键帧，识别反复出现的色彩与构图。",
+      "tags": [
+        "电影截图",
+        "构图",
+        "色彩"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://film-grab.com/",
+        "title": "按影片整理的静帧",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 38,
+      "category": "cinema",
+      "name": "StillsLab",
+      "url": "https://stillslab.com/",
+      "purpose": "按画面条件寻找电影、剧集、MV 和广告参考图。",
+      "look_for": "组合景别、机位与光线条件，收集同题不同解的镜头。",
+      "tags": [
+        "静帧",
+        "镜头参考",
+        "视觉检索"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://stillslab.com/",
+        "title": "影视静帧检索",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 39,
+      "category": "cinema",
+      "name": "Flim",
+      "url": "https://flim.ai/",
+      "purpose": "用语义描述查找影视与广告画面参考。",
+      "look_for": "写清人物、空间和光线关系，再比较检索结果。",
+      "tags": [
+        "影视截图",
+        "语义搜索",
+        "情绪板"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://flim.ai/",
+        "title": "影视画面搜索",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 40,
+      "category": "cinema",
+      "name": "EyeCannndy",
+      "url": "https://eyecannndy.com/",
+      "purpose": "通过片段查阅镜头、转场与剪辑技法。",
+      "look_for": "把技法名称与实际运动、剪辑位置对应起来。",
+      "tags": [
+        "镜头语言",
+        "转场",
+        "剪辑"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://eyecannndy.com/",
+        "title": "运镜与剪辑技法示例",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 41,
+      "category": "cinema",
+      "name": "StudioBinder 镜头语言指南",
+      "url": "https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/",
+      "purpose": "系统了解景别、角度与运镜名称及影视实例。",
+      "look_for": "用具体术语描述意图，比较镜头的叙事效果。",
+      "tags": [
+        "景别",
+        "运镜",
+        "镜头教程"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.studiobinder.com/blog/ultimate-guide-to-camera-shots/",
+        "title": "镜头语言指南与实例",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 42,
+      "category": "cinema",
+      "name": "American Cinematographer",
+      "url": "https://theasc.com/",
+      "purpose": "阅读摄影指导讲述镜头、灯光与影像选择的文章。",
+      "look_for": "把画面效果与摄影条件、用光意图联系起来。",
+      "tags": [
+        "电影摄影",
+        "用光",
+        "主创访谈"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://theasc.com/",
+        "title": "摄影指导文章与作品",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 43,
+      "category": "ui",
+      "name": "Mobbin",
+      "url": "https://mobbin.com/",
+      "purpose": "按功能查找真实应用与网页界面截图。",
+      "look_for": "并排比较相同任务的入口、按钮层级与异常状态。",
+      "tags": [
+        "真实界面",
+        "App",
+        "产品参考"
+      ],
+      "access": "部分付费",
+      "example": {
+        "url": "https://mobbin.com/",
+        "title": "真实应用界面库",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 44,
+      "category": "ui",
+      "name": "Page Flows",
+      "url": "https://pageflows.com/",
+      "purpose": "观看真实产品完整操作流程的录屏。",
+      "look_for": "沿注册、付费或取消流程记录阻力与反馈。",
+      "tags": [
+        "用户流程",
+        "录屏",
+        "交互"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://pageflows.com/",
+        "title": "真实产品操作流程",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 45,
+      "category": "ui",
+      "name": "Refero",
+      "url": "https://refero.design/",
+      "purpose": "按页面类型和组件检索 Web 与 iOS 界面。",
+      "look_for": "把表格、筛选器或定价页放在具体任务中比较。",
+      "tags": [
+        "Web界面",
+        "iOS",
+        "组件参考"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://refero.design/",
+        "title": "界面与页面类型参考",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 46,
+      "category": "ui",
+      "name": "Nicelydone",
+      "url": "https://nicelydone.club/",
+      "purpose": "寻找 Web 应用、SaaS 与复杂业务界面参考。",
+      "look_for": "研究复杂信息下的布局、表单分组与操作层级。",
+      "tags": [
+        "SaaS",
+        "后台",
+        "复杂界面"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://nicelydone.club/",
+        "title": "Web 应用界面参考",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 47,
+      "category": "ui",
+      "name": "SaaSFrame",
+      "url": "https://www.saasframe.io/",
+      "purpose": "按类别查看 SaaS 营销页面与产品界面。",
+      "look_for": "比较营销承诺与注册、设置页面如何衔接。",
+      "tags": [
+        "SaaS",
+        "营销页",
+        "产品界面"
+      ],
+      "access": "文章标注付费",
+      "example": {
+        "url": "https://www.saasframe.io/",
+        "title": "SaaS 页面与界面",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 48,
+      "category": "ui",
+      "name": "Figma Community",
+      "url": "https://www.figma.com/community",
+      "purpose": "发现可查看结构的设计文件、组件库与模板。",
+      "look_for": "检查自动布局、变量和状态，核对文件许可。",
+      "tags": [
+        "Figma",
+        "设计系统",
+        "源文件"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.figma.com/community",
+        "title": "社区设计文件与组件",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 49,
+      "category": "ui",
+      "name": "Apple 人机界面指南（HIG）",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/",
+      "purpose": "查阅 Apple 平台界面、交互与组件规范。",
+      "look_for": "围绕导航、输入或反馈问题找到规则和适用平台。",
+      "tags": [
+        "设计规范",
+        "Apple",
+        "交互"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://developer.apple.com/design/human-interface-guidelines/",
+        "title": "HIG 组件与交互示例",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 50,
+      "category": "ui",
+      "name": "Material Design 3",
+      "url": "https://m3.material.io/",
+      "purpose": "学习组件、颜色、排版与状态的系统设计方法。",
+      "look_for": "理解变量、状态和无障碍要求如何约束界面。",
+      "tags": [
+        "设计系统",
+        "组件",
+        "颜色"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://m3.material.io/",
+        "title": "Material 组件与规范",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 51,
+      "category": "ui",
+      "name": "Vercel Web Interface Guidelines",
+      "url": "https://vercel.com/design/guidelines",
+      "purpose": "用细节清单检查交互、表单、动效与性能。",
+      "look_for": "将规则落实到具体问题与可验证修改。",
+      "tags": [
+        "界面检查",
+        "可用性",
+        "前端规范"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://vercel.com/design/guidelines",
+        "title": "Web 界面检查清单",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 52,
+      "category": "ui",
+      "name": "Impeccable",
+      "url": "https://impeccable.style/",
+      "purpose": "了解改进 AI 生成界面的设计指导与命令。",
+      "look_for": "识别模板倾向，明确排版与布局修改理由。",
+      "tags": [
+        "AI设计",
+        "界面打磨",
+        "设计指导"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://impeccable.style/",
+        "title": "设计指导与命令示例",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 53,
+      "category": "ui",
+      "name": "The Component Gallery",
+      "url": "https://component.gallery/",
+      "purpose": "横向查阅不同设计系统的基础组件。",
+      "look_for": "比较同一组件的交互状态、命名与文档。",
+      "tags": [
+        "组件",
+        "设计系统",
+        "横向对比"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://component.gallery/",
+        "title": "多设计系统组件对照",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 54,
+      "category": "ui",
+      "name": "60fps",
+      "url": "https://60fps.design/",
+      "purpose": "观看真实产品中的 UI 动画与交互片段。",
+      "look_for": "观察动作起止、打断方式与操作的关系。",
+      "tags": [
+        "UI动效",
+        "真实产品",
+        "微交互"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://60fps.design/",
+        "title": "UI 动效片段",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 55,
+      "category": "ui",
+      "name": "Spotted in Prod",
+      "url": "https://www.spottedinprod.com/",
+      "purpose": "发现已上线应用中的交互细节与短录屏。",
+      "look_for": "记录细节解决的问题，判断是否适合自己的任务。",
+      "tags": [
+        "iOS",
+        "微交互",
+        "产品细节"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.spottedinprod.com/",
+        "title": "上线产品的交互细节",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 56,
+      "category": "ui",
+      "name": "Growth.Design",
+      "url": "https://growth.design/",
+      "purpose": "通过漫画式案例理解产品体验与行为设计。",
+      "look_for": "沿用户目标分析文案、选择与心理负担。",
+      "tags": [
+        "UX案例",
+        "行为设计",
+        "用户旅程"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://growth.design/",
+        "title": "漫画式产品体验分析",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 57,
+      "category": "ui",
+      "name": "Laws of UX",
+      "url": "https://lawsofux.com/",
+      "purpose": "查阅与交互设计有关的心理学与体验原则。",
+      "look_for": "将原则作为提问工具，用真实场景检验判断。",
+      "tags": [
+        "UX",
+        "心理学",
+        "设计原则"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://lawsofux.com/",
+        "title": "UX 原则图文卡片",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 58,
+      "category": "ui",
+      "name": "Game UI Database",
+      "url": "https://www.gameuidatabase.com/",
+      "purpose": "按功能和游戏类型检索游戏界面截图。",
+      "look_for": "学习高信息密度下的分组、层级与状态表达。",
+      "tags": [
+        "游戏UI",
+        "信息层级",
+        "界面截图"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.gameuidatabase.com/",
+        "title": "游戏界面参考库",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 59,
+      "category": "web",
+      "name": "Recent（原 Godly）",
+      "url": "https://recent.design/",
+      "purpose": "寻找网页、品牌与数字产品的视觉参考。",
+      "look_for": "先确定研究的版式或风格，再对照完整页面。",
+      "tags": [
+        "网页",
+        "品牌",
+        "视觉参考"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://recent.design/",
+        "title": "网页与数字视觉精选",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 60,
+      "category": "web",
+      "name": "Siteinspire",
+      "url": "https://www.siteinspire.com/",
+      "purpose": "按风格、类型和行业寻找网页案例。",
+      "look_for": "比较同类页面的网格、文字密度与留白。",
+      "tags": [
+        "网页",
+        "版式",
+        "分类检索"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.siteinspire.com/",
+        "title": "分类网页灵感库",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 61,
+      "category": "web",
+      "name": "Land-book",
+      "url": "https://land-book.com/",
+      "purpose": "浏览产品首页、定价页等商业页面参考。",
+      "look_for": "关注页面结构、信息顺序与行动入口。",
+      "tags": [
+        "落地页",
+        "商业网页",
+        "页面结构"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://land-book.com/",
+        "title": "商业网页与落地页",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 62,
+      "category": "web",
+      "name": "Landingfolio",
+      "url": "https://www.landingfolio.com/",
+      "purpose": "按首屏、评价和页脚等区块查找落地页参考。",
+      "look_for": "把区块放回上下文，检查衔接与响应式表现。",
+      "tags": [
+        "落地页",
+        "页面区块",
+        "组件"
+      ],
+      "access": "部分付费",
+      "example": {
+        "url": "https://www.landingfolio.com/",
+        "title": "落地页区块与组件",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 63,
+      "category": "web",
+      "name": "awesome-design-md",
+      "url": "https://github.com/VoltAgent/awesome-design-md",
+      "purpose": "查阅用 DESIGN.md 描述品牌视觉规则的开源合集。",
+      "look_for": "读清颜色、字体和间距规则，再判断适用性。",
+      "tags": [
+        "DESIGN.md",
+        "AI前端",
+        "视觉规范"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://github.com/VoltAgent/awesome-design-md",
+        "title": "DESIGN.md 合集与示例",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 64,
+      "category": "web",
+      "name": "One Page Love",
+      "url": "https://onepagelove.com/",
+      "purpose": "寻找单页网站如何在有限篇幅中组织内容。",
+      "look_for": "研究一页中的章节节奏、导航与行动路径。",
+      "tags": [
+        "单页网站",
+        "叙事结构",
+        "落地页"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://onepagelove.com/",
+        "title": "单页网站精选",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 65,
+      "category": "web",
+      "name": "Minimal Gallery",
+      "url": "https://minimal.gallery/",
+      "purpose": "查看以简洁排版与留白为主的网页。",
+      "look_for": "观察字号对比、图文比例与空白如何建立层级。",
+      "tags": [
+        "极简网页",
+        "留白",
+        "排版"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://minimal.gallery/",
+        "title": "极简网页案例",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 66,
+      "category": "web",
+      "name": "Dark Mode Design",
+      "url": "https://www.darkmodedesign.com/",
+      "purpose": "查找深色网页的颜色与层级参考。",
+      "look_for": "比较背景、表面、边框与文字的对比关系。",
+      "tags": [
+        "深色模式",
+        "网页",
+        "配色"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.darkmodedesign.com/",
+        "title": "深色网页案例",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 67,
+      "category": "web",
+      "name": "Hoverstat.es",
+      "url": "https://www.hoverstat.es/",
+      "purpose": "探索实验性与非传统结构的网页作品。",
+      "look_for": "区分形式实验的表达价值与可用性成本。",
+      "tags": [
+        "实验网页",
+        "创意交互",
+        "先锋设计"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.hoverstat.es/",
+        "title": "实验性网页精选",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 68,
+      "category": "web",
+      "name": "Web Design Museum",
+      "url": "https://www.webdesignmuseum.org/",
+      "purpose": "浏览历史网页，理解早期网络视觉与交互。",
+      "look_for": "结合年代和技术条件观察风格来源。",
+      "tags": [
+        "网页历史",
+        "Y2K",
+        "档案"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.webdesignmuseum.org/",
+        "title": "历史网页档案",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 69,
+      "category": "frontend",
+      "name": "Codrops",
+      "url": "https://tympanus.net/codrops/",
+      "purpose": "学习创意前端效果的实现思路、演示与源码。",
+      "look_for": "从效果进入代码，检查性能和适用条件。",
+      "tags": [
+        "创意前端",
+        "WebGL",
+        "教程"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://tympanus.net/codrops/",
+        "title": "前端效果演示与教程",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 70,
+      "category": "frontend",
+      "name": "CodePen Spark",
+      "url": "https://codepen.io/spark",
+      "purpose": "查看 CSS、SVG、Canvas 与交互实验精选。",
+      "look_for": "调整参数，观察代码变化如何影响结果。",
+      "tags": [
+        "CSS",
+        "Canvas",
+        "创意代码"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://codepen.io/spark",
+        "title": "CodePen 精选代码实验",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 71,
+      "category": "frontend",
+      "name": "GSAP 官方 Demo 库",
+      "url": "https://demos.gsap.com/",
+      "purpose": "按用途查找 GSAP 动画演示与对应代码。",
+      "look_for": "比较滚动、文字和悬停动画的触发、时序与缓动。",
+      "tags": [
+        "GSAP",
+        "网页动画",
+        "滚动交互"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://demos.gsap.com/",
+        "title": "GSAP 官方动画演示",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 72,
+      "category": "frontend",
+      "name": "Three.js 官方示例",
+      "url": "https://threejs.org/examples/",
+      "purpose": "查看三维渲染、材质和后期等官方示例。",
+      "look_for": "对照源码识别模型、相机、光照与渲染步骤。",
+      "tags": [
+        "Three.js",
+        "Web3D",
+        "官方示例"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://threejs.org/examples/",
+        "title": "Three.js 可运行示例",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 73,
+      "category": "frontend",
+      "name": "Shadertoy",
+      "url": "https://www.shadertoy.com/",
+      "purpose": "浏览实时着色器图形与 GLSL 代码。",
+      "look_for": "选取局部效果辨认形状、噪声与光照计算。",
+      "tags": [
+        "Shader",
+        "GLSL",
+        "实时图形"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.shadertoy.com/",
+        "title": "实时着色器作品",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 74,
+      "category": "frontend",
+      "name": "The Book of Shaders",
+      "url": "https://thebookofshaders.com/",
+      "purpose": "通过可交互代码学习片元着色器基础。",
+      "look_for": "边改参数边看图形，建立公式与视觉的对应。",
+      "tags": [
+        "Shader",
+        "图形入门",
+        "交互教程"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://thebookofshaders.com/",
+        "title": "可调代码的着色器教程",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 75,
+      "category": "frontend",
+      "name": "Bruno Simon",
+      "url": "https://bruno-simon.com/",
+      "purpose": "体验以可驾驶三维场景呈现的个人作品集。",
+      "look_for": "观察空间导航、碰撞反馈与信息呈现的衔接。",
+      "tags": [
+        "Web3D",
+        "作品集",
+        "空间交互"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://bruno-simon.com/",
+        "title": "可驾驶三维作品集",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 76,
+      "category": "frontend",
+      "name": "Lusion",
+      "url": "https://lusion.co/",
+      "purpose": "参考实时三维与数字互动体验项目。",
+      "look_for": "分开观察加载、滚动、转场与声音的节奏。",
+      "tags": [
+        "WebGL",
+        "创意开发",
+        "数字体验"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://lusion.co/",
+        "title": "Lusion 网站与项目",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 77,
+      "category": "frontend",
+      "name": "Active Theory",
+      "url": "https://activetheory.net/",
+      "purpose": "查看品牌体验与创意开发项目。",
+      "look_for": "研究技术交互如何服务表达和参与路径。",
+      "tags": [
+        "互动体验",
+        "品牌",
+        "创意开发"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://activetheory.net/",
+        "title": "Active Theory 互动项目",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 78,
+      "category": "frontend",
+      "name": "Framer Gallery",
+      "url": "https://www.framer.com/gallery/",
+      "purpose": "浏览 Framer 官方挑选的网页作品。",
+      "look_for": "对照不同设备的排版、滚动与动效。",
+      "tags": [
+        "Framer",
+        "网页",
+        "响应式"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.framer.com/gallery/",
+        "title": "Framer 网页作品画廊",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 79,
+      "category": "frontend",
+      "name": "Motion 官方示例",
+      "url": "https://motion.dev/examples",
+      "purpose": "查找常见界面动画与物理缓动演示。",
+      "look_for": "观察重排、弹簧与退出动画的起止和打断。",
+      "tags": [
+        "Motion",
+        "UI动画",
+        "弹簧"
+      ],
+      "access": "部分付费",
+      "example": {
+        "url": "https://motion.dev/examples",
+        "title": "Motion 交互动画演示",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 80,
+      "category": "frontend",
+      "name": "React Bits",
+      "url": "https://reactbits.dev/",
+      "purpose": "查找可调参数的 React 动效与视觉组件。",
+      "look_for": "检查动效强度、可读性与性能是否符合任务。",
+      "tags": [
+        "React",
+        "动画组件",
+        "交互效果"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://reactbits.dev/",
+        "title": "React 组件实时演示",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 81,
+      "category": "frontend",
+      "name": "coss ui",
+      "url": "https://coss.com/ui",
+      "purpose": "查看基础界面组件和常用模块的实现参考。",
+      "look_for": "关注组件状态、文字层级与布局一致性。",
+      "tags": [
+        "组件库",
+        "Tailwind",
+        "UI"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://coss.com/ui",
+        "title": "界面组件与模块示例",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 82,
+      "category": "frontend",
+      "name": "Josh W. Comeau",
+      "url": "https://www.joshwcomeau.com/",
+      "purpose": "通过交互式文章理解 CSS、动画与前端原理。",
+      "look_for": "拖动示例参数，解释结果变化再用于实际页面。",
+      "tags": [
+        "CSS",
+        "交互教程",
+        "动画原理"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.joshwcomeau.com/",
+        "title": "交互式前端文章",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 83,
+      "category": "frontend",
+      "name": "Rauno Freiberg",
+      "url": "https://rauno.me/",
+      "purpose": "研究设计工程与细微交互的作品和文章。",
+      "look_for": "关注输入、速度与反馈间容易被忽略的关系。",
+      "tags": [
+        "设计工程",
+        "交互细节",
+        "UI"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://rauno.me/",
+        "title": "设计工程作品与文章",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 84,
+      "category": "frontend",
+      "name": "Emil Kowalski",
+      "url": "https://emilkowal.ski/",
+      "purpose": "阅读界面动画、组件与交互打磨经验。",
+      "look_for": "结合任务判断时长、缓动与是否需要动画。",
+      "tags": [
+        "UI动画",
+        "设计工程",
+        "组件"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://emilkowal.ski/",
+        "title": "界面动画与组件文章",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 85,
+      "category": "type-color",
+      "name": "Typewolf",
+      "url": "https://www.typewolf.com/",
+      "purpose": "从真实网站与指南查找字体选择和搭配参考。",
+      "look_for": "比较标题、正文和混排的字形气质与可读性。",
+      "tags": [
+        "字体",
+        "搭配",
+        "网页排版"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.typewolf.com/",
+        "title": "字体搭配与网站案例",
+        "kind": "字体实用案例"
+      }
+    },
+    {
+      "id": 86,
+      "category": "type-color",
+      "name": "Fonts In Use",
+      "url": "https://fontsinuse.com/",
+      "purpose": "查看字体在海报、书籍、品牌与网页中的应用。",
+      "look_for": "同一字体跨媒介对照字号、间距与语境。",
+      "tags": [
+        "字体",
+        "真实案例",
+        "平面排版"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://fontsinuse.com/",
+        "title": "字体真实应用档案",
+        "kind": "字体实用案例"
+      }
+    },
+    {
+      "id": 87,
+      "category": "type-color",
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "purpose": "查找字体并预览文字，使用前阅读相应许可。",
+      "look_for": "用实际文案比较字重、字符覆盖与小字号可读性。",
+      "tags": [
+        "字体",
+        "字重",
+        "Web字体"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://fonts.google.com/",
+        "title": "字体文字预览",
+        "kind": "字体实用案例"
+      }
+    },
+    {
+      "id": 88,
+      "category": "type-color",
+      "name": "Fontshare",
+      "url": "https://www.fontshare.com/",
+      "purpose": "浏览字体家族与搭配，查看预览及使用许可。",
+      "look_for": "用相同文案比较标题、正文字重与数字风格。",
+      "tags": [
+        "字体",
+        "字体家族",
+        "搭配"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.fontshare.com/",
+        "title": "字体家族与排印预览",
+        "kind": "字体实用案例"
+      }
+    },
+    {
+      "id": 89,
+      "category": "type-color",
+      "name": "Butterick’s Practical Typography",
+      "url": "https://practicaltypography.com/",
+      "purpose": "学习字体选择、行长、行高与实用排版原则。",
+      "look_for": "拿自己的文字对照调整，比较阅读感受。",
+      "tags": [
+        "排版",
+        "行高",
+        "可读性"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://practicaltypography.com/",
+        "title": "实用排版在线书",
+        "kind": "官方站点"
+      }
+    },
+    {
+      "id": 90,
+      "category": "type-color",
+      "name": "Utopia",
+      "url": "https://utopia.fyi/",
+      "purpose": "计算随视口平滑变化的字号与间距尺度。",
+      "look_for": "在手机和桌面检验层级，避免机械套用比例。",
+      "tags": [
+        "流体排版",
+        "字号",
+        "间距"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://utopia.fyi/",
+        "title": "流体字号与间距计算器",
+        "kind": "交互示例"
+      }
+    },
+    {
+      "id": 91,
+      "category": "type-color",
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "purpose": "生成、调整与导出配色方案。",
+      "look_for": "锁定主色后比较其他颜色，检查文字对比。",
+      "tags": [
+        "配色",
+        "色卡",
+        "颜色工具"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://coolors.co/",
+        "title": "交互配色生成器",
+        "kind": "配色工具"
+      }
+    },
+    {
+      "id": 92,
+      "category": "type-color",
+      "name": "Realtime Colors",
+      "url": "https://www.realtimecolors.com/",
+      "purpose": "在页面样例实时预览文字、背景与强调色。",
+      "look_for": "同时查看浅深色环境，检查颜色分工与对比度。",
+      "tags": [
+        "配色",
+        "页面预览",
+        "深色模式"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.realtimecolors.com/",
+        "title": "实时页面配色预览",
+        "kind": "配色工具"
+      }
+    },
+    {
+      "id": 93,
+      "category": "type-color",
+      "name": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "purpose": "参考按界面用途分级的色阶与深浅色方案。",
+      "look_for": "把背景、边框、交互与文字映射到对应色阶。",
+      "tags": [
+        "颜色系统",
+        "色阶",
+        "UI"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.radix-ui.com/colors",
+        "title": "界面色阶与用途示例",
+        "kind": "配色工具"
+      }
+    },
+    {
+      "id": 94,
+      "category": "type-color",
+      "name": "tweakcn",
+      "url": "https://tweakcn.com/",
+      "purpose": "可视化调整 shadcn/ui 的颜色、字体与表面样式。",
+      "look_for": "在表单、卡片等组件中检验主题一致性。",
+      "tags": [
+        "shadcn",
+        "主题编辑",
+        "UI配色"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://tweakcn.com/",
+        "title": "主题与组件实时预览",
+        "kind": "配色工具"
+      }
+    },
+    {
+      "id": 95,
+      "category": "collect",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "purpose": "围绕图像建立画板，沿相似图像扩展参考。",
+      "look_for": "给收藏写用途与风格标签，核对图片原始出处。",
+      "tags": [
+        "图片收藏",
+        "情绪板",
+        "视觉检索"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.pinterest.com/",
+        "title": "图片画板与视觉发现",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 96,
+      "category": "collect",
+      "name": "Are.na",
+      "url": "https://www.are.na/",
+      "purpose": "用频道收集和连接图片、网页与文字资料。",
+      "look_for": "按研究问题组织资料，保留素材与观点关系。",
+      "tags": [
+        "资料收集",
+        "研究",
+        "频道"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.are.na/",
+        "title": "公开研究频道与收藏",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 97,
+      "category": "collect",
+      "name": "Cosmos",
+      "url": "https://www.cosmos.so/",
+      "purpose": "收集素材并探索他人公开的灵感集合。",
+      "look_for": "围绕同题比较选择标准，保留原始来源。",
+      "tags": [
+        "灵感收藏",
+        "视觉发现",
+        "情绪板"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.cosmos.so/",
+        "title": "公开灵感集合",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 98,
+      "category": "collect",
+      "name": "Savee",
+      "url": "https://savee.com/",
+      "purpose": "浏览收藏平面、摄影、品牌与产品视觉参考。",
+      "look_for": "观察材质、排版和画面密度，记录具体用途。",
+      "tags": [
+        "视觉收藏",
+        "平面",
+        "摄影"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://savee.com/",
+        "title": "视觉设计图像收藏",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 99,
+      "category": "collect",
+      "name": "It’s Nice That",
+      "url": "https://www.itsnicethat.com/",
+      "purpose": "阅读插画、平面、摄影与动画项目及创作故事。",
+      "look_for": "把最终视觉与创作者的问题和过程联系起来。",
+      "tags": [
+        "创意媒体",
+        "插画",
+        "设计故事"
+      ],
+      "access": "文章未标注付费",
+      "example": {
+        "url": "https://www.itsnicethat.com/",
+        "title": "创意项目与创作者故事",
+        "kind": "作品库"
+      }
+    },
+    {
+      "id": 100,
+      "category": "collect",
+      "name": "Brand New",
+      "url": "https://www.underconsideration.com/brandnew/",
+      "purpose": "比较品牌改版前后视觉，阅读专业评论。",
+      "look_for": "从标志延伸到字体、包装与应用，判断系统一致性。",
+      "tags": [
+        "品牌改版",
+        "视觉系统",
+        "设计评论"
+      ],
+      "access": "部分付费",
+      "example": {
+        "url": "https://www.underconsideration.com/brandnew/",
+        "title": "品牌改版前后对照",
+        "kind": "作品库"
+      }
+    }
+  ]
+}

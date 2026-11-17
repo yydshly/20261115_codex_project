@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。">
+  <title>观式 · 100 个设计与影像网站</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#explore">跳到网站目录</a>
+  <header class="topbar">
+    <a class="brand" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 0v32M0 16h32M5 5l22 22M5 27 27 5"/></svg><strong>观式</strong><span>DESIGN INDEX</span></a>
+    <nav aria-label="主导航"><a href="#explore">网站目录 <span>100</span></a><button id="show-overview">一图总览</button><a href="#understanding">我们的理解</a><a href="#applications">对我们的价值</a><a href="https://x.com/EianLu/status/2121219503988113557" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></nav>
+    <button class="export-button" id="export">导出目录 <span aria-hidden="true">↓</span></button>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> A FIELD GUIDE TO GOOD DESIGN <span class="edition">VOL. 001 / 2026</span></p>
+        <h1 id="hero-title">把好设计，<br>变成自己的<span class="underline">眼光。</span></h1>
+        <p class="intro">对照真实预览，看懂效果、拆清原理。<br>把 100 个参考入口，转成庭院、短片、研究网页与 AI 创作中能执行的决定。</p>
+        <div class="hero-bottom"><a class="solid-button" href="#explore">开始探索 <span aria-hidden="true">↘</span></a><p><strong>100</strong> 个网站 <i></i><strong>09</strong> 个方向</p></div>
+      </div>
+      <figure class="hero-map"><button id="hero-open-overview" aria-label="展开效果、原理与我们的价值总览"><img id="hero-overview-image" width="3200" height="5768" alt="本库生成的总览原图：九类资源分别说明效果、实现原理与项目价值，附四条应用路线。"><span>查看完整总览 ↗</span></button><figcaption>本库原创归纳 · 九张真实代表预览 · 原图未重绘</figcaption></figure>
+    </section>
+
+    <section class="understanding" id="understanding" aria-labelledby="understanding-title">
+      <div class="understanding-heading"><p class="eyebrow">OUR UNDERSTANDING</p><h2 id="understanding-title">把参考，变成创作决定。</h2><p>我们要积累的是能解释、能试做、能继续使用的方法。</p></div>
+      <div class="understanding-grid">
+        <article><span>01 / 分清资源的作用</span><h3>先判断它提供什么。</h3><p>奖项是质量标尺，图库和电影库提供素材与镜头参考，规范组织任务与状态，前端和三维工具让规则实时运行。根据任务把它们接成制作路线。</p></article>
+        <article><span>02 / 把感觉写成条件</span><h3>让“更好看”有依据。</h3><p>指出构图、光线、文字层级、镜头时长或动作反馈。区分作者公开的实现过程、我们的视觉推断与通用方案，先选一个可解释的小机制试做。</p></article>
+        <article><span>03 / 带回自己的项目</span><h3>留下可以复用的产物。</h3><p>庭院留下空间与用光方案，短片留下分镜和节奏，网页留下阅读路径与状态组件；交给AI时写清参数、保持项、可变项与验收依据。</p></article>
+      </div>
+      <p class="understanding-route">看清效果 <span>→</span> 拆分原理 <span>→</span> 做小样 <span>→</span> 比较差异 <span>→</span> 沉淀规则</p>
+      <p class="understanding-boundary">100份逐站解析 · 98站有真实预览。45项官方资料结合建议、5项视觉推断、50项通用方案；静帧不能替代完整交互，四条项目路线仍是后续复用建议。</p>
+    </section>
+
+    <details class="overview-panel" id="overview-panel">
+      <summary><span>一图总览 <small>九类资源 · 效果 · 原理 · 我们的价值</small></span><span aria-hidden="true">＋</span></summary>
+      <div class="overview-tools"><p>原作缩略图与综合解析；完整逐站依据仍见目录详情。</p><button id="download-overview">保存高清图 ↓</button></div>
+      <img id="overview-image" src="../assets/effects-principles-value-overview-v1.png" width="3200" height="5768" loading="lazy" alt="100个设计与影像网站总览：九类资源分别说明效果、原理、项目价值，底部整理庭院世界、短片、研究网页和AI创作的复用路线。">
+    </details>
+
+    <section class="explore" id="explore" aria-label="网站目录">
+      <aside class="sidebar">
+        <p class="eyebrow">THE COLLECTION <span>目录</span></p>
+        <nav id="categories" aria-label="网站分类"></nav>
+        <div class="sidebar-note"><span class="note-mark">↳</span><p>先选一个方向，<br>慢慢看，仔细拆。</p><a href="#applications">把观察带回项目 ↗</a></div>
+        <a class="source-note" href="https://x.com/EianLu/status/2121219503988113557" target="_blank" rel="noopener noreferrer">清单来源 · Eian<br><span>《100 个提升审美的设计网站大赏》↗</span></a>
+      </aside>
+      <div class="collection">
+        <div class="collection-heading"><div><p class="eyebrow" id="section-label">ALL RESOURCES / 001—100</p><h2 id="category-title">所有网站 <span>100</span></h2><p id="category-description">跨越设计、影像与代码，打开你的参考视野。</p></div><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜索名称、效果、实现、用途…" aria-label="搜索网站"><kbd>/</kbd></label></div>
+        <div class="toolbar">
+          <div class="filter-group"><button id="favorites" aria-pressed="false">♡ 我的收藏 <span id="favorite-count">0</span></button><button id="only-preview" aria-pressed="false">有图预览</button><button id="show-analysis" aria-pressed="true">效果解析</button><button id="clear" class="clear" hidden>清除筛选 ×</button></div>
+          <div class="view-group"><span id="result-count" role="status" aria-live="polite">正在读取目录…</span><label class="sort-label">排序<select id="sort" aria-label="网站排序"><option value="original">原文顺序</option><option value="name">名称 A—Z</option></select></label><button class="view-button active" id="grid-view" aria-label="网格视图" aria-pressed="true">▦</button><button class="view-button" id="list-view" aria-label="列表视图" aria-pressed="false">☰</button></div>
+        </div>
+        <p class="preview-note" id="preview-note">预览为官方作品图或站点页面图，点击可放大并查看来源。具体作品与工具效果可从「看示例」进入。</p>
+        <section class="category-guide" id="category-guide" aria-labelledby="guide-title"></section>
+        <div id="site-grid" class="site-grid"></div>
+        <div id="empty" class="empty" hidden><span>↗</span><h3>这里还没有找到。</h3><p>试试另一个关键词，或清除当前筛选。</p><button id="empty-clear" class="solid-button">查看全部网站</button></div>
+        <p class="end-note" id="end-note">YOU'VE REACHED THE END. NOW MAKE SOMETHING.</p>
+      </div>
+    </section>
+
+    <section class="applications" id="applications" aria-labelledby="applications-title"><div class="applications-heading"><p class="eyebrow">BRING IT INTO OUR WORK</p><h2 id="applications-title">这些效果，能带回哪里？</h2><p>以下是面向我们现有创作方向的复用路线，尚未据此改动其他项目。</p></div><div id="application-grid" class="application-grid"></div></section>
+
+    <section class="practice" id="practice" aria-labelledby="practice-title"><div><p class="eyebrow">A SMALL DAILY PRACTICE</p><h2 id="practice-title">收藏之后，<br>多看懂一点。</h2><p>根据原文方法整理：一次只看一个站，<br>用 15 分钟完成一次有目的的观察。</p></div><ol><li><span>01 / 选择</span><h3>今天，只逛一个地方。</h3><p>带着一个问题：这次想学排版、用光，还是转场？</p></li><li><span>02 / 观察</span><h3>说清楚，它好在哪里。</h3><p>记下一处具体细节：字号关系、留白、镜头长度或动画速度。</p></li><li><span>03 / 试做</span><h3>挑一个细节，动手重做。</h3><p>在自己的小练习里试一次，让参考成为下一次创作的经验。</p></li></ol></section>
+  </main>
+  <footer><a class="brand" href="#"><strong>观式</strong><span>DESIGN INDEX</span></a><p>原文清单：Eian · 用途摘要、解析与网页：本库整理<br>图片版权归各站点及作品权利人；研究导览引用，不代表素材商用许可。</p><button id="about">来源与整理说明 ↗</button><a href="#" aria-label="回到顶部">↑</a></footer>
+  <dialog id="detail-dialog" aria-labelledby="detail-title"><button class="dialog-close" id="detail-close" aria-label="关闭详情">×</button><div id="detail-content"></div></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title"><button class="dialog-close" id="about-close" aria-label="关闭说明">×</button><div class="about-content"><p class="eyebrow">ABOUT THE INDEX</p><h2 id="about-title">每个参考，都能找到来处。</h2><p>本目录依据 Eian 于 2026 年 11 月 13 日发布的文章，保留原文编号、九个类别及全部 100 个站点。主要用途和观察建议为本库简要改写，非原作者逐字原文。每条另附效果、实现与价值解析，依据公开资料或明确标注的观察与复用建议。</p><p>卡片预览采自站点公开图片，分为作品图与页面预览；具体来源可在每张卡片的详情中查看。页面预览展示站点本身，不能视为该站点制作的单个作品。图片引用用于研究导览，版权仍归相关权利人，不作为独立素材包提供。</p><p>收费标记沿用文章信息，未标付费不表示全站免费；价格、登录要求和许可请以各站当前规则为准。外链可能随时间变化，采集结果不等于完整功能测试。实现解析会区分官方资料与通用实现方案；不能从静帧确认的工具和参数不当作原作事实。</p><p id="coverage"></p><p>收藏仅保存在当前浏览器，可导出当前筛选结果。无账户、无上传，也不添加访问追踪。</p><a class="solid-button" href="https://x.com/EianLu/status/2121219503988113557" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a></div></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p>此网页需要 JavaScript 来搜索与分类。<a href="data/catalog.json">可直接查看完整目录数据</a>。</p></noscript>
+</body>
+</html>

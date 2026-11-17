@@ -25,7 +25,8 @@ SHANHE_WORLD = '0019-shanhe-co-creation'
 VALLEY_GARDEN = '0002-valley-garden'
 PELICAN_STUDY = '0008-pelican-layout-study'
 ABYSSAL_NOTES = '0016-abyssal-world-notes'
-STATIC_PROJECTS = {ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
+DESIGN_ATLAS = '0017-design-reference-atlas'
+STATIC_PROJECTS = {DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
@@ -44,6 +45,8 @@ def build_static_projects(output):
         if slug == SHANHE_WORLD:
             command.append('--publication')
         if slug == HUMAN_NATURE_STUDY:
+            command.append('--publication')
+        if slug == DESIGN_ATLAS:
             command.append('--publication')
         subprocess.run(command, check=True)
         if slug == AVATAR_WORKFLOW:

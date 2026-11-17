@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-16",
+  "kind": "本库原创信息图；嵌入第三方代表预览",
+  "size": [
+    3200,
+    5768
+  ],
+  "sites": 100,
+  "categories": 9,
+  "analyses": 100,
+  "referenced_previews": [
+    {
+      "category": "awards",
+      "id": 4,
+      "caption": "The FWA · Incredible Space",
+      "local_preview": "../assets/previews/004.jpg",
+      "page_url": "https://thefwa.com/w/incredible-space",
+      "image_source": "https://thefwa.com/img/submissions/f1c537d8-ee6b-4235-920b-3e0ffca37529/1-1a60fa24-5f44-458f-a05e-2e6ceb40f15d.webp?w=1200",
+      "kind": "官方获奖作品图",
+      "source_sha256": "dca49a197e024156016a17de0183a1beee9b8ef952ae528ad2cb51dc7e3237d5",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "motion",
+      "id": 26,
+      "caption": "Ordinary Folk · Distance",
+      "local_preview": "../assets/previews/026.jpg",
+      "page_url": "https://www.ordinaryfolk.co/project/distance",
+      "image_source": "https://media.ordinary.co/img/home/distance.jpg",
+      "kind": "官方作品图",
+      "source_sha256": "a07b44d7df0cf3ec8dfe71e8e5cfe34923b0e2278df3541f5c9162541e6dd152",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "three-d",
+      "id": 34,
+      "caption": "Poly Haven · 资产场景展示",
+      "local_preview": "../assets/previews/034.jpg",
+      "page_url": "https://polyhaven.com/",
+      "image_source": "https://cdn.polyhaven.com/site_images/home/window_rend.jpg?width=630&quality=95&v=61684774",
+      "kind": "官方页面预览",
+      "source_sha256": "1007cf2d93117f6ba9ce6d7aee724be48050b0ed3e28a697a372fa777c1bc1af",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "cinema",
+      "id": 37,
+      "caption": "FILMGRAB · 电影静帧",
+      "local_preview": "../assets/previews/037.jpg",
+      "page_url": "https://film-grab.com/",
+      "image_source": "https://film-grab.com/wp-content/uploads/2023/12/Cats-Eye-30-1024x435.jpg",
+      "kind": "官方内容图",
+      "source_sha256": "c7748b7b9e0fa7df7c28ec4b43b6cb936ee31f2f5b9af758efb4bc94c393fead",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "ui",
+      "id": 50,
+      "caption": "Material Design 3 · 按钮组件",
+      "local_preview": "../assets/previews/050.jpg",
+      "page_url": "https://m3.material.io/components/buttons/overview",
+      "image_source": "https://lh3.googleusercontent.com/iu0ghCr65S7lOuzD1FyNaql_XMiItRV2chZ8KPzCdE_ydVb8vS3GT25DnbVWTIsMYO4upfZyJim6urOt1cm8kOOGKeIYqX3Wbl1agO3BZfPgYOSJcw",
+      "kind": "官方组件页面预览",
+      "source_sha256": "7c4f9f520ea528135ed4448cb8de3b58662b26bda05a88195967c4a490122be8",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "web",
+      "id": 60,
+      "caption": "Siteinspire · Husk 网页案例",
+      "local_preview": "../assets/previews/060.jpg",
+      "page_url": "https://www.siteinspire.com/website/9116-husk",
+      "image_source": "https://r2.siteinspire.com/cdn-cgi/image/width=640,height=400,quality=75,format=auto,metadata=none,gravity=top,fit=crop,compress=true/ffn79dTv__H6.jpg",
+      "kind": "官方案例截图",
+      "source_sha256": "de7f989e58a318d8299f49903332fbed31d9bddeb326f586112c7ff279b7ed03",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "frontend",
+      "id": 72,
+      "caption": "Three.js · Littlest Tokyo",
+      "local_preview": "../assets/previews/example-072.jpg",
+      "page_url": "https://threejs.org/examples/#webgl_animation_keyframes",
+      "image_source": "https://threejs.org/examples/screenshots/webgl_animation_keyframes.jpg",
+      "kind": "官方三维示例图",
+      "source_sha256": "1b2da7cb4912a35d82a80ce916386a2f8ee0f2109e9e5c7ebcc577af8c78ebb7",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "type-color",
+      "id": 93,
+      "caption": "Radix Colors · 语义色阶工具",
+      "local_preview": "../assets/previews/example-093.jpg",
+      "page_url": "https://www.radix-ui.com/colors/custom",
+      "image_source": "https://image.thum.io/get/width/1000/crop/650/noanimate/https://www.radix-ui.com/colors/custom",
+      "kind": "第三方页面截图",
+      "source_sha256": "4c7e31496ab5c6e8dc882bef81aed66507fc8c1ec74204b8204d2485d1e02b83",
+      "display": "为总览缩略裁切；非新生成作品。"
+    },
+    {
+      "category": "collect",
+      "id": 95,
+      "caption": "Pinterest · 公开参考图集合",
+      "local_preview": "../assets/previews/example-095.jpg",
+      "page_url": "https://www.pinterest.com/pinterest/your-ultimate-holiday-starter-pack/",
+      "image_source": "https://i.pinimg.com/1200x/ab/95/7f/ab957f8aaac5b15efc455eeb34b6c7bf.jpg",
+      "kind": "官方内容示例图",
+      "source_sha256": "eb21f315ec2890bcdb03f1d609ea76f98e9d7d4e2dd1e6c93ae15e6f44622f30",
+      "display": "为总览缩略裁切；非新生成作品。"
+    }
+  ],
+  "notes": [
+    "本图是九类资源的综合归纳与复用建议；具体源作机制、视觉推断和通用方案，以网页逐条依据为准。",
+    "清单来源：Eian《100 个提升审美的设计网站大赏》；解析与图文编排：本库，2026-11-16。预览版权归原站及相关权利人。"
+  ],
+  "png_sha256": "10e54cb14a276bd24e7fbbcbc4c6e0f29e160b13e29cd0888e00cfb267dfe525",
+  "svg_sha256": "03e666566175e320983d8495b8ccfdfe0e698f9733fddfa0596eb162880e513d",
+  "text_blocks": 179,
+  "layout_validation": "所有文字经过字体实测换行与画布、列宽、行高边界检查。"
+}
