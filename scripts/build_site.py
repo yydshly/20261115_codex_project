@@ -20,7 +20,8 @@ EVERYDAY_WONDERS = '0011-everyday-wonders'
 CANAL_RESEARCH = '0003-ai-wide-area-modeling'
 AVATAR_WORKFLOW = '0021-avatar-video-workflow'
 WIND_GARDEN = '0005-wind-return-garden'
-STATIC_PROJECTS = {WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html'}
+SHANHE_WORLD = '0019-shanhe-co-creation'
+STATIC_PROJECTS = {WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html'}
 
 
 def build_static_projects(output):
@@ -36,11 +37,15 @@ def build_static_projects(output):
             command.append('--dist')
         if slug == AVATAR_WORKFLOW:
             command.append('--public')
+        if slug == SHANHE_WORLD:
+            command.append('--publication')
         subprocess.run(command, check=True)
         if slug == AVATAR_WORKFLOW:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == WIND_GARDEN:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
+        if slug == SHANHE_WORLD:
+            subprocess.run([sys.executable, str(project / 'scripts/check.py')], check=True)
         source = project / 'dist'
         if not (source / entry).is_file():
             raise ValueError('Static project entry is missing: ' + slug)
