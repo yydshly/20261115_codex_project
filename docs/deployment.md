@@ -109,3 +109,10 @@ CI 额外按锁文件安装该项目的 Three.js。`scripts/build.py` 先按 `pu
 ## 定制 Bot 研究网页公开发布
 
 `0018-bot-role-research` 于 2026-11-17 获得用户明确提交与公开部署授权，已加入发布白名单。`scripts/build.py --publication` 导出六项理解、完整图、重点转换图、原交互图、讨论和来源；标准库 `check_publication.py` 核对相对资源、8→5 迁移、8 个来源、原图哈希和 8 MiB 预算。网页与总导航沿用 3200×7230 的 `assets/bot-role-overview.png` 原件，不在 CI 重绘或安装字体。保留其他已公开项目，未授权的本地研究不随本轮提交。公开路径为 `/20261115_codex_project/demos/0018-bot-role-research/`，实际公开验收后才填写 `demo_url`；PR、Actions 与验收证据见项目 `publication.md`。本地仍支持 `--site-preview`，网页发布不表示研究机器人、自动采集或定时已部署。
+
+
+## 创作 Skill 机制研究公开发布
+
+`0028-creator-skill-mechanisms` 于 2026-11-17 获得整理理解、提交远端和公开网页部署授权，加入统一 Pages 白名单，入口 `demos/0028-creator-skill-mechanisms/`。标准库 `scripts/build.py --publication` 导出六项理解、五条具体流程、约束强度、与直接生成比较、讨论与固定提交来源。`scripts/check_publication.py` 校验资源和锚点、流程与来源覆盖、引导图原件 SHA-256 及 6 MiB 预算。
+
+项目首页和总导航使用本轮最终生成的 `assets/skill-constraints-overview.png` 原件，1536 × 1024，点击打开完整 PNG，不在 CI 重绘。页面为基于文档与部分源码的机制研究，不代表已部署、安装或实测五套上游 Skill；真实上线后再回填 `demo_url`，提交、Actions 和公开资源核验见项目 `publication.md`。独立发布副本保留远端已有公开项目，其他聊天未提交内容不随本轮发布。

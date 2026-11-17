@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **13** 个项目。
+已收录 **14** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -23,6 +23,7 @@
 | 11 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
 | 12 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
 | 13 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 14 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) |
 
 ## 项目图览
 
@@ -253,6 +254,22 @@
 2026-11-17 本轮生成的研究全景图；点击顶部预览查看 3200×26588 完整 PNG。包含真实样片、14 个模块与 28 问，人物和原声来自 @tm\_uchal；已实测与待验证分别标明。
 
 [进入研究](projects/0021-avatar-video-workflow/README.md) · [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html)
+
+### 0028 · 创作 Skill · 输入、约束与我们的价值
+
+拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。
+
+从逐字稿、真实样本和发布数据出发，对照审稿报告、口播稿、分镜与复盘记录。
+
+重点解释清单、样本、模板、留档与脚本如何约束目标；区分文字规定、程序检查与实际效果。
+
+第三方方法先试用，换入自己的样本与标准，再用真实作品沉淀个人 Skill。
+
+[![五条创作 Skill 的输入、处理、输出与内部约束机制，并解释我们可以借用的清单、样本、模板、记录和校验。](projects/0028-creator-skill-mechanisms/assets/skill-constraints-overview.png)](projects/0028-creator-skill-mechanisms/assets/skill-constraints-overview.png)
+
+本轮最终生成的第三版原图；机制示意，非上游效果实测。点击查看完整 PNG。
+
+[进入研究](projects/0028-creator-skill-mechanisms/README.md) · [参考来源](https://x.com/liyuuuing/status/2121507172580475003)
 
 <!-- PROJECTS:END -->
 
