@@ -4,7 +4,7 @@
 
 # 0027 · Unslop · 按产品内容返修网页设计
 
-本页研究Damir Sokolovsky的[heydamir/unslop](http〈本机研究路径〉`htt〈本机研究路径〉`需要服务正在运行；未公开部署。
+本页研究Damir Sokolovsky的[heydamir/unslop](https://github.com/heydamir/unslop)，不混用其他同名项目。先看作者效果，再解释价值：[本地研究页](web/index.html)。本机预览`〈本机预览地址〉`需要服务正在运行；未公开部署。
 
 **一句话：给编码助手一套设计检查和返修方法，让网页的视觉与内容更贴合产品。** 它主要是技能文件、检查表、设计参考与辅助脚本；实际改代码、看页面和继续修改由助手及使用者完成。
 
@@ -66,4 +66,4 @@ python -m http.server 53027 --bind 127.0.0.1 --directory <本项目绝对目录>
 
 打开`/web/index.html`。示例与交互说明位于`web/app.js`；任务位于`web/index.html`。不配置公开发布，索引demo_url保持null。
 
-Unslop由Damir Sokolovsky（[@heydamir](http〈本机研究路径〉 BY 4.0](UPSTREAM-LICENSE.txt)。保留[原仓库](http〈本机研究路径〉
+Unslop由Damir Sokolovsky（[@heydamir](https://x.com/heydamir)）创作，采用[CC BY 4.0](UPSTREAM-LICENSE.txt)。保留[原仓库](https://github.com/heydamir/unslop)、[作者](https://heydamir.design/unslop)与改编说明，详见[UPSTREAM-NOTICE.md](UPSTREAM-NOTICE.md)。本库原理图不是作者截图；中文解释、文案建议、阅读页代码与原创任务为本轮整理。

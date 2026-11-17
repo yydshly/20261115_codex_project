@@ -10,8 +10,8 @@
 
 ## 先看作者的实际示例
 
-1. [纸艺／水彩动画四版对照](http〈本机研究路径〉
-2. [混合人物与界面参考片的作者报告](http〈本机研究路径〉
+1. [纸艺／水彩动画四版对照](https://github.com/JuneYaooo/rea-video/blob/07dd587119e884f7c50fbfae92e47840de86bea5/README.md#remakes)：原片、OiiOii复刻、作者团队复刻、元素替换。画面中“我们的复刻”指作者团队，四栏都不是本轮作品。已实播观察开场与结尾；片长30.139秒、1280×720。
+2. [混合人物与界面参考片的作者报告](https://github.com/JuneYaooo/rea-video/blob/07dd587119e884f7c50fbfae92e47840de86bea5/docs/cases/dual_role/report_en.md)：约19秒、10个镜头。页面摘出前四镜，分为画面、报告推断、复做建议与待核实项；不是本轮重跑的结果。
 
 四版对照的完整生成使用了作者说明的capsule-cinema等下游链路及模型。Rea-Video的分析产物与影片生成分别归因。原仓库提供的媒体远程加载，没有下载或镜像副本；嵌入受网络与来源可用性影响。
 
@@ -55,6 +55,6 @@ python -m http.server 53024 --bind 127.0.0.1 --directory <本项目绝对目录>
 
 ## 来源与许可
 
-[原仓库](http〈本机研究路径〉
+[原仓库](https://github.com/JuneYaooo/rea-video)，Apache-2.0，保留[许可证](UPSTREAM-LICENSE.txt)与[NOTICE](UPSTREAM-NOTICE.txt)。具体第三方视频、音乐、角色与模型权利另行核对，不因代码开源而推定可任意再利用。
 
 原作者示例保持来源和身份，本轮不下载或分发媒体副本。网页中文解释、取舍、任务书及原理图为本库原创；图示不是作者效果截图或本机运行结果。页面无远程脚本、统计、账号或内容上传。

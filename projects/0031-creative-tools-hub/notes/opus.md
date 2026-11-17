@@ -8,7 +8,7 @@
 
 - [打开效果与提示词阅读页](web/index.html)：三个可切换案例，原作视频在前，随后是价值、原文节选与概括、我们的目标、取舍对照和完整改写提示词。
 - [三份改写任务书](OUR_BRIEF.md)：雨后庭院、草地与风、庭院火盆；均为原创输入草案，**尚未执行**。
-- [结构化案例与出处](selected-cases.json) · [验证记录](verification.json) · [原仓库](http〈本机研究路径〉
+- [结构化案例与出处](selected-cases.json) · [验证记录](verification.json) · [原仓库](https://github.com/yihui-dev/awesome-opus5-5-videos)。
 
 ![本库原创阅读路线图：原作效果、具体价值、参考文字、我们的目标、取舍与改写；不是原作画面或网页截图](assets/overview.png)
 

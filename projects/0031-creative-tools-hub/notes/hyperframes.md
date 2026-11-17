@@ -12,9 +12,9 @@
 
 | 官方样片 | 实播中看到的内容 | 对我们的用途 |
 | --- | --- | --- |
-| [Code2Video Bench](http〈本机研究路径〉 | 户外人物、字幕与网页信息画面的切换 | 已有数字人口播搭配图片、图表和说明 |
-| [Chart languages](http〈本机研究路径〉 | 柱形依次长出，标签逐渐计数 | 研究统计和对比数据的动画讲解 |
-| [Inkwell](http〈本机研究路径〉 | 功能文字、键盘图形、颜色转场与结尾标语 | 既有作品的片头、介绍与图文编排 |
+| [Code2Video Bench](https://hyperframes.heygen.com/guides/avatar-presenter) | 户外人物、字幕与网页信息画面的切换 | 已有数字人口播搭配图片、图表和说明 |
+| [Chart languages](https://hyperframes.heygen.com/prompting/data-and-maps) | 柱形依次长出，标签逐渐计数 | 研究统计和对比数据的动画讲解 |
+| [Inkwell](https://hyperframes.heygen.com/guides/hyperframes-vs-remotion) | 功能文字、键盘图形、颜色转场与结尾标语 | 既有作品的片头、介绍与图文编排 |
 
 样片由HyperFrames官方提供，不是我们的成片；视频与海报保留在官方远端。本轮只观察选定片段，没有逐帧全片审查和音频听审。图表中的语言比例是官方示例输入，没有用作真实调查结论。
 
@@ -22,7 +22,7 @@
 
 它是一个用网页代码编排素材、制作动画并导出视频的框架。比如已有数字人口播：讲到数字时出现图表，讲到案例时切到图片或视频，讲完后回到人物。位置、出现时间、动画和字幕都可修改，最后导出MP4。人物、配音和场景素材由我们准备，或通过相应服务生成。该例为理解说明，尚未制作本机小样。
 
-相关清单的下一项是Remotion及Remotion Skills，已有0001动画图谱研究；随后可看[Blender MCP / MCP for Blender](http〈本机研究路径〉
+相关清单的下一项是Remotion及Remotion Skills，已有0001动画图谱研究；随后可看[Blender MCP / MCP for Blender](https://github.com/ahujasid/mcp-for-blender)，尚未开展本项实测。
 
 ## 它负责哪一步
 
@@ -54,7 +54,7 @@ python -m http.server 53022 --bind 127.0.0.1 --directory <本项目绝对目录>
 
 ## 来源与许可
 
-- [官方仓库](http〈本机研究路径〉 · [固定许可证](http〈本机研究路径〉
+- [官方仓库](https://github.com/heygen-com/hyperframes) · [固定许可证](https://github.com/heygen-com/hyperframes/blob/b29e40d707d6942953265e0dfc90a18fd98f654e/LICENSE)：Apache-2.0。
 - 网页中文分析、目标与改写为本次原创。少量英文节选均提供出处。
 - 官方视频可能含人物、声音、独立影像与生成服务，不能将每个元素都归因于框架代码；代码许可也不等于具体媒体可以任意再分发。
 - 页面仅远程显示官方视频/海报，没有下载副本。无远程脚本、字体、统计、输入存储或上传。

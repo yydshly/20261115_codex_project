@@ -24,7 +24,7 @@
 | 12 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
 | 13 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 | 14 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/) |
-| 15 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) |
+| 15 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/) |
 
 ## 项目图览
 
@@ -286,7 +286,7 @@
 
 沿用本轮生成的3200×10440完整原图，不重绘或改动像素。12幅不同效果／实测图、GSAP静态构成、Blender连接示意分别标注；Remotion Skills共用Remotion样片证据。
 
-[进入研究](projects/0031-creative-tools-hub/README.md) · [参考来源](https://x.com/fuji_ai_/status/2121898699374911862)
+[进入研究](projects/0031-creative-tools-hub/README.md) · [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/)
 
 <!-- PROJECTS:END -->
 

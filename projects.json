@@ -436,7 +436,7 @@
         "alt": "本轮生成的15库完整效果价值汇总图，按库展示效果、作用、价值、参考场景、边界与验证范围",
         "caption": "沿用本轮生成的3200×10440完整原图，不重绘或改动像素。12幅不同效果／实测图、GSAP静态构成、Blender连接示意分别标注；Remotion Skills共用Remotion样片证据。"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/",
       "source_url": "https://x.com/fuji_ai_/status/2121898699374911862",
       "highlights": [
         "理解与内容：区分参考、素材、生成、动作、成片、三维与Skills，逐项对应真实效果、输入输出、价值、场景和边界。",

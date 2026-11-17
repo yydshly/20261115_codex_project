@@ -10,7 +10,7 @@
 
 ## 先看原作者演示
 
-[Blender MCP: Use Polyhaven assets](http〈本机研究路径〉
+[Blender MCP: Use Polyhaven assets](https://www.youtube.com/watch?v=I29rn92gkC4)，作者ahujasid，约39秒。已实播观察约24—35秒片段：左侧聊天与右侧Blender海滩并列，场景里可见沙地、岩石和水面，后续提出使用更简单地面纹理的要求。检查结束时暂停在34.99秒。
 
 这是较早的演示，画面出现Claude3.7Sonnet与旧工具名称；当前原理按下面的固定源码另外核对。本轮没有逐帧全片审查、音频听审或作者工程检查，不把视频里出现画面当作当前接口和制作成功率的完整证明。
 
@@ -55,7 +55,7 @@ python -m http.server 53023 --bind 127.0.0.1 --directory <本项目绝对目录>
 
 ## 来源与许可
 
-- [当前仓库](http〈本机研究路径〉 · [固定源码](http〈本机研究路径〉
+- [当前仓库](https://github.com/ahujasid/mcp-for-blender) · [固定源码](https://github.com/ahujasid/mcp-for-blender/tree/b6a2ce30c14636a562b5549684d9db6fc01f29ab)。MIT版权声明见[UPSTREAM-LICENSE.txt](UPSTREAM-LICENSE.txt)。
 - 原作者视频与仓库界面图通过远程链接提供，清楚署名，未保存本地副本。仓库MIT不代替具体第三方模型、纹理、声音和生成服务的使用条件。
 - 原理图、中文解释和任务改写为本库原创；原理图不是作者效果截图或本机运行结果。
 - 本轮轻量文件先写入授权D盘展示目录，再逐文件校验同步到研究总库的0023目录；未执行磁盘清理。

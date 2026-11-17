@@ -12,4 +12,4 @@
 
 理解边界：同一画面不能当作两个工具的独立验证或技能效果排名。
 
-原始来源：http〈本机研究路径〉
+原始来源：https://github.com/remotion-dev/skills

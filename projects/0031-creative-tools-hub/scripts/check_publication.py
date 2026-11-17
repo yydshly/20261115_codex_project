@@ -44,6 +44,9 @@ def main():
             if u.fragment and target in pages and unquote(u.fragment) not in pages[target].ids:failures.append([str(path.relative_to(site)),ref,"missing anchor"])
     for t in data["tools"]:
         if not (site/"studies"/(t["id"]+".html")).is_file() or not (site/"notes"/(t["id"]+".md")).is_file():failures.append([t["id"],"missing study/record"])
+        else:
+            note=(site/"notes"/(t["id"]+".md")).read_text(encoding="utf-8")
+            if t["repo"] not in note and t["source"] not in note:failures.append([t["id"],"record lost its official source URL"])
     for name in ["app.js","map.js","research.json","source-manifest.json","verification.json"]:
         text=(site/name).read_text(encoding="utf-8")
         if re.search(r"https?://(?:127\.0\.0\.1|localhost)|(?<![A-Za-z])[A-Za-z]:[\\/]|server_session|artifact_primary",text):failures.append([name,"local-only information"])
