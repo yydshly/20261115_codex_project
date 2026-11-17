@@ -80,6 +80,8 @@ def source_entry(x):
 def shell(page, content):
     location = '公开研究档案' if PUBLICATION else '本地研究'
     publication_note = '故事与后期产品为草案 · 游戏未实现' if PUBLICATION else '故事与后期产品为草案 · 本地预览'
+    if page == 'sources':
+        content += '<div class="content-wrap"><section class="section" id="publication-record">' + section_head('发布','理解与真实发布记录','网页部署和内容验收，不代表游戏能力已经实现。') + '<div class="download-links">' + link('../understanding.json','参考、理解与价值数据 →') + link('../publication.md','真实提交与部署记录 →') + link('../online-verification.json','线上资源与原图核验 →') + '</div></section></div>'
     if page == "sources" and R.get("overview"):
         content += '<div class="content-wrap"><section class="section" id="overview-files">' + section_head('06','一图总览与排版来源','使用既有概念原图与可校对的中文排版，非游戏实机。') + '<div class="download-links">' + link('../assets/shanhe-understanding-overview-v1.png','高清 PNG · 3200×12684 ↗',True) + link('../overview-summary.json','可修订总览文字 JSON →') + link('../assets/overview/board-v1.html','排版源文件 HTML →') + link('../assets/overview/render-record-v1.json','渲染、来源与校验记录 →') + '</div></section></div>'
     label = next(x[1] for x in PAGES if x[0] == page)
@@ -249,11 +251,11 @@ def main():
         if path.is_file():
             text = path.read_text(encoding="utf-8")
             text = text.replace("../assets/","./assets/")
-            for name in ("STORY.md","DISCUSSION.md","README.md","research.json","story.json","overview-summary.json","understanding.json","publication.md","THIRD_PARTY_NOTICES.md","verification.json"):
+            for name in ("STORY.md","DISCUSSION.md","README.md","research.json","story.json","overview-summary.json","understanding.json","publication.md","online-verification.json","THIRD_PARTY_NOTICES.md","verification.json"):
                 text = text.replace("../"+name,"./"+name)
             write(dest / path.name,text)
     shutil.copytree(ROOT/"assets",dest/"assets",dirs_exist_ok=True)
-    for name in ("STORY.md","DISCUSSION.md","README.md","research.json","story.json","overview-summary.json","understanding.json","publication.md","THIRD_PARTY_NOTICES.md","verification.json"):
+    for name in ("STORY.md","DISCUSSION.md","README.md","research.json","story.json","overview-summary.json","understanding.json","publication.md","online-verification.json","THIRD_PARTY_NOTICES.md","verification.json"):
         if (ROOT/name).exists():
             shutil.copy2(ROOT/name,dest/name)
     files=[{"path":p.relative_to(dest).as_posix(),"sha256":hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(dest.rglob("*")) if p.is_file() and p.name!="build-manifest.json"]

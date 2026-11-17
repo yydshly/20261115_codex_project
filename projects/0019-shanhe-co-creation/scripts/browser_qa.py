@@ -105,8 +105,11 @@ def main():
     parser.add_argument("--home-visuals-only", action="store_true")
     parser.add_argument("--overview-only", action="store_true")
     args = parser.parse_args()
-    assert args.base.startswith("http://127.0.0.1:"), "QA is limited to loopback"
+    public = args.base == "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/"
+    assert args.base.startswith("http://127.0.0.1:") or public, "QA is limited to loopback or the authorized public project"
     output = REPO/".local/shanhe-qa"
+    if public:
+        output = output/'public'
     output.mkdir(parents=True, exist_ok=True)
     opener = build_opener(ProxyHandler({}))
     http = {}
@@ -158,6 +161,7 @@ def main():
         assert page.locator("#lightbox-img").evaluate("el => el.complete && el.naturalWidth > 0")
         page.keyboard.press("ArrowRight")
         assert "地区总览" in page.locator("#lightbox-title").inner_text()
+        page.wait_for_function("img => img.complete && img.naturalWidth === 1774", arg=page.locator('#lightbox-img').element_handle())
         page.keyboard.press("Escape")
         assert not page.locator("#lightbox").evaluate("el => el.open")
         page.locator(".search-trigger").click()
@@ -234,12 +238,12 @@ def main():
         assert not failures, failures
         browser.close()
     record = {
-        "project":ROOT.name,"date":"2026-11-17","mode":"isolated headless browser against localhost only",
+        "project":ROOT.name,"date":"2026-11-17","mode":"isolated headless browser against authorized public project" if public else "isolated headless browser against localhost only",
         "http_pages":http,"layouts":layouts,"vote_ui_cases":len(vote_cases),"progress_ui_cases":len(progress_cases),
         "interaction_checks":["comparison keyboard 0/100","image filters 2/3/all","lightbox image, next and Escape","Chinese search and no-results","all 6 district tabs","reading font persistence and focus","reading position","local notes persistence and JSON export","mobile navigation"],
         "console_errors":errors,"failed_requests":failures,
         "screenshots":[x.name for x in output.glob("*.png")],
-        "game_validation":False,"published":False
+        "game_validation":False,"published":public
     }
     (output/"browser-report.json").write_text(json.dumps(record,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
     print(json.dumps({"result":"passed","pages":len(http),"layout_checks":len(layouts),"vote_cases":len(vote_cases),"progress_cases":len(progress_cases),"errors":len(errors),"report":str(output/"browser-report.json")}))
