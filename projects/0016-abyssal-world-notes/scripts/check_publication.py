@@ -49,6 +49,8 @@ def check(site):
     record = json.loads((ROOT / "assets/summary-verification.json").read_text(encoding="utf-8"))
     for name, expected in record["sha256"].items():
         data = (site / "assets" / name).read_bytes()
+        if name.endswith((".svg", ".txt")):
+            data = data.replace(b"\r\n", b"\n")
         assert hashlib.sha256(data).hexdigest() == expected, f"Selected artifact changed: {name}"
     image = (site / "assets/understanding-summary.png").read_bytes()
     assert image[:8] == b"\x89PNG\r\n\x1a\n"

@@ -10,7 +10,8 @@
   "scope": "new diagram and resource links; original 2026-11-16 browser verification remains historical",
   "sha256": {
     "understanding-summary.png": "19f20ce8348cfa843d9623fa852a4b321e8a4042ad5d386623b1a858c8037f70",
-    "understanding-summary.svg": "1e3bc6a6cd6b0c16fcb914def1a6ee5fe59c4507d69ab03a48114dbc7c9b5948",
-    "our-sea-brief.txt": "9ece144470bd6c7fe41fe9222199e0882d402009c35739b78517dfb3295de956"
-  }
+    "understanding-summary.svg": "69d8bf06a4735621a91e79bc3df65691fe5d1a66d3cedcdd19c1bac0258bc5c3",
+    "our-sea-brief.txt": "f536a2e154ee5af6bd4aa2ffbcce3733288888e737095c6bf37091c1dda4efc8"
+  },
+  "text_hash_normalization": "SVG/TXT hashes normalize CRLF to LF; PNG image hash uses exact bytes"
 }
