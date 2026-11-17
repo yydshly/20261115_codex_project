@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-17",
+  "scope": "Unified reading hub and exported overview figure, based on existing research. No new all-library benchmark or end-to-end production pipeline.",
+  "environment": {
+    "os": "Windows",
+    "browser": "Codex in-app Chromium",
+    "scope": "local prepublication checks"
+  },
+  "observed_checks": [
+    {
+      "name": "Scenario search",
+      "result": "pass",
+      "query": "写实",
+      "shown": [
+        "comfyui",
+        "blender",
+        "three"
+      ],
+      "note": "Avoidance text excluded from positive matches."
+    },
+    {
+      "name": "Category filter",
+      "result": "pass",
+      "category": "space",
+      "shown": [
+        "blender",
+        "three"
+      ]
+    },
+    {
+      "name": "Local production/application filter",
+      "result": "pass",
+      "shown": [
+        "lemo",
+        "pixelfx",
+        "effectcraft",
+        "remotion",
+        "remotion-skills",
+        "gsap",
+        "three"
+      ],
+      "note": "Skills shared sample marked explicitly; not independent rendering test."
+    },
+    {
+      "name": "Task routes",
+      "result": "pass",
+      "routes": 5,
+      "note": "All five buttons changed headings and stage groups; alternatives are grouped instead of chained as mandatory steps."
+    },
+    {
+      "name": "Comparison",
+      "result": "pass",
+      "initial": [
+        "remotion",
+        "remotion-skills"
+      ],
+      "third": "pixelfx",
+      "fourth_refused": "lemo",
+      "note": "Fourth selection stayed unchecked and a max3 status appeared. Playwright check assertion expected true and threw because the intended UI guard rejected the selection; subsequent DOM verified correct rejection."
+    },
+    {
+      "name": "Picture enlargement and keyboard close",
+      "result": "pass",
+      "tool": "hyperframes",
+      "note": "Dialog displayed the official42.6s frame with attribution; Enter closed it."
+    },
+    {
+      "name": "Long figure zoom",
+      "result": "pass",
+      "observations": [
+        {
+          "percent": 100,
+          "image_width": 3200
+        },
+        {
+          "percent": 60,
+          "image_width": 1920
+        }
+      ],
+      "note": "Fit mode and internal scroll work; document did not overflow. Fit slider was then aligned to integer percentage."
+    },
+    {
+      "name": "Mobile hub",
+      "result": "pass",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document_width": 375,
+      "note": "Route, card and expanded data inspected. Search pixel returned only PixelFX; no document horizontal overflow. Comparison scroll stays in its own container."
+    },
+    {
+      "name": "Mobile figure viewer",
+      "result": "pass",
+      "viewport_width": 390,
+      "document_width": 390,
+      "canvas_width": 375,
+      "image_width": 335,
+      "note": "Fit view remained inside canvas. Temporary viewport reset."
+    },
+    {
+      "name": "Figure export",
+      "result": "pass",
+      "dimensions": [
+        3200,
+        10440
+      ],
+      "preview": [
+        1280,
+        4176
+      ],
+      "layout_flags": [],
+      "note": "Preview and image sheets visually inspected; original media, ours, shared evidence and diagrams labeled."
+    },
+    {
+      "name": "JavaScript syntax",
+      "result": "pass",
+      "files": [
+        "web/app.js",
+        "web/map.js"
+      ],
+      "method": "node --check"
+    },
+    {
+      "name": "Local EffectCraft video in final hub",
+      "result": "pass",
+      "duration": 6,
+      "readyState": 4,
+      "ended": true,
+      "current_time": 6,
+      "note": "Triggered native play; observed complete6s playback end, not audio review."
+    },
+    {
+      "name": "Final figure fit control",
+      "result": "pass",
+      "image_width": 1216,
+      "range": "38",
+      "display": "38%",
+      "document_overflow": false
+    },
+    {
+      "name": "Final browser console",
+      "result": "pass",
+      "errors": []
+    }
+  ],
+  "limitations": [
+    "Remote videos and YouTube embeds remain subject to original host availability; not all were replayed in this hub.",
+    "GSAP author frame extraction failed; illustration is explicitly original and static, not author screenshot.",
+    "Blender has an original mechanism diagram rather than a downloaded author video frame.",
+    "No fresh end-to-end tests for all upstream libraries.",
+    "No independent time-savings or quality benchmark.",
+    "No full accessibility or true-device performance audit."
+  ],
+  "static_checks": {
+    "cards": 15,
+    "unique_ids": "ok",
+    "local_references_checked": 69,
+    "missing": [],
+    "images_json_svg": "ok"
+  },
+  "final_http_checks": {
+    "count": 15,
+    "all_status": 200,
+    "covers": [
+      "hub",
+      "map viewer",
+      "PNG",
+      "SVG",
+      "Lemo review",
+      "EffectCraft record",
+      "world progress",
+      "eight later study pages"
+    ]
+  }
+}

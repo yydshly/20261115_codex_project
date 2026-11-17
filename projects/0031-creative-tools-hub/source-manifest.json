@@ -1,0 +1,416 @@
+{
+  "date": "2026-11-17",
+  "scope": "Consolidation of existing 15-library research. No fresh end-to-end test of all libraries.",
+  "collection_user_url": "https://x.com/fuji_ai_/status/2121898699374911862",
+  "collection_list_reference": "https://xitter.cf/flxrnc/status/2121216542574567842",
+  "source_note": "Original user X URL returned403 in latest list check. The existing15-item queue and public list copy were cross-checked; not treated as technical evidence.",
+  "documents": [
+    {
+      "path": "projects/0001-animation-skills-atlas/README.md",
+      "sha256": "7d7904d2c6aab341d8d8b5caa9367c8389043488bd22db88b2332708f5be8b8d"
+    },
+    {
+      "path": "projects/0001-animation-skills-atlas/verification.md",
+      "sha256": "9afe56a73c2e633c489cd86cece4f7d97cd24339f2e01338ab2436a8dc0ec095"
+    },
+    {
+      "path": "projects/0010-lemo-opuscar-trial/README.md",
+      "sha256": "1055ed4e3748b1c9988ef41667cfb882646f233517d9c8eed9dd4573d21f60b6"
+    },
+    {
+      "path": "projects/0010-lemo-opuscar-trial/verification.json",
+      "sha256": "681e62e9d80759e961890a37824f1a3d00bab12c04cfbb91e01dddd79c214453"
+    },
+    {
+      "path": "projects/0010-lemo-opuscar-trial/REFERENCE_COMPARISON.md",
+      "sha256": "b5ef789cf722380448b72253cc22125a90722a566c7c051f2158b502f4b12d31"
+    },
+    {
+      "path": "projects/0012-world-building-lab/README.md",
+      "sha256": "8a7dfb831b1f8589bc7e008505bbbec732bd2b6c0b07923533c520bf20c7921d"
+    },
+    {
+      "path": "projects/0012-world-building-lab/verification.md",
+      "sha256": "fba8ef5579ff111941660521ec7517623bcc10c112d8c53c08c2b67768b6140e"
+    },
+    {
+      "path": "projects/0013-pixelfx-garden-trial/README.md",
+      "sha256": "8784383a4c2f6127d70ab63599cd72f32f4fbc622b56c72fca11ccd24168eb0a"
+    },
+    {
+      "path": "projects/0013-pixelfx-garden-trial/verification.json",
+      "sha256": "09601ed50d50639f21e7587d855622c78834324f60c591bb490c093dc9206e98"
+    },
+    {
+      "path": "projects/0014-effectcraft-trial/README.md",
+      "sha256": "eb852dc7810141e6a8a665c0695323123089253505c0658b8c6912f3e55204e4"
+    },
+    {
+      "path": "projects/0015-opus-video-prompt-guide/README.md",
+      "sha256": "8960cdd7635ad75e8ba9bd61ac82d29971a7af5ad23c606bc1dbac65ac6c20b5"
+    },
+    {
+      "path": "projects/0015-opus-video-prompt-guide/verification.json",
+      "sha256": "124ed4f87acb0609138faa847005c3fefcfb3ce1a11916bd08d71ef61759c5bf"
+    },
+    {
+      "path": "projects/0015-opus-video-prompt-guide/selected-cases.json",
+      "sha256": "aa7423cfd9a9e8983e5c7042d15b99bafb7443f2ad47f4d520d9fd66fb04cef7"
+    },
+    {
+      "path": "projects/0022-hyperframes-value-guide/README.md",
+      "sha256": "3eba805172912fb3c990dc773f82bdee33b670e27b38724ba5abe3e9d6882cbd"
+    },
+    {
+      "path": "projects/0022-hyperframes-value-guide/verification.json",
+      "sha256": "16a9cc3641005bdb032b49487a4be08bfa3245788fda0e22c8e6612e692c31f5"
+    },
+    {
+      "path": "projects/0023-blender-mcp-value-guide/README.md",
+      "sha256": "6940ff5e7a8be21709309b7b84a9b420836d45de0b70388b15b29cb39937177b"
+    },
+    {
+      "path": "projects/0023-blender-mcp-value-guide/source-notes.json",
+      "sha256": "710a6e9fcafd9e7ffe800a6e4cb0c45884d66131bd74fcd68682910aac8151f1"
+    },
+    {
+      "path": "projects/0023-blender-mcp-value-guide/verification.json",
+      "sha256": "e9685354c2b0b85c954d9dc42aef9a267b7c22edeb5e590aad0e5d41e94fcc9c"
+    },
+    {
+      "path": "projects/0024-rea-video-value-guide/README.md",
+      "sha256": "102ae5fb7bcc5276a76d02243ad397b40e988d2a83e9722712c9257b7efab80f"
+    },
+    {
+      "path": "projects/0024-rea-video-value-guide/source-notes.json",
+      "sha256": "bf253297b776b0e61f6eb936fe85523eddf169cae1d620dba75f3461b784e12e"
+    },
+    {
+      "path": "projects/0024-rea-video-value-guide/verification.json",
+      "sha256": "e9561f8c532e272a9f44b694bde0a70398e2f88e423ef3f59037645912277c2a"
+    },
+    {
+      "path": "projects/0025-gsap-value-guide/README.md",
+      "sha256": "d9e0a146b51dd511051c41ca41fc48cc156f533435c0207711e5d646662e13b6"
+    },
+    {
+      "path": "projects/0025-gsap-value-guide/source-notes.json",
+      "sha256": "36109821ad646209c05b4977062dbc52c75d39180c02d608d04fd89997411b96"
+    },
+    {
+      "path": "projects/0025-gsap-value-guide/verification.json",
+      "sha256": "67fac62fa90ed0eb8c26976709df514c4e6e49536427b49c1306464574e4a4f5"
+    },
+    {
+      "path": "projects/0026-comfyui-value-guide/README.md",
+      "sha256": "e9e3e88661d9e8b79aa0e33330c67aeb4587450ba5df140b888147aeb4c0c88d"
+    },
+    {
+      "path": "projects/0026-comfyui-value-guide/source-notes.json",
+      "sha256": "a9887f8f2d21018373d9543878f0332ac9019d3eccb9eb8639b5a66da05fd0cb"
+    },
+    {
+      "path": "projects/0026-comfyui-value-guide/verification.json",
+      "sha256": "0a8a1e471abc4efaf807005294b7a208771da1420cfa82e96c68db8ae0d2b65c"
+    },
+    {
+      "path": "projects/0027-unslop-value-guide/README.md",
+      "sha256": "5144c62d9b3bd77fec39a56f9db6778518e80b3f547b2c74af3b0e317a8869cf"
+    },
+    {
+      "path": "projects/0027-unslop-value-guide/source-notes.json",
+      "sha256": "0972544bc744f34c585dd011b8b6c85246d0344705c0346ed4f45fe80075be7f"
+    },
+    {
+      "path": "projects/0027-unslop-value-guide/verification.json",
+      "sha256": "16f993dc2f73c6c057ffcb306d1c89a209371698fbcd1a9ec639822142f468f1"
+    },
+    {
+      "path": "projects/0029-impeccable-value-guide/README.md",
+      "sha256": "130bfbf54d5ec39fe216bdc3e98716cbbc7fe6a7e660bdc1dfc53eeaa22ac183"
+    },
+    {
+      "path": "projects/0029-impeccable-value-guide/source-notes.json",
+      "sha256": "32fdf7ced055e16e4d0c4b62681984b7bc64ec80e39de64f62c2140418629672"
+    },
+    {
+      "path": "projects/0029-impeccable-value-guide/verification.json",
+      "sha256": "1567230abf34061562f8e3001b18230fe0b346f51eb660dc416ea09fc8951213"
+    },
+    {
+      "path": "projects/0030-anthropic-skills-value-guide/README.md",
+      "sha256": "da856f199034ba95c71cda2a162200fe2db2d65a0d2f6e59041c47c1e6f03217"
+    },
+    {
+      "path": "projects/0030-anthropic-skills-value-guide/source-notes.json",
+      "sha256": "ddb5b8486efe6c76d53a0da08984ad6e93a120ed76ebb73df3d253c0dd224e06"
+    },
+    {
+      "path": "projects/0030-anthropic-skills-value-guide/verification.json",
+      "sha256": "36e22b534086a802c20898b271285b96c399be3a091de2970199763b7eaa3c1d"
+    },
+    {
+      "path": "projects/0013-pixelfx-garden-trial/comparison-record.json",
+      "sha256": "047b0485ad772d86bdeaae00d98179a649f113321c7c475c841385a899ed8fb9"
+    },
+    {
+      "path": "projects/0001-animation-skills-atlas/comparison/remotion-v1.json",
+      "sha256": "104f8507b7f604812278c4db54ce154578b602fe284a6bbbbff213272a9f8b24"
+    },
+    {
+      "path": "projects/0001-animation-skills-atlas/comparison/remotion-v2.json",
+      "sha256": "b6d42751752582599b9e6d1599308d862db6c6882a78bfde132837ef8edc08ee"
+    }
+  ],
+  "media": [
+    {
+      "tool": "rea",
+      "image": "assets/thumbs/rea.jpg",
+      "identity": "作者案例",
+      "credit": "JuneYaooo / Rea-Video 作者发布对照",
+      "source_page": "https://github.com/JuneYaooo/rea-video/blob/07dd587119e884f7c50fbfae92e47840de86bea5/README.md#remakes",
+      "remote_media": "https://github.com/JuneYaooo/rea-video/raw/07dd587119e884f7c50fbfae92e47840de86bea5/docs/cases/remake/paper_sheet.jpg",
+      "sha256": "51491e542ecc35590a73e1d3e11f3b92950e983c18ef2883efb3649f028547df",
+      "license_scope": "Apache-2.0；第三方视频、音乐和角色另核对",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        378
+      ]
+    },
+    {
+      "tool": "opus",
+      "image": "assets/thumbs/opus.jpg",
+      "identity": "收录的作者原作",
+      "credit": "@anduraio / 原作海报，Skillry公开来源",
+      "source_page": "https://skillry.dev/ai-videos/opus-5-5/anduraio-570761",
+      "remote_media": "https://media.skillry.dev/opus-5-5/anduraio-570761/original.0a8c19ca2d.webp",
+      "sha256": "addffb7b1dae2267030332538dfead165d6e9c780cc18fd1df8aafa6645e0bfd",
+      "license_scope": "仓库MIT；原作与第三方媒体权利不随代码许可转移",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "tool": "lemo",
+      "image": "assets/thumbs/lemo.jpg",
+      "identity": "作者原片＋本库小样",
+      "credit": "LemoLab作者片 CC BY4.0 / 本库《风来小庭》",
+      "source_page": "https://lemomo-ai.github.io/lemo-opuscar/zh/styles/watercolor/",
+      "remote_media": null,
+      "sha256": "53f3d1af5ed5f27dddbb49e9ba0c53cd5fd03b8e275772301bc994db8457689c",
+      "license_scope": "代码MIT；所引作者影片CC BY4.0，选帧／缩放已标注",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        427
+      ]
+    },
+    {
+      "tool": "pixelfx",
+      "image": "assets/thumbs/pixelfx.jpg",
+      "identity": "原效果实跑",
+      "credit": "PixelFX / Patch，原效果本机代码运行快照",
+      "source_page": "https://github.com/patch-gg/pixelfx",
+      "remote_media": null,
+      "sha256": "ca4b12a58e25125508fa7ea3122ec0fe35e8c3f35132b1fc423c921637458a47",
+      "license_scope": "MIT；保留PixelFX及原效果作者声明",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1200,
+        530
+      ]
+    },
+    {
+      "tool": "comfyui",
+      "image": "assets/thumbs/comfyui.jpg",
+      "identity": "官方生成示例",
+      "credit": "ComfyUI官方示例 / SD1.5教程结果",
+      "source_page": "https://docs.comfy.org/tutorials/basic/image-to-image",
+      "remote_media": "https://raw.githubusercontent.com/Comfy-Org/example_workflows/5a7f3a85528002b735a869cb659ef88e18fd326e/image_to_image/workflow.png",
+      "sha256": "fc9d9a5d63ab41cf7cb8c3b7ea3a02ce10f69bf3cd83a767c7309089c24b1531",
+      "license_scope": "核心GPL-3.0；模型、自定义节点与素材分别核对",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "tool": "effectcraft",
+      "image": "assets/thumbs/effectcraft.jpg",
+      "identity": "本库实际合成",
+      "credit": "本库自有水彩底片 / EffectCraft文字合成导出",
+      "source_page": "https://github.com/storytold/effectcraft",
+      "remote_media": null,
+      "sha256": "23c52c158027aa2dabad1f0e47d57485f50889b43ef4b0e01d096e4ae40f4e77",
+      "license_scope": "MIT OR Apache-2.0；字体、底片各自署名",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        424
+      ]
+    },
+    {
+      "tool": "hyperframes",
+      "image": "assets/thumbs/hyperframes.jpg",
+      "identity": "官方视频选帧",
+      "credit": "HeyGen / HyperFrames官方片42.6秒缩图",
+      "source_page": "https://hyperframes.heygen.com/guides/avatar-presenter",
+      "remote_media": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/hq/explainer-code2video-bench-v1.mp4",
+      "sha256": "cf0d05319fb9d75b402969e8066ca435352f486d26716c9e6eda035899de77df",
+      "license_scope": "框架与官网媒体分别核对，保留HeyGen来源",
+      "shared_with": null,
+      "change": "Frame at42.6s of the official video, reduced to960x540 JPEG; no complete remote video retained.",
+      "thumbnail_dimensions": [
+        960,
+        540
+      ]
+    },
+    {
+      "tool": "remotion",
+      "image": "assets/thumbs/remotion.jpg",
+      "identity": "本库实际成片",
+      "credit": "本库原创《相似，来自方向。》/ Remotion渲染",
+      "source_page": "https://www.remotion.dev/",
+      "remote_media": null,
+      "sha256": "fe3f0b7f13de4f6cceb500e786039fd821bd2a6197a8d1942ae0c175a3b7e42a",
+      "license_scope": "Remotion自有许可条件；依具体团队与用途核对",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "tool": "remotion-skills",
+      "image": "assets/thumbs/remotion.jpg",
+      "identity": "指南应用的共享样例",
+      "credit": "同一Remotion本库样片 / 共用证据",
+      "source_page": "https://github.com/remotion-dev/skills",
+      "remote_media": null,
+      "sha256": "fe3f0b7f13de4f6cceb500e786039fd821bd2a6197a8d1942ae0c175a3b7e42a",
+      "license_scope": "技能与Remotion运行库分别核对",
+      "shared_with": "remotion",
+      "change": "Same Remotion sample shared with Remotion entry; no second rendering test.",
+      "thumbnail_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "tool": "gsap",
+      "image": "assets/thumbs/gsap.jpg",
+      "identity": "本库示意（非截图）",
+      "credit": "本库原创庭院动效的静态构成示意",
+      "source_page": "https://gsap.com/",
+      "remote_media": null,
+      "sha256": "0a9616be5bc130f70a455498133c35677f4ad5a2cb2caba139b17f629908a3b6",
+      "license_scope": "GSAP Standard License，非MIT",
+      "shared_with": null,
+      "change": "Original static composition illustration, not a browser screenshot.",
+      "thumbnail_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "tool": "blender",
+      "image": "assets/thumbs/blender.jpg",
+      "identity": "原理示意",
+      "credit": "本库原创连接原理图 / 非作者演示截图",
+      "source_page": "https://www.youtube.com/watch?v=I29rn92gkC4",
+      "remote_media": null,
+      "sha256": "1a777b6510c51be8b14dc85c15ce89e1c31b87dcdce7b84409fabfcd9b6b6b3d",
+      "license_scope": "桥接代码与Blender、Polyhaven等资产分别核对",
+      "shared_with": null,
+      "change": "Original mechanism illustration, no author video frame.",
+      "thumbnail_dimensions": [
+        1280,
+        720
+      ]
+    },
+    {
+      "tool": "three",
+      "image": "assets/thumbs/three.jpg",
+      "identity": "本库实际场景",
+      "credit": "本库原创世界 / Three.js早期场景实景",
+      "source_page": "https://threejs.org/examples/",
+      "remote_media": null,
+      "sha256": "7c620ebd32d77761a9ef989751ee230b93f6d32b9b1ff29e84be15e2962298be",
+      "license_scope": "MIT；模型、纹理和字体仍需各自许可",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1001,
+        870
+      ]
+    },
+    {
+      "tool": "unslop",
+      "image": "assets/thumbs/unslop.jpg",
+      "identity": "作者完成稿",
+      "credit": "Damir Sokolovsky / Unslop，CC BY4.0",
+      "source_page": "https://github.com/heydamir/unslop",
+      "remote_media": "https://raw.githubusercontent.com/heydamir/unslop/620163eedb3529d9cd23a3994ed8d287d06f760d/skills/unslop/references/refs/unslop-dashboard-after.webp",
+      "sha256": "4bf5d750f36b9d8ad60f29ee7139e673772035722eef29c4f644061121a32c22",
+      "license_scope": "CC BY4.0，保留署名与缩小引用说明",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        960,
+        960
+      ]
+    },
+    {
+      "tool": "impeccable",
+      "image": "assets/thumbs/impeccable.jpg",
+      "identity": "作者案例",
+      "credit": "Paul Bakaus / Impeccable作者发布旅馆图",
+      "source_page": "https://github.com/pbakaus/impeccable",
+      "remote_media": "https://raw.githubusercontent.com/pbakaus/impeccable/d41d9860b0094dcb68030657da63461212835aaa/docs/images/readme-with.webp",
+      "sha256": "b1571041bb28fb78c92d1bde7952ef94d703b6ad3ad492b31ed630ae8a52c346",
+      "license_scope": "Apache-2.0；官网素材单独核对",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        792
+      ]
+    },
+    {
+      "tool": "anthropic",
+      "image": "assets/thumbs/anthropic.jpg",
+      "identity": "官方历史示例",
+      "credit": "Anthropic / 2025-11-12官方历史示例",
+      "source_page": "https://claude.com/resources/articles/improving-frontend-design-through-skills",
+      "remote_media": "https://assets.claude.com/0b9a125ecab8f3a75aaf877ac838dc371185ed5e.png",
+      "sha256": "d7609213127b3c093315fef5e0acd7a8a4ed70b721832a7f39cf0efed198524c",
+      "license_scope": "已核对部分技能Apache-2.0；网站媒体权利另核对",
+      "shared_with": null,
+      "change": "Proportional reduction and JPEG conversion; no content retouch.",
+      "thumbnail_dimensions": [
+        1280,
+        756
+      ]
+    }
+  ],
+  "artifact_type": "Attributed research summary for authorized public publication.",
+  "media_processing": [
+    "Seven visible public image assets exported through browser pageAssets; original HyperFrames poster replaced by a verified42.6s video frame.",
+    "No full remote videos retained.",
+    "ComfyUI image metadata omitted for JPEG conversion; pixel stream unchanged before JPEG encoding.",
+    "GSAP official frame extraction failed; no author frame claimed. Its image is an original static composition illustration.",
+    "Remotion Skills shares the same Remotion sample; not an independent rendering test."
+  ],
+  "current_research_sha256": "39e11df1828bd39ca1eb4894b74dc1502a85233454cf380e65330dac83d6ed9c"
+}

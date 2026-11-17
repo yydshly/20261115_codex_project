@@ -1,0 +1,16 @@
+{
+  "tools": 15,
+  "groups": 5,
+  "routes": 5,
+  "image_dimensions": [
+    3200,
+    10440
+  ],
+  "preview_dimensions": [
+    1280,
+    4176
+  ],
+  "layout_flags": [],
+  "thumbnails": 14,
+  "data_sha256": "39e11df1828bd39ca1eb4894b74dc1502a85233454cf380e65330dac83d6ed9c"
+}

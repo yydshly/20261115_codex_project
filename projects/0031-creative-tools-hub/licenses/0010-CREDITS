@@ -1,0 +1,23 @@
+风来小庭 / Wind in the Garden
+Original film, garden, character, direction, camera and score: this repository's 2026-11-16 study.
+All scene images and sound are generated locally from code. No stock footage, external video generation, stock music or third-party character is used.
+
+Brush engine and plant-generation utilities:
+Lemo-Opuscar by Lemomo (LemoLab), version 2.0.0, commit 3a7132b996be0241c1ea0ab180d519f06e6f10b6.
+https://github.com/lemomo-ai/lemo-opuscar
+Files: vendor/watercolor-engine.js, vendor/plants.js. Code licence: MIT.
+Copyright (c) 2026 Lemomo (LemoLab). Licence text: vendor/LICENSE-MIT.txt.
+The copied utilities are unmodified; scene.js supplies this film's new story, world, palette, rigs and timeline.
+Watercolor Brush STYLE.md and production guides were read as direction, not redistributed here.
+These documents are CC BY-NC 4.0 with the additional film-production permission stated in the upstream licence.
+https://github.com/lemomo-ai/lemo-opuscar/blob/3a7132b996be0241c1ea0ab180d519f06e6f10b6/LICENSE
+
+Chinese typeface: Noto Serif SC by the Noto Project Authors / Adobe.
+https://github.com/google/fonts/tree/main/ofl/notoserifsc
+SIL Open Font License 1.1; fonts/OFL.txt. garden-serif.woff2 is a subset for this film, made with fontTools.
+
+Audio: original mathematical synthesis in mix.py, generated noise beds and short plucked/bell notes.
+No narration, voice cloning or online TTS. No audio samples from the upstream demo.
+
+Tools (not screen assets): Python, NumPy, SciPy, Pillow, SoundFile, fontTools, Playwright Core, Google Chrome, FFmpeg.
+No LemoLab logo, upstream demo sign-off or watermark appears in the film.

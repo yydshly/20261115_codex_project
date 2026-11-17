@@ -1,0 +1,5 @@
+/dist/
+/publication-build.json
+/publication-checks.json
+__pycache__/
+*.log
