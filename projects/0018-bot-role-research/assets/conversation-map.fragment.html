@@ -1,0 +1,257 @@
+<div id="bot-role-map">
+  <style>
+    #bot-role-map { color: var(--foreground); }
+    #bot-role-map .map-header { display: grid; gap: calc(var(--font-size-base) * .75); margin-bottom: calc(var(--font-size-base) * .75); }
+    #bot-role-map h2 { padding-right: 90px; }
+    #bot-role-map .map-stage { position: relative; width: 100%; min-width: 0; }
+    #bot-role-map .map-edges { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none; }
+    #bot-role-map .map-edges path { fill: none; stroke: color-mix(in srgb, var(--foreground) 27%, var(--background)); stroke-width: 1.4; }
+    #bot-role-map .map-edges path[data-kind="setup"] { stroke-dasharray: 4 4; }
+    #bot-role-map .map-edges path.is-related { stroke: var(--viz-series-1); }
+    #bot-role-map .map-edges marker path { stroke: currentColor; }
+    #bot-role-map .map-edges marker { color: color-mix(in srgb, var(--foreground) 45%, var(--background)); }
+    #bot-role-map .map-edges marker.active-arrow { color: var(--viz-series-1); }
+    #bot-role-map .map-node { position: absolute; display: flex; flex-direction: column; align-items: center; gap: calc(var(--font-size-base) * .35); }
+    #bot-role-map .node-caption { text-align: center; overflow-wrap: anywhere; }
+    #bot-role-map .lane-label { position: absolute; text-align: left; }
+    #bot-role-map .map-detail { margin-top: calc(var(--font-size-base) * .5); }
+    #bot-role-map .map-footer { display: flex; flex-wrap: wrap; gap: calc(var(--font-size-base) * .4) calc(var(--font-size-base) * 1); margin-top: calc(var(--font-size-base) * .75); }
+  </style>
+  <div class="map-header">
+    <h2>定制 Bot：从身份到价值</h2>
+    <div class="viz-controls" aria-label="应用场景">
+      <button class="btn" type="button" data-mode="trading" aria-pressed="true">原帖：8 岗位交易团队</button>
+      <button class="btn" type="button" data-mode="research" aria-pressed="false">迁移：项目研究团队</button>
+    </div>
+    <div class="text-small text-muted" data-mode-note>原帖方案 · 能力与收益未实测</div>
+  </div>
+  <div class="map-stage" role="group" aria-label="可选择节点的 Bot 协作关系图">
+    <svg class="map-edges" role="img" aria-label="身份设定、工具和人工审批支持各岗位协作；岗位把信息转为决策、行动和记录。">
+      <defs>
+        <marker id="brm-arrow" orient="auto" markerUnits="userSpaceOnUse" refX="8" refY="5" markerWidth="10" markerHeight="10"><path d="M1 1 L8 5 L1 9" /></marker>
+        <marker class="active-arrow" id="brm-arrow-active" orient="auto" markerUnits="userSpaceOnUse" refX="8" refY="5" markerWidth="10" markerHeight="10"><path d="M1 1 L8 5 L1 9" /></marker>
+      </defs>
+      <g data-edges></g>
+    </svg>
+    <div data-nodes></div>
+    <div data-lanes aria-hidden="true"></div>
+  </div>
+  <div class="card map-detail" aria-live="polite" aria-atomic="true" data-detail></div>
+  <div class="map-footer text-small text-muted">
+    <span>实线：信息与交付</span>
+    <span>虚线：身份、工具与审批</span>
+    <a href="https://x.com/Bober_smart/status/2121686230467285097" target="_blank" rel="noopener noreferrer">原帖</a>
+    <a href="https://x.com/Bober_smart/status/2091901718061531571" target="_blank" rel="noopener noreferrer">关联教程</a>
+  </div>
+  <script>
+    (() => {
+      const root = document.getElementById('bot-role-map');
+      const stage = root.querySelector('.map-stage');
+      const svg = root.querySelector('.map-edges');
+      const edgeLayer = root.querySelector('[data-edges]');
+      const nodeLayer = root.querySelector('[data-nodes]');
+      const laneLayer = root.querySelector('[data-lanes]');
+      const detail = root.querySelector('[data-detail]');
+      const note = root.querySelector('[data-mode-note]');
+      const modes = {
+        trading: {
+          note: '原帖方案 · 能力与收益未实测',
+          lanes: ['收集信息', '汇总与检查', '执行与监控'],
+          nodes: [
+            { id: 'identity', label: '身份设定', caption: '角色 · 目标 · 边界 · 交付物', kind: 'setup', col: 0, y: 0, detail: '身份设定｜规定每个 Bot 负责什么、交给谁、何时停下；身份名称本身不会增加可执行能力。' },
+            { id: 'tools', label: '工具与权限', caption: '浏览器 · 终端 · 接口 · 记忆', kind: 'setup', col: 1, y: 0, detail: '工具与权限｜执行需要实际接入工具和授权；教程称多个 Bot 共用云电脑，角色分开不等于环境隔离。' },
+            { id: 'human', label: '人工审批', caption: '关键选择 · 敏感操作', kind: 'setup', col: 2, y: 0, detail: '人工审批｜接收总协调员提交的关键选择；教程描述密码、验证码和支付等敏感步骤由人接管。' },
+            { id: 'search', label: 'SEARCH', caption: '情报员 → 候选代币', col: 0, y: 158, detail: 'SEARCH 情报员｜市场与社群线索 → 候选代币清单；需要搜索与浏览器；预期价值：缩短搜集时间。' },
+            { id: 'whale', label: 'WHALE', caption: '大户观察员 → 资金动向', col: 0, y: 268, detail: 'WHALE 大户观察员｜重点钱包交易 → 大额资金动向；需要链上数据接口；预期价值：补充资金行为证据。' },
+            { id: 'shill', label: 'SHILL', caption: '舆情员 → 热度变化', col: 0, y: 378, detail: 'SHILL 舆情员｜讨论、互动与提及 → 热度摘要；需要社群搜索；预期价值：补充市场情绪线索。' },
+            { id: 'head', label: 'HEAD OF DESK', caption: '总协调员 → 汇总与交接', col: 1, y: 158, detail: 'HEAD OF DESK 总协调员｜各岗位结果 → 汇总、校验、任务交接与审批请求；需要共享记录和任务调度；预期价值：组织协作。' },
+            { id: 'risk', label: 'RISK', caption: '风控员 → 风险标记', col: 1, y: 308, detail: 'RISK 风控员｜候选与合约信息 → 风险标记；需要链上和合约检查工具；预期价值：筛查明显风险，不能保证安全。' },
+            { id: 'sniper', label: 'SNIPER', caption: '执行员 → 下单记录', col: 2, y: 158, detail: 'SNIPER 执行员｜通过检查的计划 → 下单记录；需要钱包授权与交易接口；预期价值：减少重复操作，速度未实测。' },
+            { id: 'rug', label: 'RUG', caption: '异常监控员 → 告警与触发', col: 2, y: 268, detail: 'RUG 异常监控员｜持仓、开发者钱包与资金池 → 异常告警或退出触发；需要持续监测和相应授权；预期价值：持续发现异常。' },
+            { id: 'exit', label: 'EXIT', caption: '退出管理员 → 止盈止损', col: 2, y: 378, detail: 'EXIT 退出管理员｜持仓与退出规则 → 卖出执行记录；需要行情与交易接口；预期价值：按规则管理退出。' },
+            { id: 'result', label: '预期价值结果', caption: '减少盯盘 · 保留过程记录', col: 1, y: 468, detail: '价值结果｜目标是减少人工盯盘、形成可审查的交易与退出记录；8,700 美元收益是作者自述，未验证。' }
+          ],
+          edges: [
+            ['identity', 'head', 'setup'], ['tools', 'head', 'setup'], ['human', 'head', 'setup'],
+            ['search', 'head'], ['whale', 'head'], ['shill', 'head'], ['head', 'risk'], ['risk', 'sniper'],
+            ['sniper', 'rug'], ['sniper', 'exit', 'branch'], ['rug', 'result'], ['exit', 'result']
+          ],
+          mobile: ['identity', 'tools', 'human', 'search', 'whale', 'shill', 'head', 'risk', 'sniper', 'rug', 'exit', 'result']
+        },
+        research: {
+          note: '研究迁移示意 · 尚未部署或开启定时',
+          lanes: ['发现与核验', '筛选与协调', '整理与交付'],
+          nodes: [
+            { id: 'identity', label: '身份设定', caption: '研究方向 · 分工 · 交付标准', kind: 'setup', col: 0, y: 0, detail: '身份设定｜明确研究方向、岗位职责、来源标准和交付格式；让每个 Bot 的工作能够衔接。' },
+            { id: 'tools', label: '工具与权限', caption: 'GitHub · 浏览器 · 本地文档', kind: 'setup', col: 1, y: 0, detail: '工具与权限｜需要 GitHub 读取、网页浏览和文档工具；能否自动执行取决于已接入的工具和授权。' },
+            { id: 'human', label: '人定方向', caption: '兴趣 · 当前问题 · 研究取舍', kind: 'setup', col: 2, y: 0, detail: '人定方向｜提供当前关注的问题、创作目标和取舍；反馈可用于调整下一轮筛选标准。' },
+            { id: 'search', label: '发现员', caption: 'GitHub / X → 候选项目', col: 0, y: 158, detail: '发现员｜GitHub 与 X 的公开线索 → 候选项目和原始链接；需要搜索与浏览器；预期价值：扩大有效发现。' },
+            { id: 'verify', label: '核验员', caption: '原始资料 → 证据与限制', col: 0, y: 278, detail: '核验员｜仓库、作者与文档 → 已确认事实、作者宣称和未知项；需要原始资料读取；预期价值：提高信息可靠性。' },
+            { id: 'fit', label: '适配评估员', caption: '当前需求 → 研究建议', col: 1, y: 308, detail: '适配评估员｜证据与现有研究问题 → 具体用途、重复情况和最小试验；需要现有索引；预期价值：说明为什么值得研究。' },
+            { id: 'head', label: '总协调员', caption: '研究标准 → 分工与交接', col: 1, y: 158, detail: '总协调员｜研究目标与各岗位结果 → 任务交接、筛选取舍和统一交付；需要共享记录；预期价值：减少遗漏和重复劳动。' },
+            { id: 'editor', label: '整理员', caption: '筛选结果 → 研究卡片', col: 2, y: 278, detail: '整理员｜筛选理由与证据 → 来源、用途、限制及下一步试验；需要文档工具；预期价值：留下可回查、可继续研究的资料。' },
+            { id: 'result', label: '预期价值结果', caption: '少噪声 · 可追溯 · 可继续研究', col: 1, y: 468, detail: '价值结果｜从散乱链接形成有筛选依据的研究卡片，关联现有项目并给出试验入口；这是可借鉴的流程，并非已完成的自动化。' }
+          ],
+          edges: [
+            ['identity', 'head', 'setup'], ['tools', 'head', 'setup'], ['human', 'head', 'setup'],
+            ['search', 'verify'], ['verify', 'fit'], ['fit', 'head'], ['head', 'editor'], ['editor', 'result']
+          ],
+          mobile: ['identity', 'tools', 'human', 'search', 'verify', 'fit', 'head', 'editor', 'result']
+        }
+      };
+      let mode = 'trading';
+      let selected = 'identity';
+      let nodes = new Map();
+      let layoutFrame = 0;
+      const saved = window.openai?.widgetState;
+      if (saved?.modelContent?.mode in modes) mode = saved.modelContent.mode;
+      if (modes[mode].nodes.some(node => node.id === saved?.modelContent?.selected)) selected = saved.modelContent.selected;
+
+      function remember() {
+        const chosen = modes[mode].nodes.find(node => node.id === selected);
+        window.openai?.setWidgetState?.({
+          modelContent: { mode, selected, role: chosen.label, detail: chosen.detail },
+          privateContent: null
+        })?.catch(() => {});
+      }
+
+      function updateSelection() {
+        const current = modes[mode];
+        detail.textContent = current.nodes.find(node => node.id === selected).detail;
+        for (const [id, item] of nodes) item.button.setAttribute('aria-pressed', String(id === selected));
+        for (const path of edgeLayer.children) {
+          const related = path.dataset.from === selected || path.dataset.to === selected;
+          path.classList.toggle('is-related', related);
+          path.setAttribute('marker-end', related ? 'url(#brm-arrow-active)' : 'url(#brm-arrow)');
+        }
+      }
+
+      function draw() {
+        const current = modes[mode];
+        const width = stage.getBoundingClientRect().width;
+        if (!width) return;
+        const narrow = width < 620;
+        const columnWidth = narrow ? Math.min(260, width - 44) : (width - 164) / 3;
+        const xAt = col => 16 + col * (columnWidth + 66);
+        laneLayer.replaceChildren();
+        if (!narrow) current.lanes.forEach((label, col) => {
+          const item = document.createElement('div');
+          item.className = 'lane-label text-small text-muted';
+          item.textContent = label;
+          Object.assign(item.style, { left: xAt(col) + 'px', top: '108px', width: columnWidth + 'px' });
+          laneLayer.append(item);
+        });
+        let cursorY = 0;
+        for (const id of (narrow ? current.mobile : current.nodes.map(node => node.id))) {
+          const item = nodes.get(id);
+          item.wrapper.style.width = columnWidth + 'px';
+          item.wrapper.style.left = (narrow ? (width - columnWidth) / 2 : xAt(item.data.col)) + 'px';
+          item.wrapper.style.top = (narrow ? cursorY : item.data.y) + 'px';
+          if (narrow) cursorY += item.wrapper.getBoundingClientRect().height + 32;
+        }
+        let maxBottom = 0;
+        for (const item of nodes.values()) maxBottom = Math.max(maxBottom, parseFloat(item.wrapper.style.top) + item.wrapper.getBoundingClientRect().height);
+        stage.style.height = (maxBottom + 12) + 'px';
+        svg.setAttribute('viewBox', `0 0 ${width} ${maxBottom + 12}`);
+        const base = stage.getBoundingClientRect();
+        const boxes = new Map();
+        for (const [id, item] of nodes) {
+          const b = item.button.getBoundingClientRect();
+          const r = item.wrapper.getBoundingClientRect();
+          boxes.set(id, { left: b.left - base.left, right: b.right - base.left, top: b.top - base.top, bottom: b.bottom - base.top, cx: (b.left + b.right) / 2 - base.left, cy: (b.top + b.bottom) / 2 - base.top, fullBottom: r.bottom - base.top });
+        }
+        edgeLayer.replaceChildren();
+        current.edges.forEach(([from, to, kind = 'flow'], index) => {
+          const a = boxes.get(from), b = boxes.get(to);
+          let d;
+          if (narrow) {
+            const between = [...boxes.entries()].some(([id, box]) => id !== from && id !== to && box.cy > Math.min(a.cy, b.cy) && box.cy < Math.max(a.cy, b.cy));
+            if (!between && b.top > a.bottom) d = `M ${a.cx} ${a.fullBottom + 6} L ${b.cx} ${b.top - 9}`;
+            else {
+              const left = kind === 'setup' || index % 2 === 0;
+              const rail = left ? 6 + (index % 3) * 5 : width - 6 - (index % 3) * 5;
+              const ax = left ? a.left - 8 : a.right + 8;
+              const bx = left ? b.left - 9 : b.right + 9;
+              d = `M ${ax} ${a.cy} H ${rail} V ${b.cy} H ${bx}`;
+            }
+          } else if (kind === 'setup') {
+            const y1 = a.fullBottom + 8, y2 = b.top - 10;
+            d = `M ${a.cx} ${y1} C ${a.cx} ${(y1 + y2) / 2}, ${b.cx} ${(y1 + y2) / 2}, ${b.cx} ${y2}`;
+          } else if (kind === 'branch') {
+            const rail = width - 5;
+            d = `M ${a.right + 9} ${a.cy} H ${rail} V ${b.cy} H ${b.right + 9}`;
+          } else if (Math.abs(a.cx - b.cx) < 10) {
+            if (b.top > a.bottom) d = `M ${a.cx} ${a.fullBottom + 8} L ${b.cx} ${b.top - 10}`;
+            else {
+              const rail = a.right + 29;
+              d = `M ${a.right + 9} ${a.cy} H ${rail} V ${b.cy} H ${b.right + 9}`;
+            }
+          } else {
+            const rightward = b.cx > a.cx;
+            const x1 = rightward ? a.right + 10 : a.left - 10;
+            const x2 = rightward ? b.left - 10 : b.right + 10;
+            const middle = (x1 + x2) / 2;
+            d = `M ${x1} ${a.cy} C ${middle} ${a.cy}, ${middle} ${b.cy}, ${x2} ${b.cy}`;
+          }
+          const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+          path.setAttribute('d', d);
+          path.dataset.from = from;
+          path.dataset.to = to;
+          path.dataset.kind = kind === 'setup' ? 'setup' : 'flow';
+          edgeLayer.append(path);
+        });
+        updateSelection();
+      }
+
+      function queueDraw() {
+        cancelAnimationFrame(layoutFrame);
+        layoutFrame = requestAnimationFrame(draw);
+      }
+
+      function render() {
+        const current = modes[mode];
+        nodes = new Map();
+        nodeLayer.replaceChildren();
+        note.textContent = current.note;
+        for (const control of root.querySelectorAll('[data-mode]')) control.setAttribute('aria-pressed', String(control.dataset.mode === mode));
+        for (const data of current.nodes) {
+          const wrapper = document.createElement('div');
+          wrapper.className = 'map-node';
+          wrapper.dataset.node = data.id;
+          const button = document.createElement('button');
+          button.type = 'button';
+          button.className = 'btn';
+          button.textContent = data.label;
+          button.setAttribute('aria-label', data.label + '，' + data.caption);
+          button.setAttribute('aria-pressed', String(data.id === selected));
+          const caption = document.createElement('div');
+          caption.className = 'node-caption text-small';
+          caption.textContent = data.caption;
+          button.addEventListener('click', () => { selected = data.id; updateSelection(); remember(); });
+          wrapper.append(button, caption);
+          nodeLayer.append(wrapper);
+          nodes.set(data.id, { wrapper, button, data });
+        }
+        queueDraw();
+      }
+
+      for (const control of root.querySelectorAll('[data-mode]')) control.addEventListener('click', () => {
+        if (mode === control.dataset.mode) return;
+        mode = control.dataset.mode;
+        if (!modes[mode].nodes.some(node => node.id === selected)) selected = 'identity';
+        render();
+        remember();
+      });
+      window.addEventListener('openai:set_globals', event => {
+        const state = event.detail?.globals?.widgetState?.modelContent;
+        if (!state || !(state.mode in modes)) return;
+        mode = state.mode;
+        selected = modes[mode].nodes.some(node => node.id === state.selected) ? state.selected : 'identity';
+        render();
+      });
+      new ResizeObserver(queueDraw).observe(stage);
+      document.fonts?.ready.then(queueDraw);
+      render();
+    })();
+  </script>
+</div>

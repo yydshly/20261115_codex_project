@@ -26,7 +26,8 @@ VALLEY_GARDEN = '0002-valley-garden'
 PELICAN_STUDY = '0008-pelican-layout-study'
 ABYSSAL_NOTES = '0016-abyssal-world-notes'
 DESIGN_ATLAS = '0017-design-reference-atlas'
-STATIC_PROJECTS = {DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
+BOT_ROLES = '0018-bot-role-research'
+STATIC_PROJECTS = {BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
@@ -34,6 +35,8 @@ def build_static_projects(output):
     for slug, entry in STATIC_PROJECTS.items():
         project = ROOT / 'projects' / slug
         command = [sys.executable, str(project / 'scripts/build.py')]
+        if slug == BOT_ROLES:
+            command.append('--publication')
         if slug == CANAL_RESEARCH:
             command.append('--publication')
             if os.environ.get('CANAL_RESEARCH_MEDIA_ARCHIVE'):
@@ -61,6 +64,8 @@ def build_static_projects(output):
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == ABYSSAL_NOTES:
             subprocess.run([sys.executable, str(project / 'scripts/check.py')], check=True)
+            subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
+        if slug == BOT_ROLES:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         source = project / 'dist'
         if not (source / entry).is_file():

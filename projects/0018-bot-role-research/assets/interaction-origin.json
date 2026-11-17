@@ -1,0 +1,8 @@
+{
+  "origin": "Original visualization authored in this chat",
+  "sha256": "01fd74d4ea3e3419bd0e41c3ae852f7973aa61dbf707dd6ecda987a7d59fcad9",
+  "copy": "conversation-map.fragment.html",
+  "export_source": "graph-export.fragment.html",
+  "export_default": "research",
+  "scope": "Only the two widget-state OpenAI APIs are used; no external actions."
+}

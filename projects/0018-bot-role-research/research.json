@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "project_id": "0018",
+  "date": "2026-11-16",
+  "updated_on": "2026-11-17",
+  "title": "定制 Bot：从交易岗位到研究协作",
+  "thesis": "身份定义分工，工具与权限决定执行范围，交接规则把信息变成可追溯的结果。",
+  "scope": "根据原帖、关联教程与本次讨论整理；原帖能力及收益未独立验证，研究团队是迁移设计，未部署或开启定时。",
+  "understanding": [
+    {"title":"先判断场景，再看岗位包装","detail":"原帖围绕链上代币短期交易组织分工；偏向小币是语境推断。这个交易目标对我们的创作和项目研究直接价值有限，但流程设计可以借鉴。"},
+    {"title":"身份是职责约定，能力来自工具与权限","detail":"名字、头像和岗位描述说明负责什么、交付什么、何时停下。真正执行仍依赖数据、浏览器、接口、文件工具与授权；多几个身份不会自动增加能力。"},
+    {"title":"我们已有能力，重点是组织和交接","detail":"我们已经能搜集 GitHub / X 资料、核验来源并整理入库。值得改进的是把目标、输入输出、证据标准和下一步衔接起来；不必为了五个岗位再造五个常驻机器人。"},
+    {"title":"八到五是功能迁移，可以由一个任务完成","detail":"合并多来源发现和风险复核，保留协调，把交易执行替换成资料整理，并新增研究适配判断。岗位是分析职责的方法；一个任务也可以依次完成这些步骤。"},
+    {"title":"热度和自动采集，都不能代替研究判断","detail":"推荐必须说清与当前项目的关系、具体增量、证据和限制，并给出最小试验。价值在于少遗漏、少噪声、可追溯和可继续研究；采集数量本身不等于成果。"},
+    {"title":"展示、设计与运行结果分别成立","detail":"本项目验证的是图文和网页交互。收益、马斯克转发、Grok Bot 官方归属和真实交易能力仍未核实；五岗位研究流程、自动采集和定时仍是未部署的设计。"}
+  ],
+  "original_claims": [
+    "作者声称用 8 个 Grok Agent 组成交易团队，月费用 200 美元。",
+    "作者声称扫描 164 个代币、筛出 21 个候选、执行 8 次交易，净赚 8,700 美元。",
+    "作者声称马斯克转发了教程，并称无需写代码即可设置；上述说法均未独立核实。"
+  ],
+  "capability_layers": [
+    {"name": "身份约定", "detail": "角色、目标、边界、交付格式、何时停止与升级。", "result": "明确责任"},
+    {"name": "工具与权限", "detail": "浏览器、终端、数据接口、文件与记忆；必须实际接入和授权。", "result": "限定可执行范围"},
+    {"name": "协作交接", "detail": "统一输入输出、核对来源、处理异常、保留人工审批。", "result": "衔接完整流程"},
+    {"name": "价值结果", "detail": "减少重复操作，保留证据、决策依据和后续行动。", "result": "可审查、可继续"}
+  ],
+  "trading_roles": [
+    {"id":"search","code":"SEARCH","name":"情报员","input":"市场与社群线索","tools":"搜索、浏览器、信息接口","output":"候选代币清单","value":"减少重复搜集","limit":"线索需要核实"},
+    {"id":"whale","code":"WHALE","name":"大户观察员","input":"重点钱包的交易与持仓","tools":"链上数据接口","output":"大额资金动向","value":"补充资金行为线索","limit":"大户行为不保证方向"},
+    {"id":"shill","code":"SHILL","name":"舆情员","input":"讨论、互动与账号提及","tools":"社群搜索与统计","output":"热度变化摘要","value":"补充市场情绪线索","limit":"热度不等于项目价值"},
+    {"id":"head","code":"HEAD OF DESK","name":"总协调员","input":"各岗位结果与任务规则","tools":"共享记录与任务调度","output":"汇总、交接、审批请求","value":"组织协作与异常升级","limit":"原帖未公开完整实现"},
+    {"id":"risk","code":"RISK","name":"风控员","input":"候选代币与合约信息","tools":"链上及合约检查工具","output":"风险标记与检查结果","value":"筛查明显风险","limit":"通过检查不保证安全"},
+    {"id":"sniper","code":"SNIPER","name":"交易执行员","input":"通过检查的交易计划","tools":"钱包授权与交易接口","output":"下单与成交记录","value":"减少手工下单操作","limit":"速度、成交与收益未实测"},
+    {"id":"rug","code":"RUG","name":"异常监控员","input":"持仓、开发者钱包与资金池","tools":"持续监测与相应授权","output":"异常告警或退出触发","value":"持续发现异常变化","limit":"不保证发现或成功退出"},
+    {"id":"exit","code":"EXIT","name":"退出管理员","input":"持仓、行情与退出规则","tools":"行情与交易接口","output":"止盈止损执行记录","value":"按规则管理退出","limit":"规则不保证盈利"}
+  ],
+  "research_roles": [
+    {"id":"discover","name":"发现员","input":"GitHub / X 公开线索","tools":"搜索与浏览器","output":"候选项目、原始链接与时间","value":"扩大有效发现","limit":"访问受限时保留覆盖说明"},
+    {"id":"verify","name":"核验员","input":"仓库、作者、文档与许可","tools":"原始资料读取","output":"事实、作者宣称、未知项","value":"提高信息可靠性","limit":"读文档不等于运行验证"},
+    {"id":"fit","name":"适配评估员","input":"证据、现有项目与研究问题","tools":"本库索引与需求记录","output":"具体增量、成本与最小试验","value":"说明为什么值得研究","limit":"这是新增的研究取舍"},
+    {"id":"coordinate","name":"总协调员","input":"研究目标与各岗位结果","tools":"共享记录与交接规则","output":"统一取舍、交接与异常处理","value":"减少遗漏和重复劳动","limit":"多岗位不自动提高正确率"},
+    {"id":"document","name":"整理员","input":"筛选理由、证据与研究建议","tools":"受限的文档写入工具","output":"研究卡片、来源与下一步","value":"方便回查和继续研究","limit":"未运行的能力保持待验证"}
+  ],
+  "conversions": [
+    {"from":["search","whale","shill"],"to":"discover","type":"合并","keep":"多来源搜集与信号汇总","change":"从代币、钱包和热度信号，转为项目、作者和作品线索。","deliverable":"带原始链接的候选清单"},
+    {"from":["risk","rug"],"to":"verify","type":"合并","keep":"事前检查与后续异常核对","change":"从合约和资金池风险，转为来源、许可、运行条件及后续变化。","deliverable":"证据与限制记录"},
+    {"from":["head"],"to":"coordinate","type":"保留","keep":"目标、汇总、交接与升级","change":"统一研究标准，协调岗位并把重要取舍交给人。","deliverable":"一致的研究任务与结论"},
+    {"from":["sniper"],"to":"document","type":"替换","keep":"把计划落实为具体操作","change":"把钱包下单替换为受限的资料整理与文档写入。","deliverable":"可回查的研究卡片"},
+    {"from":["exit"],"to":"fit","type":"抽象＋新增","keep":"按规则决定继续或退出","change":"新增相关性、证据和试验成本判断，决定继续、暂缓或归档；不等同于止盈止损。","deliverable":"研究建议与最小试验"}
+  ],
+  "discussion": [
+    {"id":"what","question":"原帖到底在做什么？","answer":"把链上代币交易拆成搜集、核验、执行、监控和退出岗位，由总协调员衔接。岗位表是作者描述，流转关系是本库据此整理的示意。","source_ids":["S1"]},
+    {"id":"assets","question":"交易的是股票吗？","answer":"原帖提及代币合约、钱包、资金池和链上交易，讨论对象是加密货币代币。偏向小币、可能包括迷因币是根据语境作出的推断；具体币种未公开。","source_ids":["S1"]},
+    {"id":"crypto","question":"加密货币是不是小圈子的东西？","answer":"加密资产是大类，包含不同用途的资产。原帖的短期小币玩法更偏圈内投机；典型迷因币用途有限，价格主要受市场需求和投机驱动。不能把全部加密资产都视为同一种玩法。","source_ids":["S3","S4","S8"]},
+    {"id":"gambling","question":"小币是不是等别人接盘，与赌博何异？","answer":"对于没有实用、收入或资产支撑，主要靠热度转售的小币，盈利高度依赖后续买家，行为有很强的赌博性质。卖出需要买家本身不足以证明骗局；股票代表公司所有权，可能由经营和分红支撑。这里不作法律定性。","source_ids":["S3","S7"]},
+    {"id":"bitcoin","question":"比特币的价值在哪里？","answer":"其价值主张包括不依赖银行记账的转账、自行保管、现行协议约 2,100 万枚发行上限，以及网络接受。它不产生企业利润；这些功能不能推导出固定合理价格，单靠涨价卖出的逻辑仍依赖后续买家。","source_ids":["S4","S5","S6"]},
+    {"id":"transfer","question":"我们值得借鉴什么？","answer":"可以借鉴围绕明确目标，把信息搜集、核验、判断、执行和记录串成流程。岗位数量本身不保证质量，具体输入输出和交接更重要；交易收益故事没有得到验证。","source_ids":["S1","S2"]},
+    {"id":"identity","question":"定制身份会自动带来新能力吗？","answer":"身份描述明确角色、目标、边界和交付。真正执行依赖工具、数据、授权和环境。教程称同账号共用云电脑、文件和会话，不能把分开的 Bot 当成环境隔离；这与原帖“各有浏览器、终端和记忆”的表达需要区分。","source_ids":["S1","S2"]},
+    {"id":"research","question":"如何迁移到我们的研究库？","answer":"将多来源岗位合并为发现员，把检查与监控合并为核验员，保留总协调，替换交易执行为资料整理，并新增适配评估。GitHub / X → 候选 → 核验 → 适配 → 协调 → 研究卡片；这是设计示意，未开始自动采集或定时。","source_ids":["S1","S2"]},
+    {"id":"visual","question":"交互图怎样变成完整图片？","answer":"把点击后才能看到的输入、工具、交付和价值全部展开；保留 8 个交易岗和 5 个研究岗；用单独的转换图说明合并、保留、替换与新增，静态图也能独立阅读。","source_ids":[]}
+  ],
+  "boundaries": [
+    "本库实际完成的是讨论整理、静态信息图和交互阅读页；它们不等同于实现交易或研究机器人。",
+    "8,700 美元收益、200 美元费用、扫描及成交数量、毫秒级执行和马斯克转发，均为作者宣称，未独立核实。",
+    "Grok Bot 的 xAI 官方归属、套餐、Cursor 登录与产品能力未通过官方文档独立核验。",
+    "原帖视频未完成实播核验；本研究没有连接钱包、运行真实交易、部署采集程序或创建定时任务。",
+    "本图的岗位转换是功能迁移设计；尤其 EXIT 到适配评估包含新增判断，并非等价改名。"
+  ],
+  "sources": [
+    {"id":"S1","title":"Bober_smart：8 个 Agent 的交易分工原帖","url":"https://x.com/Bober_smart/status/2121686230467285097","type":"作者宣称","read_on":"2026-11-15","access":"本聊天通过内置浏览器读取正文；视频显示无法播放。","supports":"原帖数字、8 岗位、交易流程和作者的收益叙述。"},
+    {"id":"S2","title":"Full Tutorial Guide: Grok AGENTS","url":"https://x.com/Bober_smart/status/2091901718061531571","type":"作者教程","read_on":"2026-11-16","access":"本聊天通过内置浏览器读取教程正文；所称官方归属与文档未独立核验。","supports":"身份创建、交付要求、工具、共享电脑、接管与审批的教程说法。"},
+    {"id":"S3","title":"SEC 工作人员：Staff Statement on Meme Coins","url":"https://www.sec.gov/newsroom/speeches-statements/staff-statement-meme-coins","type":"机构工作人员说明","read_on":"2026-11-16","access":"本聊天公开网页读取。","supports":"典型迷因币的用途、投机需求、波动及不赋予企业利润权利；不用于认定特定项目是否合法。"},
+    {"id":"S4","title":"Bitcoin: A Peer-to-Peer Electronic Cash System","url":"https://bitcoin.org/bitcoin.pdf","type":"原始技术文献","read_on":"2026-11-16","access":"本聊天公开 PDF 读取。","supports":"点对点支付、数字签名和防止重复花费的设计目标。"},
+    {"id":"S5","title":"Bitcoin.org FAQ","url":"https://bitcoin.org/en/faq","type":"项目社区说明","read_on":"2026-11-16","access":"本聊天公开网页读取；属于支持比特币的项目社区来源。","supports":"发行规则、21 million 上限、自行保管、网络使用、手续费及可能失去价值。"},
+    {"id":"S6","title":"Investor.gov：Bitcoin / Ether ETP 风险说明（2024）","url":"https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/ETPBulletinSeptember2024","type":"投资者教育","read_on":"2026-11-16","access":"本聊天公开网页读取。","supports":"高度投机、价格波动与投资损失风险；不提供当前价格或投资建议。"},
+    {"id":"S7","title":"Investor.gov：Stocks – FAQs","url":"https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks","type":"投资者教育","read_on":"2026-11-16","access":"本聊天公开网页读取。","supports":"股票的公司所有权及分红等基本权利，用于解释与典型迷因币的差别。"},
+    {"id":"S8","title":"Ethereum.org：以太币技术简介","url":"https://ethereum.org/zh/developers/docs/intro-to-ether/","type":"项目技术说明","read_on":"2026-11-16","access":"本聊天公开网页检索读取；为以太坊项目社区资料。","supports":"加密货币与账本的概念、ETH 用于网络交易费用等基本用途。"}
+  ]
+}
