@@ -2,7 +2,7 @@
 
 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。
 
-- **[打开阅读网页](web/index.html)**，或双击 **[start.cmd](start.cmd)** 使用普通浏览器打开。
+- **[打开正式网页](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/)** · [本地阅读页](web/index.html) · [本地启动入口](start.cmd)。
 - **[一张图看懂效果、价值与沉淀提示词](assets/understanding-summary.png)** · [我们的原创任务书](OUR_SEA_BRIEF.md) · [可复制文本](assets/our-sea-brief.txt)。
 - 原始来源：[Noniv / Abyssal Garden](https://github.com/Noniv/abyssal-garden)；[作者实时海底](https://noniv.github.io/abyssal-garden/)。
 - 本页使用 HTML、CSS、JavaScript 和本地图片，无运行依赖或安装步骤；外部出处与作者演示需联网。

@@ -1,0 +1,179 @@
+{
+  "checked_at": "2026-11-17T17:32:11.207273+08:00",
+  "entry": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/",
+  "guide_sha256": "19f20ce8348cfa843d9623fa852a4b321e8a4042ad5d386623b1a858c8037f70",
+  "guide_size": [
+    2400,
+    5595
+  ],
+  "complete_original_brief_paragraphs": 7,
+  "scene_bytes_unchanged": true,
+  "bilingual_text_unchanged": true,
+  "navigation_summary_and_guide_match": true,
+  "resources": [
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/index.html",
+      "status": 200,
+      "bytes": 28999,
+      "sha256": "7a8d21d71f5c1dedf03ff3802addd29d688240927b5e36a503d5ea3179207ac4"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/styles.css",
+      "status": 200,
+      "bytes": 27790,
+      "sha256": "8c35dd6a025d89150a49b101a36fcedbc8a8988e4375e0336df94093da31ca20"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/app.js",
+      "status": 200,
+      "bytes": 10023,
+      "sha256": "08b8e1f1cb840d358a8ee6e50ea63b755ddb129e044c86c53f99d1e965d3f820"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/understanding-summary.png",
+      "status": 200,
+      "bytes": 2915907,
+      "sha256": "19f20ce8348cfa843d9623fa852a4b321e8a4042ad5d386623b1a858c8037f70"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/understanding-summary.svg",
+      "status": 200,
+      "bytes": 400049,
+      "sha256": "69d8bf06a4735621a91e79bc3df65691fe5d1a66d3cedcdd19c1bac0258bc5c3"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/our-sea-brief.txt",
+      "status": 200,
+      "bytes": 1408,
+      "sha256": "f536a2e154ee5af6bd4aa2ffbcce3733288888e737095c6bf37091c1dda4efc8"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/prompt-original.txt",
+      "status": 200,
+      "bytes": 2037,
+      "sha256": "6b2fe9c3a1680a8deddf5c6fbef6ea90c91a21bdd268b49b3c985217e1dec5cd"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/prompt-zh.txt",
+      "status": 200,
+      "bytes": 2524,
+      "sha256": "6aa2610f3aa8e30ca6a0984246709c42feb95e0f7a5e434a37dde4e84f07be17"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/SOURCES.md",
+      "status": 200,
+      "bytes": 3825,
+      "sha256": "b179fee8648dd238ebf6cd69da7576107efdf8149f8cd615ed2c73e1c6c7b66a"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/UPSTREAM-LICENSE.txt",
+      "status": 200,
+      "bytes": 1076,
+      "sha256": "b108a76735ab7cc0eab686fc3e85ca668bdb8866977093846d01bac5b6440453"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/overview-live.jpg",
+      "status": 200,
+      "bytes": 120157,
+      "sha256": "5aa06dc085091a8e2591b1956efd66c9459c9b6f86d288c06ea49d7f8d2678d9"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/shipwreck-live.jpg",
+      "status": 200,
+      "bytes": 61750,
+      "sha256": "cb807d2c51e0be268f03f235d0635e7b5da58d14e8dd54e39c94500a030ea319"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/assets/purple-grotto-live.jpg",
+      "status": 200,
+      "bytes": 103063,
+      "sha256": "09f03f7c238a9a31f3b7f37a6188110bdc5c13f4e53d3022682c19e1701ce9b0"
+    }
+  ],
+  "navigation": {
+    "url": "https://yydshly.github.io/20261115_codex_project/",
+    "status": 200,
+    "bytes": 21020,
+    "sha256": "0e02fa649841d95c5ee8f588a49cc4c2d0c75e89ef80d368ea66db0b0001906c"
+  },
+  "preserved_existing_sites": [
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html",
+      "status": 200,
+      "bytes": 8602,
+      "sha256": "65ceff4f17a7a9c2712e3f20bd2b795e6e38c5bc5994e6bec500e23106113d9e"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/",
+      "status": 200,
+      "bytes": 17677,
+      "sha256": "f5aa5466b2533eab5a0c3da599d5424da4f6652f2d3a97b577e04d531cbcd2ba"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html",
+      "status": 200,
+      "bytes": 15408,
+      "sha256": "92b8494b9b60f465d6496af025043af56de3df170bfe3355bcbee7ee7d85da6e"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
+      "status": 200,
+      "bytes": 15152,
+      "sha256": "a9f5bacb229602c744054b52f18d5945dbdfe63626b39e7a2d616f12abacad2c"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html",
+      "status": 200,
+      "bytes": 6498,
+      "sha256": "6988447776d56c74c3366c7d88b936e18971aea7d7f54bdafb6cdb26faf72224"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html",
+      "status": 200,
+      "bytes": 26513,
+      "sha256": "6f2a387208bf86dcbe7a3cbfe574b84732a2f30fc0df346541227eccc021882e"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html",
+      "status": 200,
+      "bytes": 12598,
+      "sha256": "68cbadd220df2012f0c160eed9b18c5185b4ca31e904c98ecca6c1e9e85a1d10"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/",
+      "status": 200,
+      "bytes": 27371,
+      "sha256": "df5812df6160b563be67a2e96b90334bdc99b2e9d61a9a860eef1b5e88a316d2"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/",
+      "status": 200,
+      "bytes": 46179,
+      "sha256": "02b4ae3e86c19e317bef43be0be57fd42220815c5f0ff278c4d6a35bdb178d00"
+    },
+    {
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
+      "status": 200,
+      "bytes": 49185,
+      "sha256": "ca134548868b02fc9feae97b1728e8fc6f5cd878485f97730ce333a4d216e5b3"
+    }
+  ],
+  "browser": {
+    "environment": "Codex in-app browser",
+    "checked_public_url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/",
+    "guide_image_complete": true,
+    "guide_natural_width": 2400,
+    "complete_our_brief_paragraphs": 7,
+    "desktop_horizontal_overflow": false,
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_document_width": 375,
+    "mobile_horizontal_overflow": false,
+    "scene_switch": true,
+    "bilingual_switch": true,
+    "console_warn_error_entries": 0,
+    "viewport_restored": true
+  }
+}

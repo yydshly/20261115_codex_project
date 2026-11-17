@@ -320,7 +320,7 @@
         "caption": "2026-11-17 本库原创图文排版，2400×5595；嵌入 Noniv 场景实测截图并保留 MIT 来源。原创海底世界任务书尚未执行。",
         "full_path": "projects/0016-abyssal-world-notes/assets/understanding-summary.png"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/",
       "highlights": [
         "原库价值：用真实海底效果对照可读源码，理解空间构图、水下光照、密集内容与性能控制；原始提示词提供目标、取舍与验收方法。",
         "我们的沉淀：从独立设计出发，整理创作目标、气质、空间、画面、技术取舍、验收和交付七项原创要求；不照搬作者的引擎、设备与单文件限制，任务书尚未执行。",

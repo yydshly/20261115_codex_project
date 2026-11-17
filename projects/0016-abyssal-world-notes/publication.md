@@ -18,4 +18,12 @@
 
 ## 公开入口与真实验收
 
-目标路径为 `https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/`。提交、Actions 结果、公开资源与浏览器检查在成功后补记；在实际公开验证之前，登记表 `demo_url` 保持 `null`。
+已发布：[海的生成研究网页](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/)。首次公网核验：2026-11-17 17:32（Asia/Shanghai）。登记表在真实验证后填写公开地址。
+
+- [发布 PR #13](https://github.com/yydshly/20261115_codex_project/pull/13) 经完整站点构建及两项登记检查通过后合并。
+- 发布合并提交：[7fb830f77712aea1a2f2e143836fe55b9b6cc9cc](https://github.com/yydshly/20261115_codex_project/commit/7fb830f77712aea1a2f2e143836fe55b9b6cc9cc)。
+- [GitHub Pages 运行 44055865131](https://github.com/yydshly/20261115_codex_project/actions/runs/44055865131)：build、deploy 均成功。
+- 13 项项目资源与总导航 HTTP 200；三张海底截图字节不变；完整中英文原文和七段原创任务书一致。SVG/TXT 校验统一为 LF，PNG 使用原始字节哈希。
+- 2400×5595 引导图的 SHA-256 与生成原件一致；总导航的摘要、原库价值、我们的沉淀说明和引导图路径匹配。十个原有公开入口仍返回 HTTP 200。
+- 正式站点内置浏览器验证了总览图完整加载（naturalWidth 2400）、沉船视点切换、双语原文切换和七段原创任务书；桌面和 390×844 手机视口无横向溢出，控制台 warn/error 为零，临时视口已恢复。
+- 详细资源与哈希见 [online-verification.json](online-verification.json)。本页公开的是研究总结与任务书，不表示独立海底世界已制作完成。
