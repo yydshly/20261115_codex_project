@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-11-17T19:33:48+08:00",
+  "base_url": "https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/",
+  "all_passed": true,
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 9904,
+      "matches_export": true,
+      "sha256": "d2c1856694d422cfebb28a88114df1bdab4f80d73808eb947d293538f06eadf8"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "type": "text/css",
+      "bytes": 8875,
+      "matches_export": true,
+      "sha256": "4a5d29af1519ad38778d1568d97ca9c585be00e50e7f35a45892d74d521a2bd5"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 6372,
+      "matches_export": true,
+      "sha256": "021ff5823155a5e401dfa3f98a5b8815664daef4f7bec23a060e68e2421254ef"
+    },
+    {
+      "path": "data.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 16640,
+      "matches_export": true,
+      "sha256": "2c4783a65e77c5eff920c83898611569476e0f899da09d95e3afaa11d8f4ec23"
+    },
+    {
+      "path": "graph.html",
+      "status": 200,
+      "type": "text/html",
+      "bytes": 108010,
+      "matches_export": true,
+      "sha256": "e1c4c87e546127eb1d392cb060e1acbf121764e905bf959ae4bd744faff6d9dd"
+    },
+    {
+      "path": "assets/bot-role-overview.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 2188771,
+      "matches_export": true,
+      "sha256": "cfb333f34c996af11dac6473ef8b3283380f3b74c2f0da6da7e284c69f8b9f4c"
+    },
+    {
+      "path": "assets/bot-role-overview.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 44066,
+      "matches_export": true,
+      "sha256": "71e4c92f0c1af0e38512b60c570543bfab586817c9605119cff5832422205010"
+    },
+    {
+      "path": "assets/role-conversion.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 324410,
+      "matches_export": true,
+      "sha256": "32dd6843e847c5e1a13a459e4fcf4feb206a6a231939cb5eb6ba7a10e1a6beb3"
+    },
+    {
+      "path": "assets/role-conversion.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 44076,
+      "matches_export": true,
+      "sha256": "b76bad20a66bf5e177a2cd75894028ba4d632a2fb97aa932bcce2a8c872bd985"
+    },
+    {
+      "path": "assets/overview-preview.jpg",
+      "status": 200,
+      "type": "image/jpeg",
+      "bytes": 118377,
+      "matches_export": true,
+      "sha256": "d68b83f4f473d53948a9ebef396be61ac7fd5efbb0b461d2f0cd9bef51dc608f"
+    },
+    {
+      "path": "assets/figure-manifest.json",
+      "status": 200,
+      "type": "application/json",
+      "bytes": 8902,
+      "matches_export": true,
+      "sha256": "52a138e59a4ad2b719b486e0492ce7969d840f9e2aae13ffd621443cfd6d7386"
+    },
+    {
+      "path": "assets/SOURCES.md",
+      "status": 200,
+      "type": "text/markdown",
+      "bytes": 4202,
+      "matches_export": true,
+      "sha256": "7ef7491e5160ba31c08dcbbcea7d6c71676d1be6958e7fa77b8acd1952553ffb"
+    },
+    {
+      "path": "library-home",
+      "status": 200,
+      "matches_export": true
+    }
+  ],
+  "scope": "Public page/resources and chosen guide only; original product claims and research bots are not validated."
+}
