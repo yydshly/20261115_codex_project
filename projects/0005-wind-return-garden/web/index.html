@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f2efdf"><title>风归小庭 · 把一阵风送回家</title><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./life.css"><link rel="stylesheet" href="./shelter.css"><link rel="stylesheet" href="./arranging.css"></head>
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#f2efdf"><meta name="description" content="直接游玩风归小庭：庭院与房间演示可一键切换，漫步、种花、看窗景、摸猫、开关灯，再进入自己的庭院接续保存。"><title>风归小庭 · 庭院与房间演示</title><link rel="stylesheet" href="./style.css"><link rel="stylesheet" href="./life.css"><link rel="stylesheet" href="./shelter.css"><link rel="stylesheet" href="./arranging.css"><link rel="stylesheet" href="./demo-home.css"></head>
 <body class="game-page">
 <header class="site-header">
   <a class="brand" href="./index.html"><span class="brand-mark" aria-hidden="true">彡</span><span>风归小庭<small>A GARDEN REMEMBERS</small></span></a>
-  <nav aria-label="主导航"><a class="active" href="./index.html">小庭漫游</a><a href="./design.html">游戏设计</a><a href="./life.html">庭院生活</a><a href="./shelter.html">小屋晴雨</a><a href="./arranging.html">布置来信</a><a href="./lab.html">风动实验</a><a href="./overview.html">理解总览</a><a href="./assets.html">素材实装</a><button class="quiet" id="sound" aria-pressed="false">声音 · 关</button></nav>
+  <nav aria-label="主导航"><a href="./index.html?visit=preview&amp;space=outside" data-play-space="outside" aria-current="page" class="active">庭院演示</a><a href="./index.html?visit=preview&amp;space=inside" data-play-space="inside">房间演示</a><a href="./index.html?visit=home" data-play-space="home">我的庭院</a><a href="./overview.html">制作与研究</a><a href="./assets.html">素材实装</a><button class="quiet" id="sound" aria-pressed="false">声音 · 关</button></nav>
 </header>
 <main>
+  <p class="play-context" id="visit-context" role="status">庭院与房间都可以游玩。进入“我的庭院”，接续自己的照料。</p>
   <section class="game-shell" aria-label="风归小庭游戏">
     <canvas id="garden" width="960" height="600" tabindex="0" aria-label="像素庭院与小屋。点击地面或用 WASD、方向键行走；E 阅读或停留，F 照料或亲近，R 进出小屋，L 开关室内桌灯；庭院中可按住空格送风。">请使用支持 Canvas 的浏览器。</canvas>
     <div class="scene-grain" aria-hidden="true"></div>
@@ -32,6 +33,7 @@
     <output class="sr-only" id="state-status" aria-live="off"></output>
   </section>
   <footer class="game-footer"><span><i></i> 没有倒计时，按自己的步调。</span><a href="#arrangement">布置与邻居来信 ↓</a><a href="#home-weather">小屋与晴雨 ↓</a><a href="#garden-life">种植照料与小记 ↓</a></footer>
+  <section class="demo-spaces life-wrap" id="demo-spaces" aria-labelledby="demo-spaces-title"><div class="demo-spaces-header"><h2 id="demo-spaces-title">在庭院听风，也去屋里坐坐。</h2><a href="./index.html?visit=home">进入我的庭院，接续保存 →</a></div><div class="demo-space-cards"><article><a href="./index.html?visit=preview&amp;space=outside" aria-label="进入庭院演示"><img src="./assets/journal/arranging-story-scene.jpg" width="903" height="604" alt="已有庭院实景：花圃、橘猫、长椅、小径与蓝瓦房屋" loading="lazy"></a><div class="demo-space-copy"><span>OUTSIDE / 庭院演示</span><h3>把一阵风，送到花与小径间。</h3><p>直接漫步，看看已经开花的花圃，陪猫走走，挪动花盆和长椅，也可以到信箱读一封信。</p><a href="./index.html?visit=preview&amp;space=outside">进入庭院演示 →</a></div></article><article><a href="./index.html?visit=preview&amp;space=inside" aria-label="进入房间演示"><img src="./assets/journal/home-night-scene.jpg" width="768" height="480" alt="已有房间实景：炉火、灯、暖垫上的猫与同一座庭院的窗景" loading="lazy"></a><div class="demo-space-copy"><span>INSIDE / 房间演示</span><h3>炉边有暖意，窗外还是小庭。</h3><p>直接从房间里开始，在炉边停一会儿，看看窗景、摸摸猫，或者开关桌灯；按 R 也能走回庭院。</p><a href="./index.html?visit=preview&amp;space=inside">进入房间演示 →</a></div></article></div></section>
   <aside class="game-design-entry life-wrap" aria-labelledby="own-design-title"><div><span class="eyebrow">OUR OWN LITTLE WORLD</span><h2 id="own-design-title">有自己的生活，也有一起玩的事情。</h2><p>目标设计 v0.3：AI 居民有自己的日常与平等交流，游戏有日常、事件与创作模式。查看角色怎样实际参与世界；现有原型尚未接入 AI 居民。</p></div><div class="overview-entry-links"><a class="life-link" href="./overview.html">一图与完整理解总览 ↗</a><a class="life-link" href="./design.html">阅读我们的游戏设计 ↗</a></div></aside>
   <section class="arranging-section life-wrap" id="arrangement" aria-labelledby="arranging-title">
     <div class="life-heading"><div><span class="eyebrow">MAKE ROOM FOR A SLOWER DAY</span><h2 id="arranging-title">留一点空，给生活走进来。</h2><p>布置自己的庭院，也收下邻居捎来的小故事。</p></div><a class="life-link" href="./arranging.html">布置、来信与它们的意义 ↗</a></div>

@@ -4,7 +4,7 @@
 
 对我们的价值是可复用的素材处理、运动模块、空间与反馈方法。可扩展到自有资产、完整事件和 AI 居民，并研究环境视频与三维花园的迁移。真实 AI、自然对话、完整模式和跨项目集成仍待实现或验证。
 
-[研究总览与引导图](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html) · [可玩庭院](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html) · [素材来源与范围](THIRD_PARTY_NOTICES.md) · [发布记录](publication.md)
+[游戏主页 · 庭院演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html) · [房间演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html?visit=preview&space=inside) · [我的庭院 · 接续存档](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html?visit=home) · [制作与研究图谱](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html) · [素材来源与范围](THIRD_PARTY_NOTICES.md) · [发布记录](publication.md)
 
 ![从素材到研究效果与可玩庭院的完整图谱](assets/understanding-research-map-v2-public.png)
 
@@ -20,7 +20,7 @@
 - [庭院布置与邻居来信](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/arranging.html) · [我的布置与信件册](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/#arrangement)：两只花盆、长椅与茶桌，三条小径、两种铺面，五封回应行动的故事来信。
 - [我们的游戏设计 v0.3](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/design.html) · [完整设计文档](research/game-design.md)：AI 居民的自主日常、平等交流、游戏运行职责与三种玩法模式，区分现有原型和目标设计。
 - [从素材到体验 / 研究图谱 v2](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/overview.html) · [含原图与实景的高清图谱](assets/understanding-research-map-v2-public.png) · [完整矢量图](assets/understanding-research-map-v2-public.svg)：素材入口、实时效果、庭院用途、创作迁移、价值与 AI 方向，第三方素材分别署名。
-- 已通过 GitHub Pages 上线并完成公开页面验收。源提交、Actions、截图与实际范围见 [发布记录](publication.md)；总库 demo_url 已登记为研究总览。
+- 已通过 GitHub Pages 上线并完成公开页面验收。源提交、Actions、截图与实际范围见 [发布记录](publication.md)；总库 demo_url 现指向游戏主页；制作与研究总览保留为次级入口。
 
 ## 它解决什么问题
 

@@ -12,15 +12,18 @@ import {environmentAt,setAtmosphere} from './atmosphere.mjs';
 import {HOUSE_DOOR,HOME_ENTRY,HOME_PLACES,homeWalkable,nearestHomePlace} from './home-model.mjs';
 import {setupCourtyard} from './courtyard-ui.mjs';
 import {makeGardenWalkable,MAILBOX} from './arrangement.mjs';
-import {createVisitGarden} from './visit-garden.mjs';
+import {createVisitGarden,readVisitEntry,visitStorage,applyVisitEntry} from './visit-garden.mjs';
 import {InteriorScene} from './interior-scene.mjs';
 
 const $ = id => document.getElementById(id), canvas = $('garden'), ctx = canvas.getContext('2d', { alpha: false });
 const sound = new GardenAudio(), wind = new WindField();
-const previewVisit=new URLSearchParams(location.search).get('visit')==='preview';
+const visitEntry=readVisitEntry(location.search),previewVisit=visitEntry.preview;
 let loaded,store;
-try { store=previewVisit?sessionStorage:localStorage;loaded=loadGarden(store);if(previewVisit&&!store.getItem(SAVE_KEY))loaded.garden=createVisitGarden(); } catch { store={getItem(){return null;},setItem(){throw Error('unavailable');}};loaded=loadGarden(store);loaded.warning='浏览器暂时无法保存，当前散步仍可继续。'; }
-if(previewVisit){const banner=document.createElement('div');banner.className='preview-banner';banner.textContent='独立体验庭院 · 初始花已开、风铃已响 · 刷新可继续，关闭此标签后结束 · 不影响你的主庭院';document.querySelector('main').prepend(banner);}
+try { store=visitStorage(visitEntry,window);loaded=loadGarden(store);if(previewVisit&&!store.getItem(SAVE_KEY))loaded.garden=createVisitGarden(); } catch { store={getItem(){return null;},setItem(){throw Error('unavailable');}};loaded=loadGarden(store);if(previewVisit)loaded.garden=createVisitGarden();loaded.warning='浏览器暂时无法保存，当前散步仍可继续。'; }
+applyVisitEntry(loaded.garden,visitEntry);
+document.body.classList.toggle('demo-mode',previewVisit);
+$('visit-context').textContent=previewVisit?'独立演示 · 点击地面或用方向键行走 · 演示变化与“我的庭院”分开保存':'我的庭院 · 接续已有的花、布置与来信，保存在当前浏览器';
+document.title=previewVisit?'风归小庭 · 庭院与房间演示':'我的庭院 · 风归小庭';
 const garden=loaded.garden, stored=garden;
 let interior, companion, nearBed=null, saveClock=0, externalChange=false, journalText='';
 let completed = new Set(stored.completed), read = new Set(stored.completed);
@@ -87,11 +90,11 @@ canvas.addEventListener('pointerdown', e => {
   if(!courtyard?.pointer(p))moveTo(p);
   canvas.focus({ preventScroll: true });
 });
-function begin() {
+function begin(options={}) {
   if (!scene) return;
   if (externalChange) { location.reload(); return; }
   started = true; sitting = false; $('story').hidden = true; $('hud').hidden = false;
-  say(garden.home.inside?'屋里还留着灯。可以看看窗外，或在炉边停一会儿。':loaded.blooms.length?`回来时，${loaded.blooms.map(b=>b.name).join('、')}已经开了花。`:completed.size===3?'小庭记得你的脚步。可以种一点花，或看看小猫在做什么。':'可以先去听风铃，也可以走近小径旁的花圃，按 F 种下一株花。',7);
+  if(!options.quiet)say(garden.home.inside?'屋里还留着灯。可以看看窗外，或在炉边停一会儿。':loaded.blooms.length?`回来时，${loaded.blooms.map(b=>b.name).join('、')}已经开了花。`:completed.size===3?'小庭记得你的脚步。可以种一点花，或看看小猫在做什么。':'可以先去听风铃，也可以走近小径旁的花圃，按 F 种下一株花。',7);
   save();
   canvas.focus({ preventScroll: true });
 }
@@ -297,6 +300,7 @@ $('time-mode').value=garden.atmosphere.timeMode;$('weather-mode').value=garden.a
 $('time-mode').addEventListener('change',e=>changeClimate('time',e.target.value));$('weather-mode').addEventListener('change',e=>changeClimate('weather',e.target.value));
 function syncHomeWeather(now){
   const env=environmentAt(garden.atmosphere,now),inside=garden.home.inside,atDoor=Math.hypot(player.x-HOUSE_DOOR.x,player.y-HOUSE_DOOR.y)<62;
+  document.querySelectorAll('[data-play-space]').forEach(link=>{const current=link.dataset.playSpace===(previewVisit?(inside?'inside':'outside'):'home');link.classList.toggle('active',current);if(current)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');});
   document.querySelector('.game-shell').classList.toggle('is-inside',inside);
   $('outdoor-quest').hidden=inside;$('home-locations').hidden=!inside;
   $('scene-title').textContent=inside?'屋里，慢慢来。':'让风，记得归途。';
@@ -390,5 +394,7 @@ try {
     changed(){bench=garden.layout.bench;walkable=makeGardenWalkable(scene.trees,garden.layout);companion.walkable=walkable;companion.path=[];companion.timer=0;path=[];}
   });
   $('begin').disabled = false; $('begin').innerHTML = `${completed.size||BEDS.some(b=>garden.plots[b.id].kind) ? '继续这次散步' : '推开庭院的门'} <span>→</span>`;
+  if(previewVisit){begin({quiet:true});syncLife(Date.now());syncHomeWeather(Date.now());}
+  cameraX=clamp(activePlayer().x-canvas.width*.5,0,Math.max(0,960-canvas.width));
   requestAnimationFrame(frame);
 } catch (error) { $('error').hidden = false; $('error').textContent = error.message; console.error(error); }

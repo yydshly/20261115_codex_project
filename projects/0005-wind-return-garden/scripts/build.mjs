@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 const root=resolve(dirname(fileURLToPath(import.meta.url)),'..'),web=join(root,'web'),publication=process.argv.includes('--publication'),out=publication?join(root,'dist'):join(web,'dist');
 const manifest=JSON.parse(await readFile(join(web,'assets/trees/manifest.json'),'utf8'));
 await mkdir(out,{recursive:true});
-for(const file of ['index.html','overview.html','overview.css','design.html','design.css','lab.html','understanding.html','assets.html','life.html','shelter.html','arranging.html','arranging.css','style.css','understanding.css','materials.css','life.css','shelter.css','js'])await cp(join(web,file),join(out,file),{recursive:true});
+for(const file of ['index.html','demo-home.css','overview.html','overview.css','design.html','design.css','lab.html','understanding.html','assets.html','life.html','shelter.html','arranging.html','arranging.css','style.css','understanding.css','materials.css','life.css','shelter.css','js'])await cp(join(web,file),join(out,file),{recursive:true});
 await cp(join(web,'assets/free-samples'),join(out,'assets/free-samples'),{recursive:true});
 if(publication){
   await mkdir(join(out,'assets/journal'),{recursive:true});
