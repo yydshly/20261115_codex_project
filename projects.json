@@ -350,7 +350,7 @@
         "caption": "本库生成的效果、原理与项目价值总览原图，3200×5768，九张真实代表预览与四条应用路线；不重新绘制。预览版权归原权利人，具体原作机制与证据范围以逐站解析为准。",
         "full_path": "projects/0017-design-reference-atlas/assets/effects-principles-value-overview-v1.png"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/",
       "source_url": "https://x.com/EianLu/status/2121219503988113557",
       "highlights": [
         "理解：奖项提供质量标尺，图库提供素材与镜头参考，规范组织状态与视觉规则，前端与三维实现动态；按资源作用选择实现方式。",
