@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "published": false,
+  "videos": [
+    {
+      "alias": "reference.mp4",
+      "sha256": "c85d1ab9be9a901f8c0512f31e4b7ae761df51028f62c72db1553a82b2719cca",
+      "bytes": 2358826,
+      "use": "local research only; not published"
+    },
+    {
+      "alias": "matting.mp4",
+      "sha256": "dc8abb9f6f4cf47593ce732714177b000f7dc29b395b76af9995fcc5b55d4f56",
+      "bytes": 816312,
+      "use": "local research only; not published"
+    },
+    {
+      "alias": "comparison.mp4",
+      "sha256": "e06068857f7e35b8268a1807b604d4db82a17e1ac30e0a063bfe85f75e1c8089",
+      "bytes": 633669,
+      "use": "local research only; not published"
+    },
+    {
+      "alias": "scene.mp4",
+      "sha256": "5a5ade818c1fe527ca779bd693f7483f740a9ba5cd35c8c4844fa042b0fef0df",
+      "bytes": 3780183,
+      "use": "local research only; not published"
+    },
+    {
+      "alias": "complete.mp4",
+      "sha256": "38ad27887b26f625370c1e5c8d7c9992ec370fc6c7a47f691479d1db6829303c",
+      "bytes": 4143240,
+      "use": "local research only; not published"
+    },
+    {
+      "alias": "template.mp4",
+      "sha256": "0ddd9aa94d20d812f191e0795133f3d4153e6da918d16c61183e410f864bfd83",
+      "bytes": 2769749,
+      "use": "local research only; not published"
+    }
+  ]
+}

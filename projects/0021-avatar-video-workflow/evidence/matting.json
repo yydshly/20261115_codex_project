@@ -1,0 +1,29 @@
+{
+  "reference_url": "https://x.com/tm_uchal/status/2120573380768518390",
+  "source_sha256": "c85d1ab9be9a901f8c0512f31e4b7ae761df51028f62c72db1553a82b2719cca",
+  "model": "RVM MobileNetV3 fp32 v1.0.0",
+  "provider": "CPUExecutionProvider",
+  "model_sha256": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828",
+  "source_crop_xyxy": [
+    350,
+    0,
+    950,
+    720
+  ],
+  "downsample_ratio": 0.5,
+  "fps": 24,
+  "frames": 120,
+  "matting_seconds": 14.58,
+  "foreground_fraction_min_max": [
+    0.5417083333333333,
+    0.5480856481481482
+  ],
+  "chinese_copy": "motion-design demo, not a translation of the original Korean speech",
+  "render_seconds": 18.79,
+  "outputs": [
+    "avatar-sample-5s.mp4",
+    "comparison-5s.mp4",
+    "comparison.jpg",
+    "contact-sheet.jpg"
+  ]
+}

@@ -67,6 +67,8 @@ python scripts/projects.py check
 
 ## 研究记录与图片
 
+长图可在 `preview` 中另设可选的 `full_path`，仍使用 `schema_version: 1`。`path` 指向同一张研究图的顶部预览，`full_path` 指向项目 `assets/` 内实际存在的完整图片；README 与站点导航显示预览，点击后打开全图。这样保留完整引导图，也避免长图占满整个索引页面。
+
 项目 README 从 [研究模板](../templates/project/README.md) 开始。优先记录原项目用途、关注原因、已证实结论和运行方法，区分原作者声明、自己的判断与实际验证结果。需要更多内容时，再在项目目录内增加专题文档。
 
 图片放在本项目 `assets/` 中，使用清楚的文件名。登记表中的 `preview.path` 使用仓库根相对路径和 `/` 分隔符；Markdown 正文使用相对链接。图片必须真实存在，尚无截图时保留 `preview: null`。

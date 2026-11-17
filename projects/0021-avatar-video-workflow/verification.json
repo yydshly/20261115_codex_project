@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-17",
+  "mode": "local-only",
+  "published": false,
+  "http_pages": 6,
+  "internal_assets_and_links": 68,
+  "page_structure": "one H1 and unique IDs on all pages",
+  "internal_fragments": "passed",
+  "media": [
+    {
+      "alias": "reference.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    },
+    {
+      "alias": "matting.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    },
+    {
+      "alias": "comparison.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    },
+    {
+      "alias": "scene.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    },
+    {
+      "alias": "complete.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    },
+    {
+      "alias": "template.mp4",
+      "sha256_verified": true,
+      "head": 200,
+      "range": 206,
+      "suffix": 206,
+      "invalid_range": 416
+    }
+  ],
+  "template_archive": {
+    "files": 13,
+    "crc": "passed",
+    "machine_profile_and_models_excluded": true
+  },
+  "content": {
+    "questions": 26,
+    "effects": 8,
+    "providers": 6,
+    "workflow": 8,
+    "values": 6,
+    "evidence": 5,
+    "sources": 13
+  },
+  "browser_checks": "Recorded after actual browser QA; see browser-verification.json",
+  "limits": [
+    "Local website does not run the video pipeline in the browser.",
+    "No public deployment.",
+    "No new upstream model invocation or cross-person test."
+  ]
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "file": "complete-poster.jpg",
+    "sha256": "0540433af873c33008cb92db35c81e2bc31133d29ccce7ebfd3e412b74e9dcb8",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "complete-storyboard.jpg",
+    "sha256": "b77938720fb110411affae75eb49a14a70f2f2c4ce6949dd95e2be246d01737f",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "matting-poster.jpg",
+    "sha256": "a7824777ce7f8622057ebeac1c5e8548a9a15f5a567e4a617b889924027422cc",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "comparison.jpg",
+    "sha256": "273f2aa9c9bbe539eae872a4fe6ecb0f20a036a03e0fb79fc540eb66ac6850e4",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "scene-poster.jpg",
+    "sha256": "c2c89be72efc2f1dd5669b6309ca6e85c43744f8b7d88ff891bf1d9978bd97a4",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "scene-overview.jpg",
+    "sha256": "0a7455a5ab7ff0e638147720f7c4a9eddb9f673611dbf5ced0af839cba4a0b5b",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "template-poster.jpg",
+    "sha256": "41b63c27bf381f701d27808ff42e0bfa5d8d8a4e5215ba68486ae3816097a0c6",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "template-storyboard.jpg",
+    "sha256": "715bd3196f9fefb33e0ffb993f0f1d13051ee2c15dbfb6b312acba34c379fdef",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "presenter.png",
+    "sha256": "359c99221f1f8409193c8bfdfdf5f6bb35499081f5844386fae6e34583c46bd5",
+    "source": "local postproduction sample; original presenter @tm_uchal"
+  },
+  {
+    "file": "reference-poster.jpg",
+    "sha256": "d192ce92de14a1c58200974a9c691479975106719e928c6260a4f766d926bc61",
+    "source": "@tm_uchal original video, frame around 0.5s"
+  },
+  {
+    "file": "reference-city.jpg",
+    "sha256": "dbe2d0c7ebb5cc085031381367b92e956aad802a38b8b035b32978fde077f842",
+    "source": "@tm_uchal original video, frame around 15s"
+  },
+  {
+    "file": "web-preview.jpg",
+    "sha256": "3be27835af39451b04e825214ec96acfed54de1413826d061bdf6de27524b519",
+    "source": "2026-11-17 in-app browser screenshot of this local research website; source presenter @tm_uchal credited on page"
+  },
+  {
+    "file": "avatar-research-overview-v1.png",
+    "sha256": "232a6040914ae2ea62e6ce601a01c125753e023f861323f03d5ae0503bc6246a",
+    "source": "2026-11-17 original code-typeset research summary; existing local sample stills credited to original presenter @tm_uchal; details in overview-manifest.json"
+  },
+  {
+    "file": "avatar-research-overview-v1.svg",
+    "sha256": "7e39c848895b3bc7e09189f2d8dc82329637459a5125d9ca2c273b66be90b3f5",
+    "source": "2026-11-17 original code-typeset research summary; existing local sample stills credited to original presenter @tm_uchal; details in overview-manifest.json"
+  },
+  {
+    "file": "overview-preview.jpg",
+    "sha256": "251e9daf549d4ebb817d2779f327c95163b5398e9ae2317ea548c056d8fe25b7",
+    "source": "2026-11-17 original code-typeset research summary; existing local sample stills credited to original presenter @tm_uchal; details in overview-manifest.json"
+  }
+]
