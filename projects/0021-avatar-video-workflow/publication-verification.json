@@ -16,5 +16,5 @@
   "template_crc_and_privacy": "passed",
   "template_file_hashes": "passed",
   "localhost_media_server_required": false,
-  "live_deployment": "pending"
+  "live_deployment": "recorded separately in live-verification.json"
 }
