@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#061d25">
+  <meta name="description" content="从 Abyssal Garden 的真实海底画面出发，读懂程序化场景、AI 分工与原始提示词，整理我们独立创作海底世界的路线。">
+  <title>海的生成 — 海底世界与提示词手记</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23061d25'/%3E%3Cpath d='M10 29q11-14 22 0t22 0M10 41q11-14 22 0t22 0' fill='none' stroke='%2389d7d2' stroke-width='4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="海的生成，回到页首">
+      <svg viewBox="0 0 36 36" aria-hidden="true"><path d="M3 14q7-10 15 0t15 0M3 24q7-10 15 0t15 0"/></svg>
+      <span>海的生成<small>WORLD / NOTES</small></span>
+    </a>
+    <nav aria-label="章节导航">
+      <a href="#observe">看见这片海</a><a href="#mechanism">理解它</a><a href="#prompt">原始提示词</a><a href="#takeaway">我们的总结</a>
+    </nav>
+    <a class="header-link" href="https://github.com/Noniv/abyssal-garden" target="_blank" rel="noopener noreferrer">原仓库 <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main">
+    <div class="hero-background">
+    <section class="hero shell" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-line"></span> 016 / 海底世界观察手记</p>
+        <h1 id="hero-title">一片海，<br>如何被<span>写出来？</span></h1>
+        <p class="hero-lead">从一个可运行的程序化海底，读懂空间、光照与性能。<br>再把理解沉淀为我们自己的创作任务书。</p>
+        <div class="hero-actions"><a class="button light" href="#guide">先看研究总览 <span aria-hidden="true">↓</span></a><a class="text-link" href="#our-prompt">我们的沉淀提示词 <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-note"><span class="note-orbit" aria-hidden="true"></span><p><b>研究对象 · Abyssal Garden</b><br>Noniv 的浏览器海底漫游作品。这里用真实运行截图阅读它。</p></div>
+      </div>
+      <figure class="hero-visual">
+        <img src="../assets/overview-live.jpg" width="846" height="871" fetchpriority="high" alt="Abyssal Garden 实测画面：巨大的鲸尾石雕、海藻森林和鱼群，阳光穿过青蓝色海水">
+        <figcaption><span>01 / 鲸尾与海藻森林</span><span>实测截图 · 2026.11.15</span></figcaption>
+        <div class="image-label">ABYSSAL<br>GARDEN <span>by Noniv</span></div>
+      </figure>
+    </section>
+    </div>
+    <div class="intro-band">
+      <div class="shell"><p>我们真正想理解的</p><p>怎样把“想要一片海”<br class="mobile-only">变成可以探索的世界。</p><span>从效果，到设计，再到实现 <span aria-hidden="true">↘</span></span></div>
+    </div>
+
+    <section class="section shell guide-section" id="guide" aria-labelledby="guide-title">
+      <div class="section-heading"><p class="eyebrow">READING MAP / 从一张图开始</p><h2 id="guide-title">原库带来什么，我们留下什么。</h2><p>用同一张生成总览图串起海底效果、实现机制、研究价值与原创任务书。点击查看完整高清图。</p></div>
+      <div class="guide-layout"><div class="guide-copy">
+        <span class="source-label">原库的价值</span><h3>一个能运行、能阅读的海底样板。</h3><p>Abyssal Garden 用原生 WebGPU 和程序化规则建立海底空间。它让我们能够同时观察画面与源码，研究地标构图、水下光照、密集植被、运动和性能控制；原始提示词还给出明确的优先级、技术边界与验收要求。</p>
+        <span class="source-label">我们的提示词沉淀</span><h3>从独立设计出发，写成可执行任务。</h3><p>我们保留“具体画面＋明确取舍＋真实验收”的方法，整理出创作目标、体验与气质、空间设计、画面实现、技术取舍、迭代验收、最终交付七项要求。不预设必须复用原库，也不照搬作者的设备与单文件限制。</p><p class="quiet-note">原创任务书尚未执行。研究页与源码说明提供依据，不能证明一条提示词能够稳定复现同等效果。</p><a class="text-link" href="#our-prompt">阅读我们的七项任务书 ↘</a>
+      </div><figure class="guide-figure"><a href="../assets/understanding-summary.png" target="_blank" rel="noopener noreferrer"><img src="../assets/understanding-summary.png" width="2400" height="5595" loading="lazy" alt="海的生成总览图：三张海底实测画面、五层实现、三项价值和七项原创创作任务要求"></a><figcaption>本轮生成原图 · 2400×5595 · 场景插图来自 Noniv 实测画面 · <a href="../assets/understanding-summary.png" target="_blank" rel="noopener noreferrer">打开高清图 ↗</a></figcaption></figure></div>
+    </section>
+
+    <section class="section shell" id="observe" aria-labelledby="observe-title">
+      <div class="section-heading"><p class="eyebrow">01 / 看见这片海</p><h2 id="observe-title">漂亮，来自哪些具体安排？</h2><p>切换三个视点，从空间、光色与生命感观察。点击大图，可查看完整画面。</p></div>
+      <div class="gallery-layout">
+        <div class="gallery-main">
+          <button class="image-button" id="open-image" aria-label="放大鲸尾与海藻森林截图">
+            <img id="scene-image" src="../assets/overview-live.jpg" width="846" height="871" loading="lazy" alt="鲸尾石雕、海藻森林与水下鱼群的实际运行画面">
+            <span class="zoom-label">查看大图 <span aria-hidden="true">↗</span></span>
+          </button>
+          <p class="image-credit">图像：2026-11-15 在作者在线场景自行截取；场景作者 Noniv。<br>本页展示静态画面，实时游动请进入作者演示。</p>
+        </div>
+        <div class="gallery-reading">
+          <div class="scene-tabs" role="tablist" aria-label="选择海底视点">
+            <button id="scene-tab-0" class="scene-tab active" role="tab" aria-selected="true" aria-controls="scene-reading" data-scene="0"><span>01</span> 鲸尾森林</button>
+            <button id="scene-tab-1" class="scene-tab" role="tab" aria-selected="false" aria-controls="scene-reading" tabindex="-1" data-scene="1"><span>02</span> 沉船峡谷</button>
+            <button id="scene-tab-2" class="scene-tab" role="tab" aria-selected="false" aria-controls="scene-reading" tabindex="-1" data-scene="2"><span>03</span> 紫色洞窟</button>
+          </div>
+          <article id="scene-reading" role="tabpanel" aria-labelledby="scene-tab-0">
+            <p class="tag" id="scene-theme">空间的尺度</p>
+            <h3 id="scene-title">让人记住一个地方</h3>
+            <p class="scene-description" id="scene-description">巨大的鲸尾成为视觉锚点。高耸的海藻围住它，鱼群和漂浮颗粒把空隙变成有生命的水体。</p>
+            <dl class="observation-list" id="scene-details">
+              <div><dt>空间</dt><dd>近处叶片、中景鲸尾、远处岩壁，形成前后层次。</dd></div>
+              <div><dt>光色</dt><dd>水面明亮，深处转蓝；远处的轮廓被水体柔化。</dd></div>
+              <div><dt>动态</dt><dd>运行时可见植被摆动、鱼群游动和颗粒漂移；静态图只保留其中一刻。</dd></div>
+            </dl>
+          </article>
+          <div class="gallery-links"><a class="text-link" href="https://noniv.github.io/abyssal-garden/" target="_blank" rel="noopener noreferrer">进入作者的实时海底 <span aria-hidden="true">↗</span></a><span>支持 WebGPU 的浏览器</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mechanism-section" id="mechanism" aria-labelledby="mechanism-title">
+      <div class="shell section">
+        <div class="section-heading"><p class="eyebrow">02 / 从画面读到代码</p><h2 id="mechanism-title">代码负责让这片海成立。</h2><p>一幅水下画面，背后有空间、光、生命和运行预算的共同作用。以下为源码中可观察到的实现。</p></div>
+        <div class="mechanism-layout">
+          <div class="mechanism-menu" role="tablist" aria-label="选择实现层" aria-orientation="vertical">
+            <button id="layer-tab-0" class="layer-tab active" role="tab" aria-selected="true" aria-controls="layer-reading" data-layer="0"><span>01</span><b>空间与地标</b><small>世界怎样被组织</small><i aria-hidden="true">↗</i></button>
+            <button id="layer-tab-1" class="layer-tab" role="tab" aria-selected="false" aria-controls="layer-reading" tabindex="-1" data-layer="1"><span>02</span><b>水与光</b><small>为什么看起来在水下</small><i aria-hidden="true">↗</i></button>
+            <button id="layer-tab-2" class="layer-tab" role="tab" aria-selected="false" aria-controls="layer-reading" tabindex="-1" data-layer="2"><span>03</span><b>植被与生物</b><small>细节怎样填满空间</small><i aria-hidden="true">↗</i></button>
+            <button id="layer-tab-3" class="layer-tab" role="tab" aria-selected="false" aria-controls="layer-reading" tabindex="-1" data-layer="3"><span>04</span><b>运动与声场</b><small>怎样让世界活起来</small><i aria-hidden="true">↗</i></button>
+            <button id="layer-tab-4" class="layer-tab" role="tab" aria-selected="false" aria-controls="layer-reading" tabindex="-1" data-layer="4"><span>05</span><b>性能与交互</b><small>怎样让人持续探索</small><i aria-hidden="true">↗</i></button>
+          </div>
+          <article class="layer-reading" id="layer-reading" role="tabpanel" aria-labelledby="layer-tab-0">
+            <span class="source-label">源码可见</span><h3 id="layer-title">先有可辨认的空间，再用规则填充细节。</h3>
+            <p id="layer-description">主峡谷、沉船旁的受光斜坡、洞窟围墙和拱门都有明确的布局参数。生成器还围绕六个固定视点布置景物，为巡视路线保留空间。</p>
+            <div class="layer-example"><span>一个具体例子</span><p id="layer-example">world.js 为主峡谷分别设置东西岩壁，并划出不生成随机岩体的区域；“程序化”并不等于所有东西都随机摆放。</p></div>
+            <p class="layer-transfer" id="layer-transfer">我们可以借鉴：先决定人在什么地方停留、看向哪里，再决定生成哪些细节。</p>
+            <a class="text-link" id="layer-source" href="https://github.com/Noniv/abyssal-garden/blob/a596354eff400d458bc2aeb9bdf5e0a9734b2bcf/source/src/world.js" target="_blank" rel="noopener noreferrer">阅读对应源码 <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <div class="size-note"><span class="small-number">97.18 <small>KiB</small></span><p><b>小的是交付文件。</b>固定版本 HTML 为 99,514 字节；几何和纹理会在运行时生成。文件体积不能代表运行内存与计算开销。</p></div>
+      </div>
+    </section>
+
+    <section class="section shell roles-section" aria-labelledby="roles-title">
+      <div class="section-heading"><p class="eyebrow">03 / AI 在哪里起作用</p><h2 id="roles-title">模型写程序，浏览器运行世界。</h2><p>创作时的模型能力，与成品运行时的图形能力，是两个环节。</p></div>
+      <ol class="flow">
+        <li><span class="flow-number">01</span><h3>人描述想要的海</h3><p>明确画面、探索体验、优先级与交付条件。</p><span class="flow-owner">设计要求</span></li>
+        <li><span class="flow-number">02</span><h3>模型与 Agent 实现</h3><p>编写场景生成、着色器和交互代码，使用工具运行与检查。</p><span class="flow-owner">创作阶段</span></li>
+        <li><span class="flow-number">03</span><h3>浏览器执行代码</h3><p>按算法生成几何与纹理，由 GPU 渲染；成品无需调用模型。</p><span class="flow-owner">运行阶段</span></li>
+        <li><span class="flow-number">04</span><h3>看图、测量、修改</h3><p>按固定机位与路线检查视觉缺陷和帧耗时，再修正程序。</p><span class="flow-owner">验收与迭代</span></li>
+      </ol>
+      <p class="quiet-note">这条协作路径来自提示词的要求与我们的机制理解。作者没有公开完整对话、每轮修改或评审记录，不能据此还原全部实际过程。</p>
+    </section>
+
+    <section class="prompt-section" id="prompt" aria-labelledby="prompt-title">
+      <div class="shell section">
+        <div class="section-heading prompt-heading"><div><p class="eyebrow">04 / 回到原始任务书</p><h2 id="prompt-title">作者怎样描述这片海？</h2></div><a class="text-link" href="https://github.com/Noniv/abyssal-garden/blob/a596354eff400d458bc2aeb9bdf5e0a9734b2bcf/prompt.txt" target="_blank" rel="noopener noreferrer">查看原文 <span aria-hidden="true">↗</span></a></div>
+        <p class="prompt-intro">完整收录原始英文与中文翻译。它规定了想要的画面和完成条件，具体实现仍要写进代码。</p>
+        <div class="prompt-layout">
+          <aside class="prompt-guide" aria-labelledby="prompt-guide-title">
+            <p class="eyebrow" id="prompt-guide-title">阅读时注意这五件事</p>
+            <ol>
+              <li><b>先决定什么更重要</b><span>视觉质量 → 帧节奏 → 体积。遇到冲突时，有明确的取舍。</span></li>
+              <li><b>写出可观察的画面</b><span>青到深蓝的水、闪光海藻、紫粉植被、沉船和鲸尾，比“好看”更具体。</span></li>
+              <li><b>给出技术与资源边界</b><span>要求 WebGPU、程序化生成与单 HTML；这是本作的约束，不是所有海底项目的必选项。</span></li>
+              <li><b>用同一环境做比较</b><span>目标设备、分辨率与 60 秒巡视路线，让性能目标有具体条件。</span></li>
+              <li><b>把验收写进任务</b><span>视觉评审只看画面，性能用计时结果。完成取决于检查结果。</span></li>
+            </ol>
+            <p class="translation-note">翻译说明：Q / E 保留为“上下移动”；实际上游操作为 Q 下降、E 上升。“每帧零分配”等条目是原文要求，本页没有将其认定为实测结论。</p>
+          </aside>
+          <div class="prompt-document">
+            <div class="prompt-toolbar">
+              <div class="prompt-tabs" role="tablist" aria-label="提示词语言">
+                <button id="prompt-tab-zh" class="active" role="tab" aria-selected="true" aria-controls="prompt-zh" data-language="zh">中文全文</button><button id="prompt-tab-en" role="tab" aria-selected="false" aria-controls="prompt-en" tabindex="-1" data-language="en">English</button>
+              </div>
+              <button class="copy-button" id="copy-prompt" type="button">复制全文 <span aria-hidden="true">⧉</span></button>
+            </div>
+            <div id="prompt-zh" class="prompt-panel" role="tabpanel" aria-labelledby="prompt-tab-zh" tabindex="0"><pre lang="zh-CN">制作一个在浏览器中运行的实时奇幻海底场景。它只需要画面漂亮，并允许我操控自由相机在其中穿行。
+
+优先级（发生冲突时，按以下顺序取舍）
+1. 视觉质量。
+2. 在目标配置下保持稳定的帧节奏。
+3. 较小的打包体积。
+
+约束条件
+- 不使用 Three.js、Babylon.js 或其他引擎。
+- 使用 WebGPU 渲染。
+- 所有内容均通过程序生成，不使用纹理文件或模型文件。交付物为一个自包含的 index.html 文件。报告代码压缩后的文件大小。
+- 每帧的 JavaScript 内存分配为零，避免垃圾回收造成卡顿。预先分配所有缓冲区。
+
+目标配置与性能
+- Windows 11 25H2、Chrome 157、RTX 5070 Ti、Ryzen 7800X3D、180 Hz 显示器。
+- 以完整的 2560×1440 分辨率运行。在一段由脚本控制的 60 秒飞行巡视过程中，GPU 平均每帧耗时不超过 11 毫秒，任何一帧的耗时都不得超过 16.7 毫秒。
+
+场景
+- 密集、高耸的海藻柱丛，随水流摆动，带有闪烁的绿色和金色光点。
+- 强烈的深度雾与光线吸收效果：靠近水面呈青色，远处渐变为深蓝色。
+- 阳光光束、动态焦散，以及从水下能够看到的起伏水面。
+- 岩石峡谷、拱门和悬挑岩体；漂浮的巨石。
+- 带虹彩的紫色／粉色植物叶片、洋红色地被植物、桶状海绵和珊瑚。
+- 动态生命与环境元素：蝠鲼、鱼群、上升的气泡、漂浮的颗粒。
+- 标志性景物：沉船船体、一座石质鲸尾雕塑。
+- 世界有边界，但从初始区域不能看到边界。
+
+操作方式
+WASD 移动，鼠标环顾视角（锁定鼠标指针），Q／E 控制上下移动，Shift 加速。
+
+验证
+- 视觉评审：使用一个独立的子 Agent，它只能看到你渲染出的画面，不能看到你的代码或推理过程。向它提供六个固定相机位姿的画面，使用开启 GPU 加速的 Chrome，以 2560×1440 分辨率渲染；另外提供一段简短的飞行巡视录像，用于发现闪烁、锯齿、物体突现和色带问题。它需要返回按优先级排列的具体缺陷。持续迭代，直到它报告的所有问题都不高于“轻微”程度。
+- 性能：使用 GPU 时间戳查询，并记录脚本控制的飞行巡视过程中的帧耗时。报告平均值、第 99 百分位值和最大值。
+
+完成条件
+视觉验收与性能验收均通过。交付 index.html、打包文件大小、性能报告，以及视觉评审 Agent 的最终评审结果。</pre></div>
+            <div id="prompt-en" class="prompt-panel" role="tabpanel" aria-labelledby="prompt-tab-en" tabindex="0" hidden><pre lang="en">Build a real-time fantasy underwater scene that runs in the browser. It only needs to look beautiful and let me fly a free camera through it.
+
+PRIORITIES (in this order when they conflict)
+1. Visual quality
+2. Stable frame pacing at the target spec
+3. Small bundle size
+
+CONSTRAINTS
+- No Three.js/Babylon.js or other engines.
+- WebGPU rendered.
+- Everything procedural: no texture/model files. Deliverable is a single self-contained index.html. Report minified size.
+- Zero per-frame JS allocations (no GC stutter). Preallocate all buffers.
+
+TARGET
+- Windows 11 25H2, Chrome 157, RTX 5070 Ti, Ryzen 7800X3D, 180 Hz monitor
+- 2560×1440 at full resolution. GPU frame time ≤ 11 ms average, no frame &gt; 16.7 ms during a scripted 60 s fly-through.
+
+SCENE
+- Dense, towering kelp columns with sparkling green/gold specks, swaying
+- Strong depth fog/absorption: cyan near the surface → deep blue in the distance
+- God rays, animated caustics, wavy surface visible from below
+- Rock canyons, arches and overhangs; floating boulders
+- Iridescent purple/pink foliage, magenta ground cover, barrel sponges, coral
+- Animated life: manta rays, fish schools, rising bubbles, drifting particles
+- Set pieces: a sunken ship hull, a stone whale-fluke sculpture
+- World: bounded, but the boundaries can't be visible from the starting area
+
+CONTROLS
+WASD move, mouse look (pointer lock), Q/E up/down, Shift to accelerate
+
+VERIFICATION
+- Visual critic: a separate subagent that sees ONLY the your renders, never your code or reasoning. Give it 6 fixed camera poses, rendered at 2560×1440 in GPU-accelerated Chrome, plus a short recording of the fly-through to catch shimmer, aliasing, popping and banding. It returns prioritized, concrete defects. Iterate until it reports nothing above "minor".
+- Performance: GPU timestamp queries plus a frame-time log from the scripted fly-through. Report average, 99th percentile and max.
+
+DONE WHEN: both verification gates pass. Deliver index.html, the bundle size, the perf report and the critic's final review.</pre></div>
+            <div class="prompt-footer"><span id="copy-status" role="status" aria-live="polite">中文为本次完整翻译</span><a id="download-prompt" href="../assets/prompt-zh.txt" target="_blank" rel="noopener noreferrer">文本文件 ↗</a></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="takeaway" aria-labelledby="takeaway-title">
+      <div class="section-heading"><p class="eyebrow">05 / 我们的理解</p><h2 id="takeaway-title">从“喜欢这个效果”，走向自己的设计。</h2><p>研究它的价值，是理解怎样组织一个世界，并形成自己的创作与验收方法。</p></div>
+      <div class="takeaway-statement"><span aria-hidden="true">“</span><p>先把想要的世界设计清楚。<br>再选择实现方法，<em>让画面检验设计。</em></p></div>
+      <div class="understanding-grid">
+        <article><span class="source-label">作者公开了什么</span><h3>目标、代码与部分修正。</h3><p>提示词给出视觉方向和验收要求；源码呈现最终布局与算法；提交记录显示画质分级、碰撞和远景黑边等后续修正。</p></article>
+        <article><span class="source-label warm">公开材料尚未交代</span><h3>完整的创作与决策过程。</h3><p>使用了哪个模型、尝试了多少轮、人工修改占多少、怎样筛选方案，以及是否逐条通过原定验收，所查材料未完整说明。</p></article>
+      </div>
+      <div class="independent-plan">
+        <div><p class="eyebrow">如果我们独立做一片海</p><h3>从空间与体验出发，<br>逐步建立画面。</h3><p>下列是我们的制作建议，<br>不是作者披露的实际顺序。</p></div>
+        <ol>
+          <li><span>01</span><div><h4>先决定人在海里经历什么</h4><p>例如浅滩进入海藻峡谷，穿过岩拱，抵达开阔遗迹。用简单形状检查路线、尺度和视角。</p></div></li>
+          <li><span>02</span><div><h4>先建立水下的光色关系</h4><p>在少量岩石和海床上调好深度衰减、雾、焦散与光束，先确认氛围成立。</p></div></li>
+          <li><span>03</span><div><h4>按需要制作内容与运动</h4><p>程序化生成适合重复的岩石、植物；精细主体可另做模型。再加入摆动、鱼群、颗粒与声场。</p></div></li>
+          <li><span>04</span><div><h4>固定机位，检查并修改</h4><p>比较构图、颜色、近景细节和运动，再测帧耗时。是否使用这个库的代码，在设计之后决定。</p></div></li>
+        </ol>
+      </div>
+      <article class="our-brief" id="our-prompt" aria-labelledby="our-prompt-title"><p class="eyebrow">OUR BRIEF / 原创提示词沉淀</p><h3 id="our-prompt-title">我们的海底世界创作任务书</h3><p class="quiet-note">根据本次讨论原创改写，尚未执行；与上方作者原文和中文翻译分别保留。</p><div class="our-brief-body"><p>请为我们独立设计并实现一个可在浏览器中自由探索的海底世界。</p><p>体验与气质：宁静、通透，有空间层次与发现感。先说清人在海里经历什么，再选择实现方法；不预设必须复用某个开源项目。</p><p>空间设计：先提出完整探索路线，例如珊瑚浅滩 → 海藻峡谷 → 岩拱 → 海底遗迹；明确每一区的地标、尺度、配色、光线、通行方式与观景位置。</p><p>画面实现：先用简单几何验证路线和构图，再建立光线吸收、深度雾、动态焦散与光束。随后加入岩石、植物、鱼群、气泡、颗粒和声场。适合重复的内容可以程序化生成，精细主体可使用有许可的模型。</p><p>技术取舍：先保证画面与氛围，再追求帧时间稳定，最后优化体积。可以沿用现有工程或另选渲染方式，说明理由；不为单文件目标牺牲必要质量。</p><p>迭代验收：在浏览器实际运行，以固定机位和同一路线检查构图、颜色、密度、尺度与动态，按具体缺陷修改。记录设备、分辨率、画质和平均／99 分位／最大帧耗时；先提出并确认性能预算，再验收，不虚构结果。</p><p>最终交付：可运行工程、启动说明、关键可调参数、固定视点截图、测量结果与已知限制。标明实际验证范围，不把任务要求写成已经完成的成果。</p></div><a class="text-link" href="../assets/our-sea-brief.txt" target="_blank" rel="noopener noreferrer">打开纯文本，便于复制 ↗</a></article>
+      <div class="summary-resources"><a class="text-link" href="../assets/understanding-summary.png" target="_blank" rel="noopener noreferrer">保存一图总结 <span aria-hidden="true">↗</span></a><a class="text-link" href="../assets/our-sea-brief.txt" target="_blank" rel="noopener noreferrer">我们的沉淀提示词 <span aria-hidden="true">↗</span></a><span>本库原创任务书 · 尚未执行</span></div>
+      <div class="questions">
+        <details><summary>一句提示词，就能稳定得到同样效果吗？<span aria-hidden="true">+</span></summary><p>公开材料不能证明这一点。原文要求通过视觉与性能检查继续迭代，提交历史也存在后续修正。同一段要求交给不同模型、工具与环境，结果仍需要实际检验。</p></details>
+        <details><summary>必须基于这个库继续创建吗？<span aria-hidden="true">+</span></summary><p>不必。可以把它作为效果参照和技术案例，独立设计我们的空间与体验，再决定沿用现有 Three.js 工程、复用某一机制，或采用其他实现。源码复用是一个选择，不应取代创作设计。</p></details>
+        <details><summary>这个库最值得留下的价值是什么？<span aria-hidden="true">+</span></summary><p>一件可运行、可阅读的图形作品；一份把画面、技术条件和验收写在一起的任务书；以及用成品与源码互相核对的方法。可迁移的首先是对设计、机制和验证的理解。</p></details>
+      </div>
+    </section>
+
+    <section class="sources-section" id="sources" aria-labelledby="sources-title">
+      <div class="shell section">
+        <div class="section-heading"><p class="eyebrow">06 / 留下可以回查的依据</p><h2 id="sources-title">来源与阅读边界</h2></div>
+        <div class="source-links">
+          <a href="https://github.com/Noniv/abyssal-garden" target="_blank" rel="noopener noreferrer"><span>01 / 作品与说明</span><b>Noniv / Abyssal Garden</b><i aria-hidden="true">↗</i></a>
+          <a href="https://github.com/Noniv/abyssal-garden/blob/a596354eff400d458bc2aeb9bdf5e0a9734b2bcf/prompt.txt" target="_blank" rel="noopener noreferrer"><span>02 / 设计输入</span><b>原始 prompt.txt</b><i aria-hidden="true">↗</i></a>
+          <a href="https://github.com/Noniv/abyssal-garden/tree/a596354eff400d458bc2aeb9bdf5e0a9734b2bcf/source" target="_blank" rel="noopener noreferrer"><span>03 / 实现依据</span><b>固定版本可读源码</b><i aria-hidden="true">↗</i></a>
+          <a href="https://github.com/Noniv/abyssal-garden/commits/main/" target="_blank" rel="noopener noreferrer"><span>04 / 部分迭代记录</span><b>公开提交历史</b><i aria-hidden="true">↗</i></a>
+        </div>
+        <div class="source-footnote"><p>场景作者：Maksymilian Dendura（Noniv）。上游为 MIT 许可，<a href="../assets/UPSTREAM-LICENSE.txt">许可原文</a>随页保留。截图沿用本库 0004 项目在 2026-11-15 的实际运行记录；中文翻译、解释与网页编排为本次整理。</p><p>源码参考提交：<code>a596354eff400d458bc2aeb9bdf5e0a9734b2bcf</code>。当次运行验证了游动、部分视点与菜单；未验证完整 60 秒性能基准、手机触控、声音听感或提示词重现率。<a href="../assets/SOURCES.md">查看素材来源</a>。</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer shell"><a class="brand" href="#top">海的生成<span class="footer-separator">/</span><small>从画面理解世界</small></a><p>研究手记 016 · 整理于 2026.11.16</p><a href="#top">回到海面 ↑</a></footer>
+  <dialog class="image-dialog" id="image-dialog" aria-label="海底截图大图">
+    <button id="close-image" class="close-image" aria-label="关闭大图">关闭 ×</button>
+    <figure><img id="dialog-image" src="../assets/overview-live.jpg" width="846" height="871" alt="鲸尾森林大图"><figcaption id="dialog-caption">鲸尾与海藻森林 · 作者场景实测截图</figcaption></figure>
+  </dialog>
+</body>
+</html>

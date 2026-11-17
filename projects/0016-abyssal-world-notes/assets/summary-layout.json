@@ -1,0 +1,13 @@
+{
+  "width": 2400,
+  "height": 5595,
+  "date": "2026-11-17",
+  "method": "deterministic document layout; source screenshots placed without semantic redrawing",
+  "source_images_sha256": {
+    "overview-live.jpg": "5aa06dc085091a8e2591b1956efd66c9459c9b6f86d288c06ea49d7f8d2678d9",
+    "shipwreck-live.jpg": "cb807d2c51e0be268f03f235d0635e7b5da58d14e8dd54e39c94500a030ea319",
+    "purple-grotto-live.jpg": "09f03f7c238a9a31f3b7f37a6188110bdc5c13f4e53d3022682c19e1701ce9b0"
+  },
+  "brief_status": "original, not executed",
+  "text_runs": 88
+}
