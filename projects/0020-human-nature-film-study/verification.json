@@ -1,13 +1,13 @@
 {
-  "status": "publication_candidate_automated_checks_passed",
+  "status": "passed_public_build_and_http_checks",
   "repository_checks": {
-    "registry_and_readme": "9 projects in sync in isolated publication checkout",
+    "registry_and_readme": "10 published research projects in sync after merging the concurrent study",
     "registry_unit_tests_passed": 11,
     "shared_navigation_unit_tests_passed": 1,
     "public_deployment_changed": true
   },
-  "published": false,
-  "scope": "研究网页、既有媒体与本地播放；不表示影片情绪效果已验证通过",
+  "published": true,
+  "scope": "已完成发布构建与HTTP资源检查；新版UI未复核，不表示影片情绪效果已验证通过",
   "browser_checks": [
     {
       "name": "60秒版实际播放与跳至46秒",
@@ -338,5 +338,14 @@
     "release_asset_digest_verified": true,
     "archive_safety_tests_passed": 3,
     "ui_automation_used_for_submission": false
+  },
+  "public_url": "https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
+  "public_checked_at": "2026-11-17T17:12:01+08:00",
+  "public_http_checks": {
+    "pages": 3,
+    "video_range_checks": 8,
+    "original_guide_sha256_match": true,
+    "root_navigation_projects": 10,
+    "browser_ui_used": false
   }
 }

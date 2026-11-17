@@ -1,0 +1,84 @@
+{
+  "checked_at": "2026-11-17T17:12:01+08:00",
+  "url": "https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
+  "status": "passed",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "expected_content_present": true
+    },
+    {
+      "path": "analysis.html",
+      "status": 200,
+      "expected_content_present": true
+    },
+    {
+      "path": "archive.html",
+      "status": 200,
+      "expected_content_present": true
+    },
+    {
+      "path": "assets/understanding-map-v1.png",
+      "sha256_match": true,
+      "bytes": 1312950
+    },
+    {
+      "path": "repository navigation",
+      "registered_projects_present": 10,
+      "full_original_guide_present": true
+    }
+  ],
+  "video_range_checks": [
+    {
+      "id": "film-v1",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 14218091
+    },
+    {
+      "id": "film-v2",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 7877791
+    },
+    {
+      "id": "shot-01",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 1717757
+    },
+    {
+      "id": "shot-02",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 1139960
+    },
+    {
+      "id": "shot-03",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 2205525
+    },
+    {
+      "id": "shot-04",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 3174932
+    },
+    {
+      "id": "shot-05",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 3148120
+    },
+    {
+      "id": "shot-06",
+      "first_range_206": true,
+      "suffix_range_206": true,
+      "expected_total_bytes": 4174116
+    }
+  ],
+  "browser_ui_used": false,
+  "audio_listening": false
+}
