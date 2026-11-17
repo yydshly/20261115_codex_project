@@ -1,5 +1,11 @@
 # GitHub Pages 发布约定
 
+## 观式设计与影像参考库
+
+`0017-design-reference-atlas`于2026-11-17按用户明确授权接入统一Pages白名单，主入口`demos/0017-design-reference-atlas/`。摘要说明100站参考库如何把真实效果、实现原理转成庭院三维、短片、研究网页与AI创作的决定；总导航与项目首页使用生成的`effects-principles-value-overview-v1.png`原图，3200×5768，点击可看完整图。
+
+`scripts/build.py --publication`用标准库导出静态页面、完整解析、98张有来源预览和总览图；发布检查校验相对路径、原图哈希、数据覆盖及20MiB预算。CI不重绘图片、不安装Pillow或本机字体，保留既有公开项目。真实提交、部署、资源与浏览器验收见项目`publication.md`，实际验证后才填写`demo_url`。
+
 首个已接入发布的项目为 `0001-animation-skills-atlas`。研究源码、正式引导图与验证记录保存在 Git；视频和预览文件通过带 SHA-256 清单的媒体 Release 恢复。站点构建产物 `_site/` 不提交。
 
 ## 公开路径

@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **11** 个项目。
+已收录 **12** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -18,9 +18,10 @@
 | 6 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 | 8 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/) |
-| 9 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
-| 10 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
-| 11 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 9 | `0017` | [观式 · 100 个设计与影像网站](projects/0017-design-reference-atlas/README.md) | 把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。 | 已验证 | [参考来源](https://x.com/EianLu/status/2121219503988113557) |
+| 10 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
+| 11 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
+| 12 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 
 ## 项目图览
 
@@ -161,6 +162,22 @@
 2026-11-17 本库原创图文排版，2400×5595；嵌入 Noniv 场景实测截图并保留 MIT 来源。原创海底世界任务书尚未执行。
 
 [进入研究](projects/0016-abyssal-world-notes/README.md) · [原仓库](https://github.com/Noniv/abyssal-garden) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/)
+
+### 0017 · 观式 · 100 个设计与影像网站
+
+把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。
+
+理解：奖项提供质量标尺，图库提供素材与镜头参考，规范组织状态与视觉规则，前端与三维实现动态；按资源作用选择实现方式。
+
+运用：看清效果→拆分原理→做小样→比较差异→沉淀规则，形成庭院、短片、研究网页和AI执行四条可继续实践的路线。
+
+内容与边界：100份逐站解析、98站真实预览，保留原网址和示例入口；45项官方资料结合建议、5项视觉推断、50项通用方案，复用建议尚未跨项目实装。
+
+[![本库原创信息图：九类设计与影像资源逐行对照效果、实现原理和对我们项目的价值，附真实代表预览与四条应用路线](projects/0017-design-reference-atlas/assets/effects-principles-value-overview-v1.png)](projects/0017-design-reference-atlas/assets/effects-principles-value-overview-v1.png)
+
+本库生成的效果、原理与项目价值总览原图，3200×5768，九张真实代表预览与四条应用路线；不重新绘制。预览版权归原权利人，具体原作机制与证据范围以逐站解析为准。
+
+[进入研究](projects/0017-design-reference-atlas/README.md) · [参考来源](https://x.com/EianLu/status/2121219503988113557)
 
 ### 0019 · 山河共造 · 多人文明世界创作档案
 

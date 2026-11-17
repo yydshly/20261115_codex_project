@@ -1,0 +1,32 @@
+# Regenerable offline reader and visual QA working sheets.
+dist/
+assets/*contact*.jpg
+assets/*research.json
+
+# Unreferenced acquisition candidates; retained locally for research history.
+assets/previews/027.jpg
+assets/previews/048.jpg
+assets/previews/055.jpg
+assets/previews/059.jpg
+assets/previews/066.jpg
+assets/previews/068.jpg
+assets/previews/070.jpg
+assets/previews/071.jpg
+assets/previews/072.jpg
+assets/previews/074.jpg
+assets/previews/079.jpg
+assets/previews/081.jpg
+assets/previews/082.jpg
+assets/previews/083.jpg
+assets/previews/084.jpg
+assets/previews/085.jpg
+assets/previews/086.jpg
+assets/previews/090.jpg
+assets/previews/092.jpg
+assets/previews/093.jpg
+assets/previews/095.jpg
+assets/previews/096.jpg
+assets/previews/098.jpg
+assets/previews/example-088.jpg
+assets/previews/example-091.jpg
+assets/previews/example-094.jpg

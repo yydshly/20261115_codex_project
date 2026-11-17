@@ -1,0 +1,59 @@
+{
+  "48": {
+    "id": 48,
+    "status": "ok",
+    "src": "../assets/previews/final-048.jpg",
+    "image_url": "https://cdn.sanity.io/images/599r6htc/regionalized/d85126c055fa98927919c03ed2900ba49dba2d93-1600x800.png?w=804&h=402&q=75&fit=max&auto=format",
+    "image_source": "https://cdn.sanity.io/images/599r6htc/regionalized/d85126c055fa98927919c03ed2900ba49dba2d93-1600x800.png?w=804&h=402&q=75&fit=max&auto=format",
+    "image_resolved_url": "https://cdn.sanity.io/images/599r6htc/regionalized/d85126c055fa98927919c03ed2900ba49dba2d93-1600x800.png?w=804&h=402&q=75&fit=max&auto=format",
+    "image_mime": "image/avif",
+    "image_http_status": 200,
+    "page_url": "https://www.figma.com/blog/explore-the-figma-community/",
+    "example_url": "https://www.figma.com/blog/explore-the-figma-community/",
+    "example_title": "Figma 官方介绍 · 社区界面与设计文件案例",
+    "kind": "官方介绍案例配图",
+    "caption": "Figma 官方博客《Explore the Figma Community》中的历史社区界面与设计文件案例配图，非当前社区站点截图；权利归 Figma 与相应设计者。",
+    "width": 804,
+    "height": 402,
+    "sha256": "0d6e10aa3c418e0207f01594af0c66fbea2655db2f1dc8546f0d1da4fb30307a",
+    "fetched_at": "2026-11-16T22:26:19+08:00",
+    "license_note": "仅作本地研究导航的小尺寸引用；画面、品牌和作品权利归原站点及相应创作者。未核实逐项再分发许可，不能将本素材目录直接当作商业素材包或公开发布授权。"
+  },
+  "68": {
+    "id": 68,
+    "status": "unavailable",
+    "error": "HTTP Error 403: Forbidden",
+    "page_url": "https://www.webdesignmuseum.org/all-websites/apple-1997",
+    "example_url": "https://www.webdesignmuseum.org/all-websites/apple-1997",
+    "image_source": "https://www.webdesignmuseum.org/uploaded/timeline/apple/apple-1997.png",
+    "caption": "原始图片已定位，但本轮HTTP下载返回403；未用验证页或空白页冒充历史截图。"
+  },
+  "70": {
+    "id": 70,
+    "status": "ok",
+    "src": "../assets/previews/final-070.jpg",
+    "image_url": "https://blog.codepen.io/wp-content/uploads/2026/10/full-bleed-inside-1024x618.avif",
+    "image_source": "https://blog.codepen.io/wp-content/uploads/2026/10/full-bleed-inside-1024x618.avif",
+    "image_resolved_url": "https://blog.codepen.io/wp-content/uploads/2026/10/full-bleed-inside-1024x618.avif",
+    "image_mime": "image/avif",
+    "image_http_status": 200,
+    "page_url": "https://blog.codepen.io/2026/11/02/chris-corner-doin-stuff-in-css/",
+    "example_url": "https://blog.codepen.io/2026/11/02/chris-corner-doin-stuff-in-css/",
+    "example_title": "Chris’ Corner: Doin’ Stuff in CSS",
+    "kind": "官方博客案例配图",
+    "caption": "CodePen 官方博客 Chris’ Corner: Doin’ Stuff in CSS 中的 CSS full-bleed 布局案例配图，非 Spark 当前页面截图；案例与图片作者署名见原文。",
+    "width": 900,
+    "height": 543,
+    "sha256": "ca93d03ec557a5c71e727f37a1754033a7fecce8e494c3cd1d0eaf48e1da660f",
+    "fetched_at": "2026-11-16T22:27:15+08:00",
+    "license_note": "仅作本地研究导航的小尺寸引用；画面、品牌和作品权利归原站点及相应创作者。未核实逐项再分发许可，不能将本素材目录直接当作商业素材包或公开发布授权。"
+  },
+  "27": {
+    "id": 27,
+    "status": "unavailable",
+    "page_url": "https://magazine.artstation.com/",
+    "example_url": "https://www.artstation.com/",
+    "error": "Official magazine homepage returned HTTP 403 in this final bounded attempt. No challenge bypass or substitute image used.",
+    "caption": "本轮未能取得可核实的 ArtStation 作品预览，保留原站入口。"
+  }
+}

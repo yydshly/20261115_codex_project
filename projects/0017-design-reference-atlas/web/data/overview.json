@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "title": "效果、原理与我们的价值",
+  "subtitle": "把 100 个设计与影像参考，整理成能带回项目的判断与方法。",
+  "rows": [
+    {"category":"awards","preview_id":4,"preview_caption":"The FWA · Incredible Space","effect_title":"看清质量目标","effect":"比较画面的主次、视觉创意与完成度，建立同类作品的质量标尺。","principle_title":"同题对照，按维度拆解","principle":"选相近任务，分别看构图、素材、时间与交互，再查作者的制作说明。","value_title":"知道该改哪里","value":"为庭院、短片和网页确定目标，把“更好看”变成可比较的差距。","references":"Awwwards / Motion Awards / Tokyo TDC"},
+    {"category":"motion","preview_id":26,"preview_caption":"Ordinary Folk · Distance","effect_title":"让变化承担叙事","effect":"节奏、形变、转场与声音共同引导视线，让连续镜头表达情绪。","principle_title":"先定故事，再编排时间","principle":"风格帧 → 动态分镜 → 关键帧或逐帧制作 → 合成与声画配合。","value_title":"做出连贯的短片","value":"为水彩与剧情短片、标题动效确定镜头承接、动作规律和出现时机。","references":"Motionographer / BUCK / Ordinary Folk"},
+    {"category":"three-d","preview_id":34,"preview_caption":"Poly Haven · 资产场景展示","effect_title":"空间、质感与光影","effect":"几何尺度、表面纹理、反光与照明共同建立真实感或风格感。","principle_title":"几何 × 材质 × 光照","principle":"先用简单模型定空间，再接入模型和 PBR 贴图，以相机与灯光组织画面。","value_title":"把世界拆成可修改的层","value":"用于庭院、海底与自然漫游，分清该补资产、改材质、调灯光还是换视线。","references":"80 Level / Blender Studio / Poly Haven"},
+    {"category":"cinema","preview_id":37,"preview_caption":"FILMGRAB · 电影静帧","effect_title":"画面关系产生情绪","effect":"景别、人物距离、视线、明暗和色彩决定画面的亲近感、张力与气氛。","principle_title":"把感觉变成镜头条件","principle":"标出机位、主光、主体与背景层次，按叙事目的选参考，再转成原创分镜。","value_title":"让“电影感”可执行","value":"给短片和三维相机明确构图与用光要求，也让 AI 视频指令更具体。","references":"ShotDeck / FILMGRAB / EyeCannndy"},
+    {"category":"ui","preview_id":50,"preview_caption":"Material Design 3 · 按钮组件","effect_title":"任务清楚，操作有回应","effect":"用户知道下一步做什么，也能看见选中、等待、成功、错误与恢复。","principle_title":"流程 → 状态 → 组件","principle":"先列任务与状态，再建立按钮层级、反馈、焦点与适合窄屏的交互规则。","value_title":"让研究工具真正好用","value":"改进筛选、收藏、阅读与导出，补齐正常页面之外的空状态和异常反馈。","references":"Mobbin / Page Flows / HIG / Material"},
+    {"category":"web","preview_id":60,"preview_caption":"Siteinspire · Husk 网页案例","effect_title":"读得出重点与顺序","effect":"信息主次、版面比例、图片、字体与留白共同形成阅读节奏和主题气质。","principle_title":"内容结构先于装饰","principle":"信息顺序 → 网格与字号 → 图片与色彩 → 必要动效 → 窄屏重新检查。","value_title":"把资料组织成理解路径","value":"用于研究总库与子项目，让读者先看到结论，再找到证据、原作与实践入口。","references":"Siteinspire / Land-book / Minimal Gallery"},
+    {"category":"frontend","preview_id":72,"preview_caption":"Three.js · Littlest Tokyo","effect_title":"让规则实时运行","effect":"悬停、滚动与点击改变位置、形状和状态；三维与着色器实时计算画面。","principle_title":"输入 → 状态 → 运算","principle":"CSS 处理样式过渡，动画库编排时间，三维引擎组织场景，Shader 计算表面与像素。","value_title":"按问题选实现层","value":"把有用效果接入我们的界面或世界，优先复用小机制，控制复杂度与性能成本。","references":"Codrops / GSAP / Motion / Three.js"},
+    {"category":"type-color","preview_id":93,"preview_caption":"Radix Colors · 语义色阶工具","effect_title":"文字与色彩保持秩序","effect":"标题有层级，正文易读，颜色能区分用途；不同页面与主题仍然一致。","principle_title":"比例尺度与语义变量","principle":"字体与字重 → 字号和间距比例 → 流体缩放 → 背景、边框、交互与文字色阶。","value_title":"沉淀可重复使用的规则","value":"形成 CSS 变量、网页主题与字幕样式，也给 AI 可检查的参数约束。","references":"Fonts In Use / Utopia / Radix Colors"},
+    {"category":"collect","preview_id":95,"preview_caption":"Pinterest · 公开参考图集合","effect_title":"让灵感可以被找回","effect":"图像、链接与文字保留上下文，围绕任务形成能比较、能解释的参考集合。","principle_title":"来源 + 标签 + 选择理由","principle":"记录好在哪里、适用场景与限制；做项目时筛出少量同方向参考，组织成情绪板。","value_title":"积累自己的视觉知识库","value":"复用既有庭院、短片与网页研究，减少重复盲搜，并保留当时的选择依据。","references":"Pinterest / Are.na / Cosmos / Savee"}
+  ],
+  "applications": [
+    {"title":"庭院与自然三维世界","route":"构图与尺度 → 资产与材质 → 光照相机 → 漫游检查","deliverable":"带回：场景资产、镜头方案、同画面对照"},
+    {"title":"水彩与剧情短片","route":"情绪与故事 → 风格帧 → 动态分镜 → 声画合成","deliverable":"带回：分镜、时长表、角色与风格规则"},
+    {"title":"研究网页与资料导航","route":"阅读任务 → 信息层级 → 状态组件 → 响应式","deliverable":"带回：排版尺度、组件规范、完整阅读路径"},
+    {"title":"把参考交给 AI 执行","route":"拆参考 → 写参数与规则 → 做小样 → 定向修改","deliverable":"带回：任务书、视觉规则、可检查的修改依据"}
+  ],
+  "central_message":"我们最终要积累的是：可说明的效果、可选择的实现方式、可继续使用的项目经验。",
+  "boundary":"本图是九类资源的综合归纳与复用建议；具体源作机制、视觉推断和通用方案，以网页逐条依据为准。",
+  "source_note":"清单来源：Eian《100 个提升审美的设计网站大赏》；解析与图文编排：本库，2026-11-16。预览版权归原站及相关权利人。"
+}
