@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="{{themeColor}}">
+<title>{{title}} · 网页艺术习作</title>
+<meta name="description" content="{{intro}}">
+<link rel="stylesheet" href="art-studies.css"><script defer src="art-data.js"></script><script defer src="art-studies.js"></script>
+</head>
+<body data-work="{{work}}">
+<a class="skip-link" href="#painting">跳到画面</a>
+<header class="work-header"><a class="wordmark" href="index.html#framework"><span>P<sup>↗</sup></span><small>艺术 / 历史 / 氛围</small></a><nav aria-label="艺术习作"><a href="light.html" {{lightCurrent}}>光的几种语言</a><a href="rain.html" {{rainCurrent}}>雨的三种距离</a></nav><a class="research-link" href="index.html">原片研究 ↗</a></header>
+<main>
+<div class="work-intro"><div><p class="eyebrow">{{english}} <span>网页艺术习作 · 三幕</span></p><h1>{{title}}</h1></div><p class="work-tagline">{{tagline}}<small>完整观看约 43 秒 · 可随时暂停</small></p></div>
+<section class="viewer" aria-label="{{title}}画面与播放控制">
+<figure class="painting-shell" id="art-panel" role="tabpanel" aria-labelledby="chapter-1"><canvas id="painting" tabindex="0" role="img" aria-label="正在载入第一幕艺术画面。">你的浏览器需要支持 Canvas 才能呈现此作品。</canvas><div class="loading" id="loading" role="status">正在展开画面…</div><div class="scene-mark" aria-hidden="true"><span id="scene-numeral">Ⅰ</span><span id="scene-word">第一幕</span></div><div class="passage" id="passage" aria-live="polite" hidden></div><div class="finish-note" id="finish-note" hidden><span>余韵</span><p>{{ending}}</p></div>
+<div class="transport"><button class="play-button" id="play-art" type="button" aria-pressed="false" disabled>播放全篇 <span>▷</span></button><button class="arrow-button" id="previous-art" type="button" aria-label="前一幕" disabled>←</button><div class="seek"><label class="sr-only" for="art-progress">本幕进度</label><input id="art-progress" type="range" min="0" max="1000" value="0" disabled></div><button class="arrow-button" id="next-art" type="button" aria-label="后一幕" disabled>→</button><span class="scene-count" id="scene-count">01 / 03</span><button class="immerse-button" id="immerse-art" type="button" aria-pressed="false">沉浸观看 ↗</button></div>
+<figcaption class="sr-only" id="painting-description">{{intro}}</figcaption></figure>
+<div class="scene-heading" aria-live="polite"><div><span id="scene-kind">第一幕</span><h2 id="scene-title">正在展开画面</h2></div><p id="scene-subtitle">{{tagline}}</p></div>
+<div class="chapter-strip" id="chapter-strip" role="tablist" aria-label="选择章节"></div>
+</section>
+<section class="reading" aria-label="意境与前后承接"><article><span>本幕的意境</span><h3 id="scene-feeling"></h3><p id="scene-art"></p></article><article><span>怎样接住前后</span><p class="connection" id="scene-connection"></p><p class="closing" id="work-closing">{{closing}}</p></article></section>
+<details class="about-work"><summary>关于本作与画面来源 <span>＋</span></summary><div><p>{{context}}</p><p>六幅场景静帧由内置 image_gen 生成；本页以网页镜头、幕间转场及光雨动效组织观看，没有声音。生成画面与网页动效共同构成演示，未制作 AI 生成视频。感受描述是艺术意图，供观看后评价。</p><div class="art-sources" id="art-sources"></div></div></details>
+</main>
+<footer><span>FIELD STUDY 008 / ART BEFORE FORMAT</span><a href="{{otherHref}}">继续观看：{{otherTitle}} ↗</a></footer>
+</body></html>

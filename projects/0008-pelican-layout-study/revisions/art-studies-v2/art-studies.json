@@ -1,0 +1,332 @@
+{
+  "date": "2026-11-16",
+  "works": {
+    "light": {
+      "title": "光的几种语言",
+      "english": "THREE LANGUAGES OF LIGHT",
+      "tagline": "彩窗的几何 → 明暗的体积 → 印象的颜色",
+      "intro": "以一束光带路：先从局部抬头看见彩窗空间，再靠近暗室里的材质，最后让暖色亮点长成整个水面。艺术语言的变化，成为继续探索的理由。",
+      "closing": "刚才照亮石地与器物的光，如今散进整片水面。",
+      "ending": "原来光，\n还可以这样被看见。",
+      "context": "以哥特彩窗、17世纪明暗法与印象派光色作为三个艺术支点，跨时期比较光怎样组织空间和注意力。场景为原创生成构图，未复原具体建筑或复制特定画作。",
+      "transitionSeconds": 3.6,
+      "sources": [
+        {
+          "label": "彩窗与中世纪光的观念 · The Met",
+          "url": "https://www.metmuseum.org/met-publications/radiance-and-reflection-medieval-art-from-the-raymond-pitcairn-collection"
+        },
+        {
+          "label": "卡拉瓦乔与光的戏剧性 · The Met",
+          "url": "https://www.metmuseum.org/es/essays/caravaggio-michelangelo-merisi-1571-1610-and-his-followers"
+        },
+        {
+          "label": "印象派的光色与笔触 · The Met",
+          "url": "https://www.metmuseum.org/fr/essays/impressionism-art-and-modernity"
+        }
+      ],
+      "chapters": [
+        {
+          "id": 1,
+          "title": "彩窗：仰望的光",
+          "short": "仰望",
+          "subtitle": "光先让空间变得辽阔。",
+          "image": "../assets/art-studies/light-cathedral-v1.webp",
+          "duration": 13,
+          "fx": "cathedral",
+          "focus": [
+            0.55,
+            0.83
+          ],
+          "feeling": "从地面的一小片颜色，发现整个空间的高度。",
+          "art": "镜头从彩色地光的近处缓缓抬起，显出彩窗与高拱。开场暗部逐渐退开，光束内的浮尘与纵深一起显现；先给线索，再交付完整空间。",
+          "connection": "视线沿地面亮处靠近，宽阔彩光收束成暗室的暖光入口。观看尺度由建筑转成器物，继续追踪同一束光如何改变物质。",
+          "transition": "光，收进了另一种尺度。",
+          "navLabel": "彩窗",
+          "artLabel": "GOTHIC / 几何与空间",
+          "poemPrefix": "01 / 一束光的入口",
+          "poem": "先是一束光。\n然后，是一个世界。",
+          "discovery": "光把石头，变成了颜色",
+          "camera": [
+            [
+              1.46,
+              0.58,
+              0.79
+            ],
+            [
+              1.02,
+              0.5,
+              0.43
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.3,
+              0.72,
+              0.73
+            ],
+            [
+              1.03,
+              0.7,
+              0.45
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "title": "斜光：凝视的光",
+          "short": "凝视",
+          "subtitle": "黑暗让一处被照亮的事物，值得凝视。",
+          "image": "../assets/art-studies/light-darkroom-v1.webp",
+          "duration": 11,
+          "fx": "darkroom",
+          "focus": [
+            0.66,
+            0.75
+          ],
+          "feeling": "想看清光在不同材质上留下的东西。",
+          "art": "由器物局部缓慢退开，暗部与斜光随开幕展开。高处的光落到可触摸的物件上，色彩暂时收敛，注意力转向材质与体积。",
+          "connection": "明暗法里集中照亮的区域不直接淡出；下一幕按由内向外的次序以色块铺开，器物的亮点成为水面的碎色。",
+          "transition": "亮处，长出了整个花园。",
+          "navLabel": "暗室",
+          "artLabel": "CHIAROSCURO / 明暗与体积",
+          "poemPrefix": "02 / 光有了温度",
+          "poem": "同一束光，\n忽然有了温度。",
+          "discovery": "陶、梨与布，依次被照见",
+          "camera": [
+            [
+              1.38,
+              0.67,
+              0.62
+            ],
+            [
+              1.06,
+              0.54,
+              0.54
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.15,
+              0.65,
+              0.58
+            ],
+            [
+              1.02,
+              0.59,
+              0.53
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "title": "水面：流动的光",
+          "short": "舒展",
+          "subtitle": "光不再只照亮一件事物，它进入整片风景。",
+          "image": "../assets/art-studies/light-garden-v1.webp",
+          "duration": 16,
+          "fx": "garden",
+          "focus": [
+            0.61,
+            0.69
+          ],
+          "feeling": "发现同一种光还可以成为整片风景，愿意继续停留。",
+          "art": "色块在转场中逐渐接成水面，镜头从局部碎色退成完整花园。水平方向的细微波动与反光共同延续运动，结束前放慢并留出停顿。",
+          "connection": "由暗室集中、明确的体积进入水面松开的边界，变化发生在艺术表达中；末尾仍保留水面微光，让下一次探索有余地。",
+          "transition": "光，还可以去往哪里？",
+          "navLabel": "水面",
+          "artLabel": "IMPRESSION / 笔触与反光",
+          "poemPrefix": "03 / 光不止一种形状",
+          "poem": "颜色松开了边界。\n风景，还在展开。",
+          "discovery": "靠近一点，笔触也在发光",
+          "camera": [
+            [
+              1.42,
+              0.63,
+              0.69
+            ],
+            [
+              1,
+              0.5,
+              0.5
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.28,
+              0.64,
+              0.64
+            ],
+            [
+              1,
+              0.58,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "glyph": "光",
+      "invitation": "循着一束光，\n走进三种截然不同的世界。",
+      "enterLabel": "循光而入",
+      "runtime": 47,
+      "emotion": "惊奇 → 探索 → 向往",
+      "revision": 2
+    },
+    "rain": {
+      "title": "雨的三种距离",
+      "english": "THREE DISTANCES OF RAIN",
+      "tagline": "一滴的细微 → 一林的浓墨 → 一江的留白",
+      "intro": "从水滴落点的近景出发，一圈涟漪把观看带入竹林；浓墨被流动的雾气打开，显出更远的江面。距离与水墨疏密一起变化，把细微的惊奇带向远方。",
+      "closing": "檐下的一圈涟漪，最后成为空江里几乎看不见的微动。",
+      "ending": "江面以外，\n还有未走完的雨。",
+      "context": "以水墨的浓淡、湿润边缘和留白组织近、中、远三幕。场景为原创意境创作，没有特定地点、时代或古画复原的声明。",
+      "transitionSeconds": 3.8,
+      "sources": [],
+      "chapters": [
+        {
+          "id": 1,
+          "title": "檐下：听见细微",
+          "short": "近 · 檐下",
+          "subtitle": "一滴雨，先让注意力停下来。",
+          "image": "../assets/art-studies/rain-eaves-v1.webp",
+          "duration": 12,
+          "fx": "eaves",
+          "focus": [
+            0.575,
+            0.775
+          ],
+          "feeling": "被一滴雨勾住注意，想知道它会把观看带到哪里。",
+          "art": "开场从落点附近的近景退开，看见水滴与檐口的空间关系。落下、接触、扩散形成可等待的小事件；点击画面可留下新的一圈涟漪。",
+          "connection": "从落点扩大的多重涟漪成为场景入口，显出竹林里的湿地。不是离开雨滴，而是随它进入更大的雨中。",
+          "transition": "一圈涟漪，展开一片竹林。",
+          "navLabel": "檐下",
+          "artLabel": "微观 / 水滴与接触",
+          "poemPrefix": "01 / 先看见一滴",
+          "poem": "一滴雨里，\n藏着多远的风景？",
+          "discovery": "点一下水面，让涟漪继续",
+          "camera": [
+            [
+              1.75,
+              0.6,
+              0.77
+            ],
+            [
+              1.04,
+              0.5,
+              0.51
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.45,
+              0.575,
+              0.73
+            ],
+            [
+              1.04,
+              0.575,
+              0.53
+            ]
+          ]
+        },
+        {
+          "id": 2,
+          "title": "竹间：走入风雨",
+          "short": "中 · 竹间",
+          "subtitle": "雨从眼前的一滴，变成身边的空间。",
+          "image": "../assets/art-studies/rain-bamboo-v1.webp",
+          "duration": 13,
+          "fx": "bamboo",
+          "focus": [
+            0.5,
+            0.63
+          ],
+          "feeling": "从观察变成进入，林间亮处引出继续向前的好奇。",
+          "art": "由较宽的林间关系缓缓向中央空隙推进，深墨边界、斜雨与横向雾气同时建立纵深。前景密，入口亮，视线有明确去向。",
+          "connection": "移动的雾从画面一侧把浓墨逐条化开，露出江面的浅色空间。让正在接近的林间空隙，成为下一幕的开口。",
+          "transition": "穿过雾，天地忽然打开。",
+          "navLabel": "竹间",
+          "artLabel": "浓墨 / 纵深与包围",
+          "poemPrefix": "02 / 走进那片青绿",
+          "poem": "跟着它，\n穿过一整片青绿。",
+          "discovery": "林间的亮处，还通向远方",
+          "camera": [
+            [
+              1.02,
+              0.5,
+              0.5
+            ],
+            [
+              1.28,
+              0.52,
+              0.61
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.02,
+              0.5,
+              0.5
+            ],
+            [
+              1.18,
+              0.51,
+              0.56
+            ]
+          ]
+        },
+        {
+          "id": 3,
+          "title": "空江：退向留白",
+          "short": "远 · 空江",
+          "subtitle": "当细节退远，雨成为整个天地的气息。",
+          "image": "../assets/art-studies/rain-river-v1.webp",
+          "duration": 16,
+          "fx": "river",
+          "focus": [
+            0.64,
+            0.82
+          ],
+          "feeling": "眼前的发现变成对更远处的向往。",
+          "art": "从远水局部缓慢退开，远山和留白一起进入视野。前幕的密度退去，水面的轻微横移与少量涟漪延续这场雨，最后停留。",
+          "connection": "由浓墨包围到江面留白，距离、密度和观看速度同时变化；极轻的涟漪回应第一幕，不再用信息解释结尾。",
+          "transition": "江面之外，还有未走完的雨。",
+          "navLabel": "空江",
+          "artLabel": "留白 / 远山与天地",
+          "poemPrefix": "03 / 还有更远的地方",
+          "poem": "山退远了。\n天地，还在展开。",
+          "discovery": "最初那一圈，留在了远水里",
+          "camera": [
+            [
+              1.36,
+              0.66,
+              0.64
+            ],
+            [
+              1,
+              0.5,
+              0.5
+            ]
+          ],
+          "mobileCamera": [
+            [
+              1.2,
+              0.62,
+              0.56
+            ],
+            [
+              1,
+              0.55,
+              0.5
+            ]
+          ]
+        }
+      ],
+      "glyph": "雨",
+      "invitation": "从一滴雨出发，\n看世界怎样一层层展开。",
+      "enterLabel": "循雨而行",
+      "runtime": 49,
+      "emotion": "惊奇 → 探索 → 向往",
+      "revision": 2
+    }
+  }
+}

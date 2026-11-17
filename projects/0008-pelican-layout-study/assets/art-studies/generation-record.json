@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-16",
+  "assets": [
+    {
+      "chapter": "light-1",
+      "prompt_file": "prompts.json",
+      "web_file": "light-cathedral-v1.webp",
+      "source_path": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-44bfe07f-15e9-4cb3-a141-c465921306fe.png",
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "777f7a3fbdbcdc3d5caa75c9678233ee9f3a3ea5219f521fc36c9195560f765f",
+      "sha256": "1d21ddc9b8d450aa40bd28efc7c1c5c5df88d8d660e93f6cb7f49929c0da2c90",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/light-cathedral-v1.png"
+    },
+    {
+      "chapter": "light-2",
+      "prompt_file": "prompts.json",
+      "web_file": "light-darkroom-v1.webp",
+      "source_path": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-f2a2a22d-9964-4df3-927e-7492f210dea3.png",
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "c4f94ac135062f170158327bc25ce4ef5176495dd3ef51680802cf4b60c7552b",
+      "sha256": "2cd6988271c5a01fbb890ebe7508fdf03507f5f81403831d2904fc61eb30f9b9",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/light-darkroom-v1.png"
+    },
+    {
+      "chapter": "light-3",
+      "prompt_file": "prompts.json",
+      "web_file": "light-garden-v1.webp",
+      "source_path": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-2dd8be90-bc20-4743-bf2b-c7c805ada70d.png",
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "268fb71af29e81b5a84932ce0c7facb87c9b0b28b76576a41048e095561cd66a",
+      "sha256": "7a79e21f6d5c5135ac11e865b3cbed58a23dace223856e85f2d9714b40909972",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/light-garden-v1.png"
+    },
+    {
+      "chapter": "rain-1",
+      "prompt_file": "prompts.json",
+      "web_file": "rain-eaves-v1.webp",
+      "source_path": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-02e74e99-3141-4542-969c-baad15ad7934.png",
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "c42cb328a944f63df0a7d30003f690227715aa5cf5391cb29cd08223d13c53c0",
+      "sha256": "f7b92e7cde601ebcc2134b06618e82490020d09f453c6aa7896a33e37e28a4f2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/rain-eaves-v1.png"
+    },
+    {
+      "chapter": "rain-2",
+      "prompt_file": "prompts.json",
+      "web_file": "rain-bamboo-v1.webp",
+      "source_path": null,
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "1e0ebe2d12aa738023834b9942f8bcdba19ba382a21464337bb1f14e316afd04",
+      "sha256": "6f82245aa849f2da017096ca67be610dbdc1b98566c935895963b65703c4cf27",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/rain-bamboo-v1.png"
+    },
+    {
+      "chapter": "rain-3",
+      "prompt_file": "prompts.json",
+      "web_file": "rain-river-v1.webp",
+      "source_path": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-c0a1e24e-7496-4ae8-a131-df508fd0db61.png",
+      "tool": "built-in image_gen",
+      "model": "not returned",
+      "seed": "not returned",
+      "input_images": [],
+      "status": "generated",
+      "source_sha256": "b12d0f5b9e190090a44fc64ec9dd94e51a5e8a250c50eb683180b2539370758e",
+      "sha256": "26b33990a570d702fd39a80d5de7b70aeb631b7d23899726b7663b6593fdc010",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "local_original": "originals/rain-river-v1.png"
+    }
+  ]
+}

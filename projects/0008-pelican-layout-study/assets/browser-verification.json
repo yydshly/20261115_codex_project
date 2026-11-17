@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-16",
+  "browser": "Codex in-app browser",
+  "url": "http://127.0.0.1:52918/",
+  "scene_entries_clicked": 21,
+  "all_eight_fields_matched": true,
+  "all_selected_states_unique": true,
+  "keyboard": {
+    "sequence": [
+      "Home",
+      "ArrowRight"
+    ],
+    "selected": "scene-tab-2",
+    "title": "埃及壁画"
+  },
+  "image_dialog": {
+    "opened": true,
+    "caption": "00:06 抽帧 · 埃及壁画 / @NFT_Chen 原帖视频",
+    "escape_closed": true
+  },
+  "deep_link": {
+    "hash": "#scene-21",
+    "refresh_title": "总览与“鹈鹕本人”",
+    "next_disabled": true,
+    "previous_disabled": false
+  },
+  "wide": {
+    "viewport_width": 1280,
+    "viewport_height": 800,
+    "document_width": 1265,
+    "index_columns": 7,
+    "broken_images": []
+  },
+  "mobile": {
+    "viewport_width": 390,
+    "viewport_height": 844,
+    "document_width": 375,
+    "index_columns": 3,
+    "view_columns": 1,
+    "navigation_items_single_line": true
+  },
+  "console_warning_error": [],
+  "temporary_viewport_reset": true,
+  "default_viewport_width": 769,
+  "screenshots": [
+    "assets/overview.jpg",
+    "assets/reader.jpg",
+    "assets/ending-analysis.jpg",
+    "assets/mobile-reader.jpg"
+  ],
+  "result": "pass",
+  "original_scene_revision": "original-video-only scene analysis",
+  "revision": "creative thinking, direction, emotion and extensions",
+  "framework_revision": {
+    "default_viewport_width": 1280,
+    "default_document_width": 1265,
+    "planning_steps": 5,
+    "emotion_entries": 5,
+    "extension_directions": 4,
+    "scene_tabs_preserved": 21,
+    "extension_proposals_labeled_unverified": true,
+    "evidence_link": {
+      "hash": "#scene-5",
+      "title": "宋代山水",
+      "caption": "00:24 抽帧 · 宋代山水"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "document_width": 375,
+      "framework_columns": 1,
+      "flow_columns": 2,
+      "emotion_columns": 1,
+      "extension_columns": 1,
+      "nav_items_single_line": true
+    },
+    "console_warning_error": [],
+    "broken_images": [],
+    "temporary_viewport_reset": true,
+    "screenshots": [
+      "assets/overview.jpg",
+      "assets/creative-thinking.jpg",
+      "assets/emotion-path.jpg",
+      "assets/extensions.jpg",
+      "assets/mobile-thinking.jpg"
+    ],
+    "result": "pass"
+  },
+  "content_priority_revision": {
+    "date": "2026-11-16",
+    "title": "艺术、历史与氛围先行 · 原片创作研究",
+    "planning": [
+      "艺术命题",
+      "历史语境",
+      "每幕氛围",
+      "整体承接",
+      "主体与形式"
+    ],
+    "directions": [
+      "艺术语言与意境",
+      "历史语境中的场景体验",
+      "意境与感受的连续展开",
+      "再选择呈现手段"
+    ],
+    "old_demonstrations_labeled_early_trials": true,
+    "width": 1280,
+    "document_width": 1265,
+    "console_warning_error": [],
+    "screenshots": [
+      "assets/overview.jpg",
+      "assets/creative-thinking.jpg"
+    ],
+    "result": "pass"
+  },
+  "art_studies_revision": {
+    "chapter_selections": 6,
+    "title_feeling_connection_and_panel_label": "pass",
+    "unique_selection_and_manual_pause": "pass",
+    "complete_playback": {
+      "light": {
+        "last_title": "水面：流动的光",
+        "playing": false,
+        "progress": 1000,
+        "finish_visible": true,
+        "button": "重看全篇 ↺"
+      },
+      "rain": {
+        "last_title": "空江：退向留白",
+        "playing": false,
+        "progress": 1000,
+        "finish_visible": true,
+        "button": "重看全篇 ↺"
+      }
+    },
+    "transitions_observed": [
+      "彩窗 → 暗室",
+      "暗室 → 水面",
+      "檐下 → 竹间",
+      "竹间 → 空江"
+    ],
+    "light_transition_visible_ms": 3068,
+    "pause_during_transition_and_resume": "pass",
+    "resume_button": "继续观看 ▷",
+    "keyboard_home": "pass",
+    "deep_link_reload": {
+      "url": "rain.html#scene-3",
+      "title": "空江：退向留白",
+      "paused": true,
+      "next_disabled": true
+    },
+    "immersion": {
+      "canvas_height": 720,
+      "viewport_height": 720,
+      "escape_exit": true
+    },
+    "wide": {
+      "viewport_width": 1280,
+      "document_width": 1265
+    },
+    "narrow": {
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "document_width": 375,
+      "frame_width": 337.2083,
+      "frame_height": 320,
+      "both_works": "pass"
+    },
+    "console_warning_error": {
+      "light": [],
+      "rain": []
+    },
+    "viewport_restored": true
+  }
+}

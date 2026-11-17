@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-17",
+  "type": "deterministic illustrated research diagram",
+  "canvas_svg": [
+    1800,
+    1350
+  ],
+  "raster": [
+    5400,
+    4050
+  ],
+  "new_ai_images": false,
+  "source_artwork_edited": false,
+  "source_images": [
+    {
+      "source": "reference/scene-05.jpg",
+      "role": "原片引用：山水｜尺度与路径",
+      "sha256": "2f49c0e4d964b438eeadc99efdbdbb76c81135b89973227225cc6f6dac08f189",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "reference/scene-09.jpg",
+      "role": "原片引用：写意｜墨线与留白",
+      "sha256": "97f544224f4b48f33083eaa39159f7af1442c9b3e0f67bd3aade5b72f3181a95",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "reference/scene-12.jpg",
+      "role": "原片引用：星夜｜笔触与动势",
+      "sha256": "a67653a997a78163478a09198065bf8f83cc68da00c12726bf3ff7f0ef8d4876",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "reference/scene-17.jpg",
+      "role": "原片引用：界面｜观看身份改变",
+      "sha256": "bc9e8aa8f36ab019967164a89e00acc92811e63c038a3f0c5581dffd76bb8dde",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "reference/ending-126.jpg",
+      "role": "原片引用：结尾｜把题目交回“本人”",
+      "sha256": "1fd36074854da340a8aa06a9f385dd468e0573b8b888bea197f7f7149aefeed3",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "light-emotion-playing.jpg",
+      "role": "本站实验截图：《光》｜静帧与网页动效",
+      "sha256": "1c75e53c4269ebf90036fdf46dac097a3ae7c760ef4f4dec49e5ed4bfab8b9cd",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "rain-art-river.jpg",
+      "role": "本站实验截图：《雨》｜主角与连续空间",
+      "sha256": "27146b78ca1a66dd6cce727c32cd9be84b4b8dd640b8affa7d3a8f9f3ee3345f",
+      "display": "full frame, aspect fitted without crop"
+    },
+    {
+      "source": "review-20261117-garden.jpg",
+      "role": "本站实验截图：传送｜发现、穿越与回望",
+      "sha256": "db6a91cbd6b156abe774a270a2a97d46722dacf7ea4d9c3e254a92e282845c3c",
+      "display": "full frame, aspect fitted without crop"
+    }
+  ],
+  "text_runs": 111,
+  "text_region_bounds": "passed",
+  "sources_and_interpretation": "Original frames quoted from NFT_Chen post; values/methods are our research interpretation. Experiment images are our prior screenshots, not original work and not validated art-quality reproductions.",
+  "original_post": "https://x.com/nft_chen/status/2121616583110115341",
+  "unknown": [
+    "author workflow/source code/model claims not independently verified",
+    "history sequence is a reading thread, not strict chronology"
+  ],
+  "outputs": {
+    "research-understanding-map-20261117.png": {
+      "bytes": 4429714,
+      "sha256": "a16cbc6f36af770f22d047cab175a1cdfc5e54784437b37cd4271905ce05fd2e"
+    },
+    "research-understanding-map-20261117.svg": {
+      "bytes": 663104,
+      "sha256": "b8deffc9bb32701ac0d39017a0f1acb95d395a1bbc2342b2854b2047d6075f30"
+    },
+    "research-understanding-map-20261117.jpg": {
+      "bytes": 3187495,
+      "sha256": "4a69340cf6a9dd85be8f8304b80a2ef2f2e1c42362adec68c909f47c0c048e8c"
+    }
+  }
+}

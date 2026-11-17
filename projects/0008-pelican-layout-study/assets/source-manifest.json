@@ -1,0 +1,252 @@
+{
+  "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+  "review_date": "2026-11-16",
+  "duration_seconds": 128.8,
+  "primary_scene_count": 20,
+  "ending_sample_times": [
+    120,
+    123,
+    126,
+    128
+  ],
+  "assets": [
+    {
+      "path": "assets/reference/contact-sheet.jpg",
+      "sha256": "61ce1986a745bdb46363d58ebb6b5ee7180b1999b1ed2040d92fa9b3bdf5798f",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": null,
+      "kind": "original_video_contact_sheet"
+    },
+    {
+      "path": "assets/reference/ending-120.jpg",
+      "sha256": "a24a395dffcb77529079101161a44279b3c733136aee87a5a9ac1b417411df00",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 120,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/ending-123.jpg",
+      "sha256": "35d4525d157338ca9174573ec22946cb5d8efc5383d131eadeecc76e0cdcce6c",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 123,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/ending-126.jpg",
+      "sha256": "1fd36074854da340a8aa06a9f385dd468e0573b8b888bea197f7f7149aefeed3",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 126,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/ending-128.jpg",
+      "sha256": "c50c92a3da16d016c8eb06b0f2f20b1b5406ee35bf6dbe8bf398978fd422dd00",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 128,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-116.jpg",
+      "sha256": "c4c5505a2f4995d6cbaa28a3696dcfe566f0e1320e245c9ab9973c8ee8ea49d4",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 116,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-2.jpg",
+      "sha256": "e0b94a48e3baa0f76b0a87afb183f4412d2241af87af768cef0426fbbfdac7a6",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 2,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-22.jpg",
+      "sha256": "a4c563431bbed436cf6b9e2695961bb2495500427cfd2a5ab69ff4387cb24545",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 22,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-31.jpg",
+      "sha256": "7c6b39ce16d1ea6487f377c42e39e78fc712275ecbbb540a0ec40d82d8fdb2d1",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 31,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-52.jpg",
+      "sha256": "195b1d61ef4fe76e86a82bcaca31e6c3d3672e3fcdd2c474a7e9074873831277",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 52,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-65.jpg",
+      "sha256": "cd7925a2c54e011df0d0307c17972b1cb6f6c644c59576a27938df2afdc998e1",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 65,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-88.jpg",
+      "sha256": "42cfdbcbd7ca50d6bb8a91f87835d1fbbf8332e01820d86d3af0d2b79a004d88",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 88,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/frame-99.jpg",
+      "sha256": "fd21a875fef80c1559878e564cd0fafe08d92c47f33bf17eb131a858d4589224",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 99,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/pedaling-sequence.jpg",
+      "sha256": "86cb5920fcc1742721a15ec3fae39975327f92d3d3ec35b01703c017d3c32b86",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": null,
+      "kind": "original_video_contact_sheet"
+    },
+    {
+      "path": "assets/reference/scene-01.jpg",
+      "sha256": "7d8ed97db76a049bab738b13e234806c641996736bc2308c59bc59a9e84cfbaa",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 0,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-02.jpg",
+      "sha256": "504d66ba595acc149fbb9b7bdb849f5b57cbc08ad9c5af0ce9637d3da082665b",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 6,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-03.jpg",
+      "sha256": "ceefec6cfe2e3c2a5030bddf2cdc66207c06a156b150ec605f210eba485a3396",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 12,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-04.jpg",
+      "sha256": "240a70cef16f95c1e3db71664a97bfd4755850865c7bd6805dec89da9de32251",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 18,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-05.jpg",
+      "sha256": "2f49c0e4d964b438eeadc99efdbdbb76c81135b89973227225cc6f6dac08f189",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 24,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-06.jpg",
+      "sha256": "f57036cbacc9b6d0d06b35a0b55070e85702b2a251a2ef88341143e8195ce90a",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 30,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-07.jpg",
+      "sha256": "c29d1225cf9b9da709c06821bb1030074a7ca542787c278cd4948dee11d5dcba",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 36,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-08.jpg",
+      "sha256": "878d737d5e9859512eb055155e97459dd84d579dab59968324dcb88b6acb30e2",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 42,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-09.jpg",
+      "sha256": "97f544224f4b48f33083eaa39159f7af1442c9b3e0f67bd3aade5b72f3181a95",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 48,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-10.jpg",
+      "sha256": "fdf072a6ee6939dfd16d3b5fed013293db48ac4903798ac6358247ec8cca057b",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 54,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-11.jpg",
+      "sha256": "b008f4fffc4771854f2e3ce430b4d15f0a647fa0148e8acf4fa945bf6b83fb20",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 60,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-12.jpg",
+      "sha256": "a67653a997a78163478a09198065bf8f83cc68da00c12726bf3ff7f0ef8d4876",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 66,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-13.jpg",
+      "sha256": "633274864ffebcdb3ba98fd5b00c3eba40e8d37f0df12eb798cb7046e550c6e1",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 72,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-14.jpg",
+      "sha256": "e644f4e63b41ee5cee708f52187b812b47d8515ada0bd4e1ab5a829c6b76c933",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 78,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-15.jpg",
+      "sha256": "02aa596f8e6ca371330e004a45c6e3103515fb50daf3c020c2eb55eda88572e1",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 84,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-16.jpg",
+      "sha256": "f272ec6a8884a20de82364ed8e5a05c52e83c72a2cd74c04bc6f27256b40c861",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 90,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-17.jpg",
+      "sha256": "bc9e8aa8f36ab019967164a89e00acc92811e63c038a3f0c5581dffd76bb8dde",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 96,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-18.jpg",
+      "sha256": "aa75f7d2984da5581cd96aa58f363e737075ca5980495a9e0d737c960529c49e",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 102,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-19.jpg",
+      "sha256": "70a13cdecc3bfd1ad12934a868882473fd4477d5fc2ac0239b1acbf84367e627",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 108,
+      "kind": "original_video_frame"
+    },
+    {
+      "path": "assets/reference/scene-20.jpg",
+      "sha256": "88ad6f6b1621ef3727b1be9475d0c1d6fa1e83ef2cf566d31805b7fc892281d3",
+      "source_url": "https://x.com/nft_chen/status/2121616583110115341",
+      "time_seconds": 114,
+      "kind": "original_video_frame"
+    }
+  ]
+}

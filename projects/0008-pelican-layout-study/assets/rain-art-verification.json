@@ -1,0 +1,299 @@
+{
+  "date": "2026-11-16",
+  "revision": "rain-art-direction-v2",
+  "browser": "pass",
+  "emotion": "awaiting-user-feedback",
+  "static": {
+    "index.html": {
+      "local_resources": "pass",
+      "unique_ids": 63,
+      "html_images": 11
+    },
+    "experiments.html": {
+      "local_resources": "pass",
+      "unique_ids": 25,
+      "html_images": 0
+    },
+    "light.html": {
+      "local_resources": "pass",
+      "unique_ids": 34,
+      "html_images": 0
+    },
+    "rain.html": {
+      "local_resources": "pass",
+      "unique_ids": 25,
+      "html_images": 0
+    },
+    "rain-still.html": {
+      "local_resources": "pass",
+      "unique_ids": 34,
+      "html_images": 0
+    }
+  },
+  "module_imports": [
+    {
+      "from": "rain-journey.js",
+      "module": "three"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-world.mjs"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-traveler.mjs"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-ink.mjs"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "three"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "./vendor/three/Reflector.js"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "./rain-art.mjs"
+    },
+    {
+      "from": "rain-traveler.mjs",
+      "module": "three"
+    },
+    {
+      "from": "rain-traveler.mjs",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "rain-traveler.mjs",
+      "module": "./rain-art.mjs"
+    },
+    {
+      "from": "rain-art.mjs",
+      "module": "three"
+    },
+    {
+      "from": "rain-ink.mjs",
+      "module": "three"
+    },
+    {
+      "from": "vendor/three/Reflector.js",
+      "module": "three"
+    },
+    {
+      "from": "vendor/three/three.module.min.js",
+      "module": "./three.core.min.js"
+    },
+    {
+      "from": "vendor/three/three.module.min.js",
+      "module": "./three.core.min.js"
+    }
+  ],
+  "vendor_integrity": "pass, pinned npm integrity and file hashes; MIT license exported",
+  "source_hashes": {
+    "web/rain-journey.html": "32dbb9820df4377dd37c8d7ad60e5281590fa76d9e75660424d67c89705b6d97",
+    "web/rain-journey.css": "0d7dcde782f3eb1d57e1b6c2bd3498c5f33b58f4c2c56d3e14693cb42edb34ef",
+    "web/rain-journey.js": "ab02b233ea1aa5487c1deda7166916b5ed95023379cabdd54d189e771142a53b",
+    "web/rain-route.mjs": "8acbdc8c7672380eb837ff06dd60e65db4f19328c9d0eef6c1e86278b9be9f6e",
+    "web/rain-world.mjs": "99cef163ba4b39fe4b8e7c8a9c2d23d763f9264b9597ce3092b4586ffdebfc46",
+    "web/rain-traveler.mjs": "dc0721579e356f5ce4759ea5cad8fc0325c1e13964a2a60df561b53b3498d670",
+    "web/rain-art.mjs": "068e1ce090963442cf715183d59ee822a23db2c653fcf3902b9539ba063cf9c3",
+    "web/rain-ink.mjs": "70228cc384c441b87f5350da98209ebd9574b273d3022f6b238468bf99b6f5b7"
+  },
+  "emotion_target": "近处的惊奇 → 远处的向往",
+  "motion_tests": {
+    "command": "node --test tests/rain-route.test.mjs",
+    "passed": 3,
+    "failed": 0
+  },
+  "browser_checks": {
+    "naturalPlayback": {
+      "start": {
+        "frames": 1426,
+        "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+        "time": 0.229,
+        "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+      },
+      "near": {
+        "frames": 1526,
+        "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+        "time": 3.917,
+        "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+      },
+      "checkpoint": {
+        "chapter": "2",
+        "playing": "true",
+        "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+        "time": 47.571,
+        "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+      },
+      "end": {
+        "playing": "false",
+        "range": "68",
+        "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+        "state": "finished",
+        "time": 68,
+        "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+      },
+      "sameScene": true,
+      "sameTraveler": true
+    },
+    "desktopSampleFps": 27.114967462039047,
+    "joins": [
+      {
+        "boundary": 19,
+        "before": {
+          "chapter": "0",
+          "position": "2.1092,0.0000,-6.3298",
+          "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+          "time": "18.900",
+          "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+        },
+        "after": {
+          "chapter": "1",
+          "position": "1.9890,0.0000,-7.0000",
+          "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+          "time": "19.659",
+          "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+        }
+      },
+      {
+        "boundary": 45,
+        "before": {
+          "chapter": "1",
+          "position": "3.2227,0.0000,-27.8469",
+          "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+          "time": "44.900",
+          "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+        },
+        "after": {
+          "chapter": "2",
+          "position": "3.3749,0.0000,-28.4952",
+          "scene": "61059d7c-c86e-4b9c-b5aa-a8e869ab14b1",
+          "time": "45.642",
+          "traveler": "7ba0849f-c4ad-4bd6-bf19-a178b3f90c84"
+        }
+      }
+    ],
+    "mobile": {
+      "canvasCssWidth": 374.6666870117187,
+      "canvasWidth": 374,
+      "docWidth": 375,
+      "ready": "true",
+      "time": "31.000",
+      "width": 390
+    },
+    "deepLink": {
+      "hash": "#at-67.8",
+      "playing": "false",
+      "time": "67.800"
+    },
+    "pauseStable": true,
+    "resume": {
+      "playing": "false",
+      "time": "31.417"
+    },
+    "expanded": {
+      "canvasHeight": 844,
+      "expanded": true,
+      "viewport": 844
+    },
+    "escapeExited": true,
+    "sound": {
+      "on": "true",
+      "off": "false",
+      "listened": false
+    },
+    "keyboard": {
+      "focus": "rain-chapter-1",
+      "time": "0.000"
+    },
+    "final": {
+      "art": "pigment-depth-ink",
+      "beginDisabled": false,
+      "docWidth": 734,
+      "height": 871,
+      "ready": "true",
+      "state": "invitation",
+      "url": "http://127.0.0.1:52918/rain.html",
+      "width": 749
+    },
+    "consoleWarningsErrors": []
+  },
+  "limits": [
+    "整段桌面播放后仅补充了窄屏镜头补偿；桌面分支不受影响，窄屏三幕已重新检查。",
+    "声音开关已测试，未作实际听感评价。",
+    "减少动态效果分支已实现，未模拟系统偏好验收。",
+    "人物为程序化造型，艺术感受仍待用户反馈。"
+  ],
+  "screenshots": [
+    {
+      "path": "assets/rain-art-bamboo.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "107d82c524c68292f7daf1d4c9559f5821421fecfa8464c804da4303e5dde2b9"
+    },
+    {
+      "path": "assets/rain-art-eaves.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "4a6d6c1b25aff9c2d5019a305aaa2ab3da6d873006b717160addabbf505e1ba8"
+    },
+    {
+      "path": "assets/rain-art-entry.jpg",
+      "dimensions": [
+        734,
+        853
+      ],
+      "sha256": "a2d5d0100916b06a27bf170aa64c0bc28b3087a871d6432434f299a0b67d64bb"
+    },
+    {
+      "path": "assets/rain-art-mobile-bamboo.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "9c30f3dde2d3a905a66ef911ff0b45cfae5ea3fc23b42306a9cfdb20fb945d40"
+    },
+    {
+      "path": "assets/rain-art-mobile-eaves.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "38bed2b1fde9a0b9bdbcb39c8caaff980e632a8cb14e779fb165c872cf442fe6"
+    },
+    {
+      "path": "assets/rain-art-mobile-river.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "06ff80ac3e1bbb92c1c118a10e45308b646acbacb5f3fc5a49062708180ae56f"
+    },
+    {
+      "path": "assets/rain-art-river.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "27146b78ca1a66dd6cce727c32cd9be84b4b8dd640b8affa7d3a8f9f3ee3345f"
+    }
+  ],
+  "result": "pass"
+}

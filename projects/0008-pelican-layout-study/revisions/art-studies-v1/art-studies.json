@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-16",
+  "works": {
+    "light": {
+      "title": "光的几种语言",
+      "english": "THREE LANGUAGES OF LIGHT",
+      "tagline": "从仰望，到凝视，再到舒展。",
+      "intro": "光穿过彩窗，在暗室中聚拢，最后碎成水面的颜色。三个艺术空间，由光的变化接续。",
+      "closing": "刚才照亮石地与器物的光，如今散进整片水面。",
+      "ending": "一束光，三种观看。",
+      "context": "以哥特彩窗、17世纪明暗法与印象派光色作为三个艺术支点，跨时期比较光怎样组织空间和注意力。场景为原创生成构图，未复原具体建筑或复制特定画作。",
+      "transitionSeconds": 3.2,
+      "sources": [
+        {"label": "彩窗与中世纪光的观念 · The Met", "url": "https://www.metmuseum.org/met-publications/radiance-and-reflection-medieval-art-from-the-raymond-pitcairn-collection"},
+        {"label": "卡拉瓦乔与光的戏剧性 · The Met", "url": "https://www.metmuseum.org/es/essays/caravaggio-michelangelo-merisi-1571-1610-and-his-followers"},
+        {"label": "印象派的光色与笔触 · The Met", "url": "https://www.metmuseum.org/fr/essays/impressionism-art-and-modernity"}
+      ],
+      "chapters": [
+        {
+          "id": 1,
+          "title": "彩窗：仰望的光",
+          "short": "仰望",
+          "subtitle": "光先让空间变得辽阔。",
+          "image": "../assets/art-studies/light-cathedral-v1.webp",
+          "duration": 12,
+          "fx": "cathedral",
+          "focus": [0.55, 0.83],
+          "feeling": "庄严、安静，注意力被带向高处。",
+          "art": "高拱与立柱形成纵深，彩窗的冷暖色光落在暗石地上。缓慢推进与稀疏浮尘，让观看先经历空间的高度。",
+          "connection": "地面的彩光逐渐集中，转场沿着这处亮面进入暗室。广阔空间收为一张桌面，光仍是观看的依据。",
+          "transition": "彩光聚拢，空间收向一束斜光。"
+        },
+        {
+          "id": 2,
+          "title": "斜光：凝视的光",
+          "short": "凝视",
+          "subtitle": "黑暗让一处被照亮的事物，值得凝视。",
+          "image": "../assets/art-studies/light-darkroom-v1.webp",
+          "duration": 11,
+          "fx": "darkroom",
+          "focus": [0.66, 0.75],
+          "feeling": "沉着、集中，感受到材质与体积。",
+          "art": "视距收近，斜光从暗处照出陶器、果实和布面的细节。缓慢靠近，延续前幕的光，同时改变观看的尺度与张力。",
+          "connection": "布面与器物上的暖色亮点向外散开，接成花园水面的反光。下一幕离开暗室，给眼睛和呼吸更多空间。",
+          "transition": "聚焦的亮点，散成水面上流动的颜色。"
+        },
+        {
+          "id": 3,
+          "title": "水面：流动的光",
+          "short": "舒展",
+          "subtitle": "光不再只照亮一件事物，它进入整片风景。",
+          "image": "../assets/art-studies/light-garden-v1.webp",
+          "duration": 14,
+          "fx": "garden",
+          "focus": [0.61, 0.69],
+          "feeling": "明亮、流动，从凝视中慢慢舒展。",
+          "art": "细碎笔触与有色反光模糊物体边界。镜头缓缓退开，水面微光疏密起伏，让整个环境参与光的表达。",
+          "connection": "以前幕的暖光为入口，最后把注意力释放到整个水面。停留后收束，让观众回想三种空间里，光怎样改变观看。",
+          "transition": "让反光慢下来，把这一程留在水面。"
+        }
+      ]
+    },
+    "rain": {
+      "title": "雨的三种距离",
+      "english": "THREE DISTANCES OF RAIN",
+      "tagline": "从檐下一滴，走入竹间，再退向空江。",
+      "intro": "先留意细微的水滴，再感受身边的风雨，最后让视野与心绪一起退远。近、中、远的变化，成为这段水墨体验的主线。",
+      "closing": "檐下的一圈涟漪，最后成为空江里几乎看不见的微动。",
+      "ending": "雨还在，观看已慢下来。",
+      "context": "以水墨的浓淡、湿润边缘和留白组织近、中、远三幕。场景为原创意境创作，没有特定地点、时代或古画复原的声明。",
+      "transitionSeconds": 3.6,
+      "sources": [],
+      "chapters": [
+        {
+          "id": 1,
+          "title": "檐下：听见细微",
+          "short": "近 · 檐下",
+          "subtitle": "一滴雨，先让注意力停下来。",
+          "image": "../assets/art-studies/rain-eaves-v1.webp",
+          "duration": 10,
+          "fx": "eaves",
+          "focus": [0.575, 0.775],
+          "feeling": "亲近、细微，仿佛暂时躲在檐下。",
+          "art": "木、瓦与石的近景质地承接水滴。落点处的涟漪一圈圈展开，远处保持柔软，使观看停留在一次很小的接触上。",
+          "connection": "一圈涟漪扩大，逐渐带出竹林中的湿地与雨线。观看从有遮蔽的檐下，进入被风雨包围的空间。",
+          "transition": "涟漪向外展开，从檐下走入雨中。"
+        },
+        {
+          "id": 2,
+          "title": "竹间：走入风雨",
+          "short": "中 · 竹间",
+          "subtitle": "雨从眼前的一滴，变成身边的空间。",
+          "image": "../assets/art-studies/rain-bamboo-v1.webp",
+          "duration": 12,
+          "fx": "bamboo",
+          "focus": [0.50, 0.63],
+          "feeling": "被包围，感到雨线、枝叶与空气的流动。",
+          "art": "近处深墨的竹叶包住边界，中央湿地通向淡雾。斜雨、微弱叶影与横移雾气，建立身处其中的中景感。",
+          "connection": "浓墨边界逐渐被雾化开，雨线也变细。视野从林间空隙继续退远，进入宽阔的江面。",
+          "transition": "让浓墨退入雾里，视野向远处打开。"
+        },
+        {
+          "id": 3,
+          "title": "空江：退向留白",
+          "short": "远 · 空江",
+          "subtitle": "当细节退远，雨成为整个天地的气息。",
+          "image": "../assets/art-studies/rain-river-v1.webp",
+          "duration": 14,
+          "fx": "river",
+          "focus": [0.64, 0.82],
+          "feeling": "空阔、松开，留下一段安静的余味。",
+          "art": "远山淡入纸面，江水以大面积留白展开。镜头慢退，雨线与涟漪都减轻，让几乎不变的空间也值得停留。",
+          "connection": "从前幕的密叶与风雨退向空处，最后以极轻的涟漪回应开头的水滴。距离改变了，雨仍然贯穿。",
+          "transition": "把最初那圈涟漪，轻轻留在远水里。"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "status": "not executed; user freed D drive space; generated originals retained on D and verified copies preserved in F project",
+  "sourceRoot": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7",
+  "destinationRoot": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals",
+  "entries": [
+    {
+      "source": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-44bfe07f-15e9-4cb3-a141-c465921306fe.png",
+      "destination": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals\\light-cathedral-v1.png",
+      "sha256": "777F7A3FBDBCDC3D5CAA75C9678233EE9F3A3EA5219F521FC36C9195560F765F",
+      "bytes": 2844720
+    },
+    {
+      "source": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-f2a2a22d-9964-4df3-927e-7492f210dea3.png",
+      "destination": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals\\light-darkroom-v1.png",
+      "sha256": "C4F94AC135062F170158327BC25CE4EF5176495DD3EF51680802CF4B60C7552B",
+      "bytes": 2106565
+    },
+    {
+      "source": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-2dd8be90-bc20-4743-bf2b-c7c805ada70d.png",
+      "destination": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals\\light-garden-v1.png",
+      "sha256": "268FB71AF29E81B5A84932CE0C7FACB87C9B0B28B76576A41048E095561CD66A",
+      "bytes": 3336259
+    },
+    {
+      "source": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-02e74e99-3141-4542-969c-baad15ad7934.png",
+      "destination": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals\\rain-eaves-v1.png",
+      "sha256": "C42CB328A944F63DF0A7D30003F690227715AA5CF5391CB29CD08223D13C53C0",
+      "bytes": 2742524
+    },
+    {
+      "source": "D:\\codex\\home\\generated_images\\01a1dfef-963c-78a3-b48c-a95e05ae4ec7\\exec-c0a1e24e-7496-4ae8-a131-df508fd0db61.png",
+      "destination": "F:\\codex_project2\\1115_codex_project\\projects\\0008-pelican-layout-study\\assets\\art-studies\\originals\\rain-river-v1.png",
+      "sha256": "B12D0F5B9E190090A44FC64EC9DD94E51A5E8A250C50EB683180B2539370758E",
+      "bytes": 2272256
+    }
+  ]
+}

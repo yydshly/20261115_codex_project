@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#dce1d6">
+<title>雨的三种距离 · 随雨而行</title><meta name="description" content="跟随一位撑伞旅人，从檐下出发，穿过竹林，来到空江。同一片三维空间中的连续行旅。">
+<link rel="stylesheet" href="rain-journey.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+<script type="module" src="rain-journey.js"></script>
+</head><body data-state="loading" data-chapter="0">
+<a class="skip-link" href="#journey-controls">跳到播放控制</a>
+<main>
+<section class="journey" id="journey" aria-label="雨的三种距离，连续三维行旅">
+<canvas id="rain-world" role="img" tabindex="0" aria-label="撑伞旅人在檐下等待，前方石径通向竹林与江岸。">本作品需要支持 WebGL 2 的浏览器。</canvas>
+<div class="paper-grain" aria-hidden="true"></div><div class="frame-shade" aria-hidden="true"></div>
+<header><a class="wordmark" href="index.html#framework">行 间 <small>FIELD / 008</small></a><nav aria-label="作品导航"><a href="light.html">光的几种语言</a><a href="rain.html" aria-current="page">雨的三种距离</a></nav><button id="about-toggle" type="button" aria-expanded="false" aria-controls="making-notes">手记 ＋</button></header>
+<div class="loading" id="loading" role="status"><span>雨正落下。</span><p>正在展开这一程风景</p></div>
+<div class="invitation" id="invitation"><p class="eyebrow">THREE DISTANCES OF RAIN <span>一段可以走入的风景</span></p><h1>雨的<br>三种距离</h1><p class="invitation-copy">先接住一滴雨，<br>再跟它，走到天地之间。</p><button id="begin-journey" type="button" disabled>随雨而行 <span>↗</span></button><small>一位旅人 · 三段风景 · 约 68 秒</small></div>
+<div class="scene-label" id="scene-label" aria-live="polite"><span id="chapter-number">Ⅰ</span><div><span id="chapter-name">檐下</span><small id="chapter-subtitle">一滴雨的细微</small></div></div>
+<div class="verse" id="verse" aria-hidden="true"><i></i><p id="verse-text"></p></div>
+<div class="ending" id="ending" hidden><span>再往远处看一会儿</span><h2>雨落在眼前。<br>路，还在远方。</h2><button id="replay-journey" type="button">再走一程 ↻</button></div>
+<div class="journey-controls" id="journey-controls"><button id="play-journey" type="button" aria-pressed="false" disabled>继续行走 ▷</button><div class="timeline"><label class="sr-only" for="journey-progress">整段旅程进度，秒</label><input id="journey-progress" type="range" min="0" max="68" step="0.1" value="0" disabled><div class="chapter-markers" aria-hidden="true"><i></i><i></i></div></div><output id="journey-time" for="journey-progress">00:00 / 01:08</output><button id="journey-sound" type="button" aria-pressed="false">雨声 关</button><button id="journey-expand" type="button" aria-pressed="false">展开 ↗</button></div>
+<div class="bottom-caption"><p id="path-caption">檐下的一滴，林间的一程，江上的无尽。</p><p>拖动画面环顾 <span>·</span> 空格暂停</p></div>
+</section>
+<section class="journey-index" aria-label="行旅章节"><p>随雨而行 <span>A CONTINUOUS JOURNEY</span></p><div role="tablist" aria-label="前往一段风景"><button id="rain-chapter-1" type="button" role="tab" aria-selected="true" aria-controls="journey" data-time="0"><small>Ⅰ</small> 檐下 <span>接住一滴</span></button><button id="rain-chapter-2" type="button" role="tab" aria-selected="false" aria-controls="journey" data-time="26"><small>Ⅱ</small> 竹间 <span>走入青绿</span></button><button id="rain-chapter-3" type="button" role="tab" aria-selected="false" aria-controls="journey" data-time="54"><small>Ⅲ</small> 空江 <span>望向远方</span></button></div><a href="light.html">另一段风景 ↗</a></section>
+<section class="making-notes" id="making-notes" hidden aria-label="创作手记"><div><p class="eyebrow">ABOUT THE JOURNEY</p><h2>让一次行动，<br>带出下一片风景。</h2><p>旅人先停在檐边接雨，再随着石径走入竹林，穿过枝叶来到江岸。镜头始终跟随同一位旅人；近处的滴水、中景的浓墨与远处的留白，是同一段路上的三种观看距离。</p></div><div class="notes-grid"><article><span>Ⅰ / 檐下</span><h3>先有一次亲近。</h3><p>暖灯照出木纹与衣料，伞缘留住几滴天光。手从檐下伸向雨中，水滴触到掌心、落进石盆；湿石上的亮处把视线带向林间。</p></article><article><span>Ⅱ / 竹间</span><h3>让空间包围身体。</h3><p>近竹成为深墨，远竹一层层退入湿雾。石径在天光与叶影之间转弯，前景竹叶掠过伞面，视线沿林间的亮处继续前行。</p></article><article><span>Ⅲ / 空江</span><h3>直到天地打开。</h3><p>旅人穿出最后一丛竹叶，在岸边停下，略微侧头望向淡帆。镜头缓缓退开，江面、舟影与淡山连在一起，让近处的发现延伸为对远处的向往。</p></article></div><p class="making-method">制作方式：原创程序建模与实时三维渲染，加入表面染色、纸感纹理和轻墨线处理。角色、步态、伞、建筑、竹林、雨线、水面与山体均在三维场景中；未使用背景静帧或 AI 生成视频。雨声可选，为网页合成声景。<a href="rain-still.html">查看上一版静帧演示 ↗</a></p></section>
+</main><script>addEventListener('error',()=>{const n=document.getElementById('loading');if(document.body.dataset.state==='loading'){n.innerHTML='<span>这一程暂未展开。</span><p>请刷新页面重新载入。</p>';}});</script>
+</body></html>

@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-16",
+  "url": "http://127.0.0.1:52918/experiments.html",
+  "implementation": "original Canvas web animation, no audio, no generated video",
+  "groups": 3,
+  "chapters_clicked": 9,
+  "chapter_title_feeling_connection_hash_and_single_selection": "pass",
+  "manual_selection_pauses": true,
+  "distance_end": {
+    "value": 100,
+    "title": "天地间的一点",
+    "hash": "#scale-3",
+    "paused": true
+  },
+  "continuous_playback": {
+    "pacing": "even",
+    "seconds_per_scene": 7,
+    "start_title": "入林",
+    "start_playing": true,
+    "end_title": "见月",
+    "end_playing": false,
+    "end_progress": 1000,
+    "end_button": "重看这一程 ↺",
+    "end_status": "已走完这一程"
+  },
+  "deep_link_reload": {
+    "hash": "#rhythm-3",
+    "title": "见月",
+    "paused": true
+  },
+  "keyboard_home_end": "pass",
+  "immersion": {
+    "canvas_height": 720,
+    "viewport_height": 720,
+    "escape_exit": true
+  },
+  "wide": {
+    "width": 1280,
+    "document_width": 1265
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "document_width": 375,
+    "canvas_css_width": 337.2083,
+    "canvas_css_height": 440,
+    "columns": 1,
+    "title_contrast_reviewed": true
+  },
+  "console_warning_error": [],
+  "viewport_restored": true,
+  "scene_feeling_effect": "awaiting user evaluation",
+  "result": "pass"
+}

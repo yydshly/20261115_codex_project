@@ -1,0 +1,348 @@
+{
+  "date": "2026-11-16",
+  "revision": "rain-continuous-3d",
+  "browser": "pass",
+  "emotion": "awaiting-user-feedback",
+  "static": {
+    "index.html": {
+      "local_resources": "pass",
+      "unique_ids": 63,
+      "html_images": 11
+    },
+    "experiments.html": {
+      "local_resources": "pass",
+      "unique_ids": 25,
+      "html_images": 0
+    },
+    "light.html": {
+      "local_resources": "pass",
+      "unique_ids": 34,
+      "html_images": 0
+    },
+    "rain.html": {
+      "local_resources": "pass",
+      "unique_ids": 25,
+      "html_images": 0
+    },
+    "rain-still.html": {
+      "local_resources": "pass",
+      "unique_ids": 34,
+      "html_images": 0
+    }
+  },
+  "module_imports": [
+    {
+      "from": "rain-journey.js",
+      "module": "three"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-world.mjs"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-traveler.mjs"
+    },
+    {
+      "from": "rain-journey.js",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "three"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "./vendor/three/Reflector.js"
+    },
+    {
+      "from": "rain-world.mjs",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "rain-traveler.mjs",
+      "module": "three"
+    },
+    {
+      "from": "rain-traveler.mjs",
+      "module": "./rain-route.mjs"
+    },
+    {
+      "from": "vendor/three/Reflector.js",
+      "module": "three"
+    },
+    {
+      "from": "vendor/three/three.module.min.js",
+      "module": "./three.core.min.js"
+    },
+    {
+      "from": "vendor/three/three.module.min.js",
+      "module": "./three.core.min.js"
+    }
+  ],
+  "vendor_integrity": "pass, pinned npm integrity and file hashes; MIT license exported",
+  "source_hashes": {
+    "web/rain-journey.html": "5cba948076e19960f19e9a34143a3b9df67e8fc87bd6accfbc1744decede2a26",
+    "web/rain-journey.css": "7e9e13a9155433d32b782bcadfc9bbd3a639b934dcfb9c0bd7576ab84f31283a",
+    "web/rain-journey.js": "cd467717bcae2cf47190319170b84af970ee65ed2c87a911d8cb087430460639",
+    "web/rain-route.mjs": "be88d1f7bda8bf9377228d876fd3a3e8971256497c83691d4a5ec67701639b80",
+    "web/rain-world.mjs": "1299f03b28d688d336c3afbb0f4ea63e1d165bebe51d63bc0f08d5e46479ea9f",
+    "web/rain-traveler.mjs": "14c79154fecdedcc7146e117fbfc756bc8782bfeb79d5520f86127c09cb05496"
+  },
+  "motion_tests": {
+    "command": "node --test tests/rain-route.test.mjs",
+    "passed": 3,
+    "failed": 0
+  },
+  "browser_checks": {
+    "naturalFullRun": {
+      "start": {
+        "frames": 1029,
+        "scene": "f8fc1507-5c27-4df2-9940-7a6ffeb7752d",
+        "time": 0.208,
+        "traveler": "be8df21f-a2e5-41f4-bb38-cbf307c7202d"
+      },
+      "sample": {
+        "frames": 1122,
+        "scene": "f8fc1507-5c27-4df2-9940-7a6ffeb7752d",
+        "time": 4.042,
+        "traveler": "be8df21f-a2e5-41f4-bb38-cbf307c7202d"
+      },
+      "endBeforeDisplayFix": {
+        "endingVisible": true,
+        "frames": 4151,
+        "playing": "false",
+        "position": "3.4000,0.0000,-35.3000",
+        "scene": "f8fc1507-5c27-4df2-9940-7a6ffeb7752d",
+        "state": "finished",
+        "time": 67.983,
+        "traveler": "be8df21f-a2e5-41f4-bb38-cbf307c7202d"
+      },
+      "sameScene": true,
+      "sameTraveler": true
+    },
+    "finalEndpoint": {
+      "endingVisible": true,
+      "playing": "false",
+      "range": "68",
+      "state": "finished",
+      "time": "68.000"
+    },
+    "chapterJoins": [
+      {
+        "boundary": 19,
+        "before": {
+          "chapter": "0",
+          "position": "2.1092,0.0000,-6.3298",
+          "scene": "12aa1362-0c2b-4285-bd6e-a22c7780871d",
+          "time": "18.900",
+          "traveler": "cf81c736-c1f8-4039-8665-0a9b09981eb2"
+        },
+        "after": {
+          "chapter": "1",
+          "position": "2.0064,0.0000,-6.9156",
+          "scene": "12aa1362-0c2b-4285-bd6e-a22c7780871d",
+          "time": "19.563",
+          "traveler": "cf81c736-c1f8-4039-8665-0a9b09981eb2"
+        }
+      },
+      {
+        "boundary": 45,
+        "before": {
+          "chapter": "1",
+          "position": "3.2227,0.0000,-27.8469",
+          "scene": "12aa1362-0c2b-4285-bd6e-a22c7780871d",
+          "time": "44.900",
+          "traveler": "cf81c736-c1f8-4039-8665-0a9b09981eb2"
+        },
+        "after": {
+          "chapter": "2",
+          "position": "3.3677,0.0000,-28.4622",
+          "scene": "12aa1362-0c2b-4285-bd6e-a22c7780871d",
+          "time": "45.604",
+          "traveler": "cf81c736-c1f8-4039-8665-0a9b09981eb2"
+        }
+      }
+    ],
+    "steadySampleFps": 24.3,
+    "mobileEntry": {
+      "canvas": {
+        "bottom": 844,
+        "height": 844,
+        "left": 0,
+        "right": 374.6666870117187,
+        "top": 0,
+        "width": 374.6666870117187,
+        "x": 0,
+        "y": 0
+      },
+      "docWidth": 375,
+      "entry": {
+        "bottom": 464.1875228881836,
+        "height": 43.33333587646485,
+        "left": 29.96875,
+        "right": 189.96875,
+        "top": 420.8541870117187,
+        "width": 160,
+        "x": 29.96875,
+        "y": 420.8541870117187
+      },
+      "width": 390
+    },
+    "mobileGrove": {
+      "controls": {
+        "bottom": 796,
+        "height": 44,
+        "left": 22.479167938232425,
+        "right": 352.1875114440918,
+        "top": 752,
+        "width": 329.7083435058594,
+        "x": 22.479167938232425,
+        "y": 752
+      },
+      "docWidth": 375,
+      "position": "-0.2939,0.0000,-12.1765",
+      "scene": "a04cf6d1-12b8-40fb-9cc5-d4794410b690",
+      "time": "26.000",
+      "traveler": "f6569748-1545-4173-9649-db0db92e2818",
+      "width": 390
+    },
+    "mobileRiver": {
+      "docWidth": 375,
+      "scene": "a04cf6d1-12b8-40fb-9cc5-d4794410b690",
+      "state": "finished",
+      "time": "68.000",
+      "traveler": "f6569748-1545-4173-9649-db0db92e2818",
+      "width": 390
+    },
+    "pauseA": {
+      "playing": "false",
+      "scene": "a04cf6d1-12b8-40fb-9cc5-d4794410b690",
+      "time": "1.025",
+      "traveler": "f6569748-1545-4173-9649-db0db92e2818"
+    },
+    "pauseB": {
+      "playing": "false",
+      "time": "1.025"
+    },
+    "pauseProgressStable": true,
+    "resumeCheck": {
+      "playing": "false",
+      "time": "1.363"
+    },
+    "sound": {
+      "on": "true",
+      "off": "false",
+      "listened": false
+    },
+    "expanded": {
+      "active": true,
+      "height": 844,
+      "viewport": 844
+    },
+    "escapeExited": true,
+    "keyboard": {
+      "focus": "rain-chapter-1",
+      "selected": "rain-chapter-1",
+      "time": "0.000"
+    },
+    "notesOpened": {
+      "expanded": "true",
+      "hidden": false,
+      "playing": "false"
+    },
+    "orbitBefore": {
+      "position": "0.0000,0.0000,2.0000",
+      "time": "0.000"
+    },
+    "orbitAfter": {
+      "position": "0.0000,0.0000,2.0000",
+      "time": "0.000"
+    },
+    "deepLinkReload": {
+      "chapter": "1",
+      "hash": "#at-26.0",
+      "playing": "false",
+      "ready": "true",
+      "time": "26.000"
+    },
+    "final": {
+      "beginDisabled": false,
+      "docWidth": 1265,
+      "height": 720,
+      "htmlImages": 0,
+      "ready": "true",
+      "renderer": "WebGL2",
+      "state": "invitation",
+      "url": "http://127.0.0.1:52918/rain.html",
+      "width": 1280
+    },
+    "consoleWarningsErrors": []
+  },
+  "limits": [
+    "68秒整篇实看后修正了终点进度显示；终点已单独复测为68.000。",
+    "声景按钮与控制台已验收，未作实际听感评价。",
+    "减少动态效果和离屏分支已实现，未模拟系统偏好验收。",
+    "几何关系用于伞与屋檐遮雨、脚步落地；未实现通用刚体或流体求解。",
+    "艺术氛围与情绪效果等待用户观看反馈。"
+  ],
+  "screenshots": [
+    {
+      "path": "assets/rain-3d-bamboo.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "0c5e2ba2456d513e7377458d6885293831f5f1d1393dfbc8a9498cb46f07b2f1"
+    },
+    {
+      "path": "assets/rain-3d-eaves.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "bab270ba2cdb419acdc3ac712519221f56afdd04727c9cd755b774fe0f8f4e96"
+    },
+    {
+      "path": "assets/rain-3d-entry.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "835399d50196def403ed7bfa998c8096c1bc2daec01a379b68149522ec271328"
+    },
+    {
+      "path": "assets/rain-3d-mobile-bamboo.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "e5a77b2bf63612d5e7bb6565863b9d32f2ac3006b039852e49331ce8832c8790"
+    },
+    {
+      "path": "assets/rain-3d-mobile-entry.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "390789fd27868697b8f3650bf06c2c931e9d0e50b1f96f2d2868e0284453733e"
+    },
+    {
+      "path": "assets/rain-3d-mobile-river.jpg",
+      "dimensions": [
+        375,
+        812
+      ],
+      "sha256": "ab8ac10134804f41f9cce1470cc13eee2ba69330884948c222b6f12f5309baa3"
+    },
+    {
+      "path": "assets/rain-3d-river.jpg",
+      "dimensions": [
+        1265,
+        712
+      ],
+      "sha256": "022292219a95a39a85363af9f9898c603888d0b4a32bd1ce6e6b3460090d5190"
+    }
+  ],
+  "result": "pass"
+}

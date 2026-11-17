@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#e9e6dd">
+<title>早期固定题材试验 · 三组网页动效</title>
+<meta name="description" content="同一位骑行的白鸟，三组原创网页动画：媒介转译、尺度与感知、情绪与停留。可播放、切换、拖动与沉浸观看。">
+<link rel="stylesheet" href="experiments.css"><script defer src="experiments.js"></script>
+</head>
+<body>
+<header class="lab-header"><a class="lab-brand" href="index.html">P<span>↗</span><small>原片研究 / 延展实验</small></a><a href="index.html#extensions">回到研究与依据 ↗</a></header>
+<main>
+<div class="lab-intro"><div><p class="overline">EARLY STUDIES · 01—03</p><h1>保留的<em>早期固定题材试验。</em></h1></div><p>本页保留白鸟骑行的媒介、尺度与停留试验。<br>后续以艺术、历史与氛围为中心，题材另选。</p></div>
+<div class="experiment-tabs" role="tablist" aria-label="选择扩展实验">
+<button id="experiment-medium" type="button" role="tab" aria-controls="atelier" aria-selected="true" data-group="medium"><span>01</span><b>媒介的转译</b><small>同一座桥，三种书写</small></button>
+<button id="experiment-scale" type="button" role="tab" aria-controls="atelier" aria-selected="false" tabindex="-1" data-group="scale"><span>02</span><b>尺度与感知</b><small>从同行，到天地间的一点</small></button>
+<button id="experiment-rhythm" type="button" role="tab" aria-controls="atelier" aria-selected="false" tabindex="-1" data-group="rhythm"><span>03</span><b>情绪的停留</b><small>入林，越水，见月</small></button>
+</div>
+<section class="atelier" id="atelier" role="tabpanel" aria-labelledby="experiment-medium">
+<div class="art-column">
+<figure class="art-stage"><canvas id="artwork" role="img" aria-label="原创白鸟骑行场景，纸墨中的山、水和拱桥">你的浏览器需要支持 Canvas 才能显示此动画。</canvas><div class="stage-label"><span id="stage-kicker">01 / 媒介的转译</span><h2 id="stage-title">纸与晨雾</h2><p id="stage-subtitle">一条路，在纸上轻轻展开。</p></div><span class="stage-edition" aria-hidden="true">A LITTLE JOURNEY / ORIGINAL WEB STUDY</span><figcaption class="sr-only" id="art-description">同一位骑行的白鸟穿过山水间的拱桥。纸墨、刻线与光迹分别改变主体与环境的表达。</figcaption></figure>
+<div class="playbar"><button id="play" type="button" aria-pressed="true">暂停巡游 <span>Ⅱ</span></button><div class="progress-control"><label for="progress" id="progress-label">本幕进度</label><input id="progress" type="range" min="0" max="1000" value="0" aria-describedby="progress-label"></div><span id="play-status" aria-live="off">01 / 03</span><button id="immerse" type="button" aria-pressed="false">沉浸观看 ↗</button></div>
+</div>
+<aside class="scene-notes"><p class="overline" id="group-label">MEDIUM / 媒介转译</p><p class="group-question" id="group-question">同一个世界，换一种表达，感受会怎样改变？</p><div class="chapters" id="chapters" role="group" aria-label="选择本组章节"></div><div class="chapter-reading" aria-live="polite"><span>这一幕的感受</span><h3 id="feeling">轻、静、带着一点出发的好奇。</h3><p id="connection">同一座桥是下一幕的参照，纸面、雾和留白先让这段路舒展开。</p></div>
+<div class="group-control" id="scale-control" hidden><label for="distance">拉远观看距离 <span id="distance-value">0%</span></label><input id="distance" type="range" min="0" max="100" value="0"><p>拖动时暂停巡游，同一世界与角色一起缩放。</p></div>
+<div class="group-control" id="rhythm-control" hidden><label for="pacing">整组停留节奏</label><select id="pacing"><option value="breathing">随感受停留 · 6 / 12 / 10 秒</option><option value="even">均匀经过 · 每幕 7 秒</option></select><p>换一种停留时长，再播放这一程。</p></div>
+<div class="study-rule"><span>这组保留 / 改变</span><p id="study-rule">保留桥、山水与骑行动作，改变画面和角色的材质、线条与光。</p></div></aside>
+</section>
+<div class="lab-footer"><p><span class="status-dot"></span>先感受，再判断方向。点击章节可停下来细看，也可以整组播放。</p><a href="index.html#framework">查看提炼的创作思路 ↗</a></div>
+<noscript><p class="no-script">这些动画需要启用 JavaScript；原片分析仍可从研究页阅读。</p></noscript>
+</main>
+</body></html>

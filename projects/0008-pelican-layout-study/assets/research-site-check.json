@@ -1,0 +1,117 @@
+{
+  "date": "2026-11-17",
+  "result": "pass_for_recorded_scope",
+  "url": "http://127.0.0.1:52918/index.html",
+  "scope": "research reading website; no new art demo or publication",
+  "static": {
+    "html_pages": 32,
+    "local_links_and_resources": 809,
+    "documents": 12,
+    "data_records": 12,
+    "search_entries": 166,
+    "raw_source_copies": "byte-identical",
+    "scene_entries": 21,
+    "homepage_sha256": "d3c55b7ec0377693a3b84f7ae5d0861092cf4414690c4c0c2ee18844edb0f5b9"
+  },
+  "browser": {
+    "surface": "ChatGPT in-app browser",
+    "desktop_viewport": [
+      1280,
+      900
+    ],
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "final_viewport_reset": [
+      653,
+      871
+    ],
+    "checked": [
+      "12 chapter navigation and current chapter label",
+      "21 scene selectors with correct titles/counts",
+      "scene-21 deep link and disabled next button",
+      "scene-5 deep link and search route to image/analysis",
+      "image modal and Escape on desktop",
+      "Home then ArrowRight selects scene 2",
+      "mobile image modal and close button",
+      "history-main-thread search to homepage chapter",
+      "portal review search to full archive",
+      "prompt search to JSON document (9446 characters observed)",
+      "12-document and 12-data archive directory",
+      "no-result search feedback",
+      "mobile collapsible TOC and lessons chapter",
+      "mobile original-analysis archive"
+    ],
+    "page_overflow": false,
+    "mobile_document_width": 375,
+    "console_errors": [],
+    "console_warnings": [],
+    "limits": [
+      "no screen reader audit",
+      "no physical mobile device",
+      "all exported links checked statically; not every external link visited",
+      "existing experiments are archival cases, their art quality is not revalidated"
+    ],
+    "search_entries_at_browser_check": 163,
+    "final_search_entries_after_archiving_qa_notes": 166
+  },
+  "screenshots": {
+    "research-archive-20261117.jpg": {
+      "sha256": "40932f8983b628f5b69a9b9d3b6594620de70c321f91b30a9d099e6c7986a095",
+      "bytes": 49349,
+      "image_size": {
+        "width": 1265,
+        "height": 889
+      }
+    },
+    "research-home-20261117.jpg": {
+      "sha256": "b5a66fbff0361222d081e51d6d8034082105701136351bd6aa5d0ea2aba55ea0",
+      "bytes": 129506,
+      "image_size": {
+        "width": 1265,
+        "height": 889
+      }
+    },
+    "research-mobile-20261117.jpg": {
+      "sha256": "127cb8c4865875b5b8e8d0f6f6cd443a1c6a8207ac0b2df77325c5c30eaccc46",
+      "bytes": 47658,
+      "image_size": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    "research-mobile-reader-20261117.jpg": {
+      "sha256": "9cc874c2da62617aeeafe6a52c73134aa3743cb7e873bb4c290f4508d47dcf6d",
+      "bytes": 39044,
+      "image_size": {
+        "width": 375,
+        "height": 812
+      }
+    },
+    "research-reader-20261117.jpg": {
+      "sha256": "fd973d8580c2d1fc83c0e7664504c11f5b08a83437895bb9c4f896237c318397",
+      "bytes": 129510,
+      "image_size": {
+        "width": 1265,
+        "height": 889
+      }
+    },
+    "research-search-20261117.jpg": {
+      "sha256": "c4213b4e44a3da7a391b8cc899407992e54c2aabdcabec3d4dec2aa81c1e2233",
+      "bytes": 34641,
+      "image_size": {
+        "width": 1265,
+        "height": 889
+      }
+    }
+  },
+  "source_hashes": {
+    "web\\index.html": "ef224f272acba683b185205c56b9d7bcc1addd470498fde1ad6fdc07cb59f7da",
+    "web\\research.css": "73a81bf90a8f0483560a2247aa7704676e79bbb4a970890320c5d3e58639ddab",
+    "web\\research.js": "4a6ed6a2bf8cfca3f3986c2c1c03199bce284ab933114835295f305f5befe66e",
+    "web\\reader.js": "794f6bed6ea4b2752e33bc054909b6f4bcf17da46aaa5d58a1a8980602efb873",
+    "web\\research-data.js": "f8537fdf22676a4f8a38e151d68d07460f272cd2f01f62acfcdfaa9330e73aea",
+    "scripts\\build_research.py": "a80f53a9d5de468976e3c7288f0488e253a114a95545848ff684b13294d4251a"
+  }
+}

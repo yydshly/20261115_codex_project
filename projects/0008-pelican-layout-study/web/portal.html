@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171e23">
+<meta name="description" content="从静止的雕版回廊，到有风的彩色植物花园。跟随撑伞旅人发现入口、靠近、探手、穿越与回望，一段46秒的原创实时三维艺术行旅。">
+<title>一道门，两种世界 · 传送习作</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%23171e23'/%3E%3Cpath d='M19 52V26a13 13 0 0 1 26 0v26' fill='none' stroke='%23e6af76' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="connections.css">
+<script type="importmap">{"imports":{"three":"./vendor/three/three.module.min.js"}}</script>
+<script type="module" src="connections.js"></script>
+</head><body data-focus="portal">
+<a class="skip" href="#player">跳到体验</a>
+<header><a class="brand" href="index.html"><span class="brand-mark">◌</span><span>场景之间<small>STUDIES IN PASSAGE</small></span></a><nav aria-label="作品导航"><a href="connections.html">七种连接 ↗</a><a href="rain.html">《雨》行旅 ↗</a></nav><span class="edition">传送习作 / 46 秒</span></header>
+<main><section class="intro"><div><p class="eyebrow">A PASSAGE FROM PRINT TO WIND</p><h1>一道门，<span>两种世界。</span></h1></div><p>从纸上的线，到风中的叶。<br>先发现，再愿意走进去。</p></section>
+<div id="methods" role="tablist" aria-label="连接方式" hidden></div>
+<section class="player" id="player" aria-label="传送艺术行旅" data-ready="false" data-playing="false">
+<canvas id="passage" tabindex="0" aria-label="雕版回廊里的撑伞旅人，按开始观看发现入口与穿越。">演示需要支持 WebGL 2 的浏览器。</canvas>
+<div class="frame-top"><span id="method-label">门与传送</span><span id="place-label">图版回廊 · 线刻与长影</span></div>
+<div id="verse" class="verse" aria-live="off"><span id="verse-kicker">在一座安静的图版回廊里。</span><p id="verse-text">刚才，<br>是不是有风经过？</p></div>
+<button class="start" id="start" disabled><span>▷</span><span>跟他走近这扇门<small>46 秒 · 可暂停细看</small></span></button>
+<div class="loading" id="loading" role="status">正在展开图版与花园…</div>
+<div class="end-note" id="end-note" hidden><span>来处仍在，远方已不同。</span><p id="end-line">回望来处，风已经把远方带近。</p><div><button id="replay">再走一遍 ↻</button><button id="next">重新发现这扇门 →</button></div></div>
+<div class="controls"><button id="play" disabled aria-pressed="false" aria-label="播放">▷ 播放</button><input id="progress" type="range" min="0" max="46" step="0.02" value="0" aria-label="观看进度（秒）" disabled><output id="clock" for="progress">00:00 / 00:46</output><button id="expand" aria-pressed="false" aria-label="展开观看">展开 ↗</button></div>
+</section>
+<section class="reading" aria-live="polite"><div><p class="eyebrow" id="reading-kicker">雕版回廊 → 风生花园</p><h2 id="reading-title">先有一阵风，才发现另一种世界。</h2></div><p id="reading-body">一片彩色花瓣来到脚边，他才注意到门里的世界。先停步，再靠近，探手之后才跨过去。</p><div class="comparison"><span>情绪的承接</span><p id="feeling">好奇 → 惊奇 → 向往</p><button id="turning-point">停在跨越的一刻 ↗</button></div></section>
+<details class="notes"><summary>这段行旅怎样串起来？<span>＋</span></summary><div><p>门前的雕版回廊以刻线、平直墙体、印版浮雕和灰褐长影收住观看。它有自己的材料与秩序；门缝里的花瓣和水光，先打破这份安静。</p><p>门后的花园以弯曲叶片、巨大花瓣、明亮色块、水中倒影和风展开。线刻的枝，变成会动的叶；情绪随人物的停顿、试探、迈步与回望变化。</p><p>原创程序建模的实时三维习作，无生成视频。两侧为独立建模的艺术空间；门内远景随视点变化，身体在门槛两侧连续裁切，回望时仍能看见来处。空格暂停，方向键前后 1 秒。</p></div></details>
+<footer><span>FROM A STILL LINE, INTO A BREATHING WORLD.</span><a href="connections.html">回到七种连接方式 ↗</a></footer>
+</main></body></html>
