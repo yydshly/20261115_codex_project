@@ -5,7 +5,8 @@
 - 原文：[100 个提升审美的设计网站大赏](https://x.com/EianLu/status/2121219503988113557)，Eian，2026-11-13。
 - 分享来源：[推荐帖](https://x.com/EianLu/status/2121430416808894617)。
 - 整理与验证：2026-11-16，北京时间；状态以根目录 `projects.json` 为准。
-- 网页源码：[web/index.html](web/index.html)；本地启动：[start.cmd](start.cmd)。本轮接入统一GitHub Pages发布，实际地址与验收见[publication.md](publication.md)；公开验证后再登记`demo_url`。
+- 公开阅读：[观式设计与影像参考库](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/)。2026-11-17实际核验通过，详见[publication.md](publication.md)。
+- 网页源码：[web/index.html](web/index.html)；本地启动：[start.cmd](start.cmd)。
 - 离线阅读：运行 `python scripts/build.py`，然后双击生成的 `dist/index.html`。目录、预览图、样式与脚本全部内嵌，无需服务或网络；外链示例仍需联网。
 
 ![九类资源的效果、原理与我们项目价值总览](assets/effects-principles-value-overview-v1.png)
