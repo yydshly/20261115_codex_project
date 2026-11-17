@@ -10,7 +10,7 @@
 
 - 固定入口：`https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/`。
 - 架构图：`explore.html#poster`；交互架构：`explore.html#architecture`；全部效果与工程：`effects.html`。
-- 沿用仓库 GitHub Actions / Pages，保留原有三个已发布项目；本次不包含其他聊天的工作区修改。
+- 沿用仓库 GitHub Actions / Pages，保留原有已发布项目；本次不包含其他聊天的工作区修改。
 - Git 保存研究源码、图册、记录与媒体清单；Release 保存静态媒体及最小查看引擎，构建时逐项校验文件名、大小与 SHA-256。
 - 6 段视频、6 个查看入口、98 项去重图片、39 份工程/几何文件。PLY/.blend 使用无损压缩，客户端还原后校验 SHA-256；NPZ 在完整媒体归档内下载。
 - 不重新生成或覆盖旧模型。第三方许可见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

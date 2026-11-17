@@ -8,6 +8,7 @@ on:
       - 'projects/0003-ai-wide-area-modeling/**'
       - 'projects/0009-ai-source-field-guide/**'
       - 'projects/0011-everyday-wonders/**'
+      - 'projects/0021-avatar-video-workflow/**'
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'

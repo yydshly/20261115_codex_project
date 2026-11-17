@@ -1,0 +1,11 @@
+{
+  "scene_asset_dependencies_are_relative": true,
+  "outside_dependencies": [],
+  "frames": 77,
+  "images": [
+    {
+      "image": "screen_0001.png",
+      "relative_path": "//screen-frames\\screen_0001.png"
+    }
+  ]
+}

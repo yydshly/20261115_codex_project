@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-17",
+  "mode": "publication artifact",
+  "six_pages": "passed",
+  "checked_relative_links": 66,
+  "media_sources": [
+    "media/complete.mp4",
+    "media/matting.mp4",
+    "media/scene.mp4",
+    "media/template.mp4"
+  ],
+  "original_full_video_and_comparison_not_embedded": true,
+  "guide_sha256": "232a6040914ae2ea62e6ce601a01c125753e023f861323f03d5ae0503bc6246a",
+  "guide_is_exact_generated_png": true,
+  "source_text_hashes": "passed",
+  "template_crc_and_privacy": "passed",
+  "template_file_hashes": "passed",
+  "localhost_media_server_required": false,
+  "live_deployment": "pending"
+}

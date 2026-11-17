@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **4** 个项目。
+已收录 **5** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | 2 | `0003` | [从单图到可编辑三维 · 运河世界研究](projects/0003-ai-wide-area-modeling/README.md) | 从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。 | 研究中 | [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling) |
 | 3 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 4 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
+| 5 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) |
 
 ## 项目图览
 
@@ -82,6 +83,24 @@
 2026-11-16 本库整理，2400×4480；文字、故事与图文编排为本次讨论沉淀，内含原片定位缩略图，画面权利归相关权利人。
 
 [进入研究](projects/0011-everyday-wonders/README.md) · [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html)
+
+### 0021 · 数字人口播制作 · 能力、样片与复用工作流
+
+从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。
+
+理解与思路：以14模块、28问的完整研究图，梳理模型、数字人平台、编排、内容与后期的分工，保留原作者声明、实测和判断的区别。
+
+实际效果：5秒抠像与字幕、5秒三维屏幕、10秒整合和6秒换配置片；保留连续原声与音画校对，人物仍是二维视频素材。
+
+复用价值：本次创建的后期模板可替换素材和文字，复用抠像与三维缓存；新人物、真实图表、上游生成和批量收益仍需进一步验证。
+
+阅读引导：先点击下图看完整全景，再进入网页播放样片、看制作方法与选型价值，最后使用配置导出和模板源码。
+
+[![数字人口播研究全景图顶部预览，展示四层能力与核心理解；完整图展开真实效果、制作流程、模板价值、后续路线和28个问题](projects/0021-avatar-video-workflow/assets/overview-preview.jpg)](projects/0021-avatar-video-workflow/assets/avatar-research-overview-v1.png)
+
+2026-11-17 本轮生成的研究全景图；点击顶部预览查看 3200×26588 完整 PNG。包含真实样片、14 个模块与 28 问，人物和原声来自 @tm\_uchal；已实测与待验证分别标明。
+
+[进入研究](projects/0021-avatar-video-workflow/README.md) · [参考来源](https://x.com/AndyL5cc/status/2121553136615596139)
 
 <!-- PROJECTS:END -->
 

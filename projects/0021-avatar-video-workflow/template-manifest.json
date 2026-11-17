@@ -1,0 +1,62 @@
+{
+  "skill": "avatar-motion-template",
+  "snapshot_date": "2026-11-17",
+  "machine_profile_included": false,
+  "model_weights_included": false,
+  "original_video_included": false,
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "7d5802e9b2d8254a14cba4e3bc088b539c7dd9fd6b68d91f6473aef7a9ae3759"
+    },
+    {
+      "path": "assets/preset.json",
+      "sha256": "998c9a12fee8a34a759cead5b277b84542300b77211a89060cc4951099894e8c"
+    },
+    {
+      "path": "assets/RVM-LICENSE.txt",
+      "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b"
+    },
+    {
+      "path": "assets/style-reference.jpg",
+      "sha256": "b77938720fb110411affae75eb49a14a70f2f2c4ce6949dd95e2be246d01737f"
+    },
+    {
+      "path": "references/configuration.md",
+      "sha256": "b969c6102e6cda436e4fe68cdc1454a98d5266c1d4aede98e73e3692d30417fb"
+    },
+    {
+      "path": "references/validation.md",
+      "sha256": "c4a2f247ba7e575e7e855897f15873f60854952dd8d1f87856e42be586ee5953"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "75dc48b14a1c6ba1af649e8b6f8dc132e0ee82675b841d82c3615e7974b0fb2d"
+    },
+    {
+      "path": "scripts/avatar_video.py",
+      "sha256": "62eabccf392193cd4bb69f251a4216bad6d87d7936d2924c1be4f6f6a5ebc9dc"
+    },
+    {
+      "path": "scripts/composition.py",
+      "sha256": "1b43a90c42ed835db8613140fa186d2529bcd49612f567df8bdc51b7e5cb7a81"
+    },
+    {
+      "path": "scripts/preparation.py",
+      "sha256": "3a3c6e66946eac543a065bb3e1cfec64677792d315e742fbca3c2ef07ca89e32"
+    },
+    {
+      "path": "scripts/scene.py",
+      "sha256": "133010e667041aceba651e7459cbb12e5fd61c77f3f0119634b537a8daa2b1ac"
+    },
+    {
+      "path": "scripts/verification.py",
+      "sha256": "0acc953a0cb3ac6522be418bfb482408f1e7be79ed4382338ffdad99db86797d"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "06ee1c3f65477978e7661fb51cb2b7e4d1ce3204c028483551e96854ff56864c"
+    }
+  ],
+  "text_encoding": "UTF-8; canonical LF line endings for portable snapshot checksums"
+}

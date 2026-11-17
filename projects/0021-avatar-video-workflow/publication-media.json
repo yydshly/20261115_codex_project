@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "version": "avatar-workflow-media-20261117",
+  "url": "https://github.com/yydshly/20261115_codex_project/releases/download/avatar-workflow-media-20261117/avatar-workflow-media-20261117.zip",
+  "sha256": "d54e1fe31356c43412db0a535f8ea05a901edfee0aef5ef0d59e032e93bbe48b",
+  "bytes": 11494337,
+  "files": [
+    {
+      "path": "media/matting.mp4",
+      "sha256": "dc8abb9f6f4cf47593ce732714177b000f7dc29b395b76af9995fcc5b55d4f56",
+      "bytes": 816312
+    },
+    {
+      "path": "media/scene.mp4",
+      "sha256": "5a5ade818c1fe527ca779bd693f7483f740a9ba5cd35c8c4844fa042b0fef0df",
+      "bytes": 3780183
+    },
+    {
+      "path": "media/complete.mp4",
+      "sha256": "38ad27887b26f625370c1e5c8d7c9992ec370fc6c7a47f691479d1db6829303c",
+      "bytes": 4143240
+    },
+    {
+      "path": "media/template.mp4",
+      "sha256": "0ddd9aa94d20d812f191e0795133f3d4153e6da918d16c61183e410f864bfd83",
+      "bytes": 2769749
+    }
+  ],
+  "scope": "Four transformed postproduction samples for attributed research presentation; full reference and raw comparison videos excluded",
+  "credit": "Original presenter, voice and music: @tm_uchal; local compositing, scene code and explanatory Chinese text: this project"
+}
