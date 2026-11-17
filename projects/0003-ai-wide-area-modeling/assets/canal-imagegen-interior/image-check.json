@@ -1,0 +1,121 @@
+{
+  "scope": "Generated image lighting counterfactual and 2D layout screening, not 3D relighting",
+  "opencv_version": "4.13.0",
+  "images": {
+    "approach": {
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "e7b16998002e7cc466351476ffdc9c056a82db214bd55f48cc4d63e2f04b8d7f"
+    },
+    "interior-on-v1-threshold": {
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "8148915e2fde472e0b0344da5c5365c4eb268520e4685429f37d53a6ba3f0837"
+    },
+    "interior-on": {
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "a301c6927c2fdb273406876e162fab35182a93697c12665b99812567f59b205c"
+    },
+    "interior-off": {
+      "shape_hw": [
+        941,
+        1671
+      ],
+      "sha256": "43fcfad8027be1325aed0020174cd2594557b41aa4627453aa742a9e069999d4"
+    },
+    "reverse": {
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "9962c4160b9eca3f49a9a92be7cac33258ca2439b98f1ab268fa45583cd13ef4"
+    }
+  },
+  "same_camera_image_pair": {
+    "method": "2D SIFT mutual ratio 0.72, raw displacement and spatially held-out homography check",
+    "matched_features": 920,
+    "occupied_cells_of_8_by_5_grid": 32,
+    "raw_displacement_median_px": 1.3388369657611765,
+    "raw_displacement_p90_px": 2.2165244353533593,
+    "raw_fraction_within_2px": 0.8391304347826087,
+    "homography": [
+      [
+        0.9987578154239636,
+        0.00034453173341256703,
+        -0.7431514389701864
+      ],
+      [
+        -0.0005660503371845174,
+        1.0033716289798578,
+        -2.011944396922264
+      ],
+      [
+        -1.1551492387955823e-06,
+        3.643970877956998e-07,
+        1.0
+      ]
+    ],
+    "fit_inlier_fraction": 0.9515050167224081,
+    "held_out_features": 322,
+    "held_out_residual_median_px": 0.554509905749371,
+    "held_out_residual_p90_px": 1.418061323953636,
+    "limitations": "Only matched visible texture is checked. Low-light regions may be absent; identities and full geometry are not certified."
+  },
+  "luminance_samples": {
+    "nearest_pendant_bulb": {
+      "rectangle_normalized": [
+        0.399,
+        0.133,
+        0.424,
+        0.173
+      ],
+      "on_mean_linear_luminance": 0.7366216612950592,
+      "off_mean_linear_luminance": 0.047744525077847814,
+      "off_to_on_ratio": 0.06481553229633223
+    },
+    "front_counter": {
+      "rectangle_normalized": [
+        0.16,
+        0.69,
+        0.32,
+        0.76
+      ],
+      "on_mean_linear_luminance": 0.27703114866879636,
+      "off_mean_linear_luminance": 0.044151525072170315,
+      "off_to_on_ratio": 0.15937386566214445
+    },
+    "rear_shelves": {
+      "rectangle_normalized": [
+        0.77,
+        0.39,
+        0.9,
+        0.56
+      ],
+      "on_mean_linear_luminance": 0.08865709245812835,
+      "off_mean_linear_luminance": 0.005890720124242609,
+      "off_to_on_ratio": 0.06644386772580799
+    },
+    "floor_aisle": {
+      "rectangle_normalized": [
+        0.69,
+        0.79,
+        0.8,
+        0.94
+      ],
+      "on_mean_linear_luminance": 0.19956363535914762,
+      "off_mean_linear_luminance": 0.011331700426793751,
+      "off_to_on_ratio": 0.05678239127284132
+    }
+  },
+  "luminance_limit": "Image-domain measurements only. No calibrated exposure, light transport, albedo recovery or physical light control is established.",
+  "spatial_consistency": "Not established. Reverse-view actual pose and continuity of counter/appliance positions remain unverified.",
+  "native_3d_or_gaussian_light_control": false,
+  "old_models_modified": false
+}

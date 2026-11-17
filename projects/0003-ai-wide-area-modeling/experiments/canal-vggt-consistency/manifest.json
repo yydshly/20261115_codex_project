@@ -1,0 +1,74 @@
+{
+  "model_source": "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/vggt-canal-runtime/source/vggt-a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "weights": "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/vggt-canal-runtime/model/model.safetensors",
+  "out": "F:/codex_project2/1115_codex_project/.local/canal-vggt-consistency",
+  "views": [
+    {
+      "id": "original",
+      "label": "原图",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png"
+    },
+    {
+      "id": "left",
+      "label": "左移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png"
+    },
+    {
+      "id": "right",
+      "label": "右移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png"
+    },
+    {
+      "id": "approach",
+      "label": "门口近看",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png"
+    },
+    {
+      "id": "threshold",
+      "label": "门槛初稿",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png"
+    },
+    {
+      "id": "inside",
+      "label": "室内开灯",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png"
+    },
+    {
+      "id": "reverse",
+      "label": "室内回望",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png"
+    },
+    {
+      "id": "off",
+      "label": "室内关灯",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-off.png"
+    }
+  ],
+  "groups": [
+    {
+      "id": "joint",
+      "view_ids": [
+        "original",
+        "left",
+        "right",
+        "approach",
+        "threshold",
+        "inside",
+        "reverse"
+      ]
+    },
+    {
+      "id": "lighting",
+      "view_ids": [
+        "inside",
+        "off"
+      ]
+    }
+  ],
+  "protected_sources": [
+    "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/assets/reference.png",
+    "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/canal-sharp-results/canal-sharp.ply",
+    "F:/codex_project2/1115_codex_project/.local/cafe-source-bound/cafe-source-bound.blend",
+    "F:/codex_project2/1115_codex_project/.local/canal-world-local/canal-world-master.blend"
+  ]
+}

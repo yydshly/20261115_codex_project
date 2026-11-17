@@ -1,0 +1,103 @@
+{
+  "video": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1000,
+        "height": 620,
+        "r_frame_rate": "12/1",
+        "nb_frames": "336"
+      }
+    ],
+    "format": {
+      "duration": "28.000000"
+    }
+  },
+  "appearance_variant": "local source-render surface patch",
+  "source_appearance_metrics": {
+    "source-bound": {
+      "mae_rgb_255": 1.8978046181172292,
+      "psnr_db": 30.102000546406494,
+      "cafe_roi_mae_255": 12.744866920152091
+    },
+    "source-baseline": {
+      "mae_rgb_255": 3.048628774422735,
+      "psnr_db": 24.482045643287936,
+      "cafe_roi_mae_255": 28.992667028788702
+    },
+    "source-bound-noappearance": {
+      "mae_rgb_255": 60.17715334517466,
+      "psnr_db": 10.784861064027748,
+      "cafe_roi_mae_255": 45.42504073872895
+    }
+  },
+  "original_primitives_byte_identical": 1048246,
+  "patch": {
+    "background_gaussians": 1095075,
+    "room_gaussians": 25970,
+    "door_gaussians": 7299,
+    "resampled_ground": 23631,
+    "replaced_original_room": 51323,
+    "replaced_original_ground": 49582,
+    "unchanged_street_source_primitives": 1048246,
+    "appearance_source": "Actual original SHARP source-camera render. No Blender-generated appearance. Original raw PLY and previous derivatives retained.",
+    "source_render_sha256": "669babb1951b2e40129b01a456338899da42bbf02ef394de7286d21a528f1720",
+    "scope": "Local source-appearance surface resampling; designed geometry and unseen-side PBR remain explicit priors, not recovered hidden truth."
+  },
+  "background_centers_inside_designed_room": {
+    "before": 4558,
+    "after": 0,
+    "meaning": "Centers only, not a guarantee that every ellipsoid or edge artifact is eliminated"
+  },
+  "max_door_binding_matrix_error": 0.0,
+  "constant_render_layer_states": 1,
+  "all_original_appearance_layers_enabled": true,
+  "continuity": {
+    "max_position_step": 0.3064091284250817,
+    "max_rotation_degrees": 3.015621224914728
+  },
+  "source_files_unchanged": {
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\canal-sharp-results\\canal-sharp.ply": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\cafe-hybrid-prototype.blend": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\cafe-structure.glb": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\background.ply": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\door-skin.ply": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\layout.json": true,
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\binding.json": true,
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\assets\\reference.png": true
+  },
+  "visual_quality_gate": {
+    "passed": false,
+    "remaining": [
+      "Photo detail is still stretched or misregistered on some interior surfaces",
+      "Unseen PBR faces and photo-Gaussian faces still show seams",
+      "Context is a designed completion, not recovered novel views",
+      "Baked light is not physically relightable by these operations"
+    ]
+  },
+  "scope": "Actual Spark source-Gaussian+mesh hybrid captures. No Cycles footage substitutes for Gaussian footage; no new learned model, API or image generation.",
+  "unchanged_source_bytes_exact": true,
+  "ui_checks": {
+    "noBrowserOrShaderErrors": true,
+    "openFrame": true,
+    "closedFrame": true,
+    "appearanceToggle": true,
+    "wireToggle": true,
+    "contextToggle": true,
+    "tourPlays": true,
+    "pauseStable": true,
+    "originalMode": true
+  },
+  "player_check": {
+    "errors": [],
+    "playing": {
+      "time": 13.9171,
+      "duration": 28,
+      "width": 1000,
+      "height": 620,
+      "paused": false
+    },
+    "seek26": true,
+    "passed": true
+  }
+}

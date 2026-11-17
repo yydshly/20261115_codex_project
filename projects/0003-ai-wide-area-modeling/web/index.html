@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="从一张运河概念图到完整可编辑世界：探索过程、真实实验、模型与产品、证据和未解决的问题。">
+  <meta name="theme-color" content="#163e38"><title>一张图，走进一座城 · 运河三维研究手记</title>
+  <link rel="icon" href="mark.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="effects.css">
+  <script src="publication.js" defer></script><script src="data.js" defer></script><script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到正文</a>
+<aside class="sidebar">
+  <a class="brand" href="#overview"><span class="brand-mark">川</span><span>空间研究手记<small>CANAL / RESEARCH 003</small></span></a>
+  <p class="sidebar-intro">从图像的真实感，<br>走向空间的可操作性。</p>
+  <nav aria-label="研究目录">
+    <a href="#overview"><span>01</span> 目标与现状</a><a href="explore.html#poster"><span>图</span> 高清总图与实验证据 ↗</a><a href="explore.html#architecture"><span>链</span> 单图到 3D 交互架构 ↗</a><a href="#understanding"><span>02</span> 我们现在的理解</a>
+    <a href="#journey"><span>03</span> 探究如何推进</a><a href="#experiments"><span>04</span> 真实实验档案</a>
+    <a href="#gallery"><span>05</span> 补图与空间检验</a><a href="#products"><span>06</span> 模型与产品全览</a>
+    <a href="#questions"><span>07</span> 问题与答案</a><a href="#next"><span>08</span> 验收与下一步</a>
+    <a href="#sources"><span>09</span> 来源与复现资料</a>
+  </nav>
+  <div class="sidebar-bottom"><a href="effects.html">全部效果与工程 ↗</a><br><span class="status-dot"></span> 研究进行中 · 完整场景未通过验收<small>资料整理 / 2026.11.16<br>本机研究网页 · 未公开部署</small><a href="records.html?file=README.md">打开研究原文 ↗</a> · <a href="records.html?file=CONCLUSIONS.md">理解汇总 ↗</a> · <a href="../../">总导航 ↗</a></div>
+</aside>
+<main id="main">
+  <div class="topline"><span>FIELD NOTES <b>／</b> 从单图到三维世界</span><button id="print-button" class="text-button">打印 / 保存 PDF ↗</button></div>
+  <section id="overview" class="hero">
+    <p class="eyebrow">AN IMAGE IS A BEGINNING</p><h1>一张图，<br>走进一座城。</h1><p style="margin:14px 0 20px;font-size:13px"><a href="explore.html#poster">按步骤整合的完整研究图 · 放大查看 ↗</a>　<a href="explore.html#architecture">一张图到 3D · 交互架构 ↗</a></p>
+    <p class="hero-deck">我们要的，是能走到桥边、推门进入咖啡店、转身看街道，<br class="desktop">还能在 Blender 中编辑结构和灯光的同一份三维场景。<br><a class="result-entry" href="effects.html">查看全部视频、可拖动三维与工程文件 ↗</a></p>
+    <figure class="hero-image"><img src="assets/canal-single-vggt/reference.png" alt="唯一运河参考图：左岸红棚咖啡店与相邻店铺，右侧石桥和水面" fetchpriority="high"><div class="image-label"><span>唯一原始参考</span><b>AI 生成的运河概念图</b></div><figcaption>1672 × 941 · 历史原图 · 没有实拍侧面、室内、尺度与深度真值</figcaption></figure>
+    <div class="current-verdict"><span class="label">目前的结论</span><h2>外观已经有了。完整、稳定、可编辑的空间，还没有。</h2><p>单图高斯能保留原图观感；门轴联动和实体换灯也跑通过。但移动到近景、跨门口、进入室内、原位回望时，空间与外观仍不可靠。最后一次 A/B 过渡补图未通过连接检验，当前暂停继续堆通用补图，尚未训练这批图片的高斯。</p><a href="#experiments">看实际证据与失败原因 ↓</a></div>
+    <div class="goal-grid"><article><span>外观</span><h3>接近原图</h3><p>保留墙面、植物、湿地、暖光和水面细节。</p></article><article><span>空间</span><h3>多角度共用</h3><p>不是换图，而是同一世界中的连续移动。</p></article><article><span>编辑</span><h3>对象可操作</h3><p>墙、门、柜台、房间有结构和所属关系。</p></article><article><span>光照</span><h3>真正能换灯</h3><p>材料与照明可控，阴影和反射随之变化。</p></article></div>
+  </section>
+  <section id="understanding"><div class="section-heading"><div><p class="eyebrow">02 / THE WORKING UNDERSTANDING</p><h2>同一条流程里，<br>各自负责什么？</h2></div><p>模型、算法、表示、工具和流程不是同一类东西。它们可以组合，彼此也不能自动代替。</p></div>
+    <p style="margin-bottom:18px;font-size:13px"><a href="explore.html#architecture">展开完整架构：输入、输出、库、能力边界与关联实验 ↗</a></p><div class="pipeline" id="pipeline"></div><div id="pipeline-detail" class="pipeline-detail" aria-live="polite"></div>
+    <div class="routes"><article><span class="label">真实地点 · 有重叠照片</span><h3>观测优先，几何作依据</h3><p>实拍多图 → COLMAP / VGGT → 相机与几何核查 → 3DGS 外观或 Blender 建模。尺度要实测，遮挡处要补采。</p></article><article><span class="label">我们的运河 · 只有 AI 原图</span><h3>先补出一个自洽的世界</h3><p>原图 → 有空间约束的生成与补全 → 多视角验证 → 高斯外观＋实体结构。原图之外的内容属于设计，不能称为恢复唯一真实场景。</p></article></div>
+    <div class="corrections" id="corrections"></div>
+  </section>
+  <section id="journey"><div class="section-heading"><div><p class="eyebrow">03 / HOW OUR QUESTIONS EVOLVED</p><h2>你的追问，推动了方案修正。</h2></div><p>按讨论与实验的先后整理。这里是问题和判断的转变，不是完成百分比。</p></div><div class="timeline" id="timeline"></div></section>
+  <section id="experiments"><div class="section-heading"><div><p class="eyebrow">04 / WHAT WE ACTUALLY TRIED</p><h2>把结果摆出来，<br>也把没有通过的留下。</h2></div><p>所有画面都来自本图的实际生成、渲染或诊断。没有使用厂商演示替代我们的成果。</p></div>
+    <div class="experiment-layout"><div id="experiment-tabs" class="experiment-tabs" role="tablist" aria-label="实验档案"></div><article id="experiment-detail" class="experiment-detail" role="tabpanel" tabindex="0"></article></div>
+  </section>
+  <section id="gallery"><div class="section-heading"><div><p class="eyebrow">05 / SAME PLACE, OR SIMILAR PICTURES?</p><h2>看起来是同一个地方，<br>还要经得起空间检验。</h2></div><p>选择一张实际候选。点击大图放大；提示词中的机位意图不等于标定后的相机。</p></div>
+    <div id="view-tabs" class="view-tabs" role="tablist" aria-label="运河与咖啡店补图"></div><figure class="view-stage" id="view-stage"></figure>
+    <div class="diagnostic-panel"><div><span class="label">最新检查 / 9 图联合与子集对照</span><h3>补图增多了，入口仍没接通。</h3><p>二维匹配支持分成了“室外＋A＋门口”和“B＋门槛＋室内”，回望仍孤立。固定 VGGT 的相机与深度后，关键投影偏差超出自定门槛。</p><p>“未验证连接”不等于物理上绝不可能连接，也不能把每个自动误配都算成图片几何错误。</p><a href="records.html?file=experiments/canal-entry-bridge-test/README.md">检查方法、原始统计与限制 ↗</a></div><button class="image-button" data-image="assets/canal-entry-bridge-test/before-after-verdict.png" data-caption="两张过渡图补入前后的真实验收；门槛为本研究自定"><img src="assets/canal-entry-bridge-test/before-after-verdict.png" alt="补图前后验收对照，新增连接仍未通过" loading="lazy"></button></div>
+    <div class="table-wrap"><table><caption>新增连接 · 宽 1000 像素评价尺度 · 固定模型预测的前向中位投影偏差</caption><thead><tr><th>图对</th><th>筛选对应</th><th>9 图联合</th><th>单独两图</th><th>判断</th></tr></thead><tbody><tr><td>原图 → A</td><td>89</td><td>7.5px</td><td>4.3px</td><td>联合与尾部仍超标</td></tr><tr><td>A → 原门口</td><td>53</td><td>60.6px</td><td>52.1px</td><td>投影冲突候选</td></tr><tr><td>原门口 → B</td><td>15</td><td>—</td><td>—</td><td>证据不足</td></tr><tr><td>B → 原门槛</td><td>87</td><td>29.5px</td><td>17.2px</td><td>未通过</td></tr><tr><td>B → 室内</td><td>38</td><td>46.2px</td><td>6.8px</td><td>联合不稳定</td></tr></tbody></table></div>
+    <p class="fineprint">至少 20 对匹配、两图 6×4 网格各覆盖至少 4 格，并有至少 15 个有效投影，才有足够检查支持；局部投影目标为中位 ≤5px、P90 ≤15px。这些是诊断条件，不是全图准确率或行业标准。旧室内图对的 219 对相同对应，在 7 图联合时中位 12.9px，9 图时变为 58.9px；变化混合了输入上下文与预测不稳定，不能单独归罪于新图。</p>
+  </section>
+  <section id="products"><div class="section-heading"><div><p class="eyebrow">06 / TOOLS, MODELS & PRODUCTS</p><h2>每种能力，都有位置和边界。</h2></div><p>包含讨论过、实测过和作者流程中的工具。产品宣传与我们的运河实测分开看；查阅过不等于已安装或已使用。</p></div>
+    <div class="product-spotlight"><span class="label">先分清这三个名字</span><h3>Atlas 是 World Labs 的模型与工具体系；JST-2 是 Viggle 的模型；PINOC 是产品入口。</h3><p>Atlas 官方说明强调带相机位姿的共享空间上下文；JST-2 官方说明强调保持身份的三维原子表示，再解码为图像或高斯。二者不能都简化成“分别补几张相似图，再用 COLMAP 拼起来”。具体训练配方没有全部公开，我们也没有用这张运河图实测它们。</p></div>
+    <div class="product-controls"><label class="search-label"><span>检索工具</span><input id="product-search" type="search" placeholder="搜索名称、用途、输出或限制…"></label><label><span>能力环节</span><select id="product-category"><option value="all">全部环节</option></select></label><label><span>研究状态</span><select id="product-status"><option value="all">全部状态</option><option value="tested">本图已实测</option><option value="read">仅资料研究</option><option value="mentioned">仅提及 / 接口待核对</option></select></label></div>
+    <p id="product-count" class="result-count" aria-live="polite"></p><div id="product-grid" class="product-grid"></div><p id="product-empty" hidden>没有匹配项。可以缩短关键词或切回“全部环节”。</p>
+    <div class="cost-note"><h3>免费额度、费用与实现代价</h3><p><b>2026-11-16 官方页面复核：</b>PINOC 列出一次性 60 试用积分，免费档限个人评估／原型，含一次动作和一次角色导出；这不等于场景能力可无限免费用。Viggle API 另给新账户 100 积分（1 美元）；Scene Model 按每次模型运行处理的视图计费，每视图 0.01 美元，全景计 6 视图。Atlas 当前入口需要登录，本次没有确认账户可用额度或套餐现价。</p><p>服务试用、官方推理成本和用户账单是三回事。自行拼流程可以复用模型；从零训练 Atlas / JST-2 级空间模型还涉及数据、训练、算力和质量评估，现有 8GB 级本机不是这类训练的可行预算依据。没有使用你的付费额度或调用这些 API。</p><a href="https://viggle.ai/pinoc/pricing" target="_blank" rel="noopener noreferrer">PINOC 官方价格 ↗</a> · <a href="https://docs.viggle.ai/v1/pricing" target="_blank" rel="noopener noreferrer">Viggle API 官方价格 ↗</a> · <a href="https://atlas.worldlabs.ai/" target="_blank" rel="noopener noreferrer">Atlas 官方入口 ↗</a></div>
+  </section>
+  <section id="questions"><div class="section-heading"><div><p class="eyebrow">07 / QUESTIONS WE WORKED THROUGH</p><h2>把绕过的概念，讲明白。</h2></div><p>根据这次对话整理为问答，保留问题原意。不是逐字聊天导出，也没有把尚未验证的能力写成结论。</p></div><label class="search-label question-search"><span>查找问题</span><input id="question-search" type="search" placeholder="例如：灯光、内部、算法、能否替代、失败…"></label><div id="question-list" class="question-list"></div><p id="question-empty" hidden>没有匹配的问题。</p></section>
+  <section id="next"><div class="section-heading"><div><p class="eyebrow">08 / WHAT WOULD COUNT AS SUCCESS</p><h2>两道验收，<br>不能互相替代。</h2></div><p>以下是后续试验的验收方案，尚未执行新的重建；最终采用什么模型仍待决定。</p></div><div class="gates"><article><span>GATE 01 / 共同空间</span><h3>走到哪里，还是同一座店。</h3><ul><li>冻结一份三维场景，任意移动相机；不能随机位换背景或偷偷换图。</li><li>室外左／右、门前、门槛、室内和回望均有重叠依据，固定结构无跳变。</li><li>保留未用于拟合的检查视角，验证遮挡、深度、对应与回环。</li><li>同一个柜台、门框、桥和墙角保留身份；区分误配、动态门叶与反射。</li></ul><b class="gate-result">当前：未通过完整入口与回望</b></article><article><span>GATE 02 / 可编辑与可控</span><h3>能操作内部，不只是看外观。</h3><ul><li>墙、门、柜台、灯具、房间分件可选，网格有厚度和合理遮挡。</li><li>开门与物体移动时，所属高斯同步变换，露出面有真实支撑。</li><li>在同一结构／材质上改变灯光，核对阴影与反射，不切换烘焙缓存冒充。</li><li>交付 .blend、材质、绑定、来源、尺度假设；重开和导出可复核。</li></ul><b class="gate-result">当前：局部门动作通过，整体外观／换光未通过</b></article></div>
+    <div class="next-decision"><h3>我们下一步真正需要比较的，是空间补全能力。</h3><p>保持同一张原图、同一组检查机位、同一验收方法，先验证一个有显式相机／共享三维状态的候选能否跨过咖啡店入口。模型路线可比较 ViewCrafter／GEN3C 与成熟世界生成服务；它们都不是已获胜的方案。本机显存不足时先估算外部算力成本，用户此前把外部模型接入留待决定。</p><p>若坚持只用现有工具，可靠推进需要显式设计和锁定未知布局，再用几何投影约束外观；代价是更多三维制作与人工校验。普通补图可以做外观设计，不能再被当作未经验证的重建真值。共同空间通过后，再验证 Frosting 类绑定／网格化，以及独立的材质和换光流程。</p></div>
+    <div class="value-grid"><article><h3>场景与影片</h3><p>一个空间反复摆机位、走位和预演，不必每个镜头重画一遍。</p></article><article><h3>可积累资产</h3><p>把结构、材质、绑定与生成规则保存下来，服务后续网页和 Blender 项目。</p></article><article><h3>判断工具价值</h3><p>用统一输入和验收识别“能补空间”“能出网格”“能换光”各自的真实边界。</p></article></div>
+  </section>
+  <section id="sources"><div class="section-heading"><div><p class="eyebrow">09 / EVIDENCE & PROVENANCE</p><h2>每个判断，都能回到依据。</h2></div><p>本机实验版本、输入哈希、提示词、指标口径和保护记录保留在原始文档里。这里做阅读入口。</p></div><div id="record-list" class="record-list"></div><details class="source-details"><summary>原始提示词、配置与机器报告</summary><div id="artifact-list" class="source-list"></div></details><details class="source-details"><summary>外部原始来源与相关仓库</summary><div id="source-list" class="source-list"></div></details><div class="provenance"><p><b>内容边界：</b>原图是用户历史 AI 概念图；补图来自本次内置 image_gen，工具没有暴露精确后端型号。模型图、标注图与渲染图各自标注，不把生成图当成现场照片。第三方商标与软件归原权利人所有，开源代码许可不自动授权权重、图片或商业服务。</p><p><b>整理范围：</b>依据本聊天的问题顺序、本库 0003 项目研究与十份实验记录；包含原文证据入口，不是完整逐字聊天导出；未核实的历史工具与外部模型效果继续标为未知。</p><p><b>当前网页：</b>只展示与整理既有成果，没有运行新模型、训练高斯、修改旧工程或发布到外网。静态导出可以移到仓库子路径；视频、三维与原工程统一通过 start.cmd 的只读本机服务查看。</p></div></section>
+  <footer><span class="brand-mark small">川</span><p>一张图，走进一座城。<small>探索尚在继续，结论随证据更新。 / 2026.11.16</small></p><a href="#overview">回到开头 ↑</a></footer>
+</main>
+<dialog id="lightbox" aria-label="图片放大查看"><button id="close-lightbox" autofocus>关闭 ×</button><img alt=""><p></p><a id="image-original" target="_blank" rel="noopener noreferrer">查看原始图片 ↗</a></dialog>
+<noscript><p class="noscript">此页的实验、产品筛选和问答需要 JavaScript。全部原始记录也可从项目 README 阅读。</p></noscript>
+</body></html>

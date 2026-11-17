@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>研究总图与交互架构 · 运河三维研究</title>
+  <meta name="description" content="可缩放的完整研究总图、单图到三维的交互架构，以及十次实验对应的效果、视频、场景与工程。">
+  <link rel="icon" href="mark.svg"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="explore.css">
+  <script src="publication.js" defer></script><script src="data.js" defer></script><script src="explore-data.js" defer></script><script src="explore-context.js" defer></script><script src="integrated-map.js" defer></script><script src="explore.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#poster">跳到研究总图</a>
+<div class="explore-page">
+  <header class="explore-header"><a href="index.html">← 研究手记</a><span>CANAL / RESEARCH ATLAS</span><a href="effects.html">全部效果与工程 ↗</a></header>
+  <div class="explore-intro"><p class="eyebrow">FROM ONE IMAGE TO AN EDITABLE WORLD</p><h1>把理解、流程，<br>和实际证据接起来。</h1><p>总图看全局，架构看分工，实验看结果。图片之外的空间需要生成或设计；下面始终区分已经跑通的局部能力和仍待验证的完整链路。</p></div>
+  <nav class="explore-nav" aria-label="研究图导航"><a href="#poster">01 / 高清研究总图</a><a href="#architecture">02 / 交互架构</a><a href="#evidence">03 / 十次实验证据</a></nav>
+
+  <section id="poster" aria-labelledby="poster-title">
+    <div class="explore-heading"><div><p class="eyebrow">01 / THE INTEGRATED RESEARCH ARCHITECTURE</p><h2 id="poster-title">一张完整架构图，<br>信息直接贴回每个步骤。</h2></div><p><span id="integrated-size">6400 × 7911</span> 高清图片。每个节点内包含技术、库／产品、尝试、未通过原因与价值；用下方步骤定位放大阅读，点击节点可进入证据。</p></div>
+    <div class="zoom-toolbar" aria-label="总图缩放控制">
+      <button data-zoom="poster:out" aria-label="缩小总图">−</button><button data-zoom="poster:in" aria-label="放大总图">＋</button>
+      <label>缩放<input id="poster-scale" type="range" min="3" max="150" value="25" aria-label="总图缩放比例"></label><output id="poster-zoom" for="poster-scale">—</output>
+      <button data-zoom="poster:width">适应宽度</button><button data-zoom="poster:all">全图</button><button data-zoom="poster:actual">原尺寸</button>
+      <button id="expand-poster" aria-expanded="false">展开查看 ↗</button>
+      <a href="assets/research-map/canal-integrated-architecture.png" download>下载完整 PNG ↓</a><a href="assets/research-map/canal-integrated-architecture.svg" target="_blank" rel="noopener">矢量 SVG ↗</a><a href="assets/research-map/canal-research-map.png" target="_blank" rel="noopener">旧版研究长图 ↗</a>
+    </div>
+    <div id="poster-shell" class="poster-shell">
+      <div class="poster-expanded-tools"><button data-zoom="poster:out" aria-label="展开模式缩小总图">−</button><button data-zoom="poster:in" aria-label="展开模式放大总图">＋</button><button data-zoom="poster:width">适宽</button><button data-zoom="poster:all">全图</button><select id="integrated-stage-select" aria-label="放大查看流程步骤"><option value="">定位流程步骤…</option></select></div>
+      <button id="close-poster-expanded" hidden>收起总图 ×</button>
+      <div id="poster-viewport" class="zoom-viewport poster-viewport" tabindex="0" aria-label="研究总图，可用方向键平移、加减键缩放">
+        <div id="poster-surface" class="zoom-surface"><img src="assets/research-map/canal-integrated-architecture.png" width="6400" height="7911" alt="按流程步骤整合的完整研究架构图，每个步骤直接列出能力、已用技术、开源库与产品、实验、未通过原因和复用价值。" draggable="false"><div id="poster-hotspots"></div></div>
+      </div>
+    </div>
+    <div id="integrated-stage-links" class="chapter-links" aria-label="完整架构图步骤定位"></div>
+    <p class="explore-help">鼠标拖动平移，Ctrl / ⌘ ＋滚轮缩放；触屏可滑动。先看全图关系，再定位步骤阅读。2026-11-17 按步骤整合；旧版总图、下方交互图和全部效果／视频／三维／工程入口继续保留。</p>
+  </section>
+
+  <section id="architecture" aria-labelledby="architecture-title">
+    <div class="explore-heading"><div><p class="eyebrow">02 / THE PIPELINE, NOT A MAGIC CONVERSION</p><h2 id="architecture-title">一张图到 3D，<br>每一步到底产出什么？</h2></div><p>点击节点看输入、输出、库与能力边界。箭头表示数据依赖；虚线表示待验证的连接，并不代表整条流程已跑通。</p></div>
+    <div class="route-switch" role="group" aria-label="架构路线"><button data-route="target" aria-pressed="true">目标融合路线</button><button data-route="quick" aria-pressed="false">已实测：单图高斯</button><button data-route="photo" aria-pressed="false">对照：重叠实拍路线</button><button data-route="all" aria-pressed="false">全部关系</button></div>
+    <div id="route-note" class="route-note" role="status"></div>
+    <div class="knowledge-modes" role="group" aria-label="研究信息层"><button data-knowledge-mode="overview" aria-pressed="true">研究全景</button><button data-knowledge-mode="flow" aria-pressed="false">只看流程</button><button data-knowledge-mode="failures" aria-pressed="false">未通过与未验证 · 7</button><button data-knowledge-mode="used" aria-pressed="false">已用技术 · 6 组</button><button data-knowledge-mode="catalog" aria-pressed="false">库、模型与产品 · 29</button></div>
+    <div id="catalog-filters" class="catalog-filters" role="group" aria-label="探索目录筛选"><span>目录范围</span><button data-catalog-filter="all" aria-pressed="true">全部</button><button data-catalog-filter="tested" aria-pressed="false">本图已用</button><button data-catalog-filter="code" aria-pressed="false">公开代码 / 库</button><button data-catalog-filter="product" aria-pressed="false">产品 / 服务</button><button data-catalog-filter="read" aria-pressed="false">仅调研</button></div>
+    <p id="knowledge-status" class="knowledge-status" role="status"></p>
+    <div class="graph-legend"><span><i class="tested"></i>本图已实测的局部能力</span><span><i class="gap"></i>主要缺口 / 待接入</span><span><i class="read"></i>仅调研 / 交付目标</span></div>
+    <div class="zoom-toolbar" aria-label="架构图缩放控制"><button data-zoom="graph:out" aria-label="缩小架构图">−</button><button data-zoom="graph:in" aria-label="放大架构图">＋</button><label>缩放<input id="graph-scale" type="range" min="3" max="180" value="60" aria-label="架构图缩放比例"></label><output id="graph-zoom" for="graph-scale">—</output><button data-zoom="graph:all">看全图</button><button data-zoom="graph:actual">原尺寸</button><button id="expand-graph" aria-expanded="false">展开架构 ↗</button><button id="download-architecture">导出当前研究图 SVG ↓</button><a href="assets/research-map/canal-image-to-3d-panorama.svg" target="_blank" rel="noopener">完整研究全景 SVG ↗</a></div>
+    <div id="graph-shell" class="graph-shell"><div class="graph-expanded-tools"><button data-zoom="graph:out" aria-label="展开模式缩小架构">−</button><button data-zoom="graph:in" aria-label="展开模式放大架构">＋</button><button data-zoom="graph:all">全图</button></div><button id="close-graph-expanded" hidden>收起架构 ×</button><div id="graph-viewport" class="zoom-viewport graph-viewport" tabindex="0" aria-label="交互架构图，可拖动平移，或使用下方节点目录"><div id="graph-surface" class="zoom-surface"><svg id="architecture-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 1040" role="group" aria-labelledby="graph-title graph-description"><title id="graph-title">单图到完整可编辑三维场景的研究架构</title><desc id="graph-description">目标路线先建立空间约束并验收，产生高斯外观与网格结构，再绑定与处理材质灯光。独立的快速路线由 SHARP 直接预测单图高斯，不需要先运行 VGGT。节点可点击查看证据。</desc></svg></div></div></div>
+    <div id="node-list" class="node-list" aria-label="架构节点目录"></div>
+    <article id="node-detail" class="node-detail" aria-live="polite"></article>
+    <article id="knowledge-detail" class="knowledge-detail" aria-live="polite" tabindex="-1" hidden></article>
+    <div class="architecture-boundary"><b>这不是“先高斯、再自动转成完整模型”的单一路线。</b><p>高斯与网格可以并行构建、共同对齐。高斯负责渲染外观，网格承载结构与控制；相机估计、未知空间补全、物体绑定和物理换光都要分别解决。单图 SHARP 已跑通，但不能替代上方的空间补全与验收。</p></div>
+  </section>
+
+  <section id="evidence" aria-labelledby="evidence-title">
+    <div class="explore-heading"><div><p class="eyebrow">03 / FOLLOW THE EVIDENCE</p><h2 id="evidence-title">每次尝试，<br>直接看到对应结果。</h2></div><p>选实验后，查看原始效果、完整视频、三维与工程。没有产出的类型会注明；GLB 结构预览与原高斯外观分开查看。</p></div>
+    <p id="evidence-status" class="evidence-status" role="status">正在读取本机产物关联…</p>
+    <div id="evidence-tabs" class="evidence-tabs" role="tablist" aria-label="十次实验"></div>
+    <article id="evidence-detail" tabindex="0" role="tabpanel"></article>
+  </section>
+  <footer><p>保留失败，也保留可复用的部分。<small>仅关联与展示既有档案；旧模型、原高斯与工程保持原样。</small></p><a href="index.html">回到研究手记 ↗</a></footer>
+</div>
+<noscript><p class="noscript">交互图和产物关联需要 JavaScript。可直接打开 <a href="assets/research-map/canal-research-map.svg">完整 SVG 总图</a> 或 <a href="records.html?file=README.md">研究原文</a>。</p></noscript>
+</body></html>

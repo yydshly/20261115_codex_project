@@ -1,0 +1,198 @@
+{
+  "version": 1,
+  "duration": 28,
+  "render_size": [
+    1000,
+    563
+  ],
+  "coordinate_system": "Blender cafe coordinates: X along facade, Y into room, Z up; design scale, not measured metres",
+  "scope": "One continuous camera, original SHARP street and local original-source Gaussian surface patches always enabled; fixed source visibility and designed unseen context. No representation switches.",
+  "door_motion": {
+    "start": 13,
+    "end": 16,
+    "from_frame": 1,
+    "to_frame": 49
+  },
+  "keyframes": [
+    {
+      "time": 0,
+      "position": [
+        -7.984322071,
+        -10.736480713,
+        1.604406118
+      ],
+      "target": [
+        6.650239,
+        -0.256518,
+        1.604406118
+      ],
+      "fov": 38.956,
+      "label": "运河全景"
+    },
+    {
+      "time": 0.8,
+      "position": [
+        -7.984322071,
+        -10.736480713,
+        1.604406118
+      ],
+      "target": [
+        6.650239,
+        -0.256518,
+        1.604406118
+      ],
+      "fov": 38.956,
+      "label": "开始左右移动"
+    },
+    {
+      "time": 3,
+      "position": [
+        -8.420987196,
+        -10.126707338,
+        1.604406118
+      ],
+      "target": [
+        6.650239,
+        -0.256518,
+        1.604406118
+      ],
+      "fov": 38.956,
+      "label": "全景向左移动"
+    },
+    {
+      "time": 6,
+      "position": [
+        -7.547656947,
+        -11.346254088,
+        1.604406118
+      ],
+      "target": [
+        6.650239,
+        -0.256518,
+        1.604406118
+      ],
+      "fov": 38.956,
+      "label": "全景向右移动"
+    },
+    {
+      "time": 7,
+      "position": [
+        -7.984322071,
+        -10.736480713,
+        1.604406118
+      ],
+      "target": [
+        6.650239,
+        -0.256518,
+        1.604406118
+      ],
+      "fov": 38.956,
+      "label": "转向咖啡店"
+    },
+    {
+      "time": 10,
+      "position": [
+        -4.5,
+        -6.3,
+        1.65
+      ],
+      "target": [
+        0.65,
+        0.4,
+        1.45
+      ],
+      "fov": 52,
+      "label": "靠近咖啡店"
+    },
+    {
+      "time": 13,
+      "position": [
+        0.76,
+        -1.15,
+        1.65
+      ],
+      "target": [
+        0.66,
+        0.4,
+        1.45
+      ],
+      "fov": 65,
+      "label": "到达门口"
+    },
+    {
+      "time": 16,
+      "position": [
+        0.76,
+        -1.15,
+        1.65
+      ],
+      "target": [
+        0.66,
+        0.4,
+        1.45
+      ],
+      "fov": 65,
+      "label": "门轴打开至 75 度"
+    },
+    {
+      "time": 20,
+      "position": [
+        0.76,
+        1.8,
+        1.65
+      ],
+      "target": [
+        1.65,
+        3.8,
+        1.45
+      ],
+      "fov": 65,
+      "label": "穿过门口进入室内"
+    },
+    {
+      "time": 22,
+      "position": [
+        -1.2,
+        2.2,
+        1.65
+      ],
+      "target": [
+        1.6,
+        3.4,
+        1.4
+      ],
+      "fov": 65,
+      "label": "观察室内并转身"
+    },
+    {
+      "time": 26,
+      "position": [
+        -1.2,
+        2.2,
+        1.65
+      ],
+      "target": [
+        0.66,
+        -4,
+        1.55
+      ],
+      "fov": 65,
+      "label": "从室内看向街道"
+    },
+    {
+      "time": 28,
+      "position": [
+        -1.2,
+        2.2,
+        1.65
+      ],
+      "target": [
+        0.66,
+        -4,
+        1.55
+      ],
+      "fov": 65,
+      "label": "停留查看街道"
+    }
+  ]
+}

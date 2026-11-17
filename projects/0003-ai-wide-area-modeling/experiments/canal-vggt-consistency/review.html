@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>运河与咖啡店 · VGGT 空间检验</title><link rel="icon" href="data:,">
+<style>
+*{box-sizing:border-box}body{margin:0;background:#111923;color:#edf3f7;font:16px/1.65 system-ui,"Microsoft Yahei",sans-serif}main{max-width:1300px;margin:auto;padding:24px}h1{font-size:27px;margin:0 0 10px}h2{font-size:21px}p{margin:8px 0 18px}.note{color:#c0d1dc}.warn{color:#f2c46b}nav{display:flex;flex-wrap:wrap;gap:10px;margin:20px 0}button,select{font:inherit;color:inherit;background:#263949;border:1px solid #607789;border-radius:5px;padding:7px 14px}button{cursor:pointer}button[aria-selected=true]{background:#426680}section[hidden]{display:none}img{max-width:100%;height:auto;display:block}a{color:#a8d7f3}.controls{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin:12px 0}#scene{width:100%;height:520px;position:relative;background:#17222e}#scene canvas{display:block;width:100%;height:100%}.label{position:absolute;top:10px;left:12px;pointer-events:none;color:#f2c46b;background:#111923c9;padding:3px 9px}table{border-collapse:collapse;width:100%;margin:18px 0}td,th{text-align:left;border-bottom:1px solid #3d4f5e;padding:8px}td{color:#c0d1dc}.split{display:grid;grid-template-columns:1fr 1fr;gap:12px}#pairStats{color:#f2c46b}summary{cursor:pointer}@media(max-width:650px){main{padding:14px}#scene{height:380px}.split{grid-template-columns:1fr}h1{font-size:23px}}
+</style>
+<main>
+<h1>运河与咖啡店 · VGGT 空间一致性检验</h1>
+<p>外景与室内分别有局部对应，但门口过渡和回望的匹配链证据不足。<strong>尚未验证为同一个完整三维场景。</strong></p>
+<p class="note">本页展示实际 VGGT 预测、独立图像匹配和候选冲突；没有训练高斯，没有修改旧模型。预测相机不是实测，坐标不是米。</p>
+<nav role="tablist" aria-label="诊断内容">
+<button type="button" role="tab" data-panel="overview" aria-selected="true">相机与连接</button>
+<button type="button" role="tab" data-panel="pairs" aria-selected="false">对应与冲突</button>
+<button type="button" role="tab" data-panel="objects" aria-selected="false">物体区域</button>
+<button type="button" role="tab" data-panel="points" aria-selected="false">三维诊断点</button>
+<button type="button" role="tab" data-panel="lighting" aria-selected="false">开关灯对照</button>
+</nav>
+<section id="overview"><img src="/assets/camera-map.png" alt="预测相机位置与图像对应连通性标注"><img src="/assets/subset-controls.png" alt="7图联合与子集推理对照"><details><summary>相机数字与尺度说明</summary><table><thead><tr><th>输入</th><th>中心 X / D50</th><th>中心 Z / D50</th><th>水平视角</th></tr></thead><tbody id="cameraRows"></tbody></table><p class="note">D50 是原图预测深度中位数。门口和回望缺少可靠跨图对应，其全局位置主要依赖模型推测。</p></details></section>
+<section id="pairs" hidden><div class="controls"><label>图片对 <select id="pairSelect"><option value="original-right">原图 → 右图</option><option value="original-left">原图 → 左图</option><option value="left-right">左图 → 右图</option><option value="approach-threshold">门口 → 门槛</option><option value="threshold-inside">门槛 → 室内</option><option value="inside-reverse">室内 → 回望</option></select></label></div><p id="pairStats"></p><img id="pairImage" src="/assets/pair-original-right.png" alt="原图至右图对应及冲突候选标注"><p class="note">圆圈是独立二维匹配候选；粉色叉是 VGGT 将该点投到另一张图的位置。偏差不自动等于补图错误，误配、反射和模型估计均可能影响结果。</p><p><a href="/out/correspondences.json">全部对应候选数值</a></p></section>
+<section id="objects" hidden><img src="/assets/object-correspondence.png" alt="入口柜台花瓶咖啡机的人工区域对应"><p class="note">D 入口、C 柜台、F 白花花瓶、M 咖啡机。同字母只是同名物体的目视区域；还没有证明它们在每张图里共用固定三维位置。</p><img src="/assets/depth-overview.png" alt="同次VGGT深度与相对置信图"></section>
+<section id="points" hidden><p class="warn">可拖动检查预测相机与稀疏诊断点。这些点来自相互未经验证的深度预测，不是高斯场景或可编辑成品。</p><div class="controls"><label><input type="checkbox" id="showCloud" checked> 显示预测点</label><label>点来源 <select id="cloudSelect"><option value="all">全部输入</option><option value="exterior">仅外景三图</option><option value="interior">仅门口与室内</option></select></label><button id="resetView" type="button">复位观察</button></div><div id="scene"><div class="label">VGGT 诊断 · 相对尺度 · 非已验证重建</div></div><p id="sceneStatus" class="note">等待显示</p></section>
+<section id="lighting" hidden><div class="controls"><button id="toggleLight" type="button">查看关灯图</button><span id="lightState">当前：开灯候选</span></div><img id="lightImage" src="/images/inside" alt="开灯候选"><p id="lightStats" class="note"></p><p class="note">这里只是生成图片的控制对照，未实现三维物理重打光。</p></section>
+<p><a href="/assets/analysis.json">完整分析数值</a> · <a href="/assets/inference.json">实际运行与来源保护记录</a></p>
+</main>
+<script type="importmap">{"imports":{"three":"/three/build/three.module.js","three/addons/":"/three/examples/jsm/"}}</script>
+<script type="module">
+import * as T from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+const report=await fetch('/assets/analysis.json').then(r=>r.json());
+const data=await fetch('/out/diagnostic-points.json').then(r=>r.json());
+const tabs=[...document.querySelectorAll('[data-panel]')];let panel='overview',draw3d=null;
+for(const b of tabs)b.onclick=()=>{panel=b.dataset.panel;for(const t of tabs){document.getElementById(t.dataset.panel).hidden=t!==b;t.setAttribute('aria-selected',String(t===b))}if(panel==='points'){init3d();requestAnimationFrame(resize)}};
+const names=data.labels,scale=data.normalization_depth;
+for(const[id,c]of Object.entries(report.camera_predictions)){const tr=document.createElement('tr');for(const value of[names[id],(c.center[0]/scale).toFixed(3),(c.center[2]/scale).toFixed(3),c.horizontal_fov_degrees.toFixed(1)+'°']){const td=document.createElement('td');td.textContent=value;tr.append(td)}document.getElementById('cameraRows').append(tr)}
+function pairUpdate(){const key=document.getElementById('pairSelect').value;const ids=key.split('-');const p=report.pairs.find(x=>x.pair[0]===ids[0]&&x.pair[1]===ids[1]);const metric=p?.vggt_forward_reprojection_px;document.getElementById('pairImage').src='/assets/pair-'+key+'.png';document.getElementById('pairImage').alt=names[ids[0]]+'至'+names[ids[1]]+'对应与冲突候选';document.getElementById('pairStats').textContent=p.status==='insufficient_overlap'?'证据不足：不能据此判为结构冲突。':`筛选对应 ${p.empirical_f_inliers} 对；7图联合前向投影偏差中位 ${metric.median.toFixed(1)}px（画宽1000px）。`}
+document.getElementById('pairSelect').onchange=pairUpdate;pairUpdate();
+let lightOn=true;document.getElementById('toggleLight').onclick=()=>{lightOn=!lightOn;document.getElementById('lightImage').src='/images/'+(lightOn?'inside':'off');document.getElementById('lightImage').alt=lightOn?'开灯候选':'关灯候选';document.getElementById('lightState').textContent='当前：'+(lightOn?'开灯候选':'关灯候选');document.getElementById('toggleLight').textContent=lightOn?'查看关灯图':'查看开灯图'};
+const l=report.lighting_control;document.getElementById('lightStats').textContent=`VGGT两图控制：相机中心差 / 室内D50 = ${l.distance_over_reference_median_depth.toFixed(6)}；深度相对差中位 ${(l.relative_depth_difference_median*100).toFixed(2)}%。`;
+let renderer,scene,view,controls,clouds=[];const holder=document.getElementById('scene');
+function convert(a){return new T.Vector3(a[0],-a[1],-a[2])}
+function init3d(){if(renderer)return;renderer=new T.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.setClearColor(0x17222e);holder.append(renderer.domElement);scene=new T.Scene();view=new T.PerspectiveCamera(50,1,.005,30);controls=new OrbitControls(view,renderer.domElement);controls.enableDamping=true;reset();scene.add(new T.AxesHelper(.22));
+for(const cloud of data.clouds){const p=new Float32Array(cloud.positions);for(let i=0;i<p.length;i+=3){p[i+1]*=-1;p[i+2]*=-1}const rgb=new Float32Array(cloud.colors.map(v=>v/255));const geo=new T.BufferGeometry();geo.setAttribute('position',new T.BufferAttribute(p,3));geo.setAttribute('color',new T.BufferAttribute(rgb,3));const obj=new T.Points(geo,new T.PointsMaterial({size:.008,vertexColors:true,sizeAttenuation:true}));obj.userData.id=cloud.id;scene.add(obj);clouds.push(obj)}
+for(const[id,c]of Object.entries(data.cameras)){const E=new T.Matrix3().set(...c.world_to_camera.flatMap(r=>r.slice(0,3))).transpose();const center=convert(c.center.map(v=>v/scale));const points=[];const corners=[];const dist=.085;for(const[x,y]of[[-1,-1],[1,-1],[1,1],[-1,1]]){const local=new T.Vector3(x*Math.tan(c.horizontal_fov_degrees*Math.PI/360)*dist,y*Math.tan(c.vertical_fov_degrees*Math.PI/360)*dist,dist).applyMatrix3(E);corners.push(convert(local.toArray()).add(center))}for(let i=0;i<4;i++){points.push(center,corners[i],corners[i],corners[(i+1)%4])}const geo=new T.BufferGeometry().setFromPoints(points);scene.add(new T.LineSegments(geo,new T.LineBasicMaterial({color:data.colors[id]})));const canvas=document.createElement('canvas');canvas.width=320;canvas.height=72;const ctx=canvas.getContext('2d');ctx.fillStyle=data.colors[id];ctx.font='30px sans-serif';ctx.fillText(names[id],8,45);const sprite=new T.Sprite(new T.SpriteMaterial({map:new T.CanvasTexture(canvas),depthTest:false,transparent:true}));sprite.scale.set(.23,.052,1);sprite.position.copy(center).add(new T.Vector3(.04,.05,0));scene.add(sprite)}
+document.getElementById('sceneStatus').textContent=`已显示 ${clouds.reduce((n,c)=>n+c.geometry.getAttribute('position').count,0)} 个稀疏预测点与 ${Object.keys(data.cameras).length} 个相机；可拖动旋转、滚轮缩放。`;draw3d=()=>{if(panel==='points'){controls.update();renderer.render(scene,view)}requestAnimationFrame(draw3d)};resize();draw3d();window.diagnostic3dReady=true;}
+function reset(){if(!view)return;view.position.set(1.05,.9,.55);controls.target.set(-.3,0,-.7);controls.update()}
+function resize(){if(!renderer)return;const w=holder.clientWidth,h=holder.clientHeight;renderer.setSize(w,h,false);view.aspect=w/h;view.updateProjectionMatrix()}
+document.getElementById('resetView').onclick=reset;window.addEventListener('resize',resize);
+function cloudUpdate(){const val=document.getElementById('cloudSelect').value;const show=document.getElementById('showCloud').checked;for(const c of clouds){const exterior=['original','left','right'].includes(c.userData.id);c.visible=show&&(val==='all'||(val==='exterior'&&exterior)||(val==='interior'&&!exterior))}}
+document.getElementById('showCloud').onchange=cloudUpdate;document.getElementById('cloudSelect').onchange=cloudUpdate;
+window.diagnosticReviewReady=true;
+</script></html>

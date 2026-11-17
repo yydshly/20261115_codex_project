@@ -1,0 +1,983 @@
+[
+  {
+    "pair": [
+      "original",
+      "bridge_a"
+    ],
+    "file": "pair-original-bridge_a.png",
+    "displayed_points": [
+      {
+        "source_xy_1000": [
+          243.55321637751385,
+          299.23397648777893
+        ],
+        "target_xy_1000": [
+          398.97115607010693,
+          276.7219284981901
+        ],
+        "vggt_projection_xy_1000": [
+          396.73145902385505,
+          277.6212081055543
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 2.4134926292015693,
+        "reverse_error_px": 2.854906247430826,
+        "depth_relative_error": 0.0438558715046402,
+        "source_confidence": 1.1953364610671997,
+        "target_confidence": 1.0924389362335205,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          179,
+          2088
+        ]
+      },
+      {
+        "source_xy_1000": [
+          787.8461773886064,
+          240.5138608504811
+        ],
+        "target_xy_1000": [
+          947.5475840591357,
+          223.9013310917886
+        ],
+        "vggt_projection_xy_1000": [
+          1093.8529676677751,
+          196.6450348248616
+        ],
+        "source_region": "相邻店面",
+        "error_px": 148.82261575130866,
+        "reverse_error_px": 21.294163378030195,
+        "depth_relative_error": 0.6354015370021798,
+        "source_confidence": 1.0,
+        "target_confidence": 1.0,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3740,
+          4276
+        ]
+      },
+      {
+        "source_xy_1000": [
+          87.2005845941425,
+          160.0319271918691
+        ],
+        "target_xy_1000": [
+          167.75989076167204,
+          57.258441653439135
+        ],
+        "vggt_projection_xy_1000": [
+          182.80124666462513,
+          70.14595460837091
+        ],
+        "source_region": "楼上窗／墙面",
+        "error_px": 19.807331409426055,
+        "reverse_error_px": 4.982542379452635,
+        "depth_relative_error": 0.15752190530881477,
+        "source_confidence": 1.6049256324768066,
+        "target_confidence": 1.3845641613006592,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3658,
+          2424
+        ]
+      },
+      {
+        "source_xy_1000": [
+          435.5187302000785,
+          267.9909307335946
+        ],
+        "target_xy_1000": [
+          631.8816408586274,
+          236.41921089002102
+        ],
+        "vggt_projection_xy_1000": [
+          621.2134112917691,
+          239.67627463139917
+        ],
+        "source_region": "相邻店面",
+        "error_px": 11.154352796401485,
+        "reverse_error_px": 7.725909587381472,
+        "depth_relative_error": 0.020173370739913873,
+        "source_confidence": 1.0152246952056885,
+        "target_confidence": 1.0007679462432861,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          909,
+          1841
+        ]
+      },
+      {
+        "source_xy_1000": [
+          177.59084017082836,
+          122.28098474678907
+        ],
+        "target_xy_1000": [
+          305.43417679636104,
+          20.139262443647883
+        ],
+        "vggt_projection_xy_1000": [
+          310.3369263840462,
+          27.237778936483544
+        ],
+        "source_region": "楼上窗／墙面",
+        "error_px": 8.627044100884556,
+        "reverse_error_px": 4.357697282926695,
+        "depth_relative_error": 0.11270926998263517,
+        "source_confidence": 1.4058762788772583,
+        "target_confidence": 1.2490894794464111,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3301,
+          3405
+        ]
+      },
+      {
+        "source_xy_1000": [
+          287.21065612500934,
+          241.4989519271283
+        ],
+        "target_xy_1000": [
+          455.7453867351039,
+          205.5710633751183
+        ],
+        "vggt_projection_xy_1000": [
+          448.4823679559112,
+          203.7277215372273
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 7.493287056974722,
+        "reverse_error_px": 4.573435303865452,
+        "depth_relative_error": 0.07691888863000777,
+        "source_confidence": 1.3000320196151733,
+        "target_confidence": 1.0224806070327759,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4665,
+          5246
+        ]
+      },
+      {
+        "source_xy_1000": [
+          541.7685987846703,
+          326.2304967703905
+        ],
+        "target_xy_1000": [
+          739.4287985477721,
+          310.59790914699704
+        ],
+        "vggt_projection_xy_1000": [
+          732.0548296732144,
+          311.1791024705441
+        ],
+        "source_region": "相邻店面",
+        "error_px": 7.3968373405315075,
+        "reverse_error_px": 4.746800333114746,
+        "depth_relative_error": 0.02009592377302399,
+        "source_confidence": 1.1045892238616943,
+        "target_confidence": 1.0455774068832397,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3855,
+          791
+        ]
+      },
+      {
+        "source_xy_1000": [
+          379.85046970787226,
+          327.3850281864373
+        ],
+        "target_xy_1000": [
+          568.9831966418399,
+          314.34389178836506
+        ],
+        "vggt_projection_xy_1000": [
+          561.6832321212565,
+          313.5969025689387
+        ],
+        "source_region": "相邻店面",
+        "error_px": 7.338083870855814,
+        "reverse_error_px": 2.905943039354526,
+        "depth_relative_error": 0.05553559660836306,
+        "source_confidence": 1.1201043128967285,
+        "target_confidence": 1.027466058731079,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3709,
+          4403
+        ]
+      },
+      {
+        "source_xy_1000": [
+          341.08241323078647,
+          131.36913097677524
+        ],
+        "target_xy_1000": [
+          520.2220204914586,
+          52.73929617027421
+        ],
+        "vggt_projection_xy_1000": [
+          516.9638558317146,
+          57.664118873448466
+        ],
+        "source_region": "楼上窗／墙面",
+        "error_px": 5.905041541573212,
+        "reverse_error_px": 1.1247999577013603,
+        "depth_relative_error": 0.07846217234621415,
+        "source_confidence": 1.0001195669174194,
+        "target_confidence": 1.0027241706848145,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4342,
+          1137
+        ]
+      }
+    ]
+  },
+  {
+    "pair": [
+      "bridge_a",
+      "approach"
+    ],
+    "file": "pair-bridge_a-approach.png",
+    "displayed_points": [
+      {
+        "source_xy_1000": [
+          778.644397498318,
+          222.2954821855178
+        ],
+        "target_xy_1000": [
+          923.670061467367,
+          190.60278047892035
+        ],
+        "vggt_projection_xy_1000": [
+          911.4543254782117,
+          197.61187772711327
+        ],
+        "source_region": "相邻店面",
+        "error_px": 14.083737074774158,
+        "reverse_error_px": 8.60208529760378,
+        "depth_relative_error": 0.04594408620703144,
+        "source_confidence": 1.000070333480835,
+        "target_confidence": 1.0003974437713623,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          486,
+          6037
+        ]
+      },
+      {
+        "source_xy_1000": [
+          675.4613264896083,
+          219.38961688212962
+        ],
+        "target_xy_1000": [
+          848.6263147381504,
+          188.02529712640515
+        ],
+        "vggt_projection_xy_1000": [
+          825.0249256701572,
+          191.4779422167782
+        ],
+        "source_region": "相邻店面",
+        "error_px": 23.852595750963136,
+        "reverse_error_px": 12.610451830228962,
+        "depth_relative_error": 0.0685498148616002,
+        "source_confidence": 1.023079752922058,
+        "target_confidence": 1.0357500314712524,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4439,
+          3180
+        ]
+      },
+      {
+        "source_xy_1000": [
+          175.7582705557061,
+          104.7154626309175
+        ],
+        "target_xy_1000": [
+          159.7148950020092,
+          26.867888042194558
+        ],
+        "vggt_projection_xy_1000": [
+          220.99394510817356,
+          -37.10808824763437
+        ],
+        "source_region": "楼上窗／墙面",
+        "error_px": 88.589206589463,
+        "reverse_error_px": 45.25953751081457,
+        "depth_relative_error": 0.17771178898625137,
+        "source_confidence": 1.1743569374084473,
+        "target_confidence": 1.349688172340393,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          2552,
+          2916
+        ]
+      },
+      {
+        "source_xy_1000": [
+          282.7590504331452,
+          362.39998387530306
+        ],
+        "target_xy_1000": [
+          327.6447131873318,
+          411.40651210740316
+        ],
+        "vggt_projection_xy_1000": [
+          398.88063671322317,
+          412.0043135879743
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 71.23843181315,
+        "reverse_error_px": 41.99875211913342,
+        "depth_relative_error": 0.03731013747275604,
+        "source_confidence": 2.4181647300720215,
+        "target_confidence": 2.407589912414551,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4051,
+          5709
+        ]
+      },
+      {
+        "source_xy_1000": [
+          119.25293954365561,
+          147.5443750233503
+        ],
+        "target_xy_1000": [
+          78.93095974716843,
+          87.91422052008438
+        ],
+        "vggt_projection_xy_1000": [
+          118.16759706615227,
+          31.826454449650676
+        ],
+        "source_region": "楼上窗／墙面",
+        "error_px": 68.44962535232148,
+        "reverse_error_px": 36.432767040810226,
+        "depth_relative_error": 0.18010274654578368,
+        "source_confidence": 1.6584268808364868,
+        "target_confidence": 1.5558817386627197,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          1693,
+          3436
+        ]
+      },
+      {
+        "source_xy_1000": [
+          156.18445656516337,
+          433.9371474100857
+        ],
+        "target_xy_1000": [
+          129.38929288581227,
+          524.3614677080566
+        ],
+        "vggt_projection_xy_1000": [
+          189.21589447661944,
+          549.9597540675828
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 65.07299380272497,
+        "reverse_error_px": 37.25837000220969,
+        "depth_relative_error": 0.12393375843701813,
+        "source_confidence": 1.768466591835022,
+        "target_confidence": 2.067882537841797,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          2254,
+          5678
+        ]
+      },
+      {
+        "source_xy_1000": [
+          133.78052962453742,
+          322.00851093417907
+        ],
+        "target_xy_1000": [
+          91.67440314041941,
+          346.04402476846855
+        ],
+        "vggt_projection_xy_1000": [
+          150.1820534968099,
+          348.5908895397633
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 58.5630572151839,
+        "reverse_error_px": 38.8756488503506,
+        "depth_relative_error": 0.13865192560686318,
+        "source_confidence": 1.5895726680755615,
+        "target_confidence": 2.001281261444092,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          1923,
+          1646
+        ]
+      },
+      {
+        "source_xy_1000": [
+          246.04773635499217,
+          277.0123689592708
+        ],
+        "target_xy_1000": [
+          274.71107957465796,
+          263.60366753183945
+        ],
+        "vggt_projection_xy_1000": [
+          303.0314161288816,
+          260.2598772927521
+        ],
+        "source_region": "咖啡店门窗",
+        "error_px": 28.517054471096966,
+        "reverse_error_px": 28.53712786238168,
+        "depth_relative_error": 0.5300166498285281,
+        "source_confidence": 1.0004574060440063,
+        "target_confidence": 1.1718937158584595,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3488,
+          1054
+        ]
+      }
+    ]
+  },
+  {
+    "pair": [
+      "approach",
+      "bridge_b"
+    ],
+    "file": "pair-approach-bridge_b.png",
+    "displayed_points": [
+      {
+        "source_xy_1000": [
+          274.168552964498,
+          165.98258792175875
+        ],
+        "target_xy_1000": [
+          506.06602572938476,
+          172.62359022410087
+        ],
+        "vggt_projection_xy_1000": [
+          425.801123716659,
+          155.59316838334675
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 82.05175051872138,
+        "reverse_error_px": 99.88221585558959,
+        "depth_relative_error": 0.21255012743508386,
+        "source_confidence": 1.0052192211151123,
+        "target_confidence": 1.196791410446167,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          5214,
+          3878
+        ]
+      },
+      {
+        "source_xy_1000": [
+          275.06015175267265,
+          506.0424473242603
+        ],
+        "target_xy_1000": [
+          304.49826181220095,
+          499.98123042464385
+        ],
+        "vggt_projection_xy_1000": [
+          1148.8268799164362,
+          802.541751974023
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 896.9022714599622,
+        "reverse_error_px": 246.5904837784844,
+        "depth_relative_error": 0.5454145094457643,
+        "source_confidence": 2.2374038696289062,
+        "target_confidence": 2.195363759994507,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3945,
+          4105
+        ]
+      },
+      {
+        "source_xy_1000": [
+          82.14643012963985,
+          99.40392793985785
+        ],
+        "target_xy_1000": [
+          63.471867136978084,
+          81.2709815322276
+        ],
+        "vggt_projection_xy_1000": [
+          718.2380669655688,
+          -164.52521286580802
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 699.381545094329,
+        "reverse_error_px": 174.4390198922632,
+        "depth_relative_error": 0.6250110387706317,
+        "source_confidence": 1.661280870437622,
+        "target_confidence": 1.7379333972930908,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          6171,
+          1198
+        ]
+      },
+      {
+        "source_xy_1000": [
+          303.119568163128,
+          383.8381671966326
+        ],
+        "target_xy_1000": [
+          234.78625721908642,
+          378.6232755784654
+        ],
+        "vggt_projection_xy_1000": [
+          870.0986340227389,
+          468.7061206862392
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 641.66715289363,
+        "reverse_error_px": 282.9163495664996,
+        "depth_relative_error": 0.3704612766698216,
+        "source_confidence": 1.938153624534607,
+        "target_confidence": 1.7830030918121338,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          5954,
+          3187
+        ]
+      },
+      {
+        "source_xy_1000": [
+          70.17269773346385,
+          309.4630240461651
+        ],
+        "target_xy_1000": [
+          81.14301873166025,
+          291.4912468061944
+        ],
+        "vggt_projection_xy_1000": [
+          638.2506207807106,
+          345.5659645556748
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 559.7257858635146,
+        "reverse_error_px": 135.2423066341977,
+        "depth_relative_error": 0.6510497199803287,
+        "source_confidence": 1.755474328994751,
+        "target_confidence": 1.6915786266326904,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3641,
+          1493
+        ]
+      },
+      {
+        "source_xy_1000": [
+          60.087610089607786,
+          182.4089341523417
+        ],
+        "target_xy_1000": [
+          71.06135336405923,
+          178.38976548100632
+        ],
+        "vggt_projection_xy_1000": [
+          610.652131824415,
+          53.11025914795697
+        ],
+        "source_region": "咖啡店／室内",
+        "error_px": 553.9432849186868,
+        "reverse_error_px": 128.57526381873456,
+        "depth_relative_error": 0.6508015127126667,
+        "source_confidence": 1.6411468982696533,
+        "target_confidence": 1.5047496557235718,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          6162,
+          1336
+        ]
+      }
+    ]
+  },
+  {
+    "pair": [
+      "bridge_b",
+      "threshold"
+    ],
+    "file": "pair-bridge_b-threshold.png",
+    "displayed_points": [
+      {
+        "source_xy_1000": [
+          675.3940856057491,
+          216.9095617247692
+        ],
+        "target_xy_1000": [
+          685.2168763083134,
+          205.6212929412485
+        ],
+        "vggt_projection_xy_1000": [
+          691.9216790906594,
+          197.3669653092528
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 10.634298519718287,
+        "reverse_error_px": 10.718106449806326,
+        "depth_relative_error": 0.04072169505316834,
+        "source_confidence": 1.209065318107605,
+        "target_confidence": 1.511274814605713,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          2020,
+          4847
+        ]
+      },
+      {
+        "source_xy_1000": [
+          352.1999377382999,
+          285.3257912322642
+        ],
+        "target_xy_1000": [
+          188.89944633228356,
+          304.1572956081151
+        ],
+        "vggt_projection_xy_1000": [
+          -429.59119321650184,
+          237.122715784355
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 622.1127760314955,
+        "reverse_error_px": 23.738504440228542,
+        "depth_relative_error": 0.7414444437722355,
+        "source_confidence": 1.8596758842468262,
+        "target_confidence": 2.2149534225463867,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4751,
+          1936
+        ]
+      },
+      {
+        "source_xy_1000": [
+          503.9892242285624,
+          42.7564300877635
+        ],
+        "target_xy_1000": [
+          644.0290971235796,
+          109.49166262035796
+        ],
+        "vggt_projection_xy_1000": [
+          493.8757719724819,
+          -200.85394852968994
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 344.7613949009198,
+        "reverse_error_px": 160.0501380734521,
+        "depth_relative_error": 0.6979337508797756,
+        "source_confidence": 1.1215721368789673,
+        "target_confidence": 1.6062262058258057,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3905,
+          233
+        ]
+      },
+      {
+        "source_xy_1000": [
+          490.02856386905654,
+          218.2321823395781
+        ],
+        "target_xy_1000": [
+          291.9434177818481,
+          200.00166166753496
+        ],
+        "vggt_projection_xy_1000": [
+          455.23410728182256,
+          120.17422902018278
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 181.7588189894637,
+        "reverse_error_px": 94.45343321382194,
+        "depth_relative_error": 0.19455484166866457,
+        "source_confidence": 1.6439603567123413,
+        "target_confidence": 1.6767520904541016,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          5297,
+          3822
+        ]
+      },
+      {
+        "source_xy_1000": [
+          276.98734046169443,
+          161.61148363168132
+        ],
+        "target_xy_1000": [
+          94.91344616173556,
+          124.25333055096908
+        ],
+        "vggt_projection_xy_1000": [
+          0.5449701085032531,
+          -5.626492681136495
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 160.54338278301125,
+        "reverse_error_px": 42.87753922736512,
+        "depth_relative_error": 0.42780329045634763,
+        "source_confidence": 1.0399631261825562,
+        "target_confidence": 1.7626912593841553,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3671,
+          572
+        ]
+      },
+      {
+        "source_xy_1000": [
+          864.0284196041417,
+          213.5994497495807
+        ],
+        "target_xy_1000": [
+          886.5960956190191,
+          196.20910119148925
+        ],
+        "vggt_projection_xy_1000": [
+          1005.5353994053368,
+          175.29246233773424
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 120.76449712606916,
+        "reverse_error_px": 57.04046962451686,
+        "depth_relative_error": 0.25783786908243306,
+        "source_confidence": 1.0003257989883423,
+        "target_confidence": 1.2189322710037231,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          1099,
+          6159
+        ]
+      },
+      {
+        "source_xy_1000": [
+          629.6179374439295,
+          331.3745447983777
+        ],
+        "target_xy_1000": [
+          611.0074348997271,
+          354.23854666536596
+        ],
+        "vggt_projection_xy_1000": [
+          664.0846330775198,
+          333.8448808054368
+        ],
+        "source_region": "柜台／货架结构",
+        "error_px": 56.86027236666332,
+        "reverse_error_px": 43.14660345050308,
+        "depth_relative_error": 0.056787450736369864,
+        "source_confidence": 1.552372694015503,
+        "target_confidence": 1.8973579406738281,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          2459,
+          781
+        ]
+      }
+    ]
+  },
+  {
+    "pair": [
+      "bridge_b",
+      "inside"
+    ],
+    "file": "pair-bridge_b-inside.png",
+    "displayed_points": [
+      {
+        "source_xy_1000": [
+          551.465486225329,
+          225.2971871808789
+        ],
+        "target_xy_1000": [
+          531.6766985295492,
+          215.0650904267298
+        ],
+        "vggt_projection_xy_1000": [
+          523.1127840982954,
+          207.54639187858794
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 11.39611592796709,
+        "reverse_error_px": 9.22709999913025,
+        "depth_relative_error": 0.02580504468053907,
+        "source_confidence": 1.5290488004684448,
+        "target_confidence": 1.750372290611267,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          3388,
+          3271
+        ]
+      },
+      {
+        "source_xy_1000": [
+          627.1678431752766,
+          328.3161101549009
+        ],
+        "target_xy_1000": [
+          647.9517740496038,
+          367.42451073284735
+        ],
+        "vggt_projection_xy_1000": [
+          647.7164034263778,
+          350.81445326946914
+        ],
+        "source_region": "柜台／货架结构",
+        "error_px": 16.611725023819876,
+        "reverse_error_px": 11.119423670402686,
+        "depth_relative_error": 0.13159559680419933,
+        "source_confidence": 1.568137764930725,
+        "target_confidence": 1.8363227844238281,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          2545,
+          2208
+        ]
+      },
+      {
+        "source_xy_1000": [
+          487.02451715058686,
+          237.51432863533432
+        ],
+        "target_xy_1000": [
+          247.14494550057006,
+          234.40498885540856
+        ],
+        "vggt_projection_xy_1000": [
+          472.96213871743794,
+          152.00069168688032
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 240.38276340907507,
+        "reverse_error_px": 74.21952459723327,
+        "depth_relative_error": 0.16247761244082598,
+        "source_confidence": 2.0096659660339355,
+        "target_confidence": 2.9474825859069824,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4202,
+          3436
+        ]
+      },
+      {
+        "source_xy_1000": [
+          484.8642303612814,
+          306.3605130040557
+        ],
+        "target_xy_1000": [
+          257.1657901745664,
+          407.09009249582806
+        ],
+        "vggt_projection_xy_1000": [
+          465.289373432176,
+          394.70829469477223
+        ],
+        "source_region": "柜台／货架结构",
+        "error_px": 208.49157015278433,
+        "reverse_error_px": 69.65698628391506,
+        "depth_relative_error": 0.2602900832747574,
+        "source_confidence": 2.086249351501465,
+        "target_confidence": 2.4271697998046875,
+        "above_relative_confidence_cut": true,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4218,
+          6504
+        ]
+      },
+      {
+        "source_xy_1000": [
+          880.2059483870365,
+          243.97011511840174
+        ],
+        "target_xy_1000": [
+          962.3017379541716,
+          246.30249425581994
+        ],
+        "vggt_projection_xy_1000": [
+          1113.6896043533404,
+          225.64021803992827
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 152.7914125574941,
+        "reverse_error_px": 12.547085257890881,
+        "depth_relative_error": 0.39797883531216505,
+        "source_confidence": 1.0000073909759521,
+        "target_confidence": 1.679032564163208,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          968,
+          6877
+        ]
+      },
+      {
+        "source_xy_1000": [
+          320.49991297379637,
+          184.84431037537982
+        ],
+        "target_xy_1000": [
+          132.0335990504215,
+          142.30661443696138
+        ],
+        "vggt_projection_xy_1000": [
+          84.16051509135315,
+          74.81729691832524
+        ],
+        "source_region": "窗边／室内（含透射风险）",
+        "error_px": 82.7444266817004,
+        "reverse_error_px": 20.855438903650295,
+        "depth_relative_error": 0.2529384493176687,
+        "source_confidence": 1.0446937084197998,
+        "target_confidence": 2.001132011413574,
+        "above_relative_confidence_cut": false,
+        "in_front_of_both_cameras": true,
+        "keypoint_indices": [
+          4258,
+          1985
+        ]
+      }
+    ]
+  }
+]
