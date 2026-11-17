@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **9** 个项目。
+已收录 **10** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -18,7 +18,8 @@
 | 6 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 | 8 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
-| 9 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 9 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) |
+| 10 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 
 ## 项目图览
 
@@ -165,6 +166,24 @@
 本轮生成的3200×12684高清总览图，10个模块、约3600字符；使用已有概念原图与可校对排版，原图保持不变。点击查看完整图；现有成果、故事与系统草案、后期待验证价值分别标注。
 
 [进入研究](projects/0019-shanhe-co-creation/README.md) · [参考来源](https://x.com/thorgram/status/2121601256557051920) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html)
+
+### 0020 · 风与春 · 自然体验影像研究
+
+从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。
+
+原参考效果：人物开窗、站在门边，带观看者接近天气；讨论认为它把风拍了出来，人物仍承担情绪主题和价值引导。
+
+可见拍摄组织：以背影、门窗框景、室内外明暗和湿润材质建立身体与环境的关系；完整运镜、声音和原作者制作流程尚未取得。
+
+对我们的价值：把偏爱转为人物入口、事物响应、注意移动和整个场景的展开，可迁移到雨雪雾与春；保留九次关键讨论、四项价值和五步创作路径。
+
+实际验证：《多停一会儿》两版整片与六段原片、实际提示词和差距复盘；此前六个任务共975积分，首版反馈偏弱，30秒重剪待反馈。
+
+[![本次生成的完整理解总图：人物的情绪与价值入口、四项价值、五步创作路径、写春的四个层次和试片验证](projects/0020-human-nature-film-study/assets/understanding-map-v1.png)](projects/0020-human-nature-film-study/assets/understanding-map-v1.png)
+
+本次生成的2400×5166理解总图原文件，内容与此前交付一致。先读原参考的效果与可见拍摄组织，再看对我们的价值和创作思路；试片只作验证。点击可打开完整高清图。
+
+[进入研究](projects/0020-human-nature-film-study/README.md) · [参考来源](https://x.com/purelivn/status/2121568067402514672)
 
 ### 0021 · 数字人口播制作 · 能力、样片与复用工作流
 

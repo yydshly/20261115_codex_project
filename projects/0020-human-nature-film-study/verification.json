@@ -1,0 +1,342 @@
+{
+  "status": "publication_candidate_automated_checks_passed",
+  "repository_checks": {
+    "registry_and_readme": "9 projects in sync in isolated publication checkout",
+    "registry_unit_tests_passed": 11,
+    "shared_navigation_unit_tests_passed": 1,
+    "public_deployment_changed": true
+  },
+  "published": false,
+  "scope": "研究网页、既有媒体与本地播放；不表示影片情绪效果已验证通过",
+  "browser_checks": [
+    {
+      "name": "60秒版实际播放与跳至46秒",
+      "passed": true,
+      "duration": 60.01,
+      "decodedWidth": 720,
+      "decodedHeight": 1280,
+      "reachedEnd": true,
+      "mediaError": null
+    },
+    {
+      "name": "30秒版切换与跳至3秒",
+      "passed": true,
+      "observedTime": 3.109929,
+      "otherVersionPaused": true,
+      "mediaError": null
+    },
+    {
+      "name": "两版并排起播",
+      "passed": true,
+      "times": [
+        0.143358,
+        0.163387
+      ],
+      "bothReadyState": 4
+    },
+    {
+      "name": "五个主题切换",
+      "passed": true,
+      "observations": [
+        {
+          "name": "风",
+          "state": "创作建议 · 本项目未生成风的样片",
+          "title": "让看不见的风，有方向与力量。"
+        },
+        {
+          "name": "雨",
+          "state": "迁移建议 · 尚未生成验证",
+          "title": "让雨落在不同东西上。"
+        },
+        {
+          "name": "雪",
+          "state": "迁移建议 · 尚未生成验证",
+          "title": "让雪进入地面和行动。"
+        },
+        {
+          "name": "雾",
+          "state": "迁移建议 · 尚未生成验证",
+          "title": "让看不清与逐渐看见，成为体验。"
+        },
+        {
+          "name": "春",
+          "state": "已有两版试片 · 首版反馈弱，重剪待反馈",
+          "title": "写春，也写身体与日常怎样改变。"
+        }
+      ]
+    },
+    {
+      "name": "实际画面放大与关闭",
+      "passed": true
+    },
+    {
+      "name": "时长图定位对应版本",
+      "passed": true,
+      "observed": {
+        "chapter": "细节进入空间",
+        "currentTime": 26.5,
+        "paused": false,
+        "version": "60秒初版"
+      }
+    },
+    {
+      "name": "实际提示词复制",
+      "passed": true
+    },
+    {
+      "name": "第一镜原片浏览器播放",
+      "passed": true,
+      "observed": {
+        "currentTime": 0.055175,
+        "error": null,
+        "paused": false,
+        "readyState": 4,
+        "width": 720
+      }
+    },
+    {
+      "name": "第六镜原片实际解码播放",
+      "passed": true,
+      "observed": {
+        "currentTime": 15.104,
+        "ended": true,
+        "error": null,
+        "height": 1280,
+        "paused": true,
+        "readyState": 4,
+        "width": 720
+      }
+    },
+    {
+      "name": "390像素手机资料页无横向溢出",
+      "passed": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "clientWidth": 375,
+      "scrollWidth": 375
+    },
+    {
+      "name": "手机导航展开并返回首页",
+      "passed": true
+    },
+    {
+      "name": "320像素窄屏排版",
+      "passed": true,
+      "observed": {
+        "clientWidth": 305,
+        "h1Height": 86.79167175292969,
+        "h1LineHeight": "43.4px",
+        "scrollWidth": 305,
+        "width": 320
+      }
+    },
+    {
+      "name": "窄屏分段定位后播放器可见",
+      "passed": true,
+      "observed": {
+        "bottom": 663.6875305175781,
+        "currentTime": 30.016,
+        "mediaError": null,
+        "readyState": 4,
+        "top": 253.61459350585935,
+        "videoWidth": 720,
+        "viewport": [
+          320,
+          812
+        ]
+      }
+    },
+    {
+      "name": "320像素资料页与原片展开",
+      "passed": true,
+      "observed": {
+        "clientWidth": 305,
+        "firstShotOpen": true,
+        "promptWidth": 258.66668701171875,
+        "scrollWidth": 305,
+        "width": 320
+      }
+    },
+    {
+      "name": "本地总导航进入0020项目",
+      "passed": true
+    },
+    {
+      "name": "手机导航关闭后的可访问名称",
+      "passed": true
+    }
+  ],
+  "creative_limits": [
+    "60秒版用户反馈感受偏弱",
+    "30秒重剪尚待用户反馈",
+    "原生音轨未完成听审",
+    "原始参考仅复看开场和门边画面，未完成全段逐镜记录与声音听审"
+  ],
+  "checked_at": "2026-11-17T12:22:06+08:00",
+  "local_url": "http://127.0.0.1:52942/20261115_codex_project/demos/0020-human-nature-film-study/index.html",
+  "local_resource_checks": 50,
+  "video_checks": [
+    {
+      "id": "film-v1",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "film-v2",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-01",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-02",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-03",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-04",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-05",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    },
+    {
+      "id": "shot-06",
+      "hash_match": true,
+      "first_range": true,
+      "suffix_range": true,
+      "head_range": true,
+      "invalid_range_416": true,
+      "decode_ok": true
+    }
+  ],
+  "index_registered": true,
+  "total_credits": 975,
+  "additional_generation_credits": 0,
+  "browser_error_count": 0,
+  "browser": "Codex内置浏览器",
+  "viewport_checks": [
+    [
+      1280,
+      720
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      320,
+      812
+    ],
+    [
+      1029,
+      871
+    ]
+  ],
+  "browser_media_sample": [
+    "film-v1",
+    "film-v2",
+    "shot-01",
+    "shot-06"
+  ],
+  "audio_listening": false,
+  "screenshots": [
+    "assets/overview.jpg",
+    "assets/qa/mobile-320.jpg",
+    "assets/qa/player-mobile-320.jpg",
+    "assets/qa/archive-mobile-320.jpg"
+  ],
+  "browser_checked_at_utc": "2026-11-17T03:04:22.617Z",
+  "browser_revision_scope": "历史browser_checks、viewport_checks和screenshots记录网页第一版。新版按用户要求只通过Git与命令行提交、构建和检查，不执行浏览器或桌面操作。",
+  "source_reference_review": {
+    "date": "2026-11-17",
+    "browser": "Codex内置浏览器",
+    "url": "https://x.com/purelivn/status/2121568067402514672",
+    "observed_frames": "开场开窗与约3秒门边人物画面",
+    "duration_seconds": 14.001631,
+    "screenshot": "assets/reference/source-00s.jpg",
+    "audio_listening": false,
+    "full_shot_timeline": false
+  },
+  "content_revision": {
+    "date": "2026-11-17",
+    "scope": "原参考、九次关键讨论、理解与价值、写风到写春的推导置于试片之前",
+    "pages_checked": [
+      "index.html",
+      "analysis.html",
+      "archive.html"
+    ],
+    "dialogue_records": 9,
+    "source_screenshot_hash_match": true,
+    "reference_before_trial": true,
+    "complete_analysis_content_present": true,
+    "browser_layout_recheck": "not run; user requested Git and command-line submission only"
+  },
+  "understanding_map": {
+    "dimensions": [
+      2400,
+      5166
+    ],
+    "value_points": 4,
+    "creative_steps": 5,
+    "spring_layers": 4,
+    "export_hashes_match": true,
+    "complete_copy_in_svg": true,
+    "visual_review": "passed: full composition and enlarged value, creative-path, spring and feedback sections inspected",
+    "new_generation_credits": 0
+  },
+  "publication_preflight": {
+    "pages": 3,
+    "videos": 8,
+    "guide_original_preserved": true,
+    "guide_dimensions": [
+      2400,
+      5166
+    ],
+    "release_archive_sha256": "033428d408f68342f45a03ecd20232813971540f06bd26cfee557fcfebb9f2b2",
+    "release_asset_digest_verified": true,
+    "archive_safety_tests_passed": 3,
+    "ui_automation_used_for_submission": false
+  }
+}

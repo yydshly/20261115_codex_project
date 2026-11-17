@@ -16,6 +16,7 @@ SLUG = '0001-animation-skills-atlas'
 PROJECT = ROOT / 'projects' / SLUG
 PUBLIC = PROJECT / 'web/public'
 SOURCE_GUIDE = '0009-ai-source-field-guide'
+HUMAN_NATURE_STUDY = '0020-human-nature-film-study'
 EVERYDAY_WONDERS = '0011-everyday-wonders'
 CANAL_RESEARCH = '0003-ai-wide-area-modeling'
 AVATAR_WORKFLOW = '0021-avatar-video-workflow'
@@ -23,7 +24,7 @@ WIND_GARDEN = '0005-wind-return-garden'
 SHANHE_WORLD = '0019-shanhe-co-creation'
 VALLEY_GARDEN = '0002-valley-garden'
 PELICAN_STUDY = '0008-pelican-layout-study'
-STATIC_PROJECTS = {PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html'}
+STATIC_PROJECTS = {PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
@@ -41,6 +42,8 @@ def build_static_projects(output):
             command.append('--public')
         if slug == SHANHE_WORLD:
             command.append('--publication')
+        if slug == HUMAN_NATURE_STUDY:
+            command.append('--publication')
         subprocess.run(command, check=True)
         if slug == AVATAR_WORKFLOW:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
@@ -49,6 +52,8 @@ def build_static_projects(output):
         if slug == SHANHE_WORLD:
             subprocess.run([sys.executable, str(project / 'scripts/check.py')], check=True)
         if slug == PELICAN_STUDY:
+            subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
+        if slug == HUMAN_NATURE_STUDY:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         source = project / 'dist'
         if not (source / entry).is_file():

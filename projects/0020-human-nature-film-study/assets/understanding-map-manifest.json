@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "width": 2400,
+  "height": 5166,
+  "method": "Original Chinese text and vector typesetting in Python/Pillow and SVG; no new AI generation or source-image editing",
+  "focus": "理解、价值、创作路径；试片作为后续验证",
+  "source_files": [
+    {
+      "file": "analysis.json",
+      "sha256": "ff2bebefd993f128cdca6aa73ac309bead3c54b5c1827ef4cd9acd878ce3f01c"
+    },
+    {
+      "file": "understanding-map.json",
+      "sha256": "5c09d1a7239b33b3f97c3b8473d43936804afbbef0aa19b236e16fedab4e5b81"
+    },
+    {
+      "file": "scripts/make_understanding_map.py",
+      "sha256": "249d9c3c56bd257bf40e5eb8c75c3e978efe16ad65d10fe9105a2cea473f8890"
+    }
+  ],
+  "files": [
+    {
+      "file": "understanding-map-v1.png",
+      "bytes": 1312950,
+      "sha256": "1f2034e59f1b8c2f2eb82806a85116a4911e7c4418c69ac358e7b166fdd75960"
+    },
+    {
+      "file": "understanding-map-v1.svg",
+      "bytes": 21196,
+      "sha256": "64e7f11864f15058a9a9326b57929c3a5eaeb4f72102d09ab1c8321cf24118b2"
+    },
+    {
+      "file": "understanding-map-preview.jpg",
+      "bytes": 141953,
+      "sha256": "b747de84c6edc3df6bb40820ee5208665ba6e3de97163f3d463af5274586e3ad"
+    }
+  ],
+  "sections": [
+    {
+      "number": "01",
+      "title": "这个理解，给我们的四项价值",
+      "top": 1265
+    },
+    {
+      "number": "02",
+      "title": "把理解变成创作：一条可以使用的路径",
+      "top": 2180
+    },
+    {
+      "number": "03",
+      "title": "如果我们要写春",
+      "top": 3210
+    },
+    {
+      "number": "04",
+      "title": "试片用于验证：这个思路有没有被拍出来？",
+      "top": 4468
+    }
+  ],
+  "text_bounds_checked": true,
+  "rendered_text_characters": 1816,
+  "new_generation_credits": 0,
+  "visual_review": "passed: full composition and enlarged value, creative-path, spring and feedback sections inspected",
+  "reviewed_dimensions": [
+    2400,
+    5166
+  ],
+  "publication_note": "PNG、SVG与此前交付的原文件一致；本轮只更新分析来源说明，不改引导图内容。"
+}

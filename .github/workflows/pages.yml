@@ -13,6 +13,7 @@ on:
       - 'projects/0011-everyday-wonders/**'
       - 'projects/0019-shanhe-co-creation/**'
       - 'projects/0021-avatar-video-workflow/**'
+      - 'projects/0020-human-nature-film-study/**'
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'

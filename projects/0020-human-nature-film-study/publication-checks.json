@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "pages": 3,
+  "local_resources": 40,
+  "videos": 8,
+  "guide_dimensions": [
+    2400,
+    5166
+  ],
+  "original_guide_preserved": true,
+  "total_bytes": 44000735,
+  "dialogue_records": 9,
+  "total_generation_credits": 975,
+  "new_generation_credits": 0,
+  "private_path_scan": "passed"
+}
