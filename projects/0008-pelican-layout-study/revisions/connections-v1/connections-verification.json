@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-16",
+  "result": "pass_for_recorded_scope",
+  "url": "http://127.0.0.1:52918/connections.html",
+  "implementation": "original real-time Three.js 0.180.0, no new image/video generation",
+  "browser": {
+    "surface": "ChatGPT in-app browser",
+    "desktop": {
+      "width": 1280,
+      "height": 720
+    },
+    "keyframes": [
+      {
+        "method": "walk",
+        "seconds": 15.5
+      },
+      {
+        "method": "portal",
+        "seconds": 9.5
+      },
+      {
+        "method": "detail",
+        "seconds": 10.6
+      },
+      {
+        "method": "morph",
+        "seconds": 12
+      },
+      {
+        "method": "time",
+        "seconds": 12
+      },
+      {
+        "method": "action",
+        "seconds": 10.4
+      },
+      {
+        "method": "match",
+        "seconds": 10.98
+      },
+      {
+        "method": "match",
+        "seconds": 11.02
+      },
+      {
+        "method": "match",
+        "seconds": 21
+      }
+    ],
+    "continuous_playback": {
+      "method": "portal",
+      "observed_wall_ms": 25015,
+      "end_time": 24,
+      "playing": false,
+      "state": "finished",
+      "ending_card_visible": true
+    },
+    "mobile": {
+      "requested_viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "document_width": 375,
+      "page_overflow": false,
+      "samples": [
+        {
+          "method": "walk",
+          "seconds": 0
+        },
+        {
+          "method": "portal",
+          "seconds": 9.5
+        },
+        {
+          "method": "detail",
+          "seconds": 21
+        },
+        {
+          "method": "match",
+          "seconds": 21
+        }
+      ],
+      "viewport_reset": true
+    },
+    "controls_used": [
+      "all seven selectors",
+      "play and pause",
+      "range seeking",
+      "reload of hash-based position"
+    ],
+    "console_spot_check": {
+      "error": [],
+      "warn": []
+    },
+    "performance_sample": {
+      "wall_ms": 2603,
+      "frames": 63,
+      "approx_fps": 24.2,
+      "scope": "desktop portal sample; not a cross-device guarantee"
+    },
+    "not_covered": [
+      "real mobile hardware",
+      "screen reader",
+      "Space/arrow keyboard end-to-end",
+      "expand/Escape end-to-end",
+      "natural playback of all seven clips"
+    ],
+    "limitation": "Browser control tool became unavailable after mobile verification and viewport reset. No additional UI checks claimed."
+  },
+  "tests": {
+    "command": "node --test tests/connections-score.test.mjs",
+    "passed": 4,
+    "failed": 0
+  },
+  "static": {
+    "html_ids": 23,
+    "local_references": 8,
+    "sha256": {
+      "connections.html": "a7181aacc79c0f8959d2042ce58dbdd9a55397c1f7c6ba354f84c86fa829645a",
+      "connections.css": "ce113005d2208f07f61a1eb28ff6db76bf01b22e02133f134fccad0396044ce6",
+      "connections.js": "8f54740003e41cd09ff4ffa4d91096e90bdc444db698e7ad0406bedd8fffc703",
+      "connections-score.mjs": "17fbc7762a5d513e9508d870a74fe980a11abe953a93f22dda469c077b73d044",
+      "connections-world.mjs": "0ce08ddf44e469403e2c98b8118b1d663553c896cc2f170d270ab60f669cc31b",
+      "rain-traveler.mjs": "dc0721579e356f5ce4759ea5cad8fc0325c1e13964a2a60df561b53b3498d670",
+      "rain-art.mjs": "068e1ce090963442cf715183d59ee822a23db2c653fcf3902b9539ba063cf9c3",
+      "rain-route.mjs": "8acbdc8c7672380eb837ff06dd60e65db4f19328c9d0eef6c1e86278b9be9f6e"
+    }
+  },
+  "screenshots": {
+    "connections-action.jpg": {
+      "bytes": 85495,
+      "sha256": "f713a4b144fddea0c5eab75c801e942048c196d19a1494043fc0f5e71b887617"
+    },
+    "connections-arrival.jpg": {
+      "bytes": 80270,
+      "sha256": "3256334c2172338d693517b59435f00af764ce28b24284821e5ea1cfbb75f44e"
+    },
+    "connections-detail.jpg": {
+      "bytes": 84789,
+      "sha256": "c2c9f0f2e2e132bc6e0365775c633450f52ea2e61082bdb16fdd47f97ae6c71b"
+    },
+    "connections-match-moon.jpg": {
+      "bytes": 55043,
+      "sha256": "89b0c2182154effa211ee6c361adaa4635fb2ebaee017ded9dd21f924f495b48"
+    },
+    "connections-match-umbrella.jpg": {
+      "bytes": 60502,
+      "sha256": "0b5a74cfe823d5919e4e099c8bf3ebcd7081139cbaf335ce2602b1269436232d"
+    },
+    "connections-mobile-arrival.jpg": {
+      "bytes": 45433,
+      "sha256": "3364b946c926bf6dbb5147e458be462b814d055fde893c7b1479426fbc2246ae"
+    },
+    "connections-mobile-detail.jpg": {
+      "bytes": 43492,
+      "sha256": "bde7dc8b0f9474fe4d588dbb6b8e79ab2ded7c356c9b0930727bfa13a46e1b75"
+    },
+    "connections-mobile-portal.jpg": {
+      "bytes": 42034,
+      "sha256": "e6994490d375543645a0bcdd604773fbf882eaa6d8b8bca287947512990a1423"
+    },
+    "connections-mobile-walk.jpg": {
+      "bytes": 36885,
+      "sha256": "0a0345f27bb0c9dea0a3211ff9efa4cd34db606a970091791ca4c075d6dbbfac"
+    },
+    "connections-morph.jpg": {
+      "bytes": 83878,
+      "sha256": "ce775c6fe6810f3f564431844eecb93de2d0aa1133fe8d24cd93263c41dcf335"
+    },
+    "connections-portal.jpg": {
+      "bytes": 93713,
+      "sha256": "734e9bf62c490897bedf86b8485ec088ac3d98740c19151dc9b50548205ec91f"
+    },
+    "connections-time.jpg": {
+      "bytes": 73098,
+      "sha256": "e0db2d81f9eb135661613397b0d70c916d05fc54671451040bf9f75eb87eeabd"
+    },
+    "connections-walk.jpg": {
+      "bytes": 74032,
+      "sha256": "4f190b3b8adf94cf2e09235e6d75f6d41c7bfa884d41bbcf517e11e676bc4525"
+    }
+  }
+}

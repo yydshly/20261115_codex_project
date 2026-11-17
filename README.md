@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **9** 个项目。
+已收录 **11** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -14,11 +14,13 @@
 | 2 | `0002` | [溪谷花园 · 从氛围到可漫游空间](projects/0002-valley-garden/README.md) | 以田园视频为氛围参考，用程序搭景与免费素材整合保留两版三维漫游，对照空间、细节和环境反馈，积累可复用的浏览器体验。 | 已验证 | [参考来源](https://x.com/siradisidekor/status/2121702120852492788) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/) |
 | 3 | `0003` | [从单图到可编辑三维 · 运河世界研究](projects/0003-ai-wide-area-modeling/README.md) | 从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。 | 研究中 | [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) |
 | 4 | `0005` | [风归小庭 · 像素风与庭院游戏](projects/0005-wind-return-garden/README.md) | 从 SpriteCook 素材出发，验证分层风动与可玩庭院，整理素材价值、实际效果、创作复用和 AI 居民扩展路线。 | 已验证 | [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html) |
-| 5 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
-| 6 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
-| 7 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) |
-| 8 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
-| 9 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 5 | `0008` | [鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展](projects/0008-pelican-layout-study/README.md) | 从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。 | 已验证 | [参考来源](https://x.com/nft_chen/status/2121616583110115341) |
+| 6 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
+| 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
+| 8 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) |
+| 9 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
+| 10 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) |
+| 11 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 
 ## 项目图览
 
@@ -92,6 +94,26 @@
 
 [进入研究](projects/0005-wind-return-garden/README.md) · [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html)
 
+### 0008 · 鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展
+
+从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。
+
+原作价值：同一骑行题目进入不同艺术与媒介系统，主角随画风转译；每幕有独立意境，空间、顺序与结尾将差异串成完整体验。
+
+对我们的意义：学习组织艺术体验的能力，先明确艺术、历史与氛围，再规划构图、材料、光影、情绪和前后承接，最后选择角色与技术。
+
+扩展方向：艺术导览、历史与地方记忆、光雨季节的氛围旅程；比较行旅、传送、进入细节、世界形变、同地换时、行动触发与形状接棒。
+
+实际效果：保留《光的几种语言》《雨的三种距离》、早期白鸟动效、七种连接及46秒传送原型；明确情绪不足、普通3D demo感与遮挡构图问题，工程通过不等于艺术达标。
+
+完整阅读：使用本次生成总览图作引导，提供21条逐幕证据、12章综合分析、12份专题和12份数据，支持全文搜索、放大与实验入口；原作观察、研究解读、原创实验和未知项分别标注。
+
+[![艺术巡游研究总览图：原片证据、四种创作价值、扩展方向及光雨传送实验教训](projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.jpg)](projects/0008-pelican-layout-study/assets/research-understanding-map-20261117.png)
+
+本次生成的研究总览图（2026-11-17），点击查看5400×4050完整原图；原片引用与我们的实验截图分别标注。
+
+[进入研究](projects/0008-pelican-layout-study/README.md) · [参考来源](https://x.com/nft_chen/status/2121616583110115341)
+
 ### 0009 · 知源 · AI 与开源信息源指南
 
 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。
@@ -161,6 +183,24 @@
 本轮生成的3200×12684高清总览图，10个模块、约3600字符；使用已有概念原图与可校对排版，原图保持不变。点击查看完整图；现有成果、故事与系统草案、后期待验证价值分别标注。
 
 [进入研究](projects/0019-shanhe-co-creation/README.md) · [参考来源](https://x.com/thorgram/status/2121601256557051920) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html)
+
+### 0020 · 风与春 · 自然体验影像研究
+
+从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。
+
+原参考效果：人物开窗、站在门边，带观看者接近天气；讨论认为它把风拍了出来，人物仍承担情绪主题和价值引导。
+
+可见拍摄组织：以背影、门窗框景、室内外明暗和湿润材质建立身体与环境的关系；完整运镜、声音和原作者制作流程尚未取得。
+
+对我们的价值：把偏爱转为人物入口、事物响应、注意移动和整个场景的展开，可迁移到雨雪雾与春；保留九次关键讨论、四项价值和五步创作路径。
+
+实际验证：《多停一会儿》两版整片与六段原片、实际提示词和差距复盘；此前六个任务共975积分，首版反馈偏弱，30秒重剪待反馈。
+
+[![本次生成的完整理解总图：人物的情绪与价值入口、四项价值、五步创作路径、写春的四个层次和试片验证](projects/0020-human-nature-film-study/assets/understanding-map-v1.png)](projects/0020-human-nature-film-study/assets/understanding-map-v1.png)
+
+本次生成的2400×5166理解总图原文件，内容与此前交付一致。先读原参考的效果与可见拍摄组织，再看对我们的价值和创作思路；试片只作验证。点击可打开完整高清图。
+
+[进入研究](projects/0020-human-nature-film-study/README.md) · [参考来源](https://x.com/purelivn/status/2121568067402514672)
 
 ### 0021 · 数字人口播制作 · 能力、样片与复用工作流
 

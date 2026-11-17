@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-16",
+  "works": [
+    "light",
+    "rain"
+  ],
+  "chapters_per_work": 3,
+  "html": [
+    {
+      "page": "index.html",
+      "local_links": 48,
+      "unique_ids": 63,
+      "missing_resources": [],
+      "duplicate_ids": []
+    },
+    {
+      "page": "experiments.html",
+      "local_links": 5,
+      "unique_ids": 25,
+      "missing_resources": [],
+      "duplicate_ids": []
+    },
+    {
+      "page": "light.html",
+      "local_links": 9,
+      "unique_ids": 23,
+      "missing_resources": [],
+      "duplicate_ids": []
+    },
+    {
+      "page": "rain.html",
+      "local_links": 9,
+      "unique_ids": 23,
+      "missing_resources": [],
+      "duplicate_ids": []
+    }
+  ],
+  "generated_image_webp_and_export_hashes": 6,
+  "local_original_png_hashes": 6,
+  "reference_asset_hashes": 34,
+  "images_visually_reviewed": 6,
+  "javascript_syntax": "pass",
+  "browser_verification": "pass: Codex in-app browser",
+  "original_artwork_relocation": "not executed; all originals copied and verified in F project; D source files retained",
+  "runtime_flow_and_mobile": "pass",
+  "result": "pass",
+  "initial_environment_blocker": "automatic approval session initialization failed with disk full os error 112 on D drive",
+  "environment_recovery": "user released D drive space; original approval flow resumed; no generated-image deletion executed",
+  "browser_checks": {
+    "chapter_selections": 6,
+    "title_feeling_connection_and_panel_label": "pass",
+    "unique_selection_and_manual_pause": "pass",
+    "complete_playback": {
+      "light": {
+        "last_title": "水面：流动的光",
+        "playing": false,
+        "progress": 1000,
+        "finish_visible": true,
+        "button": "重看全篇 ↺"
+      },
+      "rain": {
+        "last_title": "空江：退向留白",
+        "playing": false,
+        "progress": 1000,
+        "finish_visible": true,
+        "button": "重看全篇 ↺"
+      }
+    },
+    "transitions_observed": [
+      "彩窗 → 暗室",
+      "暗室 → 水面",
+      "檐下 → 竹间",
+      "竹间 → 空江"
+    ],
+    "light_transition_visible_ms": 3068,
+    "pause_during_transition_and_resume": "pass",
+    "resume_button": "继续观看 ▷",
+    "keyboard_home": "pass",
+    "deep_link_reload": {
+      "url": "rain.html#scene-3",
+      "title": "空江：退向留白",
+      "paused": true,
+      "next_disabled": true
+    },
+    "immersion": {
+      "canvas_height": 720,
+      "viewport_height": 720,
+      "escape_exit": true
+    },
+    "wide": {
+      "viewport_width": 1280,
+      "document_width": 1265
+    },
+    "narrow": {
+      "viewport_width": 390,
+      "viewport_height": 844,
+      "document_width": 375,
+      "frame_width": 337.2083,
+      "frame_height": 320,
+      "both_works": "pass"
+    },
+    "console_warning_error": {
+      "light": [],
+      "rain": []
+    },
+    "viewport_restored": true
+  },
+  "screenshots": [
+    "assets/light-study.jpg",
+    "assets/light-study-2.jpg",
+    "assets/light-transition.jpg",
+    "assets/rain-study.jpg",
+    "assets/rain-study-3.jpg",
+    "assets/rain-transition.jpg",
+    "assets/rain-immersive.jpg",
+    "assets/art-studies-mobile.jpg",
+    "assets/light-mobile.jpg"
+  ]
+}

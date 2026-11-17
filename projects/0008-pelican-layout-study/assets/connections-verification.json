@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-16",
+  "result": "static_and_space_pass_visual_quality_failed",
+  "current_portal": "portal-verification.json",
+  "static": {
+    "html_ids": 23,
+    "local_references": 16,
+    "sha256": {
+      "connections.html": "c893234cb0eb0ceea3a2d127f52684291be09f94525c946e9f8e48ac3aff2943",
+      "connections.css": "ae4e0dad91dc4f3cf601de6f15695ce54a0658bf8532e2bef7bb1160777bf7f3",
+      "connections.js": "84a8ef089a8eca33b2bb9e53df51643f015371c4a72f65734a93d2e9f940ccb6",
+      "connections-score.mjs": "e4c8b389f0b0972b994891839152b7f3aef0eccd2bf16043e0f48b94fcccf3a2",
+      "connections-world.mjs": "0ce08ddf44e469403e2c98b8118b1d663553c896cc2f170d270ab60f669cc31b",
+      "portal.html": "b5e9b94d657c4891ec4b23cf75b665931778bbdeb01fb7e52eba771cee858816",
+      "portal-score.mjs": "b0f9b41c6892833a921ed88d7ff03f7ae940f85b952876f4bd88c03e7085fef3",
+      "portal-world.mjs": "881be927ef9b639d572547815f109d59fa3873361cc2b2042327072f87f1b6b6",
+      "rain-traveler.mjs": "f3d946a4d3c32c51a21c837fbc175817d8327881ad66b3dbbf0acd0de0b24d1e",
+      "rain-art.mjs": "068e1ce090963442cf715183d59ee822a23db2c653fcf3902b9539ba063cf9c3",
+      "rain-route.mjs": "8acbdc8c7672380eb837ff06dd60e65db4f19328c9d0eef6c1e86278b9be9f6e"
+    }
+  },
+  "historical_v1": "../revisions/connections-v1/connections-verification.json",
+  "note": "Existing connections-*.jpg are first-edition screenshots; they do not verify the current portal.",
+  "current_visual_review": "portal-verification.json"
+}

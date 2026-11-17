@@ -1,0 +1,180 @@
+{
+  "kind": "本次原创AI短片的网页播放副本",
+  "originals_preserved": true,
+  "encoding": "H.264 CRF26 / AAC 96kbps / 720×1280 / faststart；只压缩编码，不改镜头与声音内容",
+  "videos": [
+    {
+      "id": "film-v1",
+      "file": "videos/film-v1-60s.mp4",
+      "original_name": "多停一会儿-v001.mp4",
+      "original_sha256": "3edbc3e4d97e3323e321c357285e4756b00165ae8e85951ae81d6dfb03003920",
+      "sha256": "a1120973d7cedeb76d1b8dc998b54c955ab4616f972a24223f07f4d5280c8134",
+      "bytes": 14218091,
+      "decode_ok": true,
+      "duration": 60.01,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "film-v2",
+      "file": "videos/film-v2-30s.mp4",
+      "original_name": "多停一会儿-30秒重剪-v002.mp4",
+      "original_sha256": "277cc67773f04e275f054adc90bbd77c82a537fbd6b38ecbefe5f022ab8bbc66",
+      "sha256": "0f3a00c82d69032abcb8e6615ed90255bca56bd3ca1b711a788087b821946483",
+      "bytes": 7877791,
+      "decode_ok": true,
+      "duration": 30.016,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-01",
+      "file": "videos/shot-01.mp4",
+      "original_name": "shot01_complete_v001.mp4",
+      "original_sha256": "08d517a5db7b7aa732af6cd3c83df4739429677972963f423c3545f329fe6b0a",
+      "sha256": "0ffb92acf04f013496a110981edd2dff0a907c868c8ece38d7224e13ac4100b3",
+      "bytes": 1717757,
+      "decode_ok": true,
+      "duration": 10.08,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-02",
+      "file": "videos/shot-02.mp4",
+      "original_name": "shot02_complete_v001.mp4",
+      "original_sha256": "9a8ca6d9a96af36ce4deb301ed5cafbfaeae23dc860a268aee6ddd137e5eb9e3",
+      "sha256": "e280830db5ed3320dc627343bc1bd9a27d2d6eabcebf461762c116ebf4a0ae20",
+      "bytes": 1139960,
+      "decode_ok": true,
+      "duration": 10.08,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-03",
+      "file": "videos/shot-03.mp4",
+      "original_name": "shot03_complete_v001.mp4",
+      "original_sha256": "532c843bd24aa5c8d0fc627cb31b89bfe3d1c63ecab4f2e25c15046f1dc2f490",
+      "sha256": "4dc37dbf83911d41d293285dee09a5d6d446cf208c2bba04481e5a622eec5dba",
+      "bytes": 2205525,
+      "decode_ok": true,
+      "duration": 10.08,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-04",
+      "file": "videos/shot-04.mp4",
+      "original_name": "shot04_complete_v001.mp4",
+      "original_sha256": "357ed179ca1ded0d7216a039e1d5dec555d7e58375699e64b715e64d24e2d143",
+      "sha256": "83890623adf23e456298f1915d9e63b5ac22a3f38fd861fff97fff04a650f860",
+      "bytes": 3174932,
+      "decode_ok": true,
+      "duration": 10.08,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-05",
+      "file": "videos/shot-05.mp4",
+      "original_name": "shot05_complete_v001.mp4",
+      "original_sha256": "e2a0334d3481e4a32ef8324d3b5ee48548d00f17df4c1bb0ad866bb61213bedb",
+      "sha256": "353cd4089f15e78610f161f875ec0b82c0c2934c4e1a975e287bf86746e69600",
+      "bytes": 3148120,
+      "decode_ok": true,
+      "duration": 10.08,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "id": "shot-06",
+      "file": "videos/shot-06.mp4",
+      "original_name": "shot06_complete_v001.mp4",
+      "original_sha256": "ace9274be1c8a51774cf90cba32d70b293193dde8dbc3e2e2373e59938f95ed6",
+      "sha256": "eee8b369b4136d1dfe8f3a77785a6a9a98433260e75bb28923332d405a8bc8d5",
+      "bytes": 4174116,
+      "decode_ok": true,
+      "duration": 15.104,
+      "width": 720,
+      "height": 1280
+    }
+  ],
+  "stills": [
+    {
+      "file": "stills/person.jpg",
+      "source_id": "shot-01",
+      "source_time_seconds": 6.2,
+      "caption": "衣领、伸手与抬头的实际画面",
+      "sha256": "549af3248d22e95dccaa1b9d888f3805602498230dc4925cec4c1802a6e66868"
+    },
+    {
+      "file": "stills/leaf.jpg",
+      "source_id": "shot-02",
+      "source_time_seconds": 9.0,
+      "caption": "新叶与水滴的实际画面",
+      "sha256": "518f1d8eedbe193f241ad1ae5c473d50b165ae2a096e464d0cdfd8ab2279dbf6"
+    },
+    {
+      "file": "stills/ground.jpg",
+      "source_id": "shot-03",
+      "source_time_seconds": 7.6,
+      "caption": "湿土、枯叶与新草的实际画面",
+      "sha256": "7cb8160a130b436d8df0f4f0de9e9798a9522f4dba7d84dc8383f944d1cb4cc4"
+    },
+    {
+      "file": "stills/water.jpg",
+      "source_id": "shot-04",
+      "source_time_seconds": 6.8,
+      "caption": "浅沟汇入河面的实际画面",
+      "sha256": "41b5876ca5a2c4680932a14a3008db905318eb1ace2f036e896695672a13b55e"
+    },
+    {
+      "file": "stills/tree.jpg",
+      "source_id": "shot-05",
+      "source_time_seconds": 7.8,
+      "caption": "原始第五镜柳树与人物的实际画面，未镜像",
+      "sha256": "dc4b6b32bacf148752ad5f953623bb0ae48835f9131fd8530203870d35d4f178"
+    },
+    {
+      "file": "stills/landscape.jpg",
+      "source_id": "shot-06",
+      "source_time_seconds": 13.4,
+      "caption": "人物坐在河岸的实际全景",
+      "sha256": "dfdf0b171eab29575ccf266b131b11b7128bc2be5bbc9afb4c34c00327d5f718"
+    },
+    {
+      "file": "stills/poster-v1.jpg",
+      "source_id": "film-v1",
+      "source_time_seconds": 6.1,
+      "caption": "60秒初版海报帧",
+      "sha256": "2b2a5526885075a715d9e1e4bed57371b14fb34e200381e483c997ef38185ca5"
+    },
+    {
+      "file": "stills/poster-v2.jpg",
+      "source_id": "film-v2",
+      "source_time_seconds": 26.0,
+      "caption": "30秒重剪海报帧",
+      "sha256": "b530a4bd74dee74445bf87b196426759377520bf2173eca4da088f3ae9401119"
+    }
+  ],
+  "reference": {
+    "file": "person-courtyard-reference.png",
+    "sha256": "0a2156086abfb231ce668a70c1fe4854f8a8e155cc20b9bf78229bd7bbea79f4",
+    "kind": "内置图像生成的虚构人物与院落参考，非真人照片"
+  },
+  "source_reference": {
+    "file": "reference/source-00s.jpg",
+    "sha256": "df054214deb5dac4b7e9ac21b59fe8951cc24a77dc854d4e6f517ea8d868c8d2",
+    "source_url": "https://x.com/purelivn/status/2121568067402514672",
+    "account": "@purelivn",
+    "caption": "my favorite weather",
+    "kind": "原帖开场附近的浏览器画面局部截图；不是本次AI生成画面，未下载完整原片",
+    "dimensions": [
+      286,
+      510
+    ],
+    "captured_date": "2026-11-17",
+    "rights": "发帖账号未确认为视频制作者；画面权利归原作者及相关权利人。截图为研究评论的有限画面引用，完整原片保留原帖观看入口，不另授素材许可。"
+  }
+}

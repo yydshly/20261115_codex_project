@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "version": "human-nature-film-media-20261117",
+  "url": "https://github.com/yydshly/20261115_codex_project/releases/download/human-nature-film-media-20261117/human-nature-film-media-20261117.zip",
+  "bytes": 37657226,
+  "sha256": "033428d408f68342f45a03ecd20232813971540f06bd26cfee557fcfebb9f2b2",
+  "files": [
+    {
+      "path": "videos/film-v1-60s.mp4",
+      "bytes": 14218091,
+      "sha256": "a1120973d7cedeb76d1b8dc998b54c955ab4616f972a24223f07f4d5280c8134"
+    },
+    {
+      "path": "videos/film-v2-30s.mp4",
+      "bytes": 7877791,
+      "sha256": "0f3a00c82d69032abcb8e6615ed90255bca56bd3ca1b711a788087b821946483"
+    },
+    {
+      "path": "videos/shot-01.mp4",
+      "bytes": 1717757,
+      "sha256": "0ffb92acf04f013496a110981edd2dff0a907c868c8ece38d7224e13ac4100b3"
+    },
+    {
+      "path": "videos/shot-02.mp4",
+      "bytes": 1139960,
+      "sha256": "e280830db5ed3320dc627343bc1bd9a27d2d6eabcebf461762c116ebf4a0ae20"
+    },
+    {
+      "path": "videos/shot-03.mp4",
+      "bytes": 2205525,
+      "sha256": "4dc37dbf83911d41d293285dee09a5d6d446cf208c2bba04481e5a622eec5dba"
+    },
+    {
+      "path": "videos/shot-04.mp4",
+      "bytes": 3174932,
+      "sha256": "83890623adf23e456298f1915d9e63b5ac22a3f38fd861fff97fff04a650f860"
+    },
+    {
+      "path": "videos/shot-05.mp4",
+      "bytes": 3148120,
+      "sha256": "353cd4089f15e78610f161f875ec0b82c0c2934c4e1a975e287bf86746e69600"
+    },
+    {
+      "path": "videos/shot-06.mp4",
+      "bytes": 4174116,
+      "sha256": "eee8b369b4136d1dfe8f3a77785a6a9a98433260e75bb28923332d405a8bc8d5"
+    }
+  ],
+  "scope": "Only two AI-film edits and six generated-shot web copies, already created for this study; no third-party reference video, credentials or source logs",
+  "credit": "本次讨论、虚构人物与院落参考、ChatArt/Seedance 2.0生成及本地剪辑。975积分为此前已产生的六次任务成本，本次发布未新增生成。"
+}

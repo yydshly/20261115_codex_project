@@ -1,0 +1,17 @@
+dist/
+__pycache__/
+assets/art-studies/originals/
+assets/inspection-*
+assets/understanding-map-*-check.*
+web/archive/
+web/index.html
+web/scenes.js
+web/art-data.js
+web/light.html
+web/rain.html
+web/rain-still.html
+web/research-data.js
+web/research-manifest.json
+!web/vendor/
+!web/vendor/three/
+!web/vendor/three/**

@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-16",
+  "revision": 2,
+  "emotion_target": "惊奇 → 向往，用户选择",
+  "static": {
+    "index.html": {
+      "local_resources_valid": true,
+      "duplicate_ids": false,
+      "unique_ids": 63
+    },
+    "experiments.html": {
+      "local_resources_valid": true,
+      "duplicate_ids": false,
+      "unique_ids": 25
+    },
+    "light.html": {
+      "local_resources_valid": true,
+      "duplicate_ids": false,
+      "unique_ids": 34
+    },
+    "rain.html": {
+      "local_resources_valid": true,
+      "duplicate_ids": false,
+      "unique_ids": 34
+    }
+  },
+  "browser": "pass",
+  "audience_emotion": "awaiting-user-feedback",
+  "assets": {
+    "six_generated_images_unchanged": true,
+    "six_original_png_hashes_valid": true,
+    "source_reference_export_unchanged": true,
+    "private_generation_records_not_exported": true
+  },
+  "browser_checks": {
+    "lightEnd": {
+      "finishVisible": true,
+      "playLabel": "重看全篇 ↺",
+      "playing": "false",
+      "progress": "1000",
+      "scene": "2",
+      "state": "finished"
+    },
+    "rainEnd": {
+      "finishVisible": true,
+      "playLabel": "重看全篇 ↺",
+      "playing": "false",
+      "progress": "1000",
+      "scene": "2",
+      "state": "finished"
+    },
+    "transitionChecks": [
+      {
+        "passage": "光，收进了另一种尺度。",
+        "passageHidden": false,
+        "playing": "false",
+        "scene": "1",
+        "transition": "active"
+      },
+      {
+        "passage": "亮处，长出了整个花园。",
+        "passageHidden": false,
+        "playing": "false",
+        "scene": "2",
+        "transition": "active"
+      }
+    ],
+    "rainTransitionChecks": [
+      {
+        "passage": "一圈涟漪，展开一片竹林。",
+        "passageHidden": false,
+        "playing": "false",
+        "scene": "1",
+        "transition": "active"
+      },
+      {
+        "passage": "穿过雾，天地忽然打开。",
+        "passageHidden": false,
+        "playing": "false",
+        "scene": "2",
+        "transition": "active"
+      }
+    ],
+    "sceneChecks": [
+      {
+        "panel": "chapter-1",
+        "playing": "false",
+        "progress": "0",
+        "scene": "0",
+        "selected": 1,
+        "work": "light"
+      },
+      {
+        "panel": "chapter-2",
+        "playing": "false",
+        "progress": "0",
+        "scene": "1",
+        "selected": 1,
+        "work": "light"
+      },
+      {
+        "panel": "chapter-3",
+        "playing": "false",
+        "progress": "0",
+        "scene": "2",
+        "selected": 1,
+        "work": "light"
+      },
+      {
+        "panel": "chapter-1",
+        "playing": "false",
+        "progress": "0",
+        "scene": "0",
+        "selected": 1,
+        "work": "rain"
+      },
+      {
+        "panel": "chapter-2",
+        "playing": "false",
+        "progress": "0",
+        "scene": "1",
+        "selected": 1,
+        "work": "rain"
+      },
+      {
+        "panel": "chapter-3",
+        "playing": "false",
+        "progress": "0",
+        "scene": "2",
+        "selected": 1,
+        "work": "rain"
+      }
+    ],
+    "keyboardFinal": {
+      "active": "chapter-1",
+      "hash": "#scene-1",
+      "scene": "0"
+    },
+    "deepLinkFinal": {
+      "hash": "#scene-3",
+      "playing": "false",
+      "scene": "2"
+    },
+    "mobileLight": {
+      "documentWidth": 375,
+      "entryBottom": 605.2500228881836,
+      "stageHeight": 786,
+      "width": 390
+    },
+    "mobileRain": {
+      "documentWidth": 375,
+      "entry": {
+        "bottom": 605.2500228881836,
+        "height": 43.33333587646485,
+        "left": 29.96875,
+        "right": 199.96875,
+        "top": 561.9166870117188,
+        "width": 170,
+        "x": 29.96875,
+        "y": 561.9166870117188
+      },
+      "stage": {
+        "bottom": 844,
+        "height": 786,
+        "left": 0,
+        "right": 374.6666870117187,
+        "top": 58,
+        "width": 374.6666870117187,
+        "x": 0,
+        "y": 58
+      },
+      "width": 390
+    },
+    "rainMobilePlaying": {
+      "documentWidth": 375,
+      "playing": "false",
+      "poem": "poem is-visible",
+      "width": 390
+    },
+    "notesCheck": {
+      "notesOpen": true,
+      "playing": "false"
+    },
+    "soundToggle": {
+      "on": "true",
+      "off": "false",
+      "listened": false
+    },
+    "lightErrors": [],
+    "rainErrors": [],
+    "finalLight": {
+      "ready": "true",
+      "state": "invitation",
+      "url": "http://127.0.0.1:52918/light.html"
+    },
+    "finalRain": {
+      "ready": "true",
+      "state": "invitation",
+      "url": "http://127.0.0.1:52918/rain.html"
+    }
+  },
+  "limits": [
+    "声音开关与控制台已查，未作实际听感评价。",
+    "减少动态效果分支已实现，未模拟系统偏好验收。",
+    "情绪是否传达等待用户观看反馈。"
+  ],
+  "additional_browser_checks": {
+    "immersion": {
+      "canvas_height": 720,
+      "viewport_height": 720,
+      "escape_exited": true
+    },
+    "pause_progress_stable": true
+  },
+  "verified_files": {
+    "web/art-studies.js": "4d9070dabedd544292ac49c7c57127918815f6e689d49da340d9837d0e4dd78e",
+    "web/art-studies.css": "c3a776d17afa2e0d46e1b60ef99548995d8b28881a26015dc31881c441228a9d",
+    "web/art-template.html": "9948920ebfd540316d7db9eb27c3f252a90c6fec301ca90825d683a0ce8924a8",
+    "art-studies.json": "1ab02222b76d2c38bda3f35e810dece04b4b32e6d202e8ec1427810988675a2c"
+  },
+  "screenshots": [
+    {
+      "path": "assets/emotion-path.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "path": "assets/light-emotion-ending.jpg",
+      "dimensions": [
+        1265,
+        791
+      ]
+    },
+    {
+      "path": "assets/light-emotion-mobile-playing.jpg",
+      "dimensions": [
+        375,
+        812
+      ]
+    },
+    {
+      "path": "assets/light-emotion-mobile.jpg",
+      "dimensions": [
+        375,
+        812
+      ]
+    },
+    {
+      "path": "assets/light-emotion-playing.jpg",
+      "dimensions": [
+        1265,
+        791
+      ]
+    },
+    {
+      "path": "assets/light-emotion-transition-1.jpg",
+      "dimensions": [
+        1265,
+        791
+      ]
+    },
+    {
+      "path": "assets/light-emotion-transition-2.jpg",
+      "dimensions": [
+        1265,
+        791
+      ]
+    },
+    {
+      "path": "assets/light-emotion-v2.jpg",
+      "dimensions": [
+        1265,
+        791
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-ending.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-mobile-playing.jpg",
+      "dimensions": [
+        375,
+        812
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-mobile.jpg",
+      "dimensions": [
+        375,
+        812
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-playing.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-transition-1.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-transition-2.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    },
+    {
+      "path": "assets/rain-emotion-v2.jpg",
+      "dimensions": [
+        1265,
+        712
+      ]
+    }
+  ]
+}
