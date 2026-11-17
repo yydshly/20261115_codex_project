@@ -1,0 +1,220 @@
+{
+  "method": "VGGT camera intrinsics and depth sampled at 12 historical approximate image anchors; robust 3D fit with bounded continuous scene deformation",
+  "scope": "single-view hypothesis, no metric or hidden-surface ground truth; fitted anchors are not held-out validation",
+  "parameters": [
+    -11.732993630526519,
+    -4.110132956486404,
+    1.2175286932096838,
+    0.41951168645487263,
+    0.07434356244473769,
+    -7.2782510898595625,
+    0.5231873514069463,
+    2.538552078461469,
+    0.6066270205485521,
+    0.5500000000000002,
+    9.883065141483272
+  ],
+  "parameter_names": [
+    "camera_x",
+    "camera_y",
+    "camera_z",
+    "yaw",
+    "pitch",
+    "bridge_offset",
+    "channel_scale",
+    "quay_shift",
+    "x_scale",
+    "height_scale",
+    "depth_to_old_world_scale"
+  ],
+  "K_normalized": [
+    0.9068067396009291,
+    1.6119024575162095
+  ],
+  "old_v4_anchor_rms": 36.92184205419366,
+  "new_anchor_rms": 54.4561085192351,
+  "depth_fit_rms_in_model_units": 0.3447789941338401,
+  "success": true,
+  "anchors": [
+    {
+      "name": "cafe_bookshop_base",
+      "uv": [
+        0.33,
+        0.681
+      ],
+      "predicted_depth": 0.87109375,
+      "confidence": 6.375,
+      "world": [
+        -4.0,
+        1.05,
+        0.85
+      ],
+      "pixel_error": 24.49815737216542
+    },
+    {
+      "name": "bookshop_pottery_base",
+      "uv": [
+        0.491,
+        0.638
+      ],
+      "predicted_depth": 1.2265625,
+      "confidence": 4.71875,
+      "world": [
+        -0.36023787670868757,
+        1.05,
+        0.85
+      ],
+      "pixel_error": 28.61309653199383
+    },
+    {
+      "name": "pottery_right_base",
+      "uv": [
+        0.601,
+        0.615
+      ],
+      "predicted_depth": 1.578125,
+      "confidence": 2.78125,
+      "world": [
+        3.21886154452777,
+        1.05,
+        0.85
+      ],
+      "pixel_error": 53.96499592465361
+    },
+    {
+      "name": "cafe_bookshop_eave",
+      "uv": [
+        0.331,
+        0.117
+      ],
+      "predicted_depth": 0.96875,
+      "confidence": 6.125,
+      "world": [
+        -4.0,
+        0.9455048350541263,
+        4.645000000000001
+      ],
+      "pixel_error": 95.30574454626412
+    },
+    {
+      "name": "bookshop_pottery_eave",
+      "uv": [
+        0.491,
+        0.201
+      ],
+      "predicted_depth": 1.3125,
+      "confidence": 5.28125,
+      "world": [
+        -0.36023787670868757,
+        0.9455048350541263,
+        4.645000000000001
+      ],
+      "pixel_error": 24.130335492661114
+    },
+    {
+      "name": "pottery_right_eave",
+      "uv": [
+        0.605,
+        0.272
+      ],
+      "predicted_depth": 1.671875,
+      "confidence": 1.0,
+      "world": [
+        3.3583857592539372,
+        0.9455048350541263,
+        4.645000000000001
+      ],
+      "pixel_error": 31.20537273796133
+    },
+    {
+      "name": "cafe_left_base",
+      "uv": [
+        0.087,
+        0.755
+      ],
+      "predicted_depth": 0.59765625,
+      "confidence": 7.46875,
+      "world": [
+        -7.5790994212364575,
+        1.05,
+        0.85
+      ],
+      "pixel_error": 97.34694739489778
+    },
+    {
+      "name": "canopy_front_right",
+      "uv": [
+        0.36,
+        0.414
+      ],
+      "predicted_depth": 0.9453125,
+      "confidence": 3.46875,
+      "world": [
+        -4.0,
+        0.3595855173219057,
+        2.4230000000000005
+      ],
+      "pixel_error": 76.88887155468831
+    },
+    {
+      "name": "bridge_shop_bank_end",
+      "uv": [
+        0.619,
+        0.638
+      ],
+      "predicted_depth": 1.1640625,
+      "confidence": 4.375,
+      "world": [
+        -0.12259240254705128,
+        -0.46144792153853076,
+        0.89125
+      ],
+      "pixel_error": 33.49250407593739
+    },
+    {
+      "name": "bridge_deck_crown",
+      "uv": [
+        0.777,
+        0.552
+      ],
+      "predicted_depth": 1.1953125,
+      "confidence": 2.46875,
+      "world": [
+        -0.12259240254705128,
+        -2.554197327166316,
+        1.6887500000000002
+      ],
+      "pixel_error": 16.969769922866607
+    },
+    {
+      "name": "bridge_far_bank_end",
+      "uv": [
+        0.93,
+        0.643
+      ],
+      "predicted_depth": 1.0,
+      "confidence": 1.3046875,
+      "world": [
+        -0.12259240254705128,
+        -4.646946732794101,
+        0.89125
+      ],
+      "pixel_error": 53.90142119772527
+    },
+    {
+      "name": "bridge_inner_crown",
+      "uv": [
+        0.783,
+        0.594
+      ],
+      "predicted_depth": 1.21875,
+      "confidence": 1.34375,
+      "world": [
+        -0.08012851110865249,
+        -2.554197327166316,
+        1.2735000000000003
+      ],
+      "pixel_error": 30.19733567469441
+    }
+  ]
+}

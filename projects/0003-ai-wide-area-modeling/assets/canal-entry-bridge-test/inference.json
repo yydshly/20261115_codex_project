@@ -1,0 +1,365 @@
+{
+  "model": "facebook/VGGT-1B",
+  "source_commit_name": "vggt-a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "source_file_sha256": {
+    "demo_colmap.py": "c1aaebd123ad66ee85d46e6b629f1e02c8e60a897682fc2e9afcde65937818ce",
+    "demo_gradio.py": "57b4ba3210145d0c5b1a3a6e9bd4b77cc3c6ce3127eb8d00e49a5715c848b164",
+    "demo_viser.py": "7eb388ed7f5498440f3d3f46f939ee5bdbca440149d5003e05cbec5b2ce48ec1",
+    "visual_util.py": "04d51592f36f9101e0079f91e8f4a8cd16c461013870ea40f7ccab5c9741dea5",
+    "training\\launch.py": "d76a7a7e23cec1fddacc628003569914f03c4e68d13001c5441db3e4f8c627d7",
+    "training\\loss.py": "72b5e28f9be307a5eb399804171ffc228262d73de5c7f4d80a431ca305c8292f",
+    "training\\trainer.py": "fc7e03a5fa887e717029f8fa2489bb5e059f67020c760cb1e42be1040930cb90",
+    "training\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "training\\data\\augmentation.py": "480ac09ea99e6b80ba395cccbb5703e54f16aa5a7a32740aac07ee8250c2bb41",
+    "training\\data\\base_dataset.py": "74c6446cfcb82fa3bba0d87743b8aa82530314de1cb09d9103f2cc6379178454",
+    "training\\data\\composed_dataset.py": "62340e575739c8cf9fa18f1f587a046d41f36c6df9aa7adb33de3f3519da1a32",
+    "training\\data\\dataset_util.py": "591810ec264795c39cb9382ba1fbc5dc52ff0580aa9309787d2f75145a703293",
+    "training\\data\\dynamic_dataloader.py": "6c70f0f575c029a846f5deb14137c5e0d0d5cc64f19b50ddbab701e177776e8c",
+    "training\\data\\track_util.py": "1998cb475bfe8248f61da66809b9b36f03311b99fbc5b218ae84de42be6feea2",
+    "training\\data\\worker_fn.py": "e97df63d80954e364668805fd3b68d0bd0f6d1d03fde00d5c076126b47d3f987",
+    "training\\data\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "training\\data\\datasets\\co3d.py": "1e3fa0a15fd5fafc4542fc14c5d8d2abea99df2dd9b5353181bce6f680167e4d",
+    "training\\data\\datasets\\vkitti.py": "e3ec1594cfe3a34cfde20538d392b223d781187e702a261121ec94641c7d2dbe",
+    "training\\train_utils\\checkpoint.py": "f586dc6d02d349860ea41203a13aaf8eb2629effbe5b44523607d606b6c6fc7a",
+    "training\\train_utils\\distributed.py": "6d0f98cdc2d75fa70c9331ab9d6c99fedaec3035fb66af42b620311215a6879a",
+    "training\\train_utils\\freeze.py": "463f93853320d3a5b1f21d77446c3e4c45adb95961de6602fbda8bb38f2d64bb",
+    "training\\train_utils\\general.py": "a21891523ada5fdd8ca64f3bd3a39e7f968caf88bfd7b25e3e8b136651eb16b9",
+    "training\\train_utils\\gradient_clip.py": "c0095ba907d510361b092171522481c975fa64a91a8e1deaf2e000523a96d9c5",
+    "training\\train_utils\\logging.py": "816a090486e49ac494f57fb8fca0be413d7493e3a2616b5c51aab8010eccb37b",
+    "training\\train_utils\\normalization.py": "e06aabc8377ea5b356b556817ac6992cfcf1e0673ffbb7871f935f58e3fcbdfc",
+    "training\\train_utils\\optimizer.py": "4a79ae5c37e5bd4f286815d7ba2662c2ee30326d442078ffc5e03c4e6a90518f",
+    "training\\train_utils\\tb_writer.py": "438d924b07a5b730df83d660f9d68e41026531d8f0eb2be23505e388d1708ad3",
+    "training\\train_utils\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vggt\\dependency\\distortion.py": "d95ab35395ea5887138e0855599298a91d55bb9c49e0c4025af5f2e1879bf5e8",
+    "vggt\\dependency\\np_to_pycolmap.py": "bbb233d3a36aad00a89caf252ecc7e3ba6518bbd3c9be32eaf3efe46ef3a3b3d",
+    "vggt\\dependency\\projection.py": "000536f56bdaa25b6f53b388c385d97f828e7b17f47d45dfd9deeeca702732c7",
+    "vggt\\dependency\\track_predict.py": "8ee1dc033ef059a895c8176625e13d7bcef135a59c1bb30b6ecf75c8a09fc628",
+    "vggt\\dependency\\vggsfm_tracker.py": "6ca09da1d20e4fd2aceb3e7a0ea240738d5d2a766ce5d378ee548a41bf64b283",
+    "vggt\\dependency\\vggsfm_utils.py": "6a5bf8d2a669672aae8cfc4e66192a065a3f64268792fe5b64f86fe326d1b569",
+    "vggt\\dependency\\__init__.py": "3302fe9db9c9a08956c81e3ee7a3cd3fde0e830ab65f692cc89959c984464da1",
+    "vggt\\dependency\\track_modules\\base_track_predictor.py": "55dae69b226352e4a7d78fc4444a45d3b9decb054c78785ad09a9ea3943779e7",
+    "vggt\\dependency\\track_modules\\blocks.py": "52f7c528830c57131393a33c3a0a2add6af27e04f77b754cf2c636cccaedc0e4",
+    "vggt\\dependency\\track_modules\\modules.py": "3fed3272583f4ff98e149105439548f75221f7fab49d34a140571fb630ba0629",
+    "vggt\\dependency\\track_modules\\track_refine.py": "9eb0f1be662c2665402b61980001f118e61d4b02e051caf1f0de7c9e1b38ae37",
+    "vggt\\dependency\\track_modules\\utils.py": "d6f2f2c87000d96c6e744e658c338416dbd05626b8df66b9c979132e4ab25d3a",
+    "vggt\\dependency\\track_modules\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "vggt\\heads\\camera_head.py": "d177f3d64d53210209b7bbb8496faaaec91f3fc51d04a4ee8d9d6b70f053e132",
+    "vggt\\heads\\dpt_head.py": "b83ff030043f2ba808afb0c0ebc2f40f1d2ddc9d0b4b847bdfd53670f2d03e17",
+    "vggt\\heads\\head_act.py": "428bdb087f457b809a66e22d7d01147c1cb4dab43bb0d98bc61c7f05d8383a1e",
+    "vggt\\heads\\track_head.py": "5838f10401ad4c614e5608314f7b27b9195af8839e8bbb3321bfb6aad41a3e59",
+    "vggt\\heads\\utils.py": "2dce4c0dca1974a5250cc5d5d95bd3417e3ba9494978437a12d5ab6bbff4d4df",
+    "vggt\\heads\\track_modules\\base_track_predictor.py": "8afb4311f71b74a85a2faf12386e72a782678e8d5e223a95645b951e6fbae185",
+    "vggt\\heads\\track_modules\\blocks.py": "7c00a9edec0c4ce0ba773063ba72e578004731dc3f9a6386478f2c1d2f06e948",
+    "vggt\\heads\\track_modules\\modules.py": "3b86a7580cee368ddb97a37a879b82943a8f82ca539979ecdd3218c27a4aa811",
+    "vggt\\heads\\track_modules\\utils.py": "0480f9c7a452310affc4cf4566c6ba37fde80675c476123ee61a4eab121f4917",
+    "vggt\\heads\\track_modules\\__init__.py": "3cb62676c3fad403516673b2e99cdb6cbc0b71f814c3bb7f551bfa1e8495e062",
+    "vggt\\layers\\attention.py": "883b82b8fd1d833e4b7060a97cff44aa677288e2f91415763d0deac48d111469",
+    "vggt\\layers\\block.py": "4f2303fb83b63655d17aac7d4937772093dcc5b27c73b6ea2f727a4068131b51",
+    "vggt\\layers\\drop_path.py": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+    "vggt\\layers\\layer_scale.py": "83586eaa81ef11828b1001f3dd85747ba362df23ddb57c8454b2eba279f5a558",
+    "vggt\\layers\\mlp.py": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+    "vggt\\layers\\patch_embed.py": "c2543ec293951d081db662b2125027625f6e632971630facaa7f911c2377d335",
+    "vggt\\layers\\rope.py": "c56b073724f4d56cc531e381835a2c3dc348f192aefd9e855e3e59ab3c7d6641",
+    "vggt\\layers\\swiglu_ffn.py": "af287ee5b7e6a2a5608ed78cf8d392a00191718825a3889c224ccaa0fd914089",
+    "vggt\\layers\\vision_transformer.py": "857932a5a7cf8fa062535464b4831493544715cdfb729648a83a10098a5eae87",
+    "vggt\\layers\\__init__.py": "e3c28c7b775165b6844000eb69f44d104d6c3803ac7da5d59f6ac3ecfb46d9d8",
+    "vggt\\models\\aggregator.py": "c994d7231eda2380f208355a64bce3cd7c4b97ef06393355e632415bfc1513e5",
+    "vggt\\models\\vggt.py": "dbc92d6214882161d9042b1bc60cc932a9fd6bb609fc913d14906328f7833607",
+    "vggt\\utils\\geometry.py": "c6f505182e4e926629c04adbdf633eb80238da3a3c87eb8337b6f130ab01ab93",
+    "vggt\\utils\\helper.py": "5182cf8d6a35b9100922d8056c6d91cdfda2b53ff5dde21c061e976e47ef0bb0",
+    "vggt\\utils\\load_fn.py": "d57b7a16c2e04333a2e68d365aa21f1dd61759e984f744cbcbe6b66d787f37ef",
+    "vggt\\utils\\pose_enc.py": "845fc3a46cb851bebf0720b8fc2b9f34334ae8e11f1982376ba59f90ff18f22b",
+    "vggt\\utils\\rotation.py": "ad3a904e243c6654f0aa5f1d0206ace5f2d61011bc1bf8f492b40e0b76cb2070",
+    "vggt\\utils\\visual_track.py": "b6b6103f62dfa470565100a1c6166c87fad234fcef75ffb78af70157ac2746de"
+  },
+  "weights_sha256": "f164acf60724910d8fe1578bb499d800850c7bb0948db7555c413f9fbe60467e",
+  "torch": "2.3.1+cu118",
+  "device": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "reused_pure_python_dependency": "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\vggt-canal-runtime\\.venv\\Lib\\site-packages\\einops",
+  "precision": "BF16 aggregator, FP32 camera and depth heads, one depth frame per chunk",
+  "source_note": "Read existing local source; cached layer policy, if present, is recorded by file hashes. No upstream source edited.",
+  "view_manifest": [
+    {
+      "id": "original",
+      "label": "原图",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png",
+      "sha256": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "left",
+      "label": "左移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png",
+      "sha256": "ee8101f4abf6cadbec450221632fa630ca56912669c5ae1c88be5f3274b86424",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "right",
+      "label": "右移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png",
+      "sha256": "3de359e64e00fc45b4621291f2413936ab36fd8d7af4b120390c22d3c7e02da1",
+      "original_size_wh": [
+        1671,
+        941
+      ]
+    },
+    {
+      "id": "approach",
+      "label": "门口近看",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png",
+      "sha256": "e7b16998002e7cc466351476ffdc9c056a82db214bd55f48cc4d63e2f04b8d7f",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "threshold",
+      "label": "门槛初稿",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png",
+      "sha256": "8148915e2fde472e0b0344da5c5365c4eb268520e4685429f37d53a6ba3f0837",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "inside",
+      "label": "室内开灯",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png",
+      "sha256": "a301c6927c2fdb273406876e162fab35182a93697c12665b99812567f59b205c",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "reverse",
+      "label": "室内回望",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png",
+      "sha256": "9962c4160b9eca3f49a9a92be7cac33258ca2439b98f1ab268fa45583cd13ef4",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "bridge_a",
+      "label": "过渡 A（走近）",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-entry-bridge-test/bridge-a.png",
+      "sha256": "9d12f2115bd51c34b2e596aae39e879d06a57b1ee1d56e88787f66ab685aadd7",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    },
+    {
+      "id": "bridge_b",
+      "label": "过渡 B（门口正向）",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-entry-bridge-test/bridge-b.png",
+      "sha256": "7ebe28b2fd9ac268b6fb800351524dde4a8e211e4c26407c8d60b93689c1e1cd",
+      "original_size_wh": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "group": "joint",
+      "view_ids": [
+        "original",
+        "left",
+        "right",
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold",
+        "inside",
+        "reverse"
+      ],
+      "shape_bschw": [
+        1,
+        9,
+        3,
+        294,
+        518
+      ],
+      "seconds": 4.130566900013946,
+      "peak_allocated_gib": 3.199502468109131,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "entry",
+      "view_ids": [
+        "original",
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold",
+        "inside"
+      ],
+      "shape_bschw": [
+        1,
+        6,
+        3,
+        294,
+        518
+      ],
+      "seconds": 1.4097345000191126,
+      "peak_allocated_gib": 3.1197385787963867,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "doorway",
+      "view_ids": [
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold"
+      ],
+      "shape_bschw": [
+        1,
+        4,
+        3,
+        294,
+        518
+      ],
+      "seconds": 1.0858462000032887,
+      "peak_allocated_gib": 3.0664877891540527,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "pair_oa",
+      "view_ids": [
+        "original",
+        "bridge_a"
+      ],
+      "shape_bschw": [
+        1,
+        2,
+        3,
+        294,
+        518
+      ],
+      "seconds": 0.5873935999989044,
+      "peak_allocated_gib": 3.0138845443725586,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "pair_aa",
+      "view_ids": [
+        "bridge_a",
+        "approach"
+      ],
+      "shape_bschw": [
+        1,
+        2,
+        3,
+        294,
+        518
+      ],
+      "seconds": 0.6022634000109974,
+      "peak_allocated_gib": 3.0138845443725586,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "pair_ab",
+      "view_ids": [
+        "approach",
+        "bridge_b"
+      ],
+      "shape_bschw": [
+        1,
+        2,
+        3,
+        294,
+        518
+      ],
+      "seconds": 0.6261506000009831,
+      "peak_allocated_gib": 3.0138845443725586,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "pair_bt",
+      "view_ids": [
+        "bridge_b",
+        "threshold"
+      ],
+      "shape_bschw": [
+        1,
+        2,
+        3,
+        294,
+        518
+      ],
+      "seconds": 0.631931199983228,
+      "peak_allocated_gib": 3.0138845443725586,
+      "finite_depth": true,
+      "finite_pose": true
+    },
+    {
+      "group": "pair_bi",
+      "view_ids": [
+        "bridge_b",
+        "inside"
+      ],
+      "shape_bschw": [
+        1,
+        2,
+        3,
+        294,
+        518
+      ],
+      "seconds": 0.634961600007955,
+      "peak_allocated_gib": 3.0138845443725586,
+      "finite_depth": true,
+      "finite_pose": true
+    }
+  ],
+  "total_seconds": 28.617197499988833,
+  "protected_sources_before": {
+    "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/assets/reference.png": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+    "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/canal-sharp-results/canal-sharp.ply": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+    "F:/codex_project2/1115_codex_project/.local/cafe-source-bound/cafe-source-bound.blend": "d560de4caf024b1cea23af858305ffddc45a6255366507f99e425b29d6b67d32",
+    "F:/codex_project2/1115_codex_project/.local/canal-world-local/canal-world-master.blend": "f38d12316cf62d33614adbc7277bd058b130c211984d9bfbe06317a50160cd6a",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png": "ee8101f4abf6cadbec450221632fa630ca56912669c5ae1c88be5f3274b86424",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png": "3de359e64e00fc45b4621291f2413936ab36fd8d7af4b120390c22d3c7e02da1",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png": "e7b16998002e7cc466351476ffdc9c056a82db214bd55f48cc4d63e2f04b8d7f",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png": "8148915e2fde472e0b0344da5c5365c4eb268520e4685429f37d53a6ba3f0837",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png": "a301c6927c2fdb273406876e162fab35182a93697c12665b99812567f59b205c",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png": "9962c4160b9eca3f49a9a92be7cac33258ca2439b98f1ab268fa45583cd13ef4",
+    "F:/codex_project2/1115_codex_project/.local/canal-vggt-consistency/joint/prediction.npz": "0e86aa89aa7081e0589c93151fc69b60cf03f8eb51bf63a85e718fcbe191beb0"
+  },
+  "protected_sources_after": {
+    "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/assets/reference.png": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+    "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/canal-sharp-results/canal-sharp.ply": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+    "F:/codex_project2/1115_codex_project/.local/cafe-source-bound/cafe-source-bound.blend": "d560de4caf024b1cea23af858305ffddc45a6255366507f99e425b29d6b67d32",
+    "F:/codex_project2/1115_codex_project/.local/canal-world-local/canal-world-master.blend": "f38d12316cf62d33614adbc7277bd058b130c211984d9bfbe06317a50160cd6a",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png": "ee8101f4abf6cadbec450221632fa630ca56912669c5ae1c88be5f3274b86424",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png": "3de359e64e00fc45b4621291f2413936ab36fd8d7af4b120390c22d3c7e02da1",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png": "e7b16998002e7cc466351476ffdc9c056a82db214bd55f48cc4d63e2f04b8d7f",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png": "8148915e2fde472e0b0344da5c5365c4eb268520e4685429f37d53a6ba3f0837",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png": "a301c6927c2fdb273406876e162fab35182a93697c12665b99812567f59b205c",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png": "9962c4160b9eca3f49a9a92be7cac33258ca2439b98f1ab268fa45583cd13ef4",
+    "F:/codex_project2/1115_codex_project/.local/canal-vggt-consistency/joint/prediction.npz": "0e86aa89aa7081e0589c93151fc69b60cf03f8eb51bf63a85e718fcbe191beb0"
+  },
+  "all_protected_unchanged": true,
+  "gaussian_training": false,
+  "old_model_edits": false,
+  "scale": "Joint inferred gauge, no independent metric calibration"
+}

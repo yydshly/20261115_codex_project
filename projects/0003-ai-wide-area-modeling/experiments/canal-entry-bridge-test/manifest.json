@@ -1,0 +1,137 @@
+{
+  "model_source": "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/vggt-canal-runtime/source/vggt-a288dd0f14786c93483e45524328726ab7b1b4ce",
+  "weights": "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/vggt-canal-runtime/model/model.safetensors",
+  "out": "F:/codex_project2/1115_codex_project/.local/canal-entry-bridge-test",
+  "views": [
+    {
+      "id": "original",
+      "label": "原图",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png"
+    },
+    {
+      "id": "left",
+      "label": "左移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png"
+    },
+    {
+      "id": "right",
+      "label": "右移候选",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png"
+    },
+    {
+      "id": "approach",
+      "label": "门口近看",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png"
+    },
+    {
+      "id": "threshold",
+      "label": "门槛初稿",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png"
+    },
+    {
+      "id": "inside",
+      "label": "室内开灯",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png"
+    },
+    {
+      "id": "reverse",
+      "label": "室内回望",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png"
+    },
+    {
+      "id": "bridge_a",
+      "label": "过渡 A（走近）",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-entry-bridge-test/bridge-a.png"
+    },
+    {
+      "id": "bridge_b",
+      "label": "过渡 B（门口正向）",
+      "path": "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-entry-bridge-test/bridge-b.png"
+    }
+  ],
+  "groups": [
+    {
+      "id": "joint",
+      "view_ids": [
+        "original",
+        "left",
+        "right",
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold",
+        "inside",
+        "reverse"
+      ]
+    },
+    {
+      "id": "entry",
+      "view_ids": [
+        "original",
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold",
+        "inside"
+      ]
+    },
+    {
+      "id": "doorway",
+      "view_ids": [
+        "bridge_a",
+        "approach",
+        "bridge_b",
+        "threshold"
+      ]
+    },
+    {
+      "id": "pair_oa",
+      "view_ids": [
+        "original",
+        "bridge_a"
+      ]
+    },
+    {
+      "id": "pair_aa",
+      "view_ids": [
+        "bridge_a",
+        "approach"
+      ]
+    },
+    {
+      "id": "pair_ab",
+      "view_ids": [
+        "approach",
+        "bridge_b"
+      ]
+    },
+    {
+      "id": "pair_bt",
+      "view_ids": [
+        "bridge_b",
+        "threshold"
+      ]
+    },
+    {
+      "id": "pair_bi",
+      "view_ids": [
+        "bridge_b",
+        "inside"
+      ]
+    }
+  ],
+  "protected_sources": [
+    "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/assets/reference.png",
+    "D:/codex/home/visualizations/2026/11/15/01a1de25-a21a-7db2-bd3c-5108c15683e8/canal-sharp-results/canal-sharp.ply",
+    "F:/codex_project2/1115_codex_project/.local/cafe-source-bound/cafe-source-bound.blend",
+    "F:/codex_project2/1115_codex_project/.local/canal-world-local/canal-world-master.blend",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-single-vggt/reference.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/left-v1.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-multiview/right-v1.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/approach.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on-v1-threshold.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/interior-on.png",
+    "F:/codex_project2/1115_codex_project/projects/0003-ai-wide-area-modeling/assets/canal-imagegen-interior/reverse.png",
+    "F:/codex_project2/1115_codex_project/.local/canal-vggt-consistency/joint/prediction.npz"
+  ]
+}

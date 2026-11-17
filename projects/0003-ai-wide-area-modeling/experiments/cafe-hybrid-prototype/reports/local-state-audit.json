@@ -1,0 +1,96 @@
+{
+  "scope": "Read-only inspection of existing scene; no new image, model generation, training, clipping, or scene repair",
+  "sourceAssetsMatchRecordedBaseline": true,
+  "assetSha256": {
+    "cafe-hybrid-prototype.blend": "ceea96d9efee21e968418c32a8a146db41e975be9b5ed776293f2c760e149bca",
+    "cafe-structure.glb": "e807b79d1d6742c84dc9eb1071700fbee6f6e2466e06ab55450405fa74be9660",
+    "background.ply": "0c11cf3b761567173635344052f7ff14e4741214dbf2f1d00d7e38f4ab0e51e4",
+    "door-skin.ply": "0a96193a885876c3224d6153da913a1fe4f97d1d91e53ea89719ce5701996263",
+    "layout.json": "fff133375adc97bac3b70f20fe3866fe9fe9ee5b30a9f7940f1bc11c6c25b37e",
+    "binding.json": "108f5d171d83ce43cb087ebc8fff052e114b9dbe1c7c959eb57711cfcb783675"
+  },
+  "gaussianCenterOverlap": {
+    "background.ply": {
+      "total": 1121026,
+      "centersInsideDesignedRoom": 4558,
+      "insideWithOpacityAbovePointOne": 4450,
+      "samplePositionsBlender": [
+        [
+          -2.066131308181218,
+          0.2165265328279382,
+          2.7490891152029544
+        ],
+        [
+          0.4565128506357139,
+          2.42183239183289,
+          2.6663129268981063
+        ],
+        [
+          0.03979719459274644,
+          0.22030480137673258,
+          1.778029346904962
+        ],
+        [
+          -1.1463655109471462,
+          1.7487398401878238,
+          2.8002518950542084
+        ],
+        [
+          0.5025964170064432,
+          2.3926010079203497,
+          2.668885864041485
+        ],
+        [
+          1.7930576466666528,
+          0.43165123342712697,
+          1.809113083521541
+        ]
+      ]
+    },
+    "door-skin.ply": {
+      "total": 7299,
+      "centersInsideDesignedRoom": 0,
+      "insideWithOpacityAbovePointOne": 0,
+      "samplePositionsBlender": []
+    }
+  },
+  "roomBlender": {
+    "x": [
+      -4.1,
+      1.918749327888218
+    ],
+    "y": [
+      0,
+      5.2
+    ],
+    "height": 3.2
+  },
+  "tour": {
+    "framesInspected": 420,
+    "constantLayerStateCount": 1,
+    "layerStates": [
+      {
+        "backgroundVisible": true,
+        "hiddenProxyMaterialCount": 11,
+        "hybrid": true,
+        "light": "warm",
+        "skinVisible": true
+      }
+    ],
+    "firstCameraInsideRoomMargin": {
+      "seconds": 17.933333333333334,
+      "doorAngleDegrees": 74.99999867197056,
+      "cameraBlender": [
+        0.76,
+        0.2512773148148153,
+        1.65
+      ]
+    }
+  },
+  "interpretation": [
+    "Background primitives inside the designed room can contaminate interior views; this count is not a validated removal mask.",
+    "Hidden facade and door-wood proxy materials leave only the Gaussian representation for those surfaces in the recorded hybrid tour.",
+    "A correct door transform and continuous camera do not establish complete geometry or appearance coverage.",
+    "No unseen view generation or multi-view scene reconstruction has been implemented in this experiment."
+  ]
+}

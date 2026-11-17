@@ -1,0 +1,18 @@
+{
+  "renders": {
+    "A-old-v4": {
+      "seconds": 28.7996695000038,
+      "objects": 2109,
+      "meshes": 2015
+    },
+    "A-side": {
+      "seconds": 32.998640100006014,
+      "objects": 2109,
+      "meshes": 2015
+    }
+  },
+  "source_hashes": {
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\artifacts\\rainy-canal-v3.blend": "7dc217ed94c381216747e9d5454c6e5408b0a9e3f89c4850ecf97217a811b7b4",
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\artifacts\\rainy-canal-v4.blend": "017a6dd169e8fe5d8b958cc90d24687fe8f8aaeaa66194c455dd176afdd1b765"
+  }
+}

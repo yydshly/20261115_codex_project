@@ -1,0 +1,38 @@
+{
+  "renders": {
+    "blender-exterior-closed": {
+      "seconds": 16.79940849999548,
+      "frame": 1,
+      "lighting": "warm",
+      "camera": "Exterior mesh demonstration"
+    },
+    "blender-exterior-open": {
+      "seconds": 16.964872800017474,
+      "frame": 49,
+      "lighting": "warm",
+      "camera": "Exterior mesh demonstration"
+    },
+    "blender-interior-warm": {
+      "seconds": 28.88364410001668,
+      "frame": 49,
+      "lighting": "warm",
+      "camera": "Interior toward counter"
+    },
+    "blender-interior-day": {
+      "seconds": 24.69685040001059,
+      "frame": 49,
+      "lighting": "day",
+      "camera": "Interior toward counter"
+    },
+    "blender-interior-reverse": {
+      "seconds": 30.75104149998515,
+      "frame": 49,
+      "lighting": "warm",
+      "camera": "Interior toward entrance"
+    }
+  },
+  "objects": 196,
+  "mesh_objects": 186,
+  "blend": "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\cafe-hybrid-prototype.blend",
+  "source_models_opened": false
+}

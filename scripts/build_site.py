@@ -17,7 +17,8 @@ PROJECT = ROOT / 'projects' / SLUG
 PUBLIC = PROJECT / 'web/public'
 SOURCE_GUIDE = '0009-ai-source-field-guide'
 EVERYDAY_WONDERS = '0011-everyday-wonders'
-STATIC_PROJECTS = {SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html'}
+CANAL_RESEARCH = '0003-ai-wide-area-modeling'
+STATIC_PROJECTS = {SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', CANAL_RESEARCH: 'index.html'}
 
 
 def build_static_projects(output):
@@ -25,6 +26,10 @@ def build_static_projects(output):
     for slug, entry in STATIC_PROJECTS.items():
         project = ROOT / 'projects' / slug
         command = [sys.executable, str(project / 'scripts/build.py')]
+        if slug == CANAL_RESEARCH:
+            command.append('--publication')
+            if os.environ.get('CANAL_RESEARCH_MEDIA_ARCHIVE'):
+                command += ['--media-archive', os.environ['CANAL_RESEARCH_MEDIA_ARCHIVE']]
         if slug == EVERYDAY_WONDERS:
             command.append('--dist')
         subprocess.run(command, check=True)

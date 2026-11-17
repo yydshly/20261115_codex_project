@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_id": 14,
+  "next_id": 22,
   "projects": [
     {
       "id": "0001",
@@ -27,6 +27,36 @@
         "价值：区分素材、动画规则、绘图、场景与成片输出，结合实际任务说明能省什么工作，避免只因“效果相似”或“库很多”而盲目选型。",
         "阅读引导：先看在线总结与效果图谱，再看真实案例和同案制作证据；下图为本轮生成的技术效果全景，可点击放大。"
       ]
+    },
+    {
+      "id": "0003",
+      "order": 3,
+      "slug": "ai-wide-area-modeling",
+      "name": "从单图到可编辑三维 · 运河世界研究",
+      "summary": "从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。",
+      "highlights": [
+        "一张完整架构图串联 11 个步骤、29 项库／模型／产品与 10 次实验，按节点查看技术、证据和失败原因。",
+        "公开查看 6 段视频、6 个高斯／三维诊断入口、98 项去重图片与 39 份工程／几何文件。",
+        "高斯保留外观，Blender 提供结构与控制；共同空间、绑定与物理换光仍需分别验证。",
+        "保留近景、反向与门口连接未通过的结果；完整可编辑世界尚未完成，原模型只读。"
+      ],
+      "repository": "https://github.com/Kotohibi/ai-wide-area-modeling",
+      "status": "researching",
+      "tags": [
+        "Blender",
+        "COLMAP",
+        "3DGS",
+        "Agent Skills",
+        "真实场景重建",
+        "单图世界生成",
+        "空间一致性"
+      ],
+      "preview": {
+        "path": "projects/0003-ai-wide-area-modeling/assets/research-map/canal-integrated-architecture.png",
+        "alt": "单图到可编辑三维的完整研究架构：技术、库和产品、十次实验、失败原因及价值逐步骤关联",
+        "caption": "我们生成的完整研究架构图；11 个流程节点串联尝试、证据与边界，点击进入网页放大查看。"
+      },
+      "demo_url": null
     },
     {
       "id": "0009",

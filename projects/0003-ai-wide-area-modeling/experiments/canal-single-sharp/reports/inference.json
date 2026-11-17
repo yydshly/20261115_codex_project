@@ -1,0 +1,35 @@
+{
+  "model": "Apple SHARP",
+  "source_commit": "aed6527499ef91cba3b54c18d49a870f25947190",
+  "image": "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\assets\\reference.png",
+  "input_sha256": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+  "input_resolution": [
+    1672,
+    941
+  ],
+  "internal_resolution": [
+    1536,
+    1536
+  ],
+  "focal_px": 1330.3168000373212,
+  "focal_source": "Official load_rgb EXIF or fallback 30mm; concept PNG has no calibrated camera",
+  "device": "CPU",
+  "torch": "2.3.1+cpu",
+  "dtype": "Float32",
+  "adaptation": "Independent ViT image patches processed in batches of at most 4; no input-resolution reduction",
+  "gaussian_count": 1179648,
+  "inference_seconds": 113.59901040000841,
+  "total_seconds": 129.47097080000094,
+  "depth_percentiles": [
+    4.412015800476074,
+    7.842429971694947,
+    16.216293334960938,
+    207.1382797241211,
+    344.6037042236328
+  ],
+  "gpu_peak_allocated_bytes": null,
+  "ply_bytes": 66061086,
+  "ply_sha256": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+  "old_models_used": false,
+  "scope": "Single-image Gaussian prediction; unseen geometry and metric scale are not independently verified; research-only model use"
+}

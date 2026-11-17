@@ -1,0 +1,32 @@
+{
+  "scope": "Single fixed right-hand view; source-image reprojection support and depth-discontinuity heuristics, no geometric ground truth, no AI inpainting or scene repair",
+  "ply_sha256": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+  "depth_proxy": "Front-to-back projected Gaussian compositing: center depth at cumulative opacity crossing 0.5; NOT true ray-surface depth",
+  "cpu_raster_parameters": {
+    "screen_covariance_regularizer": 0.3,
+    "max_stddev": 2.8284271247461903,
+    "max_axis_radius_pixels": 512,
+    "min_alpha": 0.00196078431372549,
+    "source_coverage_threshold": 0.9
+  },
+  "reprojection_parameters": {
+    "max_triangle_depth_ratio": 1.08,
+    "max_triangle_projected_area_ratio": 1.8,
+    "reject_flipped_triangles": true
+  },
+  "source_high_coverage_fraction": 1.0,
+  "target_gaussian_coverage_fraction": 0.998550621669627,
+  "source_unsupported_fraction": 0.047507992895204264,
+  "depth_boundary_risk_fraction": 0.12611545293072823,
+  "safe_reprojection_fraction": 0.8377815275310835,
+  "triangles_considered": 1122876,
+  "triangles_flagged": 82351,
+  "identity_reprojection_mean_absolute_error": 0.0,
+  "identity_safe_coverage_fraction": 0.9904031971580817,
+  "depth_color_scale": {
+    "low": 4.405245389938354,
+    "high": 231.28143951416027,
+    "mapping": "Log depth, blue near/red far; same scale for both views"
+  },
+  "caveat": "Red does not mean confirmed missing physical geometry; yellow does not mean confirmed error. Both depend on approximate predicted geometry, compositing, sampling and chosen thresholds. Gaussian coverage can stay high even when structure is wrong."
+}

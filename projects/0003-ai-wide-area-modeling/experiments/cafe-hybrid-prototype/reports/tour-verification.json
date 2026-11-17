@@ -1,0 +1,24 @@
+{
+  "frames": 420,
+  "allFramesNonblank": true,
+  "videoProbe": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 1000,
+        "height": 620,
+        "r_frame_rate": "15/1",
+        "nb_frames": "420"
+      }
+    ],
+    "format": {
+      "duration": "28.000000"
+    }
+  },
+  "sourceAssetsUnchanged": true,
+  "constantSceneLayerStates": 1,
+  "maxPositionStep": 0.24533935931503822,
+  "maxRotationDegrees": 2.9430349138341474,
+  "video": "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\cafe-hybrid-prototype\\continuous-tour.mp4",
+  "scope": "Actual 3D render frames, no camera cuts or image interpolation; existing scene defects retained"
+}

@@ -1,0 +1,185 @@
+{
+  "method": "2D mutual SIFT matching, ratio 0.72; spatial 2/3 fit, 1/3 check; F and H RANSAC",
+  "opencv_version": "4.13.0",
+  "no_3d_reconstruction": true,
+  "no_model_files_modified": true,
+  "limitations": [
+    "Tentative feature matches can be incorrect, especially repeated windows or generated textures.",
+    "A low fundamental residual is necessary only for reliable rigid point correspondences, not sufficient to prove a shared 3D world.",
+    "Large homography support or near-zero baseline can make the test degenerate.",
+    "Generated views and assumed camera instructions are not independent geometric ground truth.",
+    "No real camera intrinsics/extrinsics, depth, metric scale or hidden surfaces are verified.",
+    "Near-horizontal epipolar lines are insensitive to horizontal shape edits; this screen cannot certify rigid geometry."
+  ],
+  "images": {
+    "original": {
+      "path": "F:\\codex_project2\\1115_codex_project\\projects\\0003-ai-wide-area-modeling\\assets\\canal-single-vggt\\reference.png",
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e",
+      "sift_keypoints": 2618
+    },
+    "left": {
+      "path": "F:\\codex_project2\\1115_codex_project\\projects\\0003-ai-wide-area-modeling\\assets\\canal-imagegen-multiview\\left-v1.png",
+      "shape_hw": [
+        941,
+        1672
+      ],
+      "sha256": "ee8101f4abf6cadbec450221632fa630ca56912669c5ae1c88be5f3274b86424",
+      "sift_keypoints": 2765
+    },
+    "right": {
+      "path": "F:\\codex_project2\\1115_codex_project\\projects\\0003-ai-wide-area-modeling\\assets\\canal-imagegen-multiview\\right-v1.png",
+      "shape_hw": [
+        941,
+        1671
+      ],
+      "sha256": "3de359e64e00fc45b4621291f2413936ab36fd8d7af4b120390c22d3c7e02da1",
+      "sift_keypoints": 2506
+    }
+  },
+  "pairs": [
+    {
+      "pair": [
+        "original",
+        "left"
+      ],
+      "mutual_ratio_matches": 145,
+      "fit_matches": 99,
+      "held_out_matches": 46,
+      "fundamental_fit_inlier_fraction": 0.8787878787878788,
+      "held_out_sampson_median_px": 0.304439273088355,
+      "held_out_sampson_p90_px": 0.8491964012782873,
+      "held_out_fraction_within_1_5px": 0.9565217391304348,
+      "held_out_fraction_over_5px": 0.0,
+      "homography_fit_inlier_fraction": 0.47474747474747475,
+      "held_out_homography_median_px": 4.276286510208913,
+      "fundamental_matrix": [
+        [
+          1.4062430356643262e-09,
+          6.839985702873398e-08,
+          -9.864614208318228e-06
+        ],
+        [
+          -2.2992947736730946e-07,
+          1.597574503690593e-07,
+          -0.0031301082237834106
+        ],
+        [
+          9.450790074255432e-05,
+          0.0031423695676057652,
+          -0.0547936137106404
+        ]
+      ],
+      "regional_screening": {
+        "architecture_rectangle": {
+          "tentative_matches": 125,
+          "held_out_matches": 39,
+          "held_out_median_px": 0.32713019005451727
+        },
+        "bridge_rectangle": {
+          "tentative_matches": 20,
+          "held_out_matches": 7,
+          "held_out_median_px": 0.21429873711009448
+        }
+      }
+    },
+    {
+      "pair": [
+        "original",
+        "right"
+      ],
+      "mutual_ratio_matches": 279,
+      "fit_matches": 202,
+      "held_out_matches": 77,
+      "fundamental_fit_inlier_fraction": 0.9653465346534653,
+      "held_out_sampson_median_px": 0.3686055471235403,
+      "held_out_sampson_p90_px": 0.9178649700920221,
+      "held_out_fraction_within_1_5px": 0.9090909090909091,
+      "held_out_fraction_over_5px": 0.012987012987012988,
+      "homography_fit_inlier_fraction": 0.6782178217821783,
+      "held_out_homography_median_px": 1.8831016910522338,
+      "fundamental_matrix": [
+        [
+          1.8960257759408564e-10,
+          -4.155019620987321e-07,
+          0.00019374780215719614
+        ],
+        [
+          5.180926678817912e-07,
+          2.250522308730551e-09,
+          -0.0035286458322250805
+        ],
+        [
+          -0.00024336725372981494,
+          0.0034424443432324978,
+          0.04113782495384144
+        ]
+      ],
+      "regional_screening": {
+        "architecture_rectangle": {
+          "tentative_matches": 263,
+          "held_out_matches": 75,
+          "held_out_median_px": 0.36365631381153934
+        },
+        "bridge_rectangle": {
+          "tentative_matches": 16,
+          "held_out_matches": 2,
+          "held_out_median_px": 0.5114216931814286
+        }
+      }
+    },
+    {
+      "pair": [
+        "left",
+        "right"
+      ],
+      "mutual_ratio_matches": 100,
+      "fit_matches": 60,
+      "held_out_matches": 40,
+      "fundamental_fit_inlier_fraction": 0.9166666666666666,
+      "held_out_sampson_median_px": 0.8403991933293364,
+      "held_out_sampson_p90_px": 2.405133451377841,
+      "held_out_fraction_within_1_5px": 0.725,
+      "held_out_fraction_over_5px": 0.1,
+      "homography_fit_inlier_fraction": 0.38333333333333336,
+      "held_out_homography_median_px": 9.329113334561066,
+      "fundamental_matrix": [
+        [
+          5.3793313509490015e-09,
+          5.245247885842944e-08,
+          -7.539000258793675e-05
+        ],
+        [
+          -4.899346266174709e-07,
+          1.117560401040861e-07,
+          0.0038708660711669883
+        ],
+        [
+          0.00029624419237352513,
+          -0.0035999517420243687,
+          -0.17629658860424802
+        ]
+      ],
+      "regional_screening": {
+        "architecture_rectangle": {
+          "tentative_matches": 80,
+          "held_out_matches": 33,
+          "held_out_median_px": 1.0546724852494795
+        },
+        "bridge_rectangle": {
+          "tentative_matches": 20,
+          "held_out_matches": 7,
+          "held_out_median_px": 0.4022251829825503
+        }
+      }
+    }
+  ],
+  "three_view_match_cycles": {
+    "original_keypoints_matched_to_both": 52,
+    "also_closed_by_direct_left_right_matching": 34,
+    "meaning": "2D descriptor track agreement only; no 3D point or pose was reconstructed."
+  }
+}

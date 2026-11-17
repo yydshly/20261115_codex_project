@@ -1,0 +1,11 @@
+{
+  "method": "Observed actual built-in-browser interactions through CUA",
+  "url": "http://127.0.0.1:8776/",
+  "both_new_images_loaded_at_1672x941": true,
+  "input_sequence_and_verdict_figures_loaded": true,
+  "pair_selector_a_to_approach_observed": {"matches": 53, "joint_median_px": 60.6},
+  "pair_selector_b_to_threshold_observed": {"matches": 87, "joint_median_px": 29.5},
+  "predicted_camera_map_loaded": true,
+  "verdict_tab_restored_and_browser_tab_retained": true,
+  "scope": "Read-only inspection of generated pictures and diagnostic annotations; no Gaussian training or old model edits."
+}

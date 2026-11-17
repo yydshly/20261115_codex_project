@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "annotation": true,
+    "draft": true,
+    "depth": true,
+    "source": true,
+    "target": true
+  },
+  "errors": []
+}

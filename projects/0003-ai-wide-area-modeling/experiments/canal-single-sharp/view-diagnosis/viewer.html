@@ -1,0 +1,30 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>运河 · 固定新视角诊断</title><link rel="icon" href="data:,">
+<style>body{margin:0;background:#111722;color:#e7edf6;font:15px system-ui}header{padding:16px 20px}h1{font-size:22px;margin:0 0 8px}button{padding:8px 12px;margin:5px 5px 5px 0;background:#263750;color:white;border:1px solid #58718e;border-radius:5px;cursor:pointer}main{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 20px}figure{margin:0}figcaption{padding:9px 0;color:#c5d4e4}img,canvas{display:block;width:100%;height:auto}#holder{position:relative;aspect-ratio:1000/563}#overlay{position:absolute;inset:0;width:100%;height:100%;display:none}#note{padding:16px 20px;line-height:1.7;max-width:1250px;color:#bac9da}#status{color:#9edbc4}</style>
+<header><h1>第一步：原图与固定右侧机位诊断</h1><div id="status">加载高斯场景…</div><button id="source">原机位</button><button id="target">右侧 5°</button><button id="annotation">候选区标注</button><button id="draft">源图重投影草图</button><button id="depth">预测深度代理</button></header>
+<main><figure><figcaption>原图参考</figcaption><img src="/result/reference.png"></figure><figure><figcaption id="label">固定机位实渲染</figcaption><div id="holder"><img id="overlay"></div></figure></main>
+<div id="note">右侧机位：向右平移预测焦点深度的 8.75%，再朝原焦点转向 5°。该尺度未经真实标定。红色表示源图重投影没有覆盖，黄色表示跨深度断层或明显展开的候选区；均为诊断线索，不能直接当成真实缺失或确认错误。当前只输出草图和标注，没有 AI 补图、没有修复或改写高斯文件。</div>
+<script type="importmap">{"imports":{"three":"/modules/three/build/three.module.js","three/addons/":"/modules/three/examples/jsm/","@sparkjsdev/spark":"/modules/@sparkjsdev/spark/dist/spark.module.js"}}</script>
+<script type="module">
+import * as THREE from 'three';import {SparkRenderer,SplatMesh} from '@sparkjsdev/spark';
+const config=await(await fetch('/result/cameras.json')).json(),{width:W,height:H}=config;
+const renderer=new THREE.WebGLRenderer({antialias:false,preserveDrawingBuffer:true});renderer.setPixelRatio(1);renderer.setSize(W,H);renderer.setClearColor(0x10141c,1);renderer.toneMapping=THREE.NoToneMapping;
+document.querySelector('#holder').prepend(renderer.domElement);
+const scene=new THREE.Scene(),camera=new THREE.PerspectiveCamera(40,W/H,.01,100000);
+const spark=new SparkRenderer({renderer,enableLod:false,sortRadial:false});scene.add(spark);
+const splats=new SplatMesh({url:'/source/canal-sharp.ply',lod:false,extSplats:true});splats.rotation.x=Math.PI;scene.add(splats);await splats.initialized;
+let current='target';
+function setPose(name){
+ current=name;const p=config[name],C=p.camera_center,K=p.K;camera.position.set(C[0],-C[1],-C[2]);camera.up.set(0,1,0);camera.lookAt(0,0,-config.focus_depth);camera.updateMatrixWorld(true);
+ const n=.01,f=100000;camera.projectionMatrix.set(2*K[0][0]/W,0,1-2*K[0][2]/W,0,0,2*K[1][1]/H,2*K[1][2]/H-1,0,0,0,-(f+n)/(f-n),-2*f*n/(f-n),0,0,-1,0);camera.projectionMatrixInverse.copy(camera.projectionMatrix).invert();
+ document.querySelector('#overlay').style.display='none';document.querySelector('#label').textContent=name==='source'?'原机位高斯实渲染':'右侧 5° 高斯实渲染';
+}
+window.renderDiagnosticPose=async(name)=>{setPose(name);for(let i=0;i<4;i++){await spark.update({scene,camera});renderer.render(scene,camera);await new Promise(requestAnimationFrame);}await new Promise(r=>setTimeout(r,800));renderer.render(scene,camera);return {image:renderer.domElement.toDataURL('image/png'),projectionMatrix:camera.projectionMatrix.toArray(),matrixWorldInverse:camera.matrixWorldInverse.toArray(),matrixWorld:camera.matrixWorld.toArray(),projected:config.projection_check_points.map(p=>{const q=new THREE.Vector3(p[0],-p[1],-p[2]).project(camera);return [(q.x+1)*W/2,(1-q.y)*H/2]})};};
+function overlay(file,label){setPose('target');const i=document.querySelector('#overlay');i.src='/result/'+file;i.style.display='block';document.querySelector('#label').textContent=label;}
+document.querySelector('#source').onclick=()=>setPose('source');document.querySelector('#target').onclick=()=>setPose('target');
+document.querySelector('#annotation').onclick=()=>overlay('annotated-target.png','红/黄候选区与人工检查提示');
+document.querySelector('#draft').onclick=()=>overlay('source-reprojected-draft.png','源图重投影草图：棋盘格为未保留区域');
+document.querySelector('#depth').onclick=()=>overlay('target-depth-proxy.png','预测深度代理：蓝近红远，非真实测量');
+setPose('target');renderer.setAnimationLoop(()=>renderer.render(scene,camera));
+window.diagnosisInfo={gaussians:splats.numSplats,spark:'2.4.0',three:THREE.REVISION,config};window.diagnosisReady=true;
+document.querySelector('#status').textContent=`已加载 ${splats.numSplats.toLocaleString()} 个高斯 · 固定机位 · 尚未补图`;
+</script></html>

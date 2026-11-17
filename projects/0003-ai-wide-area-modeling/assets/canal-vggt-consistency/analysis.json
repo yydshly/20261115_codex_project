@@ -1,0 +1,1505 @@
+{
+  "evaluation_size_wh": [
+    1000,
+    563
+  ],
+  "method": "Mutual SIFT .72 + independent two-view F screening; fixed VGGT camera/depth projection, no fitting to the correspondences",
+  "thresholds": {
+    "sufficient_f_inliers": 20,
+    "minimum_occupied_cells_of_24": 4,
+    "local_median_px": 5,
+    "local_p90_px": 15,
+    "conflict_median_px": 15,
+    "confidence_cut": "40th percentile per image, not a calibrated confidence probability"
+  },
+  "view_ids": [
+    "original",
+    "left",
+    "right",
+    "approach",
+    "threshold",
+    "inside",
+    "reverse"
+  ],
+  "camera_predictions": {
+    "original": {
+      "center": [
+        -6.779703835491091e-05,
+        7.114432082744315e-05,
+        9.180987399304286e-05
+      ],
+      "forward": [
+        -0.0002691677655093372,
+        -7.215479058686469e-07,
+        0.9999999403953552
+      ],
+      "up": [
+        -6.25819739070721e-05,
+        -1.0,
+        -7.383929414572776e-07
+      ],
+      "K": [
+        [
+          455.39556884765625,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          454.853515625,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.9999999403953552,
+          -6.25821776338853e-05,
+          0.0002691677073016763,
+          6.777678208891302e-05
+        ],
+        [
+          6.25819739070721e-05,
+          1.0,
+          7.383929414572776e-07,
+          -7.114014442777261e-05
+        ],
+        [
+          -0.0002691677655093372,
+          -7.215479058686469e-07,
+          0.9999999403953552,
+          -9.182807116303593e-05
+        ]
+      ],
+      "horizontal_fov_degrees": 59.25692434733843,
+      "vertical_fov_degrees": 35.81969061962856,
+      "rotation_orthogonality_error": 8.429369880242123e-08,
+      "depth_median": 0.756562352180481,
+      "self_projection_max_px": 1.898643820611158e-05
+    },
+    "left": {
+      "center": [
+        -0.08139707148075104,
+        -0.0013709772611036897,
+        0.013799579814076424
+      ],
+      "forward": [
+        0.05186799168586731,
+        0.002938260557129979,
+        0.9986496567726135
+      ],
+      "up": [
+        -0.006833553779870272,
+        -0.9999712109565735,
+        0.003297070972621441
+      ],
+      "K": [
+        [
+          446.66998291015625,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          445.0783996582031,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.9986305832862854,
+          -0.006995338015258312,
+          -0.05184641852974892,
+          0.08199147135019302
+        ],
+        [
+          0.006833553779870272,
+          0.9999712109565735,
+          -0.003297070972621441,
+          0.0019726671744138002
+        ],
+        [
+          0.05186799168586731,
+          0.002938260557129979,
+          0.9986496567726135,
+          -0.009555014781653881
+        ]
+      ],
+      "horizontal_fov_degrees": 60.21429830569158,
+      "vertical_fov_degrees": 36.55459748559995,
+      "rotation_orthogonality_error": 1.33280806480062e-07,
+      "depth_median": 0.7224704027175903,
+      "self_projection_max_px": 1.3394415786771765e-05
+    },
+    "right": {
+      "center": [
+        0.06124388426542282,
+        0.0006400542915798724,
+        0.024140743538737297
+      ],
+      "forward": [
+        -0.04350503906607628,
+        0.00034502375638112426,
+        0.9990531206130981
+      ],
+      "up": [
+        -0.00046646504779346287,
+        -0.9999998211860657,
+        0.0003250378940720111
+      ],
+      "K": [
+        [
+          447.214599609375,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          446.6215515136719,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.9990531206130981,
+          -0.00045188257354311645,
+          0.043505195528268814,
+          -0.06223585084080696
+        ],
+        [
+          0.00046646504779346287,
+          0.9999998211860657,
+          -0.0003250378940720111,
+          -0.0006607756949961185
+        ],
+        [
+          -0.04350503906607628,
+          0.00034502375638112426,
+          0.9990531206130981,
+          -0.02145368978381157
+        ]
+      ],
+      "horizontal_fov_degrees": 60.15372307467179,
+      "vertical_fov_degrees": 36.436650893538015,
+      "rotation_orthogonality_error": 5.960467809594983e-08,
+      "depth_median": 0.7462252974510193,
+      "self_projection_max_px": 2.2399907053954977e-05
+    },
+    "approach": {
+      "center": [
+        -0.17383363842964172,
+        0.007826101034879684,
+        0.36395564675331116
+      ],
+      "forward": [
+        -0.1740066111087799,
+        0.03774484619498253,
+        0.9840208292007446
+      ],
+      "up": [
+        0.004648186266422272,
+        -0.9992225170135498,
+        0.03914990276098251
+      ],
+      "K": [
+        [
+          433.1454162597656,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          431.10992431640625,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.984733521938324,
+          0.01138625293970108,
+          0.1736958771944046,
+          0.1078731045126915
+        ],
+        [
+          -0.004648186266422272,
+          0.9992225170135498,
+          -0.03914990276098251,
+          0.00562079856172204
+        ],
+        [
+          -0.1740066111087799,
+          0.03774484619498253,
+          0.9840208292007446,
+          -0.3886835277080536
+        ]
+      ],
+      "horizontal_fov_degrees": 61.7547630045259,
+      "vertical_fov_degrees": 37.65673230101697,
+      "rotation_orthogonality_error": 5.984064618037747e-08,
+      "depth_median": 0.33120208978652954,
+      "self_projection_max_px": 3.072830757678691e-05
+    },
+    "threshold": {
+      "center": [
+        -0.3412882685661316,
+        0.02019517868757248,
+        0.7030333280563354
+      ],
+      "forward": [
+        -0.21085946261882782,
+        0.04610331729054451,
+        0.9764285683631897
+      ],
+      "up": [
+        -0.003894033143296838,
+        -0.998918890953064,
+        0.04632430523633957
+      ],
+      "K": [
+        [
+          359.9652404785156,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          358.76019287109375,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.9775086045265198,
+          0.0059656742960214615,
+          0.21081103384494781,
+          0.1852845847606659
+        ],
+        [
+          0.003894033143296838,
+          0.998918890953064,
+          -0.04632430523633957,
+          0.013723175041377544
+        ],
+        [
+          -0.21085946261882782,
+          0.04610331729054451,
+          0.9764285683631897,
+          -0.7593567967414856
+        ]
+      ],
+      "horizontal_fov_degrees": 71.47108200384456,
+      "vertical_fov_degrees": 44.56218697991998,
+      "rotation_orthogonality_error": 5.98515160868303e-08,
+      "depth_median": 0.25181758403778076,
+      "self_projection_max_px": 0.00018570354634724767
+    },
+    "inside": {
+      "center": [
+        -0.36231598258018494,
+        0.016767647117376328,
+        0.7613763213157654
+      ],
+      "forward": [
+        -0.23879046738147736,
+        0.046533990651369095,
+        0.9699555039405823
+      ],
+      "up": [
+        0.0012109135277569294,
+        -0.998836100101471,
+        0.04821765422821045
+      ],
+      "K": [
+        [
+          346.36822509765625,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          345.41046142578125,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          0.9710703492164612,
+          0.012688449583947659,
+          0.23845617473125458,
+          0.17006666958332062
+        ],
+        [
+          -0.0012109135277569294,
+          0.998836100101471,
+          -0.04821765422821045,
+          0.019524920731782913
+        ],
+        [
+          -0.23879046738147736,
+          0.046533990651369095,
+          0.9699555039405823,
+          -0.8257990479469299
+        ]
+      ],
+      "horizontal_fov_degrees": 73.57527561720622,
+      "vertical_fov_degrees": 46.107327730447544,
+      "rotation_orthogonality_error": 9.442710768905711e-08,
+      "depth_median": 0.23898719251155853,
+      "self_projection_max_px": 3.092349847511635e-05
+    },
+    "reverse": {
+      "center": [
+        -0.7365216612815857,
+        0.007494376040995121,
+        0.7204568982124329
+      ],
+      "forward": [
+        0.7437536716461182,
+        -0.009953027591109276,
+        -0.6683796644210815
+      ],
+      "up": [
+        -0.019157469272613525,
+        -0.9997957944869995,
+        -0.006429643370211124
+      ],
+      "K": [
+        [
+          390.1259765625,
+          0.0,
+          259.0
+        ],
+        [
+          0.0,
+          390.31121826171875,
+          147.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "world_to_camera": [
+        [
+          -0.6681791543960571,
+          0.017586534842848778,
+          -0.7437924742698669,
+          0.04361015930771828
+        ],
+        [
+          0.019157469272613525,
+          0.9997957944869995,
+          0.006429643370211124,
+          0.001984763890504837
+        ],
+        [
+          0.7437536716461182,
+          -0.009953027591109276,
+          -0.6683796644210815,
+          1.0294040441513062
+        ]
+      ],
+      "horizontal_fov_degrees": 67.15942266813293,
+      "vertical_fov_degrees": 41.27500938854831,
+      "rotation_orthogonality_error": 1.2645597922764744e-07,
+      "depth_median": 0.3018171191215515,
+      "self_projection_max_px": 0.0002528063942547815
+    }
+  },
+  "pairs": [
+    {
+      "pair": [
+        "original",
+        "left"
+      ],
+      "tentative_matches": 238,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 222,
+      "source_occupied_cells_of_24": 16,
+      "target_occupied_cells_of_24": 15,
+      "empirical_f_error_px": {
+        "count": 222,
+        "median": 0.31238504052855387,
+        "p90": 0.9530237803781759
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 222,
+        "median": 6.794151370665904,
+        "p90": 51.663690036664555
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 222,
+        "median": 6.359466051007906,
+        "p90": 29.766429596444237
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 155,
+        "median": 5.506124809233829,
+        "p90": 16.736293309431094
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 222,
+        "median": 0.8334969973995079,
+        "p90": 1.5777771389060824
+      },
+      "relative_target_depth_error": {
+        "count": 222,
+        "median": 0.012248231187205166,
+        "p90": 0.23495805710595735
+      },
+      "relative_world_point_disagreement": {
+        "count": 222,
+        "median": 0.01686996558771501,
+        "p90": 0.268855673587632
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.33783783783783783,
+      "forward_fraction_over_15px": 0.34234234234234234,
+      "status": "needs_review",
+      "reason": "Mixed reprojection support; inspect marked regions"
+    },
+    {
+      "pair": [
+        "original",
+        "right"
+      ],
+      "tentative_matches": 409,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 390,
+      "source_occupied_cells_of_24": 16,
+      "target_occupied_cells_of_24": 16,
+      "empirical_f_error_px": {
+        "count": 390,
+        "median": 0.18760570040476726,
+        "p90": 0.47919736532178053
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 390,
+        "median": 2.889258184143383,
+        "p90": 29.00578883479996
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 390,
+        "median": 3.2419730578150814,
+        "p90": 32.788694277835376
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 329,
+        "median": 2.447012199301077,
+        "p90": 6.4955424694545005
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 390,
+        "median": 0.6219164332797666,
+        "p90": 1.7939902624651851
+      },
+      "relative_target_depth_error": {
+        "count": 390,
+        "median": 0.013777503908796916,
+        "p90": 0.07667264303605882
+      },
+      "relative_world_point_disagreement": {
+        "count": 390,
+        "median": 0.015826422804466368,
+        "p90": 0.0846910688862299
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.7333333333333333,
+      "forward_fraction_over_15px": 0.12051282051282051,
+      "status": "needs_review",
+      "reason": "Mixed reprojection support; inspect marked regions"
+    },
+    {
+      "pair": [
+        "original",
+        "approach"
+      ],
+      "tentative_matches": 12,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 9,
+      "source_occupied_cells_of_24": 4,
+      "target_occupied_cells_of_24": 6,
+      "empirical_f_error_px": {
+        "count": 9,
+        "median": 4.186128031396546e-06,
+        "p90": 0.06830602937504894
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 9,
+        "median": 139.90192070911533,
+        "p90": 515.2285051973997
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 9,
+        "median": 59.02419174347443,
+        "p90": 268.34598664907367
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 8,
+        "median": 142.6031090163252,
+        "p90": 592.6417689737884
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 9,
+        "median": 32.2427863290763,
+        "p90": 178.65450604612093
+      },
+      "relative_target_depth_error": {
+        "count": 9,
+        "median": 0.10099308066900602,
+        "p90": 0.28906512777847376
+      },
+      "relative_world_point_disagreement": {
+        "count": 9,
+        "median": 0.09258050371586762,
+        "p90": 0.5296512688845821
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.0,
+      "forward_fraction_over_15px": 1.0,
+      "status": "insufficient_overlap",
+      "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+    },
+    {
+      "pair": [
+        "original",
+        "threshold"
+      ],
+      "tentative_matches": 5,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "original",
+        "inside"
+      ],
+      "tentative_matches": 4,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "original",
+        "reverse"
+      ],
+      "tentative_matches": 2,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "left",
+        "right"
+      ],
+      "tentative_matches": 165,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 151,
+      "source_occupied_cells_of_24": 15,
+      "target_occupied_cells_of_24": 16,
+      "empirical_f_error_px": {
+        "count": 151,
+        "median": 0.30028560365647194,
+        "p90": 0.8637960993181182
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 151,
+        "median": 8.083764459852942,
+        "p90": 68.96107706548692
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 151,
+        "median": 9.09245681058899,
+        "p90": 94.59617693051487
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 101,
+        "median": 4.547038760147251,
+        "p90": 11.58431041840787
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 151,
+        "median": 0.5954700224062149,
+        "p90": 2.2636754397170646
+      },
+      "relative_target_depth_error": {
+        "count": 151,
+        "median": 0.02426560808690755,
+        "p90": 0.31389604615089717
+      },
+      "relative_world_point_disagreement": {
+        "count": 151,
+        "median": 0.02818928575780798,
+        "p90": 0.2904470404201475
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.37748344370860926,
+      "forward_fraction_over_15px": 0.24503311258278146,
+      "status": "needs_review",
+      "reason": "Mixed reprojection support; inspect marked regions"
+    },
+    {
+      "pair": [
+        "left",
+        "approach"
+      ],
+      "tentative_matches": 20,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 10,
+      "source_occupied_cells_of_24": 5,
+      "target_occupied_cells_of_24": 6,
+      "empirical_f_error_px": {
+        "count": 10,
+        "median": 1.3651345540851495e-05,
+        "p90": 0.38785105943850584
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 10,
+        "median": 135.89036053133182,
+        "p90": 250.77231373512458
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 10,
+        "median": 68.38006333162193,
+        "p90": 182.69165136891755
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 1,
+        "median": 163.2318476148895,
+        "p90": 163.2318476148895
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 10,
+        "median": 24.9847511771242,
+        "p90": 83.66700504661318
+      },
+      "relative_target_depth_error": {
+        "count": 10,
+        "median": 0.11707950831808414,
+        "p90": 0.371546958504745
+      },
+      "relative_world_point_disagreement": {
+        "count": 10,
+        "median": 0.12099813885845745,
+        "p90": 0.4060548167889803
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.0,
+      "forward_fraction_over_15px": 1.0,
+      "status": "insufficient_overlap",
+      "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+    },
+    {
+      "pair": [
+        "left",
+        "threshold"
+      ],
+      "tentative_matches": 1,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "left",
+        "inside"
+      ],
+      "tentative_matches": 3,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "left",
+        "reverse"
+      ],
+      "tentative_matches": 3,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "right",
+        "approach"
+      ],
+      "tentative_matches": 13,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 8,
+      "source_occupied_cells_of_24": 6,
+      "target_occupied_cells_of_24": 6,
+      "empirical_f_error_px": {
+        "count": 8,
+        "median": 3.339009819164419e-06,
+        "p90": 0.14190501710380832
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 8,
+        "median": 294.63082311055337,
+        "p90": 663.043213832238
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 8,
+        "median": 154.96233926857633,
+        "p90": 278.8750689778282
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 4,
+        "median": 245.79137824882991,
+        "p90": 470.7742979244899
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 8,
+        "median": 43.33349482958066,
+        "p90": 75.4212867962996
+      },
+      "relative_target_depth_error": {
+        "count": 8,
+        "median": 0.1820177772906436,
+        "p90": 0.33921091996249075
+      },
+      "relative_world_point_disagreement": {
+        "count": 8,
+        "median": 0.25607998176681673,
+        "p90": 0.4534488060316577
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.0,
+      "forward_fraction_over_15px": 0.875,
+      "status": "insufficient_overlap",
+      "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+    },
+    {
+      "pair": [
+        "right",
+        "threshold"
+      ],
+      "tentative_matches": 7,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "right",
+        "inside"
+      ],
+      "tentative_matches": 6,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "right",
+        "reverse"
+      ],
+      "tentative_matches": 4,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "approach",
+        "threshold"
+      ],
+      "tentative_matches": 24,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 15,
+      "source_occupied_cells_of_24": 4,
+      "target_occupied_cells_of_24": 5,
+      "empirical_f_error_px": {
+        "count": 15,
+        "median": 1.2912789768573637e-05,
+        "p90": 0.9638145430832306
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 13,
+        "median": 35.83130641719257,
+        "p90": 106.60302308076346
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 13,
+        "median": 26.39302333408105,
+        "p90": 49.12506057572736
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 13,
+        "median": 12.149888916219696,
+        "p90": 25.57078508161688
+      },
+      "relative_target_depth_error": {
+        "count": 13,
+        "median": 0.010196385786629868,
+        "p90": 0.4234654615454073
+      },
+      "relative_world_point_disagreement": {
+        "count": 13,
+        "median": 0.041171139419141904,
+        "p90": 0.32506341027477736
+      },
+      "behind_camera_count": 2,
+      "forward_fraction_within_5px": 0.0,
+      "forward_fraction_over_15px": 1.0,
+      "status": "insufficient_overlap",
+      "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+    },
+    {
+      "pair": [
+        "approach",
+        "inside"
+      ],
+      "tentative_matches": 11,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "approach",
+        "reverse"
+      ],
+      "tentative_matches": 9,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "threshold",
+        "inside"
+      ],
+      "tentative_matches": 280,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 219,
+      "source_occupied_cells_of_24": 13,
+      "target_occupied_cells_of_24": 13,
+      "empirical_f_error_px": {
+        "count": 219,
+        "median": 0.29866892228379976,
+        "p90": 0.9153648528627422
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 219,
+        "median": 12.927976475166153,
+        "p90": 18.153752951144735
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 219,
+        "median": 11.337935658926366,
+        "p90": 14.677678065716584
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 51,
+        "median": 8.697973460642967,
+        "p90": 14.213099567162276
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 219,
+        "median": 1.1537103460672786,
+        "p90": 3.6343161498791647
+      },
+      "relative_target_depth_error": {
+        "count": 219,
+        "median": 0.03903346274388658,
+        "p90": 0.06519189716108216
+      },
+      "relative_world_point_disagreement": {
+        "count": 219,
+        "median": 0.039022792296594395,
+        "p90": 0.0636985222014999
+      },
+      "behind_camera_count": 0,
+      "forward_fraction_within_5px": 0.0182648401826484,
+      "forward_fraction_over_15px": 0.3835616438356164,
+      "status": "needs_review",
+      "reason": "Mixed reprojection support; inspect marked regions"
+    },
+    {
+      "pair": [
+        "threshold",
+        "reverse"
+      ],
+      "tentative_matches": 11,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "status": "insufficient_overlap",
+      "reason": "Too few tentative correspondences to screen geometry",
+      "empirical_f_inliers": 0
+    },
+    {
+      "pair": [
+        "inside",
+        "reverse"
+      ],
+      "tentative_matches": 16,
+      "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+      "empirical_f_inliers": 11,
+      "source_occupied_cells_of_24": 3,
+      "target_occupied_cells_of_24": 3,
+      "empirical_f_error_px": {
+        "count": 11,
+        "median": 4.96243630279845e-06,
+        "p90": 1.1119835517687149
+      },
+      "vggt_forward_reprojection_px": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "vggt_reverse_reprojection_px": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "vggt_confident_reprojection_px": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "vggt_pose_epipolar_px": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "relative_target_depth_error": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "relative_world_point_disagreement": {
+        "count": 0,
+        "median": null,
+        "p90": null
+      },
+      "behind_camera_count": 11,
+      "forward_fraction_within_5px": null,
+      "forward_fraction_over_15px": null,
+      "status": "insufficient_overlap",
+      "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+    }
+  ],
+  "feature_counts": {
+    "original": 5195,
+    "left": 5507,
+    "right": 4785,
+    "approach": 7000,
+    "threshold": 7000,
+    "inside": 7001,
+    "reverse": 7000
+  },
+  "scale": "Arbitrary VGGT gauge, no metres or recovered true dimensions",
+  "limitations": [
+    "VGGT can assign poses even to incompatible generated images; pose output is not success.",
+    "A conflict may come from generated geometry, wrong descriptor matches, glass/reflections or VGGT estimation error.",
+    "Low overlap is unverified evidence, not proof of inconsistency.",
+    "Independent F screening can miss along-epipolar-line edits; repeated objects can still mismatch.",
+    "Confidence values are not calibrated correctness probabilities.",
+    "No genuine novel-view photos, measured dimensions or depth truth exist for this AI image."
+  ],
+  "intended_camera_checks": {
+    "inside_to_reverse": {
+      "center_distance_in_predicted_units": 0.37655049562454224,
+      "distance_over_reference_median_depth": 0.49771244172973944,
+      "rotation_degrees": 145.79442621155124
+    },
+    "meaning": "Compare with prompt intention of same standing location and 180-degree turn; not measured pose truth."
+  },
+  "lighting_control": {
+    "center_distance_in_predicted_units": 4.1906398109858856e-05,
+    "distance_over_reference_median_depth": 5.645577218822462e-05,
+    "rotation_degrees": 0.0,
+    "focal_ratio_off_to_on": [
+      1.0011950731277466,
+      1.001057505607605
+    ],
+    "relative_depth_difference_median": 0.004424899350851774,
+    "note": "On/off pair was requested at same pose. Displacement indicates model sensitivity and/or image edits, not independently measured camera motion."
+  },
+  "decision": "Shared complete 3D space not established by prediction alone; inspect pair support and conflicts.",
+  "subset_controls": [
+    {
+      "group": "exterior",
+      "pairs": [
+        {
+          "pair": [
+            "original",
+            "left"
+          ],
+          "tentative_matches": 238,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 222,
+          "source_occupied_cells_of_24": 16,
+          "target_occupied_cells_of_24": 15,
+          "empirical_f_error_px": {
+            "count": 222,
+            "median": 0.31238504052855387,
+            "p90": 0.9530237803781759
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 222,
+            "median": 2.616106155380881,
+            "p90": 18.913242439133597
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 222,
+            "median": 2.7027125934846046,
+            "p90": 13.929057940141252
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 176,
+            "median": 2.1809302964332824,
+            "p90": 6.51701472230719
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 222,
+            "median": 0.6447892521674929,
+            "p90": 1.4132094277140954
+          },
+          "relative_target_depth_error": {
+            "count": 222,
+            "median": 0.004599071623991155,
+            "p90": 0.16955092493195748
+          },
+          "relative_world_point_disagreement": {
+            "count": 222,
+            "median": 0.006132435729635962,
+            "p90": 0.18665564792752404
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.6711711711711712,
+          "forward_fraction_over_15px": 0.14414414414414414,
+          "status": "needs_review",
+          "reason": "Mixed reprojection support; inspect marked regions"
+        },
+        {
+          "pair": [
+            "original",
+            "right"
+          ],
+          "tentative_matches": 409,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 390,
+          "source_occupied_cells_of_24": 16,
+          "target_occupied_cells_of_24": 16,
+          "empirical_f_error_px": {
+            "count": 390,
+            "median": 0.18760570040476726,
+            "p90": 0.47919736532178053
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 390,
+            "median": 2.558156244911382,
+            "p90": 9.85386275209722
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 390,
+            "median": 2.5613831296288216,
+            "p90": 12.00043536194229
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 339,
+            "median": 2.4527875924041087,
+            "p90": 7.020864375851166
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 390,
+            "median": 0.9379674925897237,
+            "p90": 1.469725264500359
+          },
+          "relative_target_depth_error": {
+            "count": 390,
+            "median": 0.005187405866663273,
+            "p90": 0.11331325863130703
+          },
+          "relative_world_point_disagreement": {
+            "count": 390,
+            "median": 0.006397401838932759,
+            "p90": 0.10877916276315765
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.7615384615384615,
+          "forward_fraction_over_15px": 0.046153846153846156,
+          "status": "locally_supported",
+          "reason": "Some matched image regions support the prediction; not a whole-scene pass"
+        },
+        {
+          "pair": [
+            "left",
+            "right"
+          ],
+          "tentative_matches": 165,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 151,
+          "source_occupied_cells_of_24": 15,
+          "target_occupied_cells_of_24": 16,
+          "empirical_f_error_px": {
+            "count": 151,
+            "median": 0.30028560365647194,
+            "p90": 0.8637960993181182
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 151,
+            "median": 2.6601103813687916,
+            "p90": 35.22567321613306
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 151,
+            "median": 2.479326326872446,
+            "p90": 53.97120905689546
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 114,
+            "median": 2.0709114983434516,
+            "p90": 4.567657833432396
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 151,
+            "median": 0.8665171760042543,
+            "p90": 1.6711818010257846
+          },
+          "relative_target_depth_error": {
+            "count": 151,
+            "median": 0.005716766150743501,
+            "p90": 0.2091481124758458
+          },
+          "relative_world_point_disagreement": {
+            "count": 151,
+            "median": 0.00652345574474881,
+            "p90": 0.2594088902539645
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.7350993377483444,
+          "forward_fraction_over_15px": 0.17218543046357615,
+          "status": "needs_review",
+          "reason": "Mixed reprojection support; inspect marked regions"
+        }
+      ]
+    },
+    {
+      "group": "entry",
+      "pairs": [
+        {
+          "pair": [
+            "original",
+            "approach"
+          ],
+          "tentative_matches": 12,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 9,
+          "source_occupied_cells_of_24": 4,
+          "target_occupied_cells_of_24": 6,
+          "empirical_f_error_px": {
+            "count": 9,
+            "median": 4.186128031396546e-06,
+            "p90": 0.06830602937504894
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 9,
+            "median": 132.7304909604662,
+            "p90": 533.8325567008769
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 9,
+            "median": 52.99095347821747,
+            "p90": 259.18049976595603
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 7,
+            "median": 132.7304909604662,
+            "p90": 228.62404575625442
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 9,
+            "median": 42.17059149269394,
+            "p90": 182.21148143171288
+          },
+          "relative_target_depth_error": {
+            "count": 9,
+            "median": 0.047928567640755725,
+            "p90": 0.19761398107552142
+          },
+          "relative_world_point_disagreement": {
+            "count": 9,
+            "median": 0.09579448107814822,
+            "p90": 0.481604405553289
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.0,
+          "forward_fraction_over_15px": 1.0,
+          "status": "insufficient_overlap",
+          "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+        },
+        {
+          "pair": [
+            "approach",
+            "threshold"
+          ],
+          "tentative_matches": 24,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 15,
+          "source_occupied_cells_of_24": 4,
+          "target_occupied_cells_of_24": 5,
+          "empirical_f_error_px": {
+            "count": 15,
+            "median": 1.2912789768573637e-05,
+            "p90": 0.9638145430832306
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 15,
+            "median": 17.983892260662525,
+            "p90": 3276.4764133118088
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 15,
+            "median": 13.143511686135803,
+            "p90": 162.73387927736428
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 2,
+            "median": 4820.635742645627,
+            "p90": 4820.635742645627
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 15,
+            "median": 8.595424936693547,
+            "p90": 140.74397671958872
+          },
+          "relative_target_depth_error": {
+            "count": 15,
+            "median": 0.025851257377032956,
+            "p90": 0.8424409043239945
+          },
+          "relative_world_point_disagreement": {
+            "count": 15,
+            "median": 0.027970367591051395,
+            "p90": 0.5719535262623345
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.0,
+          "forward_fraction_over_15px": 1.0,
+          "status": "insufficient_overlap",
+          "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+        },
+        {
+          "pair": [
+            "threshold",
+            "inside"
+          ],
+          "tentative_matches": 280,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 219,
+          "source_occupied_cells_of_24": 13,
+          "target_occupied_cells_of_24": 13,
+          "empirical_f_error_px": {
+            "count": 219,
+            "median": 0.29866892228379976,
+            "p90": 0.9153648528627422
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 219,
+            "median": 13.620460276651581,
+            "p90": 18.929600189998368
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 219,
+            "median": 12.820619850962126,
+            "p90": 17.801917575245138
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 52,
+            "median": 15.56286993302762,
+            "p90": 21.15407010735953
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 219,
+            "median": 2.6709256257914986,
+            "p90": 8.03115316665107
+          },
+          "relative_target_depth_error": {
+            "count": 219,
+            "median": 0.016139142934674586,
+            "p90": 0.030286588570596736
+          },
+          "relative_world_point_disagreement": {
+            "count": 219,
+            "median": 0.02844446423272255,
+            "p90": 0.047813849380804165
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.0,
+          "forward_fraction_over_15px": 0.3926940639269406,
+          "status": "needs_review",
+          "reason": "Mixed reprojection support; inspect marked regions"
+        }
+      ]
+    },
+    {
+      "group": "interior_pair",
+      "pairs": [
+        {
+          "pair": [
+            "threshold",
+            "inside"
+          ],
+          "tentative_matches": 280,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 219,
+          "source_occupied_cells_of_24": 13,
+          "target_occupied_cells_of_24": 13,
+          "empirical_f_error_px": {
+            "count": 219,
+            "median": 0.29866892228379976,
+            "p90": 0.9153648528627422
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 219,
+            "median": 3.35494887428146,
+            "p90": 6.814354469763761
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 219,
+            "median": 3.1257752570115134,
+            "p90": 6.238178721637912
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 47,
+            "median": 4.543134997401519,
+            "p90": 14.963831430885685
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 219,
+            "median": 1.0141943976784107,
+            "p90": 2.084391337978906
+          },
+          "relative_target_depth_error": {
+            "count": 219,
+            "median": 0.005980204315123013,
+            "p90": 0.020458073624187043
+          },
+          "relative_world_point_disagreement": {
+            "count": 219,
+            "median": 0.008569745549418918,
+            "p90": 0.019403865310676772
+          },
+          "behind_camera_count": 0,
+          "forward_fraction_within_5px": 0.7534246575342466,
+          "forward_fraction_over_15px": 0.0228310502283105,
+          "status": "locally_supported",
+          "reason": "Some matched image regions support the prediction; not a whole-scene pass"
+        }
+      ]
+    },
+    {
+      "group": "reverse_pair",
+      "pairs": [
+        {
+          "pair": [
+            "inside",
+            "reverse"
+          ],
+          "tentative_matches": 16,
+          "coverage_note": "Independent SIFT proposals; region labels are coarse image regions, not object recognition.",
+          "empirical_f_inliers": 11,
+          "source_occupied_cells_of_24": 3,
+          "target_occupied_cells_of_24": 3,
+          "empirical_f_error_px": {
+            "count": 11,
+            "median": 4.96243630279845e-06,
+            "p90": 1.1119835517687149
+          },
+          "vggt_forward_reprojection_px": {
+            "count": 10,
+            "median": 68.47007159204074,
+            "p90": 217.7913331666227
+          },
+          "vggt_reverse_reprojection_px": {
+            "count": 10,
+            "median": 105.29643725581761,
+            "p90": 1232.4022095704004
+          },
+          "vggt_confident_reprojection_px": {
+            "count": 3,
+            "median": 48.9927330785201,
+            "p90": 93.97867772481044
+          },
+          "vggt_pose_epipolar_px": {
+            "count": 10,
+            "median": 20.13159129157691,
+            "p90": 31.420788352487445
+          },
+          "relative_target_depth_error": {
+            "count": 10,
+            "median": 0.16135456542636537,
+            "p90": 0.5000683940500265
+          },
+          "relative_world_point_disagreement": {
+            "count": 10,
+            "median": 0.17584020001250172,
+            "p90": 0.6251961975151049
+          },
+          "behind_camera_count": 1,
+          "forward_fraction_within_5px": 0.0,
+          "forward_fraction_over_15px": 1.0,
+          "status": "insufficient_overlap",
+          "reason": "Sparse or concentrated evidence; do not infer a structural conflict"
+        }
+      ],
+      "intended_same_position_turn": {
+        "center_distance_in_predicted_units": 1.24381422996521,
+        "distance_over_reference_median_depth": 1.2894706010881418,
+        "rotation_degrees": 150.99079988837107
+      }
+    }
+  ]
+}

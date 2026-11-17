@@ -6,13 +6,14 @@
 
 ## 子项目索引
 
-已收录 **3** 个项目。
+已收录 **4** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
-| 2 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
-| 3 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
+| 2 | `0003` | [从单图到可编辑三维 · 运河世界研究](projects/0003-ai-wide-area-modeling/README.md) | 从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。 | 研究中 | [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling) |
+| 3 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
+| 4 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
 
 ## 项目图览
 
@@ -31,6 +32,24 @@
 2026-11-15 本库整理，3600×8300。实际成片、官方预览、成熟作品与 LUME 示例模型资产图分别署名；完整出处和验证范围见项目说明。
 
 [进入研究](projects/0001-animation-skills-atlas/README.md) · [原仓库](https://github.com/remotion-dev/skills) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html)
+
+### 0003 · 从单图到可编辑三维 · 运河世界研究
+
+从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。
+
+一张完整架构图串联 11 个步骤、29 项库／模型／产品与 10 次实验，按节点查看技术、证据和失败原因。
+
+公开查看 6 段视频、6 个高斯／三维诊断入口、98 项去重图片与 39 份工程／几何文件。
+
+高斯保留外观，Blender 提供结构与控制；共同空间、绑定与物理换光仍需分别验证。
+
+保留近景、反向与门口连接未通过的结果；完整可编辑世界尚未完成，原模型只读。
+
+![单图到可编辑三维的完整研究架构：技术、库和产品、十次实验、失败原因及价值逐步骤关联](projects/0003-ai-wide-area-modeling/assets/research-map/canal-integrated-architecture.png)
+
+我们生成的完整研究架构图；11 个流程节点串联尝试、证据与边界，点击进入网页放大查看。
+
+[进入研究](projects/0003-ai-wide-area-modeling/README.md) · [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling)
 
 ### 0009 · 知源 · AI 与开源信息源指南
 

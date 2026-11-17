@@ -1,0 +1,14 @@
+{
+  "splats": 1179648,
+  "fov": 38.954843580327754,
+  "focus": 16.216293334960938,
+  "width": 1000,
+  "height": 563,
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "three": "187",
+  "errors": [],
+  "frames": 60,
+  "browser": "157.0.8103.51",
+  "representation": "Actual predicted anisotropic 3D Gaussians rendered by Spark 2.4.0; no point-cloud or triangle replacement",
+  "cameraOffsets": "Left/right +/- 3% median predicted depth, forward 3%, wide right 10%; camera looks at center at median depth"
+}

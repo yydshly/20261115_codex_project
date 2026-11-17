@@ -1,0 +1,143 @@
+{
+  "source_sha256": {
+    "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\canal-sharp-results\\canal-sharp.ply": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\assets\\reference.png": "6ebfd8652e498e31ad522045a22e7abdb32b92f5b5e825f62ae7df13ec844f1e"
+  },
+  "original_size": [
+    1672,
+    941
+  ],
+  "focal_px": 1330.3168000373212,
+  "door_width": 1.318749327888218,
+  "door_height": 2.5,
+  "cafe_frame": {
+    "origin_cv": [
+      -4.460582730845594,
+      1.7538676230437489,
+      13.92954963568133
+    ],
+    "basis_cv_columns": [
+      [
+        0.5822201660059066,
+        -0.8130311668663476,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        0.8130311668663476,
+        0.5822201660059066,
+        0.0
+      ]
+    ],
+    "scale": 0.91478177097758,
+    "unit": "Design scale: door height assumed 2.5 metres; not a real measurement"
+  },
+  "camera_blender": {
+    "position": [
+      -7.984322121817361,
+      -10.736480318421837,
+      1.6044061302681991
+    ],
+    "rotation_matrix": [
+      [
+        0.5822201660059066,
+        0.0,
+        -0.8130311668663476
+      ],
+      [
+        -0.8130311668663476,
+        0.0,
+        -0.5822201660059066
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "cv_to_three_matrix": [
+    [
+      0.5326043945577439,
+      0.0,
+      0.7437460906859658,
+      -7.984322121817361
+    ],
+    [
+      0.0,
+      -0.91478177097758,
+      0.0,
+      1.6044061302681991
+    ],
+    [
+      0.7437460906859658,
+      0.0,
+      -0.5326043945577439,
+      10.736480318421837
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "counts": {
+    "source": 1179648,
+    "door": 7299,
+    "background": 1121026,
+    "removed_photo_interior": 51323
+  },
+  "assumptions": [
+    "Vertical fa\u00e7ade/image-Y gravity and manual door-sill line prior; depth initialized from Gaussians; door height designed as 2.5m",
+    "Door thickness, back surface, complete room and furnishings are newly designed, not recovered truth",
+    "Original doorway/window photographic interior removed in derivative; original PLY unchanged",
+    "Door Gaussian color retains original lighting; new room uses PBR materials and independent lights"
+  ],
+  "window_local_bounds": [
+    -2.282468893924515,
+    -0.22411304403545257
+  ],
+  "door_selection": {
+    "source_image_region": [
+      405,
+      377,
+      523,
+      640
+    ],
+    "wood_only": true,
+    "max_plane_distance_design_units": 0.38
+  },
+  "skin_alignment": "Selected wood centers ray-projected to physical leaf front y=-0.04, Gaussian scales adjusted to retain original-camera footprint; colors and opacity unchanged",
+  "binding_check_points_cv": [
+    [
+      -4.029746329348373,
+      -1.012131027154664,
+      14.456080945231692
+    ],
+    [
+      -4.379102891877129,
+      1.2294996809216587,
+      13.968228084287869
+    ],
+    [
+      -4.429175730982347,
+      1.5719378236629495,
+      13.89830474397263
+    ],
+    [
+      -4.244011292318973,
+      1.0701935319586837,
+      14.156874385524876
+    ],
+    [
+      -4.021852990890619,
+      1.4588582419918656,
+      14.467103459654037
+    ]
+  ]
+}

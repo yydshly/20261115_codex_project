@@ -1,0 +1,54 @@
+{
+  "ply_vertices": 1179648,
+  "finite_geometry": true,
+  "opacity_infinite_logits": 0,
+  "rendered_images": {
+    "original.png": {
+      "stddev": [
+        55.62726669649414,
+        43.209004094767,
+        57.13590650547079
+      ],
+      "sha256": "7c8424abf1398f3fd434b76a721de563877ad07b37ab21d55b2c8d9b92c2421b"
+    },
+    "left.png": {
+      "stddev": [
+        55.28674524466264,
+        42.903512100982994,
+        57.33421041620091
+      ],
+      "sha256": "e981ed0a922dfdcd57200256bcaeb4da14b9d2f1dfb873c458fec105a37ce23a"
+    },
+    "right.png": {
+      "stddev": [
+        55.45321152859448,
+        43.301621298187904,
+        56.96040968827258
+      ],
+      "sha256": "6959e19e9b9cf82c7dcda52e52e3a95e6fdca16d050fd9350954387c1baf334f"
+    },
+    "forward.png": {
+      "stddev": [
+        56.53904876123209,
+        43.79173070980408,
+        57.18259637365819
+      ],
+      "sha256": "0c2be63b9df68de1062523543bd4296aa50ec80278e2c347bec26f41ac8e0c41"
+    },
+    "wide.png": {
+      "stddev": [
+        53.487447024902686,
+        42.60893597207937,
+        56.552826922661595
+      ],
+      "sha256": "19d22a710787aecc1d678fcec9d02bccfbcb8ef830ac9d5eede7441058906b55"
+    }
+  },
+  "nonblank_motion_frames": 60,
+  "historical_models_unchanged": true,
+  "old_model_hashes": {
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\artifacts\\rainy-canal-v3.blend": "7dc217ed94c381216747e9d5454c6e5408b0a9e3f89c4850ecf97217a811b7b4",
+    "F:\\codex_project\\1020_codex_project\\projects\\007-canal-blender-test\\artifacts\\rainy-canal-v4.blend": "017a6dd169e8fe5d8b958cc90d24687fe8f8aaeaa66194c455dd176afdd1b765"
+  },
+  "scope": "Artifact integrity, actual rendering and source preservation; no geometric ground-truth validation"
+}

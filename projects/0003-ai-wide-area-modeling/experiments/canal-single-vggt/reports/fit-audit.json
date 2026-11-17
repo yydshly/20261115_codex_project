@@ -1,0 +1,25 @@
+{
+  "scope": "Frozen VGGT output, same 12 approximate fitted anchors; counterfactual analytic projection only, not newly rendered or independent geometry validation",
+  "fit_source_sha256": "c5c98833779c8fe3d40510a67c957d938db538223ec9614914cd8bfb27ec6c5d",
+  "old_v4_rms_recomputed": 36.921842054193654,
+  "old_scene_camera_with_only_vggt_intrinsics_rms": 103.57815444608629,
+  "original_depth_objective_rms": 54.45610851923513,
+  "image_only_objective_same_predicted_intrinsics_rms": 17.80130036449488,
+  "image_only_parameters": [
+    -14.080224802060517,
+    -8.84437638117327,
+    2.3055310649349727,
+    0.5963705222984447,
+    0.007143347012540341,
+    -2.4270412998983666,
+    0.7627585090905533,
+    2.912338587954799,
+    0.7019175622729132,
+    0.6996989369817328,
+    18.374196132029077
+  ],
+  "image_only_optimizer_success": true,
+  "old_effective_horizontal_focal_mm": 27.000942103466645,
+  "predicted_effective_horizontal_focal_mm": 32.645042625633444,
+  "caveat": "Image-only fit has different objective from old V4 (no shoreline terms and extra shape variables). Lower fitted RMS proves flexibility, not more accurate depth or better whole-image appearance."
+}

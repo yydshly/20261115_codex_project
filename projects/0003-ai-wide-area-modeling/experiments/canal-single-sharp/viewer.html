@@ -1,0 +1,39 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<title>运河原图 · SHARP 单图高斯实测</title>
+<link rel="icon" href="data:,">
+<style>body{margin:0;background:#10141c;color:#e8edf4;font:14px system-ui}#tools{padding:12px;display:flex;gap:10px;align-items:center}button{background:#27354a;color:white;border:1px solid #56677d;border-radius:5px;padding:7px 12px;cursor:pointer}#view{width:min(100vw,1200px);aspect-ratio:1672/941}canvas{display:block;width:100%;height:100%}#note{max-width:1000px;padding:12px;color:#aebdd0;line-height:1.6}</style>
+<div id="tools"><b>SHARP 单图高斯</b><button data-view="original">原视角</button><button data-view="left">左移</button><button data-view="right">右移</button><button data-view="forward">前移</button><button id="motion">播放小范围镜头</button><span id="status">加载中…</span></div>
+<div id="view"></div><div id="note">输入为历史运河原图，未读取旧 Blender 模型。画面由生成的高斯文件实时渲染。鼠标拖动可查看，滚轮缩放；大幅离开原视角可能出现拉伸、缺失和错误补全。原图没有标定相机，默认焦距与预测尺度未获实测验证。</div>
+<script type="importmap">{"imports":{"three":"/modules/three/build/three.module.js","three/addons/":"/modules/three/examples/jsm/","@sparkjsdev/spark":"/modules/@sparkjsdev/spark/dist/spark.module.js"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {SparkRenderer,SplatMesh} from '@sparkjsdev/spark';
+const meta=await(await fetch('/result/inference.json')).json();
+const [iw,ih]=meta.input_resolution;
+const renderer=new THREE.WebGLRenderer({antialias:false,preserveDrawingBuffer:true});
+renderer.setPixelRatio(1);renderer.setSize(1000,Math.round(1000*ih/iw));
+renderer.setClearColor(0x10141c,1);renderer.toneMapping=THREE.NoToneMapping;
+document.querySelector('#view').appendChild(renderer.domElement);
+const scene=new THREE.Scene();
+const camera=new THREE.PerspectiveCamera(THREE.MathUtils.radToDeg(2*Math.atan(ih/(2*meta.focal_px))),iw/ih,.01,100000);
+const focus=meta.depth_percentiles[2];
+const controls=new OrbitControls(camera,renderer.domElement);controls.target.set(0,0,-focus);controls.enableDamping=false;
+const spark=new SparkRenderer({renderer,enableLod:false,sortRadial:false});scene.add(spark);
+const splats=new SplatMesh({url:'/result/canal-sharp.ply',lod:false,extSplats:true});
+splats.rotation.x=Math.PI;scene.add(splats);
+await splats.initialized;
+let playing=false,phase=0;
+function positionView(x=0,y=0,z=0){camera.position.set(x*focus,y*focus,z*focus);camera.lookAt(0,0,-focus);camera.updateMatrixWorld();controls.update();}
+function view(name){playing=false;positionView(...({original:[0,0,0],left:[-.03,0,0],right:[.03,0,0],forward:[0,0,-.03],wide:[.10,0,0]}[name]));}
+window.renderView=async(name)=>{view(name);for(let i=0;i<4;i++){await spark.update({scene,camera});renderer.render(scene,camera);await new Promise(requestAnimationFrame);}await new Promise(r=>setTimeout(r,500));for(let i=0;i<4;i++){renderer.render(scene,camera);await new Promise(requestAnimationFrame);}return renderer.domElement.toDataURL('image/png');};
+window.renderPhase=async(t)=>{playing=false;positionView(.03*Math.sin(t),.007*Math.sin(2*t),-.007*(1-Math.cos(t)));for(let i=0;i<2;i++){await spark.update({scene,camera});renderer.render(scene,camera);await new Promise(requestAnimationFrame);}return renderer.domElement.toDataURL('image/png');};
+document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>view(b.dataset.view));
+document.querySelector('#motion').onclick=()=>playing=!playing;
+view('original');
+renderer.setAnimationLoop(()=>{if(playing){phase+=.016;positionView(.03*Math.sin(phase),.007*Math.sin(2*phase),-.007*(1-Math.cos(phase)));}renderer.render(scene,camera);});
+const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');
+window.sharpInfo={splats:splats.numSplats,fov:camera.fov,focus,width:renderer.domElement.width,height:renderer.domElement.height,renderer:debug?gl.getParameter(debug.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER),three:THREE.REVISION};
+document.querySelector('#status').textContent=`已加载 ${splats.numSplats.toLocaleString()} 个高斯`;
+window.sharpReady=true;
+</script></html>
