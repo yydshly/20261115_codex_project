@@ -407,7 +407,7 @@
         "alt": "五条创作 Skill 的输入、处理、输出与内部约束机制，并解释我们可以借用的清单、样本、模板、记录和校验。",
         "caption": "本轮最终生成的第三版原图；机制示意，非上游效果实测。点击查看完整 PNG。"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/",
       "source_url": "https://x.com/liyuuuing/status/2121507172580475003",
       "highlights": [
         "从逐字稿、真实样本和发布数据出发，对照审稿报告、口播稿、分镜与复盘记录。",

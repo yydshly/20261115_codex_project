@@ -7,7 +7,7 @@
 本轮最终生成图原件，1536 × 1024；机制示意，非上游运行结果。点击图片可查看原文件。
 
 - 原始线索：[推荐帖](https://x.com/liyuuuing/status/2121507172580475003)
-- 网页：公开验收后回填；本地入口 `dist/index.html`。
+- 在线网页：[https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/)；本地入口 `dist/index.html`。
 - 研究状态：已阅读文档与部分源码，未做上游成稿效果对照。
 
 ## 它解决什么问题

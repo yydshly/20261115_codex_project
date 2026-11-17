@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-17T20:18:29+08:00",
+  "environment": {
+    "os": "Windows",
+    "python": "3.10",
+    "frontend": "buildless HTML/CSS/JavaScript",
+    "new_dependencies": 0
+  },
+  "scope": "Research reader and source review; not upstream creative effectiveness",
+  "local_checks": {
+    "registry": "PASS",
+    "project_export": "PASS",
+    "relative_resources_and_anchors": "PASS",
+    "guide_original_hash": "PASS",
+    "javascript_syntax": "PASS",
+    "repository_unit_tests": {
+      "run": 40,
+      "passed": 39,
+      "skipped": 1,
+      "skip_reason": "Local preview is not part of the isolated public build"
+    }
+  },
+  "browser_checks": {
+    "desktop_layout": "PASS",
+    "five_flow_navigation": "PASS",
+    "guide_natural_dimensions": [
+      1536,
+      1024
+    ],
+    "horizontal_overflow": false,
+    "console_errors": 0,
+    "mobile_device": "not tested",
+    "public_page": "PASS",
+    "version_details_expansion": true,
+    "versions_displayed": 5,
+    "public_console_errors": 0
+  },
+  "remote_checks": {
+    "pull_request": "https://github.com/yydshly/20261115_codex_project/pull/18",
+    "full_site_build": "PASS",
+    "index_validation": "PASS",
+    "merge_commit": "14ff3eff83330eac33f0272a96bc2ed2208c9f0c",
+    "public_deployment": "PASS",
+    "deployment_run": "https://github.com/yydshly/20261115_codex_project/actions/runs/44081838439",
+    "http_resources": {
+      "count": 10,
+      "all_passed": true,
+      "checked_at": "2026-11-17T20:23:03+08:00"
+    }
+  }
+}

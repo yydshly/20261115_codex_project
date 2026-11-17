@@ -71,6 +71,9 @@ def build():
         shutil.copy2(ROOT / "web" / name, dest / name)
     for name in ("README.md", "DISCUSSION.md", "SOURCE-NOTES.md", "publication.md", "research.json"):
         shutil.copy2(ROOT / name, dest / name)
+    for name in ("verification.json", "publication-http-checks.json"):
+        if (ROOT / name).is_file():
+            shutil.copy2(ROOT / name, dest / name)
     for name in (GUIDE, "guide-manifest.json", "SOURCES.md"):
         shutil.copy2(ROOT / "assets" / name, dest / "assets" / name)
     manifest = {
