@@ -49,17 +49,19 @@ function startScene(){
       const inspect=()=>{
         if(token!==generation)return;
         if(!doc.querySelector('#failure')?.hidden){showError(doc.querySelector('#failure-detail')?.textContent||'场景加载失败，请重试。',token);return;}
+        const progress=doc.querySelector('#loading-detail')?.textContent?.trim();
+        if(progress&&root.dataset.ready!=='true')$('scene-loading-text').textContent=data.label+' · '+progress;
         if(root.dataset.ready==='true'){
           clearTimeout(timeout);observer?.disconnect();$('scene-loading').hidden=true;$('scene-poster').hidden=true;$('fullscreen').disabled=false;
           stage.setAttribute('aria-busy','false');$('viewer-status').textContent=data.label+' · 已就绪';
         }
       };
-      observer=new MutationObserver(inspect);observer.observe(root,{attributes:true,subtree:true,attributeFilter:['data-ready','hidden']});inspect();
+      observer=new MutationObserver(inspect);observer.observe(doc.body,{attributes:true,subtree:true,childList:true,characterData:true,attributeFilter:['data-ready','hidden']});inspect();
       doc.addEventListener('keydown',event=>{if(event.key==='Escape'&&!doc.pointerLockElement&&viewer.classList.contains('is-expanded')){setExpanded(false);$('fullscreen').focus();}});
     }catch{showError('嵌入预览无法读取场景状态，请使用独立打开入口。',token);}
   });
   stage.append(frame);
-  timeout=setTimeout(()=>showError('场景载入时间较长，可重新载入或独立打开。',token),120000);
+  timeout=setTimeout(()=>{if(token!==generation)return;$('scene-loading-text').textContent='首次载入素材较多，仍在加载。请稍候，也可独立打开；结束漫游可取消。';$('viewer-status').textContent='继续加载中…';},120000);
 }
 
 document.querySelectorAll('[data-edition]').forEach(button=>button.addEventListener('click',()=>{if(button.dataset.edition!==edition)chooseEdition(button.dataset.edition);}));
