@@ -19,7 +19,8 @@ SOURCE_GUIDE = '0009-ai-source-field-guide'
 EVERYDAY_WONDERS = '0011-everyday-wonders'
 CANAL_RESEARCH = '0003-ai-wide-area-modeling'
 AVATAR_WORKFLOW = '0021-avatar-video-workflow'
-STATIC_PROJECTS = {SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html'}
+WIND_GARDEN = '0005-wind-return-garden'
+STATIC_PROJECTS = {WIND_GARDEN: 'overview.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html'}
 
 
 def build_static_projects(output):
@@ -37,6 +38,8 @@ def build_static_projects(output):
             command.append('--public')
         subprocess.run(command, check=True)
         if slug == AVATAR_WORKFLOW:
+            subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
+        if slug == WIND_GARDEN:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         source = project / 'dist'
         if not (source / entry).is_file():

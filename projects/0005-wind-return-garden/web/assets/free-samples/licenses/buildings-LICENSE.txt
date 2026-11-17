@@ -1,0 +1,22 @@
+SpriteCook - Isometric Buildings sample pack
+============================================
+
+These assets are released under Creative Commons Zero (CC0 1.0).
+You can copy, modify, and use them in commercial and non-commercial
+projects, with no attribution required.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Made with SpriteCook - https://www.spritecook.ai
+
+Contents
+--------
+- building1.png .. building14.png    individual detailed isometric buildings
+- castle.webp                        animated castle
+- castle_spritesheet.png             castle sprite sheet
+- animated_house_1.webp              animated house 1
+- animated_house_1_spritesheet.png   house 1 sprite sheet
+- animated_house_2.webp              animated house 2
+- animated_house_2_spritesheet.png   house 2 sprite sheet
+- animated_house_3.webp              animated house 3
+- animated_house_3_spritesheet.png   house 3 sprite sheet

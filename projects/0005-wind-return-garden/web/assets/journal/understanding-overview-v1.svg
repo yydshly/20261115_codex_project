@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="1800" viewBox="0 0 2400 1800" role="img" aria-labelledby="title desc">
+<title id="title">风归小庭：做了什么、价值、扩展与参考思路</title>
+<desc id="desc">当前为可玩的庭院原型。目标是 AI 居民驱动的共同生活模拟。图分开说明已实现功能、待验证价值、尚未接入的扩展和六组参考方法。</desc>
+<rect x="0" y="0" width="2400" height="1800" rx="0" fill="#f2efdf"/>
+<text x="100" y="77.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400">OUR UNDERSTANDING / 一张图看清现状与方向</text>
+<text x="100" y="170.50" fill="#435d48" font-family="SimSun,Noto Serif CJK SC,serif" font-size="76" font-weight="400">风归小庭｜我们的理解总览</text>
+<text x="100" y="250.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31" font-weight="400">定位方向：与有自主日常和主见的 AI 居民，共同建设并经历生活事件。</text>
+<line x1="2064" y1="110" x2="2220" y2="164" stroke="#b9c5a8" stroke-width="3"/>
+<line x1="2220" y1="164" x2="2078" y2="220" stroke="#b9c5a8" stroke-width="3"/>
+<line x1="2078" y1="220" x2="2064" y2="110" stroke="#b9c5a8" stroke-width="3"/>
+<circle cx="2064" cy="110" r="39" fill="#e4e8d3" stroke="#b4c29e" stroke-width="2"/>
+<text x="2039" y="118.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">世界</text>
+<circle cx="2220" cy="164" r="39" fill="#e4e8d3" stroke="#b4c29e" stroke-width="2"/>
+<text x="2195" y="172.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">人物</text>
+<circle cx="2078" cy="220" r="39" fill="#e4e8d3" stroke="#b4c29e" stroke-width="2"/>
+<text x="2053" y="228.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">玩法</text>
+<rect x="100" y="295" width="2180" height="46" rx="8" fill="#e6e7d6"/>
+<text x="124" y="328.50" fill="#526e4c" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">已实现：庭院原型</text>
+<text x="620" y="328.50" fill="#957d4f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="700">目标设计：AI 居民与完整模式</text>
+<text x="1510" y="328.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400">价值判断：仍需真实试玩验证</text>
+<rect x="100" y="370" width="1068" height="500" rx="22" fill="#e5ead6" stroke="#cad3b8" stroke-width="1.5"/>
+<text x="140" y="440.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" font-weight="700">01  做了什么</text>
+<text x="140" y="482.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">现有可玩原型 · 功能与状态已有验证</text>
+<line x1="140" y1="509" x2="1128" y2="509" stroke="#cad3b8" stroke-width="2"/>
+<circle cx="149" cy="558" r="4" fill="#a38d60"/>
+<text x="170" y="568.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="400">风铃纸笺 · 种植照料</text>
+<circle cx="149" cy="615" r="4" fill="#a38d60"/>
+<text x="170" y="625.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="400">自主橘猫 · 小屋与昼夜晴雨</text>
+<circle cx="149" cy="672" r="4" fill="#a38d60"/>
+<text x="170" y="682.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="400">花盆、长椅、茶桌与小径的实际布置</text>
+<circle cx="149" cy="729" r="4" fill="#a38d60"/>
+<text x="170" y="739.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="30" font-weight="400">五封预写来信 · 当前浏览器存档</text>
+<text x="143" y="815.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400">既有 39 项规则与数据检查通过。</text>
+<text x="143" y="854.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400">功能可用，不等于已证明玩家会长期停留。</text>
+<rect x="1232" y="370" width="1068" height="500" rx="22" fill="#f8f3e4" stroke="#cad3b8" stroke-width="1.5"/>
+<text x="1272" y="440.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" font-weight="700">02  价值是什么</text>
+<text x="1272" y="482.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">设计价值与待验证假设 · 不把意图当作效果</text>
+<line x1="1272" y1="509" x2="2260" y2="509" stroke="#cad3b8" stroke-width="2"/>
+<text x="1275" y="566.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="29" font-weight="700">对玩家</text>
+<circle cx="1281" cy="607" r="4" fill="#a38d60"/>
+<text x="1302" y="615.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400">有自己的地方：能认出亲手留下的改变</text>
+<circle cx="1281" cy="659" r="4" fill="#a38d60"/>
+<text x="1302" y="667.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400">有想完成的事：观察、判断、行动与结果</text>
+<circle cx="1281" cy="711" r="4" fill="#a38d60"/>
+<text x="1302" y="719.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="400">有在意的人：平等相处，积累共同经历</text>
+<text x="1275" y="781.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="28" font-weight="700">对我们：素材 → 场景 → 玩法 → 持续状态</text>
+<text x="1275" y="840.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" font-weight="400">还要验证：他能独立生活吗？一起做事好玩吗？</text>
+<rect x="100" y="915" width="1068" height="550" rx="22" fill="#f8f3e4" stroke="#cad3b8" stroke-width="1.5"/>
+<text x="140" y="985.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" font-weight="700">03  可以怎样扩展</text>
+<text x="140" y="1027.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">以下均为目标路线 · AI 居民与完整模式尚未接入</text>
+<line x1="140" y1="1054" x2="1128" y2="1054" stroke="#cad3b8" stroke-width="2"/>
+<text x="143" y="1113.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31" font-weight="700">先：一名真实 AI 居民</text>
+<text x="143" y="1155.00" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400">观察 → 计划 → 动作 → 事实 → 记忆 → 交流</text>
+<text x="143" y="1214.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31" font-weight="700">再：一个完整事件短篇</text>
+<text x="143" y="1256.00" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400">有具体目标、空间约束、共同行动和不同结果</text>
+<text x="143" y="1315.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="31" font-weight="700">后：连续关系与更大的日常</text>
+<text x="143" y="1357.00" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="26" font-weight="400">自己的日程、来访、溪岸、季节与跨次共同经历</text>
+<rect x="143" y="1391" width="276" height="45" rx="7" fill="#e1e7cf"/>
+<text x="209" y="1424.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">日常生活</text>
+<rect x="460" y="1391" width="276" height="45" rx="7" fill="#e1e7cf"/>
+<text x="526" y="1424.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">事件短篇</text>
+<rect x="777" y="1391" width="276" height="45" rx="7" fill="#e1e7cf"/>
+<text x="843" y="1424.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" font-weight="400">庭院创作</text>
+<rect x="1232" y="915" width="1068" height="550" rx="22" fill="#e5ead6" stroke="#cad3b8" stroke-width="1.5"/>
+<text x="1272" y="985.50" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="39" font-weight="700">04  参考哪些思路</text>
+<text x="1272" y="1027.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">以官方资料为依据 · 取设计方法，建立自己的定位</text>
+<line x1="1272" y1="1054" x2="2260" y2="1054" stroke="#cad3b8" stroke-width="2"/>
+<text x="1275" y="1110.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">动森</text>
+<text x="1635" y="1110.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">地方归属与邻里日常</text>
+<text x="1275" y="1165.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">牧场物语／星露谷</text>
+<text x="1635" y="1165.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">经营成长与明确目标</text>
+<text x="1275" y="1220.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">模拟人生</text>
+<text x="1635" y="1220.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">性格、日程与生活系统</text>
+<text x="1275" y="1275.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">时光系列</text>
+<text x="1635" y="1275.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">建设成果被社区实际使用</text>
+<text x="1275" y="1330.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">Spiritfarer</text>
+<text x="1635" y="1330.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">行动与人物旅程相连</text>
+<text x="1275" y="1385.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">inZOI</text>
+<text x="1635" y="1385.00" fill="#435d48" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">合理自主行为要在世界中落地</text>
+<text x="1275" y="1445.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" font-weight="400">官方定位、我们的判断、当前实现分别记录。</text>
+<rect x="100" y="1510" width="2180" height="159" rx="17" fill="#516b53"/>
+<text x="140" y="1559.00" fill="#ede9cf" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="400">目标核心循环｜角色有自己的生活，游戏有独立规则与可玩的事情</text>
+<text x="165" y="1627.50" fill="#fbf4df" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="35" font-weight="700">发现问题  →  表达意见  →  协商与行动  →  世界变化  →  共同记忆</text>
+<text x="100" y="1729.00" fill="#8a754f" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="27" font-weight="700">当前边界：规则驱动的猫 ＋ 预写来信；AI 居民、自然对话与完整模式体系尚未接入。</text>
+<text x="100" y="1776.50" fill="#75846b" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" font-weight="400">风归小庭 · 理解总览 v1 · 2026.11.17 ｜ 原创信息图，非游戏截图 ｜ 参考出处与完整说明见网页</text>
+</svg>

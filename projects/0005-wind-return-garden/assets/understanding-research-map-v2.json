@@ -1,0 +1,331 @@
+{
+  "date": "2026-11-17",
+  "size": [
+    3200,
+    4400
+  ],
+  "script": "scripts/render_research_map.py",
+  "method": "Code-native SVG composition and matching Pillow PNG; documentary source inserts; no generated imagery",
+  "usage": "LOCAL STUDY ONLY: contains article artwork; redistribution permission unconfirmed",
+  "previous_version": "assets/understanding-overview-v1.svg",
+  "sources": [
+    {
+      "path": "web/assets/local-source/oak-diagram.png",
+      "sha256": "61736ac3c4bddad9438a14c484fc5a7e83da2912c3eab55f68621cd1f191d15b",
+      "original_size": [
+        1680,
+        432
+      ],
+      "crop_xyxy": null,
+      "role": "SpriteCook 原始橡树分区示意图；整幅等比展示",
+      "placement": [
+        140,
+        625,
+        1060,
+        275
+      ]
+    },
+    {
+      "path": "web/assets/local-source/pine-diagram.png",
+      "sha256": "35058f350ada25467fdf4959d9c5ef855e9ab50bec0eb6657ecb6f51d6a9e3a6",
+      "original_size": [
+        1064,
+        852
+      ],
+      "crop_xyxy": null,
+      "role": "SpriteCook 原始松树分层示意图；整幅等比展示",
+      "placement": [
+        1350,
+        615,
+        610,
+        338
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/traveler/idle_sheet.png",
+      "sha256": "ade6a53757120cac14e807109b5d8663df9c1aba0243e8c3b6237d05eefc2481",
+      "original_size": [
+        784,
+        98
+      ],
+      "crop_xyxy": [
+        0,
+        0,
+        98,
+        98
+      ],
+      "role": "官方免费样例预览：旅人",
+      "placement": [
+        2140,
+        615,
+        225,
+        175
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/cat/walk_sheet.png",
+      "sha256": "7d03722429783d90894545661883782d5f1104e2a607217e2f7ffd0028d04c20",
+      "original_size": [
+        688,
+        86
+      ],
+      "crop_xyxy": [
+        0,
+        0,
+        86,
+        86
+      ],
+      "role": "官方免费样例预览：橘猫",
+      "placement": [
+        2425,
+        615,
+        225,
+        175
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/cottage/building5.png",
+      "sha256": "5742faaf017abf8e419f4c616efa43d479dbf1146cd279b34664e231d9f92cb9",
+      "original_size": [
+        300,
+        314
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费样例预览：蓝瓦小屋",
+      "placement": [
+        2710,
+        615,
+        225,
+        175
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/well/stone_well.png",
+      "sha256": "bd7d071419fc8239ddac96b0c50fc2ac9df56c56f9d6e76018f676ee0bafeed1",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：井",
+      "placement": [
+        2128,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/barrel/barrel.png",
+      "sha256": "1f32e392baa65aaa6404326b19270a4c19337c49cc5b00200c49a3290cedcb39",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：桶",
+      "placement": [
+        2282,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/crate/crate_intact.png",
+      "sha256": "598c92e1591758aa0e076c14d5120422306a4c2affa43b3ddb9866179c0fc737",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：箱",
+      "placement": [
+        2436,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/pot/pot.png",
+      "sha256": "193353fd0f7711d2a08a637801f0bd9d157544c06f292f257d42eda8f26c1bf5",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：盆",
+      "placement": [
+        2590,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/bread/bread.png",
+      "sha256": "ac35e3848f7dbe92729a2a2c2b34a1e1a94cb5b94c9f4707c25dda5ba1286693",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：面包",
+      "placement": [
+        2744,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "web/assets/free-samples/apple/apple.png",
+      "sha256": "a05f7081b8478e50e46270f0eb10b8fb97309edc7519bb1772d973dd06fb86d0",
+      "original_size": [
+        256,
+        256
+      ],
+      "crop_xyxy": null,
+      "role": "官方免费道具预览：苹果",
+      "placement": [
+        2898,
+        855,
+        125,
+        100
+      ]
+    },
+    {
+      "path": "assets/lab-layered-live.jpg",
+      "sha256": "9b39112c6ca1f44aaffc621fbc0214eac5cb02e8589902d40bf1249b1adcb72b",
+      "original_size": [
+        1264,
+        2096
+      ],
+      "crop_xyxy": [
+        40,
+        405,
+        1226,
+        840
+      ],
+      "role": "2026-11-15 风动实验真实截图；裁取三种方式对照区",
+      "placement": [
+        145,
+        1377,
+        1745,
+        560
+      ]
+    },
+    {
+      "path": "web/assets/trees/oak-full.png",
+      "sha256": "4daf375f2919d1fa5724d6dea9104898376909a6580e376dc8f9e29b0bd31bee",
+      "original_size": [
+        105,
+        108
+      ],
+      "crop_xyxy": null,
+      "role": "本地提取：提取树图",
+      "placement": [
+        2010,
+        1395,
+        240,
+        185
+      ]
+    },
+    {
+      "path": "web/assets/trees/oak-trunk.png",
+      "sha256": "7d991b0abdee7741881c737deee4f57d1604e3f74b3efc2296f2c1d4d798bafa",
+      "original_size": [
+        105,
+        108
+      ],
+      "crop_xyxy": null,
+      "role": "本地提取：固定树干",
+      "placement": [
+        2355,
+        1395,
+        240,
+        185
+      ]
+    },
+    {
+      "path": "web/assets/trees/oak-clump-00.png",
+      "sha256": "a6ec4478c49f1a937f3980b5b482288674c36e23ff35362a35666e331eeaa212",
+      "original_size": [
+        105,
+        108
+      ],
+      "crop_xyxy": null,
+      "role": "本地提取：叶团之一",
+      "placement": [
+        2700,
+        1395,
+        240,
+        185
+      ]
+    },
+    {
+      "path": "assets/arranging-story-scene.jpg",
+      "sha256": "e707d4f01cf36c089caab4740dea236f5e98e812e3506e87c319ab6520a26122",
+      "original_size": [
+        903,
+        604
+      ],
+      "crop_xyxy": null,
+      "role": "2026-11-16 独立庭院真实画面，沿用已记录的场景裁切",
+      "placement": [
+        130,
+        2420,
+        920,
+        615
+      ]
+    },
+    {
+      "path": "assets/home-night-scene.jpg",
+      "sha256": "d8746b3354897c2fafc9808284754e195238709686672e1c6cd736409194d3c9",
+      "original_size": [
+        768,
+        480
+      ],
+      "crop_xyxy": null,
+      "role": "2026-11-16 小屋真实画面，沿用已记录的场景裁切",
+      "placement": [
+        1140,
+        2420,
+        920,
+        615
+      ]
+    },
+    {
+      "path": "assets/garden-night-rain.jpg",
+      "sha256": "1a4759986f4c3597b2a696f6a369019e54dcb2daf11096393a270b8cdc45810c",
+      "original_size": [
+        783,
+        854
+      ],
+      "crop_xyxy": [
+        0,
+        84,
+        768,
+        566
+      ],
+      "role": "2026-11-16 夜雨真实截图的庭院区域",
+      "placement": [
+        2150,
+        2420,
+        920,
+        615
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "assets/understanding-research-map-v2.svg",
+      "sha256": "fac7379b7b9ae261e2d35916fd55d2172e1eb84ebaeb423685493fe925fc5fb4"
+    },
+    {
+      "path": "assets/understanding-research-map-v2.png",
+      "sha256": "c27cd26f7b522cee65aaeb206d05ab9ff75e98494219a2880ef7bf27ee6d72e3"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "version": 1,
+  "prepared": "2026-11-15",
+  "article": "https://www.spritecook.ai/blog/pixel-art-trees-wind-animation",
+  "usage": "Attributed article-art study and comparison; no standalone asset pack or third-party relicensing.",
+  "sources": [
+    {
+      "file": "oak-diagram.png",
+      "sha256": "61736ac3c4bddad9438a14c484fc5a7e83da2912c3eab55f68621cd1f191d15b",
+      "bytes": 50240
+    },
+    {
+      "file": "pine-diagram.png",
+      "sha256": "35058f350ada25467fdf4959d9c5ef855e9ab50bec0eb6657ecb6f51d6a9e3a6",
+      "bytes": 52900
+    }
+  ],
+  "rigs": [
+    {
+      "kind": "oak",
+      "width": 105,
+      "height": 108,
+      "origin": [
+        55,
+        100
+      ],
+      "full": "oak-full.png",
+      "trunk": "oak-trunk.png",
+      "inside": "oak-inside.png",
+      "clumps": [
+        {
+          "file": "oak-clump-00.png",
+          "cx": 22.9,
+          "cy": 41.24,
+          "pixels": 170
+        },
+        {
+          "file": "oak-clump-01.png",
+          "cx": 46.78,
+          "cy": 39.18,
+          "pixels": 178
+        },
+        {
+          "file": "oak-clump-02.png",
+          "cx": 82.77,
+          "cy": 36.55,
+          "pixels": 311
+        },
+        {
+          "file": "oak-clump-03.png",
+          "cx": 46.49,
+          "cy": 24.88,
+          "pixels": 113
+        },
+        {
+          "file": "oak-clump-04.png",
+          "cx": 92.85,
+          "cy": 49.48,
+          "pixels": 251
+        },
+        {
+          "file": "oak-clump-05.png",
+          "cx": 60.62,
+          "cy": 15.1,
+          "pixels": 204
+        },
+        {
+          "file": "oak-clump-06.png",
+          "cx": 36.18,
+          "cy": 32.35,
+          "pixels": 157
+        },
+        {
+          "file": "oak-clump-07.png",
+          "cx": 16.95,
+          "cy": 52.02,
+          "pixels": 190
+        },
+        {
+          "file": "oak-clump-08.png",
+          "cx": 44.15,
+          "cy": 15.81,
+          "pixels": 117
+        },
+        {
+          "file": "oak-clump-09.png",
+          "cx": 27.9,
+          "cy": 25.63,
+          "pixels": 238
+        },
+        {
+          "file": "oak-clump-10.png",
+          "cx": 65.33,
+          "cy": 49.84,
+          "pixels": 523
+        },
+        {
+          "file": "oak-clump-11.png",
+          "cx": 37.5,
+          "cy": 52.38,
+          "pixels": 393
+        },
+        {
+          "file": "oak-clump-12.png",
+          "cx": 78.86,
+          "cy": 22.81,
+          "pixels": 143
+        },
+        {
+          "file": "oak-clump-13.png",
+          "cx": 62.41,
+          "cy": 29.21,
+          "pixels": 382
+        }
+      ],
+      "source": "oak-diagram.png",
+      "reconstructionExact": true
+    },
+    {
+      "kind": "pine",
+      "width": 66,
+      "height": 213,
+      "origin": [
+        35,
+        203
+      ],
+      "full": "pine-full.png",
+      "trunk": "pine-trunk.png",
+      "inside": "pine-inside.png",
+      "clumps": [
+        {
+          "file": "pine-clump-00.png",
+          "cx": 35.4,
+          "cy": 61.83,
+          "pixels": 127
+        },
+        {
+          "file": "pine-clump-01.png",
+          "cx": 35.28,
+          "cy": 73.55,
+          "pixels": 186
+        },
+        {
+          "file": "pine-clump-02.png",
+          "cx": 35.16,
+          "cy": 86.17,
+          "pixels": 275
+        },
+        {
+          "file": "pine-clump-03.png",
+          "cx": 35.74,
+          "cy": 100.25,
+          "pixels": 367
+        },
+        {
+          "file": "pine-clump-04.png",
+          "cx": 35.01,
+          "cy": 115.55,
+          "pixels": 495
+        },
+        {
+          "file": "pine-clump-05.png",
+          "cx": 35.84,
+          "cy": 132.03,
+          "pixels": 591
+        },
+        {
+          "file": "pine-clump-06.png",
+          "cx": 34.94,
+          "cy": 148.74,
+          "pixels": 605
+        },
+        {
+          "file": "pine-clump-07.png",
+          "cx": 35.74,
+          "cy": 160.67,
+          "pixels": 279
+        }
+      ],
+      "source": "pine-diagram.png",
+      "reconstructionExact": true
+    }
+  ],
+  "files": [
+    {
+      "file": "oak-clump-00.png",
+      "sha256": "a6ec4478c49f1a937f3980b5b482288674c36e23ff35362a35666e331eeaa212",
+      "bytes": 870
+    },
+    {
+      "file": "oak-clump-01.png",
+      "sha256": "b01046bf4e14afee9d7c86a8962ca26a367c8f4328ee1ad2d2620b3a23397e08",
+      "bytes": 876
+    },
+    {
+      "file": "oak-clump-02.png",
+      "sha256": "0f819266bf559d4588c248e39d3c911a8e87ff1b133af263d974c1f15a0d183c",
+      "bytes": 1308
+    },
+    {
+      "file": "oak-clump-03.png",
+      "sha256": "56691b68adfd80ff594e6390c29f6863227eb95d0c48afc904ce5d0eb2047ceb",
+      "bytes": 657
+    },
+    {
+      "file": "oak-clump-04.png",
+      "sha256": "186cf8f2bd3b6b3ac7326a9b91650853f18b79e6c42a21cad3356842fa0ead3c",
+      "bytes": 1056
+    },
+    {
+      "file": "oak-clump-05.png",
+      "sha256": "b61843894777500d324711b6146eac912c5030fd7833c735e2f578608034516e",
+      "bytes": 968
+    },
+    {
+      "file": "oak-clump-06.png",
+      "sha256": "560f3e0592c02c25c268d2e3427d10b77b08d95d8036ea8d3194b24d91db9358",
+      "bytes": 843
+    },
+    {
+      "file": "oak-clump-07.png",
+      "sha256": "bdbfd716fb1562aa7368fd2e6632b044ebcaefd0876f6c30be0a88438fea14e0",
+      "bytes": 944
+    },
+    {
+      "file": "oak-clump-08.png",
+      "sha256": "ddcc9f3dd8fdab84a8d26a529ad76acb618a7f46ae89b40903443ab65013e7e3",
+      "bytes": 660
+    },
+    {
+      "file": "oak-clump-09.png",
+      "sha256": "a4842613ccdf96314d822297b48bba0f8db6458e291d1833aaf79e56baf0a4fc",
+      "bytes": 1161
+    },
+    {
+      "file": "oak-clump-10.png",
+      "sha256": "82ecb26dcd16b3ae742260a5002395bdaf733679d6dbd61b25ff49e504fe844f",
+      "bytes": 1966
+    },
+    {
+      "file": "oak-clump-11.png",
+      "sha256": "a8ed8010a3b7c7a3acf719cb4aa538720a49b42a5ccc13642e25f4328e27011c",
+      "bytes": 1596
+    },
+    {
+      "file": "oak-clump-12.png",
+      "sha256": "b3f0e0dfa4c12a60d9503085deb1c4161c8a8ab493e9e42b69315d041bed19b1",
+      "bytes": 758
+    },
+    {
+      "file": "oak-clump-13.png",
+      "sha256": "58a4afa09a2c19c2f6ebff4d2691c219b0e4ee6d1cd3f7cf839b4a437beadc0c",
+      "bytes": 1556
+    },
+    {
+      "file": "oak-full.png",
+      "sha256": "4daf375f2919d1fa5724d6dea9104898376909a6580e376dc8f9e29b0bd31bee",
+      "bytes": 15569
+    },
+    {
+      "file": "oak-inside.png",
+      "sha256": "03895d3713b9bdc6833810c3ec3e824ca5a9e9899ff540316e62da2f3ae41940",
+      "bytes": 13950
+    },
+    {
+      "file": "oak-trunk.png",
+      "sha256": "7d991b0abdee7741881c737deee4f57d1604e3f74b3efc2296f2c1d4d798bafa",
+      "bytes": 6532
+    },
+    {
+      "file": "pine-clump-00.png",
+      "sha256": "ee8f4034831bb2960eb606f210b667470fd6e00d60e1c05a350008681b4d15de",
+      "bytes": 701
+    },
+    {
+      "file": "pine-clump-01.png",
+      "sha256": "2f0390777a89c4ea1d80f0e289213b99a1091a18c241246976fdc7b9d5b56802",
+      "bytes": 870
+    },
+    {
+      "file": "pine-clump-02.png",
+      "sha256": "13737cbaae0b6ad88d8cf1f1dbd9a39248a7ff868f27fff21c2184a9d4f7663d",
+      "bytes": 1210
+    },
+    {
+      "file": "pine-clump-03.png",
+      "sha256": "d78b5d203ac9f4769fccc2c9eef5962b99a7c6405eba87fd0edfb82d2f593c4d",
+      "bytes": 1450
+    },
+    {
+      "file": "pine-clump-04.png",
+      "sha256": "c220ffbdc191d9752001e3fe09c04bffe8a288ffb878eca15e71a52943c7bf23",
+      "bytes": 1830
+    },
+    {
+      "file": "pine-clump-05.png",
+      "sha256": "5c954d6e41f115001a0261a6b5c4b822277fbc95f89647a1262dcc1e57d02d04",
+      "bytes": 2117
+    },
+    {
+      "file": "pine-clump-06.png",
+      "sha256": "fe4c35fe19e9184b8be56a5d074ad4057083d764ed03e577c2f1a820f02338d8",
+      "bytes": 2147
+    },
+    {
+      "file": "pine-clump-07.png",
+      "sha256": "925ebc4820fe01f76c29252156322c5b99d686815ae58bf8237839ed72dfb1dd",
+      "bytes": 1189
+    },
+    {
+      "file": "pine-full.png",
+      "sha256": "4ec811df83a854a1cb616cc88b9161ab5e1372d672fbb056cb2126e47f04803e",
+      "bytes": 11398
+    },
+    {
+      "file": "pine-inside.png",
+      "sha256": "692dd5ee90c27479b818a2a9e721e06f09ad72acdd9edb8a983222cd08b8f113",
+      "bytes": 10221
+    },
+    {
+      "file": "pine-trunk.png",
+      "sha256": "6fbcb7b8001ac1bd2764bdab437472f8224afbf7c51cdc2756e34c6479df9c93",
+      "bytes": 3086
+    }
+  ]
+}

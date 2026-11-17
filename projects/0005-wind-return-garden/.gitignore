@@ -1,0 +1,18 @@
+# Keep bulk/unreviewed inputs ignored; only the figures listed for this research publication are included.
+web/assets/local-source/*
+web/assets/trees/*.png
+!web/assets/local-source/.gitkeep
+!web/assets/local-source/oak-diagram.png
+!web/assets/local-source/pine-diagram.png
+!web/assets/trees/oak-*.png
+!web/assets/trees/pine-*.png
+.runtime/
+.local/
+web/dist/
+# The illustrated v2 embeds the local-only article art; source/manifest stay tracked.
+assets/understanding-research-map-v2.svg
+assets/understanding-research-map-v2.png
+web/assets/journal/understanding-research-map-v2.svg
+web/assets/journal/understanding-research-map-v2.png
+
+dist/

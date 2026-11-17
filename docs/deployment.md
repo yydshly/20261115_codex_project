@@ -52,3 +52,12 @@ Vite 使用经验证的相对路径，全部页面与媒体保留在 `/20261115_
 其 `scripts/build.py --publication` 按 `publication-media.json` 恢复 6 段视频、6 个查看器与工程下载。Release 媒体包有包级和逐文件 SHA-256、严格路径白名单及 950 MB 项目体积上限；PLY/.blend 无损 gzip，客户端还原后核对原文件 SHA-256。NPZ 只留在完整 Release 归档，不放入 Pages。可用 `CANAL_RESEARCH_MEDIA_ARCHIVE` 指定本地归档，仍进行同样校验。最小 Three.js/Spark 引擎及许可全文随归档，不发布权重、完整依赖或运行服务。
 
 公开网页是研究档案，保留未通过结果，不代表完整三维世界已验收。原文件只读，实验配置和来源可追溯；部署与核验见项目 `publication.md`。
+
+
+## 素材到庭院研究公开发布
+
+本次明确加入 0005-wind-return-garden，主入口为 demos/0005-wind-return-garden/overview.html，index.html 为可玩庭院，其余七个研究与玩法页面一并保留。scripts/build.py 使用现有 Node 静态构建，scripts/check_publication.py 核对九页相对路径、源图与许可哈希、图谱副本及发布体积；无需新增前端依赖。Pages 在统一 artifact 中保留远端既有项目。
+
+首页和总导航使用本轮生成的 v2 素材到体验研究图谱；公开副本只修改发布状态脚注，原素材、18 处实景、结构和结论保留。摘要分别说明素材价值、已验证的制作链路、玩家价值假设、AI/视频/三维扩展与当前边界。第三方图像和免费样例分别保留出处与通知，不构成独立素材包或另授素材权利。
+
+39 项原型检查随 CI 执行；公开部署成功后再核对主入口、图谱、实时效果、素材与庭院，之后填写 demo_url。真实提交、Actions 结果和上线验证见项目 publication.md。只提交本项目及所需总库文件，其他聊天的未提交工作保持原状。

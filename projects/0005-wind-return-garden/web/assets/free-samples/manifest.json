@@ -1,0 +1,429 @@
+{
+  "version": 1,
+  "checkedAt": "2026-11-16",
+  "provider": "SpriteCook",
+  "sourceUrl": "https://www.spritecook.ai/free-pixel-art-sprites",
+  "packs": {
+    "characters": {
+      "name": "pixel-art-characters",
+      "url": "https://www.spritecook.ai/assets/downloadables/spritecook-pixel-art-characters.zip",
+      "sha256": "89b15024db28ab6dfa5b5828c5b09c3cf84330780d7b035025871166a045cb7c"
+    },
+    "buildings": {
+      "name": "isometric-buildings",
+      "url": "https://www.spritecook.ai/assets/downloadables/spritecook-isometric-buildings.zip",
+      "sha256": "43988bbc6e49c6bdc7bdcd096aa58547ea7db9667c399afca26b5ca14e15a6b1"
+    },
+    "props": {
+      "name": "game-asset-pack",
+      "url": "https://www.spritecook.ai/assets/downloadables/spritecook-game-asset-pack.zip",
+      "sha256": "37dbe841afa0e0c4e727ead7c413124ae88dd7d63ebd1b66d53a81094a61233e"
+    }
+  },
+  "licenseNote": "角色总包内层标 CC0、ZIP 根目录及官网标 sample license，存在口径差异；两份通知均保留，保守遵循 sample license，不作为独立素材包再分发。建筑和道具各自附带 CC0 通知。本页清单不为文章树图另授独立素材使用权，文章图作为有出处的研究对照。",
+  "assets": [
+    {
+      "id": "traveler",
+      "title": "橘衣旅人",
+      "pack": "characters",
+      "states": {
+        "idle": {
+          "file": "traveler/idle_sheet.png",
+          "frameWidth": 98,
+          "frameHeight": 98,
+          "frames": 8,
+          "fps": 6,
+          "anchor": [
+            49.0,
+            97
+          ],
+          "bounds": [
+            27,
+            17,
+            71,
+            97
+          ],
+          "scale": 0.4875
+        }
+      },
+      "purpose": "替换原代码绘制人物；可行走、停步、送风，在长椅前结束散步。",
+      "emotion": "温暖的橘衣成为安静庭院里人的位置；选择没有武器的样例。",
+      "placement": "南径出生，玩家操作；样例只有 8 帧待机，移动为游戏位移，长椅为停留姿态，无独立走路或坐姿帧。",
+      "license": "SpriteCook sample license（保守遵循）",
+      "sourceUrl": "https://www.spritecook.ai/examples/pixel-art-characters",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "cat",
+      "title": "后来跟来的橘猫",
+      "pack": "characters",
+      "states": {
+        "idle": {
+          "file": "cat/idle_sheet.png",
+          "frameWidth": 86,
+          "frameHeight": 86,
+          "frames": 8,
+          "fps": 8,
+          "anchor": [
+            41.5,
+            85
+          ],
+          "bounds": [
+            3,
+            2,
+            80,
+            85
+          ],
+          "scale": 0.28916
+        },
+        "walk": {
+          "file": "cat/walk_sheet.png",
+          "frameWidth": 86,
+          "frameHeight": 86,
+          "frames": 8,
+          "fps": 8,
+          "anchor": [
+            43.0,
+            86
+          ],
+          "bounds": [
+            4,
+            21,
+            82,
+            86
+          ],
+          "scale": 0.28916
+        }
+      },
+      "purpose": "第一次浇水或第二声风铃后出现；自主散步、看花、晒太阳、在调整后的长椅边打盹，优先沿新小径行走，也会亲近和陪行。",
+      "emotion": "把完成进度变成有生命的陪伴，不添加战斗、饥饿或养成压力。",
+      "placement": "第一次浇水或第二处风铃后加入；过桥与避障共用庭院通行规则，位置和熟悉程度随庭院保存。",
+      "license": "SpriteCook sample license（保守遵循）",
+      "sourceUrl": "https://www.spritecook.ai/examples/pixel-art-characters",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "cottage",
+      "title": "蓝瓦归家小屋",
+      "pack": "buildings",
+      "states": {
+        "idle": {
+          "file": "cottage/building5.png",
+          "frameWidth": 300,
+          "frameHeight": 314,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            150.0,
+            314
+          ],
+          "bounds": [
+            0,
+            0,
+            300,
+            314
+          ],
+          "scale": 0.59873
+        }
+      },
+      "purpose": "第三处风铃地标，可按 R 进入本站绘制的小屋；桌灯与庭院窗光共同回应。",
+      "emotion": "体量克制的住宅与橘衣形成冷暖呼应，给归来一个明确落点。",
+      "placement": "庭院东北侧；外观来自原素材，内部与实时窗景由本站绘制。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/isometric-buildings",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "well",
+      "title": "石井",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "well/stone_well.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            127.5,
+            228
+          ],
+          "bounds": [
+            77,
+            28,
+            178,
+            228
+          ],
+          "scale": 0.21
+        }
+      },
+      "purpose": "井边可走近按 E 读一段生活小记。",
+      "emotion": "留住日常生活的痕迹，不变成必须完成的劳作。",
+      "placement": "橡树东侧的井边，避开第一处风铃与主路。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "barrel",
+      "title": "木桶",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "barrel/barrel.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            127.5,
+            228
+          ],
+          "bounds": [
+            47,
+            28,
+            208,
+            228
+          ],
+          "scale": 0.145
+        }
+      },
+      "purpose": "门边储物，与小屋构成生活角。",
+      "emotion": "让房屋像有人照料的住所。",
+      "placement": "小屋西南侧，靠近可阅读的门前生活角。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "crate",
+      "title": "完整木箱",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "crate/crate_intact.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            127.0,
+            228
+          ],
+          "bounds": [
+            43,
+            28,
+            211,
+            228
+          ],
+          "scale": 0.12
+        }
+      },
+      "purpose": "门旁收纳；作为可避让的实物。",
+      "emotion": "使用完整木箱，避免破损和战利品暗示。",
+      "placement": "小屋东侧，主路之外。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "pot",
+      "title": "陶盆",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "pot/pot.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            128.0,
+            228
+          ],
+          "bounds": [
+            45,
+            28,
+            211,
+            228
+          ],
+          "scale": 0.105
+        }
+      },
+      "purpose": "庭院两只可分别移动的陶盆，参与布置、碰撞和邻居来信；室内复用为书桌旁的小花器。",
+      "emotion": "朴素陶色与小径、木件相连。",
+      "placement": "初始一只在门前、一只在井旁；可预览落点并保存。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "bread",
+      "title": "圆面包",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "bread/bread.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            128.0,
+            208
+          ],
+          "bounds": [
+            28,
+            48,
+            228,
+            208
+          ],
+          "scale": 0.0625
+        }
+      },
+      "purpose": "放在长椅旁的小木台上，也复用在屋内书桌，组成留给归人的点心。",
+      "emotion": "用具体的小照料承接结尾，不计分也不强制收集。",
+      "placement": "随长椅与茶桌一起移动；可靠近按 E 看点心小记。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    },
+    {
+      "id": "apple",
+      "title": "红苹果",
+      "pack": "props",
+      "states": {
+        "idle": {
+          "file": "apple/apple.png",
+          "frameWidth": 256,
+          "frameHeight": 256,
+          "frames": 1,
+          "fps": 8,
+          "anchor": [
+            128.5,
+            228
+          ],
+          "bounds": [
+            39,
+            28,
+            218,
+            228
+          ],
+          "scale": 0.045
+        }
+      },
+      "purpose": "与面包共同标出歇息位置；屋内书桌也有一枚苹果。",
+      "emotion": "少量暖红作为生活细节，控制大小以免抢走自然的注意。",
+      "placement": "随长椅一起移动的小茶桌；屋内也复用。",
+      "license": "CC0 1.0",
+      "sourceUrl": "https://www.spritecook.ai/examples/game-asset-pack",
+      "adaptation": "保留原始 PNG；最近邻采样、落脚点与遮挡排序；绘制时轻降饱和。"
+    }
+  ],
+  "files": [
+    {
+      "file": "licenses/characters-LICENSE.txt",
+      "source": "spritecook-pixel-art-characters/LICENSE.txt",
+      "bytes": 905,
+      "sha256": "fd11fbe22b89ce9ec14c6a18446b149f4bb18b289a58c417fb95832e05996fbb"
+    },
+    {
+      "file": "licenses/buildings-LICENSE.txt",
+      "source": "spritecook-isometric-buildings/LICENSE.txt",
+      "bytes": 919,
+      "sha256": "117bc8e347662f0b2c1cd4925591166f927855296bdb97157d7c55555b0c76b0"
+    },
+    {
+      "file": "licenses/props-LICENSE.txt",
+      "source": "spritecook-game-asset-pack/LICENSE.txt",
+      "bytes": 775,
+      "sha256": "02b7cc6377ed18993190823dd4cbfc7a987bbc3f7f9c40e45e09862102efd5aa"
+    },
+    {
+      "file": "licenses/characters-sample-LICENSE.txt",
+      "source": "LICENSE.txt (ZIP root)",
+      "bytes": 580,
+      "sha256": "946d4161eb909d810c155da110d405907a2009b7788f26b550a2679e9078ea28"
+    },
+    {
+      "file": "traveler/idle_sheet.png",
+      "source": "spritecook-pixel-art-characters/happy-monk/idle_sheet.png",
+      "bytes": 9219,
+      "sha256": "ade6a53757120cac14e807109b5d8663df9c1aba0243e8c3b6237d05eefc2481",
+      "width": 784,
+      "height": 98
+    },
+    {
+      "file": "cat/idle_sheet.png",
+      "source": "spritecook-pixel-art-characters/ginger-cat/idle_sheet.png",
+      "bytes": 9525,
+      "sha256": "2644ca9fd94ab1ad347b838ebd4c6687e9783b105085c314db614dabaf3eb95f",
+      "width": 688,
+      "height": 86
+    },
+    {
+      "file": "cat/walk_sheet.png",
+      "source": "spritecook-pixel-art-characters/ginger-cat/walk_sheet.png",
+      "bytes": 14452,
+      "sha256": "7d03722429783d90894545661883782d5f1104e2a607217e2f7ffd0028d04c20",
+      "width": 688,
+      "height": 86
+    },
+    {
+      "file": "cottage/building5.png",
+      "source": "spritecook-isometric-buildings/building5.png",
+      "bytes": 159623,
+      "sha256": "5742faaf017abf8e419f4c616efa43d479dbf1146cd279b34664e231d9f92cb9",
+      "width": 300,
+      "height": 314
+    },
+    {
+      "file": "well/stone_well.png",
+      "source": "spritecook-game-asset-pack/stone_well.png",
+      "bytes": 40804,
+      "sha256": "bd7d071419fc8239ddac96b0c50fc2ac9df56c56f9d6e76018f676ee0bafeed1",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "barrel/barrel.png",
+      "source": "spritecook-game-asset-pack/barrel.png",
+      "bytes": 63570,
+      "sha256": "1f32e392baa65aaa6404326b19270a4c19337c49cc5b00200c49a3290cedcb39",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "crate/crate_intact.png",
+      "source": "spritecook-game-asset-pack/crate_intact.png",
+      "bytes": 62400,
+      "sha256": "598c92e1591758aa0e076c14d5120422306a4c2affa43b3ddb9866179c0fc737",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "pot/pot.png",
+      "source": "spritecook-game-asset-pack/pot.png",
+      "bytes": 48267,
+      "sha256": "193353fd0f7711d2a08a637801f0bd9d157544c06f292f257d42eda8f26c1bf5",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "bread/bread.png",
+      "source": "spritecook-game-asset-pack/bread.png",
+      "bytes": 54365,
+      "sha256": "ac35e3848f7dbe92729a2a2c2b34a1e1a94cb5b94c9f4707c25dda5ba1286693",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "file": "apple/apple.png",
+      "source": "spritecook-game-asset-pack/apple.png",
+      "bytes": 50426,
+      "sha256": "a05f7081b8478e50e46270f0eb10b8fb97309edc7519bb1772d973dd06fb86d0",
+      "width": 256,
+      "height": 256
+    }
+  ]
+}

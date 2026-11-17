@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-17",
+  "size": [
+    2400,
+    1800
+  ],
+  "method": "Original code-native SVG + Pillow PNG, no image-generation service",
+  "script": "scripts/render_understanding_overview.py",
+  "scope": "Current prototype / target design / value hypotheses are explicitly separated",
+  "artwork": "Original typography, shapes and relationship symbols; no third-party artwork embedded",
+  "fonts": "System Microsoft YaHei and SimSun; SVG keeps editable text with font fallback; no font files embedded",
+  "files": [
+    {
+      "path": "assets/understanding-overview-v1.svg",
+      "sha256": "6b96ea01a5eeb06185aca9872f74a381188f0a31ad00af5e68b7dace23caa47d"
+    },
+    {
+      "path": "assets/understanding-overview-v1.png",
+      "sha256": "d42905c8b9847bac683dbe54a7ab538d3a2b9cf7d5aefcd0f2b75a32417e0d76"
+    }
+  ]
+}

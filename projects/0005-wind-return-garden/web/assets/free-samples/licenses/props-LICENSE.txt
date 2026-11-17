@@ -1,0 +1,21 @@
+SpriteCook - Game Asset Pack sample
+===================================
+
+These assets are released under Creative Commons Zero (CC0 1.0).
+You can copy, modify, and use them in commercial and non-commercial
+projects, with no attribution required.
+
+Full text: https://creativecommons.org/publicdomain/zero/1.0/
+
+Made with SpriteCook - https://www.spritecook.ai
+
+Contents
+--------
+A 20-piece top-down roguelike dungeon prop pack in one matching
+style: treasure chest (closed and open), barrel, torch, torch
+stand, crate (intact and damaged), urn, pot, door (closed and
+open), stone well, sword, shield, slime, skeleton, bat, apple,
+bread, and meat. Each a transparent PNG.
+
+Open the pack maker at https://app.spritecook.ai/packs to generate
+your own set in any theme and style.
