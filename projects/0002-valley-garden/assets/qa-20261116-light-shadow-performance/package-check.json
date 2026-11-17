@@ -1,0 +1,29 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/dist/?inspect=1&fixed=1&time=20",
+  "state": {
+    "fps": "88 帧 / 秒",
+    "quality": "high",
+    "ready": "true"
+  },
+  "errors": [],
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"86 帧 / 秒\",\"renderMs\":4,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":433,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":2902}",
+      "timestamp": "2026-11-16T09:47:57.165Z",
+      "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"89 帧 / 秒\",\"renderMs\":5,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":496,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":3343}",
+      "timestamp": "2026-11-16T09:48:02.170Z",
+      "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"88 帧 / 秒\",\"renderMs\":6,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":559,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":3783}",
+      "timestamp": "2026-11-16T09:48:07.185Z",
+      "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+    }
+  ]
+}

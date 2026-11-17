@@ -1,0 +1,10 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/",
+  "state": {
+    "life": true,
+    "pasture": "true",
+    "ready": "true",
+    "waterButton": true
+  },
+  "errors": []
+}

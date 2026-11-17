@@ -1,0 +1,51 @@
+{
+ "slug": "elderly-woman",
+ "triangles": 800000,
+ "texture_px": 4096,
+ "triangles_light": 400000,
+ "texture_px_light": 1024,
+ "files": {
+  "glb": {
+   "name": "elderly-woman.glb",
+   "bytes": 29279820
+  },
+  "blend": {
+   "name": "elderly-woman.blend",
+   "bytes": 35649212
+  },
+  "fbx": {
+   "name": "elderly-woman.fbx",
+   "bytes": 50974556
+  },
+  "obj": {
+   "name": "elderly-woman-obj.zip",
+   "bytes": 22159071
+  },
+  "usdz": {
+   "name": "elderly-woman.usdz",
+   "bytes": 45496018
+  },
+  "glb_light": {
+   "name": "elderly-woman-light.glb",
+   "bytes": 12472376
+  },
+  "fbx_light": {
+   "name": "elderly-woman-light.fbx",
+   "bytes": 24632636
+  }
+ },
+ "extras": {
+  "license": "CC0-1.0",
+  "source": "grab3d.com",
+  "dimensions_m": "0.942 x 0.320 x 1.600",
+  "triangles": 800000,
+  "variant": "download",
+  "generator": "Created by grab3d",
+  "created": "2026-10-29"
+ },
+ "origin": {
+  "method": "ai-assisted",
+  "detail": "Base mesh and textures generated with an AI image-to-3D tool (Meshy), then cleaned up, scaled, textured and checked in Blender.",
+  "ai_content": true
+ }
+}

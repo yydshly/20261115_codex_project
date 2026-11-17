@@ -1,0 +1,43 @@
+{
+  "license": "CC0-1.0",
+  "source": "Grab3D",
+  "retrieved": "2026-11-16",
+  "files": [
+    {
+      "path": "gardener.glb",
+      "url": "https://grab3d.com/dl/elderly-woman-rigged/elderly-woman-rigged.glb",
+      "bytes": 14346976,
+      "sha256": "62345960beb594398aaaf2cb970076e88796fd39da00eb8de92b98965e6e7843"
+    },
+    {
+      "path": "gardener-LICENSE.txt",
+      "url": "https://grab3d.com/dl/elderly-woman/LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27"
+    },
+    {
+      "path": "gardener-source-manifest.json",
+      "url": "https://grab3d.com/dl/elderly-woman/manifest.json",
+      "bytes": 1136,
+      "sha256": "e2ec42ee7543ad4a0f27f45c1c223a25dce2ecdb3f01055fccdf87155869d95f"
+    },
+    {
+      "path": "cow.glb",
+      "url": "https://grab3d.com/dl/cow/cow-light.glb",
+      "bytes": 6057552,
+      "sha256": "8108a8273eb4624ce48fae3c9d0bc94544df40ad46546f33c5a0a02f0e834675"
+    },
+    {
+      "path": "cow-LICENSE.txt",
+      "url": "https://grab3d.com/dl/cow/LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27"
+    },
+    {
+      "path": "cow-source-manifest.json",
+      "url": "https://grab3d.com/dl/cow/manifest.json",
+      "bytes": 1055,
+      "sha256": "b6b65339b067d19c8b16dd5a21ef0f4232a7f5252ce0411c7ab1ff607be690c1"
+    }
+  ]
+}

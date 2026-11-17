@@ -1,0 +1,22 @@
+{
+  "suite": "npm run check",
+  "exitCode": 0,
+  "build": "npm run build",
+  "buildExitCode": 0,
+  "runtimeScripts": 34,
+  "sourceAndPackageMatch": true,
+  "preservedOriginalFiles": 27,
+  "existingModelFiles": 146,
+  "gltfDependencies": 169,
+  "snapshotRootFiles": 46,
+  "grazingStopsPerCow": 6,
+  "wanderRadiusMetres": 4.6,
+  "walkingSpeedMetresPerSecond": 0.42,
+  "flatGroundGaitFixture": {
+    "walkFrames": 539,
+    "minSoleMetres": 0.003229124317912909,
+    "maxHoofLiftMetres": 0.12494650918901273,
+    "maxPlantedHoofFrameStepMetres": 7.692307692578094e-05
+  },
+  "browserVerification": "partial; final shallow-water view and complete walking/grazing visual check remain pending because built-in browser control became unavailable"
+}

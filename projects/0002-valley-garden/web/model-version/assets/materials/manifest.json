@@ -1,0 +1,83 @@
+[
+  {
+    "asset": "roof_slates_02",
+    "license": "CC0-1.0",
+    "path": "roof-color.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_diff_2k.jpg",
+    "bytes": 1838933,
+    "md5": "2bd2c8593d8cbaea04878203be4bc7ad",
+    "sha256": "5be7e739997e9f5560b07ee42f335d7ad70213359d48cbffc9c04ad129e9a2c4"
+  },
+  {
+    "asset": "roof_slates_02",
+    "license": "CC0-1.0",
+    "path": "roof-normal.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_nor_gl_2k.jpg",
+    "bytes": 2919261,
+    "md5": "1256041f95f300753b867934324c7b91",
+    "sha256": "4ff2618aa5f2eac52f728b8b4f7e715d87c410719effc66eb6f528378ef9f49e"
+  },
+  {
+    "asset": "roof_slates_02",
+    "license": "CC0-1.0",
+    "path": "roof-roughness.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/roof_slates_02/roof_slates_02_rough_2k.jpg",
+    "bytes": 1126001,
+    "md5": "925f6de5f84f351c8d061086a278c005",
+    "sha256": "641b51370745e7e990c93542716bf46219e7415808a4cea999bb3f0683ec01bf"
+  },
+  {
+    "asset": "white_plaster_02",
+    "license": "CC0-1.0",
+    "path": "plaster-color.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_diff_2k.jpg",
+    "bytes": 2568315,
+    "md5": "35f9c96c16aa0d934da7884b232f6d07",
+    "sha256": "0ca5245ba70777d3e41ff4566c9f8d363855461891802c55cb7dc0f6f85f084e"
+  },
+  {
+    "asset": "white_plaster_02",
+    "license": "CC0-1.0",
+    "path": "plaster-normal.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_nor_gl_2k.jpg",
+    "bytes": 3379814,
+    "md5": "a9fa643c4a200686ad89598b545b2adc",
+    "sha256": "083579b03a8f31ec1886512e5972f3b893610bf26a2098f97910e0f46745cdc9"
+  },
+  {
+    "asset": "white_plaster_02",
+    "license": "CC0-1.0",
+    "path": "plaster-roughness.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/white_plaster_02/white_plaster_02_rough_2k.jpg",
+    "bytes": 1604444,
+    "md5": "47f989e9fd3e69e667244ff4b9f406f8",
+    "sha256": "a3dc1911f6e25d88fdb0031fe0cfb602eec5496084c508774c60691bed087417"
+  },
+  {
+    "asset": "red_brick_03",
+    "license": "CC0-1.0",
+    "path": "brick-color.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_diff_2k.jpg",
+    "bytes": 2969950,
+    "md5": "df521ebe6c4eb72c3329832acfecd95d",
+    "sha256": "c37ef11bb94a533d1c758c5c7d7199264e90f19b23946766c7c59aa189c11ff6"
+  },
+  {
+    "asset": "red_brick_03",
+    "license": "CC0-1.0",
+    "path": "brick-normal.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_nor_gl_2k.jpg",
+    "bytes": 3684630,
+    "md5": "fd2d01b5e0f4de51ca4d7c2b4bcbc22c",
+    "sha256": "3bcb8714c450369915a9608a9e5318433a5e5df932184519bdbfd993dec16a9f"
+  },
+  {
+    "asset": "red_brick_03",
+    "license": "CC0-1.0",
+    "path": "brick-roughness.jpg",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/red_brick_03/red_brick_03_rough_2k.jpg",
+    "bytes": 1329161,
+    "md5": "18815a721bf7cb485955359204484608",
+    "sha256": "54cbcc8acdbdfbc0a38407509ef72058ef5847b5713e689fa37ce9cc504c41c1"
+  }
+]

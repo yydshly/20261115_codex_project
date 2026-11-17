@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/",
+  "state": {
+    "canvas": {
+      "cssHeight": 871.3333740234375,
+      "cssWidth": 692,
+      "height": 1307,
+      "width": 1038
+    },
+    "fps": "1 帧 / 秒",
+    "life": true,
+    "quality": "high",
+    "ready": "true"
+  },
+  "errors": []
+}

@@ -1,0 +1,62 @@
+{
+  "canvas": {
+    "cssHeight": 720,
+    "cssWidth": 1280,
+    "height": 720,
+    "width": 1280
+  },
+  "fps": "71 帧 / 秒",
+  "quality": "high",
+  "ready": "true",
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"70 帧 / 秒\",\"renderMs\":12,\"draws\":494,\"triangles\":21691858,\"reflectionCaptures\":483,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0012739488613523683,\"correction\":-0.016301066619340616,\"target\":-0.016075015480692983},\"characterCaptures\":2296}",
+      "timestamp": "2026-11-16T10:44:48.821Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"68 帧 / 秒\",\"renderMs\":10,\"draws\":651,\"triangles\":31443012,\"reflectionCaptures\":546,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.001287344059145927,\"correction\":-0.014127174439689145,\"target\":-0.013914518498835073},\"characterCaptures\":2649}",
+      "timestamp": "2026-11-16T10:44:53.822Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"63 帧 / 秒\",\"renderMs\":33,\"draws\":651,\"triangles\":31443012,\"reflectionCaptures\":607,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0008462483163582182,\"correction\":-0.02242975280157896,\"target\":-0.021776001117937177},\"characterCaptures\":2999}",
+      "timestamp": "2026-11-16T10:44:58.857Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"52 帧 / 秒\",\"renderMs\":14,\"draws\":494,\"triangles\":21691858,\"reflectionCaptures\":665,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0022151610813695086,\"correction\":-0.015638046207587693,\"target\":-0.0163532072889572},\"characterCaptures\":3231}",
+      "timestamp": "2026-11-16T10:45:03.843Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"78 帧 / 秒\",\"renderMs\":7,\"draws\":494,\"triangles\":21691858,\"reflectionCaptures\":727,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.003528443682463897,\"correction\":-0.012254225785611347,\"target\":-0.014282669468075245},\"characterCaptures\":3611}",
+      "timestamp": "2026-11-16T10:45:08.832Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"80 帧 / 秒\",\"renderMs\":11,\"draws\":651,\"triangles\":31443012,\"reflectionCaptures\":790,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0015909726814039432,\"correction\":-0.012836252125888584,\"target\":-0.012927224807292527},\"characterCaptures\":3972}",
+      "timestamp": "2026-11-16T10:45:13.858Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"57 帧 / 秒\",\"renderMs\":11,\"draws\":494,\"triangles\":21691858,\"reflectionCaptures\":849,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.001149298091807584,\"correction\":-0.01461303328171931,\"target\":-0.014262331373526895},\"characterCaptures\":4238}",
+      "timestamp": "2026-11-16T10:45:18.872Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"73 帧 / 秒\",\"renderMs\":8,\"draws\":494,\"triangles\":21691858,\"reflectionCaptures\":911,\"treeLods\":[3,22,229,400],\"canopyFamilies\":[270,110,129,145],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.001375291895725504,\"correction\":-0.005451338684661485,\"target\":-0.005326630580386989},\"characterCaptures\":4631}",
+      "timestamp": "2026-11-16T10:45:23.875Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": []
+}

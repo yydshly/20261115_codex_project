@@ -1,0 +1,816 @@
+{
+  "schema_version": 1,
+  "retrieved_date": "2026-11-15",
+  "selection_note": "Two rock assets, one botanical shrub set and three complete young-pine tree variants. Heavy Jacaranda LOD0 was inspected but not downloaded.",
+  "assets": [
+    {
+      "id": "rock_07",
+      "name": "Rock 07",
+      "source_url": "https://polyhaven.com/a/rock_07",
+      "files_api": "https://api.polyhaven.com/files/rock_07",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Jenelle van Heerden": "All"
+      },
+      "upstream_polycount": 27830,
+      "upstream_dimensions_mm": [
+        169.10234838724136,
+        320.554181933403,
+        143.77418451476842
+      ],
+      "entrypoint": "rock_07/rock_07_1k.gltf",
+      "texture_resolution": "1k",
+      "files": [
+        {
+          "path": "rock_07/rock_07_1k.gltf",
+          "bytes": 2979,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rock_07/rock_07_1k.gltf",
+          "upstream_md5": "2bdb563c126a9d284e60e94951759e2f",
+          "sha256": "efcc2dcaa133ff8ad5c865dc2135772e8f5dbc83fa38db2ee2cf25382436b6e6"
+        },
+        {
+          "path": "rock_07/rock_07.bin",
+          "bytes": 468936,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_07/rock_07.bin",
+          "upstream_md5": "817b2cfd1626cb06f18a825f87f58ec3",
+          "sha256": "e4a532a6d6cf4a08c288f501b790f32cba0528136a29959ce774c3cd39369e7e"
+        },
+        {
+          "path": "rock_07/textures/rock_07_arm_1k.jpg",
+          "bytes": 309735,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_arm_1k.jpg",
+          "upstream_md5": "530bfd2a510fe6f778bb1198a2395574",
+          "sha256": "1ed76e9a8542c76bdc6b7b018720ae1f52cd75d9f5ae719f613de3f5032cf4da"
+        },
+        {
+          "path": "rock_07/textures/rock_07_diff_1k.jpg",
+          "bytes": 635452,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_diff_1k.jpg",
+          "upstream_md5": "b68ac1824bb3bd3867641b830ad02099",
+          "sha256": "8ff1965aa1664cc4abcc0131c44ee2b97ab14d6e131d7a51429ff261eeb101c8"
+        },
+        {
+          "path": "rock_07/textures/rock_07_nor_gl_1k.jpg",
+          "bytes": 766986,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_07/rock_07_nor_gl_1k.jpg",
+          "upstream_md5": "d3a2a0df0db0177c4df8ef644b003652",
+          "sha256": "57cb2210951aeb376164fce5f7c65f03e5599def04873b56cad0f173c275d78d"
+        }
+      ],
+      "inspection": {
+        "triangle_count_default_scene": 14844,
+        "bounds_m": {
+          "min": [
+            -0.0875801146030426,
+            -0.00190715491771698,
+            -0.17797498404979706
+          ],
+          "max": [
+            0.08130179345607758,
+            0.1418129950761795,
+            0.14230197668075562
+          ],
+          "size": [
+            0.16888190805912018,
+            0.14372014999389648,
+            0.3202769607305527
+          ]
+        },
+        "parts": [
+          {
+            "node_index": 0,
+            "node_name": "rock_07",
+            "mesh_name": "realCap_Model_3",
+            "triangles": 14844,
+            "bounds": {
+              "min": [
+                -0.0875801146030426,
+                -0.00190715491771698,
+                -0.17797498404979706
+              ],
+              "max": [
+                0.08130179345607758,
+                0.1418129950761795,
+                0.14230197668075562
+              ],
+              "size": [
+                0.16888190805912018,
+                0.14372014999389648,
+                0.3202769607305527
+              ]
+            }
+          }
+        ],
+        "extensions_used": [],
+        "extensions_required": [],
+        "decoder_requirements": "No geometry/texture decoder; Three.js GLTFLoader built-in material extensions handle KHR_materials_specular and KHR_materials_ior if present",
+        "materials": [
+          {
+            "name": "rock_07",
+            "alphaMode": "OPAQUE",
+            "doubleSided": true
+          }
+        ],
+        "external_dependencies_checked": 4,
+        "total_bytes": 2184088
+      }
+    },
+    {
+      "id": "rock_moss_set_01",
+      "name": "Rock Moss Set 01",
+      "source_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "files_api": "https://api.polyhaven.com/files/rock_moss_set_01",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Kless Gyzen": "All"
+      },
+      "upstream_polycount": 63127,
+      "upstream_dimensions_mm": [
+        8004.603862762451,
+        6948.764801025391,
+        1768.319845199585
+      ],
+      "entrypoint": "rock_moss_set_01/rock_moss_set_01_1k.gltf",
+      "texture_resolution": "1k",
+      "files": [
+        {
+          "path": "rock_moss_set_01/rock_moss_set_01_1k.gltf",
+          "bytes": 9987,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/rock_moss_set_01/rock_moss_set_01_1k.gltf",
+          "upstream_md5": "75113cc1c21806cca5d8badad4737af7",
+          "sha256": "c36675aca9c6b2be7785c2534cf413b03ec82a5a2a5407a2b1c0cdb0346c9727"
+        },
+        {
+          "path": "rock_moss_set_01/textures/rock_moss_set_01_nor_gl_1k.jpg",
+          "bytes": 209975,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_nor_gl_1k.jpg",
+          "upstream_md5": "eb7ebd31ad08e78d0497900652ff1568",
+          "sha256": "eb4aad3f207f1dc5b624d74ae240372171626a66912bd71adf7bd3e518181d6e"
+        },
+        {
+          "path": "rock_moss_set_01/rock_moss_set_01.bin",
+          "bytes": 1466380,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/rock_moss_set_01/rock_moss_set_01.bin",
+          "upstream_md5": "207a51c9f56d34732e9814bbf9cc07b1",
+          "sha256": "de8360e6175879aaf02c171911069cf5f1852547f9ca7f10e440085dbcc3315e"
+        },
+        {
+          "path": "rock_moss_set_01/textures/rock_moss_set_01_rough_1k.jpg",
+          "bytes": 82624,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_rough_1k.jpg",
+          "upstream_md5": "ed9d8a2c863262f76f881346e8047c6a",
+          "sha256": "4d6ec46623abd8e2cdb855f59c7ce31873ad61b36b60e4de579e9e776a497c6b"
+        },
+        {
+          "path": "rock_moss_set_01/textures/rock_moss_set_01_diff_1k.jpg",
+          "bytes": 168099,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_diff_1k.jpg",
+          "upstream_md5": "b8742301e6b4bc5683d2de712e83f772",
+          "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc"
+        }
+      ],
+      "inspection": {
+        "triangle_count_default_scene": 63127,
+        "bounds_m": {
+          "min": [
+            -3.9140208959579468,
+            -0.6609705686569214,
+            -3.823821544647217
+          ],
+          "max": [
+            4.090582966804504,
+            1.1073492765426636,
+            3.1249431371688843
+          ],
+          "size": [
+            8.004603862762451,
+            1.768319845199585,
+            6.948764681816101
+          ]
+        },
+        "parts": [
+          {
+            "node_index": 0,
+            "node_name": "rock_moss_set_01_rock01",
+            "mesh_name": "modelShape.005",
+            "triangles": 11000,
+            "bounds": {
+              "min": [
+                -3.9140208959579468,
+                -0.6565686464309692,
+                -3.823821544647217
+              ],
+              "max": [
+                -1.6763887405395508,
+                0.8161294460296631,
+                -0.45501720905303955
+              ],
+              "size": [
+                2.237632155418396,
+                1.4726980924606323,
+                3.3688043355941772
+              ]
+            }
+          },
+          {
+            "node_index": 1,
+            "node_name": "rock_moss_set_01_rock02",
+            "mesh_name": "modelShape.002",
+            "triangles": 10996,
+            "bounds": {
+              "min": [
+                -1.2730549573898315,
+                -0.4656194746494293,
+                -3.767195701599121
+              ],
+              "max": [
+                1.3823258876800537,
+                0.7963716983795166,
+                -0.5034753084182739
+              ],
+              "size": [
+                2.6553808450698853,
+                1.261991173028946,
+                3.263720393180847
+              ]
+            }
+          },
+          {
+            "node_index": 2,
+            "node_name": "rock_moss_set_01_rock03",
+            "mesh_name": "modelShape",
+            "triangles": 5000,
+            "bounds": {
+              "min": [
+                1.9820003509521484,
+                -0.4108721911907196,
+                -3.146401047706604
+              ],
+              "max": [
+                4.090582966804504,
+                0.6888222694396973,
+                -1.0668153762817383
+              ],
+              "size": [
+                2.108582615852356,
+                1.0996944606304169,
+                2.0795856714248657
+              ]
+            }
+          },
+          {
+            "node_index": 3,
+            "node_name": "rock_moss_set_01_rock04",
+            "mesh_name": "medium.001",
+            "triangles": 10589,
+            "bounds": {
+              "min": [
+                -3.650278866291046,
+                -0.6609705686569214,
+                0.6897996664047241
+              ],
+              "max": [
+                -1.5226495265960693,
+                1.1073492765426636,
+                2.654541015625
+              ],
+              "size": [
+                2.127629339694977,
+                1.768319845199585,
+                1.9647413492202759
+              ]
+            }
+          },
+          {
+            "node_index": 4,
+            "node_name": "rock_moss_set_01_rock05",
+            "mesh_name": "modelShape.003",
+            "triangles": 16548,
+            "bounds": {
+              "min": [
+                -0.7106676399707794,
+                -0.5725544691085815,
+                0.12627935409545898
+              ],
+              "max": [
+                1.1066551506519318,
+                0.6328962445259094,
+                3.1249431371688843
+              ],
+              "size": [
+                1.8173227906227112,
+                1.205450713634491,
+                2.9986637830734253
+              ]
+            }
+          },
+          {
+            "node_index": 5,
+            "node_name": "rock_moss_set_01_rock06",
+            "mesh_name": "mesh1-geometry.003",
+            "triangles": 8994,
+            "bounds": {
+              "min": [
+                1.5992227792739868,
+                -0.5280566811561584,
+                0.09707248210906982
+              ],
+              "max": [
+                3.7252050042152405,
+                0.7337960004806519,
+                2.8543756008148193
+              ],
+              "size": [
+                2.1259822249412537,
+                1.2618526816368103,
+                2.7573031187057495
+              ]
+            }
+          }
+        ],
+        "extensions_used": [],
+        "extensions_required": [],
+        "decoder_requirements": "No geometry/texture decoder; Three.js GLTFLoader built-in material extensions handle KHR_materials_specular and KHR_materials_ior if present",
+        "materials": [
+          {
+            "name": "rock_moss_set_01",
+            "alphaMode": "OPAQUE",
+            "doubleSided": true
+          }
+        ],
+        "external_dependencies_checked": 4,
+        "total_bytes": 1937065
+      }
+    },
+    {
+      "id": "shrub_03",
+      "name": "Shrub 03",
+      "source_url": "https://polyhaven.com/a/shrub_03",
+      "files_api": "https://api.polyhaven.com/files/shrub_03",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rico Cilliers": "All"
+      },
+      "upstream_polycount": 16955,
+      "upstream_dimensions_mm": [
+        1366.9319450855255,
+        151.20302885770798,
+        402.78380597010255
+      ],
+      "entrypoint": "shrub_03/shrub_03_1k.gltf",
+      "texture_resolution": "1k",
+      "files": [
+        {
+          "path": "shrub_03/shrub_03_1k.gltf",
+          "bytes": 7296,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/shrub_03/shrub_03_1k.gltf",
+          "upstream_md5": "2c1ef10ff17e23f81d29c851d1409c9a",
+          "sha256": "b76d7c14bc027e834e82d3f984c32b5d060e62908aa90ff9420a637ca253a8ea"
+        },
+        {
+          "path": "shrub_03/shrub_03.bin",
+          "bytes": 238684,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/shrub_03/shrub_03.bin",
+          "upstream_md5": "c26c6ed23b0034664eab5a0e3ee00f6a",
+          "sha256": "bf4df21e6d2a2bc5f00b4c9142f776171fe7da00cf960001825748067af542b6"
+        },
+        {
+          "path": "shrub_03/textures/shrub_03_arm_1k.jpg",
+          "bytes": 396238,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_03/shrub_03_arm_1k.jpg",
+          "upstream_md5": "67faf4c5c213589b41a3bd18d378fa7d",
+          "sha256": "3e2b16812a623037138eedace958210c5f3443a827bbe69663045bba5612f815"
+        },
+        {
+          "path": "shrub_03/textures/shrub_03_diff_1k.jpg",
+          "bytes": 481841,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_03/shrub_03_diff_1k.jpg",
+          "upstream_md5": "5da9190b7c2837a9e209a3fe774dba3c",
+          "sha256": "3cadc7aba46d3aabbd7d6d2b1d04aa32e2a7da0bc87c2d38ef3cb1ee42cb03ec"
+        },
+        {
+          "path": "shrub_03/textures/shrub_03_nor_gl_1k.jpg",
+          "bytes": 504734,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_03/shrub_03_nor_gl_1k.jpg",
+          "upstream_md5": "38956b2171644cfefda2ef542e055100",
+          "sha256": "ff856bacfce859b8a7555dd9a3b92fbd36b2e775d486be71df485afb4235d6c9"
+        },
+        {
+          "path": "shrub_03/textures/shrub_03_alpha_1k.png",
+          "bytes": 79069,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/shrub_03/shrub_03_alpha_1k.png",
+          "upstream_md5": "57a2d0fd7ea02ebeb8de321652f9f58a",
+          "sha256": "daef00278879a024fd05216aaa1376067a5f25f1b911d08d9bbdc50fda4a0d66",
+          "role": "Official supplemental opacity texture, assigned at runtime; original glTF unchanged"
+        }
+      ],
+      "inspection": {
+        "triangle_count_default_scene": 8287,
+        "bounds_m": {
+          "min": [
+            -0.07354381680488586,
+            -0.0018257149495184422,
+            -0.07270558923482895
+          ],
+          "max": [
+            1.293375588953495,
+            0.4009580910205841,
+            0.07849743962287903
+          ],
+          "size": [
+            1.366919405758381,
+            0.40278380597010255,
+            0.15120302885770798
+          ]
+        },
+        "parts": [
+          {
+            "node_index": 0,
+            "node_name": "shrub_03_a",
+            "mesh_name": "Plane.002",
+            "triangles": 2385,
+            "bounds": {
+              "min": [
+                -0.07354381680488586,
+                -0.0018257149495184422,
+                -0.07270558923482895
+              ],
+              "max": [
+                0.1270800232887268,
+                0.4009580910205841,
+                0.07849743962287903
+              ],
+              "size": [
+                0.20062384009361267,
+                0.40278380597010255,
+                0.15120302885770798
+              ]
+            }
+          },
+          {
+            "node_index": 1,
+            "node_name": "shrub_03_b",
+            "mesh_name": "Plane.054",
+            "triangles": 2134,
+            "bounds": {
+              "min": [
+                0.36502252519130707,
+                -0.0008460530661977828,
+                -0.06211003288626671
+              ],
+              "max": [
+                0.5493256002664566,
+                0.35165777802467346,
+                0.060450129210948944
+              ],
+              "size": [
+                0.18430307507514954,
+                0.35250383109087124,
+                0.12256016209721565
+              ]
+            }
+          },
+          {
+            "node_index": 2,
+            "node_name": "shrub_03_c",
+            "mesh_name": "Plane.128",
+            "triangles": 1790,
+            "bounds": {
+              "min": [
+                0.8160840049386024,
+                -0.0008309875847771764,
+                -0.052744340151548386
+              ],
+              "max": [
+                0.9118971973657608,
+                0.30356380343437195,
+                0.060411497950553894
+              ],
+              "size": [
+                0.09581319242715836,
+                0.3043947910191491,
+                0.11315583810210228
+              ]
+            }
+          },
+          {
+            "node_index": 3,
+            "node_name": "shrub_03_d",
+            "mesh_name": "Plane.090",
+            "triangles": 1978,
+            "bounds": {
+              "min": [
+                1.1806031130254269,
+                -0.0009536516736261547,
+                -0.03508852794766426
+              ],
+              "max": [
+                1.293375588953495,
+                0.25459757447242737,
+                0.054190050810575485
+              ],
+              "size": [
+                0.11277247592806816,
+                0.2555512261460535,
+                0.08927857875823975
+              ]
+            }
+          }
+        ],
+        "extensions_used": [],
+        "extensions_required": [],
+        "decoder_requirements": "No geometry/texture decoder; Three.js GLTFLoader built-in material extensions handle KHR_materials_specular and KHR_materials_ior if present",
+        "materials": [
+          {
+            "name": "shrub_03",
+            "alphaMode": "MASK",
+            "doubleSided": true
+          }
+        ],
+        "external_dependencies_checked": 4,
+        "total_bytes": 1707862
+      },
+      "opacity_override": {
+        "material_name": "shrub_03",
+        "alpha_map": "./textures/shrub_03_alpha_1k.png",
+        "color_space": "THREE.NoColorSpace",
+        "flipY": false,
+        "alphaTest": 0.35,
+        "transparent": false,
+        "needsUpdate": true,
+        "channel": "green; white is opaque and black is transparent",
+        "inspection": {
+          "format": "PNG",
+          "source_mode": "I;16",
+          "width": 1024,
+          "height": 1024,
+          "source_channel_min": 0,
+          "source_channel_max": 65535,
+          "rgb_is_grayscale": true,
+          "green_channel_note": "Source is a single grayscale channel; browser PNG decoding replicates the grayscale value into R/G/B. Three.js alphaMap reads G. Use NoColorSpace, not sRGB.",
+          "fraction_passing_alpha_test_0_35": 0.25292396545410156,
+          "normalized_mean": 0.2509946837963198
+        }
+      }
+    },
+    {
+      "id": "pine_sapling_small",
+      "name": "Pine Sapling Small",
+      "source_url": "https://polyhaven.com/a/pine_sapling_small",
+      "files_api": "https://api.polyhaven.com/files/pine_sapling_small",
+      "license": "CC0-1.0",
+      "license_url": "https://polyhaven.com/license",
+      "authors": {
+        "Rob Tuytel": "photography",
+        "Rico Cilliers": "modeling"
+      },
+      "upstream_polycount": 398144,
+      "upstream_dimensions_mm": [
+        2642.0599818229675,
+        770.349532365799,
+        1298.9574084058404
+      ],
+      "entrypoint": "pine_sapling_small/pine_sapling_small_1k.gltf",
+      "texture_resolution": "1k",
+      "files": [
+        {
+          "path": "pine_sapling_small/pine_sapling_small_1k.gltf",
+          "bytes": 11442,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/pine_sapling_small/pine_sapling_small_1k.gltf",
+          "upstream_md5": "237a7672645631550ae571743aa9f55b",
+          "sha256": "f358c01926861dd082f32dba60f7c9fba232b585a985cf38c0d2229eecf4bc48"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_twig_arm_1k.jpg",
+          "bytes": 394056,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_twig_arm_1k.jpg",
+          "upstream_md5": "b5062030fc42ec7bd12eb3f052054104",
+          "sha256": "2eb0aa44124b5a4ae9401e00b23b3c916f4c3f421616ce1bb932f248fc061288"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_twig_diff_1k.jpg",
+          "bytes": 477942,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_twig_diff_1k.jpg",
+          "upstream_md5": "dacc918bb421968e9ccc1956d78a2dbe",
+          "sha256": "54af7d6fb664b5a38bcb118b557bc50e01e86ec54d6f1a573c3e32c649a53362"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_1k.jpg",
+          "bytes": 1016849,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_bark_nor_gl_1k.jpg",
+          "upstream_md5": "bb6e3a6eea777d992cef48fabfdc538c",
+          "sha256": "05c46455531781b6cf18cae0648cf627f60ee942adaa8bcbfd1592fc2506a9e0"
+        },
+        {
+          "path": "pine_sapling_small/pine_sapling_small.bin",
+          "bytes": 17771796,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/pine_sapling_small/pine_sapling_small.bin",
+          "upstream_md5": "76dd1802d8de128c812f2e124a258b35",
+          "sha256": "b4d2fc73d53f1d8717eb5ef9a2c66957d2a53152787e543aace88fcd6fca94ef"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_bark_diff_1k.jpg",
+          "bytes": 725265,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_bark_diff_1k.jpg",
+          "upstream_md5": "7d3a558ed614c7e75594c7be3bf80311",
+          "sha256": "5c76836b01c3536fa0e24207b67bf4f3315b53ebe2b4ecc6f08dfcf3f8d74929"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_bark_arm_1k.jpg",
+          "bytes": 801278,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_bark_arm_1k.jpg",
+          "upstream_md5": "21d1abd15e40951825a4f3da110b20ea",
+          "sha256": "336a4680cd571b6076b67afee2310b290b8900d9d126eb39ec1ae92e95be2ea9"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_1k.jpg",
+          "bytes": 692711,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/pine_sapling_small/pine_sapling_small_twig_nor_gl_1k.jpg",
+          "upstream_md5": "eebc5a81f8f6231d8e18ec4ad7292798",
+          "sha256": "76af87821d7ff00e25768d5d97a449394fe64a21ae55d099da7f5ed46d9098c8"
+        },
+        {
+          "path": "pine_sapling_small/textures/pine_sapling_small_twig_alpha_1k.png",
+          "bytes": 159896,
+          "source_url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/pine_sapling_small/pine_sapling_small_twig_alpha_1k.png",
+          "upstream_md5": "9890eccee0444fd263dad2133338583f",
+          "sha256": "b875969b9df9f9cbf56dca4e2809d8ed1916f5172f173b0389f050c834c5cbed",
+          "role": "Official supplemental opacity texture, assigned at runtime; original glTF unchanged"
+        }
+      ],
+      "inspection": {
+        "triangle_count_default_scene": 398144,
+        "bounds_m": {
+          "min": [
+            -0.36030644178390503,
+            -0.015484155155718327,
+            -0.3713758885860443
+          ],
+          "max": [
+            2.281753420829773,
+            1.283473253250122,
+            0.39897364377975464
+          ],
+          "size": [
+            2.642059862613678,
+            1.2989574084058404,
+            0.770349532365799
+          ]
+        },
+        "parts": [
+          {
+            "node_index": 0,
+            "node_name": "pine_sapling_small_b",
+            "mesh_name": "pine_sapling_small_b",
+            "triangles": 122235,
+            "bounds": {
+              "min": [
+                0.7347553074359894,
+                0.0009154988802038133,
+                -0.3313728868961334
+              ],
+              "max": [
+                1.2635165452957153,
+                1.0465238094329834,
+                0.39897364377975464
+              ],
+              "size": [
+                0.528761237859726,
+                1.0456083105527796,
+                0.7303465306758881
+              ]
+            }
+          },
+          {
+            "node_index": 1,
+            "node_name": "pine_sapling_small_a",
+            "mesh_name": "pine_sapling_small_a",
+            "triangles": 142506,
+            "bounds": {
+              "min": [
+                -0.36030644178390503,
+                -0.015484155155718327,
+                -0.3713758885860443
+              ],
+              "max": [
+                0.4273671805858612,
+                1.283473253250122,
+                0.3560454249382019
+              ],
+              "size": [
+                0.7876736223697662,
+                1.2989574084058404,
+                0.7274213135242462
+              ]
+            }
+          },
+          {
+            "node_index": 2,
+            "node_name": "pine_sapling_small_c",
+            "mesh_name": "pine_sapling_small_c",
+            "triangles": 133403,
+            "bounds": {
+              "min": [
+                1.7689675092697144,
+                0.000687308085616678,
+                -0.32069259881973267
+              ],
+              "max": [
+                2.281753420829773,
+                0.9620128870010376,
+                0.2592729330062866
+              ],
+              "size": [
+                0.5127859115600586,
+                0.9613255789154209,
+                0.5799655318260193
+              ]
+            }
+          }
+        ],
+        "extensions_used": [
+          "KHR_materials_specular",
+          "KHR_materials_ior"
+        ],
+        "extensions_required": [],
+        "decoder_requirements": "No geometry/texture decoder; Three.js GLTFLoader built-in material extensions handle KHR_materials_specular and KHR_materials_ior if present",
+        "materials": [
+          {
+            "name": "pine_sapling_small_bark",
+            "alphaMode": "OPAQUE",
+            "doubleSided": true
+          },
+          {
+            "name": "pine_sapling_small_twig",
+            "alphaMode": "MASK",
+            "doubleSided": true
+          }
+        ],
+        "external_dependencies_checked": 7,
+        "total_bytes": 22051235
+      },
+      "opacity_override": {
+        "material_name": "pine_sapling_small_twig",
+        "alpha_map": "./textures/pine_sapling_small_twig_alpha_1k.png",
+        "color_space": "THREE.NoColorSpace",
+        "flipY": false,
+        "alphaTest": 0.35,
+        "transparent": false,
+        "needsUpdate": true,
+        "channel": "green; white is opaque and black is transparent",
+        "inspection": {
+          "format": "PNG",
+          "source_mode": "I;16",
+          "width": 1024,
+          "height": 1024,
+          "source_channel_min": 0,
+          "source_channel_max": 65535,
+          "rgb_is_grayscale": true,
+          "green_channel_note": "Source is a single grayscale channel; browser PNG decoding replicates the grayscale value into R/G/B. Three.js alphaMap reads G. Use NoColorSpace, not sRGB.",
+          "fraction_passing_alpha_test_0_35": 0.7883596420288086,
+          "normalized_mean": 0.7853795153795528
+        }
+      }
+    }
+  ],
+  "total_asset_bytes": 27880250,
+  "tree_selection": {
+    "selected": "pine_sapling_small",
+    "jacaranda_metadata_only": {
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/jacaranda_tree/jacaranda_tree_1k.gltf",
+      "binary_bytes": 208307808,
+      "node_name": "jacaranda_tree_LOD0",
+      "default_scene_triangles": 3863832,
+      "primitive_triangles": [
+        1231286,
+        230112,
+        2402434
+      ],
+      "complete_lower_lod_present": false,
+      "middle_primitive_buffer_range_inclusive": [
+        55248568,
+        63350543
+      ],
+      "note": "Middle primitive is one structural part, not a complete tree. Large binary not downloaded."
+    },
+    "other_public_manifest_checks": [
+      {
+        "id": "fir_sapling",
+        "binary_bytes": 21677180
+      },
+      {
+        "id": "quiver_tree_02",
+        "binary_bytes": 2060604,
+        "note": "Desert succulent/aloe tree; excluded for valley scene style."
+      },
+      {
+        "id": "searsia_lucida",
+        "binary_bytes": 17913396,
+        "note": "Dry-region bush/tree; pine chosen as closer valley/forest fit."
+      }
+    ]
+  }
+}

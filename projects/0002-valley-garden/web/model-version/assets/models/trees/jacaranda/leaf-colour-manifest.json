@@ -1,0 +1,135 @@
+{
+  "source": "https://polyhaven.com/a/jacaranda_tree",
+  "license": "CC0-1.0",
+  "method": "Alpha-weighted BOX mipmaps in linear RGB; source files unchanged",
+  "levels": [
+    {
+      "width": 1024,
+      "height": 1024,
+      "offset": 0,
+      "bytes": 4194304,
+      "meanRGB": [
+        106.49,
+        116.39,
+        63.71
+      ]
+    },
+    {
+      "width": 512,
+      "height": 512,
+      "offset": 4194304,
+      "bytes": 1048576,
+      "meanRGB": [
+        106.28,
+        115.98,
+        63.99
+      ]
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "offset": 5242880,
+      "bytes": 262144,
+      "meanRGB": [
+        107.17,
+        116.77,
+        64.85
+      ]
+    },
+    {
+      "width": 128,
+      "height": 128,
+      "offset": 5505024,
+      "bytes": 65536,
+      "meanRGB": [
+        108.6,
+        118.12,
+        65.92
+      ]
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "offset": 5570560,
+      "bytes": 16384,
+      "meanRGB": [
+        109.91,
+        119.31,
+        66.78
+      ]
+    },
+    {
+      "width": 32,
+      "height": 32,
+      "offset": 5586944,
+      "bytes": 4096,
+      "meanRGB": [
+        111.34,
+        120.55,
+        67.49
+      ]
+    },
+    {
+      "width": 16,
+      "height": 16,
+      "offset": 5591040,
+      "bytes": 1024,
+      "meanRGB": [
+        112.71,
+        121.55,
+        68.37
+      ]
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "offset": 5592064,
+      "bytes": 256,
+      "meanRGB": [
+        112.73,
+        121.83,
+        67.97
+      ]
+    },
+    {
+      "width": 4,
+      "height": 4,
+      "offset": 5592320,
+      "bytes": 64,
+      "meanRGB": [
+        112.69,
+        120.81,
+        67.31
+      ]
+    },
+    {
+      "width": 2,
+      "height": 2,
+      "offset": 5592384,
+      "bytes": 16,
+      "meanRGB": [
+        110.75,
+        120.75,
+        67.25
+      ]
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "offset": 5592400,
+      "bytes": 4,
+      "meanRGB": [
+        111.0,
+        121.0,
+        67.0
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "textures/leaves-colour-mips.bin",
+      "bytes": 5592404,
+      "sha256": "8f9ee4e18ca1661a81b4c93acd8e09edc1f09424a7692ec4be95d759b962d5a1"
+    }
+  ]
+}

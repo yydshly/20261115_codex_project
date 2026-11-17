@@ -1,0 +1,259 @@
+{
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2673,
+      "sha256": "c4f978d6ac6f242278fcaad4e81eeeb6813e253d317c76c9f7dd15a11a32ef5d"
+    },
+    {
+      "path": "cattle-behavior.js",
+      "bytes": 7931,
+      "sha256": "68967bbcf556b6a4bcdfefb48704fcb19a8dc50eda2c656ec4f1605ce7d00afc"
+    },
+    {
+      "path": "cattle-gait.js",
+      "bytes": 5560,
+      "sha256": "0bbb510fad79b8516df38f9602c83ff52716f386558ab3e3acf5f705a281a73e"
+    },
+    {
+      "path": "cattle-mouth.js",
+      "bytes": 3936,
+      "sha256": "ae801f7349625b01d8939e4fb32fd5ca4b30af7373501b03ad06c2f3c4333f08"
+    },
+    {
+      "path": "cattle-roaming.js",
+      "bytes": 3851,
+      "sha256": "75cdae1d8f6bfe705c12d3b6da5153a50071cb78f4311f8fdc9cea13e30b873f"
+    },
+    {
+      "path": "character-shadows.js",
+      "bytes": 9604,
+      "sha256": "2d781a668b7295586543a23e14d166c606fb1e1f3bbd346f525a76f5647e569a"
+    },
+    {
+      "path": "contact-shadows.js",
+      "bytes": 5911,
+      "sha256": "73124e8d48b430351198d3dc57bb7adbbbf3329e3611267b98e2d311761043ca"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "courtyard-path.js",
+      "bytes": 7129,
+      "sha256": "02b56d32f26ce86e405c6c0b1e13c3ea4bc2118286880796d3689d76ea977ba1"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 4555,
+      "sha256": "92d31b96e6bab60c8ff3a4ef80a983c2fa83048bb4877ceb67173ea1b03318eb"
+    },
+    {
+      "path": "fine-grass.js",
+      "bytes": 7098,
+      "sha256": "a84b419c074ce0a4af5fdbed2f7dd8394e7c72a6e15d4c32ea048773bc9007e7"
+    },
+    {
+      "path": "foot-grounding.js",
+      "bytes": 3184,
+      "sha256": "53d09f27d3c27ee4aebe176fe3e38f9a9f80fcae0af09935afd4ee5e37123968"
+    },
+    {
+      "path": "glass-budget.js",
+      "bytes": 3063,
+      "sha256": "044d190b7860e86a59abc007a69299bdeb0cdc9916e447bc445d865d932f5f00"
+    },
+    {
+      "path": "ground.js",
+      "bytes": 15513,
+      "sha256": "a3a91e7128f4c51057ece810688747dab3c3bdd2daec53625e69f518aafe61f5"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7359,
+      "sha256": "323fc653b0ab36f5dc5d1120b279524fdf1d674baa43315420e65ce9cc28c2ab"
+    },
+    {
+      "path": "interior.js",
+      "bytes": 10789,
+      "sha256": "6e5c52b07f0b2199da193efc0a8dfba2a71a5965943db7f424ecdd529edc9efb"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 7858,
+      "sha256": "848c106a55b26a7230536167a6855d941f67fa5f788797b300983a6ec9ec90a0"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "bytes": 3974,
+      "sha256": "5fe0f6506b3b52b418d0bd77782169b3726c3697b8195b8ca0b531b83bde0b6f"
+    },
+    {
+      "path": "main.js",
+      "bytes": 26347,
+      "sha256": "e319af29d848be73f0fe2e8df896e38b99359b87d213098545a4074ae7155683"
+    },
+    {
+      "path": "meadow-field.js",
+      "bytes": 691,
+      "sha256": "131edd3c7a40b7a448692142d8d7b9f8465d3753dc11cdcae2e91428846e4196"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 31440,
+      "sha256": "7ce7ac96022f5bbc94fdc40772b8746cbb9f878f02875f99ac087c8ea672797b"
+    },
+    {
+      "path": "motion-review.js",
+      "bytes": 2175,
+      "sha256": "39b83afaf4c6121d5b3abfe726a86ca6d24f52b934db560aa2d96732d3cb1925"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 3936,
+      "sha256": "f212deec62194264b0eab111b4471bfd9c2167a261369d10727702bda1f8e7a9"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 3493,
+      "sha256": "47842949900dad50b9dc2c0d2c63015fcd614692d2cac7f34ebe1bc338d25f6f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1613,
+      "sha256": "992cd981873b9dc270b9b39de97f176b7a63f6fc4aa6340f1a2908b9d05286ad"
+    },
+    {
+      "path": "path-layout.js",
+      "bytes": 1449,
+      "sha256": "7cdac9581498254b9cfbfd49fd50cff22372d1ad310271b6bd6e819e7807cfad"
+    },
+    {
+      "path": "planting-plan.js",
+      "bytes": 3662,
+      "sha256": "cd62ff2cbf7c52c35953fab77806695ba560f442b56c648bf2c3852bc3056abf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 30853,
+      "sha256": "b8f9eef90fe10bc17a5f784190e7c22e8b8e09db451839f617b85db5df4f453f"
+    },
+    {
+      "path": "reflection-budget.js",
+      "bytes": 2025,
+      "sha256": "685d77cb05924e123da064a5396bad4d41b1057a6c1d6cd46ee4be122e7b6aad"
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 68,
+      "sha256": "a1e1746369c9e86cb3f6aab3ce7716fbf3e1e76d2b33502a36ff7ced8aba94bf"
+    },
+    {
+      "path": "stream-flow.js",
+      "bytes": 2623,
+      "sha256": "54444833680d8fe615a7403d234e4d423dd2b395f7210fa761901886ff92b9c9"
+    },
+    {
+      "path": "stream-motion.js",
+      "bytes": 7048,
+      "sha256": "8a7ac89033aeb8d7a83456f29b942e54400d93433ce7c2c2154279d98f91f4e8"
+    },
+    {
+      "path": "stream-profile.js",
+      "bytes": 1337,
+      "sha256": "3b9d8d6913fef6738f47cfc340d28aceb33e1d13652be65f082ef382d8304732"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 12454,
+      "sha256": "8929bc36f6c7664c7e73264e6763198259f2884906bb60482ca7f96c36adc4e4"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8333,
+      "sha256": "72d7efe317273c0e597c4efa9ee9a4d790679e82a07d2e0ce68f4b52a7e0a4be"
+    },
+    {
+      "path": "surface-field.js",
+      "bytes": 1986,
+      "sha256": "cb7dcbdd3f20c56b3d05070a9d968349abeddd91ffba6b2c9346a0cef3849f18"
+    },
+    {
+      "path": "terrain.js",
+      "bytes": 5342,
+      "sha256": "0e7ddd63564645a6373721312c6ee686838bb503d310f0cf6ce4d4ac436ddd7d"
+    },
+    {
+      "path": "timber.js",
+      "bytes": 1087,
+      "sha256": "c5ab00040d30a746898007d3ae5ff15276fd755426d19d42930002ba5fe62b91"
+    },
+    {
+      "path": "valley-geology.js",
+      "bytes": 4014,
+      "sha256": "1ee3425fe384c86789e858e34eed5586cc902845aeb6abbf9b37172ad9aa0fc6"
+    },
+    {
+      "path": "valley-life.js",
+      "bytes": 9921,
+      "sha256": "b7a0dda591e63a48220825af334d0becc9f72907ebb21622d07ccac6c590a3a0"
+    },
+    {
+      "path": "valley-vegetation.js",
+      "bytes": 5193,
+      "sha256": "a7eeeaae4f3601b424dd2554deb0b28c6c2a5e77f8a5bd9493ff57eb25e8efb9"
+    },
+    {
+      "path": "valley-woodland.js",
+      "bytes": 6012,
+      "sha256": "c63bc5fb9a7524960f98ae236a5cf347504f87b39502b8b0a58b17d6b973f615"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 31138,
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-cattle-roaming.mjs",
+      "bytes": 5964,
+      "sha256": "09c655a30bab69cb653355172fd1c0ebf6393a71c078ad6691d83ee251c8f1ed"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 33317,
+      "sha256": "ba936e6fa9b168972efcce7a04fa0f0d02e4c8edf7ee5266690f91fec022273f"
+    },
+    {
+      "path": "verify-life-stability.mjs",
+      "bytes": 4610,
+      "sha256": "e7468977fb92b91bdc6c756db6c07907d1f1cd6cdde533476f4b929e22320f98"
+    },
+    {
+      "path": "verify-living-valley.mjs",
+      "bytes": 8037,
+      "sha256": "5b33156811432e6d37d095aa734c2bb3fa61476c12a9818c0214879e877702e7"
+    },
+    {
+      "path": "verify-render-budgets.mjs",
+      "bytes": 7772,
+      "sha256": "f6142a7541ca66ae92b0c4137fcfdfa052a3a9306119650cddad12dc0f9113bc"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7014,
+      "sha256": "b4d6156ffe80fb915f47a8c88ca39dd6d830080eda0d194adf5fe2c1152966ce"
+    },
+    {
+      "path": "woodland.js",
+      "bytes": 4401,
+      "sha256": "a66633e33105a26e1628e60b46ed0f6055165c644358a2b931a2dc9fd65b4ca7"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "fullCheckExitCode": 0,
+  "subsequentTargetedChecksExitCode": 0,
+  "buildExitCode": 0,
+  "runtimeScripts": 37,
+  "sourceAndPackageMatch": true,
+  "snapshotRootFilesVerified": 50,
+  "preservedOriginalFiles": 27,
+  "existingModelFiles": 146,
+  "gltfDependencies": 169,
+  "flatFixture": {
+    "mouthGapMinMetres": 0.0017743466112653263,
+    "mouthGapMaxMetres": 0.01564924708746704,
+    "maxJointStepDegrees30Hz": 9.147664989583046,
+    "minSoleMetres": 0.004928292483091181,
+    "maxPlantedHoofFrameStepMetres": 9.710485573708405e-16
+  },
+  "checks": [
+    "nostrils excluded from jaw skin",
+    "mouth seam below nasal pad",
+    "no stationary root translation or rotation",
+    "heading aligned to curved travel",
+    "world-space planted feet",
+    "lateral four-beat footfall sequence"
+  ],
+  "browserVisualVerification": "partial: actual in-app walking side view at t=18.65 and grazing side view at t=140.49 observed; shader error counter zero; full continuous cycle and mouth close-up remain unverified",
+  "browserScreenshot": "browser-grazing.png"
+}

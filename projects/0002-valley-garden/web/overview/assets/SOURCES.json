@@ -1,0 +1,35 @@
+{
+  "kind": "original project runtime screenshots",
+  "images": [
+    {
+      "file": "code-overview.jpg",
+      "edition": "code",
+      "source_entry": "/",
+      "capture_entry": "/overview/capture.html?edition=code",
+      "captured_on": "2026-11-17",
+      "capture": "本聊天内置浏览器实际运行画面；取景时隐藏界面，原场景源码不变",
+      "viewport": {
+        "width": 845,
+        "height": 560
+      },
+      "composition": "各版默认全景，非相机位置完全一致的基准对比",
+      "bytes": 79438,
+      "sha256": "9e66d311a4e99828d41857078f8e95b189b39469383950473d5130816be724c4"
+    },
+    {
+      "file": "models-overview.jpg",
+      "edition": "models",
+      "source_entry": "/model-version/",
+      "capture_entry": "/overview/capture.html?edition=models",
+      "captured_on": "2026-11-17",
+      "capture": "本聊天内置浏览器实际运行画面；取景时隐藏界面，原场景源码不变",
+      "viewport": {
+        "width": 845,
+        "height": 560
+      },
+      "composition": "各版默认全景，非相机位置完全一致的基准对比",
+      "bytes": 76016,
+      "sha256": "8990e5d666fb08ff93137014646591ed8080b6d46489c07f7fe5dac348257224"
+    }
+  ]
+}

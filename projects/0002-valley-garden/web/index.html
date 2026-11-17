@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#e7ede2">
+  <meta name="description" content="走进溪流、繁花与群山之间的一座白色小屋。一个可自由漫游的三维花园。">
+  <title>溪谷花园 · Whisper Valley</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23384d3d'/%3E%3Cpath d='M18 44Q19 16 47 17Q46 43 18 44M18 44L40 24' fill='none' stroke='%23e6ead9' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js","three/addons/":"./node_modules/three/examples/jsm/"}}</script>
+</head>
+<body>
+  <main id="experience" data-mode="overview" aria-label="溪谷花园三维漫游">
+    <canvas id="world" tabindex="0" aria-label="三维场景：拖动环顾；漫游模式中用 W A S D 或方向键行走"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="回到花园全景" id="brand-home">
+        <svg viewBox="0 0 36 36" aria-hidden="true"><path d="M8 28C8 12 17 6 29 7c0 14-8 22-21 21Zm0 0 14-14M13 22l-1-7m6 2 6 1"/></svg>
+        <span><strong>溪谷花园</strong><small>WHISPER VALLEY</small></span>
+      </a>
+      <div class="top-actions">
+        <button class="glass icon-button" id="sound" aria-label="开启溪流与鸟鸣" aria-pressed="false" title="环境声音">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Zm4 4c2 2 2 4 0 6m3-9c4 4 4 8 0 12"/></svg>
+        </button>
+        <button class="glass weather-button" id="light" aria-pressed="false" title="切换晨光与暮色"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></svg><span>晨光</span></button>
+        <button class="glass icon-button" id="settings-toggle" aria-label="打开漫游设置" aria-expanded="false" aria-controls="settings" title="设置">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2.5"/><circle cx="15" cy="17" r="2.5"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <section id="settings" class="glass settings" aria-label="漫游设置" hidden>
+      <div class="settings-title">让这里适合你<button id="settings-close" class="plain-button" aria-label="关闭设置">×</button></div>
+      <label class="setting-row" for="quality">画面品质<select id="quality"><option value="high">细腻</option><option value="low">流畅</option></select></label>
+      <label class="setting-row" for="sensitivity">环顾灵敏度<input id="sensitivity" type="range" min="0.5" max="2" step="0.1" value="1"></label>
+      <div class="setting-row"><span>当前画面</span><output id="performance">正在测量</output></div>
+      <p class="help">WASD / 方向键 行走<br>拖动鼠标 / 右侧触屏 环顾<br>Shift 快步 · 双击画面锁定鼠标<br>Esc 释放鼠标 · 空格暂停观景</p>
+      <a class="source" href="https://x.com/siradisidekor/status/2121702120852492788" target="_blank" rel="noopener noreferrer">氛围参考 ↗</a>
+    </section>
+
+    <div class="intro-copy" id="intro-copy">
+      <div class="eyebrow"><span></span>群山之间，自有一方天地</div>
+      <h1>溪谷，慢一点。</h1>
+      <p>沿着花径走走，听一会儿水声。</p>
+    </div>
+    <div id="crosshair" aria-hidden="true"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+
+    <nav class="dock glass" aria-label="场景与漫游控制">
+      <div class="view-buttons" role="group" aria-label="选择观景位置">
+        <button class="view-button active" data-view="overview" aria-label="花园全景" aria-pressed="true" title="花园全景"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 11 9-7 9 7M5 10v10h14V10M10 20v-6h4v6"/></svg><span>全景</span></button>
+        <button class="view-button" data-view="garden" aria-label="前往花园" aria-pressed="false" title="花园"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21V10m0 6c-6 0-8-3-8-6 5 0 8 2 8 6Zm0-3c0-5 3-8 8-8 0 5-3 8-8 8Z"/></svg><span>花园</span></button>
+        <button class="view-button" data-view="stream" aria-label="前往溪畔木桥" aria-pressed="false" title="溪畔"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7c3-4 5 4 9 0s6 4 9 0M3 12c3-4 5 4 9 0s6 4 9 0M3 17c3-4 5 4 9 0s6 4 9 0"/></svg><span>溪畔</span></button>
+      </div>
+      <span class="dock-separator" aria-hidden="true"></span>
+      <button id="enter" class="enter-button"><span>进入花园</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-5-5 5 5-5 5"/></svg></button>
+    </nav>
+    <footer class="bottom-meta"><span id="location"><i></i>花园全景</span><span id="control-hint">拖动环绕 · 滚轮拉近</span><span class="edition">一处可以回来的地方</span></footer>
+    <div id="touch-controls" aria-label="触屏行走" hidden>
+      <div class="direction-pad"><button data-move="forward" aria-label="向前">↑</button><button data-move="left" aria-label="向左">←</button><button data-move="back" aria-label="向后">↓</button><button data-move="right" aria-label="向右">→</button></div>
+    </div>
+    <div id="loading" role="status"><div class="loading-leaf">❧</div><p>山谷正在醒来</p><span id="loading-detail">铺好花径，等你到来…</span></div>
+    <div id="failure" role="alert" hidden><h1>山谷暂时没有展开</h1><p id="failure-detail"></p><button onclick="location.reload()">重新进入</button></div>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

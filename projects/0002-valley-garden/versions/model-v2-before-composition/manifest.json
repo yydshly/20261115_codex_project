@@ -1,0 +1,95 @@
+{
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2071,
+      "sha256": "6467b5023152b8df508d3bdcf3714a022a494ce16dfeb9fc7836ee843c401f6b"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 2278,
+      "sha256": "45459d0098d2265903e6308f15ed311948393186f5e9953326b48ad815a05676"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6613,
+      "sha256": "1a644443c51aa2918ac71b7772858227f878c50e7888a5de52dd25aa17b2fe1b"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 9579,
+      "sha256": "935c7a0ff143c6334c7b4cefb76fb0d48962fa2453e690c68188f2d35ca21255"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "main.js",
+      "bytes": 17492,
+      "sha256": "1e5eeb40425c34cfe999feb62f58bf01ef38f4f59fff8e8347e06cba3b70869a"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 12892,
+      "sha256": "3e41709b03ef6c58d50afe2d0cd96d5b4b329315cf616c215fdf3239b9f26e43"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 2687,
+      "sha256": "8ff18d4734c192aa7891fad0662e57847d8c2e4e70df1909aa9c85878b625c4c"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 2076,
+      "sha256": "3fd4c42ee8498eeb7c1273f3b68b15abeb68b3cd3db9f1ab60dabfa5126df180"
+    },
+    {
+      "path": "package.json",
+      "bytes": 536,
+      "sha256": "cdc15c8f3154ab95d401ede44ea39ebbc35901ce6391775aa47499d47d0cbc94"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6476,
+      "sha256": "8cc4c9351b568362960ebce760f509354baa135299d0f9b66a2fd4fbf08a39fe"
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 68,
+      "sha256": "a1e1746369c9e86cb3f6aab3ce7716fbf3e1e76d2b33502a36ff7ced8aba94bf"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 4457,
+      "sha256": "474bba7a52808f7519f7906f66ded6333aa346c006a152ac6487bc3e6ceeb9c8"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8259,
+      "sha256": "87676b722fce497ce68e92c2406120ed445727fe0beec71162aa39c52edc6cfd"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 30889,
+      "sha256": "bce7e919e7db354e91ebd4ac9913a2ad3daf2d3eb4047dcb5eab522b0acbbc7c"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 3466,
+      "sha256": "74c862f26df7fa936541640eb20e361da3bc98fa6bd2458fec4f2b13e4db4baa"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 3033,
+      "sha256": "526f8dbadbcae4171eefe8cf70c120f78175e3bb309967d12362202da5076acb"
+    }
+  ],
+  "note": "Source snapshot before restoring planted garden volume. All imported assets stay in web/model-version/assets unchanged."
+}

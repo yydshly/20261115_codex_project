@@ -1,0 +1,18 @@
+{
+  "status": "asset-unavailable",
+  "name": "Cow+motions",
+  "author": "Kapi777",
+  "source": "https://sketchfab.com/3d-models/cowmotions-cfacf56db7934b6cb7382fd1c3e428f1",
+  "license": "CC-BY-NC-4.0",
+  "declaredClips": [
+    "Eat",
+    "Idle_01",
+    "Idle_02_Chew",
+    "Walk"
+  ],
+  "file": null,
+  "verified": false,
+  "budget": "free-only",
+  "reason": "official-download-requires-unavailable-login",
+  "checkedOn": "2026-11-17"
+}

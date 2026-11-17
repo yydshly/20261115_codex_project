@@ -1,0 +1,13 @@
+{
+  "canvas": {
+    "cssHeight": 871,
+    "cssWidth": 798,
+    "height": 1307,
+    "width": 1197
+  },
+  "fps": "55 帧 / 秒",
+  "quality": "high",
+  "ready": "true",
+  "url": "http://127.0.0.1:4173/model-version/",
+  "errors": []
+}

@@ -1,0 +1,49 @@
+{
+  "source": "https://polyhaven.com/a/grass_medium_02",
+  "license": "CC0-1.0",
+  "tool": "meshoptimizer 1.3.0",
+  "variants": [
+    {
+      "mesh": "Plane.001",
+      "sourceTriangles": 714,
+      "triangles": 419,
+      "error": 0.0037683818954974413
+    },
+    {
+      "mesh": "Plane.002",
+      "sourceTriangles": 1760,
+      "triangles": 420,
+      "error": 0.010643955320119858
+    },
+    {
+      "mesh": "Plane.003",
+      "sourceTriangles": 1215,
+      "triangles": 420,
+      "error": 0.005139760673046112
+    },
+    {
+      "mesh": "Plane.004",
+      "sourceTriangles": 2489,
+      "triangles": 420,
+      "error": 0.010270202532410622
+    },
+    {
+      "mesh": "Plane.005",
+      "sourceTriangles": 1664,
+      "triangles": 420,
+      "error": 0.008041015826165676
+    }
+  ],
+  "files": [
+    {
+      "path": "model.gltf",
+      "bytes": 4934,
+      "sha256": "d6419cb1d6d6552d6b413387999258d96ea13dd5da46d8c3272eed3059fd2924"
+    },
+    {
+      "path": "grass-meadow.bin",
+      "bytes": 102660,
+      "sha256": "423c63d8effb20cf53b6fc91fa8f3bb6eee4a833fb086e5135bac3a87740b8cf"
+    }
+  ]
+}

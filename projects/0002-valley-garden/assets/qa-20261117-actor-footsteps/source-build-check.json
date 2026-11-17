@@ -1,0 +1,14 @@
+{
+  "changedBaselineFiles": [
+    "ambience.js",
+    "build.mjs",
+    "credits.html",
+    "foot-grounding.js",
+    "index.html",
+    "main.js",
+    "style.css",
+    "valley-life.js"
+  ],
+  "unchangedBaselineFiles": 54,
+  "buildMatchedFiles": 50
+}

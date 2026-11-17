@@ -1,0 +1,181 @@
+{
+  "source": "https://polyhaven.com/a/jacaranda_tree",
+  "license": "CC0-1.0",
+  "tool": "meshoptimizer 1.3.0 (MIT)",
+  "lods": [
+    {
+      "name": "near",
+      "parts": [
+        {
+          "material": "jacaranda_tree_branches",
+          "sourceTriangles": 1231286,
+          "triangles": 83214,
+          "error": 0.0009269152069464326
+        },
+        {
+          "material": "jacaranda_tree_trunk",
+          "sourceTriangles": 230112,
+          "triangles": 23180,
+          "error": 0.0010357595747336745
+        },
+        {
+          "material": "jacaranda_tree_leaves",
+          "sourceTriangles": 2402434,
+          "triangles": 160000,
+          "error": 0.002335474593564868
+        }
+      ],
+      "triangles": 266394,
+      "bytes": 19078488
+    },
+    {
+      "name": "far",
+      "parts": [
+        {
+          "material": "jacaranda_tree_branches",
+          "sourceTriangles": 1231286,
+          "triangles": 21383,
+          "error": 0.0028054111171513796
+        },
+        {
+          "material": "jacaranda_tree_trunk",
+          "sourceTriangles": 230112,
+          "triangles": 6238,
+          "error": 0.003554982366040349
+        },
+        {
+          "material": "jacaranda_tree_leaves",
+          "sourceTriangles": 2402434,
+          "triangles": 40000,
+          "error": 0.004143133759498596
+        }
+      ],
+      "triangles": 67621,
+      "bytes": 5609820
+    },
+    {
+      "name": "distant",
+      "parts": [
+        {
+          "material": "jacaranda_tree_branches",
+          "sourceTriangles": 1231286,
+          "triangles": 2281,
+          "error": 0.011239390820264816
+        },
+        {
+          "material": "jacaranda_tree_trunk",
+          "sourceTriangles": 230112,
+          "triangles": 1138,
+          "error": 0.01691645383834839
+        },
+        {
+          "material": "jacaranda_tree_leaves",
+          "sourceTriangles": 2402434,
+          "triangles": 6500,
+          "error": 0.0067639960907399654
+        }
+      ],
+      "triangles": 9919,
+      "bytes": 899400
+    }
+  ],
+  "files": [
+    {
+      "path": "tree-near.gltf",
+      "bytes": 5369,
+      "sha256": "d47ce9399d904aea73105b6fce6bc599bda2122f4621dc4aaf824195b1ee4fa7"
+    },
+    {
+      "path": "tree-near.bin",
+      "bytes": 19078488,
+      "sha256": "1b98095bdb1694cff5f475f50d8cdae2e6d4d9fbba921ca6383b257c967a3bea"
+    },
+    {
+      "path": "tree-far.gltf",
+      "bytes": 5350,
+      "sha256": "944bffdd37eed51d82553837e256df3b711de6fead098e7a0347de8f3599492c"
+    },
+    {
+      "path": "tree-far.bin",
+      "bytes": 5609820,
+      "sha256": "6d10ae772500bc189e533ab0d3184cc25e6ed65f669292d9dcfd234e39359402"
+    },
+    {
+      "path": "tree-distant.gltf",
+      "bytes": 5314,
+      "sha256": "ceea45cca9fa5e65e69df9dd915eae5f72a4a601844c0e234a4f59e8b1d37c11"
+    },
+    {
+      "path": "tree-distant.bin",
+      "bytes": 899400,
+      "sha256": "58a9b7b195059bce9ed45e9b05ae4e12cb71afb3aa14ec679404ffe629d7edcf"
+    },
+    {
+      "path": "textures/jacaranda_tree_branches_nor_gl_1k.jpg",
+      "bytes": 819101,
+      "sha256": "2d67393ba76a0f49cf965fa0c99d8c16268e71e87b1203d35539bfdb971a514e"
+    },
+    {
+      "path": "textures/jacaranda_tree_branches_diff_1k.jpg",
+      "bytes": 531544,
+      "sha256": "5a4fe735f0c346cec83b6b444a0169fc14d2b31bbb7b26e26b1b6c726b6e06f6"
+    },
+    {
+      "path": "textures/jacaranda_tree_branches_arm_1k.jpg",
+      "bytes": 484806,
+      "sha256": "9e3f82263247ce4f619692cea4c4f6fe9936ff465a86623481849062642c7d05"
+    },
+    {
+      "path": "textures/jacaranda_tree_trunk_nor_gl_1k.jpg",
+      "bytes": 1096100,
+      "sha256": "b2ad4e5daf8ec3fb87ba6c5f38e6a6924c9a6adebec20389f503e42da5d04587"
+    },
+    {
+      "path": "textures/jacaranda_tree_trunk_diff_1k.jpg",
+      "bytes": 896938,
+      "sha256": "e5582fba664a9255252d1ee8088f75ad557f07360aa7f4513f2b2f1577e90be9"
+    },
+    {
+      "path": "textures/jacaranda_tree_trunk_arm_1k.jpg",
+      "bytes": 895975,
+      "sha256": "4a12e238cf3b8ba860626e99bf128e56ab41642fa4c2502a77df41a338689b78"
+    },
+    {
+      "path": "textures/jacaranda_tree_leaves_nor_gl_1k.jpg",
+      "bytes": 700843,
+      "sha256": "61520be2529ffe8e3d93d4361892134833bb4657117e121749089769067914c1"
+    },
+    {
+      "path": "textures/jacaranda_tree_leaves_diff_1k.jpg",
+      "bytes": 533896,
+      "sha256": "6fe80c1f514ef690cccefb90b7e559fbd1aa9c8935fdc02523cc8ab83c22f7c2"
+    },
+    {
+      "path": "textures/jacaranda_tree_leaves_arm_1k.jpg",
+      "bytes": 332762,
+      "sha256": "577eab0a07279fb4afd24522e85e0f188058c88db4b35eb0b330005b0d745b7a"
+    },
+    {
+      "path": "textures/leaves_alpha_1k.png",
+      "bytes": 506043,
+      "sha256": "c708a7e928a2e4d26981b021a22deeefc0ebb0e467f60b53cfa636a7e24d68f7"
+    }
+  ],
+  "sourceBounds": {
+    "min": [
+      -12.92025089263916,
+      -0.146615132689476,
+      -9.953813552856445
+    ],
+    "max": [
+      11.496798515319824,
+      19.3222599029541,
+      9.200760841369629
+    ]
+  },
+  "origin": [
+    0.07476663589477539,
+    -0.146615132689476,
+    -0.3717079162597656
+  ]
+}

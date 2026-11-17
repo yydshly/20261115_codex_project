@@ -1,0 +1,19 @@
+{
+  "simulationFrames": 3200,
+  "stepSeconds": 0.016666666666666666,
+  "scope": "Actual GLB skeletal transforms at fixed 60 Hz, CPU only; not a GPU image measurement",
+  "before": {
+    "maxLimbStepDegrees": 50.08342351819914,
+    "event": {
+      "frame": 719,
+      "bone": "RightLeg"
+    }
+  },
+  "after": {
+    "maxLimbStepDegrees": 4.851601610712782,
+    "event": {
+      "frame": 2055,
+      "bone": "LeftLeg"
+    }
+  }
+}

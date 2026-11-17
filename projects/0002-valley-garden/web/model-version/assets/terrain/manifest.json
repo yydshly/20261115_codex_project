@@ -1,0 +1,35 @@
+{
+  "name": "Wilder Kaiser, Tyrol elevation excerpt",
+  "width": 256,
+  "height": 256,
+  "format": "little-endian float32, metres, north to south rows",
+  "tile": {
+    "z": 12,
+    "x": 2188,
+    "y": 1431
+  },
+  "bounds": {
+    "west": 12.3046875,
+    "east": 12.392578125,
+    "north": 47.57652571374621,
+    "south": 47.5172006978394
+  },
+  "min": 676.7265625,
+  "max": 2313.5859375,
+  "source": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2188/1431.png",
+  "attribution": "Mapzen; © offene Daten Österreichs – Digitales Geländemodell (DGM) Österreich; Copernicus / EU-DEM; USGS GMTED2010 and SRTM",
+  "retrieved": "2026-11-15",
+  "files": [
+    {
+      "path": "kaiser-terrarium.png",
+      "bytes": 136504,
+      "sha256": "fca9c9e8f149c5d712bc44ddb04032667cf424fb56a65f61b72421dd70eeff97"
+    },
+    {
+      "path": "kaiser-height.f32",
+      "bytes": 262144,
+      "sha256": "9a9a6ee47d2155e3825723a989105ea2e918fb5daa563c7caa9675ec7b184f2c"
+    }
+  ],
+  "license_note": "Source-specific terms, including CC BY 3.0 AT; see SOURCES.md and attribution-upstream.md"
+}

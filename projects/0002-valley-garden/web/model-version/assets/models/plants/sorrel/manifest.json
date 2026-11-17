@@ -1,0 +1,52 @@
+{
+  "source": "https://polyhaven.com/a/shrub_sorrel_01",
+  "authors": {
+    "Rico Cilliers": "All"
+  },
+  "license": "CC0-1.0",
+  "retrieved": "2026-11-16",
+  "files": [
+    {
+      "path": "model.gltf",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/shrub_sorrel_01/shrub_sorrel_01_1k.gltf",
+      "bytes": 17428,
+      "md5": "d56d50a8492bd7d7c7a0a571f42239c6",
+      "sha256": "97e2c9b564610a1077de9e15de07acbf19f2e66619016aeebb7987e191ad3ce1"
+    },
+    {
+      "path": "textures/shrub_sorrel_01_nor_gl_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_sorrel_01/shrub_sorrel_01_nor_gl_1k.jpg",
+      "bytes": 470891,
+      "md5": "71c6c432b91a8d64f2c480366fd61dfb",
+      "sha256": "0bb2e2aba7831a4e642ad6b1985ad82b0a574930ec6982f9a1a66ad8b41a94b3"
+    },
+    {
+      "path": "shrub_sorrel_01.bin",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/shrub_sorrel_01/shrub_sorrel_01.bin",
+      "bytes": 110936,
+      "md5": "5b6481fc43f4dc36ab4e80d79a19119f",
+      "sha256": "725f46bf6d330486bf22d4b897fa1d8ef01cdc77a72f1400a3939f86740b4e5d"
+    },
+    {
+      "path": "textures/shrub_sorrel_01_arm_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_sorrel_01/shrub_sorrel_01_arm_1k.jpg",
+      "bytes": 201949,
+      "md5": "6230445a48867ef8196ee1ab052d346d",
+      "sha256": "a1b49322e2b0ea988336fca959145dbb53b483b8f9ff2ec5f23dda20c486bdb8"
+    },
+    {
+      "path": "textures/shrub_sorrel_01_diff_1k.jpg",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/shrub_sorrel_01/shrub_sorrel_01_diff_1k.jpg",
+      "bytes": 385129,
+      "md5": "bef299def81bd55c2b378d53dad803b5",
+      "sha256": "9aa62e57767f5b964b8d52e6406ebadb0205fa469d5a369a946fba13a3bc950f"
+    },
+    {
+      "path": "textures/shrub_sorrel_01_alpha_1k.png",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/shrub_sorrel_01/shrub_sorrel_01_alpha_1k.png",
+      "bytes": 64408,
+      "md5": "d73e433a4b041bb19e4dfb4266598e9a",
+      "sha256": "4788b2a1e8a53cf6f706b1e75bc4007afec3fc823fd3ccaf9b48a52dc1eb04da"
+    }
+  ]
+}

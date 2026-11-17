@@ -1,0 +1,142 @@
+{
+  "created": "2026-11-16",
+  "scope": "Source before mixed borders, unified lighting and contact shadow changes. Binary assets retained in place.",
+  "files": [
+    {
+      "path": "build.mjs",
+      "sha256": "a593f2be8621290c25a05b909dd1db74318dc409d6ebbc29f15eb0037a2c94c2"
+    },
+    {
+      "path": "cottage.js",
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "courtyard-path.js",
+      "sha256": "ea43423e688f1adc316ef7b78ea308138994a7e6c3a095639896c862d7d6c624"
+    },
+    {
+      "path": "credits.html",
+      "sha256": "6727809070ff32582c69ebdc6590bb61b588076458a6d353546833faf3cb368c"
+    },
+    {
+      "path": "fine-grass.js",
+      "sha256": "5e2d44f3c1ade44b0b5a93969f76b0ab2f62598ba95e2fd97abbe726338468a0"
+    },
+    {
+      "path": "ground.js",
+      "sha256": "f8b908a592219e063bcf357998d12f78db372cea6433648af58aeaf74db5989c"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d10ea99647c01a7f11e35e5a1ec22270051cab5ef2cd20cb63c524af39a27690"
+    },
+    {
+      "path": "interior.js",
+      "sha256": "6e5c52b07f0b2199da193efc0a8dfba2a71a5965943db7f424ecdd529edc9efb"
+    },
+    {
+      "path": "landscape.js",
+      "sha256": "f5aaab7659582c78fb3aac1b06d63e4a861eee8149d3d4bbf7812d3467495157"
+    },
+    {
+      "path": "launch-model.mjs",
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "sha256": "68d094116d3d86fa132774243b887596e788372d794835d8e4b7ec2b5ae56820"
+    },
+    {
+      "path": "main.js",
+      "sha256": "449b3742d8aa66cc786938d22fd1c78c4a9b234a64552a91c37cdb87ee09fc1d"
+    },
+    {
+      "path": "model-assets.js",
+      "sha256": "c967c2a8007dcfd2187951fd90db0e084f798096cc6d981507b07c64b4734fca"
+    },
+    {
+      "path": "mountains.js",
+      "sha256": "d218c20ebd062f451dc3c14b2720182858a5077f530d9394bbcb48b97fa9d9a0"
+    },
+    {
+      "path": "nature.js",
+      "sha256": "47842949900dad50b9dc2c0d2c63015fcd614692d2cac7f34ebe1bc338d25f6f"
+    },
+    {
+      "path": "package.json",
+      "sha256": "03a4afd6e6b045af35af5c94cbcec998638797b690a16a47e403a56a9793b5a5"
+    },
+    {
+      "path": "path-layout.js",
+      "sha256": "7cdac9581498254b9cfbfd49fd50cff22372d1ad310271b6bd6e819e7807cfad"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1e6baf862d82f8b3f5f862e270ddb21223d979e9194f4a045accdf7f44777c1b"
+    },
+    {
+      "path": "reflection-budget.js",
+      "sha256": "685d77cb05924e123da064a5396bad4d41b1057a6c1d6cd46ee4be122e7b6aad"
+    },
+    {
+      "path": "stream.js",
+      "sha256": "f316ac2ed370115a72c07eda38e1d1499095412b0327164eb84075c175b93f4c"
+    },
+    {
+      "path": "style.css",
+      "sha256": "87676b722fce497ce68e92c2406120ed445727fe0beec71162aa39c52edc6cfd"
+    },
+    {
+      "path": "terrain.js",
+      "sha256": "dae064fee481ed94ce042a7ac3430039ca65a94f2592ece56d766b6d3128e98c"
+    },
+    {
+      "path": "timber.js",
+      "sha256": "c5ab00040d30a746898007d3ae5ff15276fd755426d19d42930002ba5fe62b91"
+    },
+    {
+      "path": "vegetation.js",
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "sha256": "994d3dcfaa78b666d00be27beb3f488ccea3e4c52c8987816dc7faf46768917b"
+    },
+    {
+      "path": "verify.py",
+      "sha256": "03a3c50490786bba4c1ac646708545bf517c90d5fb092a090573bb1a8a02927e"
+    },
+    {
+      "path": "woodland.js",
+      "sha256": "a66633e33105a26e1628e60b46ed0f6055165c644358a2b931a2dc9fd65b4ca7"
+    },
+    {
+      "path": "tools/prepare-grass-mips.py",
+      "sha256": "80798dec37bc4aca3484eb7bd32302060af6ec26f72846be45ec3999efc01f58"
+    },
+    {
+      "path": "tools/prepare-horizon-tree.mjs",
+      "sha256": "b4238142d3867bed21fe1e9b1b0b6a3300fa970361ff20e247ba5f59bbb1fe45"
+    },
+    {
+      "path": "tools/prepare-leaf-colour.py",
+      "sha256": "4f10d6de9a32757fce7b2375a2f1bf8b98b8df98d49df157947d639df68486c6"
+    },
+    {
+      "path": "tools/prepare-leafy-trees.py",
+      "sha256": "1f67a1f937390e32d57e8ff555a693befd0b5950f59b3687c2bcb9d4d605c760"
+    },
+    {
+      "path": "tools/prepare-mature-tree.mjs",
+      "sha256": "185d04e31e5cc60ae49ba42dd4cae0bc3153f1bddb0a0144b4be325d9e6c514e"
+    },
+    {
+      "path": "tools/prepare-short-grass.mjs",
+      "sha256": "2e033e455313698eae14c258c40c564621afbd266e1e0a8c8eb45a31df4b3a46"
+    },
+    {
+      "path": "tools/README.md",
+      "sha256": "e6a396ea60373dbefc18be39a548af687db9072952339518b4778bb7116e97db"
+    }
+  ]
+}

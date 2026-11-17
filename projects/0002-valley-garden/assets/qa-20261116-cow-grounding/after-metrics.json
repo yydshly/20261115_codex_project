@@ -1,0 +1,10 @@
+{
+  "source": "npm run check: verify-geometry.mjs, verify-cattle-roaming.mjs, verify-cattle-grounding.mjs",
+  "units": "metres, except angles in degrees",
+  "actualScene": {"lowestHoof": 0.0014249939231099074, "highestPlantedSole": 0.0017302918765488284},
+  "valleyFixtures": [
+    {"height": 1.4, "initialSoles": [0.0015, 0.0015, 0.0015, 0.0015], "minSole": 0.0013582560613865091, "maxPlantedSole": 0.0015000000000013891, "maxPlantedFrameDrift": 1.1924436178121269e-14},
+    {"height": 1.29, "initialSoles": [0.0015, 0.0015, 0.0015, 0.0014489600385333423], "minSole": 0.000756646901498792, "maxPlantedSole": 0.0015000000000034985, "maxPlantedFrameDrift": 1.778056055693871e-14}
+  ],
+  "flatWalkFixture": {"speed": 0.36, "stride": 0.48, "maxJointStepAt30HzDegrees": 9.860420400162669, "footfallOrder": [2,0,3,1], "minSole": 0.0014999999999996154}
+}

@@ -1,0 +1,5 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/?inspect=1&fixed=1&view=water&time=5",
+  "ready": "true",
+  "warningsAndErrors": []
+}

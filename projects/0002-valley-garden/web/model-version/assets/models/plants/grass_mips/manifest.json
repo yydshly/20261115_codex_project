@@ -1,0 +1,22 @@
+{
+  "source": "https://polyhaven.com/a/grass_medium_02",
+  "license": "CC0-1.0",
+  "method": "Alpha coverage and linear-light colour mipmaps, original images unchanged",
+  "files": [
+    {
+      "path": "alpha.bin",
+      "bytes": 1398100,
+      "sha256": "d3987312e69fd60431d71137c22045b1c823cd5830f5d7ece2e7921b53623fa0"
+    },
+    {
+      "path": "colour.bin",
+      "bytes": 1398100,
+      "sha256": "08340e9432023627e4ae51b215a1b6fa1dd2ccf758c5bcad235307484ada69c1"
+    },
+    {
+      "path": "levels.json",
+      "bytes": 1424,
+      "sha256": "10ab431106e3ce8fa70b49b005a4a87578c10e5b6b4dc1e941c91bf0c4163681"
+    }
+  ]
+}

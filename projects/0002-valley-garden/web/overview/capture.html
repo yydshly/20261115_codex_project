@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>溪谷花园 · 真实场景取景</title>
+<style>html,body{margin:0;background:#eef0e5}iframe{display:block;width:100%;height:560px;border:0}#capture-status{font:14px system-ui;padding:20px;color:#344b3e}</style></head><body>
+<iframe title="真实场景取景"></iframe><output id="capture-status">正在载入实际场景…</output>
+<script type="module">
+const params=new URLSearchParams(location.search),edition=params.get('edition')==='models'?'models':'code';
+const url=new URL(edition==='models'?'../model-version/':'../',location.href),frame=document.querySelector('iframe'),status=document.querySelector('#capture-status');
+try{
+  if(params.get('page')==='overview'){
+    const width=Math.max(320,Math.min(1440,Number(params.get('width'))||390));frame.style.width=width+'px';frame.style.height='620px';frame.src='./';
+    frame.addEventListener('load',()=>{const doc=frame.contentDocument,inspect=()=>{const root=doc.documentElement;status.textContent=`响应式检查：视窗 ${width} × 620；页面宽 ${root.clientWidth} / 内容宽 ${root.scrollWidth}`;};new ResizeObserver(inspect).observe(doc.documentElement);inspect();});
+  }else{
+  const response=await fetch(url);if(!response.ok)throw new Error('场景页面加载失败');
+  const html=(await response.text()).replace('<head>',`<head><base href="${url.href}">`).replace('</head>',`<style>.topbar,.intro-copy,.dock,.bottom-meta,.garden-moments,.vignette,#toast,#crosshair,.moment-status{visibility:hidden!important}</style></head>`);
+  frame.addEventListener('load',()=>{
+    const doc=frame.contentDocument,root=doc.querySelector('#experience');if(!root)return;
+    const inspect=()=>{if(root.dataset.ready==='true'){document.body.dataset.ready='true';status.textContent='实际运行场景已就绪';}if(!doc.querySelector('#failure').hidden)status.textContent='实际场景加载失败';};
+    new MutationObserver(inspect).observe(root,{attributes:true,subtree:true,attributeFilter:['data-ready','hidden']});inspect();
+  });frame.srcdoc=html;
+  }
+}catch(error){status.textContent=error.message;}
+</script></body></html>

@@ -1,0 +1,1776 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-17",
+  "scope": "两个保留场景的来源与实现索引；包含当前使用、可切换和保留条目",
+  "license_basis": "按获取时保留的 SOURCES、manifest 与许可证原文整理，未实时重新核验上游网页",
+  "project_code_license": "本地程序内容未单独声明素材许可；本索引没有为项目代码新增 CC0 或其他授权",
+  "items": [
+    {
+      "id": "bungalow",
+      "origin": "external",
+      "element": "备选乡间平房",
+      "name": "Bungalow house",
+      "category": "建筑与室内",
+      "provider": "Innerscene",
+      "source_url": "https://www.innerscene.com/tools/library/3d-parts/bungalow-house-85d40048",
+      "authors": "Innerscene Corp",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "可切换",
+      "notes": "原始 GLB 保持不变；运行时调整比例、朝向、材质和布局。建筑 PBR 与补充室内结构另列。",
+      "local_paths": [
+        "web/model-version/assets/models/architecture/bungalow-house.glb"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/architecture/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/architecture/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "townhouse",
+      "origin": "external",
+      "element": "备选双层住宅",
+      "name": "Small two-storey starter home 8 x 8 m with hip roof",
+      "category": "建筑与室内",
+      "provider": "Innerscene",
+      "source_url": "https://www.innerscene.com/tools/library/3d-parts/small-two-storey-starter-home-8-x-8-m-with-hip-roof-9c7f4356",
+      "authors": "Innerscene Corp",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "可切换",
+      "notes": "原始 GLB 保持不变；运行时调整比例、朝向、材质和布局。建筑 PBR 与补充室内结构另列。",
+      "local_paths": [
+        "web/model-version/assets/models/architecture/two-storey-home.glb"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/architecture/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/architecture/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "cottage",
+      "origin": "external",
+      "element": "默认砖墙小屋",
+      "name": "Cottage with pitched roof",
+      "category": "建筑与室内",
+      "provider": "Innerscene",
+      "source_url": "https://www.innerscene.com/tools/library/3d-parts/cottage-with-pitched-roof-bc88ab4f",
+      "authors": "Innerscene Corp",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "原始 GLB 保持不变；运行时调整比例、朝向、材质和布局。建筑 PBR 与补充室内结构另列。",
+      "local_paths": [
+        "web/model-version/assets/models/architecture/garden-cottage.glb"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/architecture/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/architecture/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "periwinkle_plant",
+      "origin": "external",
+      "element": "粉色花境植株",
+      "name": "Periwinkle Plant",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/periwinkle_plant",
+      "authors": "Amal Kumar",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "按源网格选择单株变体；不是一张花朵照片。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/periwinkle_plant/model.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "fern_02",
+      "origin": "external",
+      "element": "蕨类与林缘植被",
+      "name": "Fern 02",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/fern_02",
+      "authors": "Rob Tuytel（scanning）；Rico Cilliers（modeling）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "源模型包含多个真实网格变体。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/fern_02/model.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "grass_medium_02",
+      "origin": "external",
+      "element": "草簇、草坪与草坡派生模型",
+      "name": "Grass Medium 02",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/grass_medium_02",
+      "authors": "Rico Cilliers",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "原草簇用于植被；grass_short、grass_meadow 与草叶 mip 层为本地派生，沿用原资产来源与许可。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/grass_medium_02/model.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/manifest.json"
+        },
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/grass_short/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/grass_short/manifest.json"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/grass_meadow/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "flower_gazania",
+      "origin": "external",
+      "element": "勋章菊花境",
+      "name": "Flower Gazania",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/flower_gazania",
+      "authors": "James Ray Cock（modeling）；Jenelle van Heerden（Photography）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "花境中的扫描植物网格；栽植分布和风动由程序控制。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/flower_gazania/model.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "shrub_02",
+      "origin": "external",
+      "element": "花境成熟灌木",
+      "name": "Shrub 02",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/shrub_02",
+      "authors": "Rico Cilliers",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "灌木网格与材质来自上游，组合、大小和位置由场景决定。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/shrub_02/model.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "rock_07",
+      "origin": "external",
+      "element": "溪岸与草坡岩石",
+      "name": "Rock 07",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/rock_07",
+      "authors": "Jenelle van Heerden",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "扫描岩石按埋入深度、大小与地形摆放。",
+      "local_paths": [
+        "web/model-version/assets/models/nature/rock_07/rock_07_1k.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/nature/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/nature/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "rock_moss_set_01",
+      "origin": "external",
+      "element": "苔石、浅滩与溪流障碍物",
+      "name": "Rock Moss Set 01",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/rock_moss_set_01",
+      "authors": "Kless Gyzen",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "扫描苔石组；绕石水流是本地水面实现。",
+      "local_paths": [
+        "web/model-version/assets/models/nature/rock_moss_set_01/rock_moss_set_01_1k.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/nature/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/nature/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "shrub_03",
+      "origin": "external",
+      "element": "灌丛与林缘地被",
+      "name": "Shrub 03",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/shrub_03",
+      "authors": "Rico Cilliers",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "源植物变体由程序实例化，不把一整套陈列场景当作单株。",
+      "local_paths": [
+        "web/model-version/assets/models/nature/shrub_03/shrub_03_1k.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/nature/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/nature/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "pine_sapling_small",
+      "origin": "external",
+      "element": "保留的幼松资产",
+      "name": "Pine Sapling Small",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/pine_sapling_small",
+      "authors": "Rob Tuytel（photography）；Rico Cilliers（modeling）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "保留",
+      "notes": "原件仍在库中；当前主树林以成熟阔叶树与冷杉为主，不把幼松记录为成熟大树。",
+      "local_paths": [
+        "web/model-version/assets/models/nature/pine_sapling_small/pine_sapling_small_1k.gltf"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/nature/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/nature/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "jacaranda_tree",
+      "origin": "external",
+      "element": "庭院大树与山谷阔叶树林",
+      "name": "Jacaranda Tree",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/jacaranda_tree",
+      "authors": "Rico Cilliers（制作）；Rob Tuytel（指导）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "运行包使用本地减面、叶冠覆盖修复和四级距离网格；上游大网格保存在忽略的本地缓存。",
+      "local_paths": [
+        "web/model-version/assets/models/trees/jacaranda"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/trees/jacaranda/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/trees/jacaranda/manifest.json"
+        },
+        {
+          "label": "原始下载清单",
+          "path": "web/model-version/assets/models/trees/jacaranda/source-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "fir_sapling_medium",
+      "origin": "external",
+      "element": "冷杉林与中远景树形",
+      "name": "Fir Sapling Medium",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/fir_sapling_medium",
+      "authors": "Rob Tuytel（photography）；Rico Cilliers（modeling）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "保留三种完整树形，使用本地四级网格和针叶 mip 派生；没有将整座森林下载为完整场景。",
+      "local_paths": [
+        "web/model-version/assets/models/trees/fir"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/trees/fir/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/trees/fir/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "shrub_sorrel_01",
+      "origin": "external",
+      "element": "花境边缘低矮酢浆草叶丛",
+      "name": "Shrub Sorrel 01",
+      "category": "植物与树木",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/shrub_sorrel_01",
+      "authors": "Rico Cilliers",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "外部叶丛模型；地被组合、比例、风动和受光由本项目整合。",
+      "local_paths": [
+        "web/model-version/assets/models/plants/sorrel"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/plants/sorrel/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/plants/sorrel/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "sofa_02",
+      "origin": "external",
+      "element": "窗内客厅沙发",
+      "name": "Sofa 02",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/sofa_02",
+      "authors": "Kirill Sannikov",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "作为从窗外可见的室内布景；地板、隔墙、窗帘、书籍等本地几何另列。",
+      "local_paths": [
+        "web/model-version/assets/models/interior/sofa_02"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/interior/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/interior/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "coffee_table_round_01",
+      "origin": "external",
+      "element": "室内茶几与小桌",
+      "name": "Coffee Table Round 01",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/coffee_table_round_01",
+      "authors": "Ulan Cabanilla",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "作为从窗外可见的室内布景；地板、隔墙、窗帘、书籍等本地几何另列。",
+      "local_paths": [
+        "web/model-version/assets/models/interior/coffee_table_round_01"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/interior/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/interior/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "origin": "external",
+      "element": "窗边与阅读区扶手椅",
+      "name": "Modern Arm Chair 01",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/modern_arm_chair_01",
+      "authors": "Vibrant Nordic",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "作为从窗外可见的室内布景；地板、隔墙、窗帘、书籍等本地几何另列。",
+      "local_paths": [
+        "web/model-version/assets/models/interior/modern_arm_chair_01"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/interior/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/interior/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "industrial_pipe_lamp",
+      "origin": "external",
+      "element": "室内阅读灯",
+      "name": "Industrial Pipe Lamp",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/industrial_pipe_lamp",
+      "authors": "Mateusz Sadek",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "作为从窗外可见的室内布景；地板、隔墙、窗帘、书籍等本地几何另列。",
+      "local_paths": [
+        "web/model-version/assets/models/interior/industrial_pipe_lamp"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/interior/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/interior/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "roof_slates_02",
+      "origin": "external",
+      "element": "小屋石板瓦屋顶表面",
+      "name": "Roof Slates 02",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/roof_slates_02",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "2K 颜色、OpenGL 法线和粗糙度原图；UV、色调及法线强度在运行时调整。",
+      "local_paths": [
+        "web/model-version/assets/materials/roof-color.jpg",
+        "web/model-version/assets/materials/roof-normal.jpg",
+        "web/model-version/assets/materials/roof-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/materials/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "white_plaster_02",
+      "origin": "external",
+      "element": "建筑抹灰墙面",
+      "name": "White Plaster 02",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/white_plaster_02",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "2K 颜色、OpenGL 法线和粗糙度原图；UV、色调及法线强度在运行时调整。",
+      "local_paths": [
+        "web/model-version/assets/materials/plaster-color.jpg",
+        "web/model-version/assets/materials/plaster-normal.jpg",
+        "web/model-version/assets/materials/plaster-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/materials/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "red_brick_03",
+      "origin": "external",
+      "element": "默认小屋砖墙表面",
+      "name": "Red Brick 03",
+      "category": "建筑与室内",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/red_brick_03",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "2K 颜色、OpenGL 法线和粗糙度原图；UV、色调及法线强度在运行时调整。",
+      "local_paths": [
+        "web/model-version/assets/materials/brick-color.jpg",
+        "web/model-version/assets/materials/brick-normal.jpg",
+        "web/model-version/assets/materials/brick-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/materials/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "Grass004",
+      "origin": "external",
+      "element": "庭院修剪草坪表面",
+      "name": "Grass004",
+      "category": "岩石与地表",
+      "provider": "ambientCG",
+      "source_url": "https://ambientcg.com/view?id=Grass004",
+      "authors": "Lennart Demes / ambientCG（asset author）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "ambientCG 的程序化 PBR 资产，不能称为摄影扫描；几何细草另由本地代码生成。",
+      "local_paths": [
+        "web/model-version/assets/ground/lawn-fresh-color.jpg",
+        "web/model-version/assets/ground/lawn-fresh-normal.jpg",
+        "web/model-version/assets/ground/lawn-fresh-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/ground/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/ground/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "grass_ground",
+      "origin": "external",
+      "element": "院外枯草与草坡色彩",
+      "name": "Grass Ground",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/grass_ground",
+      "authors": "Charlotte Baglioni",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "当前院外地表使用其色彩图；法线和粗糙度原件也保留。",
+      "local_paths": [
+        "web/model-version/assets/ground/lawn-color.jpg",
+        "web/model-version/assets/ground/lawn-normal.jpg",
+        "web/model-version/assets/ground/lawn-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/ground/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/ground/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "brown_mud_dry",
+      "origin": "external",
+      "element": "花境、树根、路径与岸边裸土",
+      "name": "Brown Mud Dry",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/brown_mud_dry",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "2K 地表贴图；裸土、湿润和草土过渡分布由本地地表场控制。",
+      "local_paths": [
+        "web/model-version/assets/ground/soil-color.jpg",
+        "web/model-version/assets/ground/soil-normal.jpg",
+        "web/model-version/assets/ground/soil-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/ground/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/ground/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "weathered_planks",
+      "origin": "external",
+      "element": "木桥、栏杆与长椅的木材表面",
+      "name": "Weathered Planks",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/weathered_planks",
+      "authors": "Dario Barresi（Processing）；Dimitrios Savva（Photography）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "只提供木材表面；桥、栏杆和长椅的几何由本地程序构造。",
+      "local_paths": [
+        "web/model-version/assets/materials/bridge"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/materials/bridge/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/materials/bridge/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "rock_01",
+      "origin": "external",
+      "element": "庭院石板路的连续石面",
+      "name": "Rock 01",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/rock_01",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "只提供石面 PBR；各块石板的轮廓、厚度和铺设由本地生成。",
+      "local_paths": [
+        "web/model-version/assets/materials/flagstone"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/materials/flagstone/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/materials/flagstone/manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "leafy_grass",
+      "origin": "external",
+      "element": "代码版草地底面",
+      "name": "Leafy Grass",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/leafy_grass",
+      "authors": "Charlotte Baglioni",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "code"
+      ],
+      "usage": "在用",
+      "notes": "V1 地表使用；V2 已改用独立草坪与裸土材质，不把它继续标成 V2 庭院草坪。",
+      "local_paths": [
+        "web/assets/materials/grass-color.jpg",
+        "web/assets/materials/grass-normal.jpg",
+        "web/assets/materials/grass-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/assets/materials/download-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "rock_face_03",
+      "origin": "external",
+      "element": "山壁与地表露岩纹理",
+      "name": "Rock Face 03",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/rock_face_03",
+      "authors": "Dario Barresi（摄影）；Rico Cilliers（处理）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "原版目录只读共享；山体几何和露岩分布由程序生成。",
+      "local_paths": [
+        "web/assets/materials/rock-color.jpg",
+        "web/assets/materials/rock-normal.jpg",
+        "web/assets/materials/rock-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/assets/materials/download-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "gray_rocks",
+      "origin": "external",
+      "element": "河床、碎石与岸边表面",
+      "name": "Gray Rocks",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/gray_rocks",
+      "authors": "Dimitrios Savva",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "碎石表面材质，不等同于独立三维扫描岩石模型。",
+      "local_paths": [
+        "web/assets/materials/gravel-color.jpg",
+        "web/assets/materials/gravel-normal.jpg",
+        "web/assets/materials/gravel-roughness.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/assets/materials/download-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "aerial_grass_rock",
+      "origin": "external",
+      "element": "远景草岩色彩分布",
+      "name": "Aerial Grass Rock",
+      "category": "岩石与地表",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/aerial_grass_rock",
+      "authors": "Rob Tuytel",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "只保留色彩图，用于坡面和远景色彩混合。",
+      "local_paths": [
+        "web/assets/materials/aerial-color.jpg"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/assets/materials/download-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "kloofendal_48d_partly_cloudy_puresky",
+      "origin": "external",
+      "element": "天空背景与环境照明",
+      "name": "Kloofendal 48d Partly Cloudy (Pure Sky)",
+      "category": "天空与高程",
+      "provider": "Poly Haven",
+      "source_url": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+      "authors": "Greg Zaal（HDRI）；Jarod Guest（天空编辑）",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "1K HDR 天空用于背景和环境照明；主光与晨暮控制由场景实现。",
+      "local_paths": [
+        "web/assets/materials/sky.hdr"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/assets/materials/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/assets/materials/download-manifest.json"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "gardener",
+      "origin": "external",
+      "element": "花径上的庭院人物",
+      "name": "Elderly Woman · Rigged GLB",
+      "category": "人物与动物",
+      "provider": "Grab3D",
+      "source_url": "https://grab3d.com/models/characters/elderly-woman/",
+      "authors": "Grab3D",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "来源披露 AI 辅助生成：Meshy 基础网格与纹理，经 Blender 处理；保留原生 walk 动画，路线、停步、接地与声音为本地整合。",
+      "local_paths": [
+        "web/model-version/assets/models/life/gardener.glb"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/life/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/life/manifest.json"
+        },
+        {
+          "label": "上游许可证原文",
+          "path": "web/model-version/assets/models/life/gardener-LICENSE.txt"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "cow",
+      "origin": "external",
+      "element": "牧场中的两头牛",
+      "name": "Holstein Cow · Light GLB",
+      "category": "人物与动物",
+      "provider": "Grab3D",
+      "source_url": "https://grab3d.com/models/animals/cow/",
+      "authors": "Grab3D",
+      "license": {
+        "label": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "来源披露 AI 辅助生成；下载的是静态模型，不含当前走路、吃草动作。运行时骨骼、步态和行为由本项目补充。",
+      "local_paths": [
+        "web/model-version/assets/models/life/cow.glb"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/life/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/life/manifest.json"
+        },
+        {
+          "label": "上游许可证原文",
+          "path": "web/model-version/assets/models/life/cow-LICENSE.txt"
+        }
+      ],
+      "recorded_on": "2026-11-16"
+    },
+    {
+      "id": "kaiser_elevation",
+      "origin": "external",
+      "element": "精致素材版远山高程",
+      "name": "Wilder Kaiser, Tyrol elevation excerpt",
+      "category": "天空与高程",
+      "provider": "Mapzen / AWS",
+      "source_url": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2188/1431.png",
+      "authors": "Mapzen; © offene Daten Österreichs – Digitales Geländemodell (DGM) Österreich; Copernicus / EU-DEM; USGS GMTED2010 and SRTM",
+      "license": {
+        "label": "按数据源分别署名 · 含 CC BY 3.0 AT",
+        "url": "https://creativecommons.org/licenses/by/3.0/at/"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "奥地利 Wilder Kaiser 高程片段；非参考视频地点。保留奥地利 DGM、Copernicus / EU-DEM、USGS 候选来源署名，不将整份高程统称 CC0。",
+      "local_paths": [
+        "web/model-version/assets/terrain"
+      ],
+      "records": [
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/terrain/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/terrain/manifest.json"
+        },
+        {
+          "label": "完整上游署名",
+          "path": "web/model-version/assets/terrain/attribution-upstream.md"
+        }
+      ],
+      "recorded_on": "2026-11-15"
+    },
+    {
+      "id": "three",
+      "origin": "external",
+      "element": "两版实时渲染引擎与 Water 等组件",
+      "name": "Three.js 0.180.0",
+      "category": "引擎与工具",
+      "provider": "Three.js / GitHub",
+      "source_url": "https://github.com/mrdoob/three.js/tree/r180",
+      "authors": "Three.js contributors",
+      "license": {
+        "label": "MIT",
+        "url": "https://github.com/mrdoob/three.js/blob/r180/LICENSE"
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "运行引擎与组件依赖，独立于模型/贴图许可；随运行资源保留 MIT 正文。",
+      "local_paths": [
+        "web/node_modules/three"
+      ],
+      "records": [
+        {
+          "label": "MIT 许可证原文",
+          "path": "web/node_modules/three/LICENSE"
+        },
+        {
+          "label": "依赖锁定记录",
+          "path": "web/package-lock.json"
+        }
+      ],
+      "recorded_on": null
+    },
+    {
+      "id": "meshoptimizer",
+      "origin": "external",
+      "element": "树木离线减面与分级工具",
+      "name": "meshoptimizer 1.3.0",
+      "category": "引擎与工具",
+      "provider": "GitHub",
+      "source_url": "https://github.com/zeux/meshoptimizer",
+      "authors": "meshoptimizer contributors",
+      "license": {
+        "label": "MIT（本地处理记录）",
+        "url": "https://github.com/zeux/meshoptimizer"
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "用于离线生成树木层级；工具 MIT 与输入模型 CC0 分别记录，不把工具许可当成模型许可。",
+      "local_paths": [
+        "web/model-version/tools"
+      ],
+      "records": [
+        {
+          "label": "处理工具说明",
+          "path": "web/model-version/tools/README.md"
+        },
+        {
+          "label": "来源说明",
+          "path": "web/model-version/assets/models/trees/fir/SOURCES.md"
+        },
+        {
+          "label": "文件与校验清单",
+          "path": "web/model-version/assets/models/trees/fir/manifest.json"
+        }
+      ],
+      "recorded_on": null
+    },
+    {
+      "id": "v1_geometry",
+      "origin": "procedural",
+      "element": "代码版主体与保留的经典白屋",
+      "name": "程序化主体几何",
+      "category": "建筑与室内",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "V1 的房屋、花木与山谷主体由代码构造；V2 可切换的经典白屋也为本地程序几何。地表 PBR/HDR 来自外部条目，V2 默认砖墙小屋仍为外部模型。",
+      "local_paths": [
+        "web/cottage.js",
+        "web/vegetation.js",
+        "web/landscape.js",
+        "web/model-version/cottage.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · cottage.js",
+          "path": "web/cottage.js"
+        },
+        {
+          "label": "实现源码 · vegetation.js",
+          "path": "web/vegetation.js"
+        },
+        {
+          "label": "实现源码 · landscape.js",
+          "path": "web/landscape.js"
+        },
+        {
+          "label": "实现源码 · cottage.js",
+          "path": "web/model-version/cottage.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "leafy_grass",
+        "rock_face_03",
+        "gray_rocks"
+      ]
+    },
+    {
+      "id": "valley_ground",
+      "origin": "procedural",
+      "element": "近地形起伏、草土分布与细草",
+      "name": "地形与地表生成",
+      "category": "岩石与地表",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "近地形、裸土遮罩和细草叶由代码生成；远山高程和地表贴图按外部记录使用。",
+      "local_paths": [
+        "web/model-version/terrain.js",
+        "web/model-version/ground.js",
+        "web/model-version/fine-grass.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · terrain.js",
+          "path": "web/model-version/terrain.js"
+        },
+        {
+          "label": "实现源码 · ground.js",
+          "path": "web/model-version/ground.js"
+        },
+        {
+          "label": "实现源码 · fine-grass.js",
+          "path": "web/model-version/fine-grass.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "kaiser_elevation",
+        "Grass004",
+        "brown_mud_dry"
+      ]
+    },
+    {
+      "id": "paths_timber",
+      "origin": "procedural",
+      "element": "石板形体、木桥、栅栏与长椅",
+      "name": "程序化庭院构筑物",
+      "category": "建筑与室内",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "轮廓、厚度、铺装与组合为本地几何；石面和木纹来自外部 PBR。",
+      "local_paths": [
+        "web/model-version/courtyard-path.js",
+        "web/model-version/landscape.js",
+        "web/model-version/garden-moments.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · courtyard-path.js",
+          "path": "web/model-version/courtyard-path.js"
+        },
+        {
+          "label": "实现源码 · landscape.js",
+          "path": "web/model-version/landscape.js"
+        },
+        {
+          "label": "实现源码 · garden-moments.js",
+          "path": "web/model-version/garden-moments.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "rock_01",
+        "weathered_planks"
+      ]
+    },
+    {
+      "id": "interior_details",
+      "origin": "procedural",
+      "element": "窗格、窗帘、楼板、隔墙与书籍",
+      "name": "室内补充结构与布置",
+      "category": "建筑与室内",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "补充结构由本地几何生成；沙发、桌椅、阅读灯及原屋玻璃为外部资产。",
+      "local_paths": [
+        "web/model-version/interior.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · interior.js",
+          "path": "web/model-version/interior.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "cottage",
+        "sofa_02",
+        "coffee_table_round_01",
+        "modern_arm_chair_01",
+        "industrial_pipe_lamp"
+      ]
+    },
+    {
+      "id": "foliage_derivatives",
+      "origin": "procedural",
+      "element": "树木层级、短草派生与叶片缩放纹理",
+      "name": "外部资产的派生处理",
+      "category": "植物与树木",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "这是对外部网格/贴图的减面、归一化和覆盖修复，不是无来源的原创模型；派生资产仍明确记录原素材 CC0。",
+      "local_paths": [
+        "web/model-version/model-assets.js",
+        "web/model-version/valley-woodland.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · model-assets.js",
+          "path": "web/model-version/model-assets.js"
+        },
+        {
+          "label": "实现源码 · valley-woodland.js",
+          "path": "web/model-version/valley-woodland.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "jacaranda_tree",
+        "fir_sapling_medium",
+        "grass_medium_02",
+        "meshoptimizer"
+      ]
+    },
+    {
+      "id": "stream_flow",
+      "origin": "procedural",
+      "element": "水面、溪流、浅滩与绕石流动",
+      "name": "实时水面与流动近似",
+      "category": "水流与声音",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "水面与流动由着色器和轨迹生成，基于 Three.js Water 等组件整合；不是下载的流体模拟视频。",
+      "local_paths": [
+        "web/model-version/stream.js",
+        "web/model-version/stream-flow.js",
+        "web/model-version/stream-motion.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · stream.js",
+          "path": "web/model-version/stream.js"
+        },
+        {
+          "label": "实现源码 · stream-flow.js",
+          "path": "web/model-version/stream-flow.js"
+        },
+        {
+          "label": "实现源码 · stream-motion.js",
+          "path": "web/model-version/stream-motion.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "three",
+        "gray_rocks"
+      ]
+    },
+    {
+      "id": "cow_behaviour",
+      "origin": "procedural",
+      "element": "牛的骨骼、慢走、接地、吃草与尾摆",
+      "name": "静态资产上的程序动作",
+      "category": "人物与动物",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "源牛模型为 CC0 静态网格；当前动作是本项目运行时绑定与行为近似，不是上游原生动作包。",
+      "local_paths": [
+        "web/model-version/cattle-behavior.js",
+        "web/model-version/cattle-gait.js",
+        "web/model-version/cattle-roaming.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · cattle-behavior.js",
+          "path": "web/model-version/cattle-behavior.js"
+        },
+        {
+          "label": "实现源码 · cattle-gait.js",
+          "path": "web/model-version/cattle-gait.js"
+        },
+        {
+          "label": "实现源码 · cattle-roaming.js",
+          "path": "web/model-version/cattle-roaming.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "cow"
+      ]
+    },
+    {
+      "id": "human_route",
+      "origin": "procedural",
+      "element": "人物路线、停步、接地和动态投影",
+      "name": "原生动画的场景整合",
+      "category": "人物与动物",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "人物 walk 来自源资产；路径、邻近停步、鞋底修正与投影由本地代码整合。",
+      "local_paths": [
+        "web/model-version/valley-life.js",
+        "web/model-version/foot-grounding.js",
+        "web/model-version/character-shadows.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · valley-life.js",
+          "path": "web/model-version/valley-life.js"
+        },
+        {
+          "label": "实现源码 · foot-grounding.js",
+          "path": "web/model-version/foot-grounding.js"
+        },
+        {
+          "label": "实现源码 · character-shadows.js",
+          "path": "web/model-version/character-shadows.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "gardener"
+      ]
+    },
+    {
+      "id": "wildlife",
+      "origin": "procedural",
+      "element": "飞鸟、蝴蝶与翅膀动作",
+      "name": "本地生物网格与表面纹理",
+      "category": "人物与动物",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "鸟蝶网格、羽片、蝶翼及表面细节由程序生成；停栖位置取自现有花枝网格。",
+      "local_paths": [
+        "web/model-version/garden-wildlife.js",
+        "web/model-version/wildlife-shapes.js",
+        "web/model-version/wildlife-surfaces.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · garden-wildlife.js",
+          "path": "web/model-version/garden-wildlife.js"
+        },
+        {
+          "label": "实现源码 · wildlife-shapes.js",
+          "path": "web/model-version/wildlife-shapes.js"
+        },
+        {
+          "label": "实现源码 · wildlife-surfaces.js",
+          "path": "web/model-version/wildlife-surfaces.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "periwinkle_plant",
+        "flower_gazania"
+      ]
+    },
+    {
+      "id": "wind",
+      "origin": "procedural",
+      "element": "植物摆动与风声联动",
+      "name": "共享程序风场",
+      "category": "水流与声音",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "风向、轻风、行进阵风与植物弯曲共用参数；不是额外下载的风动画资产。",
+      "local_paths": [
+        "web/model-version/wind-field.js",
+        "web/model-version/ambience.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · wind-field.js",
+          "path": "web/model-version/wind-field.js"
+        },
+        {
+          "label": "实现源码 · ambience.js",
+          "path": "web/model-version/ambience.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": []
+    },
+    {
+      "id": "audio",
+      "origin": "procedural",
+      "element": "溪水、鸟鸣、风声、脚步与牛蹄声",
+      "name": "Web Audio 合成与位置混音",
+      "category": "水流与声音",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "声音由本地合成，无第三方录音包；落脚观察、地面音色、距离衰减和声向为本地实现。",
+      "local_paths": [
+        "web/model-version/ambience.js",
+        "web/model-version/footsteps.js",
+        "web/model-version/actor-footsteps.js"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · ambience.js",
+          "path": "web/model-version/ambience.js"
+        },
+        {
+          "label": "实现源码 · footsteps.js",
+          "path": "web/model-version/footsteps.js"
+        },
+        {
+          "label": "实现源码 · actor-footsteps.js",
+          "path": "web/model-version/actor-footsteps.js"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": []
+    },
+    {
+      "id": "screenshots",
+      "origin": "procedural",
+      "element": "介绍页中两版实景截图",
+      "name": "本项目实际运行记录",
+      "category": "记录与截图",
+      "provider": "本项目",
+      "source_url": null,
+      "authors": "本项目",
+      "license": {
+        "label": "项目实现 · 未单独声明素材许可",
+        "url": null
+      },
+      "editions": [
+        "code",
+        "models"
+      ],
+      "usage": "在用",
+      "notes": "同尺寸真实运行截图，未使用原视频画面。未另行声明截图素材许可；画面内的外部资产和高程署名见对应记录。",
+      "local_paths": [
+        "web/overview/assets/SOURCES.json"
+      ],
+      "records": [
+        {
+          "label": "实现源码 · SOURCES.json",
+          "path": "web/overview/assets/SOURCES.json"
+        }
+      ],
+      "recorded_on": null,
+      "dependencies": [
+        "kaiser_elevation"
+      ]
+    }
+  ]
+}

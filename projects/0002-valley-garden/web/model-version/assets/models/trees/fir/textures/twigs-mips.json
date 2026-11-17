@@ -1,0 +1,83 @@
+{
+  "alphaTest": 0.3,
+  "baseCoverage": 0.24757766723632812,
+  "levels": [
+    {
+      "width": 1024,
+      "height": 1024,
+      "offset": 0,
+      "bytes": 4194304,
+      "coverage": 0.24757766723632812
+    },
+    {
+      "width": 512,
+      "height": 512,
+      "offset": 4194304,
+      "bytes": 1048576,
+      "coverage": 0.2558326721191406
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "offset": 5242880,
+      "bytes": 262144,
+      "coverage": 0.26617431640625
+    },
+    {
+      "width": 128,
+      "height": 128,
+      "offset": 5505024,
+      "bytes": 65536,
+      "coverage": 0.2735595703125
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "offset": 5570560,
+      "bytes": 16384,
+      "coverage": 0.281982421875
+    },
+    {
+      "width": 32,
+      "height": 32,
+      "offset": 5586944,
+      "bytes": 4096,
+      "coverage": 0.2900390625
+    },
+    {
+      "width": 16,
+      "height": 16,
+      "offset": 5591040,
+      "bytes": 1024,
+      "coverage": 0.26953125
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "offset": 5592064,
+      "bytes": 256,
+      "coverage": 0.265625
+    },
+    {
+      "width": 4,
+      "height": 4,
+      "offset": 5592320,
+      "bytes": 64,
+      "coverage": 0.25
+    },
+    {
+      "width": 2,
+      "height": 2,
+      "offset": 5592384,
+      "bytes": 16,
+      "coverage": 0.5
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "offset": 5592400,
+      "bytes": 4,
+      "coverage": 1.0
+    }
+  ]
+}

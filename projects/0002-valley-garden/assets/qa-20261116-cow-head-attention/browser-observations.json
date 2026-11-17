@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1",
+  "lookStates": [
+    "Browser tab: 3, Title: \"溪谷花园 · 模型资产版\", URL: \"http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 39-40\n+\t\t\t37 text 溪谷牧场\n+\t\t\t39 text 时间 12.67 · looking · 看向 -16.6° · 嘴缝 4.2 mm · 尾摆 1.1° · 渲染错误 0\nThe focused UI element is 29 button 抬头环顾",
+    "Browser tab: 3, Title: \"溪谷花园 · 模型资产版\", URL: \"http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 37, 39\n+\t\t\t39 text 溪谷牧场\n+\t\t\t40 text 时间 13.95 · looking · 看向 3.3° · 嘴缝 3.4 mm · 尾摆 -1.2° · 渲染错误 0\nThe focused UI element is 29 button 抬头环顾",
+    "Browser tab: 3, Title: \"溪谷花园 · 模型资产版\", URL: \"http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t40 text 时间 15.23 · looking · 看向 15.5° · 嘴缝 2.3 mm · 尾摆 -2.5° · 渲染错误 0\nThe focused UI element is 29 button 抬头环顾"
+  ]
+}

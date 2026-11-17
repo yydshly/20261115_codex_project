@@ -1,0 +1,10 @@
+{
+  "runtimeScripts": 33,
+  "sourceAndPackageMatch": true,
+  "originalVersionFiles": 27,
+  "existingModelFiles": 146,
+  "gltfDependencies": 169,
+  "check": "npm run check passed; no runtime changes since that check",
+  "snapshot": "model-v2-before-cow-anatomy-fix",
+  "snapshotRootFiles": 44
+}

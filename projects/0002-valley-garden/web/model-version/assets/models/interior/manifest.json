@@ -1,0 +1,224 @@
+{
+  "assets": [
+    {
+      "id": "sofa_02",
+      "name": "Sofa 02",
+      "authors": {
+        "Kirill Sannikov": "All"
+      },
+      "source": "https://polyhaven.com/a/sofa_02",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "retrieved": "2026-11-16",
+      "files": [
+        {
+          "path": "model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/sofa_02/sofa_02_1k.gltf",
+          "bytes": 4183,
+          "md5": "ec2590dc8433a523d0fe9e507766c16f",
+          "sha256": "5df114209f9b956ccd4831eaeef469a81339ab371d0056eb6d5d29eee08eb431"
+        },
+        {
+          "path": "sofa_02.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/sofa_02/sofa_02.bin",
+          "bytes": 74864,
+          "md5": "024d6f57a7c2ee7915430cd6e1c2651e",
+          "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+        },
+        {
+          "path": "textures/sofa_02_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sofa_02/sofa_02_arm_1k.jpg",
+          "bytes": 121752,
+          "md5": "78799d978a1117ba83dbffed9af0fa33",
+          "sha256": "f2813f32cd9ec42a9080590d0953ac9e272d9baa0b22fdb5910bf325157393c6"
+        },
+        {
+          "path": "textures/sofa_02_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sofa_02/sofa_02_diff_1k.jpg",
+          "bytes": 86514,
+          "md5": "0452c7d8dd3ef414d5ed3055085028a1",
+          "sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840"
+        },
+        {
+          "path": "textures/sofa_02_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/sofa_02/sofa_02_nor_gl_1k.jpg",
+          "bytes": 139858,
+          "md5": "968528a369bced172d34275dba5aebf1",
+          "sha256": "c97a359703a8ce1cee62cbd9dc4013b611d821afb7769810983b464ebc5d0cfe"
+        }
+      ]
+    },
+    {
+      "id": "coffee_table_round_01",
+      "name": "Coffee Table Round 01",
+      "authors": {
+        "Ulan Cabanilla": "All"
+      },
+      "source": "https://polyhaven.com/a/coffee_table_round_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "retrieved": "2026-11-16",
+      "files": [
+        {
+          "path": "coffee_table_round_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/coffee_table_round_01/coffee_table_round_01.bin",
+          "bytes": 131112,
+          "md5": "a664b067fa0ae9b6e0a8fa5878986816",
+          "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+        },
+        {
+          "path": "model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/coffee_table_round_01/coffee_table_round_01_1k.gltf",
+          "bytes": 2776,
+          "md5": "fa8772e8942e1863230b6745105c9a8e",
+          "sha256": "58fe785584f8999f760e590b04ce74f83962d42c9440ab9415910f63a31165dc"
+        },
+        {
+          "path": "textures/coffee_table_round_01_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_arm_1k.jpg",
+          "bytes": 721708,
+          "md5": "b44425836ab0c932fe4ff136ce6f2fe8",
+          "sha256": "7221b03af475555092abd650798facbb945bf4acf02e48f8697f012d8515bf52"
+        },
+        {
+          "path": "textures/coffee_table_round_01_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_diff_1k.jpg",
+          "bytes": 447037,
+          "md5": "601977ab1b864988194728e1dda076a8",
+          "sha256": "422b4a24a4459e1fd6d121aae4f1097dd3e467c7a8036bb1d003f955302f1d28"
+        },
+        {
+          "path": "textures/coffee_table_round_01_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/coffee_table_round_01/coffee_table_round_01_nor_gl_1k.jpg",
+          "bytes": 260520,
+          "md5": "81a9885a83ff0b259514e8bce38b6b69",
+          "sha256": "a5912db1918b1ec925efb19179675cafc8832b082f80b2ea35c3a58b45e1aec4"
+        }
+      ]
+    },
+    {
+      "id": "modern_arm_chair_01",
+      "name": "Modern Arm Chair 01",
+      "authors": {
+        "Vibrant Nordic": "All"
+      },
+      "source": "https://polyhaven.com/a/modern_arm_chair_01",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "retrieved": "2026-11-16",
+      "files": [
+        {
+          "path": "model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/modern_arm_chair_01/modern_arm_chair_01_1k.gltf",
+          "bytes": 5121,
+          "md5": "a5ce303bc2962fe98b733fcdfa5a842b",
+          "sha256": "d31be520add2603447b43acedbdacf9516866f7c89e9ea9230c9edbac9cc6e6a"
+        },
+        {
+          "path": "modern_arm_chair_01.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/8k/modern_arm_chair_01/modern_arm_chair_01.bin",
+          "bytes": 240728,
+          "md5": "5a8f2ea1c79ea484140e484b2a621670",
+          "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_legs_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_arm_1k.jpg",
+          "bytes": 577931,
+          "md5": "9c69cb001df175bddf6d1c2436567fb7",
+          "sha256": "c76b65200a52cf649a865baf7f879dc34277b923edaac7ec8164eaf7c51c935d"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_legs_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_diff_1k.jpg",
+          "bytes": 460937,
+          "md5": "778f1897e07ff81b2bc338f3d463ad1f",
+          "sha256": "6291421a8db6cd9bbbc8c141aa087465d698427249f813d24c6e5ccdbf0bf536"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+          "bytes": 560864,
+          "md5": "7cece7eccf75588af5b5df9b095d2c97",
+          "sha256": "af328e8530884907cf0d38a675338bb4e2b03c56ed2d21eb5abf505bb67c11de"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_arm_1k.jpg",
+          "bytes": 321223,
+          "md5": "772495ddbf26ca3de4b31298f10113b9",
+          "sha256": "fec333290ddfd70e78428251874d30d5410d6d0a956dd84922b0d3f3596e4b7a"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_diff_1k.jpg",
+          "bytes": 228851,
+          "md5": "2e4f64c633c3cb1656ad3eabdb3f0607",
+          "sha256": "f1935436b460ad5c03ac7ff9d1e1b4aaedcdc9a503d79c257beb8cdac2e9e1f7"
+        },
+        {
+          "path": "textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/modern_arm_chair_01/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+          "bytes": 302377,
+          "md5": "6804f34108fcc755f0c84dd3c638270c",
+          "sha256": "2717b9d22e1d3533e3c7436a0230b00b1d25bf396246679825c8db08edaba0a8"
+        }
+      ]
+    },
+    {
+      "id": "industrial_pipe_lamp",
+      "name": "Industrial Pipe Lamp",
+      "authors": {
+        "Mateusz Sadek": "All"
+      },
+      "source": "https://polyhaven.com/a/industrial_pipe_lamp",
+      "license": "CC0-1.0",
+      "licenseUrl": "https://polyhaven.com/license",
+      "retrieved": "2026-11-16",
+      "files": [
+        {
+          "path": "industrial_pipe_lamp.bin",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/4k/industrial_pipe_lamp/industrial_pipe_lamp.bin",
+          "bytes": 282476,
+          "md5": "57b3afbb3332f86cfb3a693f3759c4f4",
+          "sha256": "75690aa977d3bb011633ed649e058eb43ffef283f3a374f4842e411b25f82775"
+        },
+        {
+          "path": "model.gltf",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/gltf/1k/industrial_pipe_lamp/industrial_pipe_lamp_1k.gltf",
+          "bytes": 7419,
+          "md5": "d8bbade589e987381efdab60b09edfa8",
+          "sha256": "c5a84037c9183d2966c5659213a0d5190f8fce305153829d81028f6589330af7"
+        },
+        {
+          "path": "textures/industrial_pipe_lamp_arm_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_arm_1k.jpg",
+          "bytes": 771842,
+          "md5": "f8b38078596d89f70e3dc6e4320f03c0",
+          "sha256": "ed862bc1d71322cd38efde6e4b1aa6b24b9e85eb950b7e0fc82a98b1c619f7fa"
+        },
+        {
+          "path": "textures/industrial_pipe_lamp_diff_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_diff_1k.jpg",
+          "bytes": 716999,
+          "md5": "59d8793b0be49c50a7dcf239b5978386",
+          "sha256": "630c5732f1027a6acd369bac3b44c040ecbaff8f21e491a480c36715f15205ce"
+        },
+        {
+          "path": "textures/industrial_pipe_lamp_emission_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_emission_1k.jpg",
+          "bytes": 26599,
+          "md5": "2e2f1069b18bee34dba2bf9999f3d46d",
+          "sha256": "fca3fb29d89214d49842cde79125727ff308b4ba1b3912c5ebcc65846cd0cc10"
+        },
+        {
+          "path": "textures/industrial_pipe_lamp_nor_gl_1k.jpg",
+          "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/industrial_pipe_lamp/industrial_pipe_lamp_nor_gl_1k.jpg",
+          "bytes": 602864,
+          "md5": "0c32b4fc551b8fc15f2439905707398a",
+          "sha256": "deb1517375d6a054671990ae63735b8b2808038c7406136f0a61ee848acd3377"
+        }
+      ]
+    }
+  ]
+}

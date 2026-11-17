@@ -1,0 +1,23 @@
+{
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"71 帧 / 秒\",\"updateMs\":1,\"frameGapMs\":17,\"renderMs\":7,\"draws\":463,\"triangles\":25913988,\"reflectionCaptures\":1601,\"treeLods\":[3,18,99,453],\"canopyFamilies\":[231,112,110,120],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0008651737080794253,\"correction\":-0.022977650045088727,\"target\":-0.02234282375316815},\"cattle\":[{\"phase\":\"raising\",\"graze\":0.3443431037950666,\"muzzleClearance\":0.6530780943866172,\"jaw\":-0.004724083898881313,\"tail\":0.14468384398166634},{\"phase\":\"grazing\",\"graze\":1,\"muzzleClearance\":0.04403875643981803,\"jaw\":0.003915973385438266,\"tail\":0.1454013961172085}],\"pastureTufts\":1700,\"pastureBlades\":33577,\"characterCaptures\":9486}",
+      "timestamp": "2026-11-16T11:28:21.933Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"71 帧 / 秒\",\"updateMs\":1,\"frameGapMs\":13,\"renderMs\":5,\"draws\":347,\"triangles\":18269386,\"reflectionCaptures\":1660,\"treeLods\":[3,18,99,453],\"canopyFamilies\":[231,112,110,120],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":-0.00012345094971215505,\"correction\":-0.006739749262854632,\"target\":-0.005116298313142477},\"cattle\":[{\"phase\":\"looking\",\"graze\":0,\"muzzleClearance\":0.9644661301822132,\"jaw\":0.00718907315361677,\"tail\":0.11451137704368723},{\"phase\":\"grazing\",\"graze\":1,\"muzzleClearance\":0.0441105635215755,\"jaw\":0.03838484489881301,\"tail\":-0.018400075601648934}],\"pastureTufts\":1700,\"pastureBlades\":33577,\"characterCaptures\":9843}",
+      "timestamp": "2026-11-16T11:28:26.936Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"71 帧 / 秒\",\"updateMs\":1,\"frameGapMs\":21,\"renderMs\":4,\"draws\":463,\"triangles\":25913988,\"reflectionCaptures\":1720,\"treeLods\":[3,18,99,453],\"canopyFamilies\":[231,112,110,120],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":1,\"physicalPanes\":0,\"footing\":{\"samples\":160,\"clearance\":0.0012655899278977804,\"correction\":-0.015849833134741493,\"target\":-0.015615423062639274},\"cattle\":[{\"phase\":\"grazing\",\"graze\":1,\"muzzleClearance\":0.04443974655511154,\"jaw\":0.019763703005847483,\"tail\":0.07199859306904695},{\"phase\":\"grazing\",\"graze\":1,\"muzzleClearance\":0.04410965546679069,\"jaw\":-0.007898414331653798,\"tail\":-0.07786175737369785}],\"pastureTufts\":1700,\"pastureBlades\":33577,\"characterCaptures\":10199}",
+      "timestamp": "2026-11-16T11:28:31.944Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": []
+}

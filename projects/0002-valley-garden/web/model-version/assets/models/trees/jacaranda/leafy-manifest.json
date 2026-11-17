@@ -1,0 +1,69 @@
+{
+  "source": "https://polyhaven.com/a/jacaranda_tree",
+  "license": "CC0-1.0",
+  "lods": [
+    {
+      "name": "near",
+      "leafCardScale": 1.2,
+      "components": 97650,
+      "leafAreaBefore": 1787.3173828125,
+      "leafAreaAfter": 2573.7373046875
+    },
+    {
+      "name": "far",
+      "leafCardScale": 1.55,
+      "components": 33471,
+      "leafAreaBefore": 921.3349609375,
+      "leafAreaAfter": 2213.507080078125
+    },
+    {
+      "name": "distant",
+      "leafCardScale": 2.55,
+      "components": 5835,
+      "leafAreaBefore": 306.3064270019531,
+      "leafAreaAfter": 1991.75732421875
+    }
+  ],
+  "files": [
+    {
+      "path": "leafy-tree-near.bin",
+      "bytes": 19078488,
+      "sha256": "350cf7c5bc40a98cbef55bc295deb8e5f7a861ab530d3d9a6ad9bec54db20534"
+    },
+    {
+      "path": "leafy-tree-near.gltf",
+      "bytes": 5375,
+      "sha256": "d86965f2ed24f23544d547a7d8dfa14e1ddd3a4a234c95cf089331534aea6e59"
+    },
+    {
+      "path": "leafy-tree-far.bin",
+      "bytes": 5609820,
+      "sha256": "a4dc87e16960d66b6f03ea90275d8649c6d95fa6d8f29623d3e62fb1cd7ed6fc"
+    },
+    {
+      "path": "leafy-tree-far.gltf",
+      "bytes": 5356,
+      "sha256": "f622a1701f93d325c8620f1b72da2bee18b9f651f55eee0a7198021b2ea366dd"
+    },
+    {
+      "path": "leafy-tree-distant.bin",
+      "bytes": 899400,
+      "sha256": "5c89aefddc45478176b5cfffd52677a4269cd8c5568f9236164e10ee039c5ec6"
+    },
+    {
+      "path": "leafy-tree-distant.gltf",
+      "bytes": 5324,
+      "sha256": "07c089f2e9b366be3f7fa648a7cc4dee28f01d9c35f8bbda4f34b8b51aafade5"
+    },
+    {
+      "path": "textures/leaves-coverage.bin",
+      "bytes": 5592404,
+      "sha256": "336454340a992469ea92768b3d5abb8351fcbb33b33fc2e8b7c631e5cdc24a8f"
+    },
+    {
+      "path": "textures/leaves-coverage.json",
+      "bytes": 1561,
+      "sha256": "084b8cc1e2b621b71781379fa7759452c89041bb6e6c6ea6223335ace8d87586"
+    }
+  ]
+}

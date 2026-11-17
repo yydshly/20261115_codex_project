@@ -1,0 +1,113 @@
+[
+  {
+    "asset": "grass_ground",
+    "path": "lawn-color.jpg",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grass_ground/grass_ground_diff_2k.jpg",
+    "bytes": 3787330,
+    "md5": "fd97f2402677e6686b2d9159fc3a4256",
+    "sha256": "4272bddc71a7fa659d1deeb13a9df8c42e68a5ac8cde7523187e4a081e028258"
+  },
+  {
+    "asset": "grass_ground",
+    "path": "lawn-normal.jpg",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grass_ground/grass_ground_nor_gl_2k.jpg",
+    "bytes": 5968024,
+    "md5": "c8b2dd95f09868c4aacb91f62c673344",
+    "sha256": "effa95c06af273c974476d9a74a234668a1c9292f60fffb4fa40348d638ee7f3"
+  },
+  {
+    "asset": "grass_ground",
+    "path": "lawn-roughness.jpg",
+    "authors": {
+      "Charlotte Baglioni": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/grass_ground/grass_ground_rough_2k.jpg",
+    "bytes": 1525000,
+    "md5": "0685285b42a7110ce0876f676a2f79c2",
+    "sha256": "afaed95537e894b8054db38c81712a6d9504b05b560274526621d91d5a95fbe7"
+  },
+  {
+    "asset": "brown_mud_dry",
+    "path": "soil-color.jpg",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_dry/brown_mud_dry_diff_2k.jpg",
+    "bytes": 3519711,
+    "md5": "7c062619553df423ce2085c48b2ef3c8",
+    "sha256": "5f567f61a7e139101441a1209e9c174a4f92dce489b28bb168f6bfd0ca07e411"
+  },
+  {
+    "asset": "brown_mud_dry",
+    "path": "soil-normal.jpg",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_dry/brown_mud_dry_nor_gl_2k.jpg",
+    "bytes": 5092913,
+    "md5": "28547e43fce21a7ac1e71231bb84f433",
+    "sha256": "b2cc46b8497f1c4a1e9cd51883175b1ae1c4eb8862c553573efb41ca0a4088bc"
+  },
+  {
+    "asset": "brown_mud_dry",
+    "path": "soil-roughness.jpg",
+    "authors": {
+      "Rob Tuytel": "All"
+    },
+    "license": "CC0-1.0",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/brown_mud_dry/brown_mud_dry_rough_2k.jpg",
+    "bytes": 1554454,
+    "md5": "29c7d9215dae069ecf9b294fe444d0e5",
+    "sha256": "f4038e84a4b3b9b7efa95d63d66bbdca27edddb2de9b496084cf140b18d75923"
+  },
+  {
+    "asset": "Grass004",
+    "path": "lawn-fresh-color.jpg",
+    "archive_member": "Grass004_2K-JPG_Color.jpg",
+    "archive_sha256": "d7d3f08e8bb1e59aed0c3dbb85ea0b46d5308481f89b6a3fd62c0ec9e862245b",
+    "authors": {
+      "Lennart Demes / ambientCG": "asset author"
+    },
+    "license": "CC0-1.0",
+    "url": "https://ambientcg.com/get?file=Grass004_2K-JPG.zip",
+    "bytes": 7644307,
+    "sha256": "735b141c8f1972e70a45879424f1238fea9f887324173097785f4ac36e67e9a3"
+  },
+  {
+    "asset": "Grass004",
+    "path": "lawn-fresh-normal.jpg",
+    "archive_member": "Grass004_2K-JPG_NormalGL.jpg",
+    "archive_sha256": "d7d3f08e8bb1e59aed0c3dbb85ea0b46d5308481f89b6a3fd62c0ec9e862245b",
+    "authors": {
+      "Lennart Demes / ambientCG": "asset author"
+    },
+    "license": "CC0-1.0",
+    "url": "https://ambientcg.com/get?file=Grass004_2K-JPG.zip",
+    "bytes": 10015079,
+    "sha256": "15ccad231764049d6581a52076d02bb6b627df77895cb0508e4017d8a4877fef"
+  },
+  {
+    "asset": "Grass004",
+    "path": "lawn-fresh-roughness.jpg",
+    "archive_member": "Grass004_2K-JPG_Roughness.jpg",
+    "archive_sha256": "d7d3f08e8bb1e59aed0c3dbb85ea0b46d5308481f89b6a3fd62c0ec9e862245b",
+    "authors": {
+      "Lennart Demes / ambientCG": "asset author"
+    },
+    "license": "CC0-1.0",
+    "url": "https://ambientcg.com/get?file=Grass004_2K-JPG.zip",
+    "bytes": 3413801,
+    "sha256": "c449fdf1e779eb7be5a19c1d58ee28cc155ed0523a141b151f3cbc843c4ae2e3"
+  }
+]

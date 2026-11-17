@@ -1,0 +1,1124 @@
+{
+  "schema_version": 1,
+  "url": "https://github.com/yydshly/20261115_codex_project/releases/download/valley-garden-media-20261117/valley-garden-media-20261117.zip",
+  "sha256": "f9a475111fe913ffa8b5524186931144498343ace5132d5fe9c7d6b0f2648857",
+  "bytes": 221531600,
+  "scope": "Unmodified V1 and V2 runtime assets, provenance and licenses; no upstream reference video.",
+  "files": [
+    {
+      "path": "web/assets/materials/aerial-color.jpg",
+      "bytes": 666655,
+      "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+    },
+    {
+      "path": "web/assets/materials/download-manifest.json",
+      "bytes": 3717,
+      "sha256": "5d3c803daafd1a612dc06d3e3dd2f9dcbbc200bf976ee11ec8e034e314e249af"
+    },
+    {
+      "path": "web/assets/materials/grass-color.jpg",
+      "bytes": 1195394,
+      "sha256": "cfa40bc9d9417d1852db8753a8d5917f110c40101179f63543c382e39bc05e4a"
+    },
+    {
+      "path": "web/assets/materials/grass-normal.jpg",
+      "bytes": 1466049,
+      "sha256": "832328216adc0a7e1f70a31d5ee48c9ab7f2152d83816122736cf42ac4b2ebd6"
+    },
+    {
+      "path": "web/assets/materials/grass-roughness.jpg",
+      "bytes": 511385,
+      "sha256": "0c2a1d91aacb8e54a496051b59854e51e456fe858abeade778e308359ef16463"
+    },
+    {
+      "path": "web/assets/materials/gravel-color.jpg",
+      "bytes": 1014209,
+      "sha256": "4c3b6fada26a9b564ca110ad47bca5921eceefc611d970159ce559c3c50728a0"
+    },
+    {
+      "path": "web/assets/materials/gravel-normal.jpg",
+      "bytes": 1266242,
+      "sha256": "1922b18e09a95bb782794163117ea47d62771dd59501085cc95ab10081107a9d"
+    },
+    {
+      "path": "web/assets/materials/gravel-roughness.jpg",
+      "bytes": 552373,
+      "sha256": "438c97f61f31233f61c3558a73ce3a70dae410a5baddc0503582da3d3da57573"
+    },
+    {
+      "path": "web/assets/materials/rock-color.jpg",
+      "bytes": 927082,
+      "sha256": "ea48e0e47ad42c8bd312476178b1248ec66f0eb19156a26a1c222f2a40caaf2d"
+    },
+    {
+      "path": "web/assets/materials/rock-normal.jpg",
+      "bytes": 1146788,
+      "sha256": "c6423169583f31715cf0636954bad524e806848a5f2861fcea6794275f726ff0"
+    },
+    {
+      "path": "web/assets/materials/rock-roughness.jpg",
+      "bytes": 638904,
+      "sha256": "9e3d9a2fd75244892e7acb6bab2eaed1279299510a7970672c0ee27ff1c19fea"
+    },
+    {
+      "path": "web/assets/materials/sky.hdr",
+      "bytes": 1435119,
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+    },
+    {
+      "path": "web/assets/materials/SOURCES.md",
+      "bytes": 4380,
+      "sha256": "41c7d3158216f12ab8a4d0858d8a36e37d3f3adf6e3d7975fd69f3c9e8361aae"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-color.jpg",
+      "bytes": 3787330,
+      "sha256": "4272bddc71a7fa659d1deeb13a9df8c42e68a5ac8cde7523187e4a081e028258"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-fresh-color.jpg",
+      "bytes": 7644307,
+      "sha256": "735b141c8f1972e70a45879424f1238fea9f887324173097785f4ac36e67e9a3"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-fresh-normal.jpg",
+      "bytes": 10015079,
+      "sha256": "15ccad231764049d6581a52076d02bb6b627df77895cb0508e4017d8a4877fef"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-fresh-roughness.jpg",
+      "bytes": 3413801,
+      "sha256": "c449fdf1e779eb7be5a19c1d58ee28cc155ed0523a141b151f3cbc843c4ae2e3"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-normal.jpg",
+      "bytes": 5968024,
+      "sha256": "effa95c06af273c974476d9a74a234668a1c9292f60fffb4fa40348d638ee7f3"
+    },
+    {
+      "path": "web/model-version/assets/ground/lawn-roughness.jpg",
+      "bytes": 1525000,
+      "sha256": "afaed95537e894b8054db38c81712a6d9504b05b560274526621d91d5a95fbe7"
+    },
+    {
+      "path": "web/model-version/assets/ground/manifest.json",
+      "bytes": 4027,
+      "sha256": "020b21404823ae476b1f52dbb65c7928e1b92ee0dcf23917d7c9a4792c92049c"
+    },
+    {
+      "path": "web/model-version/assets/ground/soil-color.jpg",
+      "bytes": 3519711,
+      "sha256": "5f567f61a7e139101441a1209e9c174a4f92dce489b28bb168f6bfd0ca07e411"
+    },
+    {
+      "path": "web/model-version/assets/ground/soil-normal.jpg",
+      "bytes": 5092913,
+      "sha256": "b2cc46b8497f1c4a1e9cd51883175b1ae1c4eb8862c553573efb41ca0a4088bc"
+    },
+    {
+      "path": "web/model-version/assets/ground/soil-roughness.jpg",
+      "bytes": 1554454,
+      "sha256": "f4038e84a4b3b9b7efa95d63d66bbdca27edddb2de9b496084cf140b18d75923"
+    },
+    {
+      "path": "web/model-version/assets/ground/SOURCES.md",
+      "bytes": 4453,
+      "sha256": "ad9157e8765efa8e9dd758bb6fde57ea4a52a76a0f84478648f13756f42e282f"
+    },
+    {
+      "path": "web/model-version/assets/materials/brick-color.jpg",
+      "bytes": 2969950,
+      "sha256": "c37ef11bb94a533d1c758c5c7d7199264e90f19b23946766c7c59aa189c11ff6"
+    },
+    {
+      "path": "web/model-version/assets/materials/brick-normal.jpg",
+      "bytes": 3684630,
+      "sha256": "3bcb8714c450369915a9608a9e5318433a5e5df932184519bdbfd993dec16a9f"
+    },
+    {
+      "path": "web/model-version/assets/materials/brick-roughness.jpg",
+      "bytes": 1329161,
+      "sha256": "54cbcc8acdbdfbc0a38407509ef72058ef5847b5713e689fa37ce9cc504c41c1"
+    },
+    {
+      "path": "web/model-version/assets/materials/bridge/color.jpg",
+      "bytes": 2385451,
+      "sha256": "e763f1257acdfdbb31764c9ec9d480fd4efa5cc008f8b63d73a916d53d938942"
+    },
+    {
+      "path": "web/model-version/assets/materials/bridge/manifest.json",
+      "bytes": 1202,
+      "sha256": "cb1365df736683dcb63fb45adcaec775582fdd7f97aea24c770543ee1a5fabcc"
+    },
+    {
+      "path": "web/model-version/assets/materials/bridge/normal.jpg",
+      "bytes": 3184832,
+      "sha256": "d851c42bb0dbcf21012e9ca1ac308b04bc9071a4e87118ccd79eec762fd030dc"
+    },
+    {
+      "path": "web/model-version/assets/materials/bridge/roughness.jpg",
+      "bytes": 989704,
+      "sha256": "964c154545e1ac4e1cb4b2ba60960a1effa2c56c31a2c300bf78fcc499b17c52"
+    },
+    {
+      "path": "web/model-version/assets/materials/bridge/SOURCES.md",
+      "bytes": 736,
+      "sha256": "d27adfa94007ec9626cede0e88490a29b7246868e1b889dc6a56912c72361105"
+    },
+    {
+      "path": "web/model-version/assets/materials/flagstone/color.jpg",
+      "bytes": 3020379,
+      "sha256": "fe9013368539b5604602e64bfa48bef1a2a4c452fcb6894868fb556d0b14501c"
+    },
+    {
+      "path": "web/model-version/assets/materials/flagstone/manifest.json",
+      "bytes": 1138,
+      "sha256": "750cc24793f36535d03d3d98550fda5405b5ce7a1dd8c3b378bfe27948f6b864"
+    },
+    {
+      "path": "web/model-version/assets/materials/flagstone/normal.jpg",
+      "bytes": 2989093,
+      "sha256": "70427a2c81f85c0e1ee4a147e273d028c3d0188bad2583f2509d6df9a3d55b89"
+    },
+    {
+      "path": "web/model-version/assets/materials/flagstone/roughness.jpg",
+      "bytes": 1772336,
+      "sha256": "fad2e7353b9af032a36d394d33b23154ec7bce3371f9e9436cf318c5f863d64d"
+    },
+    {
+      "path": "web/model-version/assets/materials/flagstone/SOURCES.md",
+      "bytes": 801,
+      "sha256": "b6f0eaa7c47a9216942539d12e7c4921914bfffa320c4d5ef30e30597db50e9d"
+    },
+    {
+      "path": "web/model-version/assets/materials/manifest.json",
+      "bytes": 3344,
+      "sha256": "e855bddc07d7dc284c17f2f0ed72497dc0bd3f70da8787f639c860c35b626ec9"
+    },
+    {
+      "path": "web/model-version/assets/materials/plaster-color.jpg",
+      "bytes": 2568315,
+      "sha256": "0ca5245ba70777d3e41ff4566c9f8d363855461891802c55cb7dc0f6f85f084e"
+    },
+    {
+      "path": "web/model-version/assets/materials/plaster-normal.jpg",
+      "bytes": 3379814,
+      "sha256": "083579b03a8f31ec1886512e5972f3b893610bf26a2098f97910e0f46745cdc9"
+    },
+    {
+      "path": "web/model-version/assets/materials/plaster-roughness.jpg",
+      "bytes": 1604444,
+      "sha256": "a3dc1911f6e25d88fdb0031fe0cfb602eec5496084c508774c60691bed087417"
+    },
+    {
+      "path": "web/model-version/assets/materials/roof-color.jpg",
+      "bytes": 1838933,
+      "sha256": "5be7e739997e9f5560b07ee42f335d7ad70213359d48cbffc9c04ad129e9a2c4"
+    },
+    {
+      "path": "web/model-version/assets/materials/roof-normal.jpg",
+      "bytes": 2919261,
+      "sha256": "4ff2618aa5f2eac52f728b8b4f7e715d87c410719effc66eb6f528378ef9f49e"
+    },
+    {
+      "path": "web/model-version/assets/materials/roof-roughness.jpg",
+      "bytes": 1126001,
+      "sha256": "641b51370745e7e990c93542716bf46219e7415808a4cea999bb3f0683ec01bf"
+    },
+    {
+      "path": "web/model-version/assets/materials/SOURCES.md",
+      "bytes": 1317,
+      "sha256": "b0bd166b859e30f226200c6c7e0b15baea2f9d0fd7eac2b630650e3b838840af"
+    },
+    {
+      "path": "web/model-version/assets/models/architecture/bungalow-house.glb",
+      "bytes": 10268712,
+      "sha256": "bf194d518767450bdc2bfa4d90948ec274bf07f23f5e3ae767c63e20bfd9e1cb"
+    },
+    {
+      "path": "web/model-version/assets/models/architecture/garden-cottage.glb",
+      "bytes": 10375276,
+      "sha256": "13226d4a2b61aa5e3729501074d84c1112f06aa871901d6eae3db41aaf1de70f"
+    },
+    {
+      "path": "web/model-version/assets/models/architecture/manifest.json",
+      "bytes": 5322,
+      "sha256": "54e8236d84f0a176213c3183f9082b32d15299d8cc389c85abe09c03ff2bc9df"
+    },
+    {
+      "path": "web/model-version/assets/models/architecture/SOURCES.md",
+      "bytes": 5850,
+      "sha256": "440bf23919b0147de82aa997311be8b87ff59af9b7c9a2ef7a75947e620b17e1"
+    },
+    {
+      "path": "web/model-version/assets/models/architecture/two-storey-home.glb",
+      "bytes": 2120324,
+      "sha256": "193801f210572bcb1a5cbd4d6ab7caf835aaf6cfac75a0f5156b0cf1c55823ca"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/coffee_table_round_01/coffee_table_round_01.bin",
+      "bytes": 131112,
+      "sha256": "9605a0c156bff4ec87e8717a79978d85d4e750d21b3193a3d08bed16e8666035"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/coffee_table_round_01/model.gltf",
+      "bytes": 2776,
+      "sha256": "58fe785584f8999f760e590b04ce74f83962d42c9440ab9415910f63a31165dc"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/coffee_table_round_01/textures/coffee_table_round_01_arm_1k.jpg",
+      "bytes": 721708,
+      "sha256": "7221b03af475555092abd650798facbb945bf4acf02e48f8697f012d8515bf52"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/coffee_table_round_01/textures/coffee_table_round_01_diff_1k.jpg",
+      "bytes": 447037,
+      "sha256": "422b4a24a4459e1fd6d121aae4f1097dd3e467c7a8036bb1d003f955302f1d28"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/coffee_table_round_01/textures/coffee_table_round_01_nor_gl_1k.jpg",
+      "bytes": 260520,
+      "sha256": "a5912db1918b1ec925efb19179675cafc8832b082f80b2ea35c3a58b45e1aec4"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/industrial_pipe_lamp.bin",
+      "bytes": 282476,
+      "sha256": "75690aa977d3bb011633ed649e058eb43ffef283f3a374f4842e411b25f82775"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/model.gltf",
+      "bytes": 7419,
+      "sha256": "c5a84037c9183d2966c5659213a0d5190f8fce305153829d81028f6589330af7"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/textures/industrial_pipe_lamp_arm_1k.jpg",
+      "bytes": 771842,
+      "sha256": "ed862bc1d71322cd38efde6e4b1aa6b24b9e85eb950b7e0fc82a98b1c619f7fa"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/textures/industrial_pipe_lamp_diff_1k.jpg",
+      "bytes": 716999,
+      "sha256": "630c5732f1027a6acd369bac3b44c040ecbaff8f21e491a480c36715f15205ce"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/textures/industrial_pipe_lamp_emission_1k.jpg",
+      "bytes": 26599,
+      "sha256": "fca3fb29d89214d49842cde79125727ff308b4ba1b3912c5ebcc65846cd0cc10"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/industrial_pipe_lamp/textures/industrial_pipe_lamp_nor_gl_1k.jpg",
+      "bytes": 602864,
+      "sha256": "deb1517375d6a054671990ae63735b8b2808038c7406136f0a61ee848acd3377"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/manifest.json",
+      "bytes": 10354,
+      "sha256": "9951b9238bedf84420d5d2f2597f240915d9bee8a456affbc739c16d3330f2ba"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/model.gltf",
+      "bytes": 5121,
+      "sha256": "d31be520add2603447b43acedbdacf9516866f7c89e9ea9230c9edbac9cc6e6a"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/modern_arm_chair_01.bin",
+      "bytes": 240728,
+      "sha256": "8755f2f498c0bb165660379d1b045465751c16bbeaf553c8dd76bb14c16d1ff6"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_legs_arm_1k.jpg",
+      "bytes": 577931,
+      "sha256": "c76b65200a52cf649a865baf7f879dc34277b923edaac7ec8164eaf7c51c935d"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_legs_diff_1k.jpg",
+      "bytes": 460937,
+      "sha256": "6291421a8db6cd9bbbc8c141aa087465d698427249f813d24c6e5ccdbf0bf536"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+      "bytes": 560864,
+      "sha256": "af328e8530884907cf0d38a675338bb4e2b03c56ed2d21eb5abf505bb67c11de"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+      "bytes": 321223,
+      "sha256": "fec333290ddfd70e78428251874d30d5410d6d0a956dd84922b0d3f3596e4b7a"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+      "bytes": 228851,
+      "sha256": "f1935436b460ad5c03ac7ff9d1e1b4aaedcdc9a503d79c257beb8cdac2e9e1f7"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/modern_arm_chair_01/textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+      "bytes": 302377,
+      "sha256": "2717b9d22e1d3533e3c7436a0230b00b1d25bf396246679825c8db08edaba0a8"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/sofa_02/model.gltf",
+      "bytes": 4183,
+      "sha256": "5df114209f9b956ccd4831eaeef469a81339ab371d0056eb6d5d29eee08eb431"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/sofa_02/sofa_02.bin",
+      "bytes": 74864,
+      "sha256": "cb337e03211be0309afa1ded2b6cbb2d402c0f794aaf8828fba559d27a42d3f5"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/sofa_02/textures/sofa_02_arm_1k.jpg",
+      "bytes": 121752,
+      "sha256": "f2813f32cd9ec42a9080590d0953ac9e272d9baa0b22fdb5910bf325157393c6"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/sofa_02/textures/sofa_02_diff_1k.jpg",
+      "bytes": 86514,
+      "sha256": "4ff65c782578b52eee89cb96cc4e258ce1b6848e1a7655019af1f7207c749840"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/sofa_02/textures/sofa_02_nor_gl_1k.jpg",
+      "bytes": 139858,
+      "sha256": "c97a359703a8ce1cee62cbd9dc4013b611d821afb7769810983b464ebc5d0cfe"
+    },
+    {
+      "path": "web/model-version/assets/models/interior/SOURCES.md",
+      "bytes": 1945,
+      "sha256": "5f251d8b87984aab21f46a0e8f6a4c84ab7ee9305975e328b3730cee1a3869ff"
+    },
+    {
+      "path": "web/model-version/assets/models/life/cow-LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27"
+    },
+    {
+      "path": "web/model-version/assets/models/life/cow-source-manifest.json",
+      "bytes": 1055,
+      "sha256": "b6b65339b067d19c8b16dd5a21ef0f4232a7f5252ce0411c7ab1ff607be690c1"
+    },
+    {
+      "path": "web/model-version/assets/models/life/cow.glb",
+      "bytes": 6057552,
+      "sha256": "8108a8273eb4624ce48fae3c9d0bc94544df40ad46546f33c5a0a02f0e834675"
+    },
+    {
+      "path": "web/model-version/assets/models/life/gardener-LICENSE.txt",
+      "bytes": 665,
+      "sha256": "a15412842aa03ed7746551767e80808a9303edbbca02a06cfbcf354dfbd0ad27"
+    },
+    {
+      "path": "web/model-version/assets/models/life/gardener-source-manifest.json",
+      "bytes": 1136,
+      "sha256": "e2ec42ee7543ad4a0f27f45c1c223a25dce2ecdb3f01055fccdf87155869d95f"
+    },
+    {
+      "path": "web/model-version/assets/models/life/gardener.glb",
+      "bytes": 14346976,
+      "sha256": "62345960beb594398aaaf2cb970076e88796fd39da00eb8de92b98965e6e7843"
+    },
+    {
+      "path": "web/model-version/assets/models/life/manifest.json",
+      "bytes": 1438,
+      "sha256": "21a1d4d84defbcbf061b7dc79d3cd2fa1682f6da10f63b8124b6493c2b09bfa7"
+    },
+    {
+      "path": "web/model-version/assets/models/life/SOURCES.md",
+      "bytes": 2360,
+      "sha256": "73364e01aae268509429eb995e992cdd52e21354a8b85260e46454379eb34fbc"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/manifest.json",
+      "bytes": 29867,
+      "sha256": "8e942115b4fcd75ba5f5fd70a5cfa5f2ea978c26e58dcb5a004f93a0e8e5072d"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/pine_sapling_small.bin",
+      "bytes": 17771796,
+      "sha256": "b4d2fc73d53f1d8717eb5ef9a2c66957d2a53152787e543aace88fcd6fca94ef"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/pine_sapling_small_1k.gltf",
+      "bytes": 11442,
+      "sha256": "f358c01926861dd082f32dba60f7c9fba232b585a985cf38c0d2229eecf4bc48"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_bark_arm_1k.jpg",
+      "bytes": 801278,
+      "sha256": "336a4680cd571b6076b67afee2310b290b8900d9d126eb39ec1ae92e95be2ea9"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_bark_diff_1k.jpg",
+      "bytes": 725265,
+      "sha256": "5c76836b01c3536fa0e24207b67bf4f3315b53ebe2b4ecc6f08dfcf3f8d74929"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_bark_nor_gl_1k.jpg",
+      "bytes": 1016849,
+      "sha256": "05c46455531781b6cf18cae0648cf627f60ee942adaa8bcbfd1592fc2506a9e0"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_twig_alpha_1k.png",
+      "bytes": 159896,
+      "sha256": "b875969b9df9f9cbf56dca4e2809d8ed1916f5172f173b0389f050c834c5cbed"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_twig_arm_1k.jpg",
+      "bytes": 394056,
+      "sha256": "2eb0aa44124b5a4ae9401e00b23b3c916f4c3f421616ce1bb932f248fc061288"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_twig_diff_1k.jpg",
+      "bytes": 477942,
+      "sha256": "54af7d6fb664b5a38bcb118b557bc50e01e86ec54d6f1a573c3e32c649a53362"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/pine_sapling_small/textures/pine_sapling_small_twig_nor_gl_1k.jpg",
+      "bytes": 692711,
+      "sha256": "76af87821d7ff00e25768d5d97a449394fe64a21ae55d099da7f5ed46d9098c8"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_07/rock_07.bin",
+      "bytes": 468936,
+      "sha256": "e4a532a6d6cf4a08c288f501b790f32cba0528136a29959ce774c3cd39369e7e"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_07/rock_07_1k.gltf",
+      "bytes": 2979,
+      "sha256": "efcc2dcaa133ff8ad5c865dc2135772e8f5dbc83fa38db2ee2cf25382436b6e6"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_07/textures/rock_07_arm_1k.jpg",
+      "bytes": 309735,
+      "sha256": "1ed76e9a8542c76bdc6b7b018720ae1f52cd75d9f5ae719f613de3f5032cf4da"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_07/textures/rock_07_diff_1k.jpg",
+      "bytes": 635452,
+      "sha256": "8ff1965aa1664cc4abcc0131c44ee2b97ab14d6e131d7a51429ff261eeb101c8"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_07/textures/rock_07_nor_gl_1k.jpg",
+      "bytes": 766986,
+      "sha256": "57cb2210951aeb376164fce5f7c65f03e5599def04873b56cad0f173c275d78d"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_moss_set_01/rock_moss_set_01.bin",
+      "bytes": 1466380,
+      "sha256": "de8360e6175879aaf02c171911069cf5f1852547f9ca7f10e440085dbcc3315e"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_moss_set_01/rock_moss_set_01_1k.gltf",
+      "bytes": 9987,
+      "sha256": "c36675aca9c6b2be7785c2534cf413b03ec82a5a2a5407a2b1c0cdb0346c9727"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_moss_set_01/textures/rock_moss_set_01_diff_1k.jpg",
+      "bytes": 168099,
+      "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_1k.jpg",
+      "bytes": 209975,
+      "sha256": "eb4aad3f207f1dc5b624d74ae240372171626a66912bd71adf7bd3e518181d6e"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/rock_moss_set_01/textures/rock_moss_set_01_rough_1k.jpg",
+      "bytes": 82624,
+      "sha256": "4d6ec46623abd8e2cdb855f59c7ce31873ad61b36b60e4de579e9e776a497c6b"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/shrub_03.bin",
+      "bytes": 238684,
+      "sha256": "bf4df21e6d2a2bc5f00b4c9142f776171fe7da00cf960001825748067af542b6"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/shrub_03_1k.gltf",
+      "bytes": 7296,
+      "sha256": "b76d7c14bc027e834e82d3f984c32b5d060e62908aa90ff9420a637ca253a8ea"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/textures/shrub_03_alpha_1k.png",
+      "bytes": 79069,
+      "sha256": "daef00278879a024fd05216aaa1376067a5f25f1b911d08d9bbdc50fda4a0d66"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/textures/shrub_03_arm_1k.jpg",
+      "bytes": 396238,
+      "sha256": "3e2b16812a623037138eedace958210c5f3443a827bbe69663045bba5612f815"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/textures/shrub_03_diff_1k.jpg",
+      "bytes": 481841,
+      "sha256": "3cadc7aba46d3aabbd7d6d2b1d04aa32e2a7da0bc87c2d38ef3cb1ee42cb03ec"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/shrub_03/textures/shrub_03_nor_gl_1k.jpg",
+      "bytes": 504734,
+      "sha256": "ff856bacfce859b8a7555dd9a3b92fbd36b2e775d486be71df485afb4235d6c9"
+    },
+    {
+      "path": "web/model-version/assets/models/nature/SOURCES.md",
+      "bytes": 9771,
+      "sha256": "71820aac1eb0df7a0bc2b244aa78bfe790196297b0152fa20ed810c87642c3ed"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/fern_02.bin",
+      "bytes": 176176,
+      "sha256": "fe1abb762bcbbc7ad9e86925c8080437a62add257d9280e9142fdc85c226e64c"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/model-info.json",
+      "bytes": 2459,
+      "sha256": "20c04fbbc40061d343b4971b38143ea762c68e2d3748bfb554541967d6d7a0de"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/model.gltf",
+      "bytes": 6899,
+      "sha256": "33974295ee19670af4877705fc7d91f33f42d6302f0d44a625e072271223031f"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/textures/fern_02_alpha_1k.png",
+      "bytes": 114589,
+      "sha256": "ea3c64284c7ebdeedf484d2d816eae92825ec526140c3bb83859ddc7a64001f9"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/textures/fern_02_arm_1k.jpg",
+      "bytes": 280359,
+      "sha256": "ebfb5d76ce9cbdaec20bcd22dce9b755f0b1b8650ef29ca13555e3e6961025d7"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/textures/fern_02_diff_1k.jpg",
+      "bytes": 315705,
+      "sha256": "a828a6e7b4c01c826911e2eac4b3afc7457dab7b3b392a31c681ed88b7d50029"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/fern_02/textures/fern_02_nor_gl_1k.jpg",
+      "bytes": 367222,
+      "sha256": "45bce132c6e96a0864bc89ab5da51361ab3f4afa83a6669ae499ab5ca811f621"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/flower_gazania.bin",
+      "bytes": 848136,
+      "sha256": "a3864c51fce2dacb01629a0c364730e5988ac5a7a937acc0e2635c946d786797"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/model.gltf",
+      "bytes": 19686,
+      "sha256": "73c7f4094f2ad78ddfbe6373f8372ddb736a5d9fc6485db08ae32301edc95a24"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/textures/flower_gazania_arm_1k.jpg",
+      "bytes": 670914,
+      "sha256": "80800dca73ad66b8c51b089db771b7a15c9e57dfd959e0da5cde434b3d8151b4"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/textures/flower_gazania_diff_1k.jpg",
+      "bytes": 435784,
+      "sha256": "9d3022ebe7bfe0493a3e46aad87ea4746ea51df8c8b3e19294f1bb718a3147bb"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/textures/flower_gazania_nor_gl_1k.jpg",
+      "bytes": 874324,
+      "sha256": "802d0f9234ccd778c537b3b5ea3714f219d73a80ab794ea77271ab47dbbc9789"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/flower_gazania/textures/opacity_1k.png",
+      "bytes": 110222,
+      "sha256": "b6e4db1c4925217bfbb7da0c030f88acb15cc28fbfbf977a585f6b35fb2cf711"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_meadow/grass-meadow.bin",
+      "bytes": 102660,
+      "sha256": "423c63d8effb20cf53b6fc91fa8f3bb6eee4a833fb086e5135bac3a87740b8cf"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_meadow/manifest.json",
+      "bytes": 1105,
+      "sha256": "e35a6a1410ee48a5dfb96577ea4efeb5f2d561b77fdf26d60566c19cfd9c0f9b"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_meadow/model.gltf",
+      "bytes": 4934,
+      "sha256": "d6419cb1d6d6552d6b413387999258d96ea13dd5da46d8c3272eed3059fd2924"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/grass_medium_02.bin",
+      "bytes": 272048,
+      "sha256": "aa8493bc1544a89e08bf440c7ba361042bfe6ea48b1fefc7e4af2dfff42fdf4a"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/model-info.json",
+      "bytes": 3033,
+      "sha256": "fdeccbdd65adca72ecb9234046bc2f01058469bceea1008b1ecada322d10e63b"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/model.gltf",
+      "bytes": 8864,
+      "sha256": "7037f8d2dfc6aeec0bf72f4eeb96cfa3f6b3a5e6c6f0bc5de537c055b2fd5d04"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/textures/grass_medium_02_alpha_1k.png",
+      "bytes": 110617,
+      "sha256": "15976877b3dbd22cd496a9549f1eb7d86710846a3631fb87eedbf046519e339f"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/textures/grass_medium_02_arm_1k.jpg",
+      "bytes": 241181,
+      "sha256": "f0d57bfd95bff7710526b49d47cf2326ee3796e425639d53b983d1472480b57d"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/textures/grass_medium_02_diff_1k.jpg",
+      "bytes": 161235,
+      "sha256": "91ae99005b449011aceb207a68a937258fd9bfd66ff367d344c50398b1df389c"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_medium_02/textures/grass_medium_02_nor_gl_1k.jpg",
+      "bytes": 118146,
+      "sha256": "0b464550366ed72a6cad9c357e19ac4c83fc9adc87272771479138129853b300"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_mips/alpha.bin",
+      "bytes": 1398100,
+      "sha256": "d3987312e69fd60431d71137c22045b1c823cd5830f5d7ece2e7921b53623fa0"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_mips/colour.bin",
+      "bytes": 1398100,
+      "sha256": "08340e9432023627e4ae51b215a1b6fa1dd2ccf758c5bcad235307484ada69c1"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_mips/levels.json",
+      "bytes": 1424,
+      "sha256": "10ab431106e3ce8fa70b49b005a4a87578c10e5b6b4dc1e941c91bf0c4163681"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_mips/manifest.json",
+      "bytes": 651,
+      "sha256": "14326a17ae420a5404fbd4cad8e74da466e73374daa26dc64c672a979388dca3"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_short/grass-short.bin",
+      "bytes": 52056,
+      "sha256": "60979c1f72383aa1d7562a69a8bc12f2cdf5d28280bae4d916b125e198e9c900"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_short/manifest.json",
+      "bytes": 1099,
+      "sha256": "c4892554e02a5ccbdd1a42d315be68117910b263bf4db4ce3a98341a6eebfbe4"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_short/model.gltf",
+      "bytes": 4925,
+      "sha256": "aa0efcd0c968797e63d1d0243d4c5d86d9dcff5760affed71691bab6c5c606be"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/grass_short/SOURCES.md",
+      "bytes": 795,
+      "sha256": "39e06adee22dcdec343274ae36955d427a6640b76020b5bba0cf887268d72b31"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/manifest.json",
+      "bytes": 23818,
+      "sha256": "54ba0253ea25fe9afe4268ace6814d204f30dfee62682019559d3b44f1fb4c74"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/model-info.json",
+      "bytes": 3601,
+      "sha256": "fe98acbbb4993853c88f086ae65b880e3c76fe41d72760735c69a64eb702bc1d"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/model.gltf",
+      "bytes": 15189,
+      "sha256": "df781eea76123fc6eee97e6e8d466743e3a5fb08e1a2c3f5025a57e090d2cc55"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/periwinkle_plant.bin",
+      "bytes": 1859752,
+      "sha256": "f039855d84d59f764838285c2b041a5cf255d103afc856e219a62482826d9655"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/textures/periwinkle_plant_arm_1k.jpg",
+      "bytes": 281673,
+      "sha256": "d964e2e1118c2ca88c137b45590f48d83d3471fef48e913cbd57bf7122bbe4a3"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/textures/periwinkle_plant_diff_1k.jpg",
+      "bytes": 349879,
+      "sha256": "32d61084e6c07fa3ca8e03b35b347a12717f971efc90e8fe1185931ee2298c56"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/textures/periwinkle_plant_nor_gl_1k.jpg",
+      "bytes": 418428,
+      "sha256": "36d2464e7500f741500228b955c1fb0f26d954e869bd26f93dd25c0fafc5087d"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/periwinkle_plant/textures/periwinkle_plant_opacity_1k.png",
+      "bytes": 86094,
+      "sha256": "e1dc2746b641606ae2772667c719e2b593b548759a51d86ce093322c22e903de"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/model.gltf",
+      "bytes": 8083,
+      "sha256": "99de0a70fe88ad414615cc8d8e020617c8512e2abfe08b911b153a6fcc40d93e"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/shrub_02.bin",
+      "bytes": 758692,
+      "sha256": "5c1b79da1cfdbac90599542ccd1f75ba433a3a4d356b1ea03655adb39b0e2c96"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/textures/opacity_1k.png",
+      "bytes": 91741,
+      "sha256": "5c2c31bac311051db77443e1780078403c2df0a832c40fe6ed7bcd982695cdf0"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/textures/shrub_02_arm_1k.jpg",
+      "bytes": 313715,
+      "sha256": "7186bf604d5c02f873aef6de2346cc06b6fa48f47d054edbef36d2c3772c0890"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/textures/shrub_02_diff_1k.jpg",
+      "bytes": 395120,
+      "sha256": "9956eff294034d70516d867e9668428a23d782feb3d4c34061dce5e44bacd5a8"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/shrub_02/textures/shrub_02_nor_gl_1k.jpg",
+      "bytes": 490815,
+      "sha256": "54c24e433365d5410223b7ebd2b33042b80831f80976e10768114db5ef6911d7"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/manifest.json",
+      "bytes": 2190,
+      "sha256": "f6f9cb0de22512303ab5a48b6773416adc791d3de24483a1080555a615a96ada"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/model.gltf",
+      "bytes": 17428,
+      "sha256": "97e2c9b564610a1077de9e15de07acbf19f2e66619016aeebb7987e191ad3ce1"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/shrub_sorrel_01.bin",
+      "bytes": 110936,
+      "sha256": "725f46bf6d330486bf22d4b897fa1d8ef01cdc77a72f1400a3939f86740b4e5d"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/SOURCES.md",
+      "bytes": 762,
+      "sha256": "1474133f951c7679b26941e83e13eedcf37c4167dc81d7aba8b816324fd236c8"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/textures/shrub_sorrel_01_alpha_1k.png",
+      "bytes": 64408,
+      "sha256": "4788b2a1e8a53cf6f706b1e75bc4007afec3fc823fd3ccaf9b48a52dc1eb04da"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/textures/shrub_sorrel_01_arm_1k.jpg",
+      "bytes": 201949,
+      "sha256": "a1b49322e2b0ea988336fca959145dbb53b483b8f9ff2ec5f23dda20c486bdb8"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/textures/shrub_sorrel_01_diff_1k.jpg",
+      "bytes": 385129,
+      "sha256": "9aa62e57767f5b964b8d52e6406ebadb0205fa469d5a369a946fba13a3bc950f"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/sorrel/textures/shrub_sorrel_01_nor_gl_1k.jpg",
+      "bytes": 470891,
+      "sha256": "0bb2e2aba7831a4e642ad6b1985ad82b0a574930ec6982f9a1a66ad8b41a94b3"
+    },
+    {
+      "path": "web/model-version/assets/models/plants/SOURCES.md",
+      "bytes": 9741,
+      "sha256": "fa76c78eae52740c6fd87f0db2edbde0a7f4352b64500a26ed97d7f0c0372532"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-distant.bin",
+      "bytes": 1715596,
+      "sha256": "5a6a8a990b2da50cccd7061e58394c6b40fd748439a657ac3b6011323e614114"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-distant.gltf",
+      "bytes": 10728,
+      "sha256": "1dc7e6bc0c6eefc205d27587a96a68f54dc578327ccad27c8f0ac9d4d093ad35"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-far.bin",
+      "bytes": 11209680,
+      "sha256": "e86011453cd3abf0ac83fe5dd73d49b8e6ffe0d5e5f8744ec673a75363053d42"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-far.gltf",
+      "bytes": 10785,
+      "sha256": "159b3b16f17d7e78980359789ea2992552d3b7869dc96a4582e92d5df2bd4c2c"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-horizon.bin",
+      "bytes": 590824,
+      "sha256": "33b743c166819d7ae894b134b1a8c1eec7eabf626de18cd1bbfa85df43a2cd39"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-horizon.gltf",
+      "bytes": 10653,
+      "sha256": "a1d00a4b06dadb3ee6643a37a12e8a6d69c5fbeab68a1027c87ff5e2b9978d7f"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-near.bin",
+      "bytes": 22192732,
+      "sha256": "a50db13398cf0eea8dea598660156b1c2ac5c38eeab4051502fe671a86d65c29"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/fir-near.gltf",
+      "bytes": 10830,
+      "sha256": "d2fbf388f055575e5846df4e17f6fe23fd14e961a34d1c4b22b5073133bb8945"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/manifest.json",
+      "bytes": 15574,
+      "sha256": "6bcba4a9bfc97da7d619d81f2db21265e909dab9784bd471921ebb0a63cc7b67"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/SOURCES.md",
+      "bytes": 1617,
+      "sha256": "129dc731eee1c3149c34d64c7954b44dd8701d278e0a6afa2b05b7547e7c6857"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_branches_arm_1k.jpg",
+      "bytes": 789264,
+      "sha256": "95d4e9e62cd309fbc38a175e2306379c76c062425b09c0fb72c5b7356a719123"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_branches_diff_1k.jpg",
+      "bytes": 776567,
+      "sha256": "a5d25150ba1bee10008c039f98aa3c73b4477a404d6715c511ca9b5b0f4a9077"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_branches_nor_gl_1k.jpg",
+      "bytes": 1137533,
+      "sha256": "6a570ab53ab2249ecdfa93e7d3b9a8a2cb1a8ad391400e5a64c708914779b2c3"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_twigs_alpha_1k.png",
+      "bytes": 371026,
+      "sha256": "3f399629337e7ac3af27a01b08ffb9c0d60224a9dd374a1427761a5c2eea9d6e"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_twigs_arm_1k.jpg",
+      "bytes": 407309,
+      "sha256": "d66c81fc073ee7ea97a76b6da2399769f16944e50ef0e007f09c95619f597c79"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_twigs_diff_1k.jpg",
+      "bytes": 297200,
+      "sha256": "db1113d37d68d960b84eb14ce67a4022d02bf10d6f0c078d689063f6296eaa1d"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/fir_sapling_medium_twigs_nor_gl_1k.jpg",
+      "bytes": 472604,
+      "sha256": "d470dc39b1d02bbeba06feb0ad818680ef3c24623b4db597270301a5fb8c9369"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/twigs-alpha-mips.bin",
+      "bytes": 5592404,
+      "sha256": "1ab30e9927d856a65e6520c0d8058d462bc4c396747d2afcc6a6e719961d5cfc"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/twigs-colour-mips.bin",
+      "bytes": 5592404,
+      "sha256": "a76cb7e74f092f91504f8fdaeb4ecc5a6e81fe5d77f9092a0cedc02ca424376b"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/fir/textures/twigs-mips.json",
+      "bytes": 1486,
+      "sha256": "ca5bc20fa483dfa34f29263fc481366b94e7b67461cdf1cfec309b7c4f86191f"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/horizon-manifest.json",
+      "bytes": 938,
+      "sha256": "8c79d6915ac33041f1ed22f43aaa2f32ba865b116fca5243b2c7902d7588ab35"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/horizon-tree.bin",
+      "bytes": 149004,
+      "sha256": "91ba2839e872eb80e4f7c41c51705e799eaf95b13449a0f493f19a6c4324d5bd"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/horizon-tree.gltf",
+      "bytes": 5268,
+      "sha256": "433928b68d4439fc6a4eb3a1ab0a6328a140f4950dd433c346201f6563f27164"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leaf-colour-manifest.json",
+      "bytes": 2375,
+      "sha256": "7c09fd99514003bcb575766b23db46eb1ee692c0dc840cf3767cdcd578c189be"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-manifest.json",
+      "bytes": 1970,
+      "sha256": "d290567cbf2cf24cb21992f2ba0b84557f28145807be1c330a6a81104655776e"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-distant.bin",
+      "bytes": 899400,
+      "sha256": "5c89aefddc45478176b5cfffd52677a4269cd8c5568f9236164e10ee039c5ec6"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-distant.gltf",
+      "bytes": 5324,
+      "sha256": "07c089f2e9b366be3f7fa648a7cc4dee28f01d9c35f8bbda4f34b8b51aafade5"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-far.bin",
+      "bytes": 5609820,
+      "sha256": "a4dc87e16960d66b6f03ea90275d8649c6d95fa6d8f29623d3e62fb1cd7ed6fc"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-far.gltf",
+      "bytes": 5356,
+      "sha256": "f622a1701f93d325c8620f1b72da2bee18b9f651f55eee0a7198021b2ea366dd"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-near.bin",
+      "bytes": 19078488,
+      "sha256": "350cf7c5bc40a98cbef55bc295deb8e5f7a861ab530d3d9a6ad9bec54db20534"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/leafy-tree-near.gltf",
+      "bytes": 5375,
+      "sha256": "d86965f2ed24f23544d547a7d8dfa14e1ddd3a4a234c95cf089331534aea6e59"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/manifest.json",
+      "bytes": 5241,
+      "sha256": "b0c91002bb9689f56e88abed17250d0015e900052d8893f03d7bf1a05e65e7ed"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/source-manifest.json",
+      "bytes": 4304,
+      "sha256": "8e94d2e60ac951845d48d59293ebf8ef39f545e715c204885d38d1f72d2b4332"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/SOURCES.md",
+      "bytes": 4193,
+      "sha256": "476b5d90b537babe65afbaa7d548c6116a51aaf610a52d8589da356ef86d2c1d"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_branches_arm_1k.jpg",
+      "bytes": 484806,
+      "sha256": "9e3f82263247ce4f619692cea4c4f6fe9936ff465a86623481849062642c7d05"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_branches_diff_1k.jpg",
+      "bytes": 531544,
+      "sha256": "5a4fe735f0c346cec83b6b444a0169fc14d2b31bbb7b26e26b1b6c726b6e06f6"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_branches_nor_gl_1k.jpg",
+      "bytes": 819101,
+      "sha256": "2d67393ba76a0f49cf965fa0c99d8c16268e71e87b1203d35539bfdb971a514e"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_leaves_arm_1k.jpg",
+      "bytes": 332762,
+      "sha256": "577eab0a07279fb4afd24522e85e0f188058c88db4b35eb0b330005b0d745b7a"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_leaves_diff_1k.jpg",
+      "bytes": 533896,
+      "sha256": "6fe80c1f514ef690cccefb90b7e559fbd1aa9c8935fdc02523cc8ab83c22f7c2"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_leaves_nor_gl_1k.jpg",
+      "bytes": 700843,
+      "sha256": "61520be2529ffe8e3d93d4361892134833bb4657117e121749089769067914c1"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_trunk_arm_1k.jpg",
+      "bytes": 895975,
+      "sha256": "4a12e238cf3b8ba860626e99bf128e56ab41642fa4c2502a77df41a338689b78"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_trunk_diff_1k.jpg",
+      "bytes": 896938,
+      "sha256": "e5582fba664a9255252d1ee8088f75ad557f07360aa7f4513f2b2f1577e90be9"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/jacaranda_tree_trunk_nor_gl_1k.jpg",
+      "bytes": 1096100,
+      "sha256": "b2ad4e5daf8ec3fb87ba6c5f38e6a6924c9a6adebec20389f503e42da5d04587"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/leaves-colour-mips.bin",
+      "bytes": 5592404,
+      "sha256": "8f9ee4e18ca1661a81b4c93acd8e09edc1f09424a7692ec4be95d759b962d5a1"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/leaves-coverage.bin",
+      "bytes": 5592404,
+      "sha256": "336454340a992469ea92768b3d5abb8351fcbb33b33fc2e8b7c631e5cdc24a8f"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/leaves-coverage.json",
+      "bytes": 1561,
+      "sha256": "084b8cc1e2b621b71781379fa7759452c89041bb6e6c6ea6223335ace8d87586"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/textures/leaves_alpha_1k.png",
+      "bytes": 506043,
+      "sha256": "c708a7e928a2e4d26981b021a22deeefc0ebb0e467f60b53cfa636a7e24d68f7"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-distant.bin",
+      "bytes": 899400,
+      "sha256": "58a9b7b195059bce9ed45e9b05ae4e12cb71afb3aa14ec679404ffe629d7edcf"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-distant.gltf",
+      "bytes": 5314,
+      "sha256": "ceea45cca9fa5e65e69df9dd915eae5f72a4a601844c0e234a4f59e8b1d37c11"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-far.bin",
+      "bytes": 5609820,
+      "sha256": "6d10ae772500bc189e533ab0d3184cc25e6ed65f669292d9dcfd234e39359402"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-far.gltf",
+      "bytes": 5350,
+      "sha256": "944bffdd37eed51d82553837e256df3b711de6fead098e7a0347de8f3599492c"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-near.bin",
+      "bytes": 19078488,
+      "sha256": "1b98095bdb1694cff5f475f50d8cdae2e6d4d9fbba921ca6383b257c967a3bea"
+    },
+    {
+      "path": "web/model-version/assets/models/trees/jacaranda/tree-near.gltf",
+      "bytes": 5369,
+      "sha256": "d47ce9399d904aea73105b6fce6bc599bda2122f4621dc4aaf824195b1ee4fa7"
+    },
+    {
+      "path": "web/model-version/assets/terrain/attribution-upstream.md",
+      "bytes": 12300,
+      "sha256": "2ce4d3414b4592d17ad56a5af57feb480686ddcfb0a3e4ea0b566d28cde13567"
+    },
+    {
+      "path": "web/model-version/assets/terrain/kaiser-height.f32",
+      "bytes": 262144,
+      "sha256": "9a9a6ee47d2155e3825723a989105ea2e918fb5daa563c7caa9675ec7b184f2c"
+    },
+    {
+      "path": "web/model-version/assets/terrain/kaiser-terrarium.png",
+      "bytes": 136504,
+      "sha256": "fca9c9e8f149c5d712bc44ddb04032667cf424fb56a65f61b72421dd70eeff97"
+    },
+    {
+      "path": "web/model-version/assets/terrain/manifest.json",
+      "bytes": 1130,
+      "sha256": "9683e76f73684a7f87df78a0150a1b7e43a10e280f554e4f2a44382c5be29e16"
+    },
+    {
+      "path": "web/model-version/assets/terrain/SOURCES.md",
+      "bytes": 1503,
+      "sha256": "1aa575e931864e6072d90f4c8da37ead5ea6a2a45dfd943ae29640edd8656b28"
+    }
+  ]
+}

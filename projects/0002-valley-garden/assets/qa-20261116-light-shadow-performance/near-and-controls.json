@@ -1,0 +1,42 @@
+{
+  "state": {
+    "evening": "true",
+    "fps": "43 帧 / 秒",
+    "life": true,
+    "quality": "high",
+    "ready": "true"
+  },
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"59 帧 / 秒\",\"renderMs\":8,\"draws\":725,\"triangles\":27305514,\"reflectionCaptures\":1809,\"treeLods\":[2,10,136,154],\"canopyFamilies\":[119,54,68,61],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":8603}",
+      "timestamp": "2026-11-16T09:46:34.391Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"44 帧 / 秒\",\"renderMs\":10,\"draws\":862,\"triangles\":39742290,\"reflectionCaptures\":1855,\"treeLods\":[4,19,155,434],\"canopyFamilies\":[234,118,124,136],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":8687}",
+      "timestamp": "2026-11-16T09:46:39.412Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"40 帧 / 秒\",\"renderMs\":9,\"draws\":862,\"triangles\":39742290,\"reflectionCaptures\":1911,\"treeLods\":[4,19,155,434],\"canopyFamilies\":[234,118,124,136],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":8894}",
+      "timestamp": "2026-11-16T09:46:44.417Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"42 帧 / 秒\",\"renderMs\":8,\"draws\":862,\"triangles\":39742290,\"reflectionCaptures\":1966,\"treeLods\":[4,19,155,434],\"canopyFamilies\":[234,118,124,136],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":9105}",
+      "timestamp": "2026-11-16T09:46:49.432Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"42 帧 / 秒\",\"renderMs\":7,\"draws\":862,\"triangles\":39742290,\"reflectionCaptures\":2021,\"treeLods\":[4,19,155,434],\"canopyFamilies\":[234,118,124,136],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":9318}",
+      "timestamp": "2026-11-16T09:46:54.439Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": []
+}

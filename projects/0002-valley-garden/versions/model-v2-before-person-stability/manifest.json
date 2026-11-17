@@ -1,0 +1,181 @@
+{
+  "date": "2026-11-16",
+  "stage": "before person shadow and animation stability fix",
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2463,
+      "sha256": "09ef7e71f878a33a1ba5ab0bf8a5c78a51f54b265711d470f8311d4ccd387703"
+    },
+    {
+      "path": "contact-shadows.js",
+      "bytes": 5911,
+      "sha256": "73124e8d48b430351198d3dc57bb7adbbbf3329e3611267b98e2d311761043ca"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "courtyard-path.js",
+      "bytes": 5884,
+      "sha256": "ea43423e688f1adc316ef7b78ea308138994a7e6c3a095639896c862d7d6c624"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 4555,
+      "sha256": "92d31b96e6bab60c8ff3a4ef80a983c2fa83048bb4877ceb67173ea1b03318eb"
+    },
+    {
+      "path": "fine-grass.js",
+      "bytes": 5169,
+      "sha256": "5e2d44f3c1ade44b0b5a93969f76b0ab2f62598ba95e2fd97abbe726338468a0"
+    },
+    {
+      "path": "ground.js",
+      "bytes": 15414,
+      "sha256": "78d7df8289f8b308f78f4fff05287ac302683ee102a2902a991a3d6f02b8b210"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6794,
+      "sha256": "1459402b39af1b5c77c82c52a0fbfafdbb01832416f5a2920a944b1b617dbf7e"
+    },
+    {
+      "path": "interior.js",
+      "bytes": 10789,
+      "sha256": "6e5c52b07f0b2199da193efc0a8dfba2a71a5965943db7f424ecdd529edc9efb"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 7624,
+      "sha256": "de8e71047808115ae25ff88333f95c6e73a0e99996dab9bda65a9866318b26fa"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "bytes": 3302,
+      "sha256": "39b0ba9216c3b15855d5150eb28c45f7c76341e1706c4397f19fff2b20fc7f00"
+    },
+    {
+      "path": "main.js",
+      "bytes": 20640,
+      "sha256": "7cfff6c00fa483e9ae1125ccea7ca771603b53febc78596039907ae6c245df50"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 28979,
+      "sha256": "5b50a40b8f0a2bceae2fe6205ff5fcade83b693703b50b4da9df62b09ac6b5e5"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 3936,
+      "sha256": "f212deec62194264b0eab111b4471bfd9c2167a261369d10727702bda1f8e7a9"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 3493,
+      "sha256": "47842949900dad50b9dc2c0d2c63015fcd614692d2cac7f34ebe1bc338d25f6f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1114,
+      "sha256": "9d0b46d029d0119d218905e24d821341f8587265dae912da2be1bb95d9f36c94"
+    },
+    {
+      "path": "path-layout.js",
+      "bytes": 1449,
+      "sha256": "7cdac9581498254b9cfbfd49fd50cff22372d1ad310271b6bd6e819e7807cfad"
+    },
+    {
+      "path": "planting-plan.js",
+      "bytes": 3662,
+      "sha256": "cd62ff2cbf7c52c35953fab77806695ba560f442b56c648bf2c3852bc3056abf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 23892,
+      "sha256": "7f71d36ae60bad93807668806ce7fc436d11f242c851da2800c63e2458ba1a70"
+    },
+    {
+      "path": "reflection-budget.js",
+      "bytes": 2025,
+      "sha256": "685d77cb05924e123da064a5396bad4d41b1057a6c1d6cd46ee4be122e7b6aad"
+    },
+    {
+      "path": "stream-profile.js",
+      "bytes": 1292,
+      "sha256": "2aaba00cf9472894e4e4998d666dcb12dfb962b691eb87d7b0a944789239a0d9"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 8853,
+      "sha256": "ce549f1f223baa571737adecc35af8d557a32acf405704556faa6eaefbad89b7"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8333,
+      "sha256": "72d7efe317273c0e597c4efa9ee9a4d790679e82a07d2e0ce68f4b52a7e0a4be"
+    },
+    {
+      "path": "surface-field.js",
+      "bytes": 1986,
+      "sha256": "cb7dcbdd3f20c56b3d05070a9d968349abeddd91ffba6b2c9346a0cef3849f18"
+    },
+    {
+      "path": "terrain.js",
+      "bytes": 5342,
+      "sha256": "0e7ddd63564645a6373721312c6ee686838bb503d310f0cf6ce4d4ac436ddd7d"
+    },
+    {
+      "path": "timber.js",
+      "bytes": 1087,
+      "sha256": "c5ab00040d30a746898007d3ae5ff15276fd755426d19d42930002ba5fe62b91"
+    },
+    {
+      "path": "valley-geology.js",
+      "bytes": 3102,
+      "sha256": "f9d7c89baf02378327113f8d42fd5ce04be52d8927450d75909328a67fe0c0f3"
+    },
+    {
+      "path": "valley-life.js",
+      "bytes": 5549,
+      "sha256": "f7cbc7f287c1aae6cf5aed02c3ba462906fa81b5b2e6144b70786b6be9a22022"
+    },
+    {
+      "path": "valley-vegetation.js",
+      "bytes": 5193,
+      "sha256": "a7eeeaae4f3601b424dd2554deb0b28c6c2a5e77f8a5bd9493ff57eb25e8efb9"
+    },
+    {
+      "path": "valley-woodland.js",
+      "bytes": 6012,
+      "sha256": "c63bc5fb9a7524960f98ae236a5cf347504f87b39502b8b0a58b17d6b973f615"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 31138,
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 31165,
+      "sha256": "5f7d69322a36178d5cb8c560b4a673accaa6001cdca85dc175e971b0f0dd31b3"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7014,
+      "sha256": "b4d6156ffe80fb915f47a8c88ca39dd6d830080eda0d194adf5fe2c1152966ce"
+    },
+    {
+      "path": "woodland.js",
+      "bytes": 4401,
+      "sha256": "a66633e33105a26e1628e60b46ed0f6055165c644358a2b931a2dc9fd65b4ca7"
+    }
+  ]
+}

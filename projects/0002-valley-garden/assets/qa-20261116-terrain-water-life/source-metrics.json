@@ -1,0 +1,23 @@
+{
+  "canvas": {
+    "cssHeight": 871,
+    "cssWidth": 798,
+    "height": 1307,
+    "width": 1197
+  },
+  "fps": "49 帧 / 秒",
+  "life": true,
+  "quality": "high",
+  "ready": "true",
+  "url": "http://127.0.0.1:4173/model-version/",
+  "loadedAfter": "2026-11-16T08:00:31.004Z",
+  "errors": [],
+  "checked": [
+    "overview",
+    "garden walk",
+    "shore and water",
+    "morning/dusk",
+    "life visibility off/on",
+    "low/high quality"
+  ]
+}

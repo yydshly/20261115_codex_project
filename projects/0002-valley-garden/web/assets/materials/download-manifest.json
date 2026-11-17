@@ -1,0 +1,90 @@
+[
+  {
+    "file": "grass-color.jpg",
+    "asset": "leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_diff_1k.jpg",
+    "bytes": 1195394,
+    "md5": "0dbc071e91d6905edfcfbe8eb785a1ab",
+    "sha256": "cfa40bc9d9417d1852db8753a8d5917f110c40101179f63543c382e39bc05e4a"
+  },
+  {
+    "file": "grass-normal.jpg",
+    "asset": "leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+    "bytes": 1466049,
+    "md5": "8279e096e204ea326d57a318869f99df",
+    "sha256": "832328216adc0a7e1f70a31d5ee48c9ab7f2152d83816122736cf42ac4b2ebd6"
+  },
+  {
+    "file": "grass-roughness.jpg",
+    "asset": "leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_rough_1k.jpg",
+    "bytes": 511385,
+    "md5": "05f6bb1383e12b327727d313c5899cf2",
+    "sha256": "0c2a1d91aacb8e54a496051b59854e51e456fe858abeade778e308359ef16463"
+  },
+  {
+    "file": "gravel-color.jpg",
+    "asset": "gray_rocks",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gray_rocks/gray_rocks_diff_1k.jpg",
+    "bytes": 1014209,
+    "md5": "bf2b62bc5eaa54c34231f0c378c1e5ca",
+    "sha256": "4c3b6fada26a9b564ca110ad47bca5921eceefc611d970159ce559c3c50728a0"
+  },
+  {
+    "file": "gravel-normal.jpg",
+    "asset": "gray_rocks",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gray_rocks/gray_rocks_nor_gl_1k.jpg",
+    "bytes": 1266242,
+    "md5": "f29d0ac8ebec48c699e156754e50fbdf",
+    "sha256": "1922b18e09a95bb782794163117ea47d62771dd59501085cc95ab10081107a9d"
+  },
+  {
+    "file": "gravel-roughness.jpg",
+    "asset": "gray_rocks",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/gray_rocks/gray_rocks_rough_1k.jpg",
+    "bytes": 552373,
+    "md5": "47dfa9227e7a0de5debece218fcdf45e",
+    "sha256": "438c97f61f31233f61c3558a73ce3a70dae410a5baddc0503582da3d3da57573"
+  },
+  {
+    "file": "sky.hdr",
+    "asset": "kloofendal_48d_partly_cloudy_puresky",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+    "bytes": 1435119,
+    "md5": "c69498687e876bf68d2a8b8a62234eb9",
+    "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798"
+  },
+  {
+    "file": "aerial-color.jpg",
+    "asset": "aerial_grass_rock",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/aerial_grass_rock/aerial_grass_rock_diff_1k.jpg",
+    "bytes": 666655,
+    "md5": "e920ce36afd0abff000b8366d3d768d3",
+    "sha256": "57b8041bfe0d0f01430e4dbaad45e7ddddf0a9fc97317f90dbc51f7b0d9e1b5d"
+  },
+  {
+    "file": "rock-color.jpg",
+    "asset": "rock_face_03",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_diff_1k.jpg",
+    "bytes": 927082,
+    "md5": "e4c34abb1aad5befe12754fad507147a",
+    "sha256": "ea48e0e47ad42c8bd312476178b1248ec66f0eb19156a26a1c222f2a40caaf2d"
+  },
+  {
+    "file": "rock-normal.jpg",
+    "asset": "rock_face_03",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_nor_gl_1k.jpg",
+    "bytes": 1146788,
+    "md5": "cbd30858439ece391480c5e67e09de89",
+    "sha256": "c6423169583f31715cf0636954bad524e806848a5f2861fcea6794275f726ff0"
+  },
+  {
+    "file": "rock-roughness.jpg",
+    "asset": "rock_face_03",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/rock_face_03/rock_face_03_rough_1k.jpg",
+    "bytes": 638904,
+    "md5": "bbb2c7dafde3f81808fa7404d4527a56",
+    "sha256": "9e3d9a2fd75244892e7acb6bab2eaed1279299510a7970672c0ee27ff1c19fea"
+  }
+]

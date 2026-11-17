@@ -1,0 +1,15 @@
+{
+  "name": "valley-garden-model-edition",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node launch-model.mjs",
+    "check": "node --check stream-flow.js && node --check stream-motion.js && node --check cattle-attention.js && node --check cattle-grounding.js && node --check cattle-gait.js && node --check motion-review.js && node --check cattle-mouth.js && node --check cattle-roaming.js && node --check cattle-behavior.js && node --check meadow-field.js && node --check foot-grounding.js && node --check character-shadows.js && node --check glass-budget.js && node --check main.js && node --check model-assets.js && node --check interior.js && node --check vegetation.js && node --check woodland.js && node --check valley-woodland.js && node --check valley-vegetation.js && node --check landscape.js && node --check terrain.js && node --check ground.js && node --check fine-grass.js && node --check path-layout.js && node --check courtyard-path.js && node --check planting-plan.js && node --check contact-shadows.js && node --check lighting.js && node --check mountains.js && node --check timber.js && node --check reflection-budget.js && node --check surface-field.js && node --check valley-geology.js && node --check stream-profile.js && node --check valley-life.js && node --check stream.js && node --check nature.js && node --check cottage.js && node --check build.mjs && node --check launch-model.mjs && python verify.py && node verify-geometry.mjs && node verify-life-stability.mjs && node verify-render-budgets.mjs && node verify-living-valley.mjs && node verify-cattle-roaming.mjs && node verify-cattle-attention.mjs && node verify-cattle-grounding.mjs && node verify-garden-moments.mjs && node verify-garden-wildlife.mjs && node verify-wind-footsteps.mjs && node verify-actor-footsteps.mjs",
+    "check:moments": "node --check ambience.js && node --check garden-moments.js && node --check main.js && node verify-garden-moments.mjs",
+    "build": "node build.mjs",
+    "check:wildlife": "node --check garden-wildlife.js && node --check main.js && node --check model-assets.js && node verify-garden-wildlife.mjs",
+    "check:wind": "node --check wind-field.js && node --check footsteps.js && node --check ambience.js && node --check main.js && node verify-wind-footsteps.mjs",
+    "check:actors": "node --check actor-footsteps.js && node --check ambience.js && node --check main.js && node verify-actor-footsteps.mjs"
+  }
+}

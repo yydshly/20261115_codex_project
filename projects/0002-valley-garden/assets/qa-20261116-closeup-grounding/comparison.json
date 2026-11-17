@@ -1,0 +1,58 @@
+{
+  "before": {
+    "canvas": {
+      "cssHeight": 720,
+      "cssWidth": 1280,
+      "height": 720,
+      "width": 1280
+    },
+    "samples": 8,
+    "fpsRange": [
+      39,
+      40
+    ],
+    "fpsMedian": 39.0,
+    "drawRange": [
+      953,
+      1111
+    ],
+    "triangleRange": [
+      43099236,
+      52859899
+    ],
+    "treeLods": [
+      3,
+      22,
+      229,
+      403
+    ]
+  },
+  "after": {
+    "canvas": {
+      "cssHeight": 720,
+      "cssWidth": 1280,
+      "height": 720,
+      "width": 1280
+    },
+    "samples": 8,
+    "fpsRange": [
+      52,
+      80
+    ],
+    "fpsMedian": 69.0,
+    "drawRange": [
+      494,
+      651
+    ],
+    "triangleRange": [
+      21691858,
+      31443012
+    ],
+    "treeLods": [
+      3,
+      22,
+      229,
+      400
+    ]
+  }
+}

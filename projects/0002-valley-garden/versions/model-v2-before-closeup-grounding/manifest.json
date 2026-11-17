@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-16",
+  "stage": "before near-window budgets and animated foot grounding",
+  "note": "All binary assets retained in place",
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2504,
+      "sha256": "883cf98e62d166b3ec78a2ac204be073b108ba4caf2eb5ee8a6105301117712f"
+    },
+    {
+      "path": "character-shadows.js",
+      "bytes": 7818,
+      "sha256": "5b34eb23d62c3abc283dd61130b2e1cabf0167704628a288764962da8b080d50"
+    },
+    {
+      "path": "contact-shadows.js",
+      "bytes": 5911,
+      "sha256": "73124e8d48b430351198d3dc57bb7adbbbf3329e3611267b98e2d311761043ca"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "courtyard-path.js",
+      "bytes": 5884,
+      "sha256": "ea43423e688f1adc316ef7b78ea308138994a7e6c3a095639896c862d7d6c624"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 4555,
+      "sha256": "92d31b96e6bab60c8ff3a4ef80a983c2fa83048bb4877ceb67173ea1b03318eb"
+    },
+    {
+      "path": "fine-grass.js",
+      "bytes": 5169,
+      "sha256": "5e2d44f3c1ade44b0b5a93969f76b0ab2f62598ba95e2fd97abbe726338468a0"
+    },
+    {
+      "path": "glass-budget.js",
+      "bytes": 1749,
+      "sha256": "2389f4a9414061bb1f1474d474bcb18006dc68fcb08677afabd9ba21a08238e8"
+    },
+    {
+      "path": "ground.js",
+      "bytes": 15311,
+      "sha256": "fbf0aa6df9be016ebae00a52d96a40e5b11cab1eb2ef43b3c61b34d2afbab5fb"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6794,
+      "sha256": "1459402b39af1b5c77c82c52a0fbfafdbb01832416f5a2920a944b1b617dbf7e"
+    },
+    {
+      "path": "interior.js",
+      "bytes": 10789,
+      "sha256": "6e5c52b07f0b2199da193efc0a8dfba2a71a5965943db7f424ecdd529edc9efb"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 7711,
+      "sha256": "ffdc44345490de03651eca602cb869a26badef71868c973ef5419bf7a8af6cd8"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "bytes": 3974,
+      "sha256": "5fe0f6506b3b52b418d0bd77782169b3726c3697b8195b8ca0b531b83bde0b6f"
+    },
+    {
+      "path": "main.js",
+      "bytes": 21975,
+      "sha256": "c87f739f3cca86b901fb36457295eb9bd5cfcb5c6bb5e856494b877bc811269f"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 28979,
+      "sha256": "5b50a40b8f0a2bceae2fe6205ff5fcade83b693703b50b4da9df62b09ac6b5e5"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 3936,
+      "sha256": "f212deec62194264b0eab111b4471bfd9c2167a261369d10727702bda1f8e7a9"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 3493,
+      "sha256": "47842949900dad50b9dc2c0d2c63015fcd614692d2cac7f34ebe1bc338d25f6f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1251,
+      "sha256": "67defba04cfc7ca43e4d65ff6c890a3f97fff9283857dc3d5ec1a35dfe17b9bc"
+    },
+    {
+      "path": "path-layout.js",
+      "bytes": 1449,
+      "sha256": "7cdac9581498254b9cfbfd49fd50cff22372d1ad310271b6bd6e819e7807cfad"
+    },
+    {
+      "path": "planting-plan.js",
+      "bytes": 3662,
+      "sha256": "cd62ff2cbf7c52c35953fab77806695ba560f442b56c648bf2c3852bc3056abf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 25360,
+      "sha256": "200bc3d53e8381912838a01c674eebcb312ee11aa45312fd42bb2a55f62f83f6"
+    },
+    {
+      "path": "reflection-budget.js",
+      "bytes": 2025,
+      "sha256": "685d77cb05924e123da064a5396bad4d41b1057a6c1d6cd46ee4be122e7b6aad"
+    },
+    {
+      "path": "stream-profile.js",
+      "bytes": 1292,
+      "sha256": "2aaba00cf9472894e4e4998d666dcb12dfb962b691eb87d7b0a944789239a0d9"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 8853,
+      "sha256": "ce549f1f223baa571737adecc35af8d557a32acf405704556faa6eaefbad89b7"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8333,
+      "sha256": "72d7efe317273c0e597c4efa9ee9a4d790679e82a07d2e0ce68f4b52a7e0a4be"
+    },
+    {
+      "path": "surface-field.js",
+      "bytes": 1986,
+      "sha256": "cb7dcbdd3f20c56b3d05070a9d968349abeddd91ffba6b2c9346a0cef3849f18"
+    },
+    {
+      "path": "terrain.js",
+      "bytes": 5342,
+      "sha256": "0e7ddd63564645a6373721312c6ee686838bb503d310f0cf6ce4d4ac436ddd7d"
+    },
+    {
+      "path": "timber.js",
+      "bytes": 1087,
+      "sha256": "c5ab00040d30a746898007d3ae5ff15276fd755426d19d42930002ba5fe62b91"
+    },
+    {
+      "path": "valley-geology.js",
+      "bytes": 3102,
+      "sha256": "f9d7c89baf02378327113f8d42fd5ce04be52d8927450d75909328a67fe0c0f3"
+    },
+    {
+      "path": "valley-life.js",
+      "bytes": 7542,
+      "sha256": "ac1ca494047827c857feabd6727874f2afbf3d7c53f3ef51bd1ab2cb69ae6f6d"
+    },
+    {
+      "path": "valley-vegetation.js",
+      "bytes": 5193,
+      "sha256": "a7eeeaae4f3601b424dd2554deb0b28c6c2a5e77f8a5bd9493ff57eb25e8efb9"
+    },
+    {
+      "path": "valley-woodland.js",
+      "bytes": 6012,
+      "sha256": "c63bc5fb9a7524960f98ae236a5cf347504f87b39502b8b0a58b17d6b973f615"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 31138,
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 31161,
+      "sha256": "01b67314aa71bff63f10a3846284d39d89eb9a39fe9a51087a2dfe7ad1f7e6f5"
+    },
+    {
+      "path": "verify-life-stability.mjs",
+      "bytes": 2663,
+      "sha256": "f4ca73520c1f0f68eb453e3078782d4b4bd27b5c4962c2dc17aeaf7f461e8c4e"
+    },
+    {
+      "path": "verify-render-budgets.mjs",
+      "bytes": 5806,
+      "sha256": "25180fbe3ef12eb1f1ad565c244e89e9f4ecb379e873d49007592bc87b20bb24"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 7014,
+      "sha256": "b4d6156ffe80fb915f47a8c88ca39dd6d830080eda0d194adf5fe2c1152966ce"
+    },
+    {
+      "path": "woodland.js",
+      "bytes": 4401,
+      "sha256": "a66633e33105a26e1628e60b46ed0f6055165c644358a2b931a2dc9fd65b4ca7"
+    }
+  ]
+}

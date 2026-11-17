@@ -1,0 +1,76 @@
+{
+  "alphaTest": 0.28,
+  "baseCoverage": 0.11731624603271484,
+  "levels": [
+    {
+      "width": 512,
+      "height": 512,
+      "offset": 0,
+      "bytes": 1048576,
+      "coverage": 0.12035751342773438
+    },
+    {
+      "width": 256,
+      "height": 256,
+      "offset": 1048576,
+      "bytes": 262144,
+      "coverage": 0.1194915771484375
+    },
+    {
+      "width": 128,
+      "height": 128,
+      "offset": 1310720,
+      "bytes": 65536,
+      "coverage": 0.11834716796875
+    },
+    {
+      "width": 64,
+      "height": 64,
+      "offset": 1376256,
+      "bytes": 16384,
+      "coverage": 0.1181640625
+    },
+    {
+      "width": 32,
+      "height": 32,
+      "offset": 1392640,
+      "bytes": 4096,
+      "coverage": 0.12109375
+    },
+    {
+      "width": 16,
+      "height": 16,
+      "offset": 1396736,
+      "bytes": 1024,
+      "coverage": 0.13671875
+    },
+    {
+      "width": 8,
+      "height": 8,
+      "offset": 1397760,
+      "bytes": 256,
+      "coverage": 0.140625
+    },
+    {
+      "width": 4,
+      "height": 4,
+      "offset": 1398016,
+      "bytes": 64,
+      "coverage": 0.1875
+    },
+    {
+      "width": 2,
+      "height": 2,
+      "offset": 1398080,
+      "bytes": 16,
+      "coverage": 0.25
+    },
+    {
+      "width": 1,
+      "height": 1,
+      "offset": 1398096,
+      "bytes": 4,
+      "coverage": 1.0
+    }
+  ]
+}

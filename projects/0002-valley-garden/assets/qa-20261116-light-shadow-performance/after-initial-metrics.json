@@ -1,0 +1,70 @@
+{
+  "canvas": {
+    "cssHeight": 720,
+    "cssWidth": 1280,
+    "height": 720,
+    "width": 1280
+  },
+  "fps": "75 帧 / 秒",
+  "quality": "high",
+  "ready": "true",
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"82 帧 / 秒\",\"renderMs\":5,\"draws\":602,\"triangles\":26030150,\"reflectionCaptures\":1649,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":10755}",
+      "timestamp": "2026-11-16T09:20:12.967Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"82 帧 / 秒\",\"renderMs\":7,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":1709,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":11163}",
+      "timestamp": "2026-11-16T09:20:17.983Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"75 帧 / 秒\",\"renderMs\":9,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":1769,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":11543}",
+      "timestamp": "2026-11-16T09:20:22.992Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"82 帧 / 秒\",\"renderMs\":6,\"draws\":602,\"triangles\":26030150,\"reflectionCaptures\":1829,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":11913}",
+      "timestamp": "2026-11-16T09:20:27.993Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"80 帧 / 秒\",\"renderMs\":6,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":1889,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":12305}",
+      "timestamp": "2026-11-16T09:20:33.008Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"75 帧 / 秒\",\"renderMs\":5,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":1949,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":12693}",
+      "timestamp": "2026-11-16T09:20:38.013Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"84 帧 / 秒\",\"renderMs\":5,\"draws\":438,\"triangles\":17347373,\"reflectionCaptures\":2009,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":13101}",
+      "timestamp": "2026-11-16T09:20:43.012Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"overview\",\"fps\":\"81 帧 / 秒\",\"renderMs\":6,\"draws\":602,\"triangles\":26030150,\"reflectionCaptures\":2070,\"treeLods\":[2,14,119,483],\"canopyFamilies\":[243,113,131,131],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":4,\"characterCaptures\":13511}",
+      "timestamp": "2026-11-16T09:20:48.018Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "characterMap": [
+    {
+      "level": "info",
+      "message": "[character-qa] {\"captures\":1,\"resolution\":1024,\"enabled\":1,\"occupiedFraction\":0.004046440124511719}",
+      "timestamp": "2026-11-16T09:17:48.821Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": []
+}

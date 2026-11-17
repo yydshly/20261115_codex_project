@@ -1,0 +1,9 @@
+{
+  "snapshot_files": 46,
+  "source_build_js_files": 28,
+  "runtime_js_match_after_documented_path_rewrites": true,
+  "page_css_credits_match": true,
+  "full_npm_check": "passed",
+  "original_27_files_byte_identical": true,
+  "life_max_step_degrees": 4.85
+}

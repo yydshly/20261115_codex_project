@@ -1,0 +1,46 @@
+{
+  "before": {
+    "canvas": {
+      "cssHeight": 720,
+      "cssWidth": 1280,
+      "height": 720,
+      "width": 1280
+    },
+    "samples": 8,
+    "fpsRange": [
+      50,
+      51
+    ],
+    "fpsMedian": 50.0,
+    "drawRange": [
+      841,
+      1119
+    ],
+    "triangleRange": [
+      34091254,
+      51253499
+    ]
+  },
+  "after": {
+    "canvas": {
+      "cssHeight": 720,
+      "cssWidth": 1280,
+      "height": 720,
+      "width": 1280
+    },
+    "samples": 15,
+    "fpsRange": [
+      58,
+      85
+    ],
+    "fpsMedian": 69,
+    "drawRange": [
+      438,
+      602
+    ],
+    "triangleRange": [
+      17347373,
+      26030150
+    ]
+  }
+}

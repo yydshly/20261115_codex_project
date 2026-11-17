@@ -1,0 +1,33 @@
+{
+  "snapshot_root_files": 39,
+  "build_runtime_js": 29,
+  "source_build_match_after_expected_path_rewrites": true,
+  "original_27_files_byte_identical": true,
+  "full_npm_check": "passed",
+  "sole_samples": 160,
+  "full_shoe_vertices": 19682,
+  "observed_full_shoe_clearance_mm": [
+    -1.5399906013424391,
+    5.637261247671249
+  ],
+  "maximum_root_step_mm": 4.912428842997141,
+  "maximum_limb_step_degrees": 4.85,
+  "changed_root_files": [
+    "build.mjs",
+    "courtyard-path.js",
+    "glass-budget.js",
+    "landscape.js",
+    "main.js",
+    "package.json",
+    "README.md",
+    "valley-life.js",
+    "verify-geometry.mjs",
+    "verify-life-stability.mjs",
+    "verify-render-budgets.mjs"
+  ],
+  "new_runtime_files": [
+    "foot-grounding.js"
+  ],
+  "latest_main_syntax_checked": true,
+  "diagnostic_timing_fields_added_after_full_check": true
+}

@@ -1,0 +1,13 @@
+{
+  "checkExitCode": 0,
+  "buildExitCode": 0,
+  "runtimeScripts": 34,
+  "sourceAndPackageMatch": true,
+  "snapshotRootFilesVerified": 48,
+  "preservedOriginalFiles": 27,
+  "existingModelFiles": 146,
+  "gltfDependencies": 169,
+  "maxJointStepDegrees30HzFlatFixture": 10.507719836995866,
+  "browserVisualVerification": "pending; desktop control was stopped with Escape before completing the sequence",
+  "finalScreenshots": false
+}

@@ -1,0 +1,14 @@
+{
+  "snapshot_root_files": 41,
+  "matching_runtime_scripts": 31,
+  "full_npm_check": "passed",
+  "build": "passed",
+  "original_27_files_byte_identical": true,
+  "retained_model_files_hash_checked": 146,
+  "cow_cycle_seconds": 38,
+  "cow_hoof_drift_test_m": 0,
+  "minimum_tested_head_clearance_m": 0.045,
+  "floating_leaves": 16,
+  "main_pasture_scan_tufts": 1700,
+  "main_pasture_fine_blades": 33577
+}

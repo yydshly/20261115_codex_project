@@ -1,0 +1,20 @@
+[
+  {
+    "level": "info",
+    "message": "[contact-qa] {\"captures\":1,\"min\":41,\"mean\":222,\"coveredFraction\":0.232,\"house\":41,\"openLawn\":255}",
+    "timestamp": "2026-11-16T04:59:22.262Z",
+    "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+  },
+  {
+    "level": "info",
+    "message": "[contact-qa] {\"style\":\"bungalow\",\"captures\":2,\"min\":41,\"mean\":213,\"coveredFraction\":0.277,\"house\":41,\"openLawn\":255}",
+    "timestamp": "2026-11-16T05:00:52.122Z",
+    "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+  },
+  {
+    "level": "info",
+    "message": "[contact-qa] {\"style\":\"imported\",\"captures\":3,\"min\":41,\"mean\":222,\"coveredFraction\":0.232,\"house\":41,\"openLawn\":255}",
+    "timestamp": "2026-11-16T05:01:30.433Z",
+    "url": "http://127.0.0.1:4173/model-version/dist/main.js"
+  }
+]

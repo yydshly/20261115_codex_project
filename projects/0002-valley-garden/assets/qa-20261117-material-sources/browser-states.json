@@ -1,0 +1,195 @@
+[
+  {
+    "label": "external-cow",
+    "category": "all",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "牧场中的两头牛",
+        "id": "source-item-cow",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/animals/cow/"
+      }
+    ],
+    "query": "牛",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 1 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "procedural-cow",
+    "category": "all",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "牛的骨骼、慢走、接地、吃草与尾摆",
+        "id": "source-item-cow_behaviour",
+        "license": "许可 / 项目实现 · 未单独声明素材许可"
+      },
+      {
+        "element": "溪水、鸟鸣、风声、脚步与牛蹄声",
+        "id": "source-item-audio",
+        "license": "许可 / 项目实现 · 未单独声明素材许可"
+      }
+    ],
+    "query": "牛",
+    "selected": [
+      "程序内容 12"
+    ],
+    "status": "显示 2 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "linked-original",
+    "category": "人物与动物",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "花径上的庭院人物",
+        "id": "source-item-gardener",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/characters/elderly-woman/"
+      },
+      {
+        "element": "牧场中的两头牛",
+        "id": "source-item-cow",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/animals/cow/"
+      }
+    ],
+    "query": "",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 2 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "terrain-license",
+    "category": "天空与高程",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "天空背景与环境照明",
+        "id": "source-item-kloofendal_48d_partly_cloudy_puresky",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky"
+      },
+      {
+        "element": "精致素材版远山高程",
+        "id": "source-item-kaiser_elevation",
+        "license": "许可 / 按数据源分别署名 · 含 CC BY 3.0 AT ↗",
+        "original": "https://s3.amazonaws.com/elevation-tiles-prod/terrarium/12/2188/1431.png"
+      }
+    ],
+    "query": "",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 2 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "empty-result",
+    "category": "天空与高程",
+    "empty": true,
+    "error": false,
+    "frames": 0,
+    "items": [],
+    "query": "没有这项素材_xyz",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 0 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "incoming-deep-link",
+    "category": "人物与动物",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "花径上的庭院人物",
+        "id": "source-item-gardener",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/characters/elderly-woman/"
+      },
+      {
+        "element": "牧场中的两头牛",
+        "id": "source-item-cow",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/animals/cow/"
+      }
+    ],
+    "query": "",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 2 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "dependency-search",
+    "category": "all",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "近地形起伏、草土分布与细草",
+        "id": "source-item-valley_ground",
+        "license": "许可 / 项目实现 · 未单独声明素材许可"
+      }
+    ],
+    "query": "Grass004",
+    "selected": [
+      "程序内容 12"
+    ],
+    "status": "显示 1 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "classic-code-source",
+    "category": "all",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "代码版主体与保留的经典白屋",
+        "id": "source-item-v1_geometry",
+        "license": "许可 / 项目实现 · 未单独声明素材许可"
+      }
+    ],
+    "query": "经典",
+    "selected": [
+      "程序内容 12"
+    ],
+    "status": "显示 1 / 49 条记录 · 按获取时本地记录整理"
+  },
+  {
+    "label": "final-cow-record",
+    "category": "all",
+    "empty": false,
+    "error": false,
+    "frames": 0,
+    "items": [
+      {
+        "element": "牧场中的两头牛",
+        "id": "source-item-cow",
+        "license": "许可 / CC0 1.0 ↗",
+        "original": "https://grab3d.com/models/animals/cow/"
+      }
+    ],
+    "query": "牛",
+    "selected": [
+      "外部素材与依赖 37"
+    ],
+    "status": "显示 1 / 49 条记录 · 按获取时本地记录整理"
+  }
+]

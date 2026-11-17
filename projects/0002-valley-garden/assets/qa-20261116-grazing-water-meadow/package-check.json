@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/dist/?inspect=1&fixed=1&view=pasture&time=0",
+  "state": {
+    "pasture": "true",
+    "ready": "true",
+    "waterButton": true
+  },
+  "errors": []
+}

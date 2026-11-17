@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-15",
+  "assets": [
+    {
+      "id": "innerscene-bungalow-house-85d40048",
+      "name": "Bungalow house",
+      "file": "bungalow-house.glb",
+      "author": "Innerscene Corp",
+      "source_page": "https://www.innerscene.com/tools/library/3d-parts/bungalow-house-85d40048",
+      "source_viewer": "https://www.innerscene.com/v/42axkERpWco2ZDcxYHeI8t",
+      "download_entry": "https://www.innerscene.com/api/library/bungalow-house-85d40048/download",
+      "download_url": "https://files.innerscene.com/library/bungalow-house-85d40048/f10f4a431ea91a445691/bungalow-house.glb",
+      "license": "CC0-1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.en",
+      "terms_url": "https://www.innerscene.com/tools/library/terms",
+      "bytes": 10268712,
+      "sha256": "bf194d518767450bdc2bfa4d90948ec274bf07f23f5e3ae767c63e20bfd9e1cb",
+      "modified": false,
+      "gltf_version": "2.0",
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "mesh_count": 105,
+      "mesh_node_count": 105,
+      "node_count": 106,
+      "primitive_count": 105,
+      "triangle_count": 14796,
+      "material_count": 8,
+      "embedded_png_texture_count": 8,
+      "texture_dimensions": [
+        2048,
+        2048
+      ],
+      "texture_channels_present": [
+        "baseColor"
+      ],
+      "texture_channels_absent": [
+        "normal",
+        "occlusion",
+        "metallicRoughness"
+      ],
+      "bounds_metres": {
+        "min": [
+          -6.449999809265137,
+          0,
+          -6.406000137329102
+        ],
+        "max": [
+          6.449999809265137,
+          5.957846164703369,
+          6.406000137329102
+        ],
+        "size": [
+          12.899999618530273,
+          5.957846164703369,
+          12.812000274658203
+        ]
+      },
+      "up_axis": "+Y",
+      "front_entrance_facing": "+Z",
+      "base_y": 0,
+      "body_footprint_metres": {
+        "minX": -6,
+        "maxX": 6,
+        "minZ": -5.56,
+        "maxZ": 4.44
+      },
+      "front_door_center_metres": [
+        0,
+        1.425,
+        4.345
+      ],
+      "external_dependencies": [],
+      "extensions_required": [
+        "KHR_texture_transform"
+      ],
+      "extensions_used": [
+        "KHR_materials_transmission",
+        "KHR_materials_specular",
+        "KHR_materials_ior",
+        "KHR_texture_transform"
+      ],
+      "material_names": [
+        "Original black finished iron",
+        "Original warm white outdoor paint",
+        "Original warm sandstone",
+        "Original finished oak",
+        "Original brass",
+        "Original clear glazing",
+        "Original fine cream mineral render",
+        "Original red clay roof tile;200x300mm module"
+      ],
+      "verification": {
+        "binary_header_and_hash": "passed",
+        "geometry_and_material_data": "parsed",
+        "browser_visual_quality": "pending_root_integration",
+        "notes": "One-storey cream-render bungalow with original red clay roof and small porch. More architectural detail than a primitive placeholder, but not an exact match of the source cottage. Source GLB is preserved without changes."
+      }
+    },
+    {
+      "id": "innerscene-two-storey-home-9c7f4356",
+      "name": "Small two-storey starter home 8 x 8 m with hip roof",
+      "author": "Innerscene Corp",
+      "file": "two-storey-home.glb",
+      "license": "CC0-1.0",
+      "source_page": "https://www.innerscene.com/tools/library/3d-parts/small-two-storey-starter-home-8-x-8-m-with-hip-roof-9c7f4356",
+      "download_url": "https://files.innerscene.com/library/small-two-storey-starter-home-8-x-8-m-with-hip-roof-9c7f4356/93f93889ed08aedcd0c0/small-two-storey-starter-home-8-x-8-m-with-hip-roof.glb",
+      "bytes": 2120324,
+      "sha256": "193801f210572bcb1a5cbd4d6ab7caf835aaf6cfac75a0f5156b0cf1c55823ca",
+      "modified": false,
+      "mesh_count": 14,
+      "material_count": 9,
+      "triangle_count": 2268,
+      "embedded_image_count": 8,
+      "copyright": "Authored by Innerscene Corp (innerscene.com). Public domain: dedicated under CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/. Free to use, modify and redistribute for any purpose, with no credit required."
+    },
+    {
+      "id": "innerscene-garden-cottage-bc88ab4f",
+      "name": "Cottage with pitched roof",
+      "author": "Innerscene Corp",
+      "file": "garden-cottage.glb",
+      "source_page": "https://www.innerscene.com/tools/library/3d-parts/cottage-with-pitched-roof-bc88ab4f",
+      "download_url": "https://files.innerscene.com/library/cottage-with-pitched-roof-bc88ab4f/dbfc87e1e275a68f0254/cottage-with-pitched-roof.glb",
+      "license": "CC0-1.0",
+      "bytes": 10375276,
+      "sha256": "13226d4a2b61aa5e3729501074d84c1112f06aa871901d6eae3db41aaf1de70f",
+      "modified": false,
+      "mesh_count": 105,
+      "triangle_count": 14716,
+      "embedded_images": 8,
+      "copyright": "Authored by Innerscene Corp (innerscene.com). Public domain: dedicated under CC0 1.0 Universal, https://creativecommons.org/publicdomain/zero/1.0/. Free to use, modify and redistribute for any purpose, with no credit required."
+    }
+  ]
+}

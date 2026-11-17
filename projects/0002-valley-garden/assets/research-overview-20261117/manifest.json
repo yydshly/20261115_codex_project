@@ -1,0 +1,26 @@
+{
+  "created_on": "2026-11-17",
+  "file": "valley-garden-research-overview.png",
+  "width": 1086,
+  "height": 1448,
+  "bytes": 2175452,
+  "sha256": "07440f438704d48c48f582d0431e7a9f528262a0deb94a9c29c61df0690a104f",
+  "method": "built-in image_gen; infographic/compositing with project runtime screenshots",
+  "prompt": "prompt.txt",
+  "reference_images": [
+    {
+      "path": "web/overview/assets/code-overview.jpg",
+      "sha256": "9e66d311a4e99828d41857078f8e95b189b39469383950473d5130816be724c4"
+    },
+    {
+      "path": "web/overview/assets/models-overview.jpg",
+      "sha256": "8990e5d666fb08ff93137014646591ed8080b6d46489c07f7fe5dac348257224"
+    }
+  ],
+  "facts_basis": [
+    "web/overview/index.html",
+    "web/overview/assets/source-catalog.json"
+  ],
+  "unchanged_scene_files": 81,
+  "note": "AI-assisted infographic layout based on retained runtime screenshots; original screenshots and both scenes remain separately preserved."
+}

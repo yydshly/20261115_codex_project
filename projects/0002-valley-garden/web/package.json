@@ -1,0 +1,14 @@
+{
+  "name": "valley-garden",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check main.js && node --check landscape.js && node --check cottage.js && node --check vegetation.js && node --check nature.js && node --check server.mjs && node --check build.mjs && node --check launch.mjs",
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

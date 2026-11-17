@@ -1,0 +1,23 @@
+{
+  "url": "http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1",
+  "frameTimes": [
+    1794844408064,
+    1794844408300,
+    1794844408497,
+    1794844408696,
+    1794844408898,
+    1794844409097,
+    1794844409313,
+    1794844409533,
+    1794844409719,
+    1794844409914,
+    1794844410137,
+    1794844410356,
+    1794844410551,
+    1794844410743
+  ],
+  "states": [
+    "Browser tab: 1, Title: \"溪谷花园 · 模型资产版\", URL: \"http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\n~\t\t\t43 text 溪畔木桥\n~\t\t\t45 text 时间 24.29 · walking · 看向 10.3° · 嘴缝 4.1 mm · 尾摆 -2.5° · 渲染错误 0\nThe focused UI element is 31 button 行走侧面",
+    "Browser tab: 1, Title: \"溪谷花园 · 模型资产版\", URL: \"http://127.0.0.1:4173/model-version/?inspect=1&review=1&fixed=1&view=cowSide&time=1\".\nThe following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.\nRemoved element IDs: 43, 45\n+\t\t\t45 text 溪谷牧场\n+\t\t\t46 text 时间 27.32 · lowering · 看向 -2.0° · 嘴缝 2.2 mm · 尾摆 7.7° · 渲染错误 0\nThe focused UI element is 31 button 行走侧面"
+  ]
+}

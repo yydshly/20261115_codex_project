@@ -1,0 +1,207 @@
+{
+  "stage": "before terrain, water and life refinement",
+  "date": "2026-11-16",
+  "note": "Existing binary models and textures remain in place unchanged. This archive preserves source and tools.",
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2373,
+      "sha256": "65b26c954c6358bbbd9eaca680f65393b6d112d1d2b235735ecac748834ca176"
+    },
+    {
+      "path": "contact-shadows.js",
+      "bytes": 5911,
+      "sha256": "73124e8d48b430351198d3dc57bb7adbbbf3329e3611267b98e2d311761043ca"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "courtyard-path.js",
+      "bytes": 5884,
+      "sha256": "ea43423e688f1adc316ef7b78ea308138994a7e6c3a095639896c862d7d6c624"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 4134,
+      "sha256": "735df8ceff423725cc106fd98cce806fa3c15fe856e3e8476e97c4f5024d1823"
+    },
+    {
+      "path": "fine-grass.js",
+      "bytes": 5169,
+      "sha256": "5e2d44f3c1ade44b0b5a93969f76b0ab2f62598ba95e2fd97abbe726338468a0"
+    },
+    {
+      "path": "ground.js",
+      "bytes": 13057,
+      "sha256": "cca835ce9f4009438e9cc4f1e0a7f20c0e413f46ef036a37595da99d860826dd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6664,
+      "sha256": "d10ea99647c01a7f11e35e5a1ec22270051cab5ef2cd20cb63c524af39a27690"
+    },
+    {
+      "path": "interior.js",
+      "bytes": 10789,
+      "sha256": "6e5c52b07f0b2199da193efc0a8dfba2a71a5965943db7f424ecdd529edc9efb"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 7468,
+      "sha256": "26e31b8131dba962c0e53d2c117e3e9730840c08d59cf01df1583ee65b791d81"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "bytes": 3302,
+      "sha256": "39b0ba9216c3b15855d5150eb28c45f7c76341e1706c4397f19fff2b20fc7f00"
+    },
+    {
+      "path": "main.js",
+      "bytes": 19731,
+      "sha256": "d344f8aca69b5b0969bf9f4fce53baea08f23c02e56c8b92ac845f7ade541e4f"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 28979,
+      "sha256": "5b50a40b8f0a2bceae2fe6205ff5fcade83b693703b50b4da9df62b09ac6b5e5"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 3936,
+      "sha256": "f212deec62194264b0eab111b4471bfd9c2167a261369d10727702bda1f8e7a9"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 3493,
+      "sha256": "47842949900dad50b9dc2c0d2c63015fcd614692d2cac7f34ebe1bc338d25f6f"
+    },
+    {
+      "path": "package.json",
+      "bytes": 982,
+      "sha256": "b0f567043fe5e52f4be6351cdea1d80a9b14d3ca90d5ed69eeeac215f676a9f7"
+    },
+    {
+      "path": "path-layout.js",
+      "bytes": 1449,
+      "sha256": "7cdac9581498254b9cfbfd49fd50cff22372d1ad310271b6bd6e819e7807cfad"
+    },
+    {
+      "path": "planting-plan.js",
+      "bytes": 3662,
+      "sha256": "cd62ff2cbf7c52c35953fab77806695ba560f442b56c648bf2c3852bc3056abf"
+    },
+    {
+      "path": "README.md",
+      "bytes": 22639,
+      "sha256": "7473f2ea074c588277eab758bf7bc40746046c86643b0d739884284690152d01"
+    },
+    {
+      "path": "reflection-budget.js",
+      "bytes": 2025,
+      "sha256": "685d77cb05924e123da064a5396bad4d41b1057a6c1d6cd46ee4be122e7b6aad"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 6890,
+      "sha256": "f316ac2ed370115a72c07eda38e1d1499095412b0327164eb84075c175b93f4c"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8259,
+      "sha256": "87676b722fce497ce68e92c2406120ed445727fe0beec71162aa39c52edc6cfd"
+    },
+    {
+      "path": "terrain.js",
+      "bytes": 4778,
+      "sha256": "b957e622077dbecc4754e17e735972015d5368722a74fc3bd74dc80e870e6fd3"
+    },
+    {
+      "path": "timber.js",
+      "bytes": 1087,
+      "sha256": "c5ab00040d30a746898007d3ae5ff15276fd755426d19d42930002ba5fe62b91"
+    },
+    {
+      "path": "valley-vegetation.js",
+      "bytes": 4653,
+      "sha256": "1c7f96b854cef517ed60a46350d9ceeb3efd044a7b9b573bbb8293d8a38be31b"
+    },
+    {
+      "path": "valley-woodland.js",
+      "bytes": 5898,
+      "sha256": "4a575681d936def7a25d4360cd4576853f86dcdf45b280592e8c91d3000636a6"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 31138,
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 26701,
+      "sha256": "b6852dbbe45a35f5ffe9f5569463257d1a51e5cf630a3b854c150be4a5e3207b"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 6707,
+      "sha256": "4311d3fc4f5acd71ba3aa37ad787b3e6bce8bb52a6de041b05399da7af535032"
+    },
+    {
+      "path": "woodland.js",
+      "bytes": 4401,
+      "sha256": "a66633e33105a26e1628e60b46ed0f6055165c644358a2b931a2dc9fd65b4ca7"
+    },
+    {
+      "path": "tools/prepare-fir-lods.mjs",
+      "bytes": 6942,
+      "sha256": "89f50f443819f106a38629ec8831225d93e831d4f6af96bbc911c0ba4e8ba07a"
+    },
+    {
+      "path": "tools/prepare-fir-mips.py",
+      "bytes": 2782,
+      "sha256": "ee8b4e944aeb0ac49b0203d89ba79ca7b8200e6c6dc3d29b49481a4cf880c34d"
+    },
+    {
+      "path": "tools/prepare-grass-mips.py",
+      "bytes": 2650,
+      "sha256": "80798dec37bc4aca3484eb7bd32302060af6ec26f72846be45ec3999efc01f58"
+    },
+    {
+      "path": "tools/prepare-horizon-tree.mjs",
+      "bytes": 4994,
+      "sha256": "b4238142d3867bed21fe1e9b1b0b6a3300fa970361ff20e247ba5f59bbb1fe45"
+    },
+    {
+      "path": "tools/prepare-leaf-colour.py",
+      "bytes": 2091,
+      "sha256": "4f10d6de9a32757fce7b2375a2f1bf8b98b8df98d49df157947d639df68486c6"
+    },
+    {
+      "path": "tools/prepare-leafy-trees.py",
+      "bytes": 4309,
+      "sha256": "1f67a1f937390e32d57e8ff555a693befd0b5950f59b3687c2bcb9d4d605c760"
+    },
+    {
+      "path": "tools/prepare-mature-tree.mjs",
+      "bytes": 6215,
+      "sha256": "185d04e31e5cc60ae49ba42dd4cae0bc3153f1bddb0a0144b4be325d9e6c514e"
+    },
+    {
+      "path": "tools/prepare-short-grass.mjs",
+      "bytes": 3812,
+      "sha256": "2e033e455313698eae14c258c40c564621afbd266e1e0a8c8eb45a31df4b3a46"
+    },
+    {
+      "path": "tools/README.md",
+      "bytes": 910,
+      "sha256": "e6a396ea60373dbefc18be39a548af687db9072952339518b4778bb7116e97db"
+    }
+  ]
+}

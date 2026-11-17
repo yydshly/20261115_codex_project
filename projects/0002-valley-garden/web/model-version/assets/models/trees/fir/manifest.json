@@ -1,0 +1,530 @@
+{
+  "source": "https://polyhaven.com/a/fir_sapling_medium",
+  "authors": {
+    "Rob Tuytel": "photography",
+    "Rico Cilliers": "modeling"
+  },
+  "license": "CC0-1.0",
+  "sourceBytes": 78427962,
+  "tool": "meshoptimizer 1.3.0 (MIT)",
+  "variants": [
+    {
+      "min": [
+        -2.5522518157958984,
+        -0.08824774622917175,
+        -2.5556671619415283
+      ],
+      "max": [
+        2.4356377124786377,
+        8.738079071044922,
+        2.720205783843994
+      ],
+      "origin": [
+        0.006524280179291964,
+        0,
+        0.003642770849789182
+      ]
+    },
+    {
+      "min": [
+        -2.0442657470703125,
+        -0.1179756447672844,
+        -1.9368314743041992
+      ],
+      "max": [
+        2.2243492603302,
+        7.677277565002441,
+        2.0210678577423096
+      ],
+      "origin": [
+        0.0062008670065552,
+        0,
+        0.0041383892530575395
+      ]
+    },
+    {
+      "min": [
+        -2.0658557415008545,
+        -0.15227434039115906,
+        -1.9424171447753906
+      ],
+      "max": [
+        2.240671157836914,
+        5.7544779777526855,
+        2.0708866119384766
+      ],
+      "origin": [
+        0.006240909569896758,
+        0,
+        0.004055585848012318
+      ]
+    }
+  ],
+  "lods": [
+    {
+      "name": "near",
+      "triangles": 317429,
+      "parts": [
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 8490,
+          "error": 0
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 99742,
+          "error": 0.0006103512714616954,
+          "sourceArea": 53.73458861945027,
+          "retainedArea": 51.047859188477766,
+          "leafScale": 1.3213347291598077
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 600,
+          "error": 0.003082145471125841
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 3710,
+          "error": 0
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 99957,
+          "error": 0.0005459107924252748,
+          "sourceArea": 33.85868374382237,
+          "retainedArea": 32.16574955663125,
+          "leafScale": 1.1459781842717738
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 598,
+          "error": 0.0034384827595204115
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 3780,
+          "error": 0
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 99954,
+          "error": 0.0007117720087990165,
+          "sourceArea": 34.59003056332068,
+          "retainedArea": 32.86052903515465,
+          "leafScale": 1.1502032905337767
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 598,
+          "error": 0.003439732128754258
+        }
+      ]
+    },
+    {
+      "name": "far",
+      "triangles": 141756,
+      "parts": [
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 2317,
+          "error": 0.0025395459961146116
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 44499,
+          "error": 0.0007720322464592755,
+          "sourceArea": 53.73458861945027,
+          "retainedArea": 51.04785918847776,
+          "leafScale": 1.72058586997204
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 178,
+          "error": 0.006829862017184496
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 2397,
+          "error": 0.0009278059587813914
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 44805,
+          "error": 0.0007910871063359082,
+          "sourceArea": 33.85868374382237,
+          "retainedArea": 32.165749556631255,
+          "leafScale": 1.4594663294937091
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 175,
+          "error": 0.0076040648855268955
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 2399,
+          "error": 0.0012810617918148637
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 44815,
+          "error": 0.0010357546852901578,
+          "sourceArea": 34.59003056332068,
+          "retainedArea": 32.86052903515465,
+          "leafScale": 1.469674257215647
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 171,
+          "error": 0.007609987165778875
+        }
+      ]
+    },
+    {
+      "name": "distant",
+      "triangles": 29425,
+      "parts": [
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 290,
+          "error": 0.006860603578388691
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 9632,
+          "error": 0.0010641569970175624,
+          "sourceArea": 53.73458861945027,
+          "retainedArea": 51.047859188477766,
+          "leafScale": 2.8166072545513514
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 46,
+          "error": 0.01098289992660284
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 276,
+          "error": 0.006005072500556707
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 9393,
+          "error": 0.001091768266633153,
+          "sourceArea": 33.85868374382237,
+          "retainedArea": 32.16574955663125,
+          "leafScale": 2.4957248114937944
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 49,
+          "error": 0.012555532157421112
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 274,
+          "error": 0.008013268001377583
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 9416,
+          "error": 0.0014235485577955842,
+          "sourceArea": 34.59003056332068,
+          "retainedArea": 32.86052903515465,
+          "leafScale": 2.507335213841225
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 49,
+          "error": 0.012543410062789917
+        }
+      ]
+    },
+    {
+      "name": "horizon",
+      "triangles": 12430,
+      "parts": [
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 54,
+          "error": 0.010212819091975689
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 4168,
+          "error": 0.0014199872966855764,
+          "sourceArea": 53.73458861945027,
+          "retainedArea": 51.04785918847776,
+          "leafScale": 3.5356318412321226
+        },
+        {
+          "variant": 0,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 16,
+          "error": 0.013749703764915466
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 43,
+          "error": 0.012796454131603241
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 4080,
+          "error": 0.0013580148806795478,
+          "sourceArea": 33.85868374382237,
+          "retainedArea": 32.16574955663125,
+          "leafScale": 3.1399064310906986
+        },
+        {
+          "variant": 1,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 20,
+          "error": 0.016581488773226738
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches",
+          "triangles": 41,
+          "error": 0.016372067853808403
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_twigs",
+          "triangles": 3990,
+          "error": 0.0017939258832484484,
+          "sourceArea": 34.59003056332068,
+          "retainedArea": 32.86052903515465,
+          "leafScale": 3.1693529632540076
+        },
+        {
+          "variant": 2,
+          "material": "fir_sapling_medium_branches_dead",
+          "triangles": 18,
+          "error": 0.016585547477006912
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "textures/fir_sapling_medium_branches_nor_gl_1k.jpg",
+      "bytes": 1137533,
+      "sha256": "6a570ab53ab2249ecdfa93e7d3b9a8a2cb1a8ad391400e5a64c708914779b2c3",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_branches_nor_gl_1k.jpg",
+      "md5": "978d32ec721696e45b38a72411c4edf4"
+    },
+    {
+      "path": "textures/fir_sapling_medium_branches_diff_1k.jpg",
+      "bytes": 776567,
+      "sha256": "a5d25150ba1bee10008c039f98aa3c73b4477a404d6715c511ca9b5b0f4a9077",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_branches_diff_1k.jpg",
+      "md5": "93265c0d9fbd3cf17deabdb68aa8b5e9"
+    },
+    {
+      "path": "textures/fir_sapling_medium_branches_arm_1k.jpg",
+      "bytes": 789264,
+      "sha256": "95d4e9e62cd309fbc38a175e2306379c76c062425b09c0fb72c5b7356a719123",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_branches_arm_1k.jpg",
+      "md5": "4e48a7fa876a1ad47401fe86277a4373"
+    },
+    {
+      "path": "textures/fir_sapling_medium_twigs_nor_gl_1k.jpg",
+      "bytes": 472604,
+      "sha256": "d470dc39b1d02bbeba06feb0ad818680ef3c24623b4db597270301a5fb8c9369",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_twigs_nor_gl_1k.jpg",
+      "md5": "1ef6c0d7c2dc74cc073a8c33f58f3795"
+    },
+    {
+      "path": "textures/fir_sapling_medium_twigs_diff_1k.jpg",
+      "bytes": 297200,
+      "sha256": "db1113d37d68d960b84eb14ce67a4022d02bf10d6f0c078d689063f6296eaa1d",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_twigs_diff_1k.jpg",
+      "md5": "0b51f775416af4fac5222ac96d91a289"
+    },
+    {
+      "path": "textures/fir_sapling_medium_twigs_arm_1k.jpg",
+      "bytes": 407309,
+      "sha256": "d66c81fc073ee7ea97a76b6da2399769f16944e50ef0e007f09c95619f597c79",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/fir_sapling_medium/fir_sapling_medium_twigs_arm_1k.jpg",
+      "md5": "b0d09189350cb716533c1590fec8f8a4"
+    },
+    {
+      "path": "textures/fir_sapling_medium_twigs_alpha_1k.png",
+      "bytes": 371026,
+      "sha256": "3f399629337e7ac3af27a01b08ffb9c0d60224a9dd374a1427761a5c2eea9d6e",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/1k/fir_sapling_medium/fir_sapling_medium_twigs_alpha_1k.png",
+      "md5": "02ab808c8b2ff77ad9fdb2f92892db80"
+    },
+    {
+      "path": "fir-near.bin",
+      "bytes": 22192732,
+      "sha256": "a50db13398cf0eea8dea598660156b1c2ac5c38eeab4051502fe671a86d65c29"
+    },
+    {
+      "path": "fir-near.gltf",
+      "bytes": 10830,
+      "sha256": "d2fbf388f055575e5846df4e17f6fe23fd14e961a34d1c4b22b5073133bb8945"
+    },
+    {
+      "path": "fir-far.bin",
+      "bytes": 11209680,
+      "sha256": "e86011453cd3abf0ac83fe5dd73d49b8e6ffe0d5e5f8744ec673a75363053d42"
+    },
+    {
+      "path": "fir-far.gltf",
+      "bytes": 10785,
+      "sha256": "159b3b16f17d7e78980359789ea2992552d3b7869dc96a4582e92d5df2bd4c2c"
+    },
+    {
+      "path": "fir-distant.bin",
+      "bytes": 1715596,
+      "sha256": "5a6a8a990b2da50cccd7061e58394c6b40fd748439a657ac3b6011323e614114"
+    },
+    {
+      "path": "fir-distant.gltf",
+      "bytes": 10728,
+      "sha256": "1dc7e6bc0c6eefc205d27587a96a68f54dc578327ccad27c8f0ac9d4d093ad35"
+    },
+    {
+      "path": "fir-horizon.bin",
+      "bytes": 590824,
+      "sha256": "33b743c166819d7ae894b134b1a8c1eec7eabf626de18cd1bbfa85df43a2cd39"
+    },
+    {
+      "path": "fir-horizon.gltf",
+      "bytes": 10653,
+      "sha256": "a1d00a4b06dadb3ee6643a37a12e8a6d69c5fbeab68a1027c87ff5e2b9978d7f"
+    },
+    {
+      "path": "textures/twigs-alpha-mips.bin",
+      "bytes": 5592404,
+      "sha256": "1ab30e9927d856a65e6520c0d8058d462bc4c396747d2afcc6a6e719961d5cfc"
+    },
+    {
+      "path": "textures/twigs-colour-mips.bin",
+      "bytes": 5592404,
+      "sha256": "a76cb7e74f092f91504f8fdaeb4ecc5a6e81fe5d77f9092a0cedc02ca424376b"
+    },
+    {
+      "path": "textures/twigs-mips.json",
+      "bytes": 1486,
+      "sha256": "ca5bc20fa483dfa34f29263fc481366b94e7b67461cdf1cfec309b7c4f86191f"
+    }
+  ],
+  "foliageMips": {
+    "alphaTest": 0.3,
+    "baseCoverage": 0.24757766723632812,
+    "levels": [
+      {
+        "width": 1024,
+        "height": 1024,
+        "offset": 0,
+        "bytes": 4194304,
+        "coverage": 0.24757766723632812
+      },
+      {
+        "width": 512,
+        "height": 512,
+        "offset": 4194304,
+        "bytes": 1048576,
+        "coverage": 0.2558326721191406
+      },
+      {
+        "width": 256,
+        "height": 256,
+        "offset": 5242880,
+        "bytes": 262144,
+        "coverage": 0.26617431640625
+      },
+      {
+        "width": 128,
+        "height": 128,
+        "offset": 5505024,
+        "bytes": 65536,
+        "coverage": 0.2735595703125
+      },
+      {
+        "width": 64,
+        "height": 64,
+        "offset": 5570560,
+        "bytes": 16384,
+        "coverage": 0.281982421875
+      },
+      {
+        "width": 32,
+        "height": 32,
+        "offset": 5586944,
+        "bytes": 4096,
+        "coverage": 0.2900390625
+      },
+      {
+        "width": 16,
+        "height": 16,
+        "offset": 5591040,
+        "bytes": 1024,
+        "coverage": 0.26953125
+      },
+      {
+        "width": 8,
+        "height": 8,
+        "offset": 5592064,
+        "bytes": 256,
+        "coverage": 0.265625
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "offset": 5592320,
+        "bytes": 64,
+        "coverage": 0.25
+      },
+      {
+        "width": 2,
+        "height": 2,
+        "offset": 5592384,
+        "bytes": 16,
+        "coverage": 0.5
+      },
+      {
+        "width": 1,
+        "height": 1,
+        "offset": 5592400,
+        "bytes": 4,
+        "coverage": 1.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "canvas": {
+    "cssHeight": 720,
+    "cssWidth": 1280,
+    "height": 720,
+    "width": 1280
+  },
+  "fps": "39 帧 / 秒",
+  "quality": "high",
+  "ready": "true",
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"39 帧 / 秒\",\"renderMs\":8,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":3611,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":16060}",
+      "timestamp": "2026-11-16T10:33:46.580Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"39 帧 / 秒\",\"renderMs\":10,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":3670,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":16257}",
+      "timestamp": "2026-11-16T10:33:51.592Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"39 帧 / 秒\",\"renderMs\":11,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":3728,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":16454}",
+      "timestamp": "2026-11-16T10:33:56.609Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"39 帧 / 秒\",\"renderMs\":9,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":3787,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":16651}",
+      "timestamp": "2026-11-16T10:34:01.623Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"40 帧 / 秒\",\"renderMs\":8,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":3845,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":16848}",
+      "timestamp": "2026-11-16T10:34:06.629Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"40 帧 / 秒\",\"renderMs\":9,\"draws\":1111,\"triangles\":52859899,\"reflectionCaptures\":3905,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":17045}",
+      "timestamp": "2026-11-16T10:34:11.653Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"40 帧 / 秒\",\"renderMs\":10,\"draws\":1111,\"triangles\":52859899,\"reflectionCaptures\":3963,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":17242}",
+      "timestamp": "2026-11-16T10:34:16.659Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"39 帧 / 秒\",\"renderMs\":8,\"draws\":953,\"triangles\":43099236,\"reflectionCaptures\":4019,\"treeLods\":[3,22,229,403],\"canopyFamilies\":[271,110,128,148],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"characterCaptures\":17439}",
+      "timestamp": "2026-11-16T10:34:21.663Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": []
+}

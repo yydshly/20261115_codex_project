@@ -1,0 +1,11 @@
+# Runtime media is retained in the verified Release; keep provenance in Git.
+web/assets/**
+!web/assets/**/
+!web/assets/**/*.md
+!web/assets/**/*.json
+!web/assets/**/*.txt
+web/model-version/assets/**
+!web/model-version/assets/**/
+!web/model-version/assets/**/*.md
+!web/model-version/assets/**/*.json
+!web/model-version/assets/**/*.txt

@@ -1,0 +1,114 @@
+{
+  "files": [
+    {
+      "path": "build.mjs",
+      "bytes": 2124,
+      "sha256": "60d815f5a6324b520c88182728419a9ca4237fbd34085bef4fe50c0de71d78de"
+    },
+    {
+      "path": "cottage.js",
+      "bytes": 22858,
+      "sha256": "e6b73fccca1448c1e193f31099f8a57a9c556de1405b5c0af61e5211f9894acb"
+    },
+    {
+      "path": "credits.html",
+      "bytes": 2680,
+      "sha256": "4dcb6a29b7ecbdf9f7491d829372be79565600b96f20b2d8f0732085d1450d19"
+    },
+    {
+      "path": "ground.js",
+      "bytes": 10981,
+      "sha256": "514b603d7cee5a9c9882b66f26b848e92a83b4d879a0ccc6124e81ac85b7dd59"
+    },
+    {
+      "path": "index.html",
+      "bytes": 6664,
+      "sha256": "d10ea99647c01a7f11e35e5a1ec22270051cab5ef2cd20cb63c524af39a27690"
+    },
+    {
+      "path": "landscape.js",
+      "bytes": 7688,
+      "sha256": "455d1b6f8b7ec550c48a51b30c362522dd929d54135f2033c971f414962db6d4"
+    },
+    {
+      "path": "launch-model.mjs",
+      "bytes": 827,
+      "sha256": "9db31eb10502ae3c8859669af0dcdf485e9e6cae00f32d00e36526e643efd9b3"
+    },
+    {
+      "path": "lighting.js",
+      "bytes": 1855,
+      "sha256": "3b35372a3a0b04f7ad635828ce6cd0f42690c84ef74fe3f551560e1b3bd69eef"
+    },
+    {
+      "path": "main.js",
+      "bytes": 17332,
+      "sha256": "737a534e027b73666e9ae1b8d6c5d4df54d8b09d2b57abcda80ce0c838fec3b6"
+    },
+    {
+      "path": "model-assets.js",
+      "bytes": 21362,
+      "sha256": "f68fa9e7382e33149c5663eeaeba94164b910379f9041497e40d3ca8759f8d92"
+    },
+    {
+      "path": "mountains.js",
+      "bytes": 3026,
+      "sha256": "d218c20ebd062f451dc3c14b2720182858a5077f530d9394bbcb48b97fa9d9a0"
+    },
+    {
+      "path": "nature.js",
+      "bytes": 2686,
+      "sha256": "eda2d5b0e92fabe215e0b68e20305b8077ce62fe101f0a8c27528f63db035aea"
+    },
+    {
+      "path": "package.json",
+      "bytes": 645,
+      "sha256": "8f5745e271c7fb45531b8c14d803f6d92bf0a16cccb2d888ffeb9ba8e5b6786f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 13897,
+      "sha256": "1d4244fa73a8480675dc3475d2818b79dbc0587af3bb9edffce1a25d85efd1dd"
+    },
+    {
+      "path": "start.cmd",
+      "bytes": 68,
+      "sha256": "a1e1746369c9e86cb3f6aab3ce7716fbf3e1e76d2b33502a36ff7ced8aba94bf"
+    },
+    {
+      "path": "stream.js",
+      "bytes": 6512,
+      "sha256": "6b91358f45fbbb2ef16eff6951583e0a9f161ec6505613c3ae3336305219d909"
+    },
+    {
+      "path": "style.css",
+      "bytes": 8259,
+      "sha256": "87676b722fce497ce68e92c2406120ed445727fe0beec71162aa39c52edc6cfd"
+    },
+    {
+      "path": "terrain.js",
+      "bytes": 3817,
+      "sha256": "dae064fee481ed94ce042a7ac3430039ca65a94f2592ece56d766b6d3128e98c"
+    },
+    {
+      "path": "vegetation.js",
+      "bytes": 31138,
+      "sha256": "ec30394ba5e71dfe03da18bf700f7508a4c92405f7d77d2c101bfd1b6aaba1cd"
+    },
+    {
+      "path": "verify-geometry.mjs",
+      "bytes": 12183,
+      "sha256": "49aec6fde1e42bca3b35d1e47de32591969aa0b069a2e249a38eaaf37f2f08d2"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 4395,
+      "sha256": "5f249e8107206c31a6f83971494b639dd054e76f04f14c32e490a58ad4f24294"
+    },
+    {
+      "path": "woodland.js",
+      "bytes": 4370,
+      "sha256": "f34e8927a674ee878697acee6305e85de85d6d42e184bfe9c24813bb42f5f8e5"
+    }
+  ]
+}

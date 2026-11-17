@@ -1,0 +1,24 @@
+{
+  "logs": [
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"1 帧 / 秒\",\"renderMs\":15,\"draws\":1071,\"triangles\":52302002,\"reflectionCaptures\":3505,\"treeLods\":[3,19,229,412],\"canopyFamilies\":[270,116,130,147],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"physicalPanes\":1,\"footing\":{\"samples\":160,\"clearance\":0.0013088965435980593,\"correction\":-0.020058564090289194,\"target\":-0.01986746063388725},\"characterCaptures\":20265}",
+      "timestamp": "2026-11-16T10:54:39.868Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"1 帧 / 秒\",\"renderMs\":12,\"draws\":917,\"triangles\":42696150,\"reflectionCaptures\":3507,\"treeLods\":[3,19,229,412],\"canopyFamilies\":[270,116,130,147],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"physicalPanes\":1,\"footing\":{\"samples\":160,\"clearance\":0.0006633086827591839,\"correction\":-0.008374270171078974,\"target\":-0.007537578853838158},\"characterCaptures\":20270}",
+      "timestamp": "2026-11-16T10:54:44.874Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    },
+    {
+      "level": "info",
+      "message": "[valley-qa] {\"view\":\"walk\",\"fps\":\"1 帧 / 秒\",\"renderMs\":9,\"draws\":1071,\"triangles\":52302002,\"reflectionCaptures\":3510,\"treeLods\":[3,19,229,412],\"canopyFamilies\":[270,116,130,147],\"edgeLayers\":{\"scrub\":430,\"sapling\":170,\"fern\":21,\"herb\":700,\"rough\":8500},\"distantPanes\":0,\"physicalPanes\":1,\"footing\":{\"samples\":160,\"clearance\":0.001553520258812011,\"correction\":-0.009276184110676397,\"target\":-0.009329704369488408},\"characterCaptures\":20275}",
+      "timestamp": "2026-11-16T10:54:49.879Z",
+      "url": "http://127.0.0.1:4173/model-version/main.js"
+    }
+  ],
+  "errors": [],
+  "note": "Later inspection entered about 1 FPS preview throttling; these records are functional evidence only, excluded from the performance comparison."
+}

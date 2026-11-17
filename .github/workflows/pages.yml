@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'projects/0001-animation-skills-atlas/**'
+      - 'projects/0002-valley-garden/**'
       - 'projects/0003-ai-wide-area-modeling/**'
       - 'projects/0005-wind-return-garden/**'
       - 'projects/0009-ai-source-field-guide/**'
@@ -43,6 +44,9 @@ jobs:
       - name: Install locked frontend dependencies
         working-directory: projects/0001-animation-skills-atlas/web
         run: npm ci --no-audit --no-fund
+      - name: Install locked valley frontend dependency
+        working-directory: projects/0002-valley-garden/web
+        run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Validate registry and build complete site
         run: |
           python -m unittest discover -s tests -v
