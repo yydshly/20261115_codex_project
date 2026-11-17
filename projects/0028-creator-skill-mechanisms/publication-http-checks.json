@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-11-17T20:23:03+08:00",
+  "base_url": "https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/",
+  "all_passed": true,
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "5abaa659244c7d77cecd3eea2da117ea63df8a5f91f8b9017feb6d248bcfa292"
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "97561b15dbaf537bd94a7061010e1b8b21a3cdfbd510ea12acb06013244dc59c"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "dc97aaf49400b59ab68c9ed9526b012a49041d7d4765b3e92878bfe9086a8d67"
+    },
+    {
+      "path": "research.json",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "1d6af04f12e1c728ed1661bb4dec7e1e49ab72e3f16bf129a1bb0f2c8d8261b5"
+    },
+    {
+      "path": "assets/skill-constraints-overview.png",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "5cfadd8332afff77216359100d1cbecc01c6f41bd7616843d41940111e2cb411"
+    },
+    {
+      "path": "assets/guide-manifest.json",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "9a5a7268de5fbe556f618d8c1b4650043fc8ad7cc036bb8fffd97980e6fc8894"
+    },
+    {
+      "path": "README.md",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "9d66af7e70b71446e610a7ef9a82be68656ac0ff9d17ad8a857e115873afe283"
+    },
+    {
+      "path": "DISCUSSION.md",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "32136861353f684502ebe6d0ae20fef36188bbf5563815280f7f14ae193109b6"
+    },
+    {
+      "path": "SOURCE-NOTES.md",
+      "status": 200,
+      "matches_export": true,
+      "sha256": "4e78570426afa025167a64bafdbf2f2aa3f16a4f4c21c91bdbc782a208ff5191"
+    },
+    {
+      "path": "library-home",
+      "matches_export": true
+    }
+  ],
+  "scope": "Research website and resources; upstream creative effectiveness is not tested."
+}
