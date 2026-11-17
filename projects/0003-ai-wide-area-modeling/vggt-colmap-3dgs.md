@@ -111,4 +111,3 @@ flowchart TD
 - [原始 3DGS 实现](https://github.com/graphdeco-inria/gaussian-splatting)
 
 未执行第三方代码，未下载模型权重，未做本机端到端验证。没有因这次比较安装任何工具或改动现有三维场景。
-

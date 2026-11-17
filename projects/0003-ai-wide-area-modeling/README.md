@@ -12,7 +12,7 @@
 
 **研究全景补齐：** [7 项未通过与未验证复盘](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/explore.html?layer=failures#architecture) · [6 组实际技术栈](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/explore.html?layer=used#architecture) · [29 项开源代码、模型与产品目录](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/explore.html?layer=catalog#architecture) · [完整单张研究全景 SVG](assets/research-map/canal-image-to-3d-panorama.svg)。卡片可打开完整能力、原因边界、来源和实验证据；查阅不等于已实测。
 
-**完整研究网页：** [打开「一张图，走进一座城」](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) · [启动脚本](start.cmd) · [整理范围与运行方式](WEB-RESEARCH.md)。汇总本次探究、10 份真实实验、补图检验、模型／产品和问答；最终完整场景尚未通过验收，网页公开部署状态见发布记录。
+**完整研究网页：** [打开「一张图，走进一座城」](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) · [启动脚本](start.cmd) · [整理范围与运行方式](WEB-RESEARCH.md)。汇总本次探究、10 份真实实验、补图检验、模型／产品和问答；最终完整场景尚未通过验收，网页已公开部署，详见发布记录。
 
 **全部效果与工程：** [直接播放视频、拖动三维和查看工程](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/effects.html) · [接入范围与原文件保护](MEDIA-INTEGRATION.md)。6 段完整视频、6 个三维／诊断入口、98 项去重图片（含研究图）、39 份工程／几何文件；原模型、高斯和视频均只读，历史工程另导出新 GLB 供预览。
 
@@ -207,4 +207,3 @@ python setup_project.py F:\capture_lab\trial01 --sfm F:\capture_lab\dataset --no
 - [LFS 当前说明](https://github.com/MrNeRF/LichtFeld-Studio)、[Blender MCP 桥接候选](https://github.com/ahujasid/mcp-for-blender)、[COLMAP 官方教程](https://colmap.github.io/tutorial.html)
 
 本目录为自行撰写的研究笔记，没有复制上游源码、图片、数据或模型。工具开源许可不自动授予采集照片、场景资产和商业插件的再分发权。
-

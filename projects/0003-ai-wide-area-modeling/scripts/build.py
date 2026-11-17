@@ -30,7 +30,7 @@ def main():
     assets = sorted(str(path.relative_to(PROJECT)).replace('\\','/') for path in (PROJECT/'assets').rglob('*')
                     if path.is_file() and path.suffix.lower() in {'.png','.jpg','.jpeg','.gif','.svg','.webp'})
     records = ['README.md', 'vggt-colmap-3dgs.md', 'WEB-RESEARCH.md', 'MEDIA-INTEGRATION.md', 'ATLAS-WEB.md']
-    for name in ('CONCLUSIONS.md','THIRD_PARTY_NOTICES.md','publication.md'):
+    for name in ('CONCLUSIONS.md','THIRD_PARTY_NOTICES.md','publication.md','publication-verification.json'):
         if (PROJECT/name).is_file():records.append(name)
     for experiment in EXPERIMENTS:
         directory = PROJECT / 'experiments' / experiment
