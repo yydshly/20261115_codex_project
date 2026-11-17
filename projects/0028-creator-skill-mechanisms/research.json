@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-17",
+  "title": "创作 Skill：把目标变成可执行的约束",
+  "summary": "从输入、处理和输出看清五条具体流程，再拆解规则、样本、模板、记录与程序检查怎样引导结果。",
+  "understanding": [
+    {
+      "title": "第三方写作规则，先作为参考",
+      "text": "每个人对节奏、口语和表达力度的体感不同。禁用句式、开头套路和审稿维度都带有作者偏好；需要在自己的作品上试用，不能凭安装量或作者成绩判断适合自己。"
+    },
+    {
+      "title": "公平比较，需要给足同样的条件",
+      "text": "直接生成时若已有相同的目标、素材、样本、规则和工具，打包成 Skill 不保证质量更高。它的增量主要在于重复调用、减少遗漏、稳定交接，以及带入模型原本没有的个人资料与工具。"
+    },
+    {
+      "title": "我们的价值，重点看约束如何成立",
+      "text": "值得借鉴的是怎样把目标拆成检查项：审稿意见对应原句，口播对齐真实样本，分镜填写固定字段，预测先留档再核对结果，结构用脚本检查。每一种机制都应说明控制什么、检查什么，以及检查不到什么。"
+    },
+    {
+      "title": "不必全部从零，也不必整套照搬",
+      "text": "通用的机械步骤、文件格式和工具接口可以验证后复用。语气、审美、受众和内容判断需要换成自己的材料；外部 Skill 为我们提供候选方法，我们决定采用哪些。"
+    },
+    {
+      "title": "自己的 Skill 从真实作品里长出来",
+      "text": "先直接创作，亲自试读与修改；同时保留生成稿和实际使用稿。只把反复有效的规则、样本和检查步骤固化下来，再用后续作品检验。发现规则妨碍表达时就调整，不以规则数量证明成熟。"
+    },
+    {
+      "title": "文档说明、程序检查和效果验证分开",
+      "text": "本次阅读了仓库文档，并核对部分协议与源码；没有安装运行这五套 Skill，也没有做带与不带 Skill 的效果对照。网页和引导图整理的是已读机制与我们的判断，不能作为流量预测或创作效果的证明。"
+    }
+  ],
+  "flows": [
+    {
+      "id": "dbskill",
+      "repository": "dontbesilent2025/dbskill",
+      "skill": "dbs-script-flow",
+      "label": "口播审稿",
+      "goal": "把衔接、信息重复和难念句定位到原文。",
+      "type": "清单与证据",
+      "input": [
+        "一份已经写好的短视频逐字稿。",
+        "说明只检查，还是同时修改。"
+      ],
+      "process": [
+        "按主题切分段落，标注每段作用。",
+        "逐段检查逻辑衔接、信息密度和口播顺畅度。",
+        "按风险排序，附原句与具体修复建议。"
+      ],
+      "output": [
+        "段落结构表与问题清单。",
+        "原文定位、原因和修复句。",
+        "要求改稿时：原文上的标记式修改与改动清单。"
+      ],
+      "mechanisms": [
+        {
+          "name": "固定扫描维度",
+          "rule": "每段都过衔接、密度、口播三项检查。",
+          "purpose": "把泛泛的“顺不顺”拆成具体问题，减少只点评开头或凭感觉概括。",
+          "enforcement": "文字指令"
+        },
+        {
+          "name": "问题绑定原文",
+          "rule": "报告写出原句、问题原因和可替换的修复句。",
+          "purpose": "让读者能回到文本复核，判断修改是否有依据。",
+          "enforcement": "输出模板"
+        },
+        {
+          "name": "限定改动范围",
+          "rule": "不改论点、案例和数据；标记删除、新增及还原，不抹除原文。",
+          "purpose": "把改顺表达与替换作者判断分开，方便撤回错误修改。",
+          "enforcement": "文字指令与标记规范"
+        }
+      ],
+      "reuse": "借用固定检查表、原句证据和修改标记，形成我们自己的审稿规则。",
+      "boundary": "“哪里会划走”仍是模型判断，不是观众留存测量；三个检查维度不能覆盖所有流失原因。",
+      "sources": [
+        "dbs-flow",
+        "dbs-readme"
+      ]
+    },
+    {
+      "id": "cheat",
+      "repository": "XBuilderLAB/cheat-on-content",
+      "skill": "cheat-on-content",
+      "label": "评分与复盘",
+      "goal": "把发布前判断和发布后结果放在一起核对。",
+      "type": "记录与更新门槛",
+      "input": [
+        "最终稿、评分规则和可用历史样本。",
+        "发布后再补真实播放等数据、评论与观察。"
+      ],
+      "process": [
+        "先按规则评分，在看到实际结果前写预测。",
+        "记录录制、发布状态，按复盘窗口回填实际结果。",
+        "发现偏差后提出新规则，回看历史样本并审核更新。"
+      ],
+      "output": [
+        "评分表与发布前预测记录。",
+        "带真实数据的复盘报告。",
+        "通过更新流程后形成的新规则版本与变更记录。"
+      ],
+      "mechanisms": [
+        {
+          "name": "先预测，后看结果",
+          "rule": "预测先写入，原预测不覆写；新增结果写进复盘区域。",
+          "purpose": "留下当时的判断，减少知道结果后重新解释预测的空间。",
+          "enforcement": "协议；预测保护钩子依赖运行环境"
+        },
+        {
+          "name": "规则更新设门槛",
+          "rule": "规则结构变化需重算历史样本，比较排序；默认还要独立模型审核。关闭外部审核时须明确标记自审。",
+          "purpose": "让改规则有依据和成本，避免一次失误就随意改动。",
+          "enforcement": "更新协议与工具调用要求"
+        },
+        {
+          "name": "隔离预测与实绩资料",
+          "rule": "用于盲评的材料与含实际结果的复盘、备忘记录分开。",
+          "purpose": "降低评分过程被已知结果影响的机会。",
+          "enforcement": "文件分工与读取范围约定"
+        }
+      ],
+      "reuse": "借发布前留档、发布后核对和有门槛的规则更新；先用我们的真实数据验证评分标准。",
+      "boundary": "历史样本上表现更好不代表未来预测准确。小样本、平台变化和反复调参都可能影响结果；没有实测其流量预测能力。",
+      "sources": [
+        "cheat-main",
+        "cheat-bump",
+        "cheat-blind"
+      ]
+    },
+    {
+      "id": "ray",
+      "repository": "imraywang/rayskills",
+      "skill": "ray-kb",
+      "label": "个人口播",
+      "goal": "把灵感或长文变成接近本人表达、能继续录制的稿件。",
+      "type": "样本与结构校验",
+      "input": [
+        "一个灵感、观察，或已经核验的完整长文。",
+        "本人真实口播样本；长文模式还需要可追溯的母稿。"
+      ],
+      "process": [
+        "选一个中心判断，写前阅读表达规则和真实稿件。",
+        "参照样本写口语稿；拿不准的内容列进待确认区域。",
+        "运行结构检查；录制后对照生成稿和实际录制稿积累样本。"
+      ],
+      "output": [
+        "可照读的逐字稿、待确认清单、素材与来源。",
+        "长文衍生稿记录母稿路径和 SHA-256。",
+        "录后对照时保留生成版与实际表达版。"
+      ],
+      "mechanisms": [
+        {
+          "name": "用真实样本约束语气",
+          "rule": "写前阅读作者完整稿件；录后对照，把实际录制稿加入样本清单。",
+          "purpose": "让表达有具体参照，并利用人实际怎么说来纠正生成倾向。",
+          "enforcement": "样本检索与文字指令"
+        },
+        {
+          "name": "把正文和待确认分开",
+          "rule": "正文只放能念的话；每稿只讲一个中心判断，编补或存疑内容单列。",
+          "purpose": "使口播正文便于录制，同时留下需要作者决定的部分。",
+          "enforcement": "内容边界与输出格式"
+        },
+        {
+          "name": "脚本检查可用结构",
+          "rule": "检查必需章节、正文内的列表与括号；长文模式核对母稿指纹。",
+          "purpose": "发现结构缺项、拍摄提示混入正文和衍生稿对应错母稿等问题。",
+          "enforcement": "已阅读 Python 检查脚本，未执行上游工作流"
+        }
+      ],
+      "reuse": "换成我们的真实口播样本，让样本管语气，让脚本查结构，实际录制稿反过来修订样本库。",
+      "boundary": "脚本不判断是否像本人，也不验证事实真假或传播效果。上游样本入口指向作者的本地知识库，换人使用需要提供可读的本人样本。表达规则还允许先编经历再列为待确认；我们不直接沿用，自己的规则应改为缺真实经历时留空或补资料。",
+      "sources": [
+        "ray-kb",
+        "ray-check",
+        "ray-voice"
+      ]
+    },
+    {
+      "id": "creator",
+      "repository": "SpaceZephyr/creator-buddy",
+      "skill": "space-video-script",
+      "label": "口播与分镜",
+      "goal": "把文案落成录制和剪辑能继续使用的逐镜脚本。",
+      "type": "模板与交接字段",
+      "input": [
+        "一句想法、选题正文或草稿。",
+        "目标时长、平台、画面来源、比例及视觉要求。"
+      ],
+      "process": [
+        "先把书面表达改成能念的口语。",
+        "补齐时长、段落、镜头来源等条件。",
+        "按时间拆镜头，把台词、画面、呈现方式和转场写在同一行。"
+      ],
+      "output": [
+        "逐镜头 script.md。",
+        "每镜有时间、台词、画面、呈现方式和转场。",
+        "字幕与 B-roll 需求交给后续制作环节。"
+      ],
+      "mechanisms": [
+        {
+          "name": "先顺口，再安排镜头",
+          "rule": "先改长句、套话和难念表达，并要求试读。",
+          "purpose": "避免一份写得精确但无法自然念出的脚本进入制作。",
+          "enforcement": "编辑规则与试读要求"
+        },
+        {
+          "name": "用模板暴露缺项",
+          "rule": "逐镜填写时间、台词、画面、呈现方式、转场。引导图把画面与呈现方式合为一类展示。",
+          "purpose": "把“做一条视频”的模糊目标变成能讨论和交接的具体安排。",
+          "enforcement": "字段模板，未发现本文件提供自动校验"
+        },
+        {
+          "name": "约定上下游交接",
+          "rule": "口播台词交给录制，B-roll 和字幕需求交给对应后续技能。",
+          "purpose": "让后续环节知道用什么材料、需要完成什么。",
+          "enforcement": "工作流与文件约定"
+        }
+      ],
+      "reuse": "借固定镜头字段和交接格式，按我们的制作方式调整粒度；时间先作计划，再以真实音频和镜头调整。",
+      "boundary": "分镜表写到秒不证明时长准确；这里输出脚本，成片仍需后续工具和人工回看。引用的其他写作能力需另外具备。",
+      "sources": [
+        "creator-script",
+        "creator-readme"
+      ]
+    },
+    {
+      "id": "rnskill",
+      "repository": "Pluviobyte/rnskill",
+      "skill": "ra-人话",
+      "label": "中文润色",
+      "goal": "减少空泛套话，同时保留作者的事实、经历与判断。",
+      "type": "保留项与禁用表",
+      "input": [
+        "一份已有中文稿件。",
+        "发布场景与作者希望保留的判断和语气。"
+      ],
+      "process": [
+        "识别事实、判断、经历和行动信息。",
+        "先删空泛结构，再改表达。",
+        "按禁用表与示例复扫，发现仍有对应表达就继续改。"
+      ],
+      "output": [
+        "默认只给润色后的完整正文。",
+        "用户问原因时，给具体触发词与对应问题类型。"
+      ],
+      "mechanisms": [
+        {
+          "name": "先规定不能丢什么",
+          "rule": "保留数字、术语、立场、不确定性与真实经历，不新增例子、数据或经历。",
+          "purpose": "减少润色时把作者判断磨平或编出新事实。",
+          "enforcement": "内容保留与禁止新增指令"
+        },
+        {
+          "name": "用禁用表和正反例缩小选择",
+          "rule": "列出对比句壳、伪洞察词、讲义式开头等模式，同时给修改前后的例子。",
+          "purpose": "让“去 AI 味”有具体指向，给模型明确的编辑参照。",
+          "enforcement": "文字规则与少量示例"
+        },
+        {
+          "name": "改写后再扫描",
+          "rule": "交付前复查列出的字符串和结构，命中后重写。",
+          "purpose": "形成一次生成后自检，减少只看第一遍就结束。",
+          "enforcement": "模型自检要求；这里未验证自动检测器"
+        }
+      ],
+      "reuse": "把我们反复指出的表达问题写成保留项、检查模式和正反例；用本人认可的修改作样本，避免机械禁词。",
+      "boundary": "禁用词表是作者偏好，不是通用的好文章标准；自检也可能漏检，不能自动生成个人风格。",
+      "sources": [
+        "rn-human",
+        "rn-readme"
+      ]
+    }
+  ],
+  "constraint_levels": [
+    {
+      "name": "文字指令与模板",
+      "checks": "规定步骤、编辑范围、字段和表达偏好。",
+      "limit": "依赖模型理解与遵守；文档里的“必须”不等于系统已经强制执行。"
+    },
+    {
+      "name": "程序检查与钩子",
+      "checks": "检查已编码的格式、哈希、记录修改等条件。",
+      "limit": "只覆盖指定项目，并依赖运行环境；不自动证明事实、风格或内容效果。"
+    },
+    {
+      "name": "本人试读与实际反馈",
+      "checks": "确认能否自然表达、修改是否接受、作品是否达到目标。",
+      "limit": "需要连续作品与真实反馈；一次喜欢或一次高播放不能证明普遍有效。"
+    }
+  ],
+  "comparison": [
+    {
+      "mode": "直接生成",
+      "condition": "当前目标、材料和要求已经清楚。",
+      "value": "即时讨论和修改，适合还在探索表达与目标的时候。",
+      "cost": "跨次使用时可能重复交代，需要主动保留有效修改。"
+    },
+    {
+      "mode": "第三方 Skill",
+      "condition": "其中的方法与自己的目标、工具和材料相符。",
+      "value": "借现成的检查表、样本使用方式、交接格式或脚本。",
+      "cost": "先核对依赖和许可，再适配个人偏好；完整安装并非必要。"
+    },
+    {
+      "mode": "我们的 Skill",
+      "condition": "已有反复成立的目标、样本与验收依据。",
+      "value": "复用自己验证过的约束，少重复说明，并留下可复核记录。",
+      "cost": "要维护样本和规则，发现不适合的新情况时继续修改。"
+    }
+  ],
+  "practice": [
+    {
+      "step": "先做作品",
+      "action": "用同一份目标与材料直接生成，亲自试读、修改。"
+    },
+    {
+      "step": "留下对照",
+      "action": "同时保存生成稿和实际使用稿，标明为什么改。"
+    },
+    {
+      "step": "挑选约束",
+      "action": "只提炼反复有效的检查项、样本、模板和程序步骤。"
+    },
+    {
+      "step": "公平比较",
+      "action": "同样的材料分别直接生成与使用规则，看可用性、改稿量、操作成本。不要只让模型给自己打分。"
+    },
+    {
+      "step": "继续修订",
+      "action": "用后续作品和反馈决定保留、放宽或删除规则。"
+    }
+  ],
+  "upstreams": [
+    {
+      "repository": "dontbesilent2025/dbskill",
+      "commit": "d322284ae22949c1a458ddee4212384fbefe8685",
+      "core_blob": "908f00d868c362ca83392d72a67998057be0836b"
+    },
+    {
+      "repository": "XBuilderLAB/cheat-on-content",
+      "commit": "6fdeb95deccf1b0523d2641a8dab23981d4aeb0a",
+      "core_blob": "3461f120bed0f98aa6c6503a6082924e20c8ef2c"
+    },
+    {
+      "repository": "imraywang/rayskills",
+      "commit": "ca254f09a17e2e2c0aba7651c36688c322b1f2b2",
+      "core_blob": "496080ddd0bbdb34273a20728260759a50b77c2a"
+    },
+    {
+      "repository": "SpaceZephyr/creator-buddy",
+      "commit": "edf46c567ff54b72ee2157d06f3a02dbd67aaa9c",
+      "core_blob": "5bd1cd76db7d5bf93bf7c2ba793312d90701543d"
+    },
+    {
+      "repository": "Pluviobyte/rnskill",
+      "commit": "83d1783b892bbaa29a137895ff8338264b6872fa",
+      "core_blob": "6312fca687c92e1519820a07be6ccb2f05e0fd5b"
+    }
+  ],
+  "sources": [
+    {
+      "id": "original-post",
+      "title": "原始推荐帖：五个创作 Skill 仓库",
+      "url": "https://x.com/liyuuuing/status/2121507172580475003",
+      "role": "发现线索；推荐理由不等于独立验证"
+    },
+    {
+      "id": "dbs-flow",
+      "title": "dbskill · dbs-script-flow",
+      "repository": "dontbesilent2025/dbskill",
+      "path": "skills/dbs-script-flow/SKILL.md",
+      "role": "分段、三维检查、原句证据与标记式改稿"
+    },
+    {
+      "id": "dbs-readme",
+      "title": "dbskill · README",
+      "repository": "dontbesilent2025/dbskill",
+      "path": "README.md",
+      "role": "仓库范围、路由与使用边界"
+    },
+    {
+      "id": "cheat-main",
+      "title": "cheat-on-content · 总协议",
+      "repository": "XBuilderLAB/cheat-on-content",
+      "path": "SKILL.md",
+      "role": "预测、复盘、文件分工与环境兼容说明"
+    },
+    {
+      "id": "cheat-bump",
+      "title": "cheat-on-content · 规则升级验证协议",
+      "repository": "XBuilderLAB/cheat-on-content",
+      "path": "shared-references/bump-validation-protocol.md",
+      "role": "全量重评、排序比较与默认跨模型审核"
+    },
+    {
+      "id": "cheat-blind",
+      "title": "cheat-on-content · 盲预测协议",
+      "repository": "XBuilderLAB/cheat-on-content",
+      "path": "shared-references/blind-prediction-protocol.md",
+      "role": "预测与实际结果隔离的具体规范"
+    },
+    {
+      "id": "ray-kb",
+      "title": "rayskills · ray-kb",
+      "repository": "imraywang/rayskills",
+      "path": "skills/ray-kb/SKILL.md",
+      "role": "样本阅读、单一中心判断、母稿与录后学习"
+    },
+    {
+      "id": "ray-check",
+      "title": "rayskills · oral_script_check.py",
+      "repository": "imraywang/rayskills",
+      "path": "skills/ray-kb/scripts/oral_script_check.py",
+      "role": "已阅读源码：检查结构、正文格式与母稿指纹；不检查风格"
+    },
+    {
+      "id": "ray-voice",
+      "title": "rayskills · 口播表达规则",
+      "repository": "imraywang/rayskills",
+      "path": "skills/ray-kb/references/voice.md",
+      "role": "已阅读：表达规则、作者本地样本路径，以及允许编补经历后列待确认的约定；后者不直接沿用"
+    },
+    {
+      "id": "creator-script",
+      "title": "creator-buddy · space-video-script",
+      "repository": "SpaceZephyr/creator-buddy",
+      "path": "video-Skills/space-video-script/SKILL.md",
+      "role": "口语转换、逐镜字段和下游交接"
+    },
+    {
+      "id": "creator-readme",
+      "title": "creator-buddy · README",
+      "repository": "SpaceZephyr/creator-buddy",
+      "path": "README.md",
+      "role": "整体能力与外部依赖范围"
+    },
+    {
+      "id": "rn-human",
+      "title": "rnskill · ra-人话",
+      "repository": "Pluviobyte/rnskill",
+      "path": "skills/ra-人话/SKILL.md",
+      "role": "保留项、禁用表、正反例与改写后复扫"
+    },
+    {
+      "id": "rn-readme",
+      "title": "rnskill · README",
+      "repository": "Pluviobyte/rnskill",
+      "path": "README.md",
+      "role": "仓库范围；不代表只含一个润色 Skill"
+    }
+  ]
+}

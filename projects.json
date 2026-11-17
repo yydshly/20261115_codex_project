@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_id": 22,
+  "next_id": 29,
   "projects": [
     {
       "id": "0001",
@@ -385,6 +385,34 @@
         "理解：我们已有搜集与研究能力，重点是组织目标、证据、工具权限和交接；五岗位可以由单任务顺序完成。",
         "图解：完整PNG/SVG、五组8到5转换、原双场景交互图与讨论；EXIT到适配包含新增研究判断，并非等价改名。",
         "价值与边界：留下适配理由、原始证据、最小试验与可回查积累；原帖收益和官方归属未核实，研究采集与定时未部署。"
+      ]
+    },
+    {
+      "id": "0028",
+      "order": 28,
+      "slug": "creator-skill-mechanisms",
+      "name": "创作 Skill · 输入、约束与我们的价值",
+      "summary": "拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。",
+      "repository": null,
+      "status": "researching",
+      "tags": [
+        "Skill",
+        "内容创作",
+        "约束机制",
+        "方法研究"
+      ],
+      "preview": {
+        "path": "projects/0028-creator-skill-mechanisms/assets/skill-constraints-overview.png",
+        "full_path": "projects/0028-creator-skill-mechanisms/assets/skill-constraints-overview.png",
+        "alt": "五条创作 Skill 的输入、处理、输出与内部约束机制，并解释我们可以借用的清单、样本、模板、记录和校验。",
+        "caption": "本轮最终生成的第三版原图；机制示意，非上游效果实测。点击查看完整 PNG。"
+      },
+      "demo_url": null,
+      "source_url": "https://x.com/liyuuuing/status/2121507172580475003",
+      "highlights": [
+        "从逐字稿、真实样本和发布数据出发，对照审稿报告、口播稿、分镜与复盘记录。",
+        "重点解释清单、样本、模板、留档与脚本如何约束目标；区分文字规定、程序检查与实际效果。",
+        "第三方方法先试用，换入自己的样本与标准，再用真实作品沉淀个人 Skill。"
       ]
     }
   ]

@@ -27,7 +27,8 @@ PELICAN_STUDY = '0008-pelican-layout-study'
 ABYSSAL_NOTES = '0016-abyssal-world-notes'
 DESIGN_ATLAS = '0017-design-reference-atlas'
 BOT_ROLES = '0018-bot-role-research'
-STATIC_PROJECTS = {BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
+CREATOR_SKILLS = '0028-creator-skill-mechanisms'
+STATIC_PROJECTS = {CREATOR_SKILLS: 'index.html', BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
@@ -51,7 +52,11 @@ def build_static_projects(output):
             command.append('--publication')
         if slug == DESIGN_ATLAS:
             command.append('--publication')
+        if slug == CREATOR_SKILLS:
+            command.append('--publication')
         subprocess.run(command, check=True)
+        if slug == CREATOR_SKILLS:
+            subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == AVATAR_WORKFLOW:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == WIND_GARDEN:
