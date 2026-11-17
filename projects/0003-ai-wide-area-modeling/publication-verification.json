@@ -1,0 +1,54 @@
+{
+  "time_utc": "2026-11-17T04:14:24Z",
+  "base": "https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/",
+  "http_resources": 327,
+  "guide_sha256": "ce0faba68d8a41e0ce7a00778c44fdae680d68024d3e0808935dee37a384bc1a",
+  "catalog": {
+    "images": 98,
+    "scenes": 6,
+    "videos": 6,
+    "files": 374
+  },
+  "deployment_run": "https://github.com/yydshly/20261115_codex_project/actions/runs/44015425062",
+  "merge_commit": "324d4fdc613418a96d8615a638c59d8e6d71e13a",
+  "video_http_ranges": [
+    {
+      "url": "media/files/5c9f284f208d6e2120b604db4774ec4d74e6a0e870c8f498033ec7854c25a5b0.mp4",
+      "status": 206,
+      "range": "bytes 0-31/1228021"
+    },
+    {
+      "url": "media/files/1a22679f56343d42330d06c17d538c1e518b5bfe2bb0a90656ee4e4dd5fe2c85.mp4",
+      "status": 206,
+      "range": "bytes 0-31/6984681"
+    },
+    {
+      "url": "media/files/3bfb0d80e16a1df9cc09b814caf4b2f3d9f9cc417f7d2356bb5a19ccab3af8ea.mp4",
+      "status": 206,
+      "range": "bytes 0-31/240040"
+    },
+    {
+      "url": "media/files/4e2e3a634ab5740bb6f6c8e7638d4cbaa72cb024e4977204e0de8deb223c0da8.mp4",
+      "status": 206,
+      "range": "bytes 0-31/780118"
+    },
+    {
+      "url": "media/files/bd2aa0b88b47d84233a854f3ab43e1e48ea099f6b399a30d986c80bba840b4cb.mp4",
+      "status": 206,
+      "range": "bytes 0-31/5339939"
+    },
+    {
+      "url": "media/files/4ac97adb959aed13a91d46f475bee40b0d663e784c4d4557765310fd68e23f3d.mp4",
+      "status": 206,
+      "range": "bytes 0-31/12901938"
+    }
+  ],
+  "static_media_graph_references": 668,
+  "losslessly_restored_ply_blend": 31,
+  "protected_original_hashes_unchanged": 41,
+  "python_tests": {
+    "passed": 33,
+    "skipped": 1
+  },
+  "browser_visual_status": "公开部署未重复 WebGL 视觉验收：本轮浏览器自动化工具不可用；沿用此前实际运行的查看器与原始数据，已检查模块语法、资源图、客户端解压与 SHA-256 拒绝错误哈希。"
+}

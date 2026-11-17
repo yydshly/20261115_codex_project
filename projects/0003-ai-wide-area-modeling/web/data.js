@@ -118,6 +118,7 @@ window.RESEARCH = {
     ['这轮研究对我们留下了什么价值？','留下可复用的单图高斯推理、真实渲染、门轴联动、参数化结构、空间诊断和证据记录，也排除了几种看似完成的假象。下一轮能用相同输入和检查门槛评价候选，减少只凭漂亮画面的判断。','README.md']
   ],
   records: [
+    ['我们的理解：分工、失败、价值与可复用路线','CONCLUSIONS.md'],['公开部署与实测范围','publication.md'],['来源与许可说明','THIRD_PARTY_NOTICES.md'],
     ['作者工作流与总体研究','README.md'],['COLMAP / VGGT / 3DGS 分工与版本比较','vggt-colmap-3dgs.md'],
     ['单图 VGGT → Blender：结果与变差复核','experiments/canal-single-vggt/README.md'],['SHARP 原图高斯：版本、哈希与真实渲染','experiments/canal-single-sharp/README.md'],
     ['固定新机位的覆盖／深度诊断','experiments/canal-single-sharp/view-diagnosis/README.md'],['咖啡店门轴、实体灯光与连续镜头','experiments/cafe-hybrid-prototype/README.md'],

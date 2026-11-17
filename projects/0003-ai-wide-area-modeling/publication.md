@@ -17,4 +17,14 @@
 
 ## 状态
 
-2026-11-17：准备发布；公开地址须在部署和 HTTP 验证成功后登记为 `demo_url`。最终部署结果与实测限制在上线后补记。
+2026-11-17 已上线并验证：
+
+- 内容发布 [PR #8](https://github.com/yydshly/20261115_codex_project/pull/8) 已合并，提交 `324d4fdc613418a96d8615a638c59d8e6d71e13a`。
+- 首次正式部署 [GitHub Actions 44015425062](https://github.com/yydshly/20261115_codex_project/actions/runs/44015425062) 构建与部署成功。
+- [研究网页](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) · [放大完整架构图](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/explore.html#poster) · [全部效果与工程](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/effects.html)。
+- 327 个公开页面/资源 HTTP 检查通过；6 段 MP4 均返回 `206` 并支持字节范围请求；引导图 SHA-256 与原 PNG 一致。
+- 构建时 668 项媒体引用可解析，31 份 PLY/BLEND 无损解压后哈希匹配；41 个保护清单中的旧工程/媒体哈希未变。Python 检查 33 项通过、1 项仅本机预览检查跳过。
+- 媒体 Release 大小 731,906,196 字节，GitHub 服务端 SHA-256 为 `a750cfffa4d566ad8affe5a8e3976ef27f20b07117ecbcd2fc199a786e447988`，与本地一致。
+- 本轮公开部署未重复 WebGL 视觉验收：浏览器自动化工具不可用。沿用此前实际运行的查看器与原始数据，已验证模块语法、资源图、客户端解压、原文件校验和错误哈希拒绝；不能用 HTTP 检查代替全部浏览器操作验收。
+
+机器摘要见 [publication-verification.json](publication-verification.json)。公开页面是研究档案，完整三维场景仍未通过最终验收。

@@ -65,7 +65,7 @@ $('#record-list').innerHTML=D.records.map(([name,file],i)=>`<a href="records.htm
 $('#source-list').innerHTML=D.sources.map(s=>`<article>${sourceLink(s[0])}<p>${esc(s[3])}</p></article>`).join('');
 fetch('records/manifest.json').then(response=>{if(!response.ok)throw new Error('missing manifest');return response.json();}).then(manifest=>{
   const labels={'prompts.json':'原始提示词与输入角色','manifest.json':'推理输入配置','manifest-aux.json':'子集控制配置','analysis.json':'空间检查原始统计','inference.json':'推理环境与哈希记录','manual-review.json':'人工误配核对','verification.json':'产物与保护检查','illustrated-points.json':'图上抽样标注点','correspondence-report.json':'二维对应筛查报告','image-check.json':'开关灯图像检查'};
-  $('#artifact-list').innerHTML=manifest.files.filter(file=>file.endsWith('.json')).map(file=>{const parts=file.split('/');const name=parts.pop();const group=parts.pop();return `<article>${recordLink(file,labels[name]||name)}<p>${esc(group+' / '+name)}</p></article>`;}).join('');
+  $('#artifact-list').innerHTML=manifest.files.filter(file=>file.endsWith('.json')).map(file=>{const parts=file.split('/');const name=parts.pop();const group=parts.pop()||'项目';return `<article>${recordLink(file,labels[name]||name)}<p>${esc(group+' / '+name)}</p></article>`;}).join('');
 }).catch(()=>{$('#artifact-list').textContent='原始数据目录未加载，请先构建网页；主阅读入口仍可查看。';});
 const lightbox=$('#lightbox');
 let lastTrigger=null;
