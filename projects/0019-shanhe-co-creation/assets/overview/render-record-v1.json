@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "type": "original code-typeset overview with unchanged existing concept PNGs",
+  "method": "Deterministic HTML/CSS layout; isolated local Chromium rasterization; no new image-generation call and no model-generated lettering",
+  "source_data": "overview-summary.json",
+  "source_html": "overview/board-v1.html",
+  "output": "shanhe-understanding-overview-v1.png",
+  "width": 3200,
+  "height": 12684,
+  "bytes": 10806913,
+  "sha256": "ec8be3195d61b6287a55201f3af5e96053eedc14584e03dbd73025a17741ba35",
+  "rendered_modules": 10,
+  "rendered_text_characters": 3627,
+  "layout_overflows": [],
+  "console_errors": [],
+  "source_images": [
+    {
+      "file": "fantasy-town-concept-v1.png",
+      "sha256": "e6d1bf526a33514c1dd1e576f54a2731fac629ea5d11c929c1fe1035f9824bed"
+    },
+    {
+      "file": "highland-ram-character-v1.png",
+      "sha256": "3f04123dbcf88c222d49991ed0f33cd4d03ebd1c1f78f7bc52b7877f21150262"
+    },
+    {
+      "file": "highland-ram-region-v1.png",
+      "sha256": "c4a0c73f38e2d330211c98c31e4bbe5a7db659bcc8c7234bbcc6bcd9b5aa2a4a"
+    },
+    {
+      "file": "highland-ram-village-v1.png",
+      "sha256": "0de145e819e6f1efa8aab308cee9531b05267bc737ea8779a38079413b11ed1f"
+    },
+    {
+      "file": "highland-ram-village-v2.png",
+      "sha256": "62225bd702a933adb3668ccc35bfd0e9918e8cfd157fc64fd286c6d61d601d1c"
+    }
+  ],
+  "notes": "Story and game construction are design proposals; current validated capability is creative documentation and the local research website."
+}

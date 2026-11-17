@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "source_date": "2026-11-15—11-16",
+  "files": [
+    {
+      "file": "fantasy-town-concept-v1.png",
+      "sha256": "e6d1bf526a33514c1dd1e576f54a2731fac629ea5d11c929c1fe1035f9824bed",
+      "bytes": 2784217,
+      "width": 1536,
+      "height": 1024,
+      "kind": "AI-generated concept, not gameplay"
+    },
+    {
+      "file": "highland-ram-character-v1.png",
+      "sha256": "3f04123dbcf88c222d49991ed0f33cd4d03ebd1c1f78f7bc52b7877f21150262",
+      "bytes": 2279015,
+      "width": 1536,
+      "height": 1024,
+      "kind": "AI-generated concept, not gameplay"
+    },
+    {
+      "file": "highland-ram-village-v1.png",
+      "sha256": "0de145e819e6f1efa8aab308cee9531b05267bc737ea8779a38079413b11ed1f",
+      "bytes": 3435206,
+      "width": 1536,
+      "height": 1024,
+      "kind": "AI-generated concept, not gameplay"
+    },
+    {
+      "file": "highland-ram-village-v2.png",
+      "sha256": "62225bd702a933adb3668ccc35bfd0e9918e8cfd157fc64fd286c6d61d601d1c",
+      "bytes": 3448650,
+      "width": 1536,
+      "height": 1024,
+      "kind": "AI-generated concept, not gameplay"
+    },
+    {
+      "file": "highland-ram-region-v1.png",
+      "sha256": "c4a0c73f38e2d330211c98c31e4bbe5a7db659bcc8c7234bbcc6bcd9b5aa2a4a",
+      "bytes": 3793578,
+      "width": 1774,
+      "height": 887,
+      "kind": "AI-generated concept, not gameplay"
+    },
+    {
+      "file": "reference-wow.png",
+      "sha256": "73865533edc8b38348a4647ee6b3cfa655a1ee6a07b4c2678fd870e098183987",
+      "bytes": 910682,
+      "width": 1032,
+      "height": 648,
+      "kind": "third-party reference screenshot"
+    }
+  ],
+  "supplements": [
+    {
+      "file": "shanhe-understanding-overview-v1.png",
+      "sha256": "ec8be3195d61b6287a55201f3af5e96053eedc14584e03dbd73025a17741ba35",
+      "bytes": 10806913,
+      "width": 3200,
+      "height": 12684,
+      "kind": "Code-typeset summary with unchanged concept artwork; not gameplay"
+    }
+  ]
+}
