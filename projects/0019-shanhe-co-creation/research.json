@@ -9,7 +9,16 @@
     "status": "概念研究 / 故事草案",
     "position": "从湖岸的共同生活出发，在学习、创造与合作中形成自己的文明。",
     "boundary": "本网页整理了真实讨论和已生成的概念图。尚无游戏客户端、可操控角色、服务器、真实水力模拟或已验证的教育效果。故事、角色姓名、机制数值和后期产品均待进一步确认。",
-    "source_url": "https://x.com/thorgram/status/2121601256557051920"
+    "source_url": "https://x.com/thorgram/status/2121601256557051920",
+    "publication": {
+      "status": "verified",
+      "url": "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html",
+      "date": "2026-11-17",
+      "first_deployment_commit": "19123b30b5f4107daa82e64023532e26f9a1608a",
+      "workflow_run": 44042106202,
+      "record": "publication.md",
+      "game_implemented": false
+    }
   },
   "decisions": [
     {
