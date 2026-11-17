@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_id": 29,
+  "next_id": 32,
   "projects": [
     {
       "id": "0001",
@@ -413,6 +413,35 @@
         "从逐字稿、真实样本和发布数据出发，对照审稿报告、口播稿、分镜与复盘记录。",
         "重点解释清单、样本、模板、留档与脚本如何约束目标；区分文字规定、程序检查与实际效果。",
         "第三方方法先试用，换入自己的样本与标准，再用真实作品沉淀个人 Skill。"
+      ]
+    },
+    {
+      "id": "0031",
+      "order": 31,
+      "slug": "creative-tools-hub",
+      "name": "创作工具总览 · 15库效果、价值与选用",
+      "summary": "把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。",
+      "repository": null,
+      "status": "validated",
+      "tags": [
+        "统一入口",
+        "15库",
+        "效果图谱",
+        "创作选型",
+        "场景路线"
+      ],
+      "preview": {
+        "path": "projects/0031-creative-tools-hub/assets/creative-tools-overview.png",
+        "full_path": "projects/0031-creative-tools-hub/assets/creative-tools-overview.png",
+        "alt": "本轮生成的15库完整效果价值汇总图，按库展示效果、作用、价值、参考场景、边界与验证范围",
+        "caption": "沿用本轮生成的3200×10440完整原图，不重绘或改动像素。12幅不同效果／实测图、GSAP静态构成、Blender连接示意分别标注；Remotion Skills共用Remotion样片证据。"
+      },
+      "demo_url": null,
+      "source_url": "https://x.com/fuji_ai_/status/2121898699374911862",
+      "highlights": [
+        "理解与内容：区分参考、素材、生成、动作、成片、三维与Skills，逐项对应真实效果、输入输出、价值、场景和边界。",
+        "对我们的价值：把喜欢的效果转成可选择、可修改、可验收的做法，复用已有素材和工作规则；保留四项修改／导出测量及各自口径。",
+        "阅读引导：五条任务路线、场景筛选、三库对照和15份阶段记录；使用本轮3200×10440汇总图原件，作者案例、本站实测、共享样片与原理示意分别署名。"
       ]
     }
   ]

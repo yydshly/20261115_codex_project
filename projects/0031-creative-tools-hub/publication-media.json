@@ -1,0 +1,24 @@
+{
+  "tag": "creative-tools-hub-media-20261117",
+  "url": "https://github.com/yydshly/20261115_codex_project/releases/download/creative-tools-hub-media-20261117/creative-tools-hub-media-20261117.zip",
+  "sha256": "b6a7b83c39eacd10e76b9ae545ae381f864071787e78793817eb76bb6e0af446",
+  "bytes": 13702197,
+  "files": [
+    {
+      "path": "media/lemo-v2.mp4",
+      "sha256": "50530d3fa937df2f39aa11e052a54a6fe117a3d3f436d8c6a0ffb4dbdbb460c2",
+      "bytes": 10034295
+    },
+    {
+      "path": "media/pixelfx-abc.mp4",
+      "sha256": "24a37d407ab3492c5979ea1a3c78f9b7def846853b65a11997be79be09e58c08",
+      "bytes": 2339089
+    },
+    {
+      "path": "media/effectcraft-v2.mp4",
+      "sha256": "d0d5e000729ee7f95d7ed4163d94b4b47d779132ca1782269bb02afb97692f25",
+      "bytes": 1328439
+    }
+  ],
+  "scope": "Three self-authored local trial outputs; no original remote author videos."
+}

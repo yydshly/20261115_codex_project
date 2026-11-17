@@ -1,0 +1,14 @@
+萤雨小庭：PixelFX 本地实装验证，2026-11-16。
+
+特效与核心库：PixelFX by Patch (patch-gg/pixelfx), MIT License.
+固定提交：5294518ce7c72e48b6100a744596e0acf57f2826。
+https://github.com/patch-gg/pixelfx
+许可证及原始通知：vendor/pixelfx/LICENSE、vendor/pixelfx/NOTICE.md。
+部分效果和模拟核心源于 Hugo Duprez / Sprite Fusion 的 MIT 代码；act.js 包含 Hollow Crown / rehan-remade 的 MIT 适配，保留原作者文件头。
+
+本次适配：weather/fireflies.js、rain.js、cherry-blossoms.js 新增 overlay 条件，场景合成时跳过内置底色、地面或草丛。未传 overlay 时保持上游原输出。其他效果源码及 core 原样复制。原效果标签展示完整默认版本，庭院版仅调用这六款及其依赖。未复制 Patch Pixel 字体或官网设计。
+
+庭院背景、交互与网页：本研究项目原创代码；无第三方位图素材或声音。
+网页中的六张效果快照来自本次真实运行，特效本身归属与授权如上。
+
+2026-11-16 世界延展：world.mjs、world-app.mjs 与 world.css 的连续地形、小屋、树木、花圃、角色、小猫、寻路、状态与界面均为本项目原创代码绘制。花开动效以半尺寸合成，雨与水纹使用宿主遮罩，未修改对应源配方。原效果实验页保留在 lab.html。

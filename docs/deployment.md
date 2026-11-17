@@ -116,3 +116,10 @@ CI 额外按锁文件安装该项目的 Three.js。`scripts/build.py` 先按 `pu
 `0028-creator-skill-mechanisms` 于 2026-11-17 获得整理理解、提交远端和公开网页部署授权，加入统一 Pages 白名单，入口 `demos/0028-creator-skill-mechanisms/`。标准库 `scripts/build.py --publication` 导出六项理解、五条具体流程、约束强度、与直接生成比较、讨论与固定提交来源。`scripts/check_publication.py` 校验资源和锚点、流程与来源覆盖、引导图原件 SHA-256 及 6 MiB 预算。
 
 项目首页和总导航使用本轮最终生成的 `assets/skill-constraints-overview.png` 原件，1536 × 1024，点击打开完整 PNG，不在 CI 重绘。页面为基于文档与部分源码的机制研究，不代表已部署、安装或实测五套上游 Skill；真实上线后再回填 `demo_url`，提交、Actions 和公开资源核验见项目 `publication.md`。独立发布副本保留远端已有公开项目，其他聊天未提交内容不随本轮发布。
+
+
+## 15库创作工具理解汇总公开发布
+
+0031-creative-tools-hub按用户本轮明确授权加入统一Pages白名单，入口demos/0031-creative-tools-hub/。摘要说明15项的分工、选型与可复用方法价值；总导航和项目首页引用本轮3200×10440完整PNG原件，SHA-256为e41c8fdbdf549304220d70487aa102d532c85ca87bc9f52538c721a221ae7c7f，构建不重绘。
+
+标准库静态导出包含15项效果、五条任务路线、筛选与三库对照、15份阶段资料；三段本站试制视频经Release包和逐文件SHA-256恢复。发布检查核对原图、相对路径、资料覆盖、隐私字段、媒体哈希与40MiB预算。其他未发布研究、会话缓存、原作者完整影片与依赖不随本轮提交。实际部署、PR和公网核验见项目publication.md，确认公开可访问后回填demo_url。

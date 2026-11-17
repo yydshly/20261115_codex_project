@@ -1,0 +1,668 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "title": "创作工具总览",
+  "groups": {
+    "reference": "看参考，定任务",
+    "assets": "做素材与风格片段",
+    "video": "编排动作与成片",
+    "space": "构建三维空间",
+    "design": "改设计，沉淀方法"
+  },
+  "tools": [
+    {
+      "id": "rea",
+      "name": "Rea-Video",
+      "group": "reference",
+      "kind": "视频分析与制作交接",
+      "role": "把参考片拆成镜头、素材要求、证据和复做方案。",
+      "effect": "作者四版纸艺／水彩对照：原片、两种复刻与元素替换；成片还使用下游工具。",
+      "value": "把逐片观察整理成可交接的镜头报告与 VIDEO.md，方便我们继续选素材、写分镜。",
+      "when": "看到参考片，想弄清镜头、节奏和制作路线时。",
+      "avoid": "不把分析推断当成原始工程或准确恢复的提示词。",
+      "input": "参考视频与分析目标",
+      "output": "报告、镜头时间线、VIDEO.md",
+      "evidence": "已看作者片段；未本机运行分析",
+      "level": "observed",
+      "repo": "https://github.com/JuneYaooo/rea-video",
+      "project": "0024-rea-video-value-guide",
+      "media": "rea",
+      "credit": "JuneYaooo / Rea-Video 作者发布对照",
+      "identity": "作者案例",
+      "source": "https://github.com/JuneYaooo/rea-video/blob/07dd587119e884f7c50fbfae92e47840de86bea5/README.md#remakes",
+      "video": "https://github.com/JuneYaooo/rea-video/raw/07dd587119e884f7c50fbfae92e47840de86bea5/docs/cases/remake/paper_compare.mp4",
+      "goal": "分析我们自己的《风来小庭》，区分切镜与单镜头内部的注意力变化。",
+      "adapt": "保留镜头与证据结构；换成自有素材，新增事实／测量／推断／未知的区分。",
+      "brief": "先分析我们的24秒《风来小庭》，记录人物入口、自然展开、镜头内外的注意力转移。再规划20秒雨后庭院，列出证据、素材和实现路线。未知制作方式保留备选，不倒推成确定事实。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "reference",
+        "film",
+        "world"
+      ],
+      "license": "Apache-2.0；第三方视频、音乐和角色另核对"
+    },
+    {
+      "id": "opus",
+      "name": "Awesome Opus Videos",
+      "group": "reference",
+      "kind": "作品与提示词参考库",
+      "role": "收集视频作品、提示词或作者说明，提供表现方法的线索。",
+      "effect": "@anduraio 绘画感三维骑马与草地；这是收集的作者作品。",
+      "value": "先看画面如何成立，再学习怎样描述主体、材质、动作和环境，改写成我们的目标。",
+      "when": "找风格、研究画面表达、写新任务之前。",
+      "avoid": "有些帖文只是结果说明，不能当完整提示词；作品库自身不执行生成。",
+      "input": "题材或想找的表现方向",
+      "output": "作品入口、文字参考、原创任务",
+      "evidence": "三条原作与三条站方复刻已看片段；未执行改写",
+      "level": "observed",
+      "repo": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "project": "0015-opus-video-prompt-guide",
+      "media": "opus",
+      "credit": "@anduraio / 原作海报，Skillry公开来源",
+      "identity": "收录的作者原作",
+      "source": "https://skillry.dev/ai-videos/opus-5-5/anduraio-570761",
+      "goal": "用草浪、衣角、树冠的接力变化表现风，保留人物与自然的关系。",
+      "adapt": "借鉴画面关系与表达方式；角色、场景、节奏与验收要求按我们的方向重写。",
+      "brief": "制作20秒草地短片：人物先停下感受风，再由衣角、近处草浪与远处树冠逐层展开。统一轮廓与柔和明暗，动作有因果，镜头不为炫技打断体验。按实际生成结果返修。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "reference",
+        "film",
+        "world"
+      ],
+      "license": "仓库MIT；原作与第三方媒体权利不随代码许可转移",
+      "video": "https://media.skillry.dev/opus-5-5/anduraio-570761/original.mp4"
+    },
+    {
+      "id": "lemo",
+      "name": "Lemo-Opuscar",
+      "group": "assets",
+      "kind": "代码短片的风格与制作方法",
+      "role": "用代码绘景、安排镜头与声音，参考成套风格规则制作短片。",
+      "effect": "左：作者《跟着雨走》；右：我们的水彩《风来小庭》，题材不同。",
+      "value": "让风格规则落到绘景、材质、镜头和修改位置，适合可反复调整的风格化短片。",
+      "when": "做水彩、纸艺等风格短片，并愿意用代码组织画面时。",
+      "avoid": "本轮只实际使用水彩路线；不能据此声称所有风格都已掌握。",
+      "input": "故事／镜头方向与风格规则",
+      "output": "场景代码、声音、可渲染短片",
+      "evidence": "自制24秒短片并改稿；与原作有差距记录",
+      "level": "made",
+      "repo": "https://github.com/lemomo-ai/lemo-opuscar",
+      "project": "0010-lemo-opuscar-trial",
+      "media": "lemo",
+      "credit": "LemoLab作者片 CC BY4.0 / 本库《风来小庭》",
+      "identity": "作者原片＋本库小样",
+      "source": "https://lemomo-ai.github.io/lemo-opuscar/zh/styles/watercolor/",
+      "goal": "人物建立入口，再把注意力交给风、草木和水面。",
+      "adapt": "保留水彩笔触与局部绘入；换成庭院题材、较安静的节奏；补充声画和修改检查。",
+      "brief": "制作24秒雨后庭院水彩短片，人物只作情绪入口，随后展示叶尖滴水、草木与水面。保持纸感与笔刷层次，按真实初稿改一轮，记录修改位置和导出耗时。",
+      "briefState": "已有制作与改稿；不代表完全复现原片",
+      "uses": [
+        "film",
+        "world"
+      ],
+      "license": "代码MIT；所引作者影片CC BY4.0，选帧／缩放已标注",
+      "video": "../../0010-lemo-opuscar-trial/episodes/wind-in-the-garden/renders/v2/wind-in-the-garden-v2.mp4",
+      "videoKind": "ours",
+      "measurementShort": "改稿约130秒；V2构建50.088秒，不含前期建工程。",
+      "measurement": "Windows本机，24秒720p/60fps。V1画面渲染45.017秒、全构建60.162秒；V2渲染41.647秒、全构建50.088秒。改稿从版本配置记录到输出约130秒，不含前期选型、故事与工程建立。",
+      "measurementSource": "../../0010-lemo-opuscar-trial/README.md"
+    },
+    {
+      "id": "pixelfx",
+      "name": "PixelFX",
+      "group": "assets",
+      "kind": "像素风动态素材",
+      "role": "提供雨、火、水纹、花瓣等像素风动态零件。",
+      "effect": "六款原效果的本机运行快照；庭院对照另见专题。",
+      "value": "给像素庭院补局部天气和生命感，复用已有动态规律，再调密度、颜色与位置。",
+      "when": "像素风游戏、网页场景、像素短片需要局部动态时。",
+      "avoid": "加大分辨率不会自动变成写实或三维特效；不适合直接当真实世界VFX。",
+      "input": "像素场景、位置、密度与配色",
+      "output": "像素风粒子／局部动画",
+      "evidence": "六款效果运行；有无效果及改稿对照已制作",
+      "level": "made",
+      "repo": "https://github.com/patch-gg/pixelfx",
+      "project": "0013-pixelfx-garden-trial",
+      "media": "pixelfx",
+      "credit": "PixelFX / Patch，原效果本机代码运行快照",
+      "identity": "原效果实跑",
+      "source": "https://github.com/patch-gg/pixelfx",
+      "goal": "庭院中的雨、水纹和微光服务氛围，保持像素比例一致。",
+      "adapt": "复用动态素材；减少密度和抢眼程度，按场景逻辑限制出现区域。",
+      "brief": "对同一像素庭院制作关闭效果、原参数、克制返修三版。雨落在可见区域，水纹只出现在水面，火光与周围物体关系清楚。固定时点比较并记录修改耗时。",
+      "briefState": "已有A/B/C实测与改稿",
+      "uses": [
+        "pixel",
+        "film",
+        "world"
+      ],
+      "license": "MIT；保留PixelFX及原效果作者声明",
+      "video": "../../0013-pixelfx-garden-trial/renders/comparison/abc-synchronized.mp4",
+      "videoKind": "ours",
+      "measurementShort": "参数修改与首次静看138.951秒，不含后续导出与动态验看。",
+      "measurement": "同场景12秒A/B/C。风格参数编辑加首次静看138.951秒；三视频渲染7.040秒，带标签拼接2.111秒。整轮1291.91秒包含准备、等待和验看，各子操作不能再叠加进总时间。",
+      "measurementSource": "../../0013-pixelfx-garden-trial/comparison-record.json"
+    },
+    {
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "group": "assets",
+      "kind": "模型生成工作流",
+      "role": "把模型、输入、提示词、采样和处理节点接成可保存的流程。",
+      "effect": "官方SD1.5图生图教程结果；生成画面由模型与输入共同决定。",
+      "value": "留下可以继续修改和比较的生成步骤，而不只保存一条提示词。",
+      "when": "反复比较关键帧、图片轻动、多步骤处理或多模型接力时。",
+      "avoid": "工作流JSON不包含所有模型和依赖；保存流程不保证跨环境同结果。",
+      "input": "模型、素材、节点和参数",
+      "output": "图片／视频及工作流记录",
+      "evidence": "官方图生图与Wan2.2样片已观察；未本机推理",
+      "level": "observed",
+      "repo": "https://github.com/Comfy-Org/ComfyUI",
+      "project": "0026-comfyui-value-guide",
+      "media": "comfyui",
+      "credit": "ComfyUI官方示例 / SD1.5教程结果",
+      "identity": "官方生成示例",
+      "source": "https://docs.comfy.org/tutorials/basic/image-to-image",
+      "goal": "稳定整理庭院关键帧，再尝试小幅运动，留下可复查参数。",
+      "adapt": "先把场景、光线和运动范围说清；同一输入逐项改变参数，记录模型、节点与素材版本。",
+      "brief": "以我们的庭院图为输入，先整理可读的图生图工作流，再尝试水面和草木的小幅运动。保持镜头与建筑关系，逐项比较参数，保留失败结果、模型和节点版本。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "film",
+        "world",
+        "realistic"
+      ],
+      "license": "核心GPL-3.0；模型、自定义节点与素材分别核对"
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "group": "video",
+      "kind": "动效编辑、图层与导出",
+      "role": "在现有画面上加文字、图形与其他图层，用关键帧安排变化并导出。",
+      "effect": "我们同一底片的标题V1／V2：改字、位置和颜色后重新导出。",
+      "value": "文字、图层和时点可精确修改，已有底片可以持续复用。",
+      "when": "给视频补标题、说明、图片和局部动效，需快速改内容时。",
+      "avoid": "本轮验证原生CPU合成路径；不能据此替代完整桌面编辑体验或所有格式验证。",
+      "input": "已有视频／图片／文字与时间安排",
+      "output": "编辑数据与合成导出视频",
+      "evidence": "实际原生导出6秒两版；桌面完整流程未验",
+      "level": "made",
+      "repo": "https://github.com/storytold/effectcraft",
+      "project": "0014-effectcraft-trial",
+      "media": "effectcraft",
+      "credit": "本库自有水彩底片 / EffectCraft文字合成导出",
+      "identity": "本库实际合成",
+      "source": "https://github.com/storytold/effectcraft",
+      "goal": "在自然画面合适的位置补必要文字，保持主体与水面可见。",
+      "adapt": "保留图层和关键帧；按我们的画面减少文字，改为不遮挡主体的位置。",
+      "brief": "在已有《风来小庭》底片上添加简短标题，设置出入场与位置，保存工程后改一轮文字、颜色和布局，导出同一时点对照，并核对字幕清晰度与时长。",
+      "briefState": "已有两版合成和导出",
+      "uses": [
+        "film",
+        "avatar",
+        "text"
+      ],
+      "license": "MIT OR Apache-2.0；字体、底片各自署名",
+      "video": "../../0014-effectcraft-trial/renders/title-v2.mp4",
+      "videoKind": "ours",
+      "measurementShort": "6秒初稿／改稿导出1.882／1.962秒，不含设计与工程准备。",
+      "measurement": "Windows原生CPU合成，640×360、24fps、6秒。V1导出1.882秒，V2导出1.962秒；已编写参数修改调用0.0052秒，不包含人工看图、设计、编码和导出。",
+      "measurementSource": "../../0014-effectcraft-trial/README.md"
+    },
+    {
+      "id": "hyperframes",
+      "name": "HyperFrames",
+      "group": "video",
+      "kind": "网页代码的视频编排",
+      "role": "将HTML中的文字、图片、图表、视频等按时间编排，组织可导出的视频。",
+      "effect": "官方讲解片42.6秒选帧：户外人物口播与字幕。",
+      "value": "适合“说到概念给图，说到数据给图表，再回到人物”的可改讲解模板。",
+      "when": "数字人口播、知识讲解、产品发布片和数据故事。",
+      "avoid": "人物、配音和主要素材需另外准备；不是自动生成数字人的模型。",
+      "input": "人物视频、图文、数据与时间安排",
+      "output": "HTML视频工程与渲染成片",
+      "evidence": "官方人物／图表／发布片已看片段；未本机渲染",
+      "level": "observed",
+      "repo": "https://github.com/heygen-com/hyperframes",
+      "project": "0022-hyperframes-value-guide",
+      "media": "hyperframes",
+      "credit": "HeyGen / HyperFrames官方片42.6秒缩图",
+      "identity": "官方视频选帧",
+      "source": "https://hyperframes.heygen.com/guides/avatar-presenter",
+      "video": "https://static.heygen.ai/hyperframes-oss/homepage/showcase/hq/explainer-code2video-bench-v1.mp4",
+      "goal": "让人物口播与图文共同解释内容，保持克制、清楚。",
+      "adapt": "保留时间编排；用自有口播和真实数据替换案例，按句意插入必要画面。",
+      "brief": "用现有人物口播做一段讲解：关键词出现时给短标签，数据段展开图表，案例段给图片，随后回到人物。所有文字与时点可修改，核对遮挡、同步和导出画面。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "avatar",
+        "film",
+        "data"
+      ],
+      "license": "框架与官网媒体分别核对，保留HeyGen来源"
+    },
+    {
+      "id": "remotion",
+      "name": "Remotion",
+      "group": "video",
+      "kind": "逐帧视频编排与渲染",
+      "role": "用React组件、当前帧和参数组织画面、字幕、音频并渲染。",
+      "effect": "本库《相似，来自方向。》实际渲染帧，已有初稿与改稿。",
+      "value": "积累可换文字、数据、素材的视频模板，并在同一帧定位修改。",
+      "when": "技术讲解、图解、产品片、数字人图文、批量内容。",
+      "avoid": "画面素材、艺术方向与验片仍需完成；模板不等于自动审美。",
+      "input": "React场景、参数、素材与声音",
+      "output": "可编辑工程、视频／帧／GIF",
+      "evidence": "18秒初版、24秒改稿已制作与导出",
+      "level": "made",
+      "repo": "https://github.com/remotion-dev/remotion",
+      "project": "0001-animation-skills-atlas",
+      "deep": "compare.html",
+      "media": "remotion",
+      "credit": "本库原创《相似，来自方向。》/ Remotion渲染",
+      "identity": "本库实际成片",
+      "source": "https://www.remotion.dev/",
+      "goal": "把主题、字幕、图解和节奏统一在可修改的工程中。",
+      "adapt": "按我们的叙事方向决定镜头；使用逐帧计算，保存初稿、改稿和计时口径。",
+      "brief": "制作一段有清楚观点的24秒图解短片，画面、字幕和音频按帧编排。内容和参数分离，保留18秒初稿，再对实际问题定向改稿，导出同帧对照。",
+      "briefState": "已有同案制作与改稿",
+      "uses": [
+        "film",
+        "avatar",
+        "data",
+        "text"
+      ],
+      "license": "Remotion自有许可条件；依具体团队与用途核对",
+      "video": "../../0001-animation-skills-atlas/web/public/comparison/remotion-v2.mp4",
+      "videoKind": "ours",
+      "measurementShort": "18秒初稿导出53.457秒；24秒改稿23.328秒，缓存与口径不同不排名。",
+      "measurement": "本机720p/24fps。V1为18秒、CLI wallSeconds53.457；V2为24秒、23.328。CLI包含启动、编译、渲染与编码，缓存影响结果；没有统计人工创作工时，也不作跨工具性能排名。",
+      "measurementSource": "../../0001-animation-skills-atlas/comparison/README.md"
+    },
+    {
+      "id": "remotion-skills",
+      "name": "Remotion Skills",
+      "group": "video",
+      "kind": "Remotion官方工作指南",
+      "role": "指导助手怎样使用Remotion制作、预览、处理字幕和渲染。",
+      "effect": "与Remotion共用本库样片证据；技能自身不独立渲染。",
+      "value": "减少重复查用法，把制作要求落实到正确的组件和逐帧规则。",
+      "when": "已经决定采用Remotion，需要助手按规范实现时。",
+      "avoid": "同一画面不能当作两个工具的独立验证或技能效果排名。",
+      "input": "任务、项目约定与相关技能说明",
+      "output": "助手的实现步骤与Remotion工程",
+      "evidence": "13个任务入口已读；部分规范用于本库样片",
+      "level": "shared",
+      "repo": "https://github.com/remotion-dev/skills",
+      "project": "0001-animation-skills-atlas",
+      "deep": "index.html",
+      "media": "remotion",
+      "credit": "同一Remotion本库样片 / 共用证据",
+      "identity": "指南应用的共享样例",
+      "source": "https://github.com/remotion-dev/skills",
+      "goal": "让视频实现遵守可渲染、可修改的逐帧规范。",
+      "adapt": "按任务选相关指南；将场景内容、风格与验收要求交给具体项目。",
+      "brief": "先读取与本次字幕、编排、渲染有关的Remotion指南，按项目约定实现。检查动画是否由当前帧确定，预览与渲染一致，并用真实导出验证。",
+      "briefState": "部分规则已用；不是独立成片引擎",
+      "uses": [
+        "film",
+        "avatar",
+        "data"
+      ],
+      "license": "技能与Remotion运行库分别核对"
+    },
+    {
+      "id": "gsap",
+      "name": "GSAP",
+      "group": "video",
+      "kind": "对象动画与时间线",
+      "role": "控制已有文字、图片、图形或三维对象属性怎样随时间变化。",
+      "effect": "庭院图文、水纹与标签按时间出现；图中为本库动效的静态构成示意。",
+      "value": "精确调整顺序、重叠、速度和缓动，随时重播、倒放和定位。",
+      "when": "复杂标题、口播配图、图表进出、网页导览与相机参数动画。",
+      "avoid": "GSAP不负责生成素材，也不单独输出完整MP4；简单淡入可能CSS已够用。",
+      "input": "已有对象与动作参数",
+      "output": "网页／应用内的属性动画",
+      "evidence": "真实GSAP 3.15.1的8秒双风格示意已实测",
+      "level": "made",
+      "repo": "https://github.com/greensock/GSAP",
+      "project": "0025-gsap-value-guide",
+      "media": "gsap",
+      "credit": "本库原创庭院动效的静态构成示意",
+      "identity": "本库示意（非截图）",
+      "source": "https://gsap.com/",
+      "video": "https://gsap.com/community/uploads/pages_media/showreel-2-25-small.mp4?_cb=1769447017",
+      "goal": "标题建立入口，再让自然细节与标签展开，动作不抢主体。",
+      "adapt": "保留时间线；减小移动幅度、放缓错开间隔，并保留拖动与倒放。",
+      "brief": "做8秒庭院图文动画：标题先出，水纹和引导线随后出现，标签逐个展开，结尾收走。保留动感版与克制版，同一时点可重播比较，初始不自动播放。",
+      "briefState": "已有网页示意；未导出视频",
+      "uses": [
+        "avatar",
+        "text",
+        "data",
+        "world"
+      ],
+      "license": "GSAP Standard License，非MIT"
+    },
+    {
+      "id": "blender",
+      "name": "Blender MCP",
+      "group": "space",
+      "kind": "助手与Blender的连接桥",
+      "role": "把助手的操作请求送进Blender，并返回场景信息与结果。",
+      "effect": "作者演示用Polyhaven素材搭海滩；此处用原理示意替代缺少的本地视频帧。",
+      "value": "用自然语言开始场景操作，同时让助手依据结果继续调整。",
+      "when": "需要在Blender里搭场景、调材质、摆相机或整理模型。",
+      "avoid": "真正的形体、材质与渲染由Blender及资产完成；桥接本身不保证画质。",
+      "input": "自然语言任务、工具操作与场景",
+      "output": "Blender操作和场景反馈",
+      "evidence": "作者约24—35秒演示已观察；未本机安装执行",
+      "level": "observed",
+      "repo": "https://github.com/ahujasid/mcp-for-blender",
+      "project": "0023-blender-mcp-value-guide",
+      "media": "blender",
+      "credit": "本库原创连接原理图 / 非作者演示截图",
+      "identity": "原理示意",
+      "source": "https://www.youtube.com/watch?v=I29rn92gkC4",
+      "goal": "先做一个可检查的小庭院，按实际画面逐步修改材质与镜头。",
+      "adapt": "保留操作—反馈循环；限定任务范围，用现成授权资产开始，不把看图当完整工程验收。",
+      "brief": "在Blender中用可用的授权资产搭一个小庭院，先验证地面、树、石、水和相机。每步返回当前结果，再按构图和材质问题调整；保存源工程并检查可编辑性。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "world",
+        "film",
+        "realistic"
+      ],
+      "license": "桥接代码与Blender、Polyhaven等资产分别核对"
+    },
+    {
+      "id": "three",
+      "name": "Three.js",
+      "group": "space",
+      "kind": "网页实时三维",
+      "role": "在浏览器组织模型、几何体、材质、灯光、相机和交互。",
+      "effect": "本库大地图早期海岸灯塔场景；不以旧图证明新增地区已全部复验。",
+      "value": "把世界设想做成能进入、移动和观察的空间，而不只是一张概念图。",
+      "when": "可漫游世界、三维产品展示、空间讲解和三维镜头。",
+      "avoid": "还需要资产、场景设计与逻辑；环境样本不等于完整多人游戏。",
+      "input": "模型／几何、材质、灯光、相机",
+      "output": "网页实时三维空间与交互",
+      "evidence": "基础实验与世界地图已做；部分新增地区待复验",
+      "level": "made",
+      "repo": "https://github.com/mrdoob/three.js",
+      "project": "0012-world-building-lab",
+      "deep": "index.html",
+      "media": "three",
+      "credit": "本库原创世界 / Three.js早期场景实景",
+      "identity": "本库实际场景",
+      "source": "https://threejs.org/examples/",
+      "goal": "用地面尺度的空间体验研究地形、水、植被与聚落之间的关系。",
+      "adapt": "从环境样本逐步连接为世界；把几何检查、浏览器画面和真实游戏能力分开验收。",
+      "brief": "在现有世界中选择一个小区域，整理地形骨架、地表覆盖、水域关系和植被。保留可移动视角与观察点，先检查连续空间、材质、遮挡和性能，再扩展范围。",
+      "briefState": "已有地图；建议任务需按具体区域验收",
+      "uses": [
+        "world",
+        "realistic"
+      ],
+      "license": "MIT；模型、纹理和字体仍需各自许可"
+    },
+    {
+      "id": "unslop",
+      "name": "Unslop",
+      "group": "design",
+      "kind": "整页设计返修方法",
+      "role": "从页面真实问题出发，确定方向，逐层返修并验看。",
+      "effect": "作者发布的仪表盘完成稿；专题中另有过程帧和草地页脚。",
+      "value": "把“看起来不对”变成具体的版式、内容、图形与交互调整。",
+      "when": "已有页面整体需要梳理，视觉与产品内容不贴合时。",
+      "avoid": "不是固定的深色或草地皮肤；截图也不代表可编辑三维资产。",
+      "input": "现有页面、真实内容与目标",
+      "output": "设计方向、返修代码与验看",
+      "evidence": "作者过程与完成稿已观察；未完整执行技能",
+      "level": "observed",
+      "repo": "https://github.com/heydamir/unslop",
+      "project": "0027-unslop-value-guide",
+      "media": "unslop",
+      "credit": "Damir Sokolovsky / Unslop，CC BY4.0",
+      "identity": "作者完成稿",
+      "source": "https://github.com/heydamir/unslop",
+      "goal": "让研究页的画面、说明和交互真正服务理解。",
+      "adapt": "借鉴问题—方向—返修—验看的过程；保留已确认风格、内容和来源，不套作者视觉皮肤。",
+      "brief": "先检查研究页哪里妨碍理解，说明证据与方向，再逐项返修层级、说明、素材和交互。保留来源与验证状态，按桌面和手机实际画面决定下一轮。",
+      "briefState": "原创草案；只有局部文案建议已整理",
+      "uses": [
+        "web"
+      ],
+      "license": "CC BY4.0，保留署名与缩小引用说明"
+    },
+    {
+      "id": "impeccable",
+      "name": "Impeccable",
+      "group": "design",
+      "kind": "明确设计任务与项目记录",
+      "role": "把检查、澄清、梳理主次与记录设计规则拆成明确任务。",
+      "effect": "作者旅馆使用技能后的画面；专题有未使用版与Neo Mirai案例。",
+      "value": "更容易限定“改哪里、为什么改、改完怎样验看”，并保存已有设计规则。",
+      "when": "局部说明不清、手机布局有问题、一屏主次不明，或要延续已有设计。",
+      "avoid": "规则命中或审查分数不能单独证明审美与可用性提升。",
+      "input": "页面、目标范围、产品与设计背景",
+      "output": "报告、局部返修、设计约定",
+      "evidence": "官方对照已看、轮播已点；未执行真实audit或Live",
+      "level": "observed",
+      "repo": "https://github.com/pbakaus/impeccable",
+      "project": "0029-impeccable-value-guide",
+      "media": "impeccable",
+      "credit": "Paul Bakaus / Impeccable作者发布旅馆图",
+      "identity": "作者案例",
+      "source": "https://github.com/pbakaus/impeccable",
+      "goal": "用清楚的小任务改一段说明或一屏主次，保持整体方向。",
+      "adapt": "按发现选择audit、clarify、distill、document等任务，不机械执行整套。",
+      "brief": "对指定研究页先列出影响理解的问题，再选一项澄清说明或梳理层级。限定改动区块，保留来源和已有交互，在桌面和手机复核，记录实际设计约定。",
+      "briefState": "原创草案，未执行",
+      "uses": [
+        "web"
+      ],
+      "license": "Apache-2.0；官网素材单独核对"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic Skills",
+      "group": "design",
+      "kind": "可复用工作方法的官方范例",
+      "role": "把说明、参考资料和脚本组织起来，按相关任务读取。",
+      "effect": "官方2025年前端设计技能示例；不代表2026固定提交重测。",
+      "value": "保存我们反复确认的研究顺序、风格要求和检查步骤，减少重复交代。",
+      "when": "相同的研究、分镜验收、文档模板和交付步骤反复出现时。",
+      "avoid": "技能不自动提供模型、工具和依赖；有说明仍需实际执行与验收。",
+      "input": "任务、技能说明、资料和脚本",
+      "output": "助手的可复用工作依据",
+      "evidence": "范例与历史图片已读；未安装执行，收益未测",
+      "level": "observed",
+      "repo": "https://github.com/anthropics/skills",
+      "project": "0030-anthropic-skills-value-guide",
+      "media": "anthropic",
+      "credit": "Anthropic / 2025-11-12官方历史示例",
+      "identity": "官方历史示例",
+      "source": "https://claude.com/resources/articles/improving-frontend-design-through-skills",
+      "goal": "把“效果→价值→参考与改写→验证”的研究方法稳定保存。",
+      "adapt": "保留明确步骤与按需资料；沿用现有库约定，不重复建一套规则。",
+      "brief": "按现有总库约定研究指定项目。先展示作者效果与出处，再解释我们的用途；分别整理原文短节选、目标、取舍和原创任务。保存验证范围，复用已有检查脚本，未执行的任务标明草案。",
+      "briefState": "原创草案，未创建真实技能",
+      "uses": [
+        "workflow",
+        "film",
+        "web",
+        "world",
+        "avatar"
+      ],
+      "license": "已核对部分技能Apache-2.0；网站媒体权利另核对"
+    }
+  ],
+  "routes": [
+    {
+      "id": "film",
+      "label": "做自然体验短片",
+      "goal": "人物建立情绪入口，再把注意力交给风、草木和水面。",
+      "flow": [
+        "opus",
+        "rea",
+        "lemo",
+        "comfyui",
+        "remotion"
+      ],
+      "optional": [
+        "effectcraft",
+        "gsap"
+      ],
+      "note": "Lemo与ComfyUI是不同素材路线；Remotion与其他视频编排工具按项目选。并非每次全部使用。",
+      "stages": [
+        {
+          "label": "看参考与拆片",
+          "ids": [
+            "opus",
+            "rea"
+          ]
+        },
+        {
+          "label": "选素材／风格路线",
+          "ids": [
+            "lemo",
+            "comfyui"
+          ]
+        },
+        {
+          "label": "组织成片",
+          "ids": [
+            "remotion"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avatar",
+      "label": "给数字人口播配画面",
+      "goal": "说到概念给短标签，说到数据给图表，案例给图片，再回到人物。",
+      "flow": [
+        "hyperframes",
+        "remotion",
+        "effectcraft",
+        "gsap"
+      ],
+      "optional": [
+        "comfyui"
+      ],
+      "note": "这是几种可选编排办法；口播、配音和图表数据需要先有来源。库之间未在本轮全部接通。",
+      "stages": [
+        {
+          "label": "编排路线，按项目选一种",
+          "ids": [
+            "hyperframes",
+            "remotion",
+            "effectcraft"
+          ]
+        },
+        {
+          "label": "有复杂动作再加入",
+          "ids": [
+            "gsap"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "label": "构建可进入的三维世界",
+      "goal": "从参考和环境关系出发，逐步变成能进入、移动和观察的空间。",
+      "flow": [
+        "opus",
+        "blender",
+        "three"
+      ],
+      "optional": [
+        "comfyui",
+        "gsap",
+        "pixelfx"
+      ],
+      "note": "Blender准备可编辑场景／资产，Three.js组织网页实时世界；PixelFX只在像素方向适用。该组合未作完整生产链验收。",
+      "stages": [
+        {
+          "label": "理解环境与风格",
+          "ids": [
+            "opus"
+          ]
+        },
+        {
+          "label": "准备资产与场景",
+          "ids": [
+            "blender"
+          ]
+        },
+        {
+          "label": "网页实时空间",
+          "ids": [
+            "three"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "label": "把研究网页改清楚",
+      "goal": "先让效果与用途可理解，再处理局部层级、文字、交互和手机布局。",
+      "flow": [
+        "unslop",
+        "impeccable",
+        "anthropic"
+      ],
+      "optional": [
+        "gsap"
+      ],
+      "note": "按问题选整页过程或局部任务；沿用已确认风格，实际页面验看。技能之间不是必须依次执行。",
+      "stages": [
+        {
+          "label": "按问题选整页或局部方法",
+          "ids": [
+            "unslop",
+            "impeccable"
+          ]
+        },
+        {
+          "label": "保存反复使用的方法",
+          "ids": [
+            "anthropic"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reference",
+      "label": "先看懂一个参考片",
+      "goal": "分清看到了什么、哪些是推断、要复做还缺什么。",
+      "flow": [
+        "opus",
+        "rea"
+      ],
+      "optional": [
+        "anthropic"
+      ],
+      "note": "先理解作品与证据，再决定素材与制作工具。反推文字不当作作者完整原始输入。",
+      "stages": [
+        {
+          "label": "找作品与文字线索",
+          "ids": [
+            "opus"
+          ]
+        },
+        {
+          "label": "需要时进一步拆片",
+          "ids": [
+            "rea"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -18,6 +18,7 @@ on:
       - 'projects/0017-design-reference-atlas/**'
       - 'projects/0018-bot-role-research/**'
       - 'projects/0028-creator-skill-mechanisms/**'
+      - 'projects/0031-creative-tools-hub/**'
       - 'projects.json'
       - 'scripts/build_site.py'
       - '.github/workflows/pages.yml'
