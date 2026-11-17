@@ -1,0 +1,19 @@
+<!doctype html><meta charset="utf-8"><title>运河到咖啡店 · 连续三维镜头</title>
+<style>body{margin:0;padding:24px;background:#14202d;color:#edf3fa;font:16px system-ui}h1{font-size:24px}video{width:min(100%,1100px);display:block}p{max-width:1050px;line-height:1.7}a{color:#99d1ff}#status{color:#b9cad8}</style>
+<h1>运河全景 → 靠近咖啡店 → 开门进入 → 转身看街道</h1>
+<p id="status">正在载入连续镜头…</p>
+<video controls muted playsinline preload="auto"></video>
+<p>28 秒，同一三维场景、连续移动相机。原有模型、材质、光源与高斯分层保持原样，保留靠近和反向观察时的拉伸、漂浮色块与街道缺失。</p>
+<p><a href="/?tour=1">打开三维场景，播放或拖动镜头进度</a> · <a href="continuous-tour.mp4">打开原始视频</a></p>
+<script type="module">
+const video=document.querySelector('video'),status=document.querySelector('#status');
+try {
+  // The loopback research server has no HTTP Range support. A local Blob gives
+  // the native video player reliable random seeking without changing that server.
+  const response=await fetch('continuous-tour.mp4');
+  if(!response.ok)throw Error(`HTTP ${response.status}`);
+  video.src=URL.createObjectURL(await response.blob());
+  status.textContent='连续镜头已载入，可播放、暂停或拖动进度。';
+  try{await video.play();}catch{status.textContent='连续镜头已载入，点击播放器开始。';}
+}catch(error){status.textContent=`视频载入失败：${error.message}。可使用下方原始视频链接。`;}
+</script>

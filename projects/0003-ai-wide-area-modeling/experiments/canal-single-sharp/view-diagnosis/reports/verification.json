@@ -1,0 +1,51 @@
+{
+  "camera_projection_checks": {
+    "source": {
+      "maximum_projection_difference_pixels": 8.038873388460929e-14,
+      "actual_view_matrix_matches_saved_extrinsics": true
+    },
+    "target": {
+      "maximum_projection_difference_pixels": 1.1368683772161603e-13,
+      "actual_view_matrix_matches_saved_extrinsics": true
+    }
+  },
+  "source_ply_unchanged": true,
+  "source_ply_sha256": "f016afa60f439dd76c7aac808b0a27e7e7fec224a3e56638029169d81069c1a0",
+  "annotations": [
+    {
+      "id": 1,
+      "box": [
+        80,
+        208,
+        235,
+        390
+      ],
+      "description": "咖啡店门窗/遮挡轮廓：重点核对，不是已确认错误"
+    },
+    {
+      "id": 2,
+      "box": [
+        650,
+        260,
+        955,
+        400
+      ],
+      "description": "桥洞与栏杆：检查新露出区域和遮挡连续性"
+    },
+    {
+      "id": 3,
+      "box": [
+        340,
+        425,
+        680,
+        548
+      ],
+      "description": "水面倒影：预测深度不能直接当河床或真实水面形状"
+    }
+  ],
+  "annotations_scope": "Manual review priorities, not manually verified geometric errors",
+  "source_unsupported_fraction": 0.047507992895204264,
+  "depth_boundary_risk_fraction": 0.12611545293072823,
+  "ai_inpainting_performed": false,
+  "gaussian_geometry_modified": false
+}

@@ -1,0 +1,142 @@
+{
+  "video": {
+    "programs": [],
+    "streams": [
+      {
+        "width": 960,
+        "height": 596,
+        "r_frame_rate": "12/1",
+        "nb_frames": "432"
+      }
+    ],
+    "format": {
+      "duration": "36.000000"
+    }
+  },
+  "master": {
+    "blender": "4.5.9 LTS",
+    "objects": 5290,
+    "mesh_objects": 5114,
+    "door_matrices": [
+      {
+        "frame": 1,
+        "matrix_max_error": 0.0,
+        "degrees": 0.0
+      },
+      {
+        "frame": 25,
+        "matrix_max_error": 0.0,
+        "degrees": 21.259260904893583
+      },
+      {
+        "frame": 49,
+        "matrix_max_error": 0.0,
+        "degrees": 82.00000000512816
+      },
+      {
+        "frame": 97,
+        "matrix_max_error": 0.0,
+        "degrees": 0.0
+      }
+    ],
+    "editable_table_children": {
+      "Cafe_Table_1": 14,
+      "Cafe_Table_2": 14
+    },
+    "opposite_buildings": {
+      "Opposite building 00": 392,
+      "Opposite building 01": 351,
+      "Opposite building 02": 392,
+      "Opposite building 03": 351,
+      "Opposite building 04": 392,
+      "Opposite building 05": 351,
+      "Opposite building 06": 392,
+      "Opposite building 07": 351
+    },
+    "master_unchanged": true,
+    "old_v4_unchanged": true,
+    "reference_world_scope": "Isolated editable completion of our own canal model. Not an automatic recovery of hidden space from one image. Source SHARP splats are not silently stretched into this world.",
+    "external_images": []
+  },
+  "ui": {
+    "noBrowserErrors": true,
+    "closedDoorStopsEntry": true,
+    "openDoorAllowsEntry": true,
+    "daylightLoads": true,
+    "editSwitchesToMesh": true,
+    "assetsUnchanged": true
+  },
+  "blender_gaussian_binding": [
+    {
+      "frame": 1,
+      "mesh_max_error": 0.0,
+      "splat_max_error": 0.0,
+      "static_max_error": 0.0
+    },
+    {
+      "frame": 25,
+      "mesh_max_error": 0.0,
+      "splat_max_error": 0.0,
+      "static_max_error": 0.0
+    },
+    {
+      "frame": 49,
+      "mesh_max_error": 0.0,
+      "splat_max_error": 0.0,
+      "static_max_error": 0.0
+    }
+  ],
+  "lighting": {
+    "gaussian_geometry_identical": true,
+    "same_camera_rgb_mae_255": 38.96927517361111,
+    "meaning": "Re-rendered and fused two light presets; not instantaneous physical Gaussian relighting"
+  },
+  "fusion": {
+    "static_gaussians": 1828111,
+    "door_gaussians": 54621,
+    "input_views": 12,
+    "raw_samples": 2206934,
+    "voxel": 0.007
+  },
+  "continuity": {
+    "max_camera_step": 0.31826220521984533,
+    "max_camera_rotation_degrees": 2.9100058694339155
+  },
+  "heldout_visual_comparison": [
+    {
+      "time": 10,
+      "mae_rgb_255": 24.470384516460907,
+      "psnr_db": 17.09817559257458,
+      "scope": "Unmasked whole-image visual comparison; different glass and baked reflections are included. No quality pass is inferred from geometric agreement."
+    },
+    {
+      "time": 20,
+      "mae_rgb_255": 24.041770833333334,
+      "psnr_db": 15.898271124453256,
+      "scope": "Unmasked whole-image visual comparison; different glass and baked reflections are included. No quality pass is inferred from geometric agreement."
+    },
+    {
+      "time": 29,
+      "mae_rgb_255": 35.93043209876543,
+      "psnr_db": 14.469727436054855,
+      "scope": "Unmasked whole-image visual comparison; different glass and baked reflections are included. No quality pass is inferred from geometric agreement."
+    },
+    {
+      "time": 35,
+      "mae_rgb_255": 21.823275462962965,
+      "psnr_db": 16.88553903272837,
+      "scope": "Unmasked whole-image visual comparison; different glass and baked reflections are included. No quality pass is inferred from geometric agreement."
+    }
+  ],
+  "source": {
+    "old_v4_unchanged": true,
+    "old_cafe_assets_unchanged": true,
+    "original_sources_unchanged": {
+      "D:\\codex\\home\\visualizations\\2026\\11\\15\\01a1de25-a21a-7db2-bd3c-5108c15683e8\\canal-sharp-results\\canal-sharp.ply": true,
+      "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/assets/reference.png": true,
+      "F:/codex_project/1020_codex_project/projects/007-canal-blender-test/artifacts/rainy-canal-v3.blend": true
+    },
+    "master_sha256": "f38d12316cf62d33614adbc7277bd058b130c211984d9bfbe06317a50160cd6a"
+  },
+  "assessment": "Spatial/control pipeline and render->Gaussian update are demonstrated. Gaussian appearance remains a lower-quality approximation; this is not a verified excellent single-image reconstruction."
+}

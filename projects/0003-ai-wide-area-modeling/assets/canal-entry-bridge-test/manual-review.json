@@ -1,0 +1,17 @@
+{
+  "scope": "Visual screening of selected diagnostic correspondences, not 3D ground truth",
+  "items": [
+    {
+      "pair": ["bridge_a", "approach"],
+      "keypoint_indices": [845, 5543],
+      "source_xy_1000": [493.07933606599505, 328.2944553873871],
+      "target_xy_1000": [137.01949051122344, 63.9351487600588],
+      "status": "probable_descriptor_mismatch",
+      "observation": "A point on the neighboring shop frame was matched near the cafe hanging-sign bracket. These are not the same physical landmark.",
+      "exclude_from_illustrated_structural_evidence": true,
+      "automated_summary_retained_for_method_comparability": true
+    }
+  ],
+  "view_b_pose": "The generated picture still shows the front facade, bicycle, outside table and foreground sidewalk from outside; it did not strictly meet the requested threshold-crossing camera location.",
+  "caution": "Repeated jars, lamps and window profiles can match incorrectly. A low two-view F residual does not verify physical identity."
+}

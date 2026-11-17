@@ -43,3 +43,12 @@ python scripts/build_site.py
 Vite 使用经验证的相对路径，全部页面与媒体保留在 `/20261115_codex_project/demos/0001-animation-skills-atlas/`。不使用跳到域名根目录的 `/assets/...`。每次发布检查主入口、深层页面、脚本、样式、引导图、18 张预览、8 段动态效果和同案成片；视频须可解码并支持请求。
 
 发布成功后更新 `demo_url`，运行 `python scripts/projects.py render` 与 `check`，提交登记表、生成 README 和本项目相关文件。其他聊天未完成的项目保留原工作区，单独研究，不随本次发布提交。
+
+
+## 运河三维研究公开发布
+
+本次明确将 `0003-ai-wide-area-modeling` 加入公开白名单，入口 `demos/0003-ai-wide-area-modeling/`。项目摘要与完整研究架构引导图均从登记表生成；保留原有三个公开项目，不发布其他本地研究。
+
+其 `scripts/build.py --publication` 按 `publication-media.json` 恢复 6 段视频、6 个查看器与工程下载。Release 媒体包有包级和逐文件 SHA-256、严格路径白名单及 950 MB 项目体积上限；PLY/.blend 无损 gzip，客户端还原后核对原文件 SHA-256。NPZ 只留在完整 Release 归档，不放入 Pages。可用 `CANAL_RESEARCH_MEDIA_ARCHIVE` 指定本地归档，仍进行同样校验。最小 Three.js/Spark 引擎及许可全文随归档，不发布权重、完整依赖或运行服务。
+
+公开网页是研究档案，保留未通过结果，不代表完整三维世界已验收。原文件只读，实验配置和来源可追溯；部署与核验见项目 `publication.md`。

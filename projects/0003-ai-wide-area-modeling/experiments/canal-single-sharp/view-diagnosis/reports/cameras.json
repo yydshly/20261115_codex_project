@@ -1,0 +1,133 @@
+{
+  "width": 1000,
+  "height": 563,
+  "input_resolution": [
+    1672,
+    941
+  ],
+  "coordinate_system": "OpenCV: x right, y down, z forward; world is original SHARP camera",
+  "units": "SHARP predicted coordinate units, no independent metric calibration",
+  "focus_depth": 16.216293334960938,
+  "target_description": "Camera translated right by focus*tan(5deg), then aimed at original axis at focus depth; not a pure in-place yaw",
+  "target_yaw_degrees": -5,
+  "target_translation_fraction_of_focus": 0.08748866352592401,
+  "source": {
+    "K": [
+      [
+        795.6440191610773,
+        0.0,
+        500.0
+      ],
+      [
+        0.0,
+        795.9281173443271,
+        281.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "R_world_to_camera": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "camera_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "t_world_to_camera": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "target": {
+    "K": [
+      [
+        795.6440191610773,
+        0.0,
+        500.0
+      ],
+      [
+        0.0,
+        795.9281173443271,
+        281.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "R_world_to_camera": [
+      [
+        0.9961946980917455,
+        0.0,
+        0.08715574274765817
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        -0.08715574274765817,
+        0.0,
+        0.9961946980917455
+      ]
+    ],
+    "camera_center": [
+      1.4187418312200815,
+      0.0,
+      0.0
+    ],
+    "t_world_to_camera": [
+      -1.4133430902224193,
+      0.0,
+      0.12365149806715887
+    ]
+  },
+  "projection_check_points": [
+    [
+      0,
+      0,
+      8
+    ],
+    [
+      2,
+      1,
+      15
+    ],
+    [
+      -3,
+      -2,
+      12
+    ],
+    [
+      4,
+      -1,
+      30
+    ],
+    [
+      -5,
+      3,
+      20
+    ]
+  ]
+}

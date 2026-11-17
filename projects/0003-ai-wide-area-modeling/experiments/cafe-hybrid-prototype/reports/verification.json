@@ -1,0 +1,33 @@
+{
+  "binding_maximum_matrix_error": 1.7763568394002505e-15,
+  "background_transform_unchanged": true,
+  "old_models_unchanged": true,
+  "source_gaussians_and_reference_unchanged": true,
+  "gaussian_partition": {
+    "source": 1179648,
+    "door": 7299,
+    "background": 1121026,
+    "removed_photo_interior": 51323
+  },
+  "native_interior_lighting_mean_absolute_rgb_change": 44.00416,
+  "native_interior_lighting_pixel_fraction_over_15": 0.9013938461538461,
+  "hybrid_door_mean_absolute_image_change": 2.7059311538461537,
+  "valid_motion_frames": 48,
+  "ui_checks": {
+    "open": true,
+    "close": true,
+    "interior": true,
+    "day": true,
+    "reverse": true,
+    "doorHybrid": true,
+    "wire": true
+  },
+  "binding_sample_frames": [
+    1,
+    25,
+    49,
+    73,
+    97
+  ],
+  "scope": "Rigid mesh/Gaussian binding and new mesh PBR lighting verified; not full-scene Gaussian relighting or unseen-room reconstruction truth"
+}

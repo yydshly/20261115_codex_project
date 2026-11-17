@@ -1,0 +1,17 @@
+{
+  "method": "Observed interactions in the built-in browser via CUA, not a simulated UI test",
+  "url": "http://127.0.0.1:8775/",
+  "camera_and_connectivity_images_visible": true,
+  "pair_selector_changed_to_threshold_inside": true,
+  "observed_pair_match_count": 219,
+  "observed_pair_joint_median_px": 12.9,
+  "object_region_and_depth_images_visible": true,
+  "diagnostic_3d_initialized": true,
+  "observed_sparse_diagnostic_points": 3960,
+  "observed_predicted_cameras": 7,
+  "cloud_filter_selected_exterior": true,
+  "cloud_visibility_checkbox_toggled": true,
+  "lighting_image_changed_to_off": true,
+  "overview_restored_and_tab_retained": true,
+  "scope": "Local read-only diagnostics. No Gaussian training or old model edits. No claim of complete 3D reconstruction."
+}

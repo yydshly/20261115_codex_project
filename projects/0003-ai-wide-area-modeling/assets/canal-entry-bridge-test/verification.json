@@ -1,0 +1,51 @@
+{
+  "old_images": [
+    {
+      "id": "original",
+      "unchanged": true
+    },
+    {
+      "id": "left",
+      "unchanged": true
+    },
+    {
+      "id": "right",
+      "unchanged": true
+    },
+    {
+      "id": "approach",
+      "unchanged": true
+    },
+    {
+      "id": "threshold",
+      "unchanged": true
+    },
+    {
+      "id": "inside",
+      "unchanged": true
+    },
+    {
+      "id": "reverse",
+      "unchanged": true
+    },
+    {
+      "id": "off",
+      "unchanged": true
+    }
+  ],
+  "all_old_images_unchanged": true,
+  "models_and_baseline_prediction_unchanged": true,
+  "first_attempt": {
+    "last_observed_stage": "GROUP_START joint",
+    "exit_code": 1,
+    "prediction_saved": false,
+    "cause": "not established"
+  },
+  "completed_retry": {
+    "same_inputs_and_configuration": true,
+    "groups": 8,
+    "finite_outputs": true
+  },
+  "entry_connection_criteria_met": false,
+  "gaussian_training": false
+}
