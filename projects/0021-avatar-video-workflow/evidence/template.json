@@ -1,0 +1,64 @@
+{
+  "template_version": 1,
+  "source_sha256": "9e7687b4c31a460d00f2eaab0c35a4512291570f8f7ae4373f0d988c21ac1848",
+  "model_sha256": "88d4531297118f595bf2fd60f6f566aec2e559393802d1f436c380f0cbbd2828",
+  "fps": 30,
+  "frames": 180,
+  "duration_seconds": 6.0,
+  "reused_matting": true,
+  "reused_3d": true,
+  "matting_quality": {
+    "frames": 180,
+    "subject_box": [
+      365,
+      23,
+      897,
+      720
+    ],
+    "suspect_frames": [],
+    "state_resets": [],
+    "foreground_area_min_max": [
+      0.25390516493055554,
+      0.2569856770833333
+    ],
+    "method": "RVM MobileNetV3 fp32, ONNX Runtime CPU; largest component; constant subject framing",
+    "seconds": 61.13
+  },
+  "verification": {
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "30/1",
+        "duration": "6.000000",
+        "nb_read_frames": "180"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "6.000000",
+        "nb_read_frames": "282"
+      }
+    ],
+    "format": {
+      "duration": "6.000000",
+      "size": "2769749"
+    },
+    "audio_alignment": {
+      "status": "passed",
+      "lag_samples_at_8khz": 0,
+      "correlation": 0.999889
+    },
+    "full_decode": "passed",
+    "source_sync": "global output frame i uses normalized source frame i, including 3D screen"
+  },
+  "method": "Local RVM + Python composition + real Blender scene, original continuous audio, no new speech or avatar generation"
+}

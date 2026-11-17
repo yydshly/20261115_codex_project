@@ -1,0 +1,5 @@
+# Versions verified on Python 3.10.11 / Windows. Install in your chosen virtualenv.
+numpy==2.2.6
+opencv-python==4.13.0.92
+Pillow==11.3.0
+onnxruntime==1.23.2

@@ -1,0 +1,85 @@
+{
+  "date": "2026-11-17",
+  "browser": "Codex in-app browser",
+  "mode": "local-only",
+  "published": false,
+  "desktop": {
+    "observed_widths": [
+      1280,
+      997
+    ],
+    "horizontal_overflow": false,
+    "screenshot": "assets/web-preview.jpg"
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "pages": [
+      "index",
+      "effects",
+      "methods",
+      "value",
+      "template",
+      "sources"
+    ],
+    "horizontal_overflow_on_any_page": false,
+    "menu": "opened and navigated successfully"
+  },
+  "interactions": [
+    {
+      "name": "Input route selector",
+      "result": "Photo + script route showed missing upstream talking-video step"
+    },
+    {
+      "name": "Workflow steps",
+      "result": "Step 6 showed Blender, synchronized screen input and the verified scene boundary"
+    },
+    {
+      "name": "Presenter and chart layout",
+      "result": "Split layout selected; chart labelled as demonstration data"
+    },
+    {
+      "name": "Provider filter",
+      "result": "Local-only selection showed exactly provider-local"
+    },
+    {
+      "name": "Cost calculator",
+      "result": "Changing variants from 2 to 4 changed candidate seconds from 45 to 90 and hypothetical cost from USD 4.50 to USD 9.00"
+    },
+    {
+      "name": "Config editor and real download",
+      "result": "Downloaded project.json with updated title, duration 8 seconds, 30 fps, and scaled caption timestamps; file read back and checked",
+      "evidence": "evidence/config-export.json"
+    },
+    {
+      "name": "Question topic and expand",
+      "result": "Template filter showed 3 of 26 questions; all 3 expanded"
+    },
+    {
+      "name": "Global search",
+      "result": "Cache search returned 3 matching discussion/source links"
+    },
+    {
+      "name": "Effect filter",
+      "result": "3D filter showed exactly effect-screen and effect-city"
+    },
+    {
+      "name": "Video chapter seek",
+      "result": "10-second video moved to 4.167 seconds; video width 1280, readyState 4, no media error"
+    },
+    {
+      "name": "Actual playback",
+      "result": "Native player started and reached the 10-second end; no media error"
+    },
+    {
+      "name": "Console",
+      "result": "No captured browser console errors at final inspection"
+    }
+  ],
+  "not_claimed": [
+    "No subjective audio or aesthetic score",
+    "No new upstream API integration",
+    "No cross-identity avatar test",
+    "No public publishing"
+  ]
+}

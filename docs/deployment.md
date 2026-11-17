@@ -38,6 +38,8 @@ python scripts/build_site.py
 
 ## 子路径与验收
 
+`0021-avatar-video-workflow` 已按本轮授权接入发布白名单。项目构建使用 `scripts/build.py --public`，恢复四段后期研究样片；完整原片与原始并排检查视频不进入媒体发布包，保留原帖入口和署名截图。`publication-media.json` 保存 Release URL、ZIP 与逐文件 SHA-256，下载和路径校验不一致则构建失败。研究图使用本轮生成的完整 PNG 与 SVG，索引显示其顶部预览并链接完整图。上线结果单独记录在该项目 `publication.md`；`demo_url` 仍只在公网验收后填写。
+
 Vite 使用经验证的相对路径，全部页面与媒体保留在 `/20261115_codex_project/demos/0001-animation-skills-atlas/`。不使用跳到域名根目录的 `/assets/...`。每次发布检查主入口、深层页面、脚本、样式、引导图、18 张预览、8 段动态效果和同案成片；视频须可解码并支持请求。
 
 发布成功后更新 `demo_url`，运行 `python scripts/projects.py render` 与 `check`，提交登记表、生成 README 和本项目相关文件。其他聊天未完成的项目保留原工作区，单独研究，不随本次发布提交。

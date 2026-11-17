@@ -119,6 +119,13 @@ def validate(data, root):
             picture = local_path(root, src)
             require(picture.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"}
                     and picture.is_file(), f"{pid} 的截图文件不存在或类型不支持：{src}")
+            if preview.get("full_path") is not None:
+                full_src = preview["full_path"]
+                require(isinstance(full_src, str) and full_src.startswith(f"{folder}/assets/"),
+                        f"{pid} 的完整引导图必须放在本项目 assets/ 内")
+                full_picture = local_path(root, full_src)
+                require(full_picture.is_file() and full_picture.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"},
+                        f"{pid} 的完整引导图不存在或类型不支持：{full_src}")
         require(project["demo_url"] is None or https_url(project["demo_url"]),
                 f"{pid} 的 demo_url 必须是 HTTPS 地址或 null")
     registered = {project_path(project) for project in projects}
@@ -176,10 +183,13 @@ def render_index(data):
         lines += ["", "## 项目图览"]
         for project in previews:
             preview = project["preview"]
+            picture = f"![{md(preview['alt'])}]({url(preview['path'])})"
+            if preview.get("full_path"):
+                picture = f"[{picture}]({url(preview['full_path'])})"
             lines += ["", f"### {project['id']} · {md(project['name'])}", "",
                       md(project["summary"]), "",
                       *[part for item in project.get("highlights", []) for part in (md(item), "")],
-                      f"![{md(preview['alt'])}]({url(preview['path'])})", "",
+                      picture, "",
                       md(preview["caption"]), "",
                       f"[进入研究]({project_path(project)}/README.md) · "
                       + source_links(project)

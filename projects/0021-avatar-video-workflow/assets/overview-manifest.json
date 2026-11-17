@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "method": "Original deterministic Pillow + SVG typesetting with unchanged existing sample stills; no new AI image or video generation",
+  "width": 3200,
+  "height": 26588,
+  "pixels": 85081600,
+  "rendered_text_characters": 16087,
+  "sections": [
+    {
+      "number": "01",
+      "title": "理解的核心：四层能力，组织成一条制作链",
+      "top": 879,
+      "content_top": 1067
+    },
+    {
+      "number": "02",
+      "title": "实际效果：从单项验证，到完整片与换配置",
+      "top": 2052,
+      "content_top": 2240
+    },
+    {
+      "number": "03",
+      "title": "八项效果：实现方法、表达作用与检查边界",
+      "top": 4681.25,
+      "content_top": 4869.25
+    },
+    {
+      "number": "04",
+      "title": "制作思路：用同一时间轴串起八个步骤",
+      "top": 6557.25,
+      "content_top": 6745.25
+    },
+    {
+      "number": "05",
+      "title": "10 秒样片：转场跟随画面，声音保持连续",
+      "top": 7589.25,
+      "content_top": 7777.25
+    },
+    {
+      "number": "06",
+      "title": "人物与内容：按表达任务分配画面",
+      "top": 9134.25,
+      "content_top": 9322.25
+    },
+    {
+      "number": "07",
+      "title": "模型与平台：先分清角色，再决定怎样组合",
+      "top": 10594.25,
+      "content_top": 10782.25
+    },
+    {
+      "number": "08",
+      "title": "模板是什么：本次创建的可复用后期入口",
+      "top": 12508.25,
+      "content_top": 12696.25
+    },
+    {
+      "number": "09",
+      "title": "价值的三层理解：复用 → 修改 → 制作规则",
+      "top": 13962.25,
+      "content_top": 14150.25
+    },
+    {
+      "number": "10",
+      "title": "使用与成本：从已有输入出发，按交付评估",
+      "top": 15616.25,
+      "content_top": 15804.25
+    },
+    {
+      "number": "11",
+      "title": "后续意义：从一个格式，逐步验证生产能力",
+      "top": 16945.25,
+      "content_top": 17133.25
+    },
+    {
+      "number": "12",
+      "title": "28 问完整回顾：26 个归档问题 + 2 次最新澄清",
+      "top": 17833.25,
+      "content_top": 18021.25
+    },
+    {
+      "number": "13",
+      "title": "实测证据与边界：知道做了什么，也知道还没测什么",
+      "top": 22657.25,
+      "content_top": 22845.25
+    },
+    {
+      "number": "14",
+      "title": "来源、制作方式与回查入口",
+      "top": 24324.25,
+      "content_top": 24512.25
+    }
+  ],
+  "question_count": 28,
+  "source_files": [
+    {
+      "file": "research.json",
+      "sha256": "21b2453a3ca608acef0159295c9c1b913c6927baa334ee5a1b695ef9c59dd4fc"
+    },
+    {
+      "file": "overview-summary.json",
+      "sha256": "94019992a5e1e297d6da16b431f12e01bc7d00b7f3409397c4d61418b6789f98"
+    }
+  ],
+  "source_images": [
+    {
+      "file": "matting-poster.jpg",
+      "sha256": "a7824777ce7f8622057ebeac1c5e8548a9a15f5a567e4a617b889924027422cc"
+    },
+    {
+      "file": "scene-poster.jpg",
+      "sha256": "c2c89be72efc2f1dd5669b6309ca6e85c43744f8b7d88ff891bf1d9978bd97a4"
+    },
+    {
+      "file": "complete-storyboard.jpg",
+      "sha256": "b77938720fb110411affae75eb49a14a70f2f2c4ce6949dd95e2be246d01737f"
+    },
+    {
+      "file": "template-poster.jpg",
+      "sha256": "41b63c27bf381f701d27808ff42e0bfa5d8d8a4e5215ba68486ae3816097a0c6"
+    },
+    {
+      "file": "presenter.png",
+      "sha256": "359c99221f1f8409193c8bfdfdf5f6bb35499081f5844386fae6e34583c46bd5"
+    }
+  ],
+  "text_bounds_checked": true,
+  "cards_checked": 129,
+  "files": [
+    {
+      "file": "avatar-research-overview-v1.png",
+      "bytes": 11150205,
+      "sha256": "232a6040914ae2ea62e6ce601a01c125753e023f861323f03d5ae0503bc6246a"
+    },
+    {
+      "file": "avatar-research-overview-v1.svg",
+      "bytes": 2617090,
+      "sha256": "7e39c848895b3bc7e09189f2d8dc82329637459a5125d9ca2c273b66be90b3f5"
+    },
+    {
+      "file": "overview-preview.jpg",
+      "bytes": 226072,
+      "sha256": "251e9daf549d4ebb817d2779f327c95163b5398e9ae2317ea548c056d8fe25b7"
+    }
+  ],
+  "scope": "当前已跑通：已有同步口播视频的本地后期。上游人物生成、事实图表与跨人物稳定性仍需独立验证。",
+  "credits": "人物、原声音轨与配乐来自 @tm_uchal 参考片，本地研究使用；中文是后期效果示意，非韩语译文。布景、合成流程和本图排版由本轮独立实现。",
+  "source_text_encoding": "UTF-8; LF normalized for Git publication. creation_bytes_sha256 retains the original generation input hash where line endings changed. Image, SVG and preview bytes are unchanged."
+}

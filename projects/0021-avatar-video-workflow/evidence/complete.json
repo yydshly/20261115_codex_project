@@ -1,0 +1,137 @@
+{
+  "manifest": {
+    "reference": "https://x.com/tm_uchal/status/2120573380768518390",
+    "source_sha256": "c85d1ab9be9a901f8c0512f31e4b7ae761df51028f62c72db1553a82b2719cca",
+    "fps": 24,
+    "frames": 240,
+    "duration_seconds": 10,
+    "audio": "one continuous original 0–10 second segment; no repeated five-second clips",
+    "matting": "RVM MobileNetV3 fp32, ONNX Runtime CPU, crop x350:950 y0:720, ratio 0.5",
+    "screen_global_source_frame_range": [
+      90,
+      215
+    ],
+    "screen_sequence_frames": 126,
+    "matting_seconds": 40.66,
+    "chinese_copy": "effect explanation, not Korean translation",
+    "edit_seconds": 38.88,
+    "used_3d_local_frames": [
+      1,
+      104
+    ],
+    "outro_rvm_reset_source_frame": 216,
+    "timeline": [
+      {
+        "seconds": [
+          0,
+          1.25
+        ],
+        "shot": "original presenter"
+      },
+      {
+        "seconds": [
+          1.25,
+          1.75
+        ],
+        "transition": "background wipe, matched source frame and position"
+      },
+      {
+        "seconds": [
+          1.75,
+          3.75
+        ],
+        "shot": "white outline, cream layout, animated Chinese effect captions"
+      },
+      {
+        "seconds": [
+          3.75,
+          4.166667
+        ],
+        "transition": "right-to-left wipe into 3D screen"
+      },
+      {
+        "seconds": [
+          4.166667,
+          7.833333
+        ],
+        "shot": "3D screen and continuous dolly back"
+      },
+      {
+        "seconds": [
+          7.833333,
+          8.083333
+        ],
+        "transition": "cream wipe to keyword card"
+      },
+      {
+        "seconds": [
+          8.083333,
+          9
+        ],
+        "shot": "kinetic keywords and waveform from actual original audio"
+      },
+      {
+        "seconds": [
+          9,
+          10
+        ],
+        "shot": "freshly matted original presenter returns"
+      }
+    ],
+    "outputs": [
+      {
+        "file": "avatar-complete-10s.mp4",
+        "bytes": 4143240
+      },
+      {
+        "file": "preview.gif",
+        "bytes": 9305999
+      },
+      {
+        "file": "storyboard.jpg",
+        "bytes": 380108
+      },
+      {
+        "file": "complete-screen-scene.blend",
+        "bytes": 484181
+      }
+    ],
+    "verification": "240 frames / 10 seconds / H.264 + AAC; complete decode passed"
+  },
+  "verification": {
+    "programs": [],
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "width": 1280,
+        "height": 720,
+        "r_frame_rate": "24/1",
+        "duration": "10.000000",
+        "nb_read_frames": "240"
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "10.000000",
+        "nb_read_frames": "469"
+      }
+    ],
+    "format": {
+      "duration": "10.000000",
+      "size": "4143240"
+    },
+    "complete_decode": "passed",
+    "visual_source_sync": "output i uses source i; 3D local j uses source j+89; text cut is presenter-free",
+    "audio_alignment": {
+      "comparison": "original vs encoded mono 8 kHz, 0.5–9.5 sec (excluding fades)",
+      "correlation": 0.999891,
+      "best_lag_samples_at_8khz": 0,
+      "decoded_samples_at_8khz": 80000,
+      "passed": true
+    }
+  }
+}

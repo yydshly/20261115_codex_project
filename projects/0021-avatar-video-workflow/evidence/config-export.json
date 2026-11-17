@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "source": {
+    "video": "presenter.mp4",
+    "start_seconds": 0,
+    "duration_seconds": 8,
+    "crop": null,
+    "credit": "人物素材：用户提供"
+  },
+  "output": {
+    "directory": "outputs",
+    "fps": 30,
+    "preview_gif": true
+  },
+  "runtime": {
+    "blender": "",
+    "model": "",
+    "font_regular": "",
+    "font_bold": ""
+  },
+  "style": {
+    "paper": "#f3eee3",
+    "ink": "#202625",
+    "accent": "#ca3946",
+    "screen": "#b4c3b8",
+    "outline_pixels": 7,
+    "font_regular": "",
+    "font_bold": ""
+  },
+  "timeline": {
+    "reveal": 0.125,
+    "reveal_done": 0.175,
+    "city": 0.375,
+    "city_done": 0.416667,
+    "keywords": 0.783333,
+    "keywords_done": 0.808333,
+    "outro": 0.9
+  },
+  "matting": {
+    "downsample_ratio": 0.5,
+    "threads": 4,
+    "reset_on_cut": true,
+    "cut_threshold": 30,
+    "reset_at_seconds": [],
+    "allow_suspect_frames": false
+  },
+  "scene": {
+    "seed": 1616,
+    "samples": 24,
+    "device": "auto",
+    "pink": "#f49dc5",
+    "cyan": "#8ddce9",
+    "gold": "#f2cd88",
+    "camera_near": [
+      3.8,
+      -6.8,
+      4.7
+    ],
+    "camera_far": [
+      -1.4,
+      -22,
+      3.05
+    ]
+  },
+  "copy": {
+    "title_lines": [
+      "准确讲清数字，",
+      "打开画面。"
+    ],
+    "description": "抠像、描边，跟着节奏重排。",
+    "chips": [
+      "人物抠像",
+      "轮廓描边",
+      "字幕动效"
+    ],
+    "keywords": [
+      "人物",
+      "字幕",
+      "空间"
+    ],
+    "keyword_description": "同一段素材，连成一段完整表达。",
+    "outro_lines": [
+      "同一人物，",
+      "多种呈现。"
+    ],
+    "outro_description": "抠像 / 字幕 / 三维场景",
+    "outro_tagline": "一个连续的节奏。",
+    "captions": [
+      {
+        "start": 2.12,
+        "end": 2.976,
+        "text": "每个字，都有自己的节拍。"
+      },
+      {
+        "start": 3.4,
+        "end": 6.24,
+        "text": "让镜头，把空间打开。"
+      }
+    ],
+    "caption_kind": "effect_demo",
+    "footer": "中文为效果示意文案，非原声译文"
+  }
+}
