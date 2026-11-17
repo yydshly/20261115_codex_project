@@ -5,7 +5,7 @@
 - 原始参考：[Thorgram 原帖](https://x.com/thorgram/status/2121601256557051920)
 - 讨论时期：2026-11-15—11-16；网页归档：2026-11-16—11-17
 - 当前状态：researching；以根目录 projects.json 为准
-- 网页入口：[本地导出](dist/index.html)；本轮已获公开发布授权，实际提交、上线与验收见 [publication.md](publication.md)，验收通过前 demo_url 保持 null
+- 网页入口：[公开研究档案](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) / [本地导出](dist/index.html)；已于 2026-11-17 部署并核验，实际提交与检查见 [publication.md](publication.md)
 - 完整正文：[STORY.md](STORY.md) / [story.json](story.json)
 - 讨论纪要：[DISCUSSION.md](DISCUSSION.md) / [research.json](research.json)
 

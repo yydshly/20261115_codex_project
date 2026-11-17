@@ -1,12 +1,12 @@
 {
   "project": "0019-shanhe-co-creation",
   "date": "2026-11-17",
-  "status": "passed_web_checks",
-  "published": false,
+  "status": "passed_publication_checks",
+  "published": true,
   "game_implemented": false,
   "content_checks": {
     "pages": 7,
-    "internal_resources_and_links": 206,
+    "internal_resources_and_links": 209,
     "full_story_sections": 13,
     "full_story_paragraphs": 73,
     "story_characters": 5326,
@@ -133,7 +133,7 @@
     "game_validation": false,
     "published": false
   },
-  "scope": "Local static website and browser-only explanatory interactions. No real multiplayer, game client, character assets, scientific simulation or educational outcomes validated.",
+  "scope": "Published static research website and browser-only explanatory interactions. No real multiplayer, game client, character models, scientific simulation or educational outcomes validated.",
   "homepage_visual_update": {
     "date": "2026-11-17",
     "project": "0019-shanhe-co-creation",
@@ -235,10 +235,209 @@
     "public_build": true,
     "registry": "passed",
     "content_pages": 7,
-    "local_links_checked": 206,
+    "local_links_checked": 209,
     "image_hashes_verified": 7,
     "shared_regression_tests": 34,
     "shared_regression_skipped": 1,
     "scope": "Static research website only; no game capability validated"
+  },
+  "online": {
+    "date": "2026-11-17",
+    "checked_at": "2026-11-17T15:56:08.128055+08:00",
+    "commit": "19123b30b5f4107daa82e64023532e26f9a1608a",
+    "url": "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html",
+    "status": "passed",
+    "project_pages": 7,
+    "resources_http_200": 40,
+    "image_hashes_verified": 7,
+    "guide_sha256": "ec8be3195d61b6287a55201f3af5e96053eedc14584e03dbd73025a17741ba35",
+    "complete_story_paragraphs": 73,
+    "existing_public_entries_preserved": 6,
+    "navigation_summary_and_guide_match": true,
+    "resources": [
+      "https://yydshly.github.io/20261115_codex_project/",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/DISCUSSION.md",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/README.md",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/STORY.md",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/app.js",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/fantasy-town-concept-v1.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/highland-ram-character-v1.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/highland-ram-region-v1.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/highland-ram-village-v1.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/highland-ram-village-v2.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/manifest.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/overview/board-v1.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/overview/render-record-v1.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/provenance/fantasy-town-concept-v1.generation.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/provenance/highland-ram-region-v1.generation.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/provenance/highland-ram-v1.generation.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/provenance/highland-ram-village-v2.generation.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/reference-wow.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/assets/shanhe-understanding-overview-v1.png",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/data.js",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/exploration.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/future.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/mark.svg",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/overview-summary.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/publication.css",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/research.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/sources.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/story.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/story.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/styles.css",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/systems.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/verification.json",
+      "https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/world.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/index.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html",
+      "https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html"
+    ],
+    "game_validation": false
+  },
+  "online_browser": {
+    "project": "0019-shanhe-co-creation",
+    "date": "2026-11-17",
+    "mode": "isolated headless browser against authorized public project",
+    "http_pages": {
+      "index": 26513,
+      "exploration": 20739,
+      "world": 13960,
+      "story": 26777,
+      "systems": 16795,
+      "future": 12060,
+      "sources": 11381
+    },
+    "layouts": [
+      {
+        "page": "index",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "exploration",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "world",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "story",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "systems",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "future",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "sources",
+        "viewport": "1440x1000",
+        "overflow": false
+      },
+      {
+        "page": "index",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "exploration",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "world",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "story",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "systems",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "future",
+        "viewport": "390x844",
+        "overflow": false
+      },
+      {
+        "page": "sources",
+        "viewport": "390x844",
+        "overflow": false
+      }
+    ],
+    "vote_ui_cases": 81,
+    "progress_ui_cases": 32,
+    "interaction_checks": [
+      "comparison keyboard 0/100",
+      "image filters 2/3/all",
+      "lightbox image, next and Escape",
+      "Chinese search and no-results",
+      "all 6 district tabs",
+      "reading font persistence and focus",
+      "reading position",
+      "local notes persistence and JSON export",
+      "mobile navigation"
+    ],
+    "console_errors": [],
+    "failed_requests": [],
+    "screenshots": [
+      "index-desktop.png",
+      "index-mobile.png",
+      "overview-web-desktop.png",
+      "overview-web-mobile.png",
+      "story-desktop.png",
+      "story-focus.png",
+      "story-mobile.png",
+      "understanding-desktop.png",
+      "understanding-mobile.png",
+      "world-desktop.png"
+    ],
+    "game_validation": false,
+    "published": true
+  },
+  "online_overview_web": {
+    "date": "2026-11-17",
+    "checks": [
+      {
+        "viewport": "1440x1000",
+        "full_png_dimensions": [
+          3200,
+          12684
+        ],
+        "lightbox_and_original_link": true,
+        "horizontal_overflow": false,
+        "console_errors": []
+      },
+      {
+        "viewport": "390x844",
+        "full_png_dimensions": [
+          3200,
+          12684
+        ],
+        "lightbox_and_original_link": true,
+        "horizontal_overflow": false,
+        "console_errors": []
+      }
+    ],
+    "source_and_output_resources_http_200": 4,
+    "original_images_modified": false
   }
 }
