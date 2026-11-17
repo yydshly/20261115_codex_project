@@ -1,0 +1,48 @@
+{
+  "verified_on": "2026-11-17",
+  "deployment_url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/",
+  "code_demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/",
+  "model_demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/model-version/",
+  "source_commit": "d2383eb29a008bcd4803daf6b8784dcc24be3450",
+  "workflow_url": "https://github.com/yydshly/20261115_codex_project/actions/runs/44043721638",
+  "http_200": [
+    "overview/",
+    "./",
+    "model-version/",
+    "model-version/credits.html",
+    "overview/assets/source-catalog.json",
+    "overview/assets/research-overview.png",
+    "model-version/assets/models/life/cow.glb.gz"
+  ],
+  "local_checks": {
+    "preserved_v1_files": 27,
+    "catalog_entries": 49,
+    "release_original_assets": 223,
+    "compressed_assets": 35,
+    "publication_bytes": 229919732,
+    "all_scene_checks": "passed",
+    "registry_checks": "passed"
+  },
+  "browser_public_verification": {
+    "portal": true,
+    "generated_guide_natural_width": 1086,
+    "code_scene_ready": true,
+    "model_scene_ready": true,
+    "model_garden_preset": {
+      "mode": "walk",
+      "location": "庭院花径"
+    },
+    "responsive_local": {
+      "viewport_width": 390,
+      "document_width": 375,
+      "scroll_width": 375
+    },
+    "note": "No scene runtime errors observed after navigating to the public model; older capture-helper observer errors in the reused tab predate publication."
+  },
+  "limitations": [
+    "Not a photography-level reconstruction of the reference",
+    "Cattle motion remains a local procedural approximation",
+    "No real phone or listening evaluation in this publication run"
+  ],
+  "workflow_conclusion": "success"
+}

@@ -11,7 +11,7 @@
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
 | 1 | `0001` | [动画制作 Skills 图谱](projects/0001-animation-skills-atlas/README.md) | 以 AI＋Remotion 为主线，对照 18 项动画技术、真实作品与三工具同案成片，帮助判断该复用什么、何时加库、哪些可不学。 | 暂缓 | [原仓库](https://github.com/remotion-dev/skills) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0001-animation-skills-atlas/summary.html) |
-| 2 | `0002` | [溪谷花园 · 从氛围到可漫游空间](projects/0002-valley-garden/README.md) | 以田园视频为氛围参考，用程序搭景与免费素材整合保留两版三维漫游，对照空间、细节和环境反馈，积累可复用的浏览器体验。 | 已验证 | [参考来源](https://x.com/siradisidekor/status/2121702120852492788) |
+| 2 | `0002` | [溪谷花园 · 从氛围到可漫游空间](projects/0002-valley-garden/README.md) | 以田园视频为氛围参考，用程序搭景与免费素材整合保留两版三维漫游，对照空间、细节和环境反馈，积累可复用的浏览器体验。 | 已验证 | [参考来源](https://x.com/siradisidekor/status/2121702120852492788) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/) |
 | 3 | `0003` | [从单图到可编辑三维 · 运河世界研究](projects/0003-ai-wide-area-modeling/README.md) | 从一张 AI 运河图探索高斯外观与 Blender 实体协作，以十次实验检验空间一致性、编辑与换光，记录失败原因和可复用路线。 | 研究中 | [原仓库](https://github.com/Kotohibi/ai-wide-area-modeling) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0003-ai-wide-area-modeling/) |
 | 4 | `0005` | [风归小庭 · 像素风与庭院游戏](projects/0005-wind-return-garden/README.md) | 从 SpriteCook 素材出发，验证分层风动与可玩庭院，整理素材价值、实际效果、创作复用和 AI 居民扩展路线。 | 已验证 | [参考来源](https://www.spritecook.ai/blog/pixel-art-trees-wind-animation) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0005-wind-return-garden/index.html) |
 | 5 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
@@ -53,7 +53,7 @@
 
 本聊天生成的研究总览，基于两版真实运行截图与已核对的来源记录；1086×1448，点击放大。
 
-[进入研究](projects/0002-valley-garden/README.md) · [参考来源](https://x.com/siradisidekor/status/2121702120852492788)
+[进入研究](projects/0002-valley-garden/README.md) · [参考来源](https://x.com/siradisidekor/status/2121702120852492788) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/)
 
 ### 0003 · 从单图到可编辑三维 · 运河世界研究
 

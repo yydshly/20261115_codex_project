@@ -8,10 +8,12 @@
 
 ## 从哪里进入
 
-- **介绍与演示台**：本地 `http://127.0.0.1:4173/overview/`。先看原参考和我们的理解，再对照两版；点击启动后可切换、放大或独立打开。
-- **代码版 V1**：`http://127.0.0.1:4173/`，程序化主体几何结合 PBR/HDR，验证空间、构图、尺度与交互。
-- **精致素材版 V2**：`http://127.0.0.1:4173/model-version/`，外部模型与程序场景混合制作，验证细节、生活元素和氛围反馈。
-- 公开入口正在统一 Pages 流程中发布；[上线与验收记录](publication.md)只记录实际结果，验证后登记 `demo_url`。
+- **[在线介绍与双版本演示台](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/overview/)**：先看参考和我们的理解，再对照两版。可页内启动、切换、放大或独立打开。
+- **[代码版 V1 · 独立漫游](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/)**：程序化主体几何结合 PBR/HDR，验证空间、构图、尺度与交互。
+- **[精致素材版 V2 · 独立漫游](https://yydshly.github.io/20261115_codex_project/demos/0002-valley-garden/model-version/)**：外部模型与程序场景混合制作，验证细节、生活元素和氛围反馈。
+- 本地入口仍为 `http://127.0.0.1:4173/overview/`、`/` 和 `/model-version/`。素材版首次网络加载较大，页面显示实际进度，结束漫游可取消。
+
+[上线与验收记录](publication.md)保留实际提交、Actions、资源校验与浏览器结果。
 
 ## 参考与研究目标
 

@@ -83,6 +83,13 @@ def main():
     for name in ('index.html', 'style.css', 'overview.js', 'source-catalog.js', 'reference-summary.js'):
         copy(WEB / 'overview' / name, target / name)
     shutil.copytree(WEB / 'overview/assets', target / 'assets', dirs_exist_ok=True)
+    # A freshly deployed portal must not reuse an older cached loading script.
+    page = target / 'index.html'
+    html = page.read_text(encoding='utf-8')
+    for name in ('style.css', 'overview.js', 'source-catalog.js', 'reference-summary.js'):
+        version = hashlib.sha256((target / name).read_bytes()).hexdigest()[:12]
+        html = html.replace('./' + name + '"', './' + name + '?v=' + version + '"')
+    page.write_text(html, encoding='utf-8')
     for name in ('package-lock.json', 'model-version/tools/README.md'):
         copy(WEB / name, OUT / name)
     guide = 'assets/research-overview-20261117/valley-garden-research-overview.png'

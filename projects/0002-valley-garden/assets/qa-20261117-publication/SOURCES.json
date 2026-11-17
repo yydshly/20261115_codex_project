@@ -1,0 +1,14 @@
+{
+  "source": "Actual public URLs in the Codex in-app browser",
+  "captured_on": "2026-11-17",
+  "images": [
+    {
+      "path": "models-live.jpg",
+      "sha256": "19f812d769d4e65f573986b8ca1be4dbbf43f253642b9fa8730374e134d9d39d"
+    },
+    {
+      "path": "overview-live.jpg",
+      "sha256": "81b7635056bd2424fd21d687613bb995985732355934d82e97870ef4a9839474"
+    }
+  ]
+}
