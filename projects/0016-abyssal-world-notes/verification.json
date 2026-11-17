@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Shanghai",
+  "reference_commit": "a596354eff400d458bc2aeb9bdf5e0a9734b2bcf",
+  "original_prompt_git_blob": "c23587a9f624bd4c98c830dbe69b2f6bb7f2122c",
+  "static_checks": [
+    "source and exported HTML prompt fulltext equality",
+    "upstream English Git blob after stripping trailing LF",
+    "local asset references and anchor IDs",
+    "three screenshot hashes match project 0004",
+    "Node.js syntax check",
+    "portable dist export"
+  ],
+  "browser": {
+    "environment": "Windows / Codex in-app browser",
+    "tested": [
+      "three scene views",
+      "full image dialog open and close",
+      "five implementation layers and source links",
+      "bilingual prompt toggle",
+      "arrow-key scene and language navigation",
+      "summary disclosure",
+      "desktop and 390x844 responsive layout"
+    ],
+    "horizontal_overflow_observed": false,
+    "console_warn_error_entries": 0,
+    "clipboard": {
+      "ui_and_api_success_response": true,
+      "independent_content_readback": "unverified: browser clipboard connector returned empty text"
+    },
+    "file_protocol": "not verified: in-app browser permits only HTTP/HTTPS; no alternate browser or policy workaround used",
+    "preview_transport": "localhost HTTP, source and dist"
+  },
+  "http_checks": [
+    {
+      "path": "web/index.html",
+      "status": 200,
+      "bytes": 24564
+    },
+    {
+      "path": "web/styles.css",
+      "status": 200,
+      "bytes": 26186
+    },
+    {
+      "path": "web/app.js",
+      "status": 200,
+      "bytes": 10023
+    },
+    {
+      "path": "dist/index.html",
+      "status": 200,
+      "bytes": 24558
+    },
+    {
+      "path": "dist/styles.css",
+      "status": 200,
+      "bytes": 26186
+    },
+    {
+      "path": "dist/app.js",
+      "status": 200,
+      "bytes": 10023
+    },
+    {
+      "path": "assets/overview-live.jpg",
+      "status": 200,
+      "bytes": 120157
+    },
+    {
+      "path": "assets/shipwreck-live.jpg",
+      "status": 200,
+      "bytes": 61750
+    },
+    {
+      "path": "assets/purple-grotto-live.jpg",
+      "status": 200,
+      "bytes": 103063
+    },
+    {
+      "path": "assets/prompt-original.txt",
+      "status": 200,
+      "bytes": 2037
+    },
+    {
+      "path": "assets/prompt-zh.txt",
+      "status": 200,
+      "bytes": 2524
+    },
+    {
+      "path": "dist/assets/prompt-original.txt",
+      "status": 200,
+      "bytes": 2037
+    },
+    {
+      "path": "dist/assets/prompt-zh.txt",
+      "status": 200,
+      "bytes": 2524
+    }
+  ],
+  "assets": {
+    "gallery-reading.jpg": {
+      "bytes": 67719,
+      "sha256": "34573babab100498e7268fa6b95c8982afdefea6a9077685dd9adb7ccb4cf66d"
+    },
+    "mobile-preview.jpg": {
+      "bytes": 37215,
+      "sha256": "4e9625e2a08a6576cda640a2892870dd6989bff4856af7a7b1cb5d189fda9267"
+    },
+    "overview-live.jpg": {
+      "bytes": 120157,
+      "sha256": "5aa06dc085091a8e2591b1956efd66c9459c9b6f86d288c06ea49d7f8d2678d9"
+    },
+    "overview.jpg": {
+      "bytes": 72046,
+      "sha256": "c3bf512a64894f15d184d12d3a37495c896e9b1a9b44ca422857b7a9cbd50083"
+    },
+    "page-full.jpg": {
+      "bytes": 497165,
+      "sha256": "735ef9c0942b5eb11806041d0588705cf6ad915ed74b5d50fcc0c55fa77d6378"
+    },
+    "prompt-original.txt": {
+      "bytes": 2037,
+      "sha256": "6b2fe9c3a1680a8deddf5c6fbef6ea90c91a21bdd268b49b3c985217e1dec5cd"
+    },
+    "prompt-reading.jpg": {
+      "bytes": 66940,
+      "sha256": "a419ab629dd20175a563e5f4d886d90c1892108e7beecec4d14b1b61305ca52e"
+    },
+    "prompt-zh.txt": {
+      "bytes": 2524,
+      "sha256": "6aa2610f3aa8e30ca6a0984246709c42feb95e0f7a5e434a37dde4e84f07be17"
+    },
+    "purple-grotto-live.jpg": {
+      "bytes": 103063,
+      "sha256": "09f03f7c238a9a31f3b7f37a6188110bdc5c13f4e53d3022682c19e1701ce9b0"
+    },
+    "shipwreck-live.jpg": {
+      "bytes": 61750,
+      "sha256": "cb807d2c51e0be268f03f235d0635e7b5da58d14e8dd54e39c94500a030ea319"
+    },
+    "SOURCES.md": {
+      "bytes": 2823,
+      "sha256": "fff1b6f7105c141bcd6e03b2ee722bc43aafd60e4999a6199bb225c8b2ab35d2"
+    },
+    "UPSTREAM-LICENSE.txt": {
+      "bytes": 1076,
+      "sha256": "b108a76735ab7cc0eab686fc3e85ca668bdb8866977093846d01bac5b6440453"
+    }
+  },
+  "publication": {
+    "deployed": false,
+    "demo_url": null
+  }
+}
