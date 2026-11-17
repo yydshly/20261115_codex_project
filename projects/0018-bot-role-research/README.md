@@ -4,13 +4,13 @@
 
 我们的收集与研究能力已经具备。值得借鉴的是把目标、证据、工具权限、交接和交付组织清楚；这些工作可以由单个任务顺序完成，无须为图中的岗位名再造一套常驻 Bot。
 
-- 阅读网页：[图片与讨论总览](web/index.html) · [独立交互关系图](web/graph.html)
+- 在线网页：[图片与讨论总览](https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/) · [独立交互关系图](https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/graph.html)
 - 完整信息图：[高清 PNG](assets/bot-role-overview.png) · [可放大 SVG](assets/bot-role-overview.svg)
 - 重点转换图：[PNG](assets/role-conversion.png) · [SVG](assets/role-conversion.svg)
 - 讨论记录：[DISCUSSION.md](DISCUSSION.md) · 验证范围：[verification.md](verification.md) · 发布记录：[publication.md](publication.md)
 - 原始来源：[@Bober_smart 原帖](https://x.com/Bober_smart/status/2121686230467285097) · [关联教程](https://x.com/Bober_smart/status/2091901718061531571)
 - 整理更新：2026-11-17，Asia/Shanghai；完整图制作于 2026-11-16
-- 研究状态：以根目录 `projects.json` 为准；本轮接入发布，最终地址与状态见 [publication.md](publication.md)
+- 研究状态：以根目录 `projects.json` 为准；网页已公开并验收，发布证据见 [publication.md](publication.md)；研究机器人仍未部署
 
 ## 它解决什么问题
 
@@ -92,7 +92,7 @@ python scripts/serve.py --port 52928
 
 完整图片同时提供 [PNG](assets/bot-role-overview.png) 与 [SVG](assets/bot-role-overview.svg)，重点转换另有 [PNG](assets/role-conversion.png) 与 [SVG](assets/role-conversion.svg)。图片为本库原创研究整理，来源与许可边界见 [assets/SOURCES.md](assets/SOURCES.md)。
 
-本轮接入发布，最终地址与状态见 [publication.md](publication.md)。发布和索引登记按[部署约定](../../docs/deployment.md)处理；网页上线不表示图中的交易或研究机器人已经部署。
+网页已公开并完成关键交互验收，地址与证据见 [publication.md](publication.md)。发布和索引登记按[部署约定](../../docs/deployment.md)处理；网页上线不表示图中的交易或研究机器人已经部署。
 
 ## 后续计划
 
