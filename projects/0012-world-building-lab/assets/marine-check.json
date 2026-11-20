@@ -1,0 +1,77 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 116,
+  "constructionObservations": 464,
+  "watershedStations": 14,
+  "waterObservations": 42,
+  "oldBuildIdsPreserved": 76,
+  "oldWaterIdsPreserved": 30,
+  "seaLevel": 0,
+  "tideReferences": [
+    -0.65,
+    0.65
+  ],
+  "stations": [
+    {
+      "id": "marine-reef",
+      "bedHeight": 6.829869782244619,
+      "waterDepth": 0,
+      "eyeHeight": 8.549869782244619
+    },
+    {
+      "id": "marine-tidal",
+      "bedHeight": 0.415727788472316,
+      "waterDepth": 0,
+      "eyeHeight": 2.135727788472316
+    },
+    {
+      "id": "marine-shallow",
+      "bedHeight": -8.126481098013262,
+      "waterDepth": 8.126481098013262,
+      "eyeHeight": -6.406481098013262
+    },
+    {
+      "id": "marine-bed",
+      "bedHeight": -24.5743052950942,
+      "waterDepth": 24.5743052950942,
+      "eyeHeight": -22.8543052950942
+    }
+  ],
+  "instances": {
+    "rock": 131,
+    "shell": 94,
+    "seagrass": 566,
+    "algae": 174
+  },
+  "totalInstances": 965,
+  "routeSamples": 8002,
+  "surveySamples": 2667,
+  "manualSurveySamples": 4800,
+  "automaticTravelFrames": 1288,
+  "maxMicroStep": 0.00007130918601748046,
+  "layers": [
+    {
+      "stage": 0,
+      "water": false,
+      "ecology": false
+    },
+    {
+      "stage": 1,
+      "water": false,
+      "ecology": false
+    },
+    {
+      "stage": 2,
+      "water": true,
+      "ecology": false
+    },
+    {
+      "stage": 3,
+      "water": true,
+      "ecology": true
+    }
+  ],
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "CPU geometry, roots, rays, terrain contours, movement and controller tests; not rendered-image, swimming, tide dynamics, marine ecology or GPU performance verification"
+}

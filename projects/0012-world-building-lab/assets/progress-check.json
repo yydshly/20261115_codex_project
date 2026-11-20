@@ -1,0 +1,26 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "catalogItems": 41,
+  "statusCounts": {
+    "done": 4,
+    "sample": 33,
+    "planned": 4
+  },
+  "roadmapSteps": 7,
+  "constructionStations": 116,
+  "constructionObservations": 464,
+  "waterStations": 14,
+  "waterObservations": 42,
+  "canonicalOverview": [
+    "index.html",
+    "journey.html"
+  ],
+  "mapEntry": "expedition.html",
+  "archiveEntry": "legacy-journey.html",
+  "singleCatalogSource": true,
+  "invalidReturnLinksRejected": true,
+  "observationKeysPreserved": true,
+  "browserCheck": "progress-browser-check.json",
+  "limits": "Checks catalog scope, route counts, filtering, safe return links, archive and source wiring; not an assertion of full game completion"
+}

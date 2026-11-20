@@ -130,3 +130,11 @@ CI 额外按锁文件安装该项目的 Three.js。`scripts/build.py` 先按 `pu
 0033-lijiang-river-bend 进入统一 Pages 发布。项目首页包含实际提示词、技术分工、实测效果和复用价值。可玩场景位于同目录的 `play/`，浏览器需要 WebGL 2。项目页与总导航使用 1720 × 1872 导览图原件。
 
 标准库脚本 `projects/0033-lijiang-river-bend/scripts/build.py` 将既有 Demo、项目页、指定截图及固定版本 Three.js 和许可证打包到 `dist/`，统一构建再复制到 `_site/demos/0033-lijiang-river-bend/`。实际发布记录和回归检查见该项目的 `publication.md`。
+
+## 山海之间地理效果与环境基座
+
+0012-world-building-lab 已接入统一 Pages 构建。总导航入口为 /20261115_codex_project/demos/0012-world-building-lab/world-report.html，导览首页、环境图谱、3D 大地图及其深链接在同一项目路径下。
+
+摘要说明项目如何在同一张原创 3D 地图中实现山脉、冰川、河流、湿地、盐盆、雨林、海岸与深海等现代及史前地理效果，并沿线对照形成条件。总导航、项目 README 和项目总览使用生成的 assets/world-foundation-summary.png 原图（1800 × 2860）。发布文件为 assets/progress/world-foundation-summary.png。
+
+CI 按锁文件安装 Three.js 0.180.0，保留运行时 MIT 许可。项目发布检查覆盖相对链接、关键入口、原图哈希与体积。上线后核对公开入口、引导图及 3D 深链接，再填写登记表 demo_url。实际部署记录见项目 publication.md。

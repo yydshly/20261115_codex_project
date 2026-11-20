@@ -1,0 +1,81 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldObservationIdsPreserved": 164,
+  "stations": [
+    {
+      "name": "村路与运输道路",
+      "floor": 26.58088192886159
+    },
+    {
+      "name": "河湾跨河木桥",
+      "floor": 29.99
+    },
+    {
+      "name": "河湾货运码头",
+      "floor": 30.948173672361982
+    },
+    {
+      "name": "村口转运与集散场",
+      "floor": 26.710644251009818
+    },
+    {
+      "name": "公共水井与补给点",
+      "floor": 27.24691081072775
+    },
+    {
+      "name": "检修驿站与候车休憩",
+      "floor": 26.829510474372853
+    }
+  ],
+  "meshes": 129,
+  "movementSamples": 14400,
+  "dockSupportSamples": 1002,
+  "boatClearanceSamples": 4004,
+  "minHullClearance": 2.03373376605596,
+  "normalDurationSeconds": 72,
+  "normalFrames": 2880,
+  "quantityConservationEveryFrame": true,
+  "visualCargoConservationEveryFrame": true,
+  "bridgeWaitAndReopen": true,
+  "alreadyCrossingVehicleContinues": true,
+  "manualWaterAndRepairGate": true,
+  "pauseResumeAndReset": true,
+  "deliveryTransferredExactlyOnce": true,
+  "receivedLifeBatch": {
+    "input": 8,
+    "storeReserve": 4,
+    "householdUse": 4
+  },
+  "uiEventsVerified": true,
+  "layers": [
+    {
+      "stage": 0,
+      "facilities": false,
+      "links": false,
+      "actors": false
+    },
+    {
+      "stage": 1,
+      "facilities": true,
+      "links": false,
+      "actors": false
+    },
+    {
+      "stage": 2,
+      "facilities": true,
+      "links": true,
+      "actors": false
+    },
+    {
+      "stage": 3,
+      "facilities": true,
+      "links": true,
+      "actors": true
+    }
+  ],
+  "browserVisualCheck": "deferred per user preference; only in-app entry provided",
+  "limits": "CPU geometry, movement, cargo/service state and actual handoff controller; no rendered-image or GPU validation, ship dynamics, traffic simulation, structural loading, real water supply or public management"
+}

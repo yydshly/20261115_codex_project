@@ -1,0 +1,81 @@
+{
+  "result": "passed",
+  "constructionStations": 116,
+  "constructionObservations": 464,
+  "oldConstructionObservationsPreserved": 60,
+  "watershedStations": 14,
+  "waterObservations": 42,
+  "oldWaterObservationsPreserved": 18,
+  "stations": [
+    {
+      "name": "雪脊山岭",
+      "groundHeight": 396.30609130859375,
+      "eyeHeight": 398.0260913085938
+    },
+    {
+      "name": "蓝脊冰川",
+      "groundHeight": 333.49979758402765,
+      "eyeHeight": 335.2197975840277
+    },
+    {
+      "name": "冰碛冰湖",
+      "groundHeight": 244.53368627916728,
+      "eyeHeight": 246.25368627916728
+    },
+    {
+      "name": "融水溪流",
+      "groundHeight": 235.00542463430168,
+      "eyeHeight": 236.72542463430167
+    }
+  ],
+  "maxIceBedGap": 0,
+  "minCentreIceThickness": 6.560000000000002,
+  "iceLakeLevel": 244,
+  "iceLakeDepth": 10,
+  "sourceConnectionLevel": 212,
+  "channels": [
+    {
+      "lengthMetres": 66,
+      "minDepth": 1.4995772702367276,
+      "minRenderedDepth": 1.181676954082178
+    },
+    {
+      "lengthMetres": 119,
+      "minDepth": 1.5994231829530179,
+      "minRenderedDepth": 1.2004473337011348
+    }
+  ],
+  "snowTriangles": 11034,
+  "snowSupportSamples": 130,
+  "floes": 3,
+  "moraineBoulders": 41,
+  "fixedVegetation": 17139,
+  "layers": [
+    {
+      "stage": 0,
+      "snow": false,
+      "water": false,
+      "details": false
+    },
+    {
+      "stage": 1,
+      "snow": true,
+      "water": false,
+      "details": false
+    },
+    {
+      "stage": 2,
+      "snow": true,
+      "water": true,
+      "details": false
+    },
+    {
+      "stage": 3,
+      "snow": true,
+      "water": true,
+      "details": true
+    }
+  ],
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "Authored snow/ice/water geometry and rules; not climate, glacier dynamics, melting, hydrology, rendered-image or GPU validation"
+}

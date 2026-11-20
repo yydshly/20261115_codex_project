@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-18",
+  "checks": [
+    {
+      "check": "northern-watershed",
+      "exitCode": 0
+    },
+    {
+      "check": "strata",
+      "exitCode": 0
+    },
+    {
+      "check": "fan",
+      "exitCode": 0
+    },
+    {
+      "check": "boreal",
+      "exitCode": 0
+    },
+    {
+      "check": "world-logic",
+      "exitCode": 0
+    },
+    {
+      "check": "progress",
+      "exitCode": 0
+    },
+    {
+      "check": "watershed-link",
+      "exitCode": 0
+    },
+    {
+      "check": "large-world",
+      "exitCode": 0
+    },
+    {
+      "check": "marine",
+      "exitCode": 0
+    },
+    {
+      "check": "inland",
+      "exitCode": 0
+    },
+    {
+      "check": "transport",
+      "exitCode": 0
+    }
+  ],
+  "navigationStartupCheck": "passed, 22 modes",
+  "finalBankFixChecks": [
+    {
+      "check": "fan",
+      "exitCode": 0
+    },
+    {
+      "check": "strata",
+      "exitCode": 0
+    }
+  ],
+  "finalRevision": "eb2fe23af90d",
+  "syntaxModules": 110,
+  "finalMainCheck": "passed; northern-watershed-check.json"
+}

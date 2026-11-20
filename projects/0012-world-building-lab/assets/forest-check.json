@@ -1,0 +1,97 @@
+{
+  "result": "passed",
+  "fixedInstances": 16554,
+  "forestInstances": 3397,
+  "forestLayers": {
+    "canopy": 337,
+    "understory": 928,
+    "ground": 2132
+  },
+  "stations": [
+    {
+      "name": "长风林缘",
+      "canopyCover": 0.037037037037037035,
+      "layers": {
+        "canopy": 2,
+        "understory": 9,
+        "ground": 19
+      }
+    },
+    {
+      "name": "青栎密林",
+      "canopyCover": 0.9382716049382716,
+      "layers": {
+        "canopy": 19,
+        "understory": 43,
+        "ground": 92
+      }
+    },
+    {
+      "name": "蕨影林下",
+      "canopyCover": 0.9135802469135802,
+      "layers": {
+        "canopy": 19,
+        "understory": 44,
+        "ground": 92
+      }
+    },
+    {
+      "name": "晴光林窗",
+      "canopyCover": 0,
+      "layers": {
+        "canopy": 0,
+        "understory": 9,
+        "ground": 81
+      }
+    }
+  ],
+  "treeBounds": [
+    {
+      "kind": "forestOak",
+      "crownBottom": 13.200000530546893,
+      "crownTop": 20.599999173709175
+    },
+    {
+      "kind": "forestBirch",
+      "crownBottom": 13.199998522996868,
+      "crownTop": 20.60000097349463
+    }
+  ],
+  "fallenLogs": 6,
+  "layerChecks": [
+    {
+      "stage": 0,
+      "canopy": false,
+      "understory": false,
+      "ground": false,
+      "deadwood": false
+    },
+    {
+      "stage": 1,
+      "canopy": true,
+      "understory": false,
+      "ground": false,
+      "deadwood": false
+    },
+    {
+      "stage": 2,
+      "canopy": true,
+      "understory": true,
+      "ground": false,
+      "deadwood": true
+    },
+    {
+      "stage": 3,
+      "canopy": true,
+      "understory": true,
+      "ground": true,
+      "deadwood": true
+    }
+  ],
+  "routeCollisionSamples": 4001,
+  "constructionStations": 116,
+  "observations": 464,
+  "oldObservationsPreserved": 28,
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "CPU geometry and authored spatial rules; not rendered-image, real ecology, navigation or GPU performance validation"
+}

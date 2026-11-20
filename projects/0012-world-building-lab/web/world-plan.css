@@ -1,0 +1,507 @@
+#world-plan-panel{position:fixed;z-index:36;right:20px;top:80px;bottom:48px;width:330px;overflow:auto;background:#17392ff2;color:#edf0dd;border:1px solid #adbf9d66;border-radius:14px;padding:18px;box-shadow:0 12px 45px #10271a40;font:13px/1.65 system-ui,sans-serif;box-sizing:border-box}#world-plan-panel[hidden],#plan-map-labels[hidden],#plan-map-note[hidden]{display:none}#world-plan-panel header{display:flex;justify-content:space-between;align-items:flex-start}#world-plan-panel header small{color:#c9d4b7}#world-plan-panel h2{font-size:21px;margin:2px 0 12px}#world-plan-panel h3{font-size:15px;margin:10px 0 6px}#world-plan-panel h4{font-size:13px;margin:12px 0 6px}#world-plan-panel p{margin:8px 0}#world-plan-panel button,#world-plan-panel select,#world-plan-panel input{font:inherit;color:inherit;background:#ffffff0b;border:1px solid #adbf9d66;border-radius:6px;padding:7px 9px}#world-plan-panel button{cursor:pointer;text-align:left}#world-plan-panel button:hover,#world-plan-panel button[aria-pressed=true]{background:#c2c8972c;border-color:#e6dda7}#plan-close{font-size:22px!important;padding:0 9px!important}#world-plan-panel label{display:block;margin:10px 0}#world-plan-panel input,#world-plan-panel select{display:block;width:100%;box-sizing:border-box;margin-top:4px}#world-plan-panel select option{background:#234639}#world-plan-panel .plan-note,#world-plan-panel .plan-scope{font-size:12px;color:#d1d7c1}#world-plan-panel .plan-tabs{display:flex;gap:6px;margin:12px 0}.plan-tabs button{flex:1}#plan-zone-buttons{display:flex;flex-wrap:wrap;gap:4px}#plan-zone-buttons button{padding:4px 7px;font-size:11px}#plan-scene-list{display:grid;grid-template-columns:1fr 1fr;gap:5px;max-height:220px;overflow:auto;margin-bottom:16px}#plan-scene-list button{min-width:0}#plan-scene-list span,#plan-scene-list small{display:block}#plan-scene-list span{color:#eddfad}#plan-scene-list small{font-size:10px;line-height:1.5}#plan-result{font-size:11px;color:#d4d9c1}#plan-detail{border-top:1px solid #adbf9d66;padding-top:10px}#plan-detail>b,#plan-detail p b{display:block;color:#e6dcaa}#plan-detail>small{font-size:11px;color:#c6d5bc}.plan-factors{display:flex;flex-wrap:wrap;gap:4px}.plan-factors span{font-size:11px;padding:2px 6px;border:1px solid #c4cba25c;border-radius:4px}.plan-chain{padding-left:22px;border-left:2px solid #c2ce9d;margin:10px 0}.plan-chain li{padding:3px 0}.plan-present,.plan-missing{padding:8px;background:#ffffff08;border-radius:5px}#plan-go-scene{width:100%;margin:8px 0;background:#b8c79424!important}.plan-sources a,#plan-gaps a{display:block;color:#e2d6a5;font-size:11px;margin:5px 0}#plan-gaps{border-top:1px solid #adbf9d66;margin-top:14px;padding-top:12px}#plan-gaps summary{cursor:pointer;color:#efdaa3}#plan-gaps h3{font-size:13px}#plan-gaps p{font-size:12px;color:#d2d9c5}#plan-chapters{padding-left:22px}#plan-chapters button{width:100%;margin-bottom:4px}#plan-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}#plan-map-labels button{position:absolute;transform:translate(-50%,-50%);pointer-events:auto;cursor:pointer;border:1px solid var(--zone);border-left:4px solid var(--zone);background:#17362de8;color:#f3f0d8;border-radius:7px;padding:7px 10px;text-align:left;box-shadow:0 4px 14px #10251c30;white-space:nowrap}#plan-map-labels button:hover,#plan-map-labels button[aria-pressed=true]{background:#385a43}#plan-map-labels strong,#plan-map-labels span,#plan-map-labels small{display:block}#plan-map-labels strong{font-size:13px;color:var(--zone)}#plan-map-labels span{font-size:11px}#plan-map-labels small{font-size:10px;opacity:.8}#plan-map-note{position:fixed;left:22px;bottom:23px;max-width:calc(100vw - 400px);z-index:26;background:#17362de8;color:#efedd2;padding:10px 13px;border-radius:7px;font:12px/1.65 system-ui,sans-serif}#plan-map-note span,#plan-map-note small{display:block}#plan-map-note small{font-size:11px;color:#d4d9c6}html[data-world-plan=open] .navigation,html[data-world-plan=open] .journey-card,html[data-world-plan=open] .exploration-tools,html[data-world-plan=open] .position-hud,html[data-world-plan=open] #large-stops,html[data-world-plan=open] #landmark-label,html[data-world-plan=open] #watershed-labels,html[data-world-plan=open] [id$="-legend"],html[data-world-plan=open] #weather-summary,html[data-world-plan=open] .world-footnote{display:none!important}#world-plan{background:#d0d3a324;border:1px solid #d8d7ad80;color:#f0ecd2;border-radius:5px;padding:7px 10px;cursor:pointer;margin-right:8px}#world-plan:disabled{opacity:.4}@media(max-width:899px){#world-plan-panel{top:auto;left:10px;right:10px;bottom:10px;width:auto;height:42vh;padding:12px 15px}#plan-map-labels button{padding:4px 6px;white-space:normal;max-width:115px}#plan-map-labels span{font-size:9px}#plan-map-labels small{display:none}#plan-map-note{left:10px;bottom:calc(42vh + 23px);max-width:calc(100vw - 44px);padding:5px 8px;font-size:10px}#plan-map-note small{display:none}#plan-scene-list{max-height:160px}#world-plan{font-size:11px;padding:5px 7px}}
+html[data-world-plan=open] #sky-controls,html[data-world-plan=open] #salt-controls,html[data-world-plan=open] #fan-controls,html[data-world-plan=open] #karst-controls,html[data-world-plan=open] #cable-status{display:none!important}
+
+#world-plan{pointer-events:auto}#world-plan-panel>header{position:sticky;top:0;z-index:3;background:#17392f;padding:6px 0}#station-formation{flex:none;font-size:10px;line-height:1.3;padding:4px 6px;border:1px solid #d7d7ae66;border-radius:4px;letter-spacing:0;margin:0 6px}.card-top>span{min-width:0;flex:1}
+#world-plan-panel>header{gap:8px}
+.plan-header-actions{display:flex;flex:none;align-items:flex-start;gap:6px}
+#world-plan-panel #plan-collapse{white-space:nowrap;font-size:12px;padding:6px 8px}
+
+#plan-geography-stops{padding-left:1.3em;margin:10px 0}#plan-geography-stops li{padding:2px 0}#plan-geography-stops button{display:block;width:100%}#plan-geography-explanation{min-height:4.8em;scroll-margin-top:84px}#world-plan-panel .plan-tabs button{padding-inline:5px;text-align:center}
+
+.annual-controls,.annual-timeline{display:flex;gap:5px;align-items:center;margin:9px 0}
+.annual-controls button{flex:1;padding:5px 4px!important;text-align:center!important;font-size:11px!important}
+.annual-timeline label{min-width:65px;margin:0!important}
+.annual-timeline input[type=range]{flex:1;width:auto!important;min-width:60px;padding:0!important;accent-color:#8dccb8}
+.annual-timeline button{white-space:nowrap}
+.annual-points{width:100%;border-collapse:collapse;line-height:1.45;font-size:11px}
+.annual-points caption{text-align:left;color:#e2d4a1;margin:2px 0 5px}
+.annual-points th,.annual-points td{padding:4px 3px;border-bottom:1px solid #adbf9d38;text-align:right}
+.annual-points th:first-child{text-align:left}
+.annual-flow{display:grid;grid-template-columns:minmax(95px,1fr) 1fr 2em;gap:5px;align-items:center;font-size:11px}
+.annual-flow meter{width:100%;accent-color:#83ddc5}
+#annual-flows{margin:10px 0}#annual-flows summary{cursor:pointer;color:#eddfad}
+#annual-summary{font-size:14px;font-weight:650}
+@media(max-width:420px){#world-plan-panel .plan-tabs{gap:3px}#world-plan-panel .plan-tabs button{font-size:11px}}
+
+#world-plan-panel[data-mode=annual] .plan-scope{display:none}
+
+#world-plan-panel[data-mode=balance] .plan-scope{display:none}
+#plan-balance .balance-location{display:grid;grid-template-columns:1fr auto;gap:4px 8px;align-items:end}
+#plan-balance .balance-location label{grid-column:1/-1;margin:0}
+#plan-balance .balance-location select{margin:0}
+#balance-summary{font-size:14px;font-weight:650}
+.balance-extrema{display:flex;gap:5px;margin:8px 0}
+.balance-extrema button{flex:1;font-size:11px!important;line-height:1.3!important;padding:6px!important}
+#balance-series{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));height:55px;gap:2px;margin-bottom:10px}
+#balance-series button{display:flex;position:relative;align-items:flex-end;justify-content:center;padding:0!important;min-width:0;height:52px;font-size:10px!important;line-height:1}
+#balance-series button i{position:absolute;inset:auto 3px 13px;max-height:34px;background:#5ca494;border-radius:2px;opacity:.76}
+#balance-series button[aria-pressed=true] i{background:#fcda8e;opacity:1}
+#balance-series button span{margin-bottom:2px}
+#plan-balance details{margin:10px 0}
+#plan-balance summary{color:#ebe2ad;cursor:pointer}
+.balance-values{margin:4px 0 10px;font-size:11px}
+.balance-values div{display:flex;gap:6px;justify-content:space-between;border-bottom:1px solid #9fbcb429;padding:2px 0}
+.balance-values dd{margin:0;font-variant-numeric:tabular-nums;white-space:nowrap}
+#annual-to-balance{margin:1px 0 5px}
+#world-plan-panel[data-mode=sediment] .plan-scope{display:none}
+#world-plan-panel .plan-tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr))}
+#plan-sediment .balance-location{display:grid;grid-template-columns:1fr auto;gap:4px 8px;align-items:end}
+#plan-sediment .balance-location label{grid-column:1/-1;margin:0}
+#plan-sediment .balance-location select{margin:0}
+#sediment-summary{color:#ffdfad;font-size:14px;font-weight:650}
+#plan-sediment details{margin:10px 0}
+#plan-sediment summary{color:#ebe2ad;cursor:pointer}
+#station-sediment{flex:none;font-size:10px;line-height:1.3;padding:0 6px}
+#station-soil{flex:none;font-size:10px;line-height:1.3;padding:0 6px}
+.plan-catalog-link{color:#ead9a6;text-underline-offset:3px}
+#world-plan-panel[data-mode=lines] .plan-scope{display:none}
+.environment-route-buttons,.line-actions,.line-themes,.line-month{display:flex;align-items:center;gap:4px;margin:6px 0}
+.environment-route-buttons button{flex:1;text-align:center!important;border-top:2px solid var(--route-color)!important}
+.line-actions button,.line-themes button,.line-month button{padding:4px 6px!important;font-size:11px!important;text-align:center!important}
+.line-actions button{flex:1}
+.line-actions button:disabled{opacity:.43;cursor:default!important}
+.line-themes{flex-wrap:wrap}
+.line-themes i{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--route-color);margin-right:4px}
+.line-themes button[aria-pressed=false] i{opacity:.34}
+.line-seam-controls{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:6px}
+#world-plan-panel .line-seam-controls label,#world-plan-panel .line-seam-controls select{margin:0;font-size:11px}
+#world-plan-panel .line-seam-controls select{min-width:0;padding:3px 5px}
+.line-seam-controls a{color:#ebdfb2;font-size:10px;white-space:nowrap}
+#line-seam-reading{padding:0 7px;border-left:2px solid #c5a66b;background:#ffe7a50b}
+.line-related-seams{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0}
+.line-related-seams[hidden],#line-sea-bed[hidden]{display:none}
+#world-plan-panel .line-related-seams button{font-size:11px;padding:4px 6px}
+.line-section-profile{margin:7px 0 9px;font-size:11px;color:#e5d9b3}
+.line-section-profile canvas{display:block;width:100%;max-width:440px;height:auto;background:#142f28;border-radius:4px}
+#world-plan-panel[data-mode=formation] .plan-scope{display:none}
+#world-plan-panel[data-mode=formation] #formation-key{margin:4px 0}
+.formation-actions{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}
+.formation-actions[hidden]{display:none}
+#world-plan-panel .formation-actions button,#world-plan-panel #line-basin-event,#world-plan-panel #line-world-formation{font-size:11px;padding:4px 7px}
+.formation-controls{display:grid;grid-template-columns:auto minmax(52px,1fr) auto;align-items:center;gap:6px}
+#world-plan-panel .formation-controls label,#world-plan-panel .formation-controls select{margin:0;font-size:11px}
+#world-plan-panel .formation-controls select,#world-plan-panel #formation-dry{padding:4px 6px}
+.formation-values{width:100%;border-collapse:collapse;margin-top:10px;font-size:11px;font-variant-numeric:tabular-nums}
+.formation-values caption{text-align:left;font-weight:650;margin-bottom:4px;color:#e8e2b9}
+.formation-values th,.formation-values td{padding:4px 3px;border-bottom:1px solid #c3d0aa27;text-align:right}
+.formation-values th:first-child{text-align:left;white-space:nowrap}
+.formation-values thead{color:#e8e2b9}
+.formation-equal{border-block:1px solid #adbf9d56;padding:8px 0;margin:10px 0;font-size:12px}
+.formation-equal summary{cursor:pointer;color:#efdda5}
+#formation-storm>div{margin:8px 0}
+#formation-storm span,#formation-storm small{color:#d4ddc7;font-size:10px}
+.formation-storm-bar{margin-top:3px;height:6px;border-radius:3px;background:linear-gradient(to right,#83caff 0 var(--runoff),#93e8ad var(--runoff) 100%)}
+#formation-map-labels{position:fixed;inset:0;pointer-events:none;z-index:30}
+#formation-map-labels[hidden]{display:none}
+#formation-map-labels span{position:absolute;top:0;left:0;white-space:nowrap;background:#132f2bea;color:#f5efd0;border-left:3px solid var(--route-color);border-radius:4px;padding:3px 6px;font:650 11px system-ui,sans-serif}
+@media(max-width:899px){
+ #world-plan-panel:is([data-mode=lines],[data-mode=formation],[data-mode=gaps],[data-mode=tectonics]) .plan-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}
+ #world-plan-panel:is([data-mode=lines],[data-mode=formation],[data-mode=gaps],[data-mode=tectonics]) .plan-tabs button{flex:none;white-space:nowrap}
+ #world-plan-panel[data-mode=formation]>header small{display:none}
+ #world-plan-panel[data-mode=formation]>header h2{margin:2px 0;font-size:17px}
+ #world-plan-panel[data-mode=formation] .plan-tabs{margin:6px 0}
+ #world-plan-panel[data-mode=formation] .plan-tabs button{font-size:11px;padding:4px 6px}
+}
+#environment-route-labels span[data-kind=scale]{color:#fff3ce;border-color:#ecd6a1a8;font-weight:660}
+#environment-route-labels span[data-kind=seam]{color:#ffe3a8;border-color:#efc176;font-weight:660}
+.line-month span{margin-right:auto;color:#e3d5a7;font-size:11px}
+#line-profile{display:block;width:100%;max-width:440px;background:#142d26;border-radius:4px}
+#line-summary{margin-bottom:4px!important;font-weight:700;color:#ffdfad}
+#environment-route-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#environment-route-labels span{position:absolute;left:0;top:0;color:#f8ebc2;background:#16342ee8;border:1px solid #adc6ad66;white-space:nowrap;padding:3px 6px;border-radius:4px;font:11px system-ui,sans-serif}
+#environment-route-labels span[data-kind=wind]{color:#ffd0b7}
+#environment-route-labels span[data-kind=divide]{color:#e9cdff}
+#environment-route-labels span[data-kind=relief]{color:#ffe092}
+#environment-route-labels span[data-kind=station]{font-weight:750;border-color:#f9e4a2}
+@media(max-width:899px){
+ #world-plan-panel[data-mode=lines]>header small{display:none}
+ #world-plan-panel[data-mode=lines]>header h2{font-size:17px;margin:2px 0}
+ #world-plan-panel[data-mode=lines] .plan-tabs{gap:4px;margin:6px 0}
+ #world-plan-panel[data-mode=lines] .plan-tabs button{padding-block:4px}
+}
+#world-plan-panel .plan-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+#world-plan-panel[data-mode=soil] .plan-scope{display:none}
+#plan-soil .balance-location{display:grid;grid-template-columns:1fr auto;gap:4px 8px;align-items:end}
+#plan-soil .balance-location label,#plan-soil .balance-location select{margin:0}
+#plan-soil .balance-location label{grid-column:1/-1}
+#soil-summary{color:#ffdfad;font-size:13px;font-weight:650}
+#soil-specimen summary{color:#ebe2ad;cursor:pointer}
+#world-plan-panel[data-mode=tectonics] .plan-scope{display:none}
+.tectonic-actions{display:flex;flex-wrap:wrap;gap:5px;margin:7px 0}
+.tectonic-actions button{flex:1;text-align:center!important;min-width:max-content}
+.tectonic-stations{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:stretch;gap:5px;margin:6px 0}
+#plan-tectonics .tectonic-stations select{min-width:0;width:100%;margin:0;font-size:11px}
+#plan-tectonics .tectonic-stations button{font-size:11px;padding-inline:6px;text-align:center}
+.tectonic-stations button:disabled{opacity:.42;cursor:default!important}
+#tectonic-status{font-weight:750;color:#ffdfad;margin-bottom:4px}
+#plan-tectonics figure{margin:13px 0 0}
+#plan-tectonics figcaption{font-size:12px;font-weight:700;color:#e1e9d4;margin:7px 0}
+#plan-tectonics canvas{display:block;width:100%;height:auto;border:1px solid #9ab3a35c;border-radius:5px}
+#tectonic-reading{font-variant-numeric:tabular-nums;font-size:11px}
+.tectonic-legend{display:flex;flex-wrap:wrap;column-gap:9px;row-gap:3px;margin:7px 0;color:#e1e9d4;font-size:10px}
+.tectonic-legend span{display:inline-flex;align-items:center;gap:4px}
+.tectonic-legend i{width:9px;height:9px;border-radius:2px;background:var(--swatch)}
+.line-geology{margin:9px 0 4px;padding:2px 8px;background:#d6b6fa0e;border-left:2px solid #dcb3ff}
+.line-lithology{background:#a1ce9e12;border-color:#b3d19a}
+#environment-route-labels span[data-kind=geology]{color:#ead5ff;border-color:#dcb3ffa6}
+#environment-route-labels span[data-kind=exchange]{color:#cef7db;border-color:#9ddab4}
+#environment-route-labels span[data-kind=wetland]{color:#e0edb3;border-color:#b7d692}
+#environment-route-labels span[data-kind=estuary]{color:#ffdfba;border-color:#e4bb8d}
+#tectonic-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#tectonic-map-labels span{position:absolute;left:0;top:0;color:var(--route-color);background:#142f2bed;
+  border:1px solid #abc1b888;border-left:3px solid var(--route-color);white-space:nowrap;
+  padding:4px 7px;border-radius:4px;font:600 12px system-ui,sans-serif}
+#tectonic-map-labels span[data-active=true]{color:#fff1c0;border-color:#fff1c0}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=tectonics]>header small{display:none}
+  #world-plan-panel[data-mode=tectonics]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=tectonics] .plan-tabs{gap:4px;margin:6px 0}
+  #world-plan-panel[data-mode=tectonics] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #plan-tectonics:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:0 17px;align-items:start}
+  #plan-tectonics>*{grid-column:1}
+  #plan-tectonics figure{grid-column:2;grid-row:1/span 8;margin:0}
+}
+#soil-cores{display:grid;grid-template-columns:42px 1fr;gap:4px;margin:11px 0}
+#world-plan-panel[data-mode=groundwater] .plan-scope{display:none}
+#world-plan-panel[data-mode=exchange] .plan-scope{display:none}
+#world-plan-panel[data-mode=estuary] .plan-scope{display:none}
+#estuary-status{font-weight:750;color:#f0ddb4;margin:7px 0 4px}
+#estuary-site{padding:5px 7px;border-left:2px solid #83c2ad;background:#a9dfbe13}
+#plan-estuary .tectonic-stations select{width:100%;min-width:0;margin:0;font-size:11px}
+#plan-estuary .tectonic-stations button,#plan-estuary .tectonic-actions button{padding-inline:6px;font-size:11px;text-align:center;min-width:0}
+#plan-estuary figure{margin:6px 0 0}
+#plan-estuary figcaption{font-size:11px;font-weight:650;margin:3px 0;color:#e2e6d2}
+#plan-estuary canvas{display:block;width:100%;border:1px solid #b6cbb268;border-radius:4px}
+#world-plan-panel[data-mode=storm] .plan-scope{display:none}
+#storm-status{font-weight:750;color:#eee3bf;margin:6px 0}
+#storm-location-reading{border-left:2px solid #9ab696;padding-left:7px}
+#plan-storm .tectonic-actions button,#plan-storm .tectonic-stations button,
+#plan-storm .tectonic-stations select{padding-inline:7px;font-size:11px}
+#plan-storm .tectonic-stations select{min-width:0;margin:0}
+#plan-storm .storm-settings{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:4px 8px;align-items:end}
+#plan-storm .storm-settings label{margin:0;font-size:12px}
+#plan-storm .storm-settings label[for=storm-rain]{display:flex;justify-content:space-between;gap:3px;flex-wrap:wrap}
+#plan-storm .storm-settings select{margin:0;padding:3px 7px;font-size:12px}
+#world-plan-panel :is(#storm-rain,#storm-hour,#storm-shore-count){padding:0;margin:3px 0 6px;accent-color:#bfdfbe}
+#world-plan-panel #storm-run{text-align:center;background:#a0cda722;padding:4px 6px;white-space:nowrap;font-size:11px}
+#plan-storm .gw-clock{display:flex;justify-content:space-between;margin:7px 0 2px}
+#plan-storm figure{margin:6px 0 0}
+#plan-storm figcaption{font-size:11px;font-weight:650;color:#e2e6d2}
+#plan-storm canvas{display:block;width:100%;box-sizing:border-box;border:1px solid #b6cbb268;border-radius:4px}
+#plan-storm .storm-tides{margin:3px 0 5px}
+#plan-storm .storm-tides button{flex-basis:auto;min-width:0;white-space:normal}
+:is(#storm-compare,#storm-plant-compare){width:100%;border-collapse:collapse;table-layout:fixed;font-size:11px;line-height:1.2;font-variant-numeric:tabular-nums}
+:is(#storm-compare,#storm-plant-compare) :is(th,td){padding:3px 4px;text-align:center;border-bottom:1px solid #aec7ab30}
+:is(#storm-compare,#storm-plant-compare) th:first-child{text-align:left}
+:is(#storm-compare,#storm-plant-compare) th{font-weight:600}
+:is(#storm-compare,#storm-plant-compare) td{color:#d7e6dd}
+#storm-compare [data-tide=flood]{--tide-tint:#ebc487}
+#storm-compare [data-tide=ebb]{--tide-tint:#89d9df}
+#storm-compare thead [data-tide]{color:var(--tide-tint)}
+#storm-compare[data-scenario=flood] [data-tide=flood],#storm-compare[data-scenario=ebb] [data-tide=ebb]{
+  background:#d0e8bc13;box-shadow:inset 1px 0 #b8d0a350;color:#fff1d1
+}
+#storm-flows{margin:6px 0 0;font-size:11px}
+#storm-flows summary{cursor:pointer;color:#e5dcb8}
+#storm-shore-pane .gw-rock-legend{margin-top:8px}
+#plan-storm .storm-study-actions button{text-align:center;padding:4px;min-width:0}
+#plan-storm #storm-stop-nav[hidden]{display:none}
+#storm-plant-location:not([hidden]){display:grid;grid-template-columns:auto minmax(0,1fr);gap:8px;align-items:center;margin:5px 0}
+#world-plan-panel #storm-plant-location label,#world-plan-panel #storm-plant-site{margin:0;font-size:11px}
+#plan-storm :is(.storm-plant-years,.storm-plant-actions) button{padding:5px 6px;min-width:0}
+#storm-plant-compare[data-variant=bare] tr>:nth-child(2),#storm-plant-compare[data-variant=grown] tr>:nth-child(3){
+  background:#d0e8bc13;color:#fff1d1
+}
+.storm-sea-settings{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:5px 0}
+#world-plan-panel .storm-sea-settings label{display:flex;justify-content:space-between;gap:5px;margin:0;font-size:11px}
+#world-plan-panel .storm-sea-settings input{padding:0;accent-color:#b7dfd8}
+#plan-storm .storm-sea-stages button{min-width:0;padding:5px 4px}
+#storm-sea-level{color:#dfe9cc;font-weight:650}
+@media(max-width:380px){
+  #plan-storm .storm-sea-stages button{min-width:60px}
+  #world-plan-panel .storm-sea-settings label{flex-wrap:wrap}
+}
+#storm-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#storm-map-labels span{position:absolute;left:0;top:0;color:#f3edce;background:#16342def;border:1px solid #b1cba88a;
+  border-left:3px solid var(--route-color);padding:4px 7px;border-radius:4px;white-space:nowrap;font:650 11px system-ui,sans-serif}
+.line-storm-entry{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#world-plan-panel :is(#line-storm,#line-shore,#line-plants,#line-sea){padding:4px 8px;background:#a0cda722;font-size:11px}
+#line-storm-status{font-size:11px;color:#e4dcb2}
+@media(max-width:420px){
+  #plan-storm .storm-settings{grid-template-columns:minmax(0,1fr) auto}
+  #storm-run{grid-column:1/-1}
+}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=storm]>header small{display:none}
+  #world-plan-panel[data-mode=storm]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=storm] .plan-tabs{gap:4px;margin:4px 0}
+  #world-plan-panel[data-mode=storm] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #world-plan-panel[data-mode=storm]{height:49vh}
+  #world-plan-panel[data-mode=storm] .plan-tabs{grid-template-columns:repeat(7,minmax(0,1fr))}
+  #plan-storm:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.04fr);gap:15px;align-items:start}
+  #plan-storm .tectonic-actions{margin:5px 0}
+  #plan-storm .storm-clock-actions button,#plan-storm .storm-tides button{padding-block:5px}
+  #world-plan-panel #plan-storm p{margin-block:5px}
+  #plan-storm canvas{max-height:68px}
+}
+#estuary-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#estuary-map-labels span{position:absolute;left:0;top:0;color:#f3edce;background:#16342def;border:1px solid #b1cba88a;
+  border-left:3px solid var(--route-color);padding:4px 7px;border-radius:4px;white-space:nowrap;font:650 11px system-ui,sans-serif}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=estuary]>header small{display:none}
+  #world-plan-panel[data-mode=estuary]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=estuary] .plan-tabs{gap:4px;margin:4px 0}
+  #world-plan-panel[data-mode=estuary] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #world-plan-panel[data-mode=estuary]{height:46vh}
+  #world-plan-panel[data-mode=estuary] .plan-tabs{grid-template-columns:repeat(7,minmax(0,1fr))}
+  #plan-estuary:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:14px;align-items:start}
+  #plan-estuary .tectonic-actions{margin:5px 0}
+  #plan-estuary canvas{max-width:342px}
+}
+#world-plan-panel[data-mode=wetland] .plan-scope{display:none}
+#wetland-status{font-weight:750;color:#ebdeb9;margin:7px 0 4px}
+#wetland-site{padding:5px 7px;border-left:2px solid #9ab696;background:#a9db9d13}
+#plan-wetland .tectonic-stations select{width:100%;min-width:0;margin:0;font-size:11px}
+#plan-wetland .tectonic-stations button,#plan-wetland .tectonic-actions button{padding-inline:6px;font-size:11px;text-align:center;min-width:0}
+#wetland-days:not([hidden]){display:flex;gap:8px;align-items:center;margin:4px 0}
+#wetland-days label{margin:0;font-size:11px}
+#wetland-days select{margin:0;width:auto;padding:3px 7px;font-size:11px}
+#plan-wetland figure{margin:6px 0 0}
+#plan-wetland figcaption{font-size:11px;font-weight:650;margin:3px 0;color:#e2e6d2}
+#plan-wetland canvas{display:block;width:100%;border:1px solid #b6cbb268;border-radius:4px}
+#wetland-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#wetland-map-labels span{position:absolute;left:0;top:0;color:#f3edce;background:#16342def;border:1px solid #b1cba88a;
+  border-left:3px solid var(--route-color);padding:4px 7px;border-radius:4px;white-space:nowrap;font:650 11px system-ui,sans-serif}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=wetland]>header small{display:none}
+  #world-plan-panel[data-mode=wetland]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=wetland] .plan-tabs{gap:4px;margin:4px 0}
+  #world-plan-panel[data-mode=wetland] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #world-plan-panel[data-mode=wetland]{height:46vh}
+  #world-plan-panel[data-mode=wetland] .plan-tabs{grid-template-columns:repeat(7,minmax(0,1fr))}
+  #plan-wetland:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:14px;align-items:start}
+  #plan-wetland .tectonic-actions{margin:5px 0}
+  #plan-wetland canvas{max-width:320px}
+}
+#exchange-status{font-weight:750;color:#f0e1b9;margin:7px 0 4px}
+#plan-exchange .tectonic-stations select{width:100%;min-width:0;margin:0;font-size:11px}
+#plan-exchange .tectonic-stations button{padding-inline:6px;font-size:11px;text-align:center}
+#plan-exchange .tectonic-actions button{padding-inline:6px;font-size:11px;min-width:0}
+.exchange-compare figure{margin:10px 0 0}
+.exchange-compare figcaption{color:#e4e9d5;margin:4px 0;font-size:12px;font-weight:650;display:flex;flex-wrap:wrap;gap:2px 9px;justify-content:space-between}
+#exchange-wetland{color:#b8e4e3;font-size:11px;font-weight:500}
+.exchange-compare canvas{display:block;width:100%;border:1px solid #adc7ad5e;border-radius:4px}
+.exchange-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:7px 0;gap:6px}
+.exchange-values div{border-left:2px solid var(--route-color);padding:4px 5px;background:#152d2b87;border-radius:3px}
+.exchange-values dt{font-size:10px;color:#d5e2d4}
+.exchange-values dd{margin:2px 0 0;font-size:12px;font-weight:680;color:var(--route-color);font-variant-numeric:tabular-nums}
+.exchange-note{margin-top:8px;font-size:11px;color:#e4d6aa}
+.exchange-note summary{cursor:pointer}
+.exchange-note a{color:#dcecb2}
+#water-exchange-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#water-exchange-labels span{position:absolute;left:0;top:0;white-space:nowrap;color:#f5efcf;background:#17342eeb;
+  border:1px solid #c4d1bc9e;border-left:3px solid var(--route-color);border-radius:4px;padding:4px 7px;font:650 11px system-ui,sans-serif}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=exchange]>header small{display:none}
+  #world-plan-panel[data-mode=exchange]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=exchange] .plan-tabs{gap:4px;margin:4px 0}
+  #world-plan-panel[data-mode=exchange] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #world-plan-panel[data-mode=exchange]{height:45vh}
+  #world-plan-panel[data-mode=exchange] .plan-tabs{grid-template-columns:repeat(7,minmax(0,1fr))}
+  #plan-exchange:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:14px;align-items:start}
+  #plan-exchange .tectonic-actions{margin:5px 0}
+  .exchange-compare figure{margin-top:5px}
+  .exchange-compare canvas{max-width:315px}
+}
+#gw-status{font-weight:750;color:#eadbbb;margin:7px 0 4px}
+#plan-groundwater .tectonic-stations select{width:100%;min-width:0;margin:0;font-size:11px}
+#plan-groundwater .tectonic-stations button{padding-inline:6px;font-size:11px;text-align:center}
+#plan-groundwater .tectonic-actions button{padding-inline:6px;font-size:11px;min-width:0}
+.gw-clock{display:flex!important;justify-content:space-between;gap:8px;margin:6px 0 0!important;color:#e1deba}
+#gw-time{color:#d8eeca}
+#gw-hour{width:100%;margin:4px 0 6px;accent-color:#c4d3a3;cursor:pointer}
+.gw-visual-controls{display:flex;gap:5px}
+.gw-visual-controls button{flex:1;padding:4px 8px!important;text-align:center!important;font-size:11px!important}
+.gw-rock-legend,.gw-rain-legend{margin:6px 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:5px 10px;color:#d8ddc8;font-size:10px}
+.gw-rock-legend[hidden]{display:none}
+.gw-rock-legend i,.gw-rain-legend i{display:inline-block;width:9px;height:9px;border-radius:2px;background:var(--swatch);margin-right:4px}
+.gw-rock-legend i[data-cover=true]{background:repeating-linear-gradient(135deg,var(--swatch) 0 2px,#806f52 2px 4px)}
+.gw-bars{list-style:none;padding:0;margin:7px 0 2px;display:grid;gap:4px}
+.gw-bars li{display:grid;grid-template-columns:74px 1fr;align-items:center;gap:5px;font-size:11px;padding:1px 4px;border-radius:4px}
+.gw-bars li[data-active=true]{background:#e3dbc22c;color:#fff1d2}
+.gw-track{display:flex;height:10px;min-width:1px;background:#152e2a;border-radius:3px;overflow:hidden;box-shadow:inset 0 0 0 1px #b3c8a34d}
+.gw-track i{display:block;background:var(--swatch);height:100%}
+#gw-profile{margin:7px 0 0}
+#gw-profile canvas{display:block;width:100%;border:1px solid #a8c0bb62;border-radius:4px}
+#gw-readout{margin:4px 0}
+#groundwater-map-labels{position:fixed;inset:0;z-index:25;pointer-events:none}
+#groundwater-map-labels span{position:absolute;left:0;top:0;white-space:nowrap;color:#fbf0d6;background:#17342eec;
+  border:1px solid #c4d1bc9e;border-left:3px solid var(--route-color);border-radius:4px;padding:3px 6px;font:600 11px system-ui,sans-serif}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=groundwater]>header small{display:none}
+  #world-plan-panel[data-mode=groundwater]>header h2{font-size:17px;margin:2px 0}
+  #world-plan-panel[data-mode=groundwater] .plan-tabs{gap:4px;margin:6px 0}
+  #world-plan-panel[data-mode=groundwater] .plan-tabs button{padding-block:4px;font-size:11px}
+}
+@media(min-width:660px) and (max-width:899px){
+  #world-plan-panel[data-mode=groundwater] .plan-tabs{grid-template-columns:repeat(5,minmax(0,1fr));margin:4px 0}
+  #plan-groundwater:not([hidden]){display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.03fr);gap:14px;align-items:start}
+  .gw-storm .tectonic-actions{margin:4px 0}
+  #gw-hour{margin:1px 0 3px}
+  .gw-visual-controls button{padding-block:2px!important}
+  .gw-bars{margin:5px 0 3px;gap:2px}
+  #gw-profile canvas{max-width:330px}
+}
+.soil-ruler{height:94px;display:flex;flex-direction:column;justify-content:space-between;font-size:10px}
+#soil-columns{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.soil-core{position:relative;display:flex;flex-direction:column;height:94px;border:1px solid #e8d1a663}
+.soil-core b{position:absolute;top:3px;left:5px;color:#fff4d2;font-size:10px}
+.soil-core i{width:100%}
+@media(max-width:899px){
+  #world-plan-panel:is([data-mode=sediment],[data-mode=soil])>header small{display:none}
+  #world-plan-panel:is([data-mode=sediment],[data-mode=soil])>header h2{margin:3px 0;font-size:17px}
+  #world-plan-panel:is([data-mode=sediment],[data-mode=soil]) .plan-tabs{gap:4px;margin:6px 0}
+  #world-plan-panel:is([data-mode=sediment],[data-mode=soil]) .plan-tabs button{padding-block:4px;font-size:11px}
+  :is(#plan-sediment,#plan-soil) :is(.annual-timeline,.annual-controls){margin:5px 0}
+}
+#world-plan-panel[data-mode=timeline] .plan-scope{display:none}
+#world-plan-panel[data-mode=timeline] .plan-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+#world-plan-panel[data-mode=timeline] .plan-tabs button{padding:4px 3px;font-size:11px}
+#line-ice-age{margin:4px 0}
+.epoch-heading{display:flex;align-items:baseline;justify-content:space-between;gap:5px}
+.epoch-heading span{color:#b6d0c9;font-size:11px}
+.epoch-controls{display:flex;gap:4px;align-items:stretch;margin:5px 0}
+#plan-timeline .epoch-controls button{flex:1;padding:4px;text-align:center;font-size:12px}
+.epoch-timeline{display:grid;gap:6px;margin:5px 0}
+.epoch-phase{display:grid;gap:3px}
+.epoch-phase>span{color:#b6d0c9;font-size:11px;white-space:nowrap}
+.epoch-nodes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+#plan-timeline .epoch-timeline button{padding:5px 3px;min-height:30px;text-align:center;font-size:12px;font-variant-numeric:tabular-nums}
+#plan-timeline .epoch-timeline button[aria-pressed=true]{color:#eefbfa;background:#b4ece337;border-color:#a5d6d8}
+.epoch-datum{font-variant-numeric:tabular-nums;color:#bee6e6;font-weight:650}
+.epoch-navigation:not([hidden]){display:grid;grid-template-columns:auto minmax(0,1fr) auto auto;gap:4px;align-items:center}
+#plan-timeline :is(.epoch-navigation label,.epoch-navigation select){margin:0}
+.epoch-navigation button:disabled{opacity:.43}
+#plan-timeline #epoch-reference-label:not([hidden]){display:flex;align-items:center;gap:5px;margin:6px 0}
+#plan-timeline #epoch-reference{width:auto;accent-color:#e3c990;margin:0}
+.epoch-legend{display:flex;flex-wrap:wrap;gap:3px 9px;list-style:none;padding:0;margin:7px 0 9px;font-size:11px}
+.epoch-legend i{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:4px;background:var(--key)}
+.epoch-sources{margin-top:8px;font-size:11px;color:#c5d6ca}
+.epoch-sources a,.epoch-sources summary{color:#efdaa3}
+.epoch-sources summary{cursor:pointer}
+.epoch-sources ul{padding-inline-start:16px}
+#epoch-map-labels{position:fixed;inset:0;pointer-events:none;z-index:25}
+#epoch-map-labels span{position:absolute;left:0;top:0;border:1px solid #98d4d4b5;border-radius:5px;padding:4px 7px;background:#15323bea;color:#e8f2eb;font:11px/1.2 system-ui,sans-serif;white-space:nowrap}
+#epoch-map-labels span[data-selected]{border-color:#f2d093;color:#fff0cd}
+#epoch-map-labels span[data-mouth]{border-color:#ffb76f;color:#ffdfbd;margin-top:-16px}
+@media(min-width:640px) and (max-width:899px){
+  .epoch-phase{grid-template-columns:65px minmax(0,1fr);align-items:center}
+  .epoch-nodes{grid-template-columns:repeat(7,minmax(0,1fr))}
+  .epoch-phase:nth-child(2) .epoch-nodes{grid-template-columns:repeat(5,minmax(0,1fr))}
+}
+@media(max-width:899px){
+  #world-plan-panel[data-mode=timeline]{height:47vh}
+  #world-plan-panel[data-mode=timeline]>header small{display:none}
+  #world-plan-panel[data-mode=timeline]>header h2{font-size:16px;margin:2px 0}
+  #world-plan-panel[data-mode=timeline] .plan-tabs{grid-template-columns:repeat(8,minmax(0,1fr));gap:3px;margin:3px 0}
+  #world-plan-panel[data-mode=timeline] .plan-tabs button{padding:3px 1px}
+}
+@media(max-width:475px){
+  #world-plan-panel[data-mode=timeline] .plan-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}
+  #world-plan-panel[data-mode=timeline]{height:48vh}
+}
+
+.formation-modes{margin-bottom:10px;border-bottom:1px solid #b3caa255;padding-bottom:7px}
+#formation-event[hidden],#formation-seasonal[hidden],.basin-event-map-labels[hidden],.basin-event-sites[hidden]{display:none}
+.basin-event-settings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}
+#world-plan-panel .basin-event-settings label{display:grid;gap:4px;font-size:11px}
+#world-plan-panel .basin-event-settings select,#basin-event-station{margin:0;padding:4px 6px;font-size:11px}
+.basin-event-time{margin-top:8px}
+#basin-event-clock{color:#a7ddef;font-variant-numeric:tabular-nums}
+#basin-event-hour{display:block;width:100%;margin:6px 0;accent-color:#a7ddef}
+.basin-event-sites{display:grid;grid-template-columns:max-content minmax(0,1fr);align-items:center;gap:7px;margin:8px 0}
+.basin-event-map-labels{position:fixed;inset:0;pointer-events:none;z-index:30}
+.basin-event-map-labels span{position:absolute;top:0;left:0;white-space:nowrap;background:#163731ee;color:#faf3dd;border-left:3px solid var(--basin-color);border-radius:4px;padding:3px 6px;font:650 11px system-ui,sans-serif}
+#basin-event-divide[hidden],#basin-event-layers[hidden],#basin-event-divide-stops[hidden],#basin-event-divide-prev[hidden]{display:none}
+.basin-divide-key{margin:6px 0}
+.basin-divide-navigation{justify-content:flex-end}
+#basin-event-divide-rocks span{display:inline-flex;align-items:center;gap:4px;margin-left:6px}
+#basin-event-divide-rocks i{width:.65em;height:.65em;border-radius:2px;background:var(--swatch)}
+
+#world-plan-panel[data-mode=cold] .plan-scope{display:none}
+#world-plan-panel[data-mode=cold] .plan-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin:6px 0}
+#world-plan-panel[data-mode=cold] .plan-tabs button{flex:none;white-space:nowrap;font-size:11px;padding:4px 6px}
+.cold-compare{font-size:12px;line-height:1.6;color:#d6e2d0}
+.cold-nav{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:4px}
+#world-plan-panel .cold-nav select,#world-plan-panel .cold-nav button{font-size:11px;margin:0;padding:5px 7px}
+.cold-nav button:disabled{opacity:.42}
+.cold-readings{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 8px;margin:8px 0}
+.cold-readings>div{padding:4px 6px;border:1px solid #c3d0aa28;border-radius:4px}
+.cold-readings dt{font-size:10px;color:#dce2ca}
+.cold-readings dd{margin:0;font-variant-numeric:tabular-nums;color:#eef6cf}
+.cold-readings[hidden]{display:none}
+#cold-figure{margin:8px 0;color:#d1dac7;font-size:11px}
+#cold-profile{display:block;width:100%;height:auto;background:#132d2be6;border-radius:4px}
+#world-plan-panel #line-cold{font-size:11px;padding:4px 7px}
+#world-plan-panel:is([data-mode=rain-shadow],[data-mode=scrub-recovery],[data-mode=atmosphere]) .plan-scope{display:none}
+#world-plan-panel:is([data-mode=rain-shadow],[data-mode=scrub-recovery],[data-mode=atmosphere]) .plan-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin:6px 0}
+#world-plan-panel:is([data-mode=rain-shadow],[data-mode=scrub-recovery],[data-mode=atmosphere]) .plan-tabs button{flex:none;white-space:nowrap;font-size:11px;padding:4px 6px}
+#plan-rain-shadow [data-warm-current="true"]{background:#becd9d1b;color:#f0f0d5}
+#world-plan-panel #line-rain-shadow{font-size:11px;padding:4px 7px}
+#world-plan-panel[data-mode=coast-sea] .plan-scope{display:none}
+#world-plan-panel[data-mode=coast-sea] .plan-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin:6px 0}
+#world-plan-panel[data-mode=coast-sea] .plan-tabs button{flex:none;white-space:nowrap;font-size:11px;padding:4px 6px}
+#coast-figure{margin:8px 0;color:#d1dac7;font-size:11px}
+#coast-profile{display:block;width:100%;height:auto;border-radius:4px}
+.dive-readout{position:fixed;top:82px;right:20px;z-index:30;width:max-content;max-width:min(345px,calc(100vw - 38px));box-sizing:border-box;padding:10px 12px;border:1px solid #7db4c4;border-radius:7px;background:#122d38;color:#f3fbfb;box-shadow:0 4px 16px #081b2466;pointer-events:none;font:13px/1.4 system-ui,sans-serif}
+.dive-readout[hidden]{display:none}
+.dive-readout strong{display:block;font-size:15px;color:#eef9fa}
+.dive-readout div{display:flex;flex-wrap:wrap;gap:2px 12px;margin:4px 0;color:#c4e3eb;font-variant-numeric:tabular-nums}
+.dive-readout b{color:#fff0ba}
+.dive-readout p{margin:0;color:#e0eff2}
+@media(min-width:900px){.dive-readout{right:auto;left:24px;top:190px}}
+@media(max-width:520px){.dive-readout{right:9px;top:78px;max-width:calc(100vw - 27px);padding:7px 9px;font-size:11px}.dive-readout strong{font-size:13px}}
+#coast-dive-note:empty{display:none}
+#world-plan-panel #line-coast-sea{font-size:11px;padding:4px 7px}
+#world-plan-panel:is([data-mode=legacy],[data-mode=deep-time],[data-mode=fluid-vents]) .plan-scope{display:none}
+#world-plan-panel:is([data-mode=legacy],[data-mode=deep-time],[data-mode=fluid-vents]) .plan-tabs{display:flex;flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;margin:6px 0}
+#world-plan-panel:is([data-mode=legacy],[data-mode=deep-time],[data-mode=fluid-vents]) .plan-tabs button{flex:none;white-space:nowrap;font-size:11px;padding:4px 6px}
+#deep-profile,#vent-profile{display:block;width:100%;height:auto;border-radius:4px}
+#legacy-figure{margin:8px 0;color:#d1dac7;font-size:11px}
+#legacy-cross{display:block;width:100%;height:auto;border-radius:4px}
+#world-plan-panel #line-legacy{font-size:11px;padding:4px 7px}
+#world-plan-panel[data-mode=gaps] .plan-scope{display:none}
+#plan-gap-pins{position:fixed;inset:0;z-index:34;pointer-events:none}
+#plan-gap-pins[hidden]{display:none}
+#plan-gap-pins button{position:absolute;transform:translate(-50%,-116%);padding:3px 6px;border:1px solid var(--gap-tone);border-radius:4px;background:#19352eed;color:var(--gap-tone);font:650 11px/1.35 system-ui,sans-serif;white-space:nowrap;pointer-events:auto}
+#plan-gap-pins button[aria-pressed=true]{background:var(--gap-tone);color:#1a3329;z-index:1}
+#plan-gaps h3{font-size:16px;margin:0 0 5px}
+.plan-gap-key{display:flex;gap:7px 11px;flex-wrap:wrap;margin:7px 0;font-size:11px}
+.plan-gap-kind,.plan-gap-key span{color:var(--gap-tone)}
+.plan-gap-key span::before{content:'';display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:4px;background:var(--gap-tone)}
+#plan-gap-all{margin:6px 0}
+#plan-gap-detail{margin:10px 0}
+#plan-gap-detail h4{font-size:15px;margin:4px 0 0}
+#plan-gap-detail dl{margin:10px 0}
+#plan-gap-detail dt{font-weight:650;color:#f0e6cd;margin-top:7px}
+#plan-gap-detail dd{margin:2px 0 0;color:#d6e2cf}
+@media(max-width:899px){
+ #world-plan-panel[data-mode=gaps]>header small{display:none}
+ #world-plan-panel[data-mode=gaps]>header h2{font-size:17px;margin:2px 0}
+ #world-plan-panel[data-mode=gaps] .plan-tabs{margin:5px 0}
+ #world-plan-panel[data-mode=gaps] .plan-tabs button{padding:4px 6px}
+}
+@media(max-width:470px){#plan-gap-pins button{font-size:9px;padding:2px 4px}}
+#world-plan-panel[data-collapsed=true]{top:auto;left:auto;right:20px;bottom:16px;width:max-content;height:auto;max-width:calc(100vw - 40px);padding:8px;overflow:visible}
+#world-plan-panel[data-collapsed=true]>header{position:static;padding:0;background:transparent}
+#world-plan-panel[data-collapsed=true]>header>div:first-child{display:none}

@@ -1,0 +1,40 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldIdsPreserved": 272,
+  "oldRouteSamples": 6701,
+  "walkingSamples": 20000,
+  "stations": [
+    "云层变化",
+    "雷暴闪电",
+    "沙尘",
+    "夜空"
+  ],
+  "weatherTypes": [
+    "clear",
+    "overcast",
+    "rain",
+    "snow",
+    "fog",
+    "storm",
+    "dust"
+  ],
+  "referenceVisibility": {
+    "clear": 2637,
+    "storm": 618,
+    "dust": 220
+  },
+  "lightningPulsesPerMinute": 5,
+  "dustParticles": 900,
+  "additionalNightStars": 520,
+  "actualLayerController": true,
+  "stormViewAspects": 3,
+  "quietPresetsPreserveTour": true,
+  "restoreIncludesClockState": true,
+  "reducedMotionSuppressesFlashes": true,
+  "shieldedEffectsSuppressed": true,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, state and controller validation; no GPU compilation/images, physical weather or astronomy"
+}

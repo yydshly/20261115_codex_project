@@ -1,0 +1,122 @@
+{
+  "result": "passed",
+  "fixedInstances": 17371,
+  "layers": {
+    "canopy": 2248,
+    "understory": 2679,
+    "ground": 10642,
+    "aquatic": 1802
+  },
+  "species": {
+    "coastPine": 42,
+    "willow": 34,
+    "birch": 307,
+    "oak": 879,
+    "pine": 430,
+    "palm": 202,
+    "dead": 17,
+    "coastShrub": 107,
+    "fern": 720,
+    "shrub": 1708,
+    "dwarf": 110,
+    "cactus": 34,
+    "forestOak": 258,
+    "forestBirch": 79,
+    "moss": 2415,
+    "tuft": 6453,
+    "flowers": 1337,
+    "seagrass": 11,
+    "rush": 266,
+    "sedge": 1083,
+    "reed": 135,
+    "lily": 307,
+    "alpineTuft": 437
+  },
+  "stations": [
+    {
+      "name": "融雪源头",
+      "kinds": [
+        "pine",
+        "dwarf",
+        "shrub",
+        "alpineTuft",
+        "moss"
+      ]
+    },
+    {
+      "name": "跌水溪流",
+      "kinds": [
+        "birch",
+        "oak",
+        "pine",
+        "shrub",
+        "fern",
+        "dwarf",
+        "tuft",
+        "flowers",
+        "moss",
+        "alpineTuft"
+      ]
+    },
+    {
+      "name": "河谷主河",
+      "kinds": [
+        "oak",
+        "birch",
+        "willow",
+        "pine",
+        "fern",
+        "shrub",
+        "reed",
+        "tuft",
+        "sedge",
+        "moss",
+        "flowers"
+      ]
+    },
+    {
+      "name": "苇泽湿地",
+      "kinds": [
+        "coastShrub",
+        "fern",
+        "tuft",
+        "sedge",
+        "reed",
+        "moss",
+        "lily",
+        "flowers"
+      ]
+    },
+    {
+      "name": "分汊河口",
+      "kinds": [
+        "coastShrub",
+        "fern",
+        "coastPine",
+        "seagrass",
+        "rush",
+        "moss",
+        "tuft",
+        "flowers",
+        "sedge",
+        "reed"
+      ]
+    },
+    {
+      "name": "归水海湾",
+      "kinds": [
+        "coastPine",
+        "coastShrub",
+        "fern",
+        "rush",
+        "moss",
+        "tuft",
+        "flowers",
+        "sedge",
+        "reed"
+      ]
+    }
+  ],
+  "observations": 18,
+  "limits": "Authored scene rules; not ecology or species simulation"
+}

@@ -1,0 +1,36 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "browser": "ChatGPT built-in browser",
+  "revision": "d01c2717857e",
+  "stationControls": 116,
+  "startupErrorVisible": false,
+  "scenesObserved": [
+    "竹林林缘与坡地",
+    "竹秆、竹节与林内通道",
+    "季风林湿润冠层样本",
+    "季风林较干疏林样本",
+    "临海前缘沙丘与海滩",
+    "背风沙丘与灌草斑块"
+  ],
+  "layersExercised": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "layerScene": "warm-bamboo-inner",
+  "screenshots": [
+    "warm-bamboo-edge.jpg",
+    "warm-bamboo-inner.jpg",
+    "warm-bamboo-layer-0.jpg",
+    "warm-bamboo-layer-1.jpg",
+    "warm-bamboo-layer-2.jpg",
+    "warm-bamboo-layer-3.jpg",
+    "warm-monsoon-dense.jpg",
+    "warm-monsoon-open.jpg",
+    "warm-dune-front.jpg",
+    "warm-dune-back.jpg"
+  ],
+  "limits": "Six selected scene views and bamboo layer buttons; not the complete 116-stop journey, all weather combinations or GPU/performance acceptance"
+}

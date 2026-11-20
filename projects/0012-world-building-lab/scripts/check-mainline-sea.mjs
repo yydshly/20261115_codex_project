@@ -1,0 +1,50 @@
+import assert from 'node:assert/strict';
+import {benchmarkLength,benchmarkPoint} from '../web/benchmark-trail.js';
+import {benchmarkDeck,terrainHeight} from '../web/large-world.js';
+import {divePoseClear} from '../web/coast-sea.js';
+import {mainlineLessons} from '../web/mainline-lessons.js';
+import {seaEntry,seaFrame,seaLength,seaStations} from '../web/mainline-sea.js';
+import {buildCoastalFog,outerFogSite,readCoastalFog,shoreFogSite} from '../web/coastal-fog.js';
+
+const harbor=seaFrame(0);
+const dryEnd=benchmarkPoint(benchmarkLength);
+assert.equal(harbor.p.x,dryEnd.x);
+assert.equal(harbor.p.z,dryEnd.z);
+assert.equal(harbor.p.y,benchmarkDeck(benchmarkLength)+1.72);
+assert.equal(mainlineLessons[6].at,benchmarkLength);
+assert.equal(mainlineLessons.length,14);
+let dives=0,wet=false,last=harbor;
+for(let at=1;at<=seaLength;at++){
+  const frame=seaFrame(at),{p,target}=frame,bed=terrainHeight(p.x,p.z);
+  assert.ok(Math.hypot(p.x-last.p.x,p.z-last.p.z)<=1.000001);
+  assert.ok(Math.abs(p.y-last.p.y)<2,'the eye follows the actual slope in small steps');
+  if(at<=seaEntry)assert.ok(bed< -2,'the surface leg stays on navigable water');
+  assert.ok(p.y>bed+.8);
+  if(p.y<-.25){
+    assert.ok(divePoseClear(p,target,0),'underwater camera sees the seabed along the route');
+    if(!wet)dives++;
+    wet=true;
+  }else wet=false;
+  last=frame;
+}
+assert.equal(dives,1,'the route enters the sea once and stays underwater');
+const measurements=Object.values(seaStations).map(p=>seaFrame(p.at));
+assert.equal(measurements[0].mode,'沿岸航行');
+assert.equal(measurements[1].mode,'沿岸航行');
+assert.ok(measurements.slice(2).every(f=>f.mode==='水下观测'));
+assert.ok(measurements[2].light>.5&&measurements.at(-1).light<1e-10);
+assert.ok(measurements.at(-1).depth>360);
+assert.equal(measurements.at(-1).p.at,seaLength);
+const cold=buildCoastalFog('cold','onshore'),warm=buildCoastalFog('warm','onshore');
+const offshore=buildCoastalFog('cold','offshore');
+const read=(field,{x,z})=>readCoastalFog(field,x,z);
+const onTrack=read(cold,seaStations.current),warmWater=read(warm,seaStations.current);
+assert.ok(onTrack.air<onTrack.dewPoint&&warmWater.air>warmWater.dewPoint);
+assert.equal(onTrack.dewPoint,warmWater.dewPoint);
+assert.ok(warmWater.visibility>onTrack.visibility*10);
+assert.ok(read(cold,shoreFogSite).mist>.40&&read(offshore,shoreFogSite).mist<.08);
+assert.ok(read(offshore,outerFogSite).mist>.65&&read(cold,outerFogSite).mist<.10);
+assert.equal(read(offshore,seaStations.current).sea,onTrack.sea);
+console.log('Continuous boat and dive profile stays on existing terrain at seven marine stops.');
+console.log('Air cools to dew point over the cold current and the fog moves offshore when the wind reverses.');
+console.log('Station depths:',measurements.map(f=>f.depth.toFixed(1)).join(', '));

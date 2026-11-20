@@ -31,7 +31,8 @@ CREATOR_SKILLS = '0028-creator-skill-mechanisms'
 CREATIVE_HUB = '0031-creative-tools-hub'
 LIJIANG_RIVER_BEND = '0033-lijiang-river-bend'
 SHEKOU_STUDY = '0034-openstreetmap-shekou'
-STATIC_PROJECTS = {LIJIANG_RIVER_BEND: 'index.html', CREATIVE_HUB: 'index.html', CREATOR_SKILLS: 'index.html', BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html', SHEKOU_STUDY: 'index.html'}
+WORLD_FOUNDATION = '0012-world-building-lab'
+STATIC_PROJECTS = {WORLD_FOUNDATION: 'world-report.html', LIJIANG_RIVER_BEND: 'index.html', CREATIVE_HUB: 'index.html', CREATOR_SKILLS: 'index.html', BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html', SHEKOU_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
@@ -60,6 +61,9 @@ def build_static_projects(output):
         if slug == CREATOR_SKILLS:
             command.append('--publication')
         subprocess.run(command, check=True)
+        source = project / 'dist'
+        if slug == WORLD_FOUNDATION:
+            subprocess.run([sys.executable, str(project / 'scripts/check_publication.py'), '--site', str(source)], check=True)
         if slug == CREATOR_SKILLS:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == AVATAR_WORKFLOW:
@@ -79,7 +83,6 @@ def build_static_projects(output):
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
         if slug == CREATIVE_HUB:
             subprocess.run([sys.executable, str(project / 'scripts/check_publication.py')], check=True)
-        source = project / 'dist'
         if not (source / entry).is_file():
             raise ValueError('Static project entry is missing: ' + slug)
         target = output / 'demos' / slug
@@ -116,6 +119,16 @@ def hydrate(archive_path=None):
     shutil.copy2(PROJECT / 'assets/technology-understanding.png', PUBLIC / 'summary/technology-understanding.png')
     return len(expected)
 
+def published_asset(slug, source):
+    prefix = f'projects/{slug}/'
+    if not source.startswith(prefix):
+        return None
+    path = source[len(prefix):]
+    if slug == WORLD_FOUNDATION and path == 'assets/world-foundation-summary.png':
+        path = 'assets/progress/world-foundation-summary.png'
+    return f'./demos/{slug}/{path}'
+
+
 def navigation():
     registry = json.loads((ROOT / 'projects.json').read_text(encoding='utf-8'))
     cards = []
@@ -127,10 +140,9 @@ def navigation():
         elif slug in STATIC_PROJECTS:
             href = f'./demos/{slug}/{STATIC_PROJECTS[slug]}'
             preview_path = (project.get('preview') or {}).get('path', '')
-            prefix = f'projects/{slug}/'
-            picture = f'./demos/{slug}/assets/relation-map.png' if slug == SOURCE_GUIDE else None
-            if preview_path.startswith(prefix):
-                picture = f'./demos/{slug}/' + preview_path[len(prefix):]
+            picture = published_asset(slug, preview_path)
+            if not picture and slug == SOURCE_GUIDE:
+                picture = f'./demos/{slug}/assets/relation-map.png'
         else:
             href = project.get('demo_url')
             picture = None
@@ -140,8 +152,7 @@ def navigation():
         alt = preview.get('alt', project['name'] + '引导图')
         caption = preview.get('caption', '')
         full_picture = preview.get('full_path', '')
-        prefix = f'projects/{slug}/'
-        guide_href = f'./demos/{slug}/' + full_picture[len(prefix):] if full_picture.startswith(prefix) else href
+        guide_href = published_asset(slug, full_picture) or href
         guide = (f'<figure><a href="{escape(guide_href)}"><img src="{escape(picture)}" alt="{escape(alt)}" loading="lazy"></a><figcaption>{escape(caption)}</figcaption></figure>' if picture else '')
         cards.append(f'<article><span>{escape(project["id"])} / 研究与实践</span><h2><a href="{escape(href)}">{escape(project["name"])}</a></h2><p>{escape(project["summary"])}</p>' + ''.join(f'<p>{escape(item)}</p>' for item in project.get('highlights', [])) + f'<a class="action" href="{escape(href)}">进入完整网页 ↗</a><a href="https://github.com/yydshly/20261115_codex_project/tree/main/projects/{escape(slug)}">研究与源码 ↗</a>' + guide + '</article>')
     return '<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GitHub 项目研究索引</title><style>body{margin:0;background:#101b23;color:#e5eadd;font:16px/1.9 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1100px;margin:auto;padding:45px 25px}a{color:#c8e49b}h1{font-size:38px;line-height:1.5}h2{font-size:28px}article{padding:30px;margin:35px 0;background:#192a31;border:1px solid #3f5749;border-radius:9px}article>span{font-size:12px;color:#91ac92}p{color:#a5b9a6}figure{margin:24px 0 0}figcaption{font-size:12px;color:#91ac92;margin-top:10px}img{width:100%;height:auto;display:block;margin-top:28px}.action{display:inline-block;padding:9px 15px;border:1px solid #7c9760;border-radius:4px;margin:15px 22px 10px 0}footer{font-size:12px;color:#819a86}</style></head><body><main><p>RESEARCH / EXAMPLES / DECISIONS</p><h1>GitHub 项目研究索引</h1><p>按编号整理内容、实践结果和选择依据。先读摘要，再进入效果、案例和可核查的研究记录。</p>' + ''.join(cards) + '<footer>原始项目、素材与研究结论分别署名。<a href="https://github.com/yydshly/20261115_codex_project">查看 GitHub 仓库 ↗</a></footer></main></body></html>'

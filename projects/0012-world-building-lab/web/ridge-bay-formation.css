@@ -1,0 +1,290 @@
+@media (min-width: 900px) {
+  #world-plan-panel[data-mode="ridge-bay"] {
+    width: 430px;
+  }
+}
+
+.ridge-bay-study {
+  --ridge-bay-border: #a9cdb04d;
+  --ridge-bay-muted: #bfd4c9;
+  --ridge-bay-accent: #f8d28a;
+  display: grid;
+  gap: 12px;
+}
+
+.ridge-bay-study[hidden] {
+  display: none;
+}
+
+.ridge-bay-study :is(p, h3, h4, figure, dl, dd) {
+  margin: 0;
+}
+
+.ridge-bay-study .ridge-bay-position {
+  color: var(--ridge-bay-accent);
+  font-size: 12px;
+  text-align: left;
+}
+
+.ridge-bay-heading h3 {
+  color: #fff1d0;
+  font-size: 20px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.ridge-bay-heading h3 + p {
+  margin-top: 5px;
+  color: var(--ridge-bay-muted);
+}
+
+.ridge-bay-stations,
+.ridge-bay-controls {
+  display: grid;
+  align-items: end;
+  gap: 7px;
+}
+
+.ridge-bay-controls {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.08fr);
+}
+
+.ridge-bay-step {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+#world-plan-panel .ridge-bay-study label {
+  display: block;
+  margin: 0;
+  color: var(--ridge-bay-muted);
+}
+
+#world-plan-panel .ridge-bay-study select {
+  width: 100%;
+  min-height: 34px;
+  margin: 3px 0 0;
+  padding: 4px 9px;
+  color-scheme: dark;
+}
+
+#world-plan-panel .ridge-bay-study button {
+  min-height: 34px;
+  padding: 4px 8px;
+  overflow-wrap: anywhere;
+}
+
+#world-plan-panel .ridge-bay-study button:disabled {
+  cursor: default;
+  opacity: .55;
+}
+
+#world-plan-panel .ridge-bay-study .ridge-bay-compare {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 34px;
+}
+
+#world-plan-panel .ridge-bay-compare:has(input:disabled) {
+  opacity: .65;
+}
+
+#world-plan-panel .ridge-bay-compare input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  accent-color: var(--ridge-bay-accent);
+}
+
+#world-plan-panel .ridge-bay-study :is(button, select, input):focus-visible {
+  outline: 2px solid var(--ridge-bay-accent);
+  outline-offset: 2px;
+}
+
+.ridge-bay-study .ridge-bay-explanation,
+.ridge-bay-study .ridge-bay-comparison {
+  padding: 8px 10px;
+  border-left: 2px solid #a3c397a3;
+  border-radius: 2px 7px 7px 2px;
+  background: #122d25;
+}
+
+.ridge-bay-study .ridge-bay-comparison {
+  border-left-color: #edc8ffb0;
+  color: #e8d9ee;
+  font-size: 12px;
+}
+
+.ridge-bay-profile {
+  min-width: 0;
+  padding: 8px 9px 5px;
+  border: 1px solid var(--ridge-bay-border);
+  border-radius: 8px;
+  background: #102820;
+}
+
+.ridge-bay-profile figcaption,
+.ridge-bay-measurements h4 {
+  color: #fff1d0;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.ridge-bay-profile canvas {
+  display: block;
+  width: 100%;
+  height: 170px;
+  margin-top: 4px;
+}
+
+.ridge-bay-profile p {
+  color: var(--ridge-bay-muted);
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.ridge-bay-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--ridge-bay-muted);
+  font-size: 11px;
+}
+
+.ridge-bay-legend li {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ridge-bay-legend i {
+  display: inline-block;
+  flex: 0 0 12px;
+  height: 2px;
+  background: var(--ridge-bay-mark);
+}
+
+.ridge-bay-legend i[data-shape="point"] {
+  flex-basis: 7px;
+  height: 7px;
+  margin-inline: 2px 3px;
+  border-radius: 50%;
+}
+
+.ridge-bay-legend i[data-shape="dashed"] {
+  height: 0;
+  border-top: 2px dashed var(--ridge-bay-mark);
+  background: none;
+}
+
+.ridge-bay-legend i[data-shape="arrow"] {
+  height: 6px;
+  clip-path: polygon(0 35%, 65% 35%, 65% 0, 100% 50%, 65% 100%, 65% 65%, 0 65%);
+}
+
+.ridge-bay-legend i[data-shape="fill"] {
+  height: 9px;
+  opacity: .7;
+}
+
+.ridge-bay-legend i[data-shape="band"] {
+  height: 4px;
+}
+
+.ridge-bay-measurements dl {
+  margin-top: 4px;
+}
+
+.ridge-bay-measurements dl > div {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.12fr);
+  gap: 8px;
+  padding: 4px 0;
+  border-top: 1px solid var(--ridge-bay-border);
+  font-size: 12px;
+}
+
+.ridge-bay-measurements dt {
+  color: var(--ridge-bay-muted);
+}
+
+.ridge-bay-measurements dd {
+  justify-self: end;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+}
+
+#world-plan-panel .ridge-bay-study .ridge-bay-return {
+  justify-self: start;
+  border-color: #f8d28a80;
+  color: var(--ridge-bay-accent);
+}
+
+.ridge-bay-a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (max-width: 899px) {
+  #world-plan-panel[data-mode="ridge-bay"] {
+    height: min(48vh, 510px);
+  }
+
+  #world-plan-panel[data-mode="ridge-bay"] > header small {
+    display: none;
+  }
+
+  #world-plan-panel[data-mode="ridge-bay"] > header h2 {
+    margin: 2px 0;
+    font-size: 17px;
+  }
+}
+#world-plan-panel[data-mode="ridge-bay"] .plan-tabs,
+#world-plan-panel[data-mode="ridge-bay"] .plan-scope,
+#world-plan-panel[data-mode="ridge-bay"] > header small {
+  display: none;
+}
+
+#world-plan-panel #plan-other-topics {
+  white-space: nowrap;
+  padding: 6px 8px;
+  font-size: 12px;
+}
+
+@media (min-width: 690px) and (max-width: 899px) {
+  .ridge-bay-study {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    column-gap: 17px;
+    row-gap: 7px;
+    align-items: start;
+  }
+  .ridge-bay-study > * { grid-column: 1 / -1; }
+  .ridge-bay-study .ridge-bay-position,
+  .ridge-bay-study .ridge-bay-heading,
+  .ridge-bay-study .ridge-bay-stations,
+  .ridge-bay-study .ridge-bay-controls { grid-column: 1; }
+  .ridge-bay-study .ridge-bay-profile { grid-area: 1 / 2 / 5 / 3; }
+}
+
+@media (max-width: 430px) {
+  #world-plan-panel[data-mode="ridge-bay"] #plan-panel-title {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  #world-plan-panel[data-mode="ridge-bay"] .plan-header-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-shrink: 1;
+  }
+}

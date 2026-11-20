@@ -1,0 +1,54 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldIdsPreserved": 228,
+  "oldRouteSamples": 5601,
+  "stations": [
+    {
+      "id": "tropical-edge",
+      "ground": 32,
+      "eye": 33.72
+    },
+    {
+      "id": "tropical-canopy",
+      "ground": 25,
+      "eye": 52.72
+    },
+    {
+      "id": "tropical-understory",
+      "ground": 17,
+      "eye": 18.72
+    },
+    {
+      "id": "tropical-bank",
+      "ground": 8,
+      "eye": 9.72
+    },
+    {
+      "id": "tropical-mangrove",
+      "ground": 4.8,
+      "eye": 6.52
+    },
+    {
+      "id": "tropical-estuary",
+      "ground": 3,
+      "eye": 4.72
+    }
+  ],
+  "meshes": 7,
+  "rainforestTrees": 561,
+  "mangroveTrees": 94,
+  "understory": 1019,
+  "rootBeams": 2808,
+  "vineSegments": 1309,
+  "walkSamples": 6000,
+  "waterSamples": 501,
+  "routeSamples": 24000,
+  "actualLayerController": true,
+  "overviewAspects": 3,
+  "canopyOpeningPreservesState": true,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, water levels, support and controller; no rendered image, GPU performance, species ecology, salinity transport or tide simulation"
+}

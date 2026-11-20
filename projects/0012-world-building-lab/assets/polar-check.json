@@ -1,0 +1,68 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldObservationIdsPreserved": 188,
+  "stations": [
+    {
+      "name": "北境极地海岸",
+      "eye": 9.72
+    },
+    {
+      "name": "浮冰湾与冰山",
+      "eye": 22.39546328445276
+    },
+    {
+      "name": "冰盖南缘",
+      "eye": 68.04815691740004
+    },
+    {
+      "name": "低矮苔原与融水洼地",
+      "eye": 29.475522140550655
+    },
+    {
+      "name": "北境极光观景地",
+      "eye": 48.33350983715353
+    }
+  ],
+  "meshes": 97,
+  "icebergs": 3,
+  "seaFloes": 7,
+  "iceCapCentreThickness": 42,
+  "minFloatingIceBedGap": 5.257660173663042,
+  "tundraInstances": 420,
+  "tundraPoolDepth": 2,
+  "walkingSamples": 32000,
+  "auroraRespondsToNightCloudFogLocationAndShelter": true,
+  "reducedMotionFreezesAurora": true,
+  "nightPresetRetainsOriginalWeather": true,
+  "layers": [
+    {
+      "stage": 0,
+      "ice": false,
+      "ecology": false,
+      "aurora": false
+    },
+    {
+      "stage": 1,
+      "ice": true,
+      "ecology": false,
+      "aurora": false
+    },
+    {
+      "stage": 2,
+      "ice": true,
+      "ecology": true,
+      "aurora": false
+    },
+    {
+      "stage": 3,
+      "ice": true,
+      "ecology": true,
+      "aurora": true
+    }
+  ],
+  "browserVisualCheck": "deferred per user preference; only in-app preview entry provided",
+  "limits": "CPU geometry, support, movement, material/state and preset controller; no GPU/rendered-image validation, ice drift/physics, glacier dynamics, permafrost ecology or space-weather simulation"
+}

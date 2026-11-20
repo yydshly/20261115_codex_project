@@ -1,0 +1,12 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "baselineRevision": "248fce553059",
+  "routeSamples": 11501,
+  "maxPositionDelta": 0,
+  "constructionStops": 116,
+  "observationIds": 464,
+  "allOriginalIdsPreserved": true,
+  "routePositionSha256": "4c76fdc52b0e42ea05af86156c2b6f8057fa20eb58b31ff204a44df762efdf30",
+  "limits": "Compared original main-route positions and observation identifiers; the new link changes terrain between existing regions and reserves a small corridor in tropical prop placement."
+}

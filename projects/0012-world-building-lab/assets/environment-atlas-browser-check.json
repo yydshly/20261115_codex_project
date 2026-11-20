@@ -1,0 +1,16 @@
+{
+  "revision": "e840014398db",
+  "initialEnvCount": "显示 50 / 50 项 · 40 项有 3D 样本",
+  "iceEnvCount": "显示 3 / 50 项 · 2 项有 3D 样本",
+  "filteredIceEnv": "显示 2 / 50 项 · 2 项有 3D 样本",
+  "searchEnvCount": "显示 2 / 50 项 · 2 项有 3D 样本",
+  "ancientEnvCount": 12,
+  "winterEnv": "低纬参考 · 北纬 23° · 正午太阳 43.6° · 昼长 10.6 小时 · 当前纬度 · 北纬 40° · 正午太阳 26.6° · 昼长 9.2 小时",
+  "summerEnv": "低纬参考 · 北纬 23° · 正午太阳 89.6° · 昼长 13.4 小时 · 当前纬度 · 北纬 40° · 正午太阳 73.4° · 昼长 14.8 小时",
+  "polarEnv": "低纬参考 · 北纬 23° · 正午太阳 89.6° · 昼长 13.4 小时 · 当前纬度 · 北纬 75° · 正午太阳 38.4° · 昼长 24.0 小时",
+  "lakeHref": "expedition.html?plan=balance&focus=lake#build-11",
+  "lakeSelected": "- option \"澄镜湖 · 入流与蓄水\" [selected]",
+  "atlasLakeStatus": "7 月 · 水位 31.87 m · 水面 73,415 m²",
+  "restoredAtlas": "显示 50 / 50 项 · 40 项有 3D 样本",
+  "logs": []
+}

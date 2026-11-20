@@ -1,0 +1,53 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "dailySamples": 1441,
+  "minSun": 0,
+  "maxSun": 3.2,
+  "maxAdjacentSunStep": 0.043633092847467414,
+  "comparisonSeconds": 48,
+  "comparisonCues": [
+    "spring-dawn",
+    "summer-noon",
+    "summer-dusk",
+    "autumn-rain",
+    "winter-snow",
+    "winter-night"
+  ],
+  "mainlineAnchors": [
+    "plain",
+    "forest-dense",
+    "lake",
+    "ice-lake",
+    "marsh",
+    "marine-shallow"
+  ],
+  "plantMaterials": 36,
+  "precipitationParticles": 700,
+  "shaderCases": [
+    {
+      "ground": true
+    },
+    {
+      "plant": true
+    },
+    {
+      "plant": true,
+      "evergreen": true
+    },
+    {
+      "plant": true,
+      "aquatic": true
+    },
+    {
+      "plant": true,
+      "depth": true
+    }
+  ],
+  "physicalHeightsAndLevelsPreserved": true,
+  "existingBuildObservations": 424,
+  "uiPauseResumeRestore": true,
+  "freshwaterIceVisualOnly": true,
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "Actual CPU objects, shader-source hooks, state-machine and controller checks; no GPU shader compilation, rendered images, native UI clicks, meteorology, ecology, snow thickness or ice physics validation"
+}

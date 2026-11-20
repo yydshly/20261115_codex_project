@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-17",
+  "captures": [
+    {
+      "file": "progress-overview.jpg",
+      "width": 638,
+      "height": 851,
+      "sha256": "80fd4a59f25803d0fd70132f0216a321cc1cda01f7015daf02a52f52773929ff",
+      "source": "Actual in-app browser screenshot"
+    },
+    {
+      "file": "progress-map-panel.jpg",
+      "width": 653,
+      "height": 871,
+      "sha256": "28c35d045580cb269fe627b7340dbd3b425c44d4597ae660fae323147bf4c61c",
+      "source": "Actual in-app browser screenshot"
+    },
+    {
+      "file": "progress-roadmap.jpg",
+      "width": 638,
+      "height": 851,
+      "sha256": "8a166b1553ac0a43779cbb54ee0d0bb8d42a59f5476be460d16d9b05ebdfdc30",
+      "source": "Actual in-app browser screenshot"
+    }
+  ]
+}

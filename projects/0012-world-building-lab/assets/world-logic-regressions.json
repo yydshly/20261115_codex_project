@@ -1,0 +1,61 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "248fce553059",
+  "checks": [
+    {
+      "name": "world-logic",
+      "passed": true
+    },
+    {
+      "name": "progress",
+      "passed": true
+    },
+    {
+      "name": "map-startup",
+      "passed": true
+    },
+    {
+      "name": "weather",
+      "passed": true
+    },
+    {
+      "name": "warm",
+      "passed": true
+    },
+    {
+      "name": "forest",
+      "passed": true
+    },
+    {
+      "name": "mountain",
+      "passed": true
+    },
+    {
+      "name": "karst",
+      "passed": true
+    },
+    {
+      "name": "inland",
+      "passed": true
+    },
+    {
+      "name": "marine",
+      "passed": true
+    },
+    {
+      "name": "settlement",
+      "passed": true
+    }
+  ],
+  "finalFormationProfiles": 19,
+  "sourceLinks": 15,
+  "modulesSyntaxChecked": 104,
+  "uniqueMapIds": 151,
+  "directControllerIdReferences": 105,
+  "entries": 126,
+  "constructionEntries": 116,
+  "foundationEntries": 10,
+  "sameCoordinates": true,
+  "scope": "Navigation partition, sourced formation explanations, existing route/controller regressions and selected UI flow; physical climate/geology/watershed integration is still incomplete"
+}

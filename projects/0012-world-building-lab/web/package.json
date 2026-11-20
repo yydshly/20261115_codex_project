@@ -1,0 +1,14 @@
+{
+  "name": "world-building-lab",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "check": "node --check main.js && node --check models.js && node --check terrain.js && node --check world-data.js && node --check world-layout.js && node --check journey.js && node --check journey-learning.js && node --check scene-details.js && node --check large-world.js && node --check large-scene.js && node --check large-map.js && node --check expedition.js && node --check land-base.js && node --check water-system.js && node --check water-scene.js && node --check vegetation-rules.js && node --check vegetation-scene.js && node --check vegetation-learning.js && node --check inland-geography.js && node --check inland-scene.js && node --check construction-learning.js && node --check forest-layout.js && node --check forest-learning.js && node --check forest-scene.js && node --check cave-layout.js && node --check cave-navigation.js && node --check cave-learning.js && node --check cave-scene.js && node --check glacial-geography.js && node --check glacial-learning.js && node --check glacial-scene.js && node --check marine-geography.js && node --check marine-learning.js && node --check marine-scene.js && node --check world-weather.js && node --check weather-scene.js && node --check weather-ui.js && node --check settlement-layout.js && node --check settlement-learning.js && node --check settlement-scene.js && node --check world-progress-data.js && node --check world-progress.js",
+    "build": "python -X utf8 ../scripts/build.py",
+    "start": "python -m http.server 52932 --bind 127.0.0.1 --directory ../dist"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}

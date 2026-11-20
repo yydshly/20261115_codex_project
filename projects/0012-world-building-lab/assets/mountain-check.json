@@ -1,0 +1,77 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 116,
+  "constructionObservations": 464,
+  "oldObservationsPreserved": 108,
+  "stations": [
+    {
+      "name": "青岚山脚村",
+      "height": 67.94,
+      "eye": 69.66
+    },
+    {
+      "name": "盘山登山路",
+      "height": 111.94,
+      "eye": 113.66
+    },
+    {
+      "name": "断岩峡谷吊桥",
+      "height": 146.28764044943821,
+      "eye": 148.0076404494382
+    },
+    {
+      "name": "云阶索道下站",
+      "height": 189.94,
+      "eye": 191.66
+    },
+    {
+      "name": "云阶索道上站",
+      "height": 469.94,
+      "eye": 471.66
+    },
+    {
+      "name": "风口山脊",
+      "height": 599.94,
+      "eye": 601.6600000000001
+    },
+    {
+      "name": "青岚主峰",
+      "height": 737.94,
+      "eye": 739.6600000000001
+    }
+  ],
+  "meshCount": 388,
+  "layers": [
+    {
+      "stage": 0,
+      "transport": false,
+      "details": false
+    },
+    {
+      "stage": 1,
+      "transport": false,
+      "details": false
+    },
+    {
+      "stage": 2,
+      "transport": true,
+      "details": false
+    },
+    {
+      "stage": 3,
+      "transport": true,
+      "details": true
+    }
+  ],
+  "walkingSamples": 12000,
+  "approachSamples": 16000,
+  "minBridgeGap": 32.8523681231088,
+  "minCabinClearance": 3.937535193293371,
+  "minRenderedClearance": 3.9523315094531597,
+  "automaticRideFrames": 1280,
+  "bothDirections": true,
+  "pausePreserved": true,
+  "browserVisualCheck": "deferred by user: provide in-app browser entry only; in-app browser control unavailable and alternative Edge access not approved",
+  "limits": "CPU geometry, actual movement and controller tests; GPU appearance/performance not yet verified; authored mountain and single cabin, no rope dynamics or transport scheduling"
+}

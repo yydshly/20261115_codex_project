@@ -1,0 +1,47 @@
+{
+  "revision": "66e4a51061b2",
+  "pause": [
+    "\t\t\t382 button 开始 / 继续导览 ▷, ID: connection-play",
+    "\t\t\t407 text 已暂停 · 中段坡脚与湿岸",
+    "\t\t\t386 progress indicator Value: 0.36921876668930054, ID: connection-progress",
+    "The focused UI element is 382 button 开始 / 继续导览 ▷, ID: connection-play"
+  ],
+  "held": [
+    "\t\t\t382 button 开始 / 继续导览 ▷, ID: connection-play",
+    "\t\t\t407 text 已暂停 · 中段坡脚与湿岸",
+    "\t\t\t386 progress indicator Value: 0.36921876668930054, ID: connection-progress",
+    "The focused UI element is 382 button 开始 / 继续导览 ▷, ID: connection-play"
+  ],
+  "resumed": [
+    "\t\t\t382 button 开始 / 继续导览 ▷, ID: connection-play",
+    "\t\t\t409 text 已暂停 · 接入原雨林河网",
+    "\t\t\t386 progress indicator Value: 0.5520133376121521, ID: connection-progress",
+    "The focused UI element is 382 button 开始 / 继续导览 ▷, ID: connection-play"
+  ],
+  "finalConsole": [],
+  "result": "passed selected flows",
+  "date": "2026-11-17",
+  "initialObservationCount": 38,
+  "finalObservationCount": 38,
+  "checks": [
+    "Eight checkpoints selected across iterative builds",
+    "Final source-pool color confirmed after adding vertex attributes",
+    "Final sea-facing endpoint confirmed",
+    "Same-view terrain-only and full-space layers confirmed",
+    "Final overview shifts world beside panel",
+    "Pause value 0.36921876668930054 held across separate reads; resume advanced to 0.5520133376121521"
+  ],
+  "captureRevisions": {
+    "watershed-valley.jpg": "66e4a51061b2",
+    "watershed-terrain.jpg": "66e4a51061b2",
+    "watershed-overview.jpg": "66e4a51061b2",
+    "watershed-junction.jpg": "19bac53f5f04",
+    "watershed-estuary.jpg": "19bac53f5f04"
+  },
+  "limits": "Selected built-in desktop-browser views and interactions; not full 116-stop browser tour, full connector trip in browser, mobile-device or GPU performance verification. Startup and rapid jumps sometimes timed out in browser control before recovering. Full ground path is separately CPU tested.",
+  "postCaptureFix": {
+    "finalRevision": "2cc37ea27a1f",
+    "change": "Excluded 8 submerged land-plant placements (4 heath, 2 broadleaf, 2 sedges) in the pre-existing tropical river; core UI, cameras, terrain and water geometry unchanged",
+    "validation": "Final full-water plant-root assertion, movement/geometry/camera CPU checks and HTTP byte comparison; no final full browser reload"
+  }
+}

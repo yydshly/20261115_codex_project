@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-18",
+  "checks": [
+    {
+      "check": "view-controls",
+      "exitCode": 0
+    },
+    {
+      "check": "world-logic",
+      "exitCode": 0
+    },
+    {
+      "check": "northern-watershed",
+      "exitCode": 0
+    },
+    {
+      "check": "watershed-link",
+      "exitCode": 0
+    },
+    {
+      "check": "progress",
+      "exitCode": 0
+    },
+    {
+      "check": "map-startup",
+      "exitCode": 0,
+      "scope": "1993 scene objects; 22 navigation modes; CPU geometry/render-call stub"
+    }
+  ],
+  "revision": "caf94635aad8",
+  "syntaxModules": 111,
+  "registryCheck": "31 projects; README in sync"
+}

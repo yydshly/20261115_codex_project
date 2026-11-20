@@ -1,0 +1,68 @@
+{
+  "months": 12,
+  "gridCells": 7857,
+  "waterBalanceErrorM3": 4.0745362639427185e-10,
+  "range": {
+    "lake": {
+      "low": 31.76024888451986,
+      "high": 31.950638597508426,
+      "lowMonth": 3,
+      "highMonth": 9,
+      "wetAreaDifference": 2172.643516562719
+    },
+    "main": {
+      "low": 16.737186904140476,
+      "high": 17.417851896938515,
+      "lowMonth": 1,
+      "highMonth": 7,
+      "wetAreaDifference": 7075.579592002494
+    },
+    "wetland": {
+      "low": 1.4797406817843402,
+      "high": 1.9912527105746056,
+      "lowMonth": 1,
+      "highMonth": 7,
+      "wetAreaDifference": 2554.8148082293483
+    },
+    "salt": {
+      "low": 23.35571947223221,
+      "high": 23.439232737549332,
+      "lowMonth": 1,
+      "highMonth": 8,
+      "wetAreaDifference": 869.021994218605
+    },
+    "saltMarsh": {
+      "low": 24.0060670231014,
+      "high": 24.249456145276074,
+      "lowMonth": 1,
+      "highMonth": 7,
+      "wetAreaDifference": 1517.3451679342324
+    }
+  },
+  "shorelineGeometry": true,
+  "downhillStages": true,
+  "endorheicOutflow": 0,
+  "originalMeshesRestored": true,
+  "constructionStations": 116,
+  "observations": 464,
+  "revision": "b7b6b19d7f84",
+  "checks": [
+    "watershed-balance",
+    "water-system",
+    "inland",
+    "salt",
+    "annual-climate",
+    "world-logic",
+    "progress",
+    "view-controls",
+    "northern-watershed",
+    "map-startup"
+  ],
+  "sourceModules": 119,
+  "saltTerrainClosure": {
+    "gridMetres": 3,
+    "saltLakeWetGridCells": 3281,
+    "saltMarshWetGridCells": 2421,
+    "atAnnualMaxima": true
+  }
+}

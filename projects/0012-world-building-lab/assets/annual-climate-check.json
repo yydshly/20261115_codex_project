@@ -1,0 +1,29 @@
+{
+  "months": 12,
+  "gridCells": 7857,
+  "windReversal": true,
+  "summerWindwardRain": 0.05108533031307161,
+  "summerLeeRain": 0.007602894649608061,
+  "springMelt": 0.42234719940756577,
+  "winterMelt": 0.00211051068638558,
+  "mainRunoffIndex": [
+    0.273178532884419,
+    0.7025488130517492,
+    1,
+    0.5631075805786959
+  ],
+  "flowPresetRestored": true,
+  "stations": 116,
+  "observations": 464,
+  "revision": "a3a9f1349671",
+  "passedChecks": [
+    "annual-climate",
+    "weather",
+    "world-logic",
+    "map-startup",
+    "progress",
+    "view-controls",
+    "research registry"
+  ],
+  "syntaxModules": 115
+}

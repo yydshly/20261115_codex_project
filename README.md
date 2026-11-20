@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **17** 个项目。
+已收录 **18** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -17,16 +17,17 @@
 | 5 | `0008` | [鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展](projects/0008-pelican-layout-study/README.md) | 从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。 | 已验证 | [参考来源](https://x.com/nft_chen/status/2121616583110115341) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/) |
 | 6 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
-| 8 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/) |
-| 9 | `0017` | [观式 · 100 个设计与影像网站](projects/0017-design-reference-atlas/README.md) | 把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。 | 已验证 | [参考来源](https://x.com/EianLu/status/2121219503988113557) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/) |
-| 10 | `0018` | [定制 Bot · 分工、能力与研究迁移](projects/0018-bot-role-research/README.md) | 以完整信息图和交互图厘清 Bot 身份、工具权限和协作价值，整理交易与研究的讨论，并说明八到五岗位的功能迁移。 | 已验证 | [参考来源](https://x.com/Bober_smart/status/2121686230467285097) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/) |
-| 11 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
-| 12 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
-| 13 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
-| 14 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/) |
-| 15 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/) |
-| 16 | `0034` | [OpenStreetMap 与蛇口城市原型](projects/0034-openstreetmap-shekou/README.md) | 研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。 | 已验证 | [参考来源](https://www.openstreetmap.org/about) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0034-openstreetmap-shekou/) |
-| 17 | `0033` | [薄云下的漓江河湾](projects/0033-lijiang-river-bend/README.md) | 从「薄云下的漓江河湾」的写实提示出发，以纯代码生成可步行、开船和快飞的喀斯特河谷，在约 4 分半的连续航程里体验浅水、岩棚、倒影、环境声和远山雾，并图解三种技术的分工与复用价值。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0033-lijiang-river-bend/) |
+| 8 | `0012` | [山海之间 · 多种地理效果与 3D 环境基座](projects/0012-world-building-lab/README.md) | 在同一张可探索的原创 3D 地图中实现多种现代与史前地理效果，包括山脉、冰川、河流、湿地、盐盆、雨林、海岸和深海。沿实景路线对照地形、岩性、气候、水系与植被怎样共同形成这些环境，再用地势与水源推导聚落和交通选址。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) |
+| 9 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/) |
+| 10 | `0017` | [观式 · 100 个设计与影像网站](projects/0017-design-reference-atlas/README.md) | 把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。 | 已验证 | [参考来源](https://x.com/EianLu/status/2121219503988113557) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/) |
+| 11 | `0018` | [定制 Bot · 分工、能力与研究迁移](projects/0018-bot-role-research/README.md) | 以完整信息图和交互图厘清 Bot 身份、工具权限和协作价值，整理交易与研究的讨论，并说明八到五岗位的功能迁移。 | 已验证 | [参考来源](https://x.com/Bober_smart/status/2121686230467285097) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/) |
+| 12 | `0019` | [山河共造 · 多人文明世界创作档案](projects/0019-shanhe-co-creation/README.md) | 从魔兽湖岸社交参考出发，以原创岚角族、完整故事和多人文明设计，整理共同生活、学习创造的实现思路与后期价值。 | 研究中 | [参考来源](https://x.com/thorgram/status/2121601256557051920) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0019-shanhe-co-creation/index.html) |
+| 13 | `0020` | [风与春 · 自然体验影像研究](projects/0020-human-nature-film-study/README.md) | 从人物开窗与门边姿态进入风的体验，分析框景、室内外明暗和自然响应的拍摄思路，提炼人物引导与万物展开的创作方法，并用“写春”试片检验。 | 研究中 | [参考来源](https://x.com/purelivn/status/2121568067402514672) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0020-human-nature-film-study/index.html) |
+| 14 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
+| 15 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/) |
+| 16 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/) |
+| 17 | `0034` | [OpenStreetMap 与蛇口城市原型](projects/0034-openstreetmap-shekou/README.md) | 研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。 | 已验证 | [参考来源](https://www.openstreetmap.org/about) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0034-openstreetmap-shekou/) |
+| 18 | `0033` | [薄云下的漓江河湾](projects/0033-lijiang-river-bend/README.md) | 从「薄云下的漓江河湾」的写实提示出发，以纯代码生成可步行、开船和快飞的喀斯特河谷，在约 4 分半的连续航程里体验浅水、岩棚、倒影、环境声和远山雾，并图解三种技术的分工与复用价值。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0033-lijiang-river-bend/) |
 
 ## 项目图览
 
@@ -151,6 +152,24 @@
 2026-11-16 本库整理，2400×4480；文字、故事与图文编排为本次讨论沉淀，内含原片定位缩略图，画面权利归相关权利人。
 
 [进入研究](projects/0011-everyday-wonders/README.md) · [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html)
+
+### 0012 · 山海之间 · 多种地理效果与 3D 环境基座
+
+在同一张可探索的原创 3D 地图中实现多种现代与史前地理效果，包括山脉、冰川、河流、湿地、盐盆、雨林、海岸和深海。沿实景路线对照地形、岩性、气候、水系与植被怎样共同形成这些环境，再用地势与水源推导聚落和交通选址。
+
+现代图谱 51/51 项、史前图谱 10/13 项有 3D 入口，另有 12 个晚更新世时间片可在同址对照冰川和岸线。
+
+雪岭到海沟 14 站约 10.46 公里，含 2.48 公里连续步行和后续的引导航行、水下局部观察。
+
+中央流域五站共用实景高程和逐月水量，能比较分水、融水补给、河谷搬运、湿地植被和海湾沉积。
+
+可用作世界构建与选址底图。跨区降雨与海温条件、少数区域接缝、三种史前场景和长期演化仍待补齐。
+
+[![山海之间环境基座总图，包含原创三维大地图、三条环境线、中央流域五站和冬夏湿地对照](projects/0012-world-building-lab/assets/world-foundation-summary.png)](projects/0012-world-building-lab/assets/world-foundation-summary.png)
+
+环境基座原目标、地图实景、形成逻辑、复用价值与待补缺口。点击查看 1800 × 2860 原图。
+
+[进入研究](projects/0012-world-building-lab/README.md) · [原仓库](https://github.com/yydshly/20261115_codex_project)
 
 ### 0016 · 海的生成 · 海底世界与提示词手记
 

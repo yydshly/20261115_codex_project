@@ -1,0 +1,14 @@
+{
+  "result": "passed",
+  "date": "2026-11-18",
+  "baselineRevision": "2cc37ea27a1f",
+  "constructionStops": 116,
+  "observations": 464,
+  "originalStationMax3DDelta": 0,
+  "originalRouteSamples": 11501,
+  "maxOriginalRoutePlanarDelta": 0,
+  "changedRouteHeightSamples": 9,
+  "maxRouteHeightChange": 22.411306429076408,
+  "oldObservationIdsPreserved": true,
+  "limits": "Original station positions and main-route XZ preserved. New terrain changes intermediate ground/camera heights; full 3D path equality is explicitly not claimed."
+}

@@ -1,0 +1,9 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "flushFailurePreservesOldFile": true,
+  "replaceFailurePreservesOldFile": true,
+  "successfulReplacement": true,
+  "sameFileCopySkipped": true,
+  "scope": "Atomic file writer only; no assertion of whole-directory build transactions"
+}

@@ -1,0 +1,40 @@
+{
+  "revision": "a3a9f1349671",
+  "browser": "in-app",
+  "winterWind": "1 月 · 西北风",
+  "summerWind": "7 月 · 西南风",
+  "autumnSummary": "10 月 · 东东南风",
+  "february": "2 月 · 西风",
+  "playingMonth": "2 月 · 西风",
+  "paused": true,
+  "southRainIndices": [
+    39,
+    6
+  ],
+  "summerResponse": {
+    "hint": "青色带越宽、流纹越快，河道补给越强。湿地表变暗，干草转黄，冷坡保留积雪。 冲积扇现为涨水参考。",
+    "flow": [
+      "冰雪融水支线100北部双支流100内陆湖来水98中央主河100高原至雨林河口89盐盆内部汇水100"
+    ]
+  },
+  "winterResponse": {
+    "hint": "青色带越宽、流纹越快，河道补给越强。湿地表变暗，干草转黄，冷坡保留积雪。 冲积扇现为常水参考。",
+    "flow": [
+      "冰雪融水支线13北部双支流16内陆湖来水36中央主河27高原至雨林河口29盐盆内部汇水36"
+    ]
+  },
+  "restoredWater": "常水参考：局部水段40m至18m",
+  "originalWeather": "夏季 · 晴朗 · 10:30",
+  "afterWeather": "夏季 · 晴朗 · 10:30",
+  "entries": 126,
+  "fromGeography": [
+    "\t\t\t23 checkbox 全年风雨, Value: 1, ID: plan-tab-annual",
+    "\t\t\t159 container Description: 全年风雨主线, ID: plan-annual",
+    "\t\t\t\t\t171 text 对照位置",
+    "\t\t\t\t\t172 pop up button (collapsed, settable) 对照位置, Value: 雨林丘陵与草原, ID: annual-location, Secondary Actions: Expand",
+    "\t\t\t\t\t\t\t178 (selected) 雨林丘陵与草原",
+    "\t\t\t\t187 table 雨林丘陵与草原 · 两点对照（0–100）",
+    "\t\t\t\t\t188 text 雨林丘陵与草原 · 两点对照（0–100）"
+  ],
+  "finalAnnualLogs": []
+}

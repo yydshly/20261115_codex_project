@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "revision": "196f2ccabd65",
+  "stationPositionsPreserved": 116,
+  "observationIdsPreserved": 464,
+  "routeSamples": 11501,
+  "maxHorizontalRouteDelta": 0,
+  "adjustedViews": [
+    "ice-snow"
+  ],
+  "heights": [
+    {
+      "id": "alpine",
+      "samples": 205,
+      "minHeight": 24.90922705246208,
+      "maxHeight": 488.0062771522556
+    },
+    {
+      "id": "north",
+      "samples": 369,
+      "minHeight": 11.31340424095471,
+      "maxHeight": 94.47384545292519
+    },
+    {
+      "id": "west",
+      "samples": 410,
+      "minHeight": 13.828530476157919,
+      "maxHeight": 232.61390441606903
+    },
+    {
+      "id": "south",
+      "samples": 205,
+      "minHeight": 32.21035000556972,
+      "maxHeight": 81.25432752603233
+    },
+    {
+      "id": "dry",
+      "samples": 205,
+      "minHeight": 26.550875128661755,
+      "maxHeight": 43.41932508353849
+    },
+    {
+      "id": "east",
+      "samples": 287,
+      "minHeight": 38.538024645075026,
+      "maxHeight": 107.46732715484032
+    }
+  ],
+  "relativeMoistureWestToEast": [
+    0.8177944496252301,
+    0.7984353988444063,
+    0.5480465622061244,
+    0.22617585348764574,
+    0.09204350119678001
+  ],
+  "fanHeadDryLandAndChannelSamples": 401,
+  "saltBasin": {
+    "step": 2,
+    "terrainSamples": 125440,
+    "lakeCells": 8587,
+    "marshCells": 3588
+  },
+  "scope": "Exact original IDs and horizontal route, continuous height field sites, relative scene climate, local 2m salt-basin closure at authored water levels. No computed globe climate or flux balance.",
+  "southernGap": {
+    "samples": 16027,
+    "minHeight": 18.834001421213472
+  }
+}

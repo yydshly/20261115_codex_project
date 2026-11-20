@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-17",
+  "result": "passed",
+  "url": "http://127.0.0.1:52932/expedition.html#marine-1",
+  "httpFiles": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c3d13f45d9a34f4b532db0d062ea88d7743b3953b8a096511331b1d316bfabb9"
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c3d13f45d9a34f4b532db0d062ea88d7743b3953b8a096511331b1d316bfabb9"
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "51edcb30fbf1ea6b6df69f85da994380e6f4d3b776f6fee1b1054c0dcd6f91d4"
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "431e0bd3b56bddf82520327d50518c577bba2912c8112e79a4aad3524efcde72"
+    },
+    {
+      "path": "marine-geography.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "8f42ef9d489b4573964f4c09112fa51fb68448bb52e1db37fd72893f9046264c"
+    },
+    {
+      "path": "marine-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "302763f30919f6d2cf944850aa01b506dbfcf3629651207a9f46a52e930c1414"
+    },
+    {
+      "path": "marine-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "ec02308804dce29dfe204f0f86d4582e3dee7485eae907907691e64714275dcd"
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "2ce56cdf5bec025261052e06504bcf5351d48fd27a93342a77460e43a4fda6c2"
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "944d8a21b35a815872214fc696cb6166e7b45e53ce25190e18c82370d94f0f43"
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "b345f32d4476de5bcfa3d3445e0d4a4d9d84b70713c39f2bd6de6f36874cb71b"
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "0042b7a23fecc3dd005b66cd97ba4377dc1a7acafbb3fe1b9a87f0de12ec3e3a"
+    },
+    {
+      "path": "glacial-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "e0c05b16b954f40c1340f2e862776788b610e233be62553ce709077233539cb6"
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "8fbd0ab8ef345d551d6b276b34f7eed95832d0211a181fae2257cb9cd5eded1f"
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "08421c42f16ec66741710fd80b97d46471e29bea66a7e7b76f5550b24dc5ceee"
+    },
+    {
+      "path": "runtime/three.module.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "runtime/three.core.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    }
+  ],
+  "missingRelativeImports": [],
+  "browserRendered": false,
+  "domIdsValid": true
+}

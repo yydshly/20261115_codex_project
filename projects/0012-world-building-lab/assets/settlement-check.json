@@ -1,0 +1,73 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 116,
+  "constructionObservations": 464,
+  "oldBuildIdsPreserved": 92,
+  "buildings": 10,
+  "stations": [
+    {
+      "name": "河畔村路",
+      "x": -495,
+      "z": 410,
+      "floor": 31.214009006052443,
+      "indoor": false
+    },
+    {
+      "name": "榆湾街区",
+      "x": -350,
+      "z": 405,
+      "floor": 27.29475448973345,
+      "indoor": false
+    },
+    {
+      "name": "临街工坊",
+      "x": -270,
+      "z": 398,
+      "floor": 26.774775757478686,
+      "indoor": false
+    },
+    {
+      "name": "工坊与住屋内部",
+      "x": -270,
+      "z": 370,
+      "floor": 26.96515960488398,
+      "indoor": true
+    }
+  ],
+  "meshes": 802,
+  "lamps": 5,
+  "bridgeDeckHeight": 29.99,
+  "bridgeBedClearance": 3.799999999999997,
+  "routeSamples": 20002,
+  "manualDoorRoundTrip": 2240,
+  "maxMicroStep": 0.0007095711477946733,
+  "layers": [
+    {
+      "stage": 0,
+      "blocks": false,
+      "architecture": false,
+      "life": false
+    },
+    {
+      "stage": 1,
+      "blocks": true,
+      "architecture": false,
+      "life": false
+    },
+    {
+      "stage": 2,
+      "blocks": true,
+      "architecture": true,
+      "life": false
+    },
+    {
+      "stage": 3,
+      "blocks": true,
+      "architecture": true,
+      "life": true
+    }
+  ],
+  "browserVisualCheck": "tracked separately in settlement-browser-check.json",
+  "limits": "CPU geometry, collision and guide checks; static people/props, no resident simulation, economy, tasks, stairs or full game physics"
+}

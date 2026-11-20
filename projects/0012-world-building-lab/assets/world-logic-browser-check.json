@@ -1,0 +1,38 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "248fce553059",
+  "browser": "ChatGPT in-app browser",
+  "viewportWidthObserved": 689,
+  "planOpenAfterVerification": true,
+  "entries": 126,
+  "zoneLabels": 9,
+  "searches": [
+    {
+      "query": "竹林",
+      "matches": 2,
+      "revision": "8610e0e7b02b"
+    },
+    {
+      "query": "盐湖",
+      "matches": 4,
+      "revision": "8610e0e7b02b"
+    }
+  ],
+  "finalRevisionActions": [
+    "close navigation plan",
+    "reopen with header button",
+    "enter selected salt-lake scene",
+    "open that station formation card",
+    "return to all 126 entries"
+  ],
+  "sceneVerified": "内流盐湖与退水岸线",
+  "stationFormationCard": "盐湖 · 内流盐湖与退水岸线",
+  "pointerEventsFixVerified": "header world-plan button computed pointer-events auto and actual clicks open/close",
+  "screenshots": [
+    "world-plan-overview.jpg",
+    "world-plan-salt-logic.jpg"
+  ],
+  "startupNote": "Some initialization reads timed out while the scene was loading; eventual loaded page had no startup error. Startup latency and full GPU performance not quantified.",
+  "limits": "Selected navigation/search/detail/scene-return workflow, not every formation option, the full 116-stop tour or all display sizes and weather combinations"
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-17",
+  "captures": [
+    {
+      "file": "settlement-road.jpg",
+      "width": 751,
+      "height": 870,
+      "sha256": "6237915481adff4f1d4ac9c52a61299884a277ef793fb35e73fa59358308d87d",
+      "source": "Actual in-app browser screenshot of local world-building-lab"
+    },
+    {
+      "file": "settlement-street.jpg",
+      "width": 751,
+      "height": 870,
+      "sha256": "9977dbf199c8958da27a95bb00ee0a0105bf403fe6bd1dc87edda03dcff41801",
+      "source": "Actual in-app browser screenshot of local world-building-lab"
+    },
+    {
+      "file": "settlement-cutaway.jpg",
+      "width": 751,
+      "height": 870,
+      "sha256": "586179b2157e280540b38b731f44cfab68b6763025f63cd62812c4c33af15958",
+      "source": "Actual in-app browser screenshot of local world-building-lab"
+    },
+    {
+      "file": "settlement-interior-night.jpg",
+      "width": 751,
+      "height": 870,
+      "sha256": "419dfd45c2953016c27ef0ac7edceec0e460c464d522a0b2b55d7a05e190ede9",
+      "source": "Actual in-app browser screenshot of local world-building-lab"
+    }
+  ]
+}

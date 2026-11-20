@@ -1,0 +1,49 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldIdsPreserved": 252,
+  "oldRouteSamples": 6201,
+  "stations": [
+    {
+      "id": "dryland-grass",
+      "ground": 34,
+      "moisture": 0.62
+    },
+    {
+      "id": "dryland-edge",
+      "ground": 34,
+      "moisture": 0.5441407407407407
+    },
+    {
+      "id": "dryland-gobi",
+      "ground": 30,
+      "moisture": 0.11074074074074068
+    },
+    {
+      "id": "dryland-valley",
+      "ground": 38,
+      "moisture": 0.07
+    },
+    {
+      "id": "dryland-oasis",
+      "ground": 16,
+      "moisture": 0.6677202690783877
+    }
+  ],
+  "meshes": 7,
+  "props": {
+    "grass": 1965,
+    "shrub": 280,
+    "gravel": 2093,
+    "trees": 38
+  },
+  "oasisDepth": 4,
+  "actualWalkingSamples": 12000,
+  "transferSamples": 12000,
+  "actualLayerController": true,
+  "overviewAspects": 3,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, support, moisture distribution, water depth and layer controller; no GPU image, climate, ecology or groundwater simulation"
+}

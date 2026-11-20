@@ -1,0 +1,51 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldIdsPreserved": 288,
+  "oldRouteSamples": 7101,
+  "stations": [
+    {
+      "id": "geo-sea",
+      "eye": 4.458805970149253,
+      "outdoorHeight": 21.886389514314704
+    },
+    {
+      "id": "geo-bridge",
+      "eye": 43.72,
+      "outdoorHeight": 42
+    },
+    {
+      "id": "geo-network",
+      "eye": 39.72,
+      "outdoorHeight": 73.04443292008605
+    },
+    {
+      "id": "geo-thermal",
+      "eye": 61.72,
+      "outdoorHeight": 60
+    }
+  ],
+  "meshes": 12,
+  "actualMovementSamples": 26880,
+  "undergroundSamples": 12524,
+  "bridgeSamples": 1855,
+  "networkSegments": 7,
+  "waterLevels": {
+    "sea": 0,
+    "thermal": 55
+  },
+  "hotPoolDepth": 3,
+  "bridgeCentreDeck": 46.8,
+  "bridgeBed": 8,
+  "terrainMouthClipping": true,
+  "noInternalJunctionWalls": true,
+  "steamParticles": 240,
+  "reducedMotionFreezesSteam": true,
+  "actualLayerController": true,
+  "inspectionCameraAspects": 3,
+  "roofWalkingPreserved": true,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, topology, support, movement and controller; no GPU image, erosion, heat transfer, geothermal hydrology or physical rock simulation"
+}

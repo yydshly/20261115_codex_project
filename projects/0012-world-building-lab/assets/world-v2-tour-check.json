@@ -1,0 +1,122 @@
+{
+  "date": "2026-11-16",
+  "scope": "Stations 6–10 at user-selectable 2x pace; earlier stations already recorded during the initial pass.",
+  "chapter": "终章 / THE WORLD CONNECTED",
+  "observations": "30 / 30",
+  "logs": [
+    {
+      "level": "info",
+      "message": "[world-journey] observation mesa:0 auto",
+      "timestamp": "2026-11-16T08:30:51.508Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation mesa:1 auto",
+      "timestamp": "2026-11-16T08:30:55.510Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation mesa:2 auto",
+      "timestamp": "2026-11-16T08:30:59.508Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] destination 7 auto",
+      "timestamp": "2026-11-16T08:30:59.508Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation dunes:0 auto",
+      "timestamp": "2026-11-16T08:31:06.313Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation dunes:1 auto",
+      "timestamp": "2026-11-16T08:31:10.335Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation dunes:2 auto",
+      "timestamp": "2026-11-16T08:31:14.331Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] destination 8 auto",
+      "timestamp": "2026-11-16T08:31:14.331Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation volcano:0 auto",
+      "timestamp": "2026-11-16T08:31:21.130Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation volcano:1 auto",
+      "timestamp": "2026-11-16T08:31:25.135Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation volcano:2 auto",
+      "timestamp": "2026-11-16T08:31:29.143Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] destination 9 auto",
+      "timestamp": "2026-11-16T08:31:29.143Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation alpine:0 auto",
+      "timestamp": "2026-11-16T08:31:35.957Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation alpine:1 auto",
+      "timestamp": "2026-11-16T08:31:39.939Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation alpine:2 auto",
+      "timestamp": "2026-11-16T08:31:43.951Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] destination 10 auto",
+      "timestamp": "2026-11-16T08:31:43.951Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation island:0 auto",
+      "timestamp": "2026-11-16T08:31:50.734Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation island:1 auto",
+      "timestamp": "2026-11-16T08:31:54.734Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    },
+    {
+      "level": "info",
+      "message": "[world-journey] observation island:2 auto",
+      "timestamp": "2026-11-16T08:31:58.759Z",
+      "url": "http://127.0.0.1:52932/journey.js"
+    }
+  ]
+}

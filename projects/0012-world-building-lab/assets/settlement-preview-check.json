@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-17",
+  "result": "passed",
+  "httpFiles": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "23e80a9862cff3f6b80469d827a7405cb5f215e5f670e1cc2224c5c62d5fc72c"
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "23e80a9862cff3f6b80469d827a7405cb5f215e5f670e1cc2224c5c62d5fc72c"
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "b741d0ca511ffbe91e6d1c3114edc40a19ac05d78b9e9bff312938cd12f9c208"
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "df6c6aec6bae80b9b3d67b4ca529c073f39cf92f93ae8854b915a8ce512c6efd"
+    },
+    {
+      "path": "settlement-layout.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "59c50ae3fabfe3ff77059035b6b23367448dcbffcd6829d219aa7fe22b1c831c"
+    },
+    {
+      "path": "settlement-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "795ddbe1678c31279932316f82e84f931be04a5e9b9b329027c84d620b69778e"
+    },
+    {
+      "path": "settlement-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "78c3e67938ad80f68b8bd5c63b38056e321441a1fd315589b9715c037af61016"
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "ebe1ab7ba16aff90a6070c79bb376a7dbcdf6ec21d5f3022a0a62f089ba32182"
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "373b61563dd265df1484f4a5f50f231f07d4c848a600a93b2f7759a140e77a3c"
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "8dc77d3c26d2f56e4de24e7a9bc641f0463c44c21072043ab2d2f54f3db343b0"
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "e949a23e5412be84097c836c96b3a69b89972bc20354b9ae3bc7dfa4da428d02"
+    },
+    {
+      "path": "cave-navigation.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "37c70cf8639f0a27d601bb1403cc2689f78c2ce5d5fa8cdc0d42e572bb177167"
+    },
+    {
+      "path": "weather-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "aab73c5c85cbfbd0bce2ec30d10fe3f9a37e808d2be5b83837f76e7cff607e38"
+    },
+    {
+      "path": "world-weather.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "a40278f0833a52e066990414b0db3996a9f9dc6d2e5d51ccf25b515c4a418b05"
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "716fbc65b61b082b9619a714ad5ff46878d228872fe31cf0a41f852c4e01ec86"
+    },
+    {
+      "path": "runtime/three.module.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    }
+  ],
+  "missingRelativeImports": [],
+  "domIdsValid": true,
+  "versionedAssets": true,
+  "browserCheck": "settlement-browser-check.json"
+}

@@ -1,0 +1,42 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 392,
+  "oldRouteSamples": 9701,
+  "stationsDetail": [
+    {
+      "id": "yardang-ridges",
+      "floor": 43
+    },
+    {
+      "id": "yardang-slot",
+      "floor": 32
+    },
+    {
+      "id": "yardang-stony",
+      "floor": 27
+    },
+    {
+      "id": "yardang-gravel",
+      "floor": 39
+    }
+  ],
+  "meshes": 4,
+  "residualRidges": 6,
+  "blocks": 267,
+  "gravel": 814,
+  "shrubs": 41,
+  "movementSamples": 18000,
+  "slotMovementSamples": 4621,
+  "actualSlotWallsAndOpenRoof": true,
+  "easternOutletClear": true,
+  "terraceRelief": true,
+  "staticWindReference": true,
+  "actualLayerController": true,
+  "actualNamedNavigation": true,
+  "inspectionCameraAspects": 3,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU relief, open-slot topology, rock placement and terrain support; no GPU image, physical wind erosion, sediment transport, real species or aeolian dating"
+}

@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#163b33">
+  <title>环境图谱 · 山海之间</title>
+  <link rel="icon" href="assets/mark.svg">
+  <link rel="stylesheet" href="environment.css">
+  <script type="module" src="environment.js"></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="journey.html">山海之间</a>
+    <nav aria-label="环境工作入口">
+      <a href="#modern">现代环境</a>
+      <a href="#ancient">史前环境</a>
+      <a href="#factors">地图形成</a>
+      <a class="top-map" href="expedition.html?plan=lines#build-1">打开 3D 地图 ↗</a>
+    </nav>
+  </header>
+  <main>
+    <section class="hero" aria-labelledby="overview-title">
+      <div>
+        <h1 id="overview-title">环境图谱</h1>
+        <p>从日照、风雨、岩石到海岸和史前森林。先看环境长什么样，再用它们成立的地理条件，组出一张连贯的地图。</p>
+        <div class="hero-actions"><a class="primary" href="#modern">浏览环境</a><a href="#factors">看地图怎么形成 ↓</a></div>
+      </div>
+      <figure><img src="assets/progress/regional-geography-south.jpg" alt="现有 3D 大地图中山脉、暖湿海岸及内陆过渡的鸟瞰画面"><figcaption>《山海之间》现有大地图实景</figcaption></figure>
+    </section>
+
+    <section class="section" id="modern" aria-labelledby="modern-title">
+      <header class="section-head">
+        <div><h2 id="modern-title">现代环境</h2><p>每个条目记录要观察的现象、成立条件，以及当前有没有 3D 样本。</p></div>
+        <label class="search">搜索环境<input id="environment-search" type="search" placeholder="如冰川、峡谷、盐沼"></label>
+      </header>
+      <div id="environment-groups" class="chips" aria-label="环境分类"></div>
+      <div class="filters">
+        <label><input id="has-scene" type="checkbox"> 只看有 3D 样本</label>
+        <output id="environment-count" role="status"></output>
+      </div>
+      <div id="environment-list"></div>
+      <noscript><p>启用 JavaScript 可筛选图谱。<a href="expedition.html?plan=geography#build-1">进入同一张地图</a></p></noscript>
+    </section>
+
+    <section class="section" id="ancient" aria-labelledby="ancient-title">
+      <header class="section-head">
+        <div><h2 id="ancient-title">史前环境</h2><p>按地质时期排列。剖面画出已知的环境关系，资料链接指向地层、化石或重建研究。每个时期有自己的海陆、气候和群落条件。</p></div>
+      </header>
+      <div id="ancient-list" class="cards ancient-cards"></div>
+    </section>
+
+    <section class="section" id="factors" aria-labelledby="factors-title">
+      <header class="section-head">
+        <div><h2 id="factors-title">地图的形成逻辑</h2><p>用类似中国的北半球大陆做参照。从较冷的北部走到较暖的南部，再横穿迎风岸、高地和背风内陆，观察同一纬度的地形差异。</p></div>
+      </header>
+      <div class="foundation">
+        <ol class="chain">
+          <li><strong>定海陆与骨架</strong><span>先定海岸、山脉与盆地，决定水能流向海洋还是留在内陆。</span></li>
+          <li><strong>定日照和冷暖</strong><span>用纬度和季节确定太阳高度与昼长。用海拔和海洋影响调整局地温度。</span></li>
+          <li><strong>给风和水汽找路</strong><span>确定湿风从哪片海来、哪侧坡先下雨。背风与内陆可以形成干区。</span></li>
+          <li><strong>让水塑造地表</strong><span>雨雪补给顺坡汇流，沿途冲刷、搬运，低地沉积并蓄水。</span></li>
+          <li><strong>按土和水分布植被</strong><span>土层、湿度、盐度和季节共同约束植被，沿山坡和岸地形成连续过渡。</span></li>
+        </ol>
+        <article class="sun" aria-labelledby="sun-title">
+          <h3 id="sun-title">从太阳看南北差异</h3>
+          <div class="season-buttons chips" aria-label="切换季节">
+            <button data-declination="-23.44" aria-pressed="true">冬至</button>
+            <button data-declination="0" aria-pressed="false">春分 / 秋分</button>
+            <button data-declination="23.44" aria-pressed="false">夏至</button>
+          </div>
+          <label for="latitude">试一个北纬 <output id="latitude-output">40°</output></label>
+          <input id="latitude" type="range" min="0" max="75" value="40" step="1">
+          <div class="sun-results" id="sun-results" aria-live="polite"></div>
+          <p>用理想地平线估算正午太阳高度与昼长。这里表示日照条件，实际冷暖和雨量还受高度、季风与海陆影响。</p>
+          <p class="sources"><a href="https://science.nasa.gov/earth/earth-observatory/climate-and-earths-energy-budget/">NASA 日照能量</a><a href="https://www.metoffice.gov.uk/binaries/content/assets/metofficegovuk/pdf/research/climate-science/climate-observations-projections-and-impacts/china.compressed.pdf">中国气候观测概况</a><a href="https://cloudatlas.wmo.int/en/orographic-influences-on-the-windward-side.html">WMO 迎风抬升</a></p>
+        </article>
+      </div>
+      <div class="map-card">
+        <figure><img src="assets/progress/regional-geography-overview.jpg" loading="lazy" alt="同一 3D 世界的高地、支流和海岸总览"></figure>
+        <div><h3>把规则放回同一张地图</h3>
+          <p>在同一张地图选择顺水、南北冷暖或海岸到内陆，可切换海陆、山脉、季风和分水界标记。沿线查看既有地形和新补的坡面、林缘与湿沟过渡。</p>
+          <div class="map-actions">
+            <a class="primary" href="expedition.html?plan=lines#build-1">走三条环境线 ↗</a><a href="expedition.html?plan=tectonics#build-1">看地质骨架 ↗</a><a href="expedition.html?plan=groundwater#build-1">比较岩性与地下水 ↗</a><a href="expedition.html?plan=exchange#build-1">看地表与地下两路汇合 ↗</a><a href="expedition.html?plan=wetland#build-1">看洪泛、退水与植被带 ↗</a><a href="expedition.html?plan=storm&amp;focus=estuary&amp;study=sea#build-1">看海面与风暴潮 ↗</a> <a href="expedition.html?plan=storm&amp;focus=estuary&amp;study=plants#build-1">看滩地植被演替 ↗</a> <a href="expedition.html?plan=storm&amp;focus=estuary&amp;study=sediment#build-1">看泥沙与岸线 ↗</a> <a href="expedition.html?plan=storm&amp;focus=estuary#build-1">对照降雨与潮汐 ↗</a> <a href="expedition.html?plan=estuary#build-1">看河口潮汐与盐度 ↗</a><a href="expedition.html?plan=geography#build-1">看六段过渡 ↗</a>
+            <a href="expedition.html?plan=annual#build-1">看全年风雨 ↗</a>
+            <a href="expedition.html?plan=balance#build-91">沿流域观察 ↗</a>
+          </div>
+          <p class="map-period">史前案例在图谱中按时代展示。每个时代的场景需要使用该时期的海岸、冰量、植被和水文条件。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer><a href="journey.html">项目总览 ↗</a><a href="atlas.html">早期独立地形样本 ↗</a></footer>
+</body>
+</html>

@@ -1,0 +1,4 @@
+import {geologyField,geologyPortalAt,geologyWaterAt} from './geology-layout.js';
+import {walkingSurface,walkable} from './large-world.js';
+export function geologyWalkable(x,z){const f=geologyField(x,z);return !!f&&(f.edge>1.25||geologyPortalAt(x,z))&&f.ceiling-f.floor>2.3&&!(geologyWaterAt(x,z)?.level>f.floor+.22);}
+export function geologyMove(from,x,z){const old=geologyField(from.x,from.z),f=geologyField(x,z),distance=Math.hypot(x-from.x,z-from.z);if(from.underground&&old){if(f){if(!geologyWalkable(x,z)||Math.abs(f.floor-from.y)>distance*.8+.16)return null;return {x,z,y:f.floor,underground:true,geology:true};}const y=walkingSurface(x,z);return geologyPortalAt(x,z)&&walkable(x,z)&&Math.abs(y-from.y)<distance*.9+.2?{x,z,y,underground:false,geology:true}:null;}if(!from.underground&&f&&geologyPortalAt(x,z)&&Math.abs(from.y-f.floor)<2.2&&geologyWalkable(x,z))return {x,z,y:f.floor,underground:true,geology:true};return undefined;}
