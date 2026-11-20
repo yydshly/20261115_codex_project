@@ -465,7 +465,7 @@
         "alt": "从 OpenStreetMap 到可玩的蛇口：开放地图能提供什么、实际试玩效果、整城实景复刻还需什么",
         "caption": "项目原创理解图，左为含 OpenStreetMap 数据的蛇口项目底图，中为实际驾驶截图，右为实景和玩法的条件。保留 2160 × 1430 PNG 原图。"
       },
-      "demo_url": null,
+      "demo_url": "https://yydshly.github.io/20261115_codex_project/demos/0034-openstreetmap-shekou/",
       "source_url": "https://www.openstreetmap.org/about",
       "highlights": [
         "能力与价值：开放地图用于定位道路、建筑占地、岸线和部分商户。海上世界样本的 106 条交通线段均来自 OpenStreetMap，街面外观与高差需要其他资料。",
