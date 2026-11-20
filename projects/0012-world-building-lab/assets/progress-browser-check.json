@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-17",
+  "result": "passed for the listed desktop checks",
+  "url": "http://127.0.0.1:52932/journey.html",
+  "cards": 20,
+  "counts": "已完成展示\n4\n项清单\n简化样本\n9\n项清单\n尚未制作\n7\n项清单",
+  "checks": {
+    "statusPlannedItems": 7,
+    "searchRoomResults": [
+      "更多室内与公共服务"
+    ],
+    "emptySearchResult": "显示 0 / 20 项",
+    "clearRestores": 20,
+    "contentGroupItems": 5,
+    "roadmapSteps": 6,
+    "mapCatalogMatchesOverview": true,
+    "modalCloseKeptScene": "build-24",
+    "actualSceneReturn": "24 / 道路 · 河畔村路",
+    "observationsPreserved": "16/108",
+    "archiveTitle": "早期十境样本（存档）",
+    "archiveNotesPreserved": "30 / 30"
+  },
+  "consoleErrorsOrWarnings": [],
+  "screenshots": [
+    "progress-overview.jpg",
+    "progress-map-panel.jpg",
+    "progress-roadmap.jpg"
+  ],
+  "notVerified": [
+    "Native mobile viewport and real-device performance",
+    "Full 27-stop browser tour",
+    "All weather combinations"
+  ]
+}

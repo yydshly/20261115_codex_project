@@ -1,0 +1,20 @@
+{
+  "result": "passed",
+  "date": "2026-11-18",
+  "actualOrbitControlsVersion": "0.180.0",
+  "mouseWheel": true,
+  "leftDragRotate": true,
+  "rightDragPan": true,
+  "touchPinch": true,
+  "keyboardPan": true,
+  "panelEditingProtected": true,
+  "poseSurvivesPresetFrames": true,
+  "intentionalPresetChangesRespected": true,
+  "resetFitsOverview": true,
+  "zoomOutInsideFarClip": true,
+  "groundZoomPreservesPosition": true,
+  "miniProjectionMagnification": 2,
+  "miniPlayerFocus": true,
+  "miniReset": true,
+  "limits": "Actual Three.js controls and projection with a synthetic DOM event target; native browser mouse/scroll and layout acceptance are separate."
+}

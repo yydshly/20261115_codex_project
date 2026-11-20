@@ -1,0 +1,103 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7823
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 7823
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 14117
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 61298
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 19143
+    },
+    {
+      "path": "production-layout.js",
+      "status": 200,
+      "bytes": 4542
+    },
+    {
+      "path": "production-learning.js",
+      "status": 200,
+      "bytes": 5140
+    },
+    {
+      "path": "production-flow.js",
+      "status": 200,
+      "bytes": 3575
+    },
+    {
+      "path": "production-scene.js",
+      "status": 200,
+      "bytes": 8878
+    },
+    {
+      "path": "production-ui.js",
+      "status": 200,
+      "bytes": 2630
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 15191
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 11137
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "bytes": 17588
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 19000
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "bytes": 12597
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "bytes": 12164
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 11735
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6540
+    }
+  ],
+  "syntaxModules": 50,
+  "uniqueMapIds": 95,
+  "controllerDomReferences": 75,
+  "overviewCameraAspectCases": 3,
+  "browserVisualValidation": "deferred per user preference",
+  "entry": "http://127.0.0.1:52932/expedition.html?v=8b6f85e8a7f7#life-1",
+  "batchEntry": "http://127.0.0.1:52932/expedition.html?v=8b6f85e8a7f7&production=1#life-2"
+}

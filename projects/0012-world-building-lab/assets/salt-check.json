@@ -1,0 +1,53 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 328,
+  "oldRouteSamples": 8101,
+  "stationsDetail": [
+    {
+      "id": "salt-lake",
+      "floor": 26.202094820771766
+    },
+    {
+      "id": "salt-marsh",
+      "floor": 26
+    },
+    {
+      "id": "salt-crust",
+      "floor": 26
+    },
+    {
+      "id": "salt-dry",
+      "floor": 23
+    }
+  ],
+  "meshes": 8,
+  "grass": 305,
+  "shrubs": 89,
+  "ridgeSegments": 1026,
+  "waterAreaSquareMetres": {
+    "high": [
+      34279.020918917755,
+      14316.630046477541
+    ],
+    "low": [
+      17156.567180156882,
+      0
+    ]
+  },
+  "movementSamples": {
+    "high": 15000,
+    "low": 15000
+  },
+  "sharedBedAndChangingShoreline": true,
+  "dryBasinUnflooded": true,
+  "actualWaterPresetHandler": true,
+  "actualNamedNavigation": true,
+  "actualLayerController": true,
+  "inspectionCameraAspects": 3,
+  "miniMapWaterSync": true,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, support, water clipping and manual comparison states; no GPU rendering, evaporation, species ecology or saline hydrology simulation"
+}

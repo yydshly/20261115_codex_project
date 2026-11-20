@@ -1,0 +1,543 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "2ab28f00f7dc",
+  "resources": [
+    {
+      "path": "cave-layout.js",
+      "status": 200,
+      "bytes": 3728
+    },
+    {
+      "path": "cave-learning.js",
+      "status": 200,
+      "bytes": 3387
+    },
+    {
+      "path": "cave-navigation.js",
+      "status": 200,
+      "bytes": 1438
+    },
+    {
+      "path": "cave-scene.js",
+      "status": 200,
+      "bytes": 6847
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 22787
+    },
+    {
+      "path": "dryland-layout.js",
+      "status": 200,
+      "bytes": 3239
+    },
+    {
+      "path": "dryland-learning.js",
+      "status": 200,
+      "bytes": 4193
+    },
+    {
+      "path": "dryland-scene.js",
+      "status": 200,
+      "bytes": 3874
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 106120
+    },
+    {
+      "path": "fan-layout.js",
+      "status": 200,
+      "bytes": 4002
+    },
+    {
+      "path": "fan-learning.js",
+      "status": 200,
+      "bytes": 3555
+    },
+    {
+      "path": "fan-scene.js",
+      "status": 200,
+      "bytes": 4476
+    },
+    {
+      "path": "forest-layout.js",
+      "status": 200,
+      "bytes": 1847
+    },
+    {
+      "path": "forest-learning.js",
+      "status": 200,
+      "bytes": 3584
+    },
+    {
+      "path": "forest-scene.js",
+      "status": 200,
+      "bytes": 1731
+    },
+    {
+      "path": "geology-layout.js",
+      "status": 200,
+      "bytes": 5246
+    },
+    {
+      "path": "geology-learning.js",
+      "status": 200,
+      "bytes": 4673
+    },
+    {
+      "path": "geology-navigation.js",
+      "status": 200,
+      "bytes": 969
+    },
+    {
+      "path": "geology-scene.js",
+      "status": 200,
+      "bytes": 7019
+    },
+    {
+      "path": "glacial-geography.js",
+      "status": 200,
+      "bytes": 7200
+    },
+    {
+      "path": "glacial-learning.js",
+      "status": 200,
+      "bytes": 6921
+    },
+    {
+      "path": "glacial-scene.js",
+      "status": 200,
+      "bytes": 6016
+    },
+    {
+      "path": "inland-geography.js",
+      "status": 200,
+      "bytes": 6103
+    },
+    {
+      "path": "inland-scene.js",
+      "status": 200,
+      "bytes": 2778
+    },
+    {
+      "path": "journey-learning.js",
+      "status": 200,
+      "bytes": 7030
+    },
+    {
+      "path": "journey.js",
+      "status": 200,
+      "bytes": 33520
+    },
+    {
+      "path": "karst-layout.js",
+      "status": 200,
+      "bytes": 6320
+    },
+    {
+      "path": "karst-learning.js",
+      "status": 200,
+      "bytes": 5686
+    },
+    {
+      "path": "karst-navigation.js",
+      "status": 200,
+      "bytes": 760
+    },
+    {
+      "path": "karst-scene.js",
+      "status": 200,
+      "bytes": 9168
+    },
+    {
+      "path": "land-base.js",
+      "status": 200,
+      "bytes": 294
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 48195
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "bytes": 21015
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 13317
+    },
+    {
+      "path": "main.js",
+      "status": 200,
+      "bytes": 25157
+    },
+    {
+      "path": "marine-geography.js",
+      "status": 200,
+      "bytes": 2226
+    },
+    {
+      "path": "marine-learning.js",
+      "status": 200,
+      "bytes": 5035
+    },
+    {
+      "path": "marine-scene.js",
+      "status": 200,
+      "bytes": 4636
+    },
+    {
+      "path": "models.js",
+      "status": 200,
+      "bytes": 10517
+    },
+    {
+      "path": "mountain-layout.js",
+      "status": 200,
+      "bytes": 5039
+    },
+    {
+      "path": "mountain-learning.js",
+      "status": 200,
+      "bytes": 4806
+    },
+    {
+      "path": "mountain-scene.js",
+      "status": 200,
+      "bytes": 5237
+    },
+    {
+      "path": "ocean-layout.js",
+      "status": 200,
+      "bytes": 2483
+    },
+    {
+      "path": "ocean-learning.js",
+      "status": 200,
+      "bytes": 4795
+    },
+    {
+      "path": "ocean-scene.js",
+      "status": 200,
+      "bytes": 4345
+    },
+    {
+      "path": "polar-layout.js",
+      "status": 200,
+      "bytes": 4813
+    },
+    {
+      "path": "polar-learning.js",
+      "status": 200,
+      "bytes": 4371
+    },
+    {
+      "path": "polar-scene.js",
+      "status": 200,
+      "bytes": 7863
+    },
+    {
+      "path": "production-flow.js",
+      "status": 200,
+      "bytes": 3835
+    },
+    {
+      "path": "production-layout.js",
+      "status": 200,
+      "bytes": 4498
+    },
+    {
+      "path": "production-learning.js",
+      "status": 200,
+      "bytes": 5122
+    },
+    {
+      "path": "production-scene.js",
+      "status": 200,
+      "bytes": 8845
+    },
+    {
+      "path": "production-ui.js",
+      "status": 200,
+      "bytes": 2699
+    },
+    {
+      "path": "salt-layout.js",
+      "status": 200,
+      "bytes": 3492
+    },
+    {
+      "path": "salt-learning.js",
+      "status": 200,
+      "bytes": 3521
+    },
+    {
+      "path": "salt-scene.js",
+      "status": 200,
+      "bytes": 5629
+    },
+    {
+      "path": "scene-details.js",
+      "status": 200,
+      "bytes": 2282
+    },
+    {
+      "path": "settlement-layout.js",
+      "status": 200,
+      "bytes": 4933
+    },
+    {
+      "path": "settlement-learning.js",
+      "status": 200,
+      "bytes": 4404
+    },
+    {
+      "path": "settlement-scene.js",
+      "status": 200,
+      "bytes": 8380
+    },
+    {
+      "path": "sky-learning.js",
+      "status": 200,
+      "bytes": 4054
+    },
+    {
+      "path": "special-weather.js",
+      "status": 200,
+      "bytes": 4104
+    },
+    {
+      "path": "strata-layout.js",
+      "status": 200,
+      "bytes": 3780
+    },
+    {
+      "path": "strata-learning.js",
+      "status": 200,
+      "bytes": 3751
+    },
+    {
+      "path": "strata-scene.js",
+      "status": 200,
+      "bytes": 4832
+    },
+    {
+      "path": "terrain.js",
+      "status": 200,
+      "bytes": 3727
+    },
+    {
+      "path": "transport-flow.js",
+      "status": 200,
+      "bytes": 4707
+    },
+    {
+      "path": "transport-layout.js",
+      "status": 200,
+      "bytes": 4108
+    },
+    {
+      "path": "transport-learning.js",
+      "status": 200,
+      "bytes": 4465
+    },
+    {
+      "path": "transport-scene.js",
+      "status": 200,
+      "bytes": 9195
+    },
+    {
+      "path": "transport-ui.js",
+      "status": 200,
+      "bytes": 2904
+    },
+    {
+      "path": "tropical-layout.js",
+      "status": 200,
+      "bytes": 4432
+    },
+    {
+      "path": "tropical-learning.js",
+      "status": 200,
+      "bytes": 5157
+    },
+    {
+      "path": "tropical-scene.js",
+      "status": 200,
+      "bytes": 7167
+    },
+    {
+      "path": "upland-layout.js",
+      "status": 200,
+      "bytes": 4570
+    },
+    {
+      "path": "upland-learning.js",
+      "status": 200,
+      "bytes": 3750
+    },
+    {
+      "path": "upland-scene.js",
+      "status": 200,
+      "bytes": 4310
+    },
+    {
+      "path": "vegetation-learning.js",
+      "status": 200,
+      "bytes": 6269
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "bytes": 13949
+    },
+    {
+      "path": "vegetation-scene.js",
+      "status": 200,
+      "bytes": 7389
+    },
+    {
+      "path": "volcanic-layout.js",
+      "status": 200,
+      "bytes": 3605
+    },
+    {
+      "path": "volcanic-learning.js",
+      "status": 200,
+      "bytes": 3732
+    },
+    {
+      "path": "volcanic-scene.js",
+      "status": 200,
+      "bytes": 5665
+    },
+    {
+      "path": "water-scene.js",
+      "status": 200,
+      "bytes": 8728
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "bytes": 13292
+    },
+    {
+      "path": "weather-scene.js",
+      "status": 200,
+      "bytes": 10830
+    },
+    {
+      "path": "weather-ui.js",
+      "status": 200,
+      "bytes": 5207
+    },
+    {
+      "path": "world-data.js",
+      "status": 200,
+      "bytes": 7799
+    },
+    {
+      "path": "world-layout.js",
+      "status": 200,
+      "bytes": 9448
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 21277
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6624
+    },
+    {
+      "path": "world-weather.js",
+      "status": 200,
+      "bytes": 5773
+    },
+    {
+      "path": "yardang-layout.js",
+      "status": 200,
+      "bytes": 3247
+    },
+    {
+      "path": "yardang-learning.js",
+      "status": 200,
+      "bytes": 3909
+    },
+    {
+      "path": "yardang-scene.js",
+      "status": 200,
+      "bytes": 2901
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 24781
+    },
+    {
+      "path": "journey.css",
+      "status": 200,
+      "bytes": 16271
+    },
+    {
+      "path": "styles.css",
+      "status": 200,
+      "bytes": 16808
+    },
+    {
+      "path": "world-progress.css",
+      "status": 200,
+      "bytes": 10349
+    },
+    {
+      "path": "atlas.html",
+      "status": 200,
+      "bytes": 9780
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 21541
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7498
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 7498
+    },
+    {
+      "path": "legacy-journey.html",
+      "status": 200,
+      "bytes": 6223
+    },
+    {
+      "path": "runtime/three.module.js",
+      "status": 200,
+      "bytes": 603113
+    },
+    {
+      "path": "runtime/three.core.js",
+      "status": 200,
+      "bytes": 1403455
+    }
+  ],
+  "localModuleImports": 391,
+  "sourceModulesSyntaxChecked": 95,
+  "uniqueMapElementIds": 145,
+  "controllerAndUiReferences": 141,
+  "browserVisualCheck": "deferred per user preference; in-app entry only",
+  "limits": "HTTP byte comparisons and module graph only; not GPU rendering or browser interaction"
+}

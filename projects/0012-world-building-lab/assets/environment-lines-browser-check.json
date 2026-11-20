@@ -1,0 +1,24 @@
+{
+  "revision": "5c313fd254a6",
+  "inApp": true,
+  "waterStart": {
+    "name": "雪岭冰川",
+    "readings": "冰面／水面参考高度\n367 m\n冷暖指数\n21\n地表湿润指数\n49\n本月降雨指数\n1.4"
+  },
+  "join": "北支汇口",
+  "winter": "1 月 · 西北风",
+  "waterHandoff": "1 月 · 水位 1.48 m · 水面 17,863 m²",
+  "playbackPausedAt": "北境冷坡",
+  "warmEnd": "实景地面高度\n-3 m\n冷暖指数\n74\n地表湿润指数\n83\n本月降雨指数\n0.3",
+  "summer": "7 月 · 西南风与东南沿海来水汽",
+  "windward": "实景地面高度\n43 m\n冷暖指数\n87\n地表湿润指数\n65\n本月降雨指数\n4.7",
+  "lee": "实景地面高度\n33 m\n冷暖指数\n87\n地表湿润指数\n61\n本月降雨指数\n1.3",
+  "gobi": "实景地面高度\n30 m\n冷暖指数\n90\n地表湿润指数\n24\n本月降雨指数\n1.2",
+  "oasis": "实景地面高度\n14 m\n冷暖指数\n94\n地表湿润指数\n82\n本月降雨指数\n1.6",
+  "divideOff": "false",
+  "ridgeLabels": [
+    "南部山脊"
+  ],
+  "finalOverview": "三条线共用一张地图",
+  "logs": []
+}

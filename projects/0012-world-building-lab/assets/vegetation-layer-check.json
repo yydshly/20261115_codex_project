@@ -1,0 +1,22 @@
+{
+  "layers": [
+    {
+      "layer": "canopy",
+      "shown": "false"
+    },
+    {
+      "layer": "understory",
+      "shown": "false"
+    },
+    {
+      "layer": "ground",
+      "shown": "false"
+    },
+    {
+      "layer": "aquatic",
+      "shown": "false"
+    }
+  ],
+  "nearby": "乔木 22 / 灌木 36 / 地被 517 / 水生 591",
+  "total": "全图固定植被 10,115 · 21种形态"
+}

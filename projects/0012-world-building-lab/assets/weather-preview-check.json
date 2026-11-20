@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-17",
+  "result": "passed",
+  "url": "http://127.0.0.1:52932/expedition.html?climate=20261117#forest-2",
+  "httpFiles": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "7e9ddd3953d6eb57dbb3685a3b3dcc726bbc5ebb5a17ada01b1838536bc42ace"
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "7e9ddd3953d6eb57dbb3685a3b3dcc726bbc5ebb5a17ada01b1838536bc42ace"
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "4d857f897731f21ad494327d3056b9773b74a19ecd5e6e1651b556887ff60c60"
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "00a17a6804134673bb430400053632a93bed7bb58fa12b11c832206ef8351e25"
+    },
+    {
+      "path": "world-weather.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "269d5807e19e1652322587ccb0629bbe081187b3b15ce7819b32cdbc233de01e"
+    },
+    {
+      "path": "weather-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "93f2c3a80ef9d58f6ab0415f03ac5c76ccf74f231c43b093187d2a0a9498d275"
+    },
+    {
+      "path": "weather-ui.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "97ad7d783516f1b2cf827ff90251e960e6597cb35ab2c60173f7cae604d2683f"
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "16db01a3930b4ee4410c4b7e11430add62b8e1d6d61c85a0563d7c60c55f2f6e"
+    },
+    {
+      "path": "vegetation-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "69bf5294e4987a99dcae0add3be4b076a44f8ae06fcd09339c4d549b32c7b84f"
+    },
+    {
+      "path": "water-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "d7a298b27798d2fcb06bd14163fd82724df4aae24987e0b47017a6efa5e178be"
+    },
+    {
+      "path": "inland-scene.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "8fe448a90db00858f1084d86bad8810a94578c8317edfedaa281dcc08af4e55e"
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "0042b7a23fecc3dd005b66cd97ba4377dc1a7acafbb3fe1b9a87f0de12ec3e3a"
+    },
+    {
+      "path": "glacial-learning.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "e0c05b16b954f40c1340f2e862776788b610e233be62553ce709077233539cb6"
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "b345f32d4476de5bcfa3d3445e0d4a4d9d84b70713c39f2bd6de6f36874cb71b"
+    },
+    {
+      "path": "runtime/three.module.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    },
+    {
+      "path": "runtime/three.core.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "eb077d2417f61d3e6d9264c317cabc4ea35769ed6b0ab533067292a550784c20"
+    }
+  ],
+  "missingRelativeImports": [],
+  "domIdsValid": true,
+  "browserRendered": false,
+  "gpuShaderCompiled": false
+}

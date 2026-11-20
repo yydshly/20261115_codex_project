@@ -1,0 +1,53 @@
+{
+  "result": "passed",
+  "date": "2026-11-18",
+  "oldStops": 116,
+  "observations": 464,
+  "newReaches": [
+    {
+      "id": "strata-head",
+      "length": 55
+    },
+    {
+      "id": "strata-out",
+      "length": 798.257836197073
+    },
+    {
+      "id": "fan-head",
+      "length": 140.06690564192274
+    },
+    {
+      "id": "fan-out",
+      "length": 466.44292468902944
+    },
+    {
+      "id": "trunk",
+      "length": 234.86825527851857
+    }
+  ],
+  "waterSamples": 30010,
+  "minActualDepth": 2.799999999999997,
+  "minRenderedCentreDepth": 1.7729098070298441,
+  "maxWaterRise": 0,
+  "confluenceLevel": 8,
+  "centralRiverJoin": 2.19,
+  "waterTriangles": 45992,
+  "meshes": 5,
+  "bridgeMovementSamples": 2000,
+  "plants": {
+    "grass": 265,
+    "shrubs": 33,
+    "gravel": 54
+  },
+  "bothReferenceWaterStates": true,
+  "terrainUnchangedByWaterReference": true,
+  "terrainGridStateSamples": 11502,
+  "allThreeToursComplete": true,
+  "actualSurveyControllerNotSeabed": true,
+  "overviewWidths": [
+    638,
+    1029,
+    1280
+  ],
+  "limits": "Authored catchment relief and static connected water; survey flights are not walking. No rainfall/runoff budget, sediment transport, groundwater, climate or erosion simulation."
+}

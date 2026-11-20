@@ -1,0 +1,72 @@
+{
+  "result": "passed",
+  "stations": [
+    {
+      "name": "山缘洞口",
+      "eyeHeight": 35.46386459989353,
+      "underground": false,
+      "terrainAbove": 33.743864599893534,
+      "caveFloor": null
+    },
+    {
+      "name": "回声洞道",
+      "eyeHeight": 35.2270956425144,
+      "underground": true,
+      "terrainAbove": 93.55231043733076,
+      "caveFloor": 33.5070956425144
+    },
+    {
+      "name": "石幔洞厅",
+      "eyeHeight": 31.803966070300078,
+      "underground": true,
+      "terrainAbove": 99.51099033816084,
+      "caveFloor": 30.08396607030008
+    },
+    {
+      "name": "静潭地下水域",
+      "eyeHeight": 31.02568685517897,
+      "underground": true,
+      "terrainAbove": 97.73871747301303,
+      "caveFloor": 29.305686855178973
+    }
+  ],
+  "constructionStations": 116,
+  "observations": 464,
+  "oldObservationsPreserved": 44,
+  "minDryGuideHeadroom": 7.347090937040257,
+  "minGuideRockCover": 24.1055386592992,
+  "maximumWaterDepth": 5,
+  "waterLevel": 27.8,
+  "waterBed": 22.8,
+  "mouthTrianglesRemoved": 140,
+  "walkingRoundTripSamples": 3200,
+  "wholeRouteSamples": 12001,
+  "undergroundRouteSamples": 698,
+  "automaticTravelFrames": 18515,
+  "maxMicroStep": 0.005156450980851104,
+  "formations": 22,
+  "layerChecks": [
+    {
+      "stage": 0,
+      "water": false,
+      "formations": false
+    },
+    {
+      "stage": 1,
+      "water": false,
+      "formations": false
+    },
+    {
+      "stage": 2,
+      "water": true,
+      "formations": false
+    },
+    {
+      "stage": 3,
+      "water": true,
+      "formations": true
+    }
+  ],
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "CPU geometry, ray, movement and controller checks; not rendered-image, cave geology, groundwater flow or full game physics validation"
+}

@@ -1,0 +1,48 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 360,
+  "oldRouteSamples": 8901,
+  "stationsDetail": [
+    {
+      "id": "fan-apex",
+      "floor": 46
+    },
+    {
+      "id": "fan-braid",
+      "floor": 42
+    },
+    {
+      "id": "fan-bar",
+      "floor": 29
+    },
+    {
+      "id": "fan-flood",
+      "floor": 24
+    }
+  ],
+  "meshes": 4,
+  "gravel": 924,
+  "grass": 533,
+  "shrubs": 8,
+  "waterAreaSquareMetres": {
+    "normal": 6923.693422485143,
+    "high": 13839.39474591799
+  },
+  "movementSamples": {
+    "normal": 15000,
+    "high": 15000
+  },
+  "branchSamples": 6006,
+  "minChannelDepth": 1.7999999999999972,
+  "barExposureChanges": true,
+  "geometryAndPlantsPreserved": true,
+  "actualPresetHandler": true,
+  "actualLayerController": true,
+  "actualNamedNavigation": true,
+  "inspectionCameraAspects": 3,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry and two manual reference water levels; no GPU, rainfall, hydraulic flood routing, sediment transport or seasonal growth simulation"
+}

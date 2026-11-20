@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-17",
+  "result": "passed",
+  "httpFiles": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "29d51f92fa98f4a6de5df081eeeac59bfd3fd13411d10cf96b61e325dd5489d6"
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "29d51f92fa98f4a6de5df081eeeac59bfd3fd13411d10cf96b61e325dd5489d6"
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "253a1d854465e3bca8ca70d58ce657262957630edc123191a3a8e555fdeb6dfc"
+    },
+    {
+      "path": "legacy-journey.html",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "474223fab457e2b0818abbe6adb25e6cb0b988c64e45c4e87083e7f8595436e6"
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "519efb84c266ad0b6dff3cee082e46bef8fb8d8dde0d2777f5fa5c749fafd6b0"
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "63196606b52c88d09e119e83bcb7df9b9c7316dd65f01449f903562bca2ffa81"
+    },
+    {
+      "path": "world-progress.css",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "7f5feb7248de470ef35b4f7c83b47bf69bc2d96e9ef8d6be1e2c2dbdc806f362"
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "f509924ccdadefb73c26240e0cadbab3561a87df477b91e611e9bc6aee5b3c61"
+    },
+    {
+      "path": "assets/progress/settlement-street.jpg",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "9977dbf199c8958da27a95bb00ee0a0105bf403fe6bd1dc87edda03dcff41801"
+    },
+    {
+      "path": "assets/progress/settlement-cutaway.jpg",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "586179b2157e280540b38b731f44cfab68b6763025f63cd62812c4c33af15958"
+    },
+    {
+      "path": "journey.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "eb86543b8f2f74066b58506068f5983567b33b680dd982abbab39fdb8d5a7c0e"
+    },
+    {
+      "path": "runtime/three.module.js",
+      "status": 200,
+      "matchesDist": true,
+      "sha256": "c8211c69345d2e9949dc7a8ac969380497aa0600a5a8ac6a459c8cd02dd9cb8a"
+    }
+  ],
+  "rootMatchesOverview": true,
+  "mapAndOverviewSeparate": true,
+  "missingRelativeImports": [],
+  "browserCheck": "progress-browser-check.json"
+}

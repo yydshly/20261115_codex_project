@@ -1,0 +1,32 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "oldConstructionStops": 116,
+  "observations": 464,
+  "connectorLength": 861.3138456788947,
+  "groundTourLength": 1953.1995477886585,
+  "waterStart": 220,
+  "waterEnd": 14,
+  "waterSamples": 8001,
+  "minActualDepth": 1.3137710775666562,
+  "minRenderedCentreDepth": 0.9375322614185961,
+  "minBridgeWaterClearance": 4.383333333333326,
+  "movementSamples": 24000,
+  "waterTriangles": 44809,
+  "meshes": 26,
+  "heath": 596,
+  "conifers": 46,
+  "broadleaf": 79,
+  "sedges": 54,
+  "existingTropicalTrees": 655,
+  "checkpoints": 8,
+  "pausePreserved": true,
+  "tropicalSourcePoolHasVertexColors": true,
+  "plantsAvoidAllActualWater": true,
+  "overviewPanelAvoidanceWidths": [
+    638,
+    789,
+    1280
+  ],
+  "limits": "Authored terrain and static connected water, no rainfall balance, discharge, erosion, uplift or climate simulation; other isolated watersheds remain separate"
+}

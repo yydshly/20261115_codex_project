@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#285c47">
+  <meta name="description" content="在同一张可探索的原创 3D 地图中实现多种现代与史前地理效果。查看场景形成、3D 实景与环境基座的复用价值。">
+  <title>山海之间 · 环境基座总览</title>
+  <link rel="icon" href="assets/mark.svg">
+  <link rel="stylesheet" href="world-progress.css">
+  <link rel="stylesheet" href="world-report.css">
+</head>
+<body class="progress-body report-body">
+<header class="p-topbar">
+  <div class="p-shell">
+    <a class="p-brand" href="journey.html">山海之间<small>世界导览</small></a>
+    <nav class="p-nav" aria-label="站点导航">
+      <a href="journey.html">世界导览</a>
+      <a href="world-report.html" aria-current="page">项目总览</a>
+      <a href="environment.html">环境图谱</a>
+    </nav>
+  </div>
+</header>
+<main class="p-shell report-main">
+  <section class="report-hero" aria-labelledby="report-title">
+    <div class="report-hero-copy">
+      <p class="report-kicker">阶段总览</p>
+      <h1 id="report-title">山海之间的环境基座</h1>
+      <p>在同一张可探索的原创 3D 地图中实现山脉、冰川、河谷、湿地、雨林、海岸与深海等现代及史前地理效果。沿实景路线理解这些环境怎样形成，以及地势和水源怎样影响聚落与交通。</p>
+      <div class="report-actions">
+        <a class="p-primary" href="expedition.html?walk=snow-to-deep&amp;station=ridge#ice-1">从雪岭进入 3D 主线 ↗</a>
+        <a class="p-secondary" href="assets/progress/world-foundation-summary.png" target="_blank" rel="noopener">打开总览图原图 ↗</a>
+        <a class="p-secondary" href="assets/progress/world-foundation-summary.png" download>下载总览图 PNG</a>
+      </div>
+    </div>
+    <figure>
+      <img src="assets/progress/environment-v1-overview.jpg" alt="3D 地理底图俯瞰，山脊、河流、海岸和分区标记位于同一张地图" width="877" height="871" fetchpriority="high">
+      <figcaption>现代环境基座的 3D 总图实景。</figcaption>
+    </figure>
+  </section>
+
+  <nav class="report-nav" aria-label="总览目录">
+    <a href="#goal">原目标</a>
+    <a href="#built">已经实现</a>
+    <a href="#effects">实景效果</a>
+    <a href="#value">对我们的价值</a>
+    <a href="#gaps">缺口与验收</a>
+  </nav>
+
+  <dl class="report-metrics" aria-label="环境基座阶段数据">
+    <div><dt>地图水平范围</dt><dd>3.84 × 3.12 km</dd></div>
+    <div><dt>现代图谱 3D 入口</dt><dd>51 / 51</dd></div>
+    <div><dt>史前图谱 3D 入口</dt><dd>10 / 13</dd></div>
+    <div><dt>环境主线</dt><dd>14 站</dd></div>
+  </dl>
+
+  <section class="report-section" id="goal" aria-labelledby="goal-title">
+    <h2 id="goal-title">原目标</h2>
+    <p>项目从观察《红色沙漠》如何用地形、场景素材和氛围承载角色与故事开始。我们把观察转为自己的程序化世界实验，沿地形骨架、地表、水域、植被逐层构建，最后放置人类活动所需的物件。</p>
+    <ol class="report-chain">
+      <li><strong>收集环境效果</strong><p>梳理现存与史前的代表性地形、地表、水域、天空和植被，做出可进入、可比较的 3D 样本。</p></li>
+      <li><strong>把环境接成一个世界</strong><p>用海陆、山脉、冷暖、风雨和分水岭确定区域位置，让相邻的地表、水系和植被有自然过渡，也能解释形成过程。</p></li>
+      <li><strong>先验收环境基座</strong><p>沿同一张图走过关键地带，确认地势、水源、风险和通路，再据此安排聚落、人物、故事与玩法。</p></li>
+    </ol>
+  </section>
+
+  <section class="report-section" id="built" aria-labelledby="built-title">
+    <h2 id="built-title">已经实现</h2>
+    <div class="report-grid">
+      <article>
+        <h3>统一的地理底图</h3>
+        <p>3.84 × 3.12 公里的地图共用海陆、主山脊、季节水汽和分水岭。北部冷岸、东北雪岭与青岚山提供高差，中央河谷通向西侧中央海湾，西南湿林沿独立河网出海，西部盐盆内流。东部火山岩岸向外接陆架、大陆坡与海沟。</p>
+      </article>
+      <article>
+        <h3>三条环境线</h3>
+        <ul class="report-list">
+          <li><strong>顺水</strong>沿高处积雪、河谷汇流、低滩洪泛与河口潮汐看水路。</li>
+          <li><strong>南北冷暖</strong>对照北岸和高山的林线、冻融与低处群落。</li>
+          <li><strong>海岸到内陆</strong>追踪海面水汽、迎背风降雨和湿林到干草地。</li>
+        </ul>
+        <div class="report-actions"><a class="p-secondary" href="expedition.html?plan=lines&amp;focus=water#build-1">打开三条环境线 ↗</a></div>
+      </article>
+      <article>
+        <h3>环境图谱与史前时间</h3>
+        <p>现代图谱仍按原来的九类组织。天空与光、气候与区域过渡、地形与岩体、地表与土层、河湖与湿地、海岸与海洋、冰雪与极地、地下与地热、植被与生态。51 项都有 3D 入口，含简化样本。</p>
+        <p>史前图谱 13 项中有 10 项可进 3D。其中晚更新世到现代可在同一位置切换 12 个时间片，查看冰体、岸线、河口和植被的变化。</p>
+        <div class="report-actions"><a class="p-secondary" href="environment.html">查看环境图谱 ↗</a></div>
+      </article>
+      <article>
+        <h3>一条能串起场景的主线</h3>
+        <p>14 站中前七站可连续步行约 2.48 公里，从雪岭到中央海湾。再经引导航行到东岸，沿海草床、礁坪、陆架、大陆坡到海沟，全线约 10.46 公里。水下移动限在各观察区，深处靠观察灯显示底质。</p>
+        <p>地面形成剖面另设五站。雪岭、源池、中央河谷、苇泽湿地、中央海湾可在同月对照地形、来水、沉积和植被，也可跳回步行现场。</p>
+        <div class="report-actions"><a class="p-secondary" href="expedition.html?plan=ridge-bay&amp;station=ridge&amp;month=7#ice-1">进入五站形成剖面 ↗</a></div>
+      </article>
+      <article>
+        <h3>环境分层与局地专题</h3>
+        <p>地表可看岩性、土层和沉积。地貌既有高山、冰川、平原、盆地、戈壁与沙丘，也有岩溶洞穴、火山地热、潮间带和海沟。植被有林内分层、竹林、湿热雨林、红树林和苔原。可按专题切换季节、潮汐、能见度和极端天气条件。</p>
+        <a href="journey.html#environment-coverage">查逐类场景和展示范围 ↗</a>
+      </article>
+      <article>
+        <h3>生活线与交通样本</h3>
+        <p>河谷到海湾生活线 10 站，约 2.68 公里。桥梁、码头、农田、市场、作坊与住宅用来理解选址。高山索道、生产批次、仓储和公共设施有局地互动样本。</p>
+        <a href="expedition.html?walk=valley-life&amp;stop=0#build-36">从河谷农田走生活线 ↗</a>
+      </article>
+    </div>
+    <p>四处代表性接缝已有现代默认水位下的实地试走记录，覆盖北部冷岸与混交林、南部迎风湿林与背风草地、西部盐盆与高原坡脚、东部火山岩岸与陆架。地图区分可步行与航拍段，陡坡、部分支沟和外海需要切换观察方式。 <a href="journey.html#environment-layout">逐处查看接缝</a></p>
+    <p class="report-note">项目另有 41 项能力清单，其中 4 项完成展示、33 项为简化样本、4 项待做。116 个构建观察站、464 处讲解是地图的分层观察口径。 <a href="journey.html#progress-inventory">按实现程度逐项核对 ↗</a></p>
+  </section>
+
+  <section class="report-section" id="effects" aria-labelledby="effects-title">
+    <h2 id="effects-title">实景效果</h2>
+    <h3>从分水岭看到湿地季节变化</h3>
+    <ol class="report-chain">
+      <li><strong>雪岭</strong>山脊把水分向两侧</li>
+      <li><strong>源池</strong>融水与浅层补给入河</li>
+      <li><strong>河谷</strong>坡降驱动冲刷与搬运</li>
+      <li><strong>湿地</strong>漫水频率影响植被分带</li>
+      <li><strong>海湾</strong>分汊减速，泥沙逐渐沉积</li>
+    </ol>
+    <p>五站共用场景高程和逐月水量数据。同一地点、同一月份，从「顺水」或步行主线进入，读到相同的水位与淹水范围。</p>
+    <div class="report-evidence">
+      <figure>
+        <img src="assets/progress/world-report-wetland-july.jpg" alt="苇泽湿地 7 月的三维形成剖面，水面漫入低滩" width="885" height="881" loading="lazy">
+        <figcaption><strong>7 月苇泽湿地。</strong> 场景水位 1.99 m，比枯水期多淹 1,991 m²。 <a href="expedition.html?plan=ridge-bay&amp;station=wetland&amp;month=7#ice-1">打开 7 月 ↗</a></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/progress/world-report-wetland-january.jpg" alt="同一苇泽湿地 1 月的三维形成剖面，低滩退水，深槽仍有水" width="885" height="881" loading="lazy">
+        <figcaption><strong>1 月同一位置。</strong> 场景水位 1.48 m，低滩退出连通水面，模型中仍有 508 m² 已露出但保持湿润的滩面。 <a href="expedition.html?plan=ridge-bay&amp;station=wetland&amp;month=1#ice-1">打开 1 月 ↗</a></figcaption>
+      </figure>
+    </div>
+    <p>7 月在三地都下 48 mm 雨，历时 8 小时。到第 120 小时，模型中中央海湾与西南雨林分别入海 45,008 和 18,333 m³，西部盐盆地表出流为零，水域多存 5,018 m³。按集水面积折算后，可以比较不同大小的流域。</p>
+    <div class="report-actions"><a class="p-secondary" href="expedition.html?plan=formation&amp;study=event#build-1">对照同一场雨在三流域的去向 ↗</a></div>
+
+    <h3>在同一组坐标切换史前</h3>
+    <p>末次间冰期的高海面向湾头低岸推进。盛冰期海面下降，陆架出露，古河槽继续向外海延伸。退冰各期能追踪古河段何时被淹，剖面以高差表示后续可能发生的回填空间。</p>
+    <div class="report-evidence">
+      <figure>
+        <img src="assets/progress/benchmark-warm-estuary.jpg" alt="从标杆路线河口站航拍，间冰期较高的海面盖住河口低岸" width="828" height="871" loading="lazy">
+        <figcaption><strong>末次间冰期 · 河口站。</strong> 高海面淹过低岸。 <a href="expedition.html?walk=snow-to-bay&amp;epoch=interglacial&amp;at=2306#ice-1">看暖期河口 ↗</a></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/progress/benchmark-glacial-estuary.jpg" alt="从同一河口站看到盛冰期退去的海水、出露的低地和向外延伸的河道" width="828" height="871" loading="lazy">
+        <figcaption><strong>末次盛冰期 · 同一河口站。</strong> 低地露出，河道继续延向外海。 <a href="expedition.html?walk=snow-to-bay&amp;epoch=glacial&amp;at=2306#ice-1">看盛冰期河口 ↗</a></figcaption>
+      </figure>
+    </div>
+
+    <h3>沿环境接上海洋与人类活动</h3>
+    <div class="report-evidence">
+      <figure>
+        <img src="assets/progress/world-report-trench.jpg" alt="深海海沟站的水下实景与观察灯照亮的海床" width="885" height="881" loading="lazy">
+        <figcaption><strong>深海海沟。</strong> 场景水深约 370.5 m，观察灯帮助识别床底。 <a href="expedition.html?walk=snow-to-deep&amp;station=trench#ice-1">进入海沟观察站 ↗</a></figcaption>
+      </figure>
+      <figure>
+        <img src="assets/progress/life-route-bridge.jpg" alt="河谷生活线的木桥接在河岸运输道上" width="877" height="871" loading="lazy">
+        <figcaption><strong>河谷生活线。</strong> 农田、村口、市场、道路、木桥和码头接入河谷到海湾的岸路，能对照平地、取水与洪泛怎样影响选址。 <a href="expedition.html?walk=valley-life&amp;stop=4#build-36">到木桥站 ↗</a></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="report-section" id="value" aria-labelledby="value-title">
+    <h2 id="value-title">对我们的价值</h2>
+    <div class="report-grid">
+      <article><h3>策划</h3><p>先用分水、坡度、渡口和洪泛约束布局，再选适合的村镇、农田与交通位置。设计故事时可直接借用地理关系，例如上游断流影响下游取水。</p></article>
+      <article><h3>场景制作</h3><p>地形、地表、水域到植被可以分层检查。新增一个林坡或湿地时，能先复用当前的高程、水位和已有区域过渡，再针对当地的地表和群落做资产。</p></article>
+      <article><h3>讲解</h3><p>按站点组织「看实景、换一个条件、对照结果」。前七站已有 MiniMax 中文讲解，沿岸与海底有文字。导览可以配合真实场景完成观察，讲解仍可按内容继续补充。</p></article>
+      <article><h3>后续开发</h3><p>统一坐标、路线、专题入口和阶段证据可用于改动后的复验。河谷生活线把道路、桥梁、码头和市场先挂到环境上，为居民行为、生产调度和玩法提供位置依据。</p></article>
+    </div>
+  </section>
+
+  <section class="report-section" id="gaps" aria-labelledby="gaps-title">
+    <h2 id="gaps-title">关键缺口与验收顺序</h2>
+    <ol class="report-list">
+      <li><strong>统一跨区形成规则。</strong> 南部干谷在全图采用夏雨冬干，火后专题使用冬雨夏干样本。东部冷流海温和暖水礁坪也各有设定。先使各入口对同一地点、月份与水温读数一致，并说明图内气候和海深的压缩尺度。</li>
+      <li><strong>复查四处接缝和主线。</strong> 在内置浏览器从雪岭走到海沟，复查落脚、航拍、航行和下潜。保留必要的坡、沟和水域边界，改善可见的样区直边及海沟轮廓，再检验返回导览与续看。</li>
+      <li><strong>完成三个史前 3D 样本。</strong> 尚缺成冰纪低纬冰川与雪球地球假说、二叠纪古沙海与大型风成沙丘、早白垩世火山邻近的湖盆。分别说明其形成前提、可见痕迹和与现代坐标的对应方式。</li>
+      <li><strong>让长期地貌演化可核对。</strong> 当前河槽下切、海湾加积及冰退后回填以参考形态对照。以中央流域为样段，让泥沙、床面、洪泛和植被按时期累计并互相影响，再验证哪些关系能迁移到其他流域。</li>
+    </ol>
+    <div class="report-actions">
+      <a class="p-primary" href="journey.html">返回世界导览 ↗</a>
+      <a class="p-secondary" href="journey.html#progress-inventory">查看逐项进度 ↗</a>
+    </div>
+  </section>
+</main>
+</body>
+</html>

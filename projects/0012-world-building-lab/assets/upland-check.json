@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 408,
+  "oldRouteSamples": 10101,
+  "stationsDetail": [
+    {
+      "id": "upland-meadow",
+      "floor": 244
+    },
+    {
+      "id": "upland-peat",
+      "floor": 239
+    },
+    {
+      "id": "upland-pools",
+      "floor": 234
+    },
+    {
+      "id": "upland-stream",
+      "floor": 229
+    }
+  ],
+  "meshes": 22,
+  "pools": 5,
+  "channels": 4,
+  "channelSamples": 4004,
+  "minChannelDepth": 1.3999999999999773,
+  "waterTriangles": 65176,
+  "grass": 7867,
+  "sedges": 1931,
+  "cushions": 538,
+  "movementSamples": 18000,
+  "peatSamples": {
+    "wet": 189,
+    "dry": 252
+  },
+  "actualLayerController": true,
+  "actualNamedNavigation": true,
+  "inspectionCameraAspects": 3,
+  "browserVisualCheck": "separate startup verification; broad image QA deferred",
+  "limits": "Compressed creative heights and CPU wetland/pond topology; no peat accumulation, groundwater balance, carbon cycle, permafrost, seasonal level or real species simulation"
+}

@@ -1,0 +1,45 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 110,
+  "observations": 440,
+  "oldObservationIds": 424,
+  "oldRouteSamples": 10501,
+  "movementSamples": 12000,
+  "meshes": 10,
+  "zones": [
+    {
+      "zone": 0,
+      "total": 77,
+      "conifers": 77,
+      "birches": 0
+    },
+    {
+      "zone": 1,
+      "total": 80,
+      "conifers": 46,
+      "birches": 34
+    },
+    {
+      "zone": 2,
+      "total": 42,
+      "conifers": 0,
+      "birches": 42
+    },
+    {
+      "zone": 3,
+      "total": 12,
+      "conifers": 0,
+      "birches": 12
+    }
+  ],
+  "trees": 279,
+  "logs": 9,
+  "ground": 1349,
+  "litter": 675,
+  "saplings": 34,
+  "obstacleRegistrations": 378,
+  "actualLayerController": true,
+  "inspectionCameraAspects": 3,
+  "limits": "Authored forest forms and static distribution, no real species, succession, decay, climate zones or plant growth; CPU geometry/navigation separate from browser checks"
+}

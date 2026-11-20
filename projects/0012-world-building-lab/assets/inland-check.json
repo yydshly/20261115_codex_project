@@ -1,0 +1,61 @@
+{
+  "result": "passed",
+  "plainReliefMetres": 1.5027620020413082,
+  "basinRimMetres": 100.90072372623308,
+  "lakeLevelMetres": 32,
+  "lakeCentreDepthMetres": 14,
+  "confluenceLevelMetres": 25,
+  "channels": [
+    {
+      "name": "山坡入湖溪",
+      "lengthMetres": 228,
+      "minDepth": 1.5989456756555427,
+      "minRenderedCentreDepth": 1.2061848462009834
+    },
+    {
+      "name": "平原出湖河",
+      "lengthMetres": 1284,
+      "minDepth": 2.3998322974264283,
+      "minRenderedCentreDepth": 2.0009417509243583
+    }
+  ],
+  "stations": [
+    {
+      "name": "长风平原",
+      "canopy": 211,
+      "understory": 520,
+      "ground": 1466,
+      "aquatic": 127
+    },
+    {
+      "name": "环山盆地",
+      "canopy": 55,
+      "understory": 41,
+      "ground": 478,
+      "aquatic": 44
+    },
+    {
+      "name": "澄镜内陆湖",
+      "canopy": 49,
+      "understory": 30,
+      "ground": 438,
+      "aquatic": 107
+    }
+  ],
+  "observations": 464,
+  "routeSamples": 6001,
+  "maxSampleStep": 380.1229887746595,
+  "maxMicroStep": 0.005156450980851104,
+  "waterMeshes": [
+    {
+      "vertices": 2451,
+      "triangles": 4608
+    },
+    {
+      "vertices": 1604,
+      "triangles": 1600
+    }
+  ],
+  "browserVisualCheck": "not part of this CPU script; see settlement-browser-check.json for partial browser verification",
+  "limits": "Authored geography and scene rules; not hydrological or ecological simulation"
+}

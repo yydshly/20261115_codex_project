@@ -1,0 +1,42 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 376,
+  "oldRouteSamples": 9301,
+  "stationsDetail": [
+    {
+      "id": "volcanic-crater",
+      "floor": 108
+    },
+    {
+      "id": "volcanic-channel",
+      "floor": 85
+    },
+    {
+      "id": "volcanic-basalt",
+      "floor": 55
+    },
+    {
+      "id": "volcanic-columns",
+      "floor": 35
+    }
+  ],
+  "meshes": 6,
+  "columns": 79,
+  "basaltBlocks": 372,
+  "shrubs": 8,
+  "meltTriangles": 56916,
+  "movementSamples": 18000,
+  "lavaSamples": 1001,
+  "minChannelDepth": 2,
+  "magmaSeparatedFromWater": true,
+  "columnBasesAndObstacles": true,
+  "reducedMotionFreezesGlow": true,
+  "actualLayerController": true,
+  "actualNamedNavigation": true,
+  "inspectionCameraAspects": 3,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU terrain, molten-surface clipping, access and solid columns; no GPU, eruption, fluid viscosity, heat transfer, cooling process, damage or climbing physics"
+}

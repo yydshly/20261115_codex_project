@@ -1,0 +1,63 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "observations": 424,
+  "oldObservationIdsPreserved": 208,
+  "oldRoutePositionsChecked": 5101,
+  "stations": [
+    {
+      "id": "ocean-open",
+      "bed": -28.799223233239527,
+      "waterDepth": 28.799223233239527,
+      "eye": 8.920776766760474
+    },
+    {
+      "id": "ocean-islands",
+      "bed": -10.043395046589776,
+      "waterDepth": 10.043395046589776,
+      "eye": 33.67660495341023
+    },
+    {
+      "id": "ocean-shelf",
+      "bed": -67.26236499356236,
+      "waterDepth": 67.26236499356236,
+      "eye": -52.54236499356236
+    },
+    {
+      "id": "ocean-slope",
+      "bed": -160.99174829848252,
+      "waterDepth": 160.99174829848252,
+      "eye": -139.27174829848252
+    },
+    {
+      "id": "ocean-trench",
+      "bed": -370.5427560697545,
+      "waterDepth": 370.5427560697545,
+      "eye": -344.82275606975446
+    }
+  ],
+  "islands": 3,
+  "meshes": 5,
+  "vertices": 226,
+  "props": {
+    "rock": 516,
+    "grass": 136,
+    "tube": 130,
+    "glow": 18,
+    "fish": 32
+  },
+  "routeSamples": 24000,
+  "overviewAspects": [
+    0.7324913892078071,
+    0.7497129735935706,
+    1.7777777777777777
+  ],
+  "depthMapGeometryMatchesWorld": true,
+  "mainSeabedUsesTerrainTiles": true,
+  "noDeepPhotosyntheticPlants": true,
+  "deepSurveyLightAndFog": true,
+  "actualLayerController": true,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, route, camera and controller validation; no GPU image, marine ecology, navigation or diving simulation"
+}

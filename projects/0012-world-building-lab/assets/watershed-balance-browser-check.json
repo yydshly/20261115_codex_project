@@ -1,0 +1,59 @@
+{
+  "revision": "b7b6b19d7f84",
+  "inApp": true,
+  "stageComparisons": {
+    "lake": {
+      "lowText": "3 月 · 水位 31.76 m · 水面 72,255 m²",
+      "highText": "9 月 · 水位 31.95 m · 水面 74,428 m²"
+    },
+    "main": {
+      "lowText": "1 月 · 水位 16.74 m · 水面 23,581 m²",
+      "highText": "7 月 · 水位 17.42 m · 水面 30,657 m²"
+    },
+    "salt": {
+      "lowText": "1 月 · 水位 23.36 m · 水面 28,704 m² · 盐沼 24.01 m",
+      "highText": "8 月 · 水位 23.44 m · 水面 29,573 m² · 盐沼 24.23 m"
+    },
+    "wetland": {
+      "lowText": "1 月 · 水位 1.48 m · 水面 17,863 m²",
+      "highText": "7 月 · 水位 1.99 m · 水面 20,417 m²"
+    }
+  },
+  "earlierInteractionCheck": {
+    "revision": "1a1d9d6ffaad",
+    "annualHandoff": {
+      "carried": [
+        "\t\t\t\t98 pop up button (collapsed, settable) 流域主线, Value: 雪岭 · 融雪入溪, ID: balance-stop, Secondary Actions: Expand",
+        "\t\t\t\t\t\t101 (selected) 雪岭 · 融雪入溪",
+        "\t\t\t\t\t111 text 4 月",
+        "\t\t\t\t118 text 4 月 · 本月送出 2,671 m³"
+      ],
+      "springLedger": "降雨\n2,988 m³\n降雪水当量\n99 m³\n融雪\n1,441 m³\n入渗土壤\n2,185 m³\n下渗至地下水\n668 m³\n坡面径流\n1,946 m³\n基流\n427 m³\n水面直接降水\n298 m³\n上游来水\n0 m³\n陆面蒸散与升华\n916 m³\n水面蒸发\n0 m³\n送往下游\n2,671 m³\n地表蓄水变化\n0 m³\n土壤蓄水变化\n+632 m³\n浅层地下水变化\n+241 m³\n积雪水量变化\n−1,374 m³\n期末地表蓄水\n0 m³\n水面账本差额\n0 m³"
+    },
+    "worldLedger": [
+      "陆面降雨",
+      "316,472 m³",
+      "陆面降雪",
+      "6,781 m³",
+      "送入海湾及外海",
+      "205,342 m³",
+      "陆面蒸散与升华",
+      "66,148 m³",
+      "水面蒸发",
+      "90,589 m³",
+      "地表存量变化",
+      "+22,016 m³",
+      "土壤存量变化",
+      "+15,116 m³",
+      "地下水存量变化",
+      "+5,939 m³",
+      "积雪存量变化",
+      "−81,898 m³",
+      "全图闭合差额",
+      "0 m³"
+    ],
+    "originalWater": "常水参考：局部水段40m至18m",
+    "originalWeather": "夏季 · 晴朗 · 10:30"
+  },
+  "logs": []
+}

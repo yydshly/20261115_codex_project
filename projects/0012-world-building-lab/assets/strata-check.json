@@ -1,0 +1,49 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "stations": 116,
+  "observations": 464,
+  "oldObservationIds": 344,
+  "oldRouteSamples": 8501,
+  "stationsDetail": [
+    {
+      "id": "strata-wall",
+      "floor": 35
+    },
+    {
+      "id": "strata-vein",
+      "floor": 35
+    },
+    {
+      "id": "strata-plateau",
+      "floor": 108
+    },
+    {
+      "id": "strata-terrace",
+      "floor": 26
+    }
+  ],
+  "meshes": 38,
+  "veins": 3,
+  "crystals": 27,
+  "veinSightlines": 15,
+  "waterSightlines": 199,
+  "rockSamples": 5,
+  "grass": 619,
+  "shrubs": 31,
+  "movementSamples": 18000,
+  "streamSamples": 1001,
+  "minStreamDepth": 3,
+  "maxDownstreamRise": 0,
+  "terraceHeights": [
+    108,
+    86,
+    62,
+    38
+  ],
+  "actualLayerController": true,
+  "actualNamedNavigation": true,
+  "inspectionCameraAspects": 3,
+  "browserVisualCheck": "deferred per user preference",
+  "limits": "CPU geometry, wall anchoring, terrace relief and local-water support; no GPU, geological dating, mineral identification, ore reserves, mining or erosion simulation"
+}

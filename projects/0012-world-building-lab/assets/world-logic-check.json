@@ -1,0 +1,42 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "actualEntries": 126,
+  "constructionEntries": 116,
+  "foundationEntries": 10,
+  "observations": 464,
+  "spatialZones": 9,
+  "zoneEntryCounts": [
+    17,
+    10,
+    9,
+    13,
+    34,
+    10,
+    8,
+    12,
+    13
+  ],
+  "formationProfiles": 19,
+  "sourceLinks": 15,
+  "causalChapters": 6,
+  "layoutGaps": 5,
+  "waterLines": 16,
+  "localWaterLines": 0,
+  "sceneObjectsInspected": 36,
+  "cameraViews": [
+    {
+      "width": 638,
+      "height": 871
+    },
+    {
+      "width": 1010,
+      "height": 871
+    },
+    {
+      "width": 1440,
+      "height": 900
+    }
+  ],
+  "limits": "Geographic navigation sectors, actual coordinates and sourced formation explanations; not climate zones, physical watershed delineation, whole-world asset relocation or a geological-process simulator; first highland-to-tropical terrain link is authored separately"
+}

@@ -1,0 +1,106 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "constructionStations": 106,
+  "constructionObservations": 424,
+  "oldObservationIdsPreserved": 136,
+  "stations": [
+    {
+      "name": "西坡资源林地",
+      "floor": 27.505733718348974,
+      "indoor": false
+    },
+    {
+      "name": "缓坡农田与田埂",
+      "floor": 35.12192163640188,
+      "indoor": false
+    },
+    {
+      "name": "河湾渔场与栈台",
+      "floor": 30.76646524526116,
+      "indoor": false
+    },
+    {
+      "name": "榆湾粮仓内部",
+      "floor": 27.737689886400446,
+      "indoor": true
+    },
+    {
+      "name": "村镇集市",
+      "floor": 27.304436912979856,
+      "indoor": false
+    },
+    {
+      "name": "加工与制作工坊",
+      "floor": 26.96515960488398,
+      "indoor": true
+    },
+    {
+      "name": "临街住宅与餐桌",
+      "floor": 27.183697552278176,
+      "indoor": true
+    }
+  ],
+  "meshes": 138,
+  "cropInstances": 360,
+  "guideMovementSamples": 18000,
+  "doorRoundTripSamples": 4000,
+  "minPierBedGap": 2.3752622166450372,
+  "flows": [
+    {
+      "kind": "grain",
+      "frames": 2200,
+      "remainingStore": 4,
+      "processedRaw": 4,
+      "householdUse": 4
+    },
+    {
+      "kind": "fish",
+      "frames": 2200,
+      "remainingStore": 4,
+      "processedRaw": 4,
+      "householdUse": 4
+    },
+    {
+      "kind": "wood",
+      "frames": 2200,
+      "remainingStore": 2,
+      "processedRaw": 4,
+      "householdUse": 2
+    }
+  ],
+  "durationSeconds": 55,
+  "maxSourceBankStep": 0.01512004920802617,
+  "quantityConservationEveryFrame": true,
+  "pauseResumeReplayAndReset": true,
+  "uiHandlersVerified": true,
+  "followControllerUsesActualGround": true,
+  "layers": [
+    {
+      "stage": 0,
+      "facilities": false,
+      "links": false,
+      "goods": false
+    },
+    {
+      "stage": 1,
+      "facilities": true,
+      "links": false,
+      "goods": false
+    },
+    {
+      "stage": 2,
+      "facilities": true,
+      "links": true,
+      "goods": false
+    },
+    {
+      "stage": 3,
+      "facilities": true,
+      "links": true,
+      "goods": true
+    }
+  ],
+  "browserVisualCheck": "deferred: user prefers in-app browser entry; no alternative browser automation",
+  "limits": "CPU geometry, movement, batch state, UI adapter and follow controller checks; no rendered-image/performance validation, long-term economy, resident jobs, prices, fishing ecology or crop growth simulation"
+}

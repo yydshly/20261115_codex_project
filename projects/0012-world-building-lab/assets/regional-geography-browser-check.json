@@ -1,0 +1,41 @@
+{
+  "revision": "196f2ccabd65",
+  "surface": "in-app browser",
+  "sections": [
+    {
+      "name": "青岚高山 → 鞍部 → 雪岭",
+      "selected": "true",
+      "description": "青岚峰群向西南降成山肩和鞍部，再抬升到雪岭。低坡有林木，高处过渡为矮草、碎石与雪岩。冰湖出水沿旧融水溪进入中央河源，继续流向海湾。"
+    },
+    {
+      "name": "北境海岸 → 冷坡 → 针阔混交林",
+      "selected": "true",
+      "description": "沿北部陆侧丘陵离开冰原，先经过冷坡的矮灌与疏林，再接入原针阔混交带。岩层和扇面两支水分别下行，绕过森林高台后汇入中央河。"
+    },
+    {
+      "name": "西部盐盆 → 高原分水坡 → 雨林河口",
+      "selected": "true",
+      "description": "盐盆低处有盐湖，周围较高的盆缘限制外泄。相邻高原水沿另一侧的下切溪谷进入雨林，淡水岸林再过渡到潮沟和红树林。"
+    },
+    {
+      "name": "干谷绿洲 → 砾石坡脚 → 风蚀地",
+      "selected": "true",
+      "description": "绿洲仍依赖原有泉池示意，离开水边后很快转成干地。连续的缓坡和砾地接到雅丹，沟槽与残丘保留原本的方向。"
+    },
+    {
+      "name": "东部山前 → 火山岩坡 → 岩岸与外海",
+      "selected": "true",
+      "description": "山脚支脊降到火山外围和沿海岩丘，陆面随岸坡落到海平面以下。外海沿大陆架、大陆坡走向深海，火山与海沟仍各用原有的形成示意。"
+    },
+    {
+      "name": "雨林林缘 → 迎风丘陵 → 草原与砾地",
+      "selected": "true",
+      "description": "西南海风迎着丘陵抬升，向东进入背风坡后水分逐步减少，乔灌混合转为疏林、草甸和砾地。北侧低地另受东南季风补充水汽，沿线能看到竹林和季风林。"
+    }
+  ],
+  "zoomButton": true,
+  "markersToggle": true,
+  "worldOverviewReturn": true,
+  "originalInventoryEntries": 126,
+  "console": []
+}

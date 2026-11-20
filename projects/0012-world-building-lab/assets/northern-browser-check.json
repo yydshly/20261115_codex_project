@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-18",
+  "pause": [
+    "\t\t\t\t423 text 巡河教学镜头 · 距地 29.7 m · 非步行",
+    "\t\t\t396 button 开始 / 继续导览 ▷, ID: connection-play",
+    "\t\t\t429 text 已暂停 · 18米扇尾与出流口",
+    "\t\t\t400 progress indicator Value: 0.20306801795959473, ID: connection-progress",
+    "The focused UI element is 396 button 开始 / 继续导览 ▷, ID: connection-play"
+  ],
+  "held": [
+    "\t\t\t\t427 text 巡河教学镜头 · 距地 29.7 m · 非步行",
+    "\t\t\t396 button 开始 / 继续导览 ▷, ID: connection-play",
+    "\t\t\t432 text 已暂停 · 18米扇尾与出流口",
+    "\t\t\t400 progress indicator Value: 0.20306801795959473, ID: connection-progress",
+    "The focused UI element is 396 button 开始 / 继续导览 ▷, ID: connection-play"
+  ],
+  "resumed": [
+    "\t\t\t\t427 text 巡河教学镜头 · 距地 29.7 m · 非步行",
+    "\t\t\t396 button 暂停导览 Ⅱ, ID: connection-play",
+    "\t\t\t432 text 导览中 · 18米扇尾与出流口",
+    "\t\t\t400 progress indicator Value: 0.20306801795959473, ID: connection-progress",
+    "The focused UI element is 396 button 暂停导览 Ⅱ, ID: connection-play"
+  ],
+  "afterResume": [
+    "\t\t\t\t427 text 巡河教学镜头 · 距地 29.7 m · 非步行",
+    "\t\t\t396 button 暂停导览 Ⅱ, ID: connection-play",
+    "\t\t\t433 text 导览中 · 原湿地与分汊",
+    "\t\t\t400 progress indicator Value: 0.834497332572937, ID: connection-progress",
+    "The focused UI element is 396 button 暂停导览 Ⅱ, ID: connection-play"
+  ],
+  "legacyRoute": [
+    "~\t\t\t\t385 heading 高原到海口, Value: 2, ID: connection-name",
+    "~\t\t\t\t390 pop up button (collapsed, settable) 选择连接主线, Value: 高原塘群 → 雨林海口（地面）, ID: connection-route, Secondary Actions: Expand",
+    "+\t\t\t426 text 已暂停 · 高原塘群出水",
+    "+\t\t\t\t427 checkbox 高原塘群出水, Value: 1"
+  ],
+  "endpoint": [
+    "+\t\t\t\t443 text 巡河教学镜头 · 距地 44.8 m · 非步行",
+    "+\t\t\t446 text 已到终点 · 原河口与海湾",
+    "~\t\t\t400 progress indicator Value: 1, ID: connection-progress"
+  ],
+  "returnToGround": [
+    "\t\t\t86 text X -1635.7 m · Z -389.9 m · 眼高 1.72 m",
+    "\t\t87 container 大地图主线讲解",
+    "\t\t\t\t92 heading 归水海湾, Value: 1, ID: large-title",
+    "\t\t\t107 button 北部水网, ID: north-controls",
+    "\t\t\t108 button (collapsed) 高原到海口, ID: connection-controls, Secondary Actions: Expand"
+  ],
+  "result": "passed selected flows",
+  "revision": "eb2fe23af90d",
+  "pauseResumeRevision": "f1fe247d72f9 (same UI/controller; final change only makes bank terrain independent of reference water level)",
+  "finalConsole": [],
+  "observationCounter": "38/464 preserved",
+  "finalChecks": [
+    "Final northern fan source and 8m confluence displayed",
+    "Same-view terrain/full-space layer comparison",
+    "Original highland ground tour selected with 8 checkpoints",
+    "Northern strata tour selected with 10 checkpoints",
+    "Bridge checkpoint and bay endpoint reached; progress 1",
+    "Closing northern survey returned to original main-world ground station",
+    "Final overview framed northern tributaries beside panel"
+  ],
+  "images": [
+    "northern-confluence.jpg",
+    "northern-terrain.jpg",
+    "northern-bank-bridge.jpg",
+    "northern-overview.jpg"
+  ],
+  "limits": "Selected built-in desktop-browser scenes and interactions. No full 116-stop browser tour, continuous full northern-tour acceptance, mobile-device or GPU performance benchmark. Core geometry and all tours separately CPU checked."
+}

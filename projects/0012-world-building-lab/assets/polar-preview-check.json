@@ -1,0 +1,144 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "978a31627e2f",
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7279
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 7279
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 16566
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 69847
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 20674
+    },
+    {
+      "path": "polar-layout.js",
+      "status": 200,
+      "bytes": 4852
+    },
+    {
+      "path": "polar-learning.js",
+      "status": 200,
+      "bytes": 4345
+    },
+    {
+      "path": "polar-scene.js",
+      "status": 200,
+      "bytes": 7878
+    },
+    {
+      "path": "transport-layout.js",
+      "status": 200,
+      "bytes": 4151
+    },
+    {
+      "path": "transport-learning.js",
+      "status": 200,
+      "bytes": 4482
+    },
+    {
+      "path": "transport-flow.js",
+      "status": 200,
+      "bytes": 4728
+    },
+    {
+      "path": "transport-scene.js",
+      "status": 200,
+      "bytes": 9229
+    },
+    {
+      "path": "transport-ui.js",
+      "status": 200,
+      "bytes": 2911
+    },
+    {
+      "path": "production-layout.js",
+      "status": 200,
+      "bytes": 4542
+    },
+    {
+      "path": "production-learning.js",
+      "status": 200,
+      "bytes": 5140
+    },
+    {
+      "path": "production-flow.js",
+      "status": 200,
+      "bytes": 3860
+    },
+    {
+      "path": "production-scene.js",
+      "status": 200,
+      "bytes": 8878
+    },
+    {
+      "path": "production-ui.js",
+      "status": 200,
+      "bytes": 2707
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 16396
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 11531
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "bytes": 17810
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 24070
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "bytes": 13129
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "bytes": 12280
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 13577
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6564
+    }
+  ],
+  "syntaxModules": 58,
+  "uniqueMapIds": 114,
+  "controllerUiReferences": 94,
+  "overviewCameraAspectCases": 3,
+  "browserVisualValidation": "deferred per user preference",
+  "entry": "http://127.0.0.1:52932/expedition.html?v=978a31627e2f#polar-1",
+  "auroraEntry": "http://127.0.0.1:52932/expedition.html?v=978a31627e2f&aurora=1#polar-5"
+}

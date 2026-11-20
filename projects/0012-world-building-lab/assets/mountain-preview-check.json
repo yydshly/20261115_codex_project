@@ -1,0 +1,79 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "resources": [
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 12524
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 7252
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7252
+    },
+    {
+      "path": "mountain-layout.js",
+      "status": 200,
+      "bytes": 5082
+    },
+    {
+      "path": "mountain-learning.js",
+      "status": 200,
+      "bytes": 4825
+    },
+    {
+      "path": "mountain-scene.js",
+      "status": 200,
+      "bytes": 5259
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 14239
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 10986
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 16857
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 56404
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 17747
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 11290
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6509
+    },
+    {
+      "path": "world-progress.css",
+      "status": 200,
+      "bytes": 10349
+    }
+  ],
+  "browserVisualValidation": false,
+  "entry": "http://127.0.0.1:52932/expedition.html?v=696a6152894b#mountain-1",
+  "visualValidation": "deferred by user"
+}

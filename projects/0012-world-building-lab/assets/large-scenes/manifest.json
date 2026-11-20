@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-16",
+  "source": "http://127.0.0.1:52932/",
+  "description": "Actual ground-level views after terrain sight-line correction; all scenes share the same large 3D world.",
+  "scenes": [
+    {
+      "index": 1,
+      "id": "coast",
+      "file": "01-coast.jpg",
+      "chapter": "01 / 海岸 · 潮汐港",
+      "position": "X -1120.8 m · Z 658.1 m · 眼高 1.72 m",
+      "status": "已进入 潮汐港 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 2,
+      "id": "hills",
+      "file": "02-hills.jpg",
+      "chapter": "02 / 丘陵 · 风车原野",
+      "position": "X -463.2 m · Z 557.2 m · 眼高 1.72 m",
+      "status": "已进入 风车原野 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 3,
+      "id": "valley",
+      "file": "03-valley.jpg",
+      "chapter": "03 / 山谷 · 双岸溪谷",
+      "position": "X -562.5 m · Z -47.7 m · 眼高 1.72 m",
+      "status": "已进入 双岸溪谷 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 4,
+      "id": "wetland",
+      "file": "04-wetland.jpg",
+      "chapter": "04 / 湿地 · 苇泽栈道",
+      "position": "X -1092.3 m · Z -370.4 m · 眼高 1.72 m",
+      "status": "已进入 苇泽栈道 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 5,
+      "id": "canyon",
+      "file": "05-canyon.jpg",
+      "chapter": "05 / 峡谷 · 赤壁关隘",
+      "position": "X -358.9 m · Z -876.4 m · 眼高 1.72 m",
+      "status": "已进入 赤壁关隘 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 6,
+      "id": "mesa",
+      "file": "06-mesa.jpg",
+      "chapter": "06 / 台地 · 风蚀高台",
+      "position": "X 373.2 m · Z -780.6 m · 眼高 1.72 m",
+      "status": "已进入 风蚀高台 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 7,
+      "id": "dunes",
+      "file": "07-dunes.jpg",
+      "chapter": "07 / 沙丘 · 流沙驿站",
+      "position": "X 1104.0 m · Z -380.9 m · 眼高 1.72 m",
+      "status": "已进入 流沙驿站 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 8,
+      "id": "volcano",
+      "file": "08-volcano.jpg",
+      "chapter": "08 / 火山 · 黑曜火口",
+      "position": "X 1008.0 m · Z 172.0 m · 眼高 1.72 m",
+      "status": "已进入 黑曜火口 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 9,
+      "id": "alpine",
+      "file": "09-alpine.jpg",
+      "chapter": "09 / 高山 · 云脊雪岭",
+      "position": "X 134.2 m · Z 12.3 m · 眼高 1.72 m",
+      "status": "已进入 云脊雪岭 · 拖动看四周，WASD移动"
+    },
+    {
+      "index": 10,
+      "id": "island",
+      "file": "10-island.jpg",
+      "chapter": "10 / 海岛 · 归航灯塔",
+      "position": "X 760.2 m · Z 1097.8 m · 眼高 1.72 m",
+      "status": "已进入 归航灯塔 · 拖动看四周，WASD移动"
+    }
+  ]
+}

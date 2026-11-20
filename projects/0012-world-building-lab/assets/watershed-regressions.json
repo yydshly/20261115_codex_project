@@ -1,0 +1,59 @@
+{
+  "date": "2026-11-17",
+  "checks": [
+    {
+      "check": "watershed-link",
+      "exitCode": 0
+    },
+    {
+      "check": "upland",
+      "exitCode": 0
+    },
+    {
+      "check": "tropical",
+      "exitCode": 0
+    },
+    {
+      "check": "world-logic",
+      "exitCode": 0
+    },
+    {
+      "check": "progress",
+      "exitCode": 0
+    },
+    {
+      "check": "large-world",
+      "exitCode": 0
+    },
+    {
+      "check": "inland",
+      "exitCode": 0
+    }
+  ],
+  "limits": "Focused final CPU regressions; existing systems have additional passing checks from this session, browser verification is separate",
+  "finalPoolColorFixChecks": [
+    {
+      "check": "watershed-link",
+      "exitCode": 0
+    },
+    {
+      "check": "tropical",
+      "exitCode": 0
+    }
+  ],
+  "otherPassingChecksThisSession": [
+    "water-system",
+    "map-startup",
+    "mountain",
+    "production",
+    "transport",
+    "forest",
+    "glacial",
+    "marine",
+    "settlement",
+    "warm",
+    "weather"
+  ],
+  "finalRevision": "2cc37ea27a1f",
+  "finalAllWaterPlantAndCameraCheck": "passed; see watershed-link-check.json"
+}

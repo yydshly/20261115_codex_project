@@ -1,0 +1,136 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "checks": [
+    {
+      "name": "boreal",
+      "passed": true
+    },
+    {
+      "name": "upland",
+      "passed": true
+    },
+    {
+      "name": "yardang",
+      "passed": true
+    },
+    {
+      "name": "volcanic",
+      "passed": true
+    },
+    {
+      "name": "fan",
+      "passed": true
+    },
+    {
+      "name": "strata",
+      "passed": true
+    },
+    {
+      "name": "salt",
+      "passed": true
+    },
+    {
+      "name": "karst",
+      "passed": true
+    },
+    {
+      "name": "cave",
+      "passed": true
+    },
+    {
+      "name": "geology",
+      "passed": true
+    },
+    {
+      "name": "sky",
+      "passed": true
+    },
+    {
+      "name": "dryland",
+      "passed": true
+    },
+    {
+      "name": "tropical",
+      "passed": true
+    },
+    {
+      "name": "ocean",
+      "passed": true
+    },
+    {
+      "name": "polar",
+      "passed": true
+    },
+    {
+      "name": "inland",
+      "passed": true
+    },
+    {
+      "name": "forest",
+      "passed": true
+    },
+    {
+      "name": "glacial",
+      "passed": true
+    },
+    {
+      "name": "marine",
+      "passed": true
+    },
+    {
+      "name": "mountain",
+      "passed": true
+    },
+    {
+      "name": "production",
+      "passed": true
+    },
+    {
+      "name": "transport",
+      "passed": true
+    },
+    {
+      "name": "settlement",
+      "passed": true
+    },
+    {
+      "name": "weather",
+      "passed": true
+    },
+    {
+      "name": "large-world",
+      "passed": true
+    },
+    {
+      "name": "water-system",
+      "passed": true
+    },
+    {
+      "name": "learning",
+      "passed": true
+    },
+    {
+      "name": "vegetation",
+      "passed": true
+    },
+    {
+      "name": "world",
+      "passed": true
+    }
+  ],
+  "newSceneReport": "warm-check.json",
+  "startupReport": "map-startup-check.json",
+  "progressReport": "progress-check.json",
+  "httpReport": "warm-preview-check.json",
+  "sourceModulesSyntaxChecked": 101,
+  "uniqueMapElementIds": 149,
+  "directControllerIdReferences": 104,
+  "previousSourceRouteComparison": {
+    "previousStations": 110,
+    "samples": 10901,
+    "maxDeltaMetres": 1.5890516486545542e-10,
+    "basis": "Prior authored core modules retained in source checkpoints; intermediate comparison also checked against actual previous 7c6788b7dd01 build before rebuilding"
+  },
+  "scope": "CPU regressions and HTTP delivery; browser scene views checked separately"
+}

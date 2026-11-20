@@ -1,0 +1,188 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "10da724e135b",
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 7466
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 7466
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 17398
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 79591
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 21574
+    },
+    {
+      "path": "polar-layout.js",
+      "status": 200,
+      "bytes": 4852
+    },
+    {
+      "path": "polar-learning.js",
+      "status": 200,
+      "bytes": 4390
+    },
+    {
+      "path": "polar-scene.js",
+      "status": 200,
+      "bytes": 7878
+    },
+    {
+      "path": "transport-layout.js",
+      "status": 200,
+      "bytes": 4151
+    },
+    {
+      "path": "transport-learning.js",
+      "status": 200,
+      "bytes": 4482
+    },
+    {
+      "path": "transport-flow.js",
+      "status": 200,
+      "bytes": 4728
+    },
+    {
+      "path": "transport-scene.js",
+      "status": 200,
+      "bytes": 9229
+    },
+    {
+      "path": "transport-ui.js",
+      "status": 200,
+      "bytes": 2911
+    },
+    {
+      "path": "production-layout.js",
+      "status": 200,
+      "bytes": 4542
+    },
+    {
+      "path": "production-learning.js",
+      "status": 200,
+      "bytes": 5140
+    },
+    {
+      "path": "production-flow.js",
+      "status": 200,
+      "bytes": 3860
+    },
+    {
+      "path": "production-scene.js",
+      "status": 200,
+      "bytes": 8878
+    },
+    {
+      "path": "production-ui.js",
+      "status": 200,
+      "bytes": 2707
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 18150
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 12057
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "bytes": 18210
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 30787
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "bytes": 13399
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "bytes": 12658
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 15285
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6597
+    },
+    {
+      "path": "ocean-layout.js",
+      "status": 200,
+      "bytes": 2388
+    },
+    {
+      "path": "ocean-learning.js",
+      "status": 200,
+      "bytes": 4814
+    },
+    {
+      "path": "ocean-scene.js",
+      "status": 200,
+      "bytes": 4360
+    },
+    {
+      "path": "tropical-layout.js",
+      "status": 200,
+      "bytes": 4456
+    },
+    {
+      "path": "tropical-learning.js",
+      "status": 200,
+      "bytes": 5176
+    },
+    {
+      "path": "tropical-scene.js",
+      "status": 200,
+      "bytes": 7189
+    },
+    {
+      "path": "dryland-layout.js",
+      "status": 200,
+      "bytes": 3261
+    },
+    {
+      "path": "dryland-learning.js",
+      "status": 200,
+      "bytes": 4177
+    },
+    {
+      "path": "dryland-scene.js",
+      "status": 200,
+      "bytes": 3884
+    }
+  ],
+  "localModuleImports": 263,
+  "sourceModulesSyntaxChecked": 67,
+  "uniqueMapElementIds": 121,
+  "controllerAndUiReferences": 117,
+  "browserVisualCheck": "deferred per user preference; in-app entry only",
+  "limits": "HTTP byte comparisons and module graph only; not GPU rendering or browser interaction"
+}

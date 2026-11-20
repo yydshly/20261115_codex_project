@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-17",
+  "browser": "Codex in-app browser",
+  "result": "passed for the listed desktop interactions",
+  "finalState": {
+    "chapter": "24 / 道路 · 河畔村路",
+    "notes": "16/108",
+    "position": "X -495.0 m · Z 410.0 m · 眼高 1.72 m",
+    "stations": 27,
+    "module": "expedition.js?v=1e52cf6c799a"
+  },
+  "checks": [
+    "Actual building facade, town street, furnished interior and cutaway rendered",
+    "Keyboard W/S crossed workshop door in both directions",
+    "Cutaway toggled off and returned to the interior",
+    "Night preset showed warm interior lighting",
+    "Four added stations completed an actual 2x automatic tour",
+    "Observed progress 0/108 to 16/108 after those 16 observations",
+    "Reload retained 16/108 and loaded the final versioned module",
+    "Returned the preview to village-road station 24"
+  ],
+  "consoleErrorsOrWarnings": [],
+  "screenshots": [
+    "settlement-road.jpg",
+    "settlement-street.jpg",
+    "settlement-cutaway.jpg",
+    "settlement-interior-night.jpg"
+  ],
+  "notVerified": [
+    "Native mobile viewport or real-device performance",
+    "Full 27-stop browser tour",
+    "All weather/season shader branches",
+    "Actual notebook file download",
+    "Resident simulation, economy or quests"
+  ]
+}

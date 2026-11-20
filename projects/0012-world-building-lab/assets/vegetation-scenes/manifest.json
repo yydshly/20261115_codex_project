@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-16",
+  "source": "actual in-app browser captures",
+  "viewport": [
+    1440,
+    900
+  ],
+  "scenes": [
+    {
+      "file": "01-source.jpg",
+      "name": "融雪源头"
+    },
+    {
+      "file": "02-stream.jpg",
+      "name": "跌水溪流"
+    },
+    {
+      "file": "03-river.jpg",
+      "name": "河谷主河"
+    },
+    {
+      "file": "04-marsh.jpg",
+      "name": "苇泽湿地"
+    },
+    {
+      "file": "05-estuary.jpg",
+      "name": "分汊河口"
+    },
+    {
+      "file": "06-bay.jpg",
+      "name": "归水海湾"
+    }
+  ]
+}

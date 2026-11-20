@@ -1,0 +1,39 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "browser": "ChatGPT built-in browser",
+  "revision": "7c6788b7dd01",
+  "entry": "http://127.0.0.1:52932/expedition.html?v=7c6788b7dd01#boreal-2",
+  "startupErrorVisible": false,
+  "stationControls": 110,
+  "scenesObserved": [
+    "针叶林与分层尖冠",
+    "针阔混交与交叠林冠",
+    "白桦疏林与透光空隙",
+    "倒木、苔藓与更新空地"
+  ],
+  "layerButtonsExercised": [
+    0,
+    3
+  ],
+  "screenshots": [
+    {
+      "path": "boreal-conifer.jpg",
+      "revision": "e83552155b8b",
+      "note": "earlier same-geometry build; legend subsequently moved to avoid minimap overlap"
+    },
+    {
+      "path": "boreal-mixed.jpg",
+      "revision": "7c6788b7dd01"
+    },
+    {
+      "path": "boreal-birch.jpg",
+      "revision": "7c6788b7dd01"
+    },
+    {
+      "path": "boreal-deadwood.jpg",
+      "revision": "7c6788b7dd01"
+    }
+  ],
+  "limits": "Selected four scene views and two layer transitions, not a full 110-stop journey, all weather cases or GPU/performance acceptance"
+}

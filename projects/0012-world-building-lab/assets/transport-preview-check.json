@@ -1,0 +1,129 @@
+{
+  "result": "passed",
+  "date": "2026-11-17",
+  "revision": "ed96b9702fc5",
+  "resources": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 8353
+    },
+    {
+      "path": "journey.html",
+      "status": 200,
+      "bytes": 8353
+    },
+    {
+      "path": "expedition.html",
+      "status": 200,
+      "bytes": 16123
+    },
+    {
+      "path": "expedition.js",
+      "status": 200,
+      "bytes": 66867
+    },
+    {
+      "path": "expedition.css",
+      "status": 200,
+      "bytes": 20674
+    },
+    {
+      "path": "transport-layout.js",
+      "status": 200,
+      "bytes": 4151
+    },
+    {
+      "path": "transport-learning.js",
+      "status": 200,
+      "bytes": 4482
+    },
+    {
+      "path": "transport-flow.js",
+      "status": 200,
+      "bytes": 4728
+    },
+    {
+      "path": "transport-scene.js",
+      "status": 200,
+      "bytes": 9229
+    },
+    {
+      "path": "transport-ui.js",
+      "status": 200,
+      "bytes": 2911
+    },
+    {
+      "path": "production-layout.js",
+      "status": 200,
+      "bytes": 4542
+    },
+    {
+      "path": "production-learning.js",
+      "status": 200,
+      "bytes": 5140
+    },
+    {
+      "path": "production-flow.js",
+      "status": 200,
+      "bytes": 3860
+    },
+    {
+      "path": "production-scene.js",
+      "status": 200,
+      "bytes": 8878
+    },
+    {
+      "path": "production-ui.js",
+      "status": 200,
+      "bytes": 2707
+    },
+    {
+      "path": "construction-learning.js",
+      "status": 200,
+      "bytes": 15798
+    },
+    {
+      "path": "large-world.js",
+      "status": 200,
+      "bytes": 11283
+    },
+    {
+      "path": "large-scene.js",
+      "status": 200,
+      "bytes": 17685
+    },
+    {
+      "path": "large-map.js",
+      "status": 200,
+      "bytes": 21473
+    },
+    {
+      "path": "vegetation-rules.js",
+      "status": 200,
+      "bytes": 12694
+    },
+    {
+      "path": "water-system.js",
+      "status": 200,
+      "bytes": 12164
+    },
+    {
+      "path": "world-progress-data.js",
+      "status": 200,
+      "bytes": 12069
+    },
+    {
+      "path": "world-progress.js",
+      "status": 200,
+      "bytes": 6540
+    }
+  ],
+  "syntaxModules": 55,
+  "uniqueMapIds": 111,
+  "controllerUiReferences": 91,
+  "overviewCameraAspectCases": 3,
+  "browserVisualValidation": "deferred per user preference",
+  "entry": "http://127.0.0.1:52932/expedition.html?v=ed96b9702fc5#transit-1",
+  "demoEntry": "http://127.0.0.1:52932/expedition.html?v=ed96b9702fc5&transport=1#transit-3"
+}

@@ -1,0 +1,35 @@
+{
+  "provider": "minimax",
+  "model": "speech-2.8-hd",
+  "voice": "audiobook_male_1",
+  "clips": {
+    "ridge": {
+      "file": "ridge-292d6817c45d.mp3",
+      "transcript": "a5b1dcae041c7513293d2d8cc97d9e825cd4411495d2580d82489e58b843686e"
+    },
+    "ice-lake": {
+      "file": "ice-lake-68bd8030920f.mp3",
+      "transcript": "1486ed1637e0aa2420b3737e1a471f10835b6b1bfa8dcb805af9de6981231c96"
+    },
+    "source-pool": {
+      "file": "source-pool-630fefa99c02.mp3",
+      "transcript": "4a715fbd940197049e3fad0a90d6c95ac604d0fa4729f243d4d3c6b841c45cec"
+    },
+    "river-valley": {
+      "file": "river-valley-2e06fe805053.mp3",
+      "transcript": "a0a18cbe9e25c57095b4fb7637492cbf59a57e430503a495b0de8152cb94b01c"
+    },
+    "wetland": {
+      "file": "wetland-088b086240ef.mp3",
+      "transcript": "a234cec44666f262b451bd86e3212f0702dcac2975e97fbf98929d9da595ff15"
+    },
+    "estuary": {
+      "file": "estuary-6af8db4226b6.mp3",
+      "transcript": "b30c60a2f38963742d6f7b3168fc15c9a79ab1c96caa2db441a905e63a0766ae"
+    },
+    "bay": {
+      "file": "bay-e52ea9af42f6.mp3",
+      "transcript": "e7933a3e21b1961b1418a271f1e20914c69bc7f3acd28ea8f11b6d03a5160ba8"
+    }
+  }
+}

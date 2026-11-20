@@ -11,6 +11,7 @@ on:
       - 'projects/0008-pelican-layout-study/**'
       - 'projects/0009-ai-source-field-guide/**'
       - 'projects/0011-everyday-wonders/**'
+      - 'projects/0012-world-building-lab/**'
       - 'projects/0019-shanhe-co-creation/**'
       - 'projects/0021-avatar-video-workflow/**'
       - 'projects/0020-human-nature-film-study/**'
@@ -46,7 +47,9 @@ jobs:
         with:
           node-version: '22'
           cache: npm
-          cache-dependency-path: projects/0001-animation-skills-atlas/web/package-lock.json
+          cache-dependency-path: |
+            projects/0001-animation-skills-atlas/web/package-lock.json
+            projects/0012-world-building-lab/web/package-lock.json
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -56,6 +59,9 @@ jobs:
         run: npm ci --no-audit --no-fund
       - name: Install locked valley frontend dependency
         working-directory: projects/0002-valley-garden/web
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Install locked world foundation frontend dependency
+        working-directory: projects/0012-world-building-lab/web
         run: npm ci --ignore-scripts --no-audit --no-fund
       - name: Validate registry and build complete site
         run: |

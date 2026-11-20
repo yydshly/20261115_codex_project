@@ -1,0 +1,42 @@
+{
+  "revision": "c5c223c3efdc",
+  "inApp": true,
+  "stageComparisons": {
+    "head": {
+      "low": "1 月 · 坡面冲刷 0 m³",
+      "high": "7 月 · 坡面冲刷 5.39 m³"
+    },
+    "fan": {
+      "low": "1 月 · 扇面砂砾 0 m³",
+      "high": "7 月 · 扇面砂砾 1.02 m³"
+    },
+    "north": {
+      "low": "1 月 · 向下游搬运 0.33 m³",
+      "high": "7 月 · 向下游搬运 70.19 m³"
+    },
+    "flood": {
+      "low": "1 月 · 滩面细泥 0 m³",
+      "high": "7 月 · 滩面细泥 67.25 m³"
+    },
+    "mouth": {
+      "low": "1 月 · 河口沙洲砂砾 0.53 m³",
+      "high": "7 月 · 河口沙洲砂砾 1.65 m³"
+    }
+  },
+  "headComparisonRevision": "f5193eebde5f",
+  "cumulativeMud": "截至 12 月 · 累计滩面细泥 147.79 m³",
+  "baseNote": "显示已有地貌和所选月份的水面，可与泥沙图层直接对照。",
+  "monthHandoff": {
+    "back": "12 月",
+    "forward": "5 月 · 滩面细泥 12.14 m³"
+  },
+  "playback": {
+    "playing": "暂停播放",
+    "paused": "播放全年"
+  },
+  "original": "山口与放射状冲积扇",
+  "originalWater": "常水参考：局部水段40m至18m",
+  "stationJump": "1 月 · 扇面砂砾 0 m³",
+  "ledger": "坡面冲刷\n256.53 m³\n留在流域与河口\n252.01 m³\n输向海湾外\n4.52 m³\n闭合差额\n0 m³",
+  "logs": []
+}
