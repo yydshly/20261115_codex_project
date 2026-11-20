@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **16** 个项目。
+已收录 **17** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -26,6 +26,7 @@
 | 14 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/) |
 | 15 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/) |
 | 16 | `0034` | [OpenStreetMap 与蛇口城市原型](projects/0034-openstreetmap-shekou/README.md) | 研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。 | 已验证 | [参考来源](https://www.openstreetmap.org/about) |
+| 17 | `0033` | [薄云下的漓江河湾](projects/0033-lijiang-river-bend/README.md) | 从「薄云下的漓江河湾」的写实提示出发，以纯代码生成可步行、开船和快飞的喀斯特河谷，在约 4 分半的连续航程里体验浅水、岩棚、倒影、环境声和远山雾，并图解三种技术的分工与复用价值。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) |
 
 ## 项目图览
 
@@ -304,6 +305,22 @@
 项目原创理解图，左为含 OpenStreetMap 数据的蛇口项目底图，中为实际驾驶截图，右为实景和玩法的条件。保留 2160 × 1430 PNG 原图。
 
 [进入研究](projects/0034-openstreetmap-shekou/README.md) · [参考来源](https://www.openstreetmap.org/about)
+
+### 0033 · 薄云下的漓江河湾
+
+从「薄云下的漓江河湾」的写实提示出发，以纯代码生成可步行、开船和快飞的喀斯特河谷，在约 4 分半的连续航程里体验浅水、岩棚、倒影、环境声和远山雾，并图解三种技术的分工与复用价值。
+
+提示词要求薄云下的漓江、写实山体、浅水卵石与水面倒影，以纯代码串起登船、接管木船、靠泊和快飞回望。
+
+实测包括贴岸岩棚和树根、连续尾流、快船与飞机的两种视角、随载具状态变化的环境声，以及高空远山渐入天色。
+
+Three.js 组织场景和相机，GLSL 计算动态材质、反射与大气，程序化 3DGS 叠加局部薄雾与叶缘。共享地形和固定机位重放可复用于自然场景、互动展览与图形教学。
+
+[![漓江河湾技术导览图，展示 Three.js 船机跟随镜头、GLSL 浅水与倒影、3DGS 局部雾开关对照和同帧合成流程](projects/0033-lijiang-river-bend/assets/rendering-guide.png)](projects/0033-lijiang-river-bend/assets/rendering-guide.png)
+
+本次生成的 1720 × 1872 导览图原件，标注 Demo 实际截图与同机位高斯开关对照，点击打开原图。
+
+[进入研究](projects/0033-lijiang-river-bend/README.md) · [原仓库](https://github.com/yydshly/20261115_codex_project)
 
 <!-- PROJECTS:END -->
 

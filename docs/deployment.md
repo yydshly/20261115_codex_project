@@ -123,3 +123,10 @@ CI 额外按锁文件安装该项目的 Three.js。`scripts/build.py` 先按 `pu
 0031-creative-tools-hub按用户本轮明确授权加入统一Pages白名单，入口demos/0031-creative-tools-hub/。摘要说明15项的分工、选型与可复用方法价值；总导航和项目首页引用本轮3200×10440完整PNG原件，SHA-256为e41c8fdbdf549304220d70487aa102d532c85ca87bc9f52538c721a221ae7c7f，构建不重绘。
 
 标准库静态导出包含15项效果、五条任务路线、筛选与三库对照、15份阶段资料；三段本站试制视频经Release包和逐文件SHA-256恢复。发布检查核对原图、相对路径、资料覆盖、隐私字段、媒体哈希与40MiB预算。其他未发布研究、会话缓存、原作者完整影片与依赖不随本轮提交。实际部署、PR和公网核验见项目publication.md，确认公开可访问后回填demo_url。
+
+
+## 漓江河湾 Demo 公开发布
+
+0033-lijiang-river-bend 进入统一 Pages 发布。项目首页包含实际提示词、技术分工、实测效果和复用价值。可玩场景位于同目录的 `play/`，浏览器需要 WebGL 2。项目页与总导航使用 1720 × 1872 导览图原件。
+
+标准库脚本 `projects/0033-lijiang-river-bend/scripts/build.py` 将既有 Demo、项目页、指定截图及固定版本 Three.js 和许可证打包到 `dist/`，统一构建再复制到 `_site/demos/0033-lijiang-river-bend/`。实际发布记录和回归检查见该项目的 `publication.md`。

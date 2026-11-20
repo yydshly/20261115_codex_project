@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eef1eb">
+  <meta name="description" content="可在浏览器漫游的漓江式河湾。以 Three.js、GLSL 与程序化三维高斯泼溅呈现喀斯特峰林、浅水卵石、山影与贴水薄雾，串起从岸上登船到空中回望的完整航程。">
+  <title>薄云下的漓江河湾 · 交互演示与制作记录</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">跳到正文</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="home" href="../../">研究总览</a>
+      <nav aria-label="本页导航">
+        <a href="#effects">演示效果</a>
+        <a href="#prompts">创作提示词</a>
+        <a href="#guide">技术导览</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="shell">
+    <section class="intro" aria-labelledby="title">
+      <div class="intro-copy">
+        <h1 id="title">薄云下的<br>漓江河湾</h1>
+        <p class="lede">从浅滩码头登船，沿岩壁穿过河弯，在宽湾上岸后从空中回望刚走过的河段。山体、卵石、倒影、薄雾与环境声均由代码生成。</p>
+        <div class="intro-actions">
+          <a class="button" href="./play/">进入浏览器漫游 <span aria-hidden="true">↗</span></a>
+          <a class="quiet-link" href="#guide">看实现导览</a>
+        </div>
+        <p class="requirement">支持键盘和触屏 · 需要 WebGL 2 · 完整航程约 4 分半</p>
+      </div>
+      <figure class="intro-image">
+        <img src="./assets/fast-flight-horizon.png" alt="第三人称跟拍飞机，近处石灰岩峰林背后是逐层隐入薄雾的山脊" width="1280" height="720" fetchpriority="high">
+        <figcaption>快飞浏览器截图 · 远山与薄云在视线尽头渐融</figcaption>
+      </figure>
+    </section>
+
+    <section id="effects" class="section" aria-labelledby="effect-title">
+      <div class="section-heading">
+        <h2 id="effect-title">同一条河，三种观察位置</h2>
+        <p>完整航程串起浅滩、岩壁和宽湾。中途可以接管原来的木船，也可以直接选快船或快飞。</p>
+      </div>
+      <div class="scene-grid">
+        <figure class="scene-card">
+          <img src="./assets/daylight-shallows.png" alt="从木船船头看浅滩，浅水透出卵石，近处水面倒映岸上的山和树" width="1280" height="800" loading="lazy">
+          <figcaption>
+            <h3>贴水过浅滩</h3>
+            <p>水色随深度变化，近岸还能看见水下砾石。山体与树冠的倒影随波纹扰动。</p>
+          </figcaption>
+        </figure>
+        <figure class="scene-card">
+          <img src="./assets/rockbank-ledges.png" alt="木船贴岸经过片状的石灰岩岩棚，岩壁在水面形成倒影" width="1280" height="800" loading="lazy">
+          <figcaption>
+            <h3>贴岸看岩壁</h3>
+            <p>岩棚由真实网格形成，斜向裂槽、碎石和树根在近岸有视差。湿润水线沿同一岸脚高程过渡。</p>
+          </figcaption>
+        </figure>
+        <figure class="scene-card">
+          <img src="./assets/boat-follow.png" alt="第三人称跟随行驶中的船只，水面留下连续尾流" width="1120" height="700" loading="lazy">
+          <figcaption>
+            <h3>掌舵再回望</h3>
+            <p>船身、驾驶员与尾流连续。靠岸后进入飞行巡航，空中仍能用同一河弯和岩岸辨认来路。</p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="route">
+        <h3>从哪里开始看</h3>
+        <ul>
+          <li><kbd>4</kbd> 开始完整航程，在浅滩留意卵石和山影。</li>
+          <li><kbd>A</kbd> 在游览中接管木船，<kbd>1</kbd> 在航线附近恢复游览。</li>
+          <li><kbd>3</kbd> 进入快飞，再按 <kbd>E</kbd> 爬升。<kbd>C</kbd> 切换视角，<kbd>M</kbd> 打开环境声。</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="prompts" class="section" aria-labelledby="prompt-title">
+      <div class="section-heading">
+        <h2 id="prompt-title">提示词怎样变成验收目标</h2>
+        <p>每轮把目标缩到能实际体验或同机位复查的结果。</p>
+      </div>
+      <div class="prompt-list">
+        <article>
+          <h3>场景、技术与写实目标</h3>
+          <blockquote>就按薄云下的漓江河湾做一个能在浏览器里漫游的 Demo 吧，用 Three.js + GLSL + 3DGS 纯代码生成，重点把山体、浅水卵石和水面倒影做得像实拍。</blockquote>
+          <p>先让峰林、河床和水面共享同一地形，再从船上观察近处卵石、远处山影以及视角改变时的反射。</p>
+        </article>
+        <article>
+          <h3>连贯的岸、水、空体验</h3>
+          <blockquote>继续，先把 4–6 分钟的完整航程串起来。从岸上登船，经过浅滩和岩壁，中途能接管木船，到宽湾靠岸后再飞起来，回看刚才经过的河段。</blockquote>
+          <p>验收从干岸开始，经过登船、同船接管与恢复、靠泊、步行和空中回望。桌面与触屏视口跑完整航程，默认模拟时长约 4 分 31 秒。</p>
+        </article>
+        <article>
+          <h3>高空视角暴露的远景边缘</h3>
+          <blockquote>那就先优化快飞时的远景吧，把远山和山雾衔接自然一点，别一飞高就看到那条直线，还是用纯代码生成。</blockquote>
+          <p>加入后层山脊，让远山外缘沿同一视线收敛到天空色。139–279 米高程的同机位对照中，原有直线和矩形拐角消失。</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="guide" class="section" aria-labelledby="guide-title">
+      <div class="section-heading">
+        <h2 id="guide-title">一张图看懂三者的分工</h2>
+        <p>从真实截图对应程序结构。水线附近的高斯层做了同机位开关对照，两张图都保留 GLSL 大气雾。</p>
+      </div>
+      <div class="guide-grid">
+        <figure class="guide-image">
+          <a href="./assets/rendering-guide.png">
+            <img src="./assets/rendering-guide.png" alt="技术导览图，含木船和飞机的跟随镜头、浅水卵石、波动山影、高斯层开关对照和同帧渲染流程" width="1720" height="1872" loading="lazy">
+          </a>
+          <figcaption><a href="./assets/rendering-guide.png">查看原尺寸导览图 ↗</a></figcaption>
+        </figure>
+        <div class="guide-notes">
+          <article>
+            <h3>Three.js <span>JavaScript 场景库</span></h3>
+            <p>提供场景、网格、相机和渲染入口。航程、驾驶与跟随规则由项目 JavaScript 更新，适用于可交互的三维漫游与展示。</p>
+          </article>
+          <article>
+            <h3>GLSL <span>GPU 着色语言</span></h3>
+            <p>顶点着色器计算投影，片元着色器计算颜色与透明度。在这里控制岩石材质、浅水折射与倒影、薄云光照和远山雾色。</p>
+          </article>
+          <article>
+            <h3>3DGS <span>程序化高斯渲染</span></h3>
+            <p>由规则生成三维高斯，按视深排序，再通过 GLSL 投影为椭圆并透明合成。这里用它处理贴水薄雾与叶丛柔边。实景重建常从多视角影像优化高斯，本演示的山体、河床与载具由网格承载。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section takeaway" aria-labelledby="value-title">
+      <div>
+        <h2 id="value-title">这次可以复用什么</h2>
+        <p>生成规则将地貌、光照、浅水和操控串到同一坐标系。比如修改岩棚时，可以用同一份岸脚高程核对水线与船底净空，再以固定机位检查画面。换河段时可以沿用这种数据关系和验收方法。</p>
+        <p class="verification">当前验证基于 Chromium 桌面与触屏视口。高空朝上游俯看时，河道末端仍有一小段截边。长时真机性能与特定实景的测绘对齐仍待验证。</p>
+      </div>
+      <a class="button" href="./play/">进入漓江河湾 <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+</body>
+</html>
