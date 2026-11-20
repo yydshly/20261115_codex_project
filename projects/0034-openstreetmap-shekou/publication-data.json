@@ -1,0 +1,25 @@
+{
+  "release_tag": "shekou-research-data-20261120",
+  "files": [
+    {
+      "name": "shekou-entry-assets.zip",
+      "bytes": 1302448,
+      "sha256": "55105878eed15c7b232312bbe3165b19c5f3c40392ac835532f50f62f8152c5d"
+    },
+    {
+      "name": "shekou-nearfield-assets.zip",
+      "bytes": 2237346,
+      "sha256": "ed8c03df44d6743c59559bdee0216fa41754d9d8aacc7c2c4c3c3c9153c1f713"
+    },
+    {
+      "name": "shekou-overture-2026-11-18.0.zip",
+      "bytes": 1739846,
+      "sha256": "52e78116a41511f7608e93e8e07b4430f7d03a1687da786900e8c358cf73f289"
+    },
+    {
+      "name": "shekou-city-skeleton.zip",
+      "bytes": 3806560,
+      "sha256": "8c1903f19901cbea822511ab3122773bfb997c79378fbb9f545b3db9341ed3d5"
+    }
+  ]
+}

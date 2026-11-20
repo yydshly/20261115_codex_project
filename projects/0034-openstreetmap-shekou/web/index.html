@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从 OpenStreetMap 研究到蛇口实景城市项目。整理开放地图的数据选型、可玩路线的实现、测试证据和整城复刻缺口。">
+  <title>从 OpenStreetMap 到蛇口实景城市 · 项目复盘</title>
+  <link rel="stylesheet" href="review.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="top">
+    <div class="wrap bar">
+      <a class="brand" href="#top">蛇口实景城市 · 项目复盘</a>
+      <nav class="nav" aria-label="章节">
+        <a href="#osm">OpenStreetMap</a><a href="#goal">目标与现状</a><a href="#history">实现过程</a><a href="#play">试玩与验证</a>
+        <a href="#evidence">数据依据</a><a href="#review">复盘与交接</a><a class="files-link" href="#archive">产物索引</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <div class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">OpenStreetMap 研究 · 深圳蛇口</p>
+          <h1>蛇口实景城市<br>项目复盘</h1>
+          <p class="lead">项目从 OpenStreetMap 研究开始，选深圳蛇口验证开放地图能支撑怎样的可驾驶、可步行城市。现有成果包括城区骨架、街面漫游和一条可玩路线。整城一比一复刻尚未交付。</p>
+          <div class="actions">
+            <a class="action primary" href="previews/shekou-old-street-drive.html" target="_blank" rel="noopener">打开现有试玩</a>
+            <a class="action secondary" href="#review">看复盘与差距</a>
+          </div>
+        </div>
+        <figure class="guide">
+          <button class="shot" type="button" data-zoom="从 OpenStreetMap 到可玩的蛇口" aria-label="放大 OpenStreetMap 项目总结图">
+            <img src="assets/openstreetmap-summary.png" alt="OpenStreetMap 提供真实的地理布局与路网。项目已做到蛇口城区骨架和可玩路线。实景复刻还需要实拍三维与地面照片，玩法另靠碰撞、导航和交通规则。" width="2160" height="1430" loading="lazy">
+          </button>
+          <figcaption class="hero-caption">项目总结图。<a href="assets/openstreetmap-summary.png">打开原图</a></figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="wrap reading">
+      <section id="osm" aria-labelledby="osm-title">
+        <div class="heading">
+          <h2 id="osm-title">从 OpenStreetMap 开始</h2>
+          <p>最初研究的是 OpenStreetMap 覆盖哪里、不同地区的道路、楼栋和店铺标得多细，以及这些开放数据能为可驾驶的城市场景提供哪些基础。</p>
+        </div>
+        <div class="split">
+          <article class="panel">
+            <h3>开放地图能提供什么</h3>
+            <p>OpenStreetMap（OSM）是由全球贡献者共同维护的开放地理数据库。道路和步道可用于搭通行网络，建筑占地和岸线可用于定位环境，已收录的店铺和地标可用于标注。覆盖遍及全球，完整度和更新情况因地区和数据类型而异。</p>
+            <p>具体到一条街，要分别核对路网连通、楼栋轮廓和高度字段、店铺名称和点位。立面、招牌外观、路缘和坡度需要街景照片或测量资料补充。</p>
+            <p class="source"><a href="https://www.openstreetmap.org/about">OpenStreetMap 官方介绍</a> · <a href="https://www.openstreetmap.org/copyright">ODbL 许可和署名</a></p>
+          </article>
+          <article class="panel">
+            <h3>我们怎样落到蛇口</h3>
+            <p>范围从全球和中国收敛到深圳蛇口。我们比较了蛇口老街、海上世界和望海路，选海上世界做首个验证区，再把城区路网和近景样板接起来。</p>
+            <p>实际下载到 F 盘的是 <strong>Overture Maps 的海上世界区域裁剪包</strong>。OSM 是研究入口，Overture 裁剪数据是原型实际使用的底图。</p>
+            <p>逐条核对小包的来源字段，106 条交通线段均源自 OSM。96 条建筑记录中，91 条来自 OSM，5 条来自东亚建筑数据。28 条地点记录的上游为 Meta 或 Foursquare。</p>
+            <p class="source"><a href="https://docs.overturemaps.org/attribution/">Overture 数据来源与许可</a> · <a href="#evidence">本项目的数据核对</a></p>
+          </article>
+        </div>
+
+      </section>
+
+      <section id="goal" aria-labelledby="goal-title">
+        <div class="heading">
+          <h2 id="goal-title">目标与现状</h2>
+          <p>先搭出可信的空间环境，再让角色和车辆在其中活动。之前讨论的 GTA 风格指开放式驾驶、步行和街区活动。环境参照深圳蛇口，交互按本项目设计。故事和任务扩展放在环境验收之后。</p>
+        </div>
+        <div class="triad">
+          <article class="panel">
+            <span class="status">最终目标</span>
+            <h3>按真实城市逐街对应</h3>
+            <p>按同一现实地域和明确的采集时点重建道路、坡度、建筑体量、沿街立面、店铺和街道设施。从地面视角能辨认实景，并在连续可达的街区中驾驶、下车、步行。</p>
+          </article>
+          <article class="panel">
+            <span class="status">已有</span>
+            <h3>城区骨架与一条可玩路线</h3>
+            <p>城区层有路网、楼栋体块、岸线和六片区漫游。玩法层从蛇口市场或老街出发，接望海路与海上世界入口样板，默认白天，时段与天气分别切换。</p>
+          </article>
+          <article class="panel">
+            <span class="status">未完成</span>
+            <h3>城区统一换成实景</h3>
+            <p>大量楼体、窗户、树和店面仍靠模板和估算。现有范围是蛇口局部城区。整片城区的实拍纹理、街道级测量、独立资产与全路网自由驾驶均未验收。</p>
+          </article>
+        </div>
+        <figure class="wide-shot aerial">
+          <button class="shot" type="button" data-zoom="城区原型的白天鸟瞰" aria-label="放大城区原型的白天鸟瞰">
+            <img src="assets/city-aerial.webp" alt="蛇口城区三维原型鸟瞰，画面标出了蛇口邮轮母港、海上世界等六个地标" width="1050" height="660" fetchpriority="high">
+          </button>
+          <figcaption >项目中生成的蛇口城区鸟瞰。现有范围约 6.7 × 5.6 公里，包含部分水域。</figcaption>
+        </figure>
+      </section>
+
+      <section id="history" aria-labelledby="history-title">
+        <div class="heading">
+          <h2 id="history-title">从地图数据到可玩路线</h2>
+          <p>按项目推进顺序整理。几条原型线并行存在，每条验证的问题不同。</p>
+        </div>
+        <ol class="trace">
+          <li><h3>选范围与数据</h3><div><p>从 OpenStreetMap 的全球地图覆盖出发，讨论 Overture、公开高程、照片和实景三维。以蛇口老街、海上世界、望海路比较道路、楼栋和店铺信息。海上世界有适合快速验证的道路、岸线、步道、骑行线和明华轮地标，小包先落在 F 盘。</p><p><small>前期盘点用于挑选样板范围。三段各有可用信息，连续店招和街面高度仍待核实。</small></p></div></li>
+          <li><h3>雨夜效果与交通试验</h3><div><p>先做广场南侧与明华轮的雨夜预览，逐步加驾驶、雨、灯光、路上车辆和行人。试玩暴露出画面偏暗、场景几何简化、行人和车辆接触失真以及穿模等问题。</p><p><small>这些试验回答了操作是否连贯，也暴露了单靠效果和动作无法补齐环境的问题。</small></p></div></li>
+          <li><h3>按平面和剖面搭灰盒</h3><div><p>把望海路同侧拆成 P 短停、B 骑行交会、E 入口。按底图中心线定位置，先画车、人、骑行动线，再用相对高差和通行净宽建立三维灰盒，放入样车验证落脚带、车门扫掠、坡道和入口连接。</p><p><small>包内道路和步道有来源。停车布置、交会点、实体入口与大多数尺寸属于样板设计。</small></p></div></li>
+          <li><h3>补近景资产和动作</h3><div><p>独立制作路面、路缘、灯具、排水、铺装、入口和临街构件。引入 CC0 路材、扫描街具、轿车和人物。给车轮与前门保留枢轴，分段处理靠车、开门、跨门槛、落座、下车和关门。随后加入骑行让行、步道行人避让、广场往返与签到。</p><p><small>车型与人物为通用资产。动作和避让覆盖了样板中的有限情形。</small></p></div></li>
+          <li><h3>搭城区骨架并接上近景</h3><div><p>扩大到蛇口邮轮母港、海上世界、水湾、蛇口老街、东角头和湾厦，形成约 6.7 × 5.6 公里骨架和单独的鸟瞰／街面漫游。另把老街到海上世界的可驾路线接到近景，使停车、下车、B 点让行、进广场成为连续操作。</p><p><small>城区漫游按预设沿线观察。老街试玩支持手动驾驶，两者是独立程序。</small></p></div></li>
+          <li><h3>拟合坡度并对照沿途照片</h3><div><p>用地表高程估算路坡。对照蛇口市场、嘉华小吃、荣村小区、蓝漪花园、玫瑰花园二期、望海路沿海步道、双玺、文化艺术中心和明华轮资料，做入口、招牌、窗与檐口、路口和滨水构件。</p><p><small>修改改变了部分机位和地标辨识度。多数街段仍保留模板化的远近景。</small></p></div></li>
+          <li><h3>核实整城复刻的素材缺口</h3><div><p>用户从实际驾驶视角继续看到重复的楼窗、树和底商。随后重新核查 F 盘数据、导出城区范围并查到深圳实景三维成果目录。蛇口的带纹理网格样片、交付方式和游戏使用许可仍待确认。</p><p class="source"><a href="#review">实景数据与后续验收</a></p></div></li>
+        </ol>
+        <details class="archive stack">
+          <summary>蛇口三段在项目里的分工</summary>
+          <div class="table-scroll" role="region" aria-label="蛇口街段分工" tabindex="0">
+            <table class="dense">
+              <thead><tr><th scope="col">街段</th><th scope="col">实际用途</th><th scope="col">还需核对的实景</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">蛇口老街与市场</th><td>驾驶起步和密集沿街对照。用市场入口、相邻住宅及底商检查从车里能否辨认所在地。</td><td>窄路、店招逐户位置、沿街材质与有遮挡的立面。</td></tr>
+                <tr><th scope="row">望海路</th><td>老街连到海上世界的车行走廊，也是滨水和天际线的连续过渡。</td><td>路口横断面、坡度、标线、岸边构件和实景连续性。</td></tr>
+                <tr><th scope="row">海上世界</th><td>首个小包和近景样板。道路、骑行线、步道和广场用地便于把驾驶切换成步行。</td><td>停车点和广场实际开口、路缘落差、环船平台及入口样板的替换。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+        <div class="frame-grid stack">
+          <figure>
+            <button class="shot" type="button" data-zoom="海上世界南侧路线平面" aria-label="放大海上世界南侧路线平面"><img src="assets/layout.webp" alt="停靠区到广场入口的设计平面，标出车行、步行和 A–A′ 剖面线" loading="lazy" width="736" height="491"></button>
+            <figcaption>场地平面。拟车行动线约 79.5 米，拟步行动线约 27.3 米。车停 P 位，步行经 B 点接入 E 入口。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="停靠区三维灰盒" aria-label="放大停靠区三维灰盒"><img src="assets/graybox.webp" alt="白天灰盒试验，从高处看到停车湾、骑行线和入口" loading="lazy" width="950" height="650"></button>
+            <figcaption>三维灰盒。先看路面、停靠湾、落脚带和骑行道能否正常连接。</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section id="play" aria-labelledby="play-title">
+        <div class="heading">
+          <h2 id="play-title">能怎么玩，验证到哪里</h2>
+          <p>玩法有可执行的状态与碰撞规则。测试通过覆盖相应路径，街道尺度和实物仍需现场依据。</p>
+        </div>
+        <div class="split">
+          <article class="panel">
+            <h3>手动驾驶与停车步行</h3>
+            <p>点进「蛇口老街 → 海上世界」画面，按 WASD 或方向键。空格刹车，E 上下车，可拖动镜头。默认从老街出发，也可从市场或望海路转角起步。时段有白天、黄昏、夜晚，天气有晴天、下雨。</p>
+            <p>沿指引线进 P 位停稳，在广场一侧下车。到 B 点等骑行者通过，沿坡道进入 E。在近景分支里另有步行往返、上车离开、签到等操作试验。</p>
+            <div class="actions"><a class="action primary" href="previews/shekou-old-street-drive.html" target="_blank" rel="noopener">打开手动驾驶</a></div>
+          </article>
+          <article class="panel">
+            <h3>城区鸟瞰与预设漫游</h3>
+            <p>单独的「蛇口城区漫游」可以切换鸟瞰与街面，选片区和时段，沿预设线路播放或拖动进度。城区骨架另可查询六个地标之间的车行、步行路线。</p>
+            <p>城市漫游串起各片区，手动驾驶集中在老街至海上世界走廊。现有城区路网通达性检查覆盖选定地标，转向与时段规则仍待补全。</p>
+            <div class="actions"><a class="action" href="previews/shekou-city-world.html" target="_blank" rel="noopener">打开城区漫游</a><a class="action" href="previews/shekou-city-skeleton.html" target="_blank" rel="noopener">打开城区骨架</a></div>
+          </article>
+        </div>
+        <ol class="chain" aria-label="手动试玩流程">
+          <li><strong>起步</strong><span>从市场驶入老街主线</span></li>
+          <li><strong>驾驶</strong><span>经过望海路接入近景</span></li>
+          <li><strong>停靠</strong><span>P 位停稳，广场侧下车</span></li>
+          <li><strong>让行</strong><span>B 点观察并等待骑行通过</span></li>
+          <li><strong>入场</strong><span>沿坡道步行进入 E</span></li>
+        </ol>
+        <div class="frame-grid stack">
+          <figure>
+            <button class="shot" type="button" data-zoom="同一路线的白天晴天" aria-label="放大白天晴天驾驶截图"><img src="assets/drive-day.webp" alt="从轿车后方看到晴天老街道路和沿街占位建筑" loading="lazy" width="950" height="620"></button>
+            <figcaption>白天晴天。驾驶画面可以看到道路结构、阴影和通用街景。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="同一路线的下雨夜晚" aria-label="放大雨夜驾驶截图"><img src="assets/drive-rain.webp" alt="在大致相同的驾驶位置，夜间道路有降雨与车灯照明" loading="lazy" width="950" height="620"></button>
+            <figcaption>雨夜。在相同的试玩版本中切换时段和天气。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="下车动作检查" aria-label="放大下车动作截图"><img src="assets/step-out.webp" alt="车门打开，人物在从座椅跨向落脚带的中间姿态" loading="lazy" width="950" height="620"></button>
+            <figcaption>下车动作检查。可拆分车门、座椅和角色动作，以固定车型和停靠空间验收。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="B 点骑行让行" aria-label="放大 B 点让行截图"><img src="assets/yield.webp" alt="轿车停在路边，人物站在下车一侧，前方为骑行与步行交会" loading="lazy" width="950" height="620"></button>
+            <figcaption>停靠后步行到 B 点。骑行、行人和角色在局部规则下互动。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="城区预设街面漫游" aria-label="放大城区街面漫游截图"><img src="assets/street-tour.webp" alt="城区漫游视角中，一辆车沿蛇口预设道路行进，沿街为建筑体块" loading="lazy" width="950" height="620"></button>
+            <figcaption>城区街面漫游。该程序展示城市道路和街道视线，移动沿预设路径。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="步行进入广场" aria-label="放大海上世界入口截图"><img src="assets/arrival.webp" alt="人物进入海上世界路边入口样板，门楣下有完成标记" loading="lazy" width="950" height="620"></button>
+            <figcaption>步行进入 E。照片资料用于对照沿途地标，入口本身仍为样板设计。</figcaption>
+          </figure>
+        </div>
+        <h3 class="stack">本次复跑的检查</h3>
+        <div class="table-scroll" role="region" aria-label="测试结果" tabindex="0">
+          <table class="dense">
+            <thead><tr><th scope="col">项目</th><th scope="col">实际结果</th><th scope="col">覆盖范围</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">蛇口市场接入老街</th><td>约 69 米的支线完整转入老街，Node 测试通过。</td><td>固定出生点、导引轨迹及转角通行。</td></tr>
+              <tr><th scope="row">老街到海上世界</th><td>约 1,317 米。脚本转向驾驶约 160 秒，峰值约 40 km/h。P 位停稳、下车、等待骑行、过坡道、进 E，结束状态为完成。</td><td>连续交互及走廊内车身通行。等待约 2.6 秒和最小骑行间距约 2.01 米是该次模拟结果。</td></tr>
+              <tr><th scope="row">坡面与路缘接线</th><td>校验 329 个高程样点、368 个沥青面采样。主线拟合纵坡约 −3.00% 到 +2.92%。</td><td>本场景路面与拟合地面的几何一致，源高程仍为地表模型。</td></tr>
+              <tr><th scope="row">城区漫游路径与设施</th><td>6 条预设漫游路径和 4,599 个路面样点检查通过，另检查了 23 处过街铺面、5 个店名标识和东角头 57 条底图地面步道。</td><td>路径贴地、局部街具避开路线与建筑。对店面的实景对应度仍需比对。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source">本次运行了市场接入、主路线、坡度、城区路线和城市路面检查。早期雨夜、上下车、行人和签到的留档截图与入口见下方索引。</p>
+        <details class="archive stack">
+          <summary>实现架构与模块分工</summary>
+          <div class="table-scroll" role="region" aria-label="实现架构" tabindex="0">
+            <table class="dense">
+              <thead><tr><th scope="col">层</th><th scope="col">已实现</th><th scope="col">需要深化</th></tr></thead>
+              <tbody>
+                <tr><th scope="row">地图与场景</th><td>以底图裁剪、局部米制投影将道路、建筑、水面和地标转到世界坐标。城区原点约为 113.9175°E、22.49°N，X 朝东、Y 向上、Z 朝南。广场近景以 P 位为局部原点。</td><td>统一实景模型的平面和高程基准，核对两个以上街角或建筑角点。量测真实街道净宽与高差。</td></tr>
+                <tr><th scope="row">几何与材质</th><td>道路、步道、路缘、开门区和入口分别生成表面。建筑轮廓拉伸为体块，部分立面手工建模，近景接入扫描物与 GLB 材质。</td><td>整城分块导入实景，清理失真网格和遮挡区域，为游戏光照及碰撞重建必要的独立对象。</td></tr>
+                <tr><th scope="row">移动与碰撞</th><td>浏览器内按时间步进控制速度、转向与刹车。根据车身包络、地面类型和占用规则判定通行。停车后进入开门、跨步、座椅和落脚点的状态序列。</td><td>验证不同速度、碰撞方向、车型和障碍物。转向、动力学与人车接触仍属原型规则。</td></tr>
+                <tr><th scope="row">导航和活动</th><td>路线指引、片区预设路径、车流、骑行交会及近景步道行人各有行为模块。事件顺序根据停靠、让行和到达区域推进。</td><td>把道路优先权、信号、导航与行人行为推广到非预设路段，验证拥堵、会车和对玩家操作的反馈。</td></tr>
+                <tr><th scope="row">渲染与验收</th><td>WebGL 渲染，时段与天气独立切换，提供跟车、驾驶、侧看和照片观察角度。利用程序测试和截图对照关键路径。</td><td>按同机位实拍逐街检查。以地面画面、可见距离、性能与进出片区为整体验收条件。</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </details>
+      </section>
+
+      <section id="evidence" aria-labelledby="evidence-title">
+        <div class="heading">
+          <h2 id="evidence-title">来源、估算和场景设计</h2>
+          <p>每条来源支持特定判断。建筑占地能定位体量，街景照片能约束可见形状和材质，车的通行测试能验证游戏规则。</p>
+        </div>
+        <div class="split">
+          <article class="panel">
+            <h3>城区骨架的覆盖</h3>
+            <p>从 Overture Maps <span class="number">2026-11-18.0</span> 进行区域裁剪与局部米制投影。得到 <strong>7,199 个建筑体块</strong>、<strong>8,724 段道路及步道</strong>。路段数按连接点拆分。六地标车行、步行各 30 条有向路线通过连通性检查。</p>
+            <p>导出的城区 GLB 按 500 米网格分组，地形底板在这一版为统一平面，文件内的贴图数为 0。街面漫游和驾驶走廊另行加了材料和地面拟合。</p>
+            <p class="source"><a href="https://docs.overturemaps.org/attribution/">Overture 数据来源与署名</a> · <a href="https://www.openstreetmap.org/copyright">OpenStreetMap 许可</a> · <a href="https://doi.org/10.5281/zenodo.8174931">东亚建筑轮廓来源</a></p>
+          </article>
+          <article class="panel">
+            <h3>楼高的依据</h3>
+            <p>直接来源高度覆盖约 1.5% 的建筑体块。按楼层推算采用每层 3.15 米，剩余按占地体量估算。</p>
+            <div class="height-track" aria-hidden="true"><span></span><span></span><span></span></div>
+            <ul class="height-key">
+              <li><span>源记录给出高度</span><strong>110 · 1.5%</strong></li>
+              <li><span>源楼层数换算</span><strong>1,348 · 18.7%</strong></li>
+              <li><span>按占地估算</span><strong>5,741 · 79.7%</strong></li>
+            </ul>
+            <p class="source">按 7,199 个导出体块计算，百分比保留一位小数。城区 GLB 中 46 段可见道路使用源宽度，其余按道路类别给定宽度。</p>
+          </article>
+        </div>
+        <div class="table-scroll stack" role="region" aria-label="场景组成与数据依据" tabindex="0">
+          <table class="dense">
+            <thead><tr><th scope="col">对象</th><th scope="col">用到的依据</th><th scope="col">估算或设计内容</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">道路、岸线、楼栋占地</th><td>Overture 路网、建筑、用地、水面与地标，含 OpenStreetMap 和东亚建筑数据。</td><td>缺省宽度、车道分配、路缘、部分转向、许多建筑高度和道路细分。</td></tr>
+              <tr><th scope="row">纵坡、绝对高程</th><td>Copernicus WorldDEM-30，约 29 × 31 米像元，EGM2008 垂直基准。排除临近楼体像元，再做平滑拟合。</td><td>斜坡、路缘和广场落差需要地面测量。附表有 44 个路线位置，记录原始像元、邻域样本量和估算结果。</td></tr>
+              <tr><th scope="row">P–B–E 样板尺寸</th><td>用分向车行线、骑行线、已记录步道与用地边界定位。E 初始参考步道与用地边界交点。</td><td>车幅 8.40 米，P 净位 12.00 × 2.80 米，落脚带 1.10 米，骑行道 2.40 米，步道 3.00 米。B 到步道长 3 米，升 0.15 米，坡度约 5%。均为样板尺寸。</td></tr>
+              <tr><th scope="row">蛇口市场与老街转角</th><td>参考市场入口照片中的竖牌、红瓦、凸窗栏和蓝棚，嘉华小吃橙色招牌、荣村小区浅墙与窗罩、蓝漪花园门楼与半圆玻璃窗。</td><td>具体招牌、档口、种树位置、铺地尺寸与门楼进深依画面和街边空间拟合，店面与楼栋细节未逐一实测。</td></tr>
+              <tr><th scope="row">望海路与海上世界</th><td>参照玫瑰花园二期立面、公园南路路口、滨水步道、双玺阳台、文化艺术中心体块与明华轮细节。</td><td>柱距、招牌开间、灯柱和栏杆摆位、入口与环船平台高差采用场景估值。</td></tr>
+              <tr><th scope="row">通用材质、车辆和人物</th><td>Poly Haven 的沥青、铺砖、混凝土和金属，以及井盖、组合长椅。Tevy 的 Family Sedan 和 Casual Walker。</td><td>路面颜色合成、近景路灯灯光、角色分配、路径、车辆材质与交互统一按原型设计。样车标定 4.70 × 1.86 × 约 1.44 米。</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="source">底图 © Overture Maps Foundation、© OpenStreetMap contributors。建筑轮廓含 Qian Shi 等（CC BY 4.0）。Copernicus WorldDEM-30 © DLR e.V. 2010–2014 与 © Airbus Defence and Space GmbH 2014–2018，由欧盟及 ESA 经 COPERNICUS 提供。<a href="https://polyhaven.com/license">Poly Haven CC0</a> · <a href="https://tevy.dev/models/family-sedan">Tevy 轿车</a> · <a href="https://tevy.dev/models/casual-walker">Tevy 人物</a> · <a href="assets/shekou-elevation-evidence.csv">高程依据 CSV</a> · <a href="https://github.com/yydshly/20261115_codex_project/blob/main/projects/0034-openstreetmap-shekou/THIRD_PARTY_NOTICES.md">数据与素材署名</a></p>
+        <figure class="wide-shot">
+          <button class="shot" type="button" data-zoom="蓝漪花园路口前后对比" aria-label="放大路口前后对比"><img src="assets/market-comparison.webp" alt="同一驾驶机位的蓝漪花园路口前后对比。右图增加门楼、半圆窗和凸窗，围绕路口仍有模板化体量" loading="lazy" width="1500" height="455"></button>
+          <figcaption>同一驾驶位置。左旧、右新。门楼、凸窗和底商发生了变化，仍能看到重复的橱窗、简化树木和路面。<a href="https://shenzhen.leyoujia.com/xq/detail/1250.html">蓝漪花园入口照片</a></figcaption>
+        </figure>
+        <div class="frame-grid stack">
+          <figure>
+            <button class="shot" type="button" data-zoom="蛇口市场驾驶视角" aria-label="放大蛇口市场驾驶视角"><img src="assets/market-driver.webp" alt="从车中看到蛇口市场侧面、路树和蓝漪花园两栋住宅" loading="lazy" width="950" height="620"></button>
+            <figcaption>市场支线驾驶画面。局部有可辨的门楼和市场轮廓，较大面积仍是按地图轮廓估算的环境。</figcaption>
+          </figure>
+          <figure>
+            <button class="shot" type="button" data-zoom="望海路文化艺术中心方向" aria-label="放大望海路滨水截图"><img src="assets/waterfront.webp" alt="沿望海路向海上世界驾驶时可见滨海方向和建筑体块" loading="lazy" width="950" height="620"></button>
+            <figcaption>望海路滨水段。道路和岸线有底图，沿线建筑与步道为照片参考和场景估值。</figcaption>
+          </figure>
+        </div>
+        <p class="source">沿线引用资料。<a href="https://blog.udn.com/jyhhongteng/179992390">蛇口市场入口</a> · <a href="https://www.sohu.com/a/689307774_121373363">嘉华小吃</a> · <a href="https://news.lianjia.com/sz/xiaoqu/2411049969415.html">荣村小区</a> · <a href="https://www.sz.gov.cn/szzt2010/szwtt/wtcg/whcg/content/mpost_11131232.html">海上世界文化艺术中心</a>。试玩内的「地形和建筑的数据依据」保留更多原始引用。</p>
+      </section>
+
+      <section id="review" aria-labelledby="review-title">
+        <div class="heading">
+          <h2 id="review-title">复盘与交接</h2>
+          <p>最大的偏差是把玩法样板的推进和实景环境的达成混在了一起。原型跑通后，就该先核验整城实景数据和驾驶视角样片，再批量制作环境。</p>
+        </div>
+        <div class="split">
+          <article class="panel">
+            <h3>可以接着用的结果</h3>
+            <ul>
+              <li><strong>地理定位。</strong>现有范围、地标、路网、建筑轮廓和米制轴向可以作为导入与配准的参考。实际需要复核坐标及高程基准。</li>
+              <li><strong>玩法验收。</strong>保留按键、状态转换、车门净空、停靠、让行、路线衔接及可复跑的模拟检查。在新引擎中应按这些场景重新验证。</li>
+              <li><strong>通用素材。</strong>GLB 中的车辆、街具、局部材质和测试构件可用于临时制作。原始版本、许可、枢轴和纹理资料随资产保存。</li>
+            </ul>
+          </article>
+          <article class="panel">
+            <h3>需要重做的部分</h3>
+            <ul>
+              <li><strong>城市外观。</strong>大部分楼体、树、店面和小路依赖估算或模板。城区的主要视觉层需要实拍三维和街面素材覆盖。</li>
+              <li><strong>地面精度。</strong>以实际路宽、路缘与标高校验试玩可行面，把样板 P–B–E 的设计值与实景点位逐项对齐。</li>
+              <li><strong>可玩性覆盖。</strong>在全路网处理进出、坡面、碰撞、导航和交通。原型中的状态机、避让和碰撞规则需要随新环境重新接入与测试。</li>
+            </ul>
+          </article>
+        </div>
+        <h3 class="stack">从数据到实景验收的顺序</h3>
+        <ol class="plain-list">
+          <li><strong>确认数据范围和用途。</strong>首批沿用既有蛇口城区边界，查询带实拍纹理的 Mesh、地面高程、必要的地面照片或点云。核实格式、坐标、高程基准、采集日期、覆盖和本地游戏使用条件。</li>
+          <li><strong>先验实景样片。</strong>用市场转角、望海路转角和海上世界入口的同机位实拍检查楼角、道路边界、路缘和能辨认的沿街细节。记录可测误差和照片缺口，确认地面视角后再铺开。</li>
+          <li><strong>分块重建完整城区。</strong>以实景网格和地面资料为主，逐块配准、切片、核对建筑和街面。街道材料、树、标线和店面落到具体位置，按时间截面登记更新。</li>
+          <li><strong>独立建立玩法表面。</strong>用与视觉一致的碰撞面、可走区域、车道、坡度和路口拓扑接回玩法。实景 Mesh 负责外观，游戏表面负责行驶、步行和物理反馈。</li>
+          <li><strong>按整个范围验收。</strong>逐街核对地理位置与地面视角，抽查跨区和非主线驾驶，验证停车、上下车、行人及车流、晴天与雨夜的可读性。</li>
+        </ol>
+        <div class="note issue">
+          <p><strong>当前外部依赖</strong>　深圳规划部门 2026 版官方目录列有实景三维 Mesh 和 LOD1.3 城市模型。项目尚未取得覆盖蛇口、可导入且用途合适的样片。目录附件明细、交付格式、体量和许可待核实。公开浏览与用数据制作可发布游戏分别按各自的使用条件确认。</p>
+          <p class="source"><a href="https://www.sz.gov.cn/szzt2010/wgkzl/glgk/jgxxgk/gtzy/content/post_12759230.html">深圳实景三维成果公告</a> · <a href="https://pnr.sz.gov.cn/xxgk/zcwj/zcjd/content/post_12899624.html">成果用途说明</a> · <a href="assets/shekou-reality-mesh-area.geojson">首批范围 GeoJSON</a></p>
+        </div>
+      </section>
+
+      <section id="archive" aria-labelledby="archive-title">
+        <div class="heading">
+          <h2 id="archive-title">产物索引</h2>
+          <p>场景入口打开现有版本。旧版保留推进过程和观察机位，当前手动试玩以「蛇口老街 → 海上世界」为准。3D 画面由浏览器 WebGL 渲染。</p>
+        </div>
+        <div class="lookup" hidden id="lookup">
+          <label for="find">查找产物</label><input id="find" type="search" placeholder="路网、下车、雨夜"><output id="hits" for="find" aria-live="polite"></output>
+        </div>
+        <details class="archive" open>
+          <summary>城区、布局和路线</summary>
+          <ul>
+            <li><a href="previews/shekou-city-skeleton.html" target="_blank" rel="noopener">蛇口城区骨架</a><span>六地标、车行及步行路由、建筑平面和城区覆盖。</span></li>
+            <li><a href="previews/shekou-city-world.html" target="_blank" rel="noopener">蛇口城区漫游</a><span>白天、黄昏、夜景，鸟瞰、片区和预设街面路线。原画面标题为「蛇口全城」。</span></li>
+            <li><a href="previews/shekou-old-street-drive.html" target="_blank" rel="noopener">蛇口老街 → 海上世界</a><span>主试玩版本，支持市场和望海路起步、天气分离切换、P–B–E 交互。</span></li>
+            <li><a href="previews/shekou-site-layout.html" target="_blank" rel="noopener">海上世界南侧平面布局</a><span>数据依据、车人与骑行空间、断面设计和模型清单。</span></li>
+            <li><a href="previews/shekou-site-graybox.html" target="_blank" rel="noopener">停靠区三维灰盒</a><span>空间和净空试验，标明 P 位、B 点和 E 入口。</span></li>
+          </ul>
+        </details>
+        <details class="archive">
+          <summary>望海路近景与交互样板</summary>
+          <ul>
+            <li><a href="previews/shekou-b-crossing.html" target="_blank" rel="noopener">B 点骑行交会</a><span>步行与骑行让行试验。</span></li>
+            <li><a href="previews/shekou-entry-rain.html" target="_blank" rel="noopener">广场入口雨夜</a><span>雨效和近景灯光样板。</span></li>
+            <li><a href="previews/shekou-entry-assets.html" target="_blank" rel="noopener">广场入口资产样板</a><span>铺面、雨夜材质、入口和扫描街具。</span></li>
+            <li><a href="previews/shekou-nearfield-scene.html" target="_blank" rel="noopener">雨夜街段近景</a><span>前门与轮胎可动的样车、临街立面和街具细化。</span></li>
+            <li><a href="previews/shekou-boarding-scene.html" target="_blank" rel="noopener">上下车试玩</a><span>开门、人物跨步、落座、下车和座舱观察。</span></li>
+            <li><a href="previews/shekou-street-run.html" target="_blank" rel="noopener">广场接驳</a><span>行驶至停靠区，接步行进入广场。</span></li>
+            <li><a href="previews/shekou-roundtrip.html" target="_blank" rel="noopener">广场往返</a><span>停车、下车、进广场、返回并驶离。</span></li>
+            <li><a href="previews/shekou-walkway.html" target="_blank" rel="noopener">广场步道</a><span>行人走动、局部互让与避开玩家的版本。</span></li>
+            <li><a href="previews/shekou-plaza-run.html" target="_blank" rel="noopener">雨夜签到</a><span>玩家到达广场后按 F 签到，验证终点操作。</span></li>
+          </ul>
+        </details>
+        <details class="archive">
+          <summary>早期雨夜、车辆与街道活动</summary>
+          <ul>
+            <li><a href="previews/shekou-rain-night.html" target="_blank" rel="noopener">海上世界雨夜</a><span>早期场地与灯雨效果。</span></li>
+            <li><a href="previews/shekou-night-drive.html" target="_blank" rel="noopener">雨夜驾驶</a><span>早期自由驾驶、镜头和雨效。</span></li>
+            <li><a href="previews/shekou-night-traffic.html" target="_blank" rel="noopener">雨夜车流</a><span>加入其他车辆与夜间亮度试验。</span></li>
+            <li><a href="previews/shekou-living-street.html" target="_blank" rel="noopener">街道活动</a><span>早期人物、车流与人车避让。</span></li>
+            <li><a href="previews/shekou-harbor-patrol.html" target="_blank" rel="noopener">滨海巡游</a><span>把滨海驾驶和沿途操作串成短程试玩。</span></li>
+            <li><a href="previews/shekou-street-contact.html" target="_blank" rel="noopener">街道接触</a><span>早期碰撞约束、人车接触与边界试验。</span></li>
+          </ul>
+        </details>
+        <details class="archive">
+          <summary>数据、模型与验收记录</summary>
+          <ul>
+            <li><a href="assets/shekou-reality-mesh-area.geojson">首批实景数据范围</a><span>WGS84 范围，113.885°E 至 113.950°E、22.465°N 至 22.515°N。</span></li>
+            <li><a href="assets/shekou-elevation-evidence.csv">路线高程依据</a><span>44 个记录位置，含坐标、原始 DSM、拟合高程与授权说明。</span></li>
+            <li><a href="assets/validation.txt">本次自动验证记录</a><span>市场接入、主路线场景、坡度、城区表面和漫游路径。</span></li>
+            <li><a href="assets/city-report.json">城区量化汇总</a><span>区域范围、原始数据数量、导出体块、路网、楼高与路径长度。</span></li>
+            <li><a href="https://github.com/yydshly/20261115_codex_project/releases/download/shekou-research-data-20261120/shekou-entry-assets.zip">广场入口环境资产 ZIP</a><span>带纹理的 GLB、材质及街具来源，独立于试玩逻辑。</span></li>
+            <li><a href="https://github.com/yydshly/20261115_codex_project/releases/download/shekou-research-data-20261120/shekou-nearfield-assets.zip">近景环境与轿车 ZIP</a><span>环境和轿车 GLB、保留来源与部件枢轴资料。</span></li>
+            <li><a href="https://github.com/yydshly/20261115_codex_project/releases/download/shekou-research-data-20261120/shekou-overture-2026-11-18.0.zip">海上世界原始小包</a><span>约 1.74 MB。Overture 区域裁剪，压缩包是 GeoJSON 和索引。</span></li>
+            <li><a href="https://github.com/yydshly/20261115_codex_project/releases/download/shekou-research-data-20261120/shekou-city-skeleton.zip">蛇口城区骨架 ZIP</a><span>约 3.81 MB。含 GLB、数据索引、来源和说明。骨架 GLB 约 14.29 MB，含 0 张纹理。</span></li>
+          </ul>
+        </details>
+      </section>
+      <footer>项目快照截至 2026 年 11 月 20 日。整理自项目数据、程序、实际截图与对话记录。<a href="../../">研究总导航</a> · <a href="#top">回到顶部</a></footer>
+    </div>
+  </main>
+  <dialog id="zoom" aria-labelledby="zoom-title">
+    <div class="dialog-bar"><strong id="zoom-title"></strong><form method="dialog"><button type="submit" class="close">关闭</button></form></div>
+    <img class="dialog-image" id="zoom-image" alt="">
+  </dialog>
+  <script src="review.js"></script>
+</body>
+</html>
