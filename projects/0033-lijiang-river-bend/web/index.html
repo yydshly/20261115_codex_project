@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#263b32">
+  <link rel="icon" href="data:,">
+  <title>薄云下的漓江河湾</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "./vendor/three.module.min.js",
+        "three/addons/objects/Reflector.js": "./vendor/Reflector.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <main id="view" aria-label="漓江式河湾漫游"></main>
+  <header class="title">
+    <h1>薄云下的漓江河湾</h1>
+  </header>
+  <div class="loading" id="loading" role="status">正在生成河湾…</div>
+  <div id="view-transfer" aria-hidden="true"><span></span></div>
+  <aside id="journey-panel" class="journey-panel" aria-label="完整航程" hidden>
+    <button type="button" id="journey-start" aria-keyshortcuts="4"><kbd aria-hidden="true">4</kbd><span>完整航程</span></button>
+    <span id="journey-duration">约 4–6 分钟</span>
+    <span id="journey-status" role="status" hidden></span>
+    <span id="journey-clock" hidden></span>
+    <button type="button" id="journey-exit" hidden>结束引导</button>
+  </aside>
+  <button type="button" id="sound-toggle" aria-label="环境声" aria-pressed="false" aria-keyshortcuts="M" hidden><kbd aria-hidden="true">M</kbd><span>开启声音</span></button>
+  <footer class="controls" id="controls" hidden>
+    <nav class="travel-modes" aria-label="探索模式">
+      <button type="button" data-mode="tour" aria-pressed="false" aria-keyshortcuts="1"><kbd aria-hidden="true">1</kbd>乘船游览</button>
+      <button type="button" data-mode="boat" aria-pressed="false" aria-keyshortcuts="2"><kbd aria-hidden="true">2</kbd>快船</button>
+      <button type="button" data-mode="flight" aria-pressed="false" aria-keyshortcuts="3"><kbd aria-hidden="true">3</kbd>快飞</button>
+      <button type="button" id="return-walk" aria-keyshortcuts="0" hidden><kbd aria-hidden="true">0</kbd><span>返回岸上</span></button>
+    </nav>
+    <nav id="shore-stops" aria-label="切换观察点">
+      <button type="button" data-stop="bank" aria-pressed="true">沿岸</button>
+      <button type="button" data-stop="shallows" aria-pressed="false">浅滩</button>
+      <button type="button" data-stop="overlook" aria-pressed="false">高处</button>
+    </nav>
+    <nav id="perspective-controls" aria-label="镜头视角" hidden>
+      <button type="button" data-perspective="first" aria-pressed="true"><kbd aria-hidden="true" hidden>C</kbd>第一人称</button>
+      <button type="button" data-perspective="third" aria-pressed="false" aria-keyshortcuts="C"><kbd aria-hidden="true">C</kbd>第三人称</button>
+    </nav>
+    <div id="voyage-panel" class="voyage-panel" hidden>
+      <div class="voyage-path">
+        <select id="voyage-chapters" aria-label="航线章节"></select>
+        <span id="voyage-time"></span>
+      </div>
+      <button type="button" id="voyage-toggle">暂停游览</button>
+    </div>
+    <div class="dock-panel" id="dock-panel" hidden>
+      <select id="dock-destination" aria-label="前往泊位" hidden></select>
+      <button type="button" id="dock-action" aria-keyshortcuts="F" hidden><kbd aria-hidden="true">F</kbd><span>靠岸</span></button>
+      <p id="dock-status" role="status" hidden></p>
+    </div>
+    <p id="vehicle-readout" class="vehicle-readout" hidden></p>
+    <p id="drive-hint">点按或按住方向按钮 · 拖动转头</p>
+    <div class="drive-controls">
+      <div class="drive-pad" role="group" aria-label="移动">
+        <button type="button" data-key="KeyW" aria-label="向前" aria-keyshortcuts="W ArrowUp"><kbd aria-hidden="true">W</kbd><span>前进</span></button>
+        <button type="button" data-key="KeyA" aria-label="向左" aria-keyshortcuts="A ArrowLeft"><kbd aria-hidden="true">A</kbd><span>左移</span></button>
+        <button type="button" data-key="KeyS" aria-label="向后" aria-keyshortcuts="S ArrowDown"><kbd aria-hidden="true">S</kbd><span>后退</span></button>
+        <button type="button" data-key="KeyD" aria-label="向右" aria-keyshortcuts="D ArrowRight"><kbd aria-hidden="true">D</kbd><span>右移</span></button>
+      </div>
+      <div class="drive-pad" id="altitude-pad" role="group" aria-label="飞行" hidden>
+        <button type="button" data-key="KeyQ" aria-keyshortcuts="Q"><kbd aria-hidden="true">Q</kbd>下降</button>
+        <button type="button" data-key="KeyE" aria-keyshortcuts="E"><kbd aria-hidden="true">E</kbd>上升</button>
+        <button type="button" data-key="ShiftLeft" aria-keyshortcuts="Shift"><kbd aria-hidden="true">Shift</kbd>提速</button>
+      </div>
+    </div>
+  </footer>
+  <noscript><p class="loading">启用 JavaScript 后即可漫游河湾。</p></noscript>
+  <script>
+    window.showRiverError = function (message) {
+      const status = document.getElementById('loading');
+      status.hidden = false;
+      status.textContent = message;
+      status.setAttribute('role', 'alert');
+    };
+    import('./main.js').catch((error) => {
+      console.error(error);
+      window.showRiverError(error.message === 'webgl2'
+        ? '此浏览器需要启用 WebGL 2 才能渲染河湾。'
+        : '河湾加载失败。请刷新页面重试。');
+    });
+  </script>
+</body>
+</html>

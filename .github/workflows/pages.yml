@@ -19,6 +19,7 @@ on:
       - 'projects/0018-bot-role-research/**'
       - 'projects/0028-creator-skill-mechanisms/**'
       - 'projects/0031-creative-tools-hub/**'
+      - 'projects/0033-lijiang-river-bend/**'
       - 'projects/0034-openstreetmap-shekou/**'
       - 'projects.json'
       - 'scripts/build_site.py'

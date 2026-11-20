@@ -1,0 +1,199 @@
+* { box-sizing: border-box; }
+:root {
+  color-scheme: dark;
+  color: #eef1e7;
+  background: #263b32;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+}
+body { margin: 0; overflow: hidden; }
+[hidden] { display: none !important; }
+#view, canvas { display: block; width: 100%; height: 100%; }
+#view { position: fixed; inset: 0; }
+#view-transfer {
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  background: #263b32;
+  opacity: 0;
+}
+#view-transfer span { font: 500 clamp(17px, 3vw, 24px)/1.3 "Songti SC", SimSun, serif; }
+canvas { touch-action: none; cursor: grab; }
+canvas:active { cursor: grabbing; }
+.title {
+  position: fixed;
+  top: max(env(safe-area-inset-top), clamp(18px, 3vw, 39px));
+  left: max(env(safe-area-inset-left), clamp(18px, 3vw, 39px));
+  pointer-events: none;
+  text-shadow: 0 1px 4px #0b231c, 0 2px 17px #0b231c;
+}
+.title h1 { margin: 0; font: 500 clamp(23px, 3.2vw, 35px)/1.25 "Songti SC", SimSun, serif; }
+.journey-panel {
+  position: fixed;
+  top: max(env(safe-area-inset-top), clamp(18px, 3vw, 39px));
+  right: max(20px, env(safe-area-inset-right));
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  max-width: calc(100vw - 24px);
+  padding: 4px 6px;
+  border: 1px solid #e5eee459;
+  border-radius: 12px;
+  background: #182724e8;
+  font-size: 13px;
+}
+.journey-panel button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; }
+#journey-start { background: #e3eadd; color: #1e3026; }
+#journey-start:hover { background: #f1f5eb; }
+#journey-exit { border-color: #d9efdf38; }
+#journey-status { padding-left: 4px; }
+#journey-duration { padding-inline: 2px 5px; color: #d2ded2; }
+#journey-clock { font-variant-numeric: tabular-nums; color: #d2ded2; }
+#sound-toggle {
+  position: fixed;
+  top: calc(max(env(safe-area-inset-top), clamp(18px, 3vw, 39px)) + 60px);
+  right: max(20px, env(safe-area-inset-right));
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-color: #e5eee459;
+  background: #182724e8;
+  white-space: nowrap;
+}
+#sound-toggle:enabled:hover { border-color: #eef1e7; }
+#sound-toggle[aria-pressed="true"] { background: #e3eadd; }
+#sound-toggle:disabled { opacity: 0.7; cursor: default; }
+.controls[data-guided-walk] #shore-stops,
+.controls[data-guided-walk] #dock-panel,
+.controls[data-guided-walk] .drive-controls,
+.controls[data-guided-walk] #drive-hint { display: none; }
+.controls p { font-size: 12px; margin: 0; color: #e2e8dd; }
+.controls {
+  position: fixed;
+  bottom: max(20px, env(safe-area-inset-bottom));
+  left: max(20px, env(safe-area-inset-left));
+  display: grid;
+  gap: 11px;
+  padding: 9px;
+  border: 1px solid #e5eee441;
+  border-radius: 15px;
+  background: #182724df;
+  box-shadow: 0 8px 32px #10282145;
+  max-width: calc(100vw - 24px);
+}
+.controls nav, .drive-pad { display: flex; flex-wrap: wrap; gap: 4px; }
+.drive-controls { display: grid; gap: 5px; }
+.controls button { display: inline-flex; align-items: center; justify-content: center; gap: 5px; }
+:is(.controls, .journey-panel, #sound-toggle) kbd {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 17px;
+  padding: 1px 3px;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  font: 600 11px/1.2 system-ui, sans-serif;
+  opacity: 0.87;
+}
+.controls .vehicle-readout { font-variant-numeric: tabular-nums; }
+.drive-pad button {
+  min-width: 59px;
+  padding-inline: 8px;
+  background: #d9efdf18;
+  touch-action: none;
+  user-select: none;
+}
+.drive-pad button:hover, .drive-pad button:active, .drive-pad button[data-driving] { background: #d9efdf4a; }
+.travel-modes button { background: #d9efdf13; }
+.travel-modes button:first-child { border-color: #cde4d252; }
+.travel-modes button:not([aria-pressed="true"]):hover { background: #d9efdf27; }
+#perspective-controls button { border-color: #d9efdf38; }
+.voyage-panel { display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 6px; }
+.voyage-path { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; }
+.controls[data-guided-voyage] .voyage-path,
+.controls[data-guided-voyage] .voyage-panel:has(#voyage-toggle[hidden]) { display: none; }
+.voyage-path select, #dock-destination {
+  min-width: 91px;
+  border: 1px solid #d9efdf54;
+  border-radius: 7px;
+  background: #233630;
+  color: inherit;
+  font: inherit;
+  font-size: 13px;
+  padding: 5px 5px 5px 8px;
+}
+.dock-panel { display: flex; flex-wrap: wrap; align-items: center; gap: 5px; }
+#dock-action { border-color: #d9efdf54; background: #d9efdf18; }
+#dock-status { flex-basis: 100%; font-variant-numeric: tabular-nums; }
+#voyage-time { font-size: 12px; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.controls p { padding-inline: 4px; }
+button {
+  border: 1px solid transparent;
+  border-radius: 8px;
+  min-width: 59px;
+  padding: 7px 11px;
+  font: inherit;
+  font-size: 13px;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+button:hover { background: #d9efdf27; }
+button[aria-pressed="true"] { background: #e3eadd; color: #1e3026; }
+button:focus-visible, select:focus-visible { outline: 2px solid #f6f8ec; outline-offset: 2px; }
+.loading {
+  position: fixed;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  max-width: calc(100% - 32px);
+  padding: 12px 18px;
+  border-radius: 9px;
+  background: #182724ed;
+  font-size: 14px;
+}
+@media (pointer: coarse) {
+  .controls { left: max(12px, env(safe-area-inset-left)); gap: 7px; }
+  button, .voyage-path select, #dock-destination { min-height: 44px; }
+}
+@media (max-width: 640px) {
+  .journey-panel {
+    top: calc(max(env(safe-area-inset-top), 18px) + 38px);
+    right: auto;
+    left: max(12px, env(safe-area-inset-left));
+  }
+  .journey-panel button { padding-inline: 7px; }
+  #sound-toggle { top: max(10px, env(safe-area-inset-top)); right: max(12px, env(safe-area-inset-right)); padding-inline: 7px; }
+}
+@media (min-width: 441px) {
+  .controls[data-mode="flight"] .travel-modes button { padding-inline: 8px; }
+}
+@media (max-width: 440px) {
+  .travel-modes { gap: 3px; }
+  .travel-modes button { min-width: 0; padding-inline: 5px; gap: 4px; font-size: 12px; white-space: nowrap; }
+  .travel-modes kbd { min-width: 14px; padding-inline: 2px; font-size: 10px; }
+  .drive-pad button { padding-inline: 4px; }
+}
+@media (310px <= width <= 440px) and (orientation: portrait) and (pointer: coarse) {
+  .controls[data-mode="flight"] {
+    grid-template-columns: auto 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+    bottom: max(12px, env(safe-area-inset-bottom));
+  }
+  .controls[data-mode="flight"] .travel-modes,
+  .controls[data-mode="flight"] .vehicle-readout,
+  .controls[data-mode="flight"] .drive-pad:first-child { grid-column: 1 / -1; }
+  .controls[data-mode="flight"] .drive-controls { display: contents; }
+  .controls[data-mode="flight"] #drive-hint { display: none; }
+  .controls[data-mode="flight"] #perspective-controls { grid-area: 4 / 2; justify-self: end; }
+  .controls[data-mode="flight"] #perspective-controls button { padding-inline: 5px; white-space: nowrap; }
+  .controls[data-mode="flight"] #perspective-controls [aria-pressed="true"] { display: none; }
+  .controls[data-mode="flight"] #altitude-pad { grid-area: 4 / 1; flex-wrap: nowrap; gap: 3px; }
+  .controls[data-mode="flight"] #altitude-pad button { min-width: 53px; gap: 3px; padding-inline: 3px; white-space: nowrap; }
+}
