@@ -1,5 +1,7 @@
 # 0033 · 薄云下的漓江河湾
 
+[公开研究页](https://yydshly.github.io/20261115_codex_project/demos/0033-lijiang-river-bend/) · [直接进入可玩 Demo](https://yydshly.github.io/20261115_codex_project/demos/0033-lijiang-river-bend/play/) · [发布与验收记录](publication.md)
+
 从「薄云下的漓江河湾」提示词出发，用 Three.js、GLSL 和程序化三维高斯泼溅做成可步行、开船和快飞的原创喀斯特河谷。约 4 分半的引导航程把登船、浅滩、贴岸岩壁、靠泊和空中回望串在一起。沿中心线可探索约 1.50 公里河道，视野中的上下游河道约 2.06 公里。这个小样展示了如何复用一套地形、光照和水深规则，做出能从不同高度连续观察的浏览器场景。
 
 [![漓江技术导览图，包含木船和飞机实测画面、浅滩标注、同机位高斯开关对照及渲染流程](assets/rendering-guide.png)](assets/rendering-guide.png)
