@@ -2,6 +2,8 @@
 
 研究 OpenStreetMap 怎样为真实城市提供地理布局和路网，并在深圳蛇口验证从城区骨架到可玩路线的过程。
 
+[打开公开复盘网页](https://yydshly.github.io/20261115_codex_project/demos/0034-openstreetmap-shekou/) · [部署和线上验收](publication.md)
+
 ![从 OpenStreetMap 到可玩的蛇口，含项目底图、原型驾驶截图和整城实景复刻的条件](assets/openstreetmap-summary.png)
 
 ## 从开放地图选题到蛇口样板
