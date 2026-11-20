@@ -2,7 +2,7 @@
 
 ## 西南河口到东南深海
 
-[沿 3D 海岸线前往深海](http://127.0.0.1:52932/expedition.html?plan=coast-sea#build-1)。从西南河口沿南侧水域绕到东部岩岸，再接清浅砂底、硬底礁坪、陆架、陆坡和海沟。海床剖面共用零米基准，可以切换潮相、揭海看床底、下潜看群落。深处分站用观察灯照亮邻近海床。
+[沿 3D 海岸线前往深海](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=coast-sea#build-1)。从西南河口沿南侧水域绕到东部岩岸，再接清浅砂底、硬底礁坪、陆架、陆坡和海沟。海床剖面共用零米基准，可以切换潮相、揭海看床底、下潜看群落。深处分站用观察灯照亮邻近海床。
 
 八个观察点的路线约 6.09 公里。南部外海在原地图南缘做了局部地形过渡，水路留在统一底图范围内。高潮下陆架、陆坡、海沟样点水深分别约为 68 米、162 米和 371 米。
 
@@ -14,7 +14,7 @@
 
 ## 西南迎风湿林到南部背风草地
 
-[在 3D 原位切换雨季和旱季](http://127.0.0.1:52932/expedition.html?plan=rain-shadow#build-1)。从雨林河岸、迎风坡、主脊到疏林长草、浅沟湿草、砾土和干谷。七站共约 1.43 公里，可从「海岸到内陆」相应站点进入，切季节时保留位置。
+[在 3D 原位切换雨季和旱季](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=rain-shadow#build-1)。从雨林河岸、迎风坡、主脊到疏林长草、浅沟湿草、砾土和干谷。七站共约 1.43 公里，可从「海岸到内陆」相应站点进入，切季节时保留位置。
 
 7 月和 1 月沿用逐月风向、降雨和根区收支。雨林低滩的水位增量由西南河月出流量换算，水面受真实河床与通水路径限制。背风浅沟用当地根区水分驱动独立积水，雨林河水不越主脊进入浅沟。木本的间距固定，草与莎草在雨季更高、更绿，退水后在低处留湿。读数与水位为场景试算。
 
@@ -22,7 +22,7 @@
 
 ## 北部冷岸到青岚—雪岭
 
-[在大地图打开冷岸与高山](http://127.0.0.1:52932/expedition.html?plan=cold#build-1)。可在「分区与形成 → 冷岸与高山」、环境缺口第三项或三条环境线中打开。
+[在大地图打开冷岸与高山](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=cold#build-1)。可在「分区与形成 → 冷岸与高山」、环境缺口第三项或三条环境线中打开。
 
 - 北岸低海拔线顺浮冰湾、苔原多边形地面、热融浅洼和冷坡林缘到混交林。切换 1 月和 7 月，从同一位置比较表土冻结、活动层、冰楔和浅洼积水。
 - 高山线从青岚山脚乔木带上到海拔林线、冻融碎石坡与雪岭。沿雪岭冰斗和冰川中段到冰碛湖，可横切现有地形取得 U 形谷床，比较谷床和冰面位置。
@@ -33,7 +33,7 @@
 
 [USGS · 冻土、活动层与多边形地面](https://pubs.usgs.gov/ha/ha730/ch_n/N-AKtext1.html) · [NPS · 冰斗、冰蚀谷与冰碛](https://www.nps.gov/glba/learn/nature/anatomy-of-a-glacier.htm)
 
-[打开三线全图](http://127.0.0.1:52932/expedition.html?plan=lines#build-1)
+[打开三线全图](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=lines#build-1)
 
 三条线共用已有地形和水网。可以选站、逐站前进，或自动播放航拍线路。观察面板显示沿线剖面、站点高度以及冷暖、湿润和当月降雨指标。
 
@@ -49,9 +49,9 @@
 
 | 观察线 | 地点顺序与形成逻辑 |
 | --- | --- |
-| [顺水](http://127.0.0.1:52932/expedition.html?plan=lines&focus=water#build-1) | 雪岭冰川、冰碛湖、融水源池、河谷坡脚、北部支流汇口、苇泽湿地、分汊河口、中央海湾。沿实际水道观察高差、汇流以及下游沉积。 |
-| [南北冷暖](http://127.0.0.1:52932/expedition.html?plan=lines&focus=warmth#build-1) | 北境岸地、冷坡、针阔混交、温带河谷和平原、南部湿沟与暖坡、湿热林缘、红树林潮沟。冷暖大致随相对纬度变化，实景中的高差和水分产生局地例外。 |
-| [海岸到内陆](http://127.0.0.1:52932/expedition.html?plan=lines&focus=inland#build-1) | 西南外海、浅岸红树林、迎风坡、南部山脊、背风林草坡、砾地、干谷和泉池。西南湿风、坡面抬升和背风干区串起主线，泉池提供局部湿润对照。 |
+| [顺水](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=lines&focus=water#build-1) | 雪岭冰川、冰碛湖、融水源池、河谷坡脚、北部支流汇口、苇泽湿地、分汊河口、中央海湾。沿实际水道观察高差、汇流以及下游沉积。 |
+| [南北冷暖](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=lines&focus=warmth#build-1) | 北境岸地、冷坡、针阔混交、温带河谷和平原、南部湿沟与暖坡、湿热林缘、红树林潮沟。冷暖大致随相对纬度变化，实景中的高差和水分产生局地例外。 |
+| [海岸到内陆](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=lines&focus=inland#build-1) | 西南外海、浅岸红树林、迎风坡、南部山脊、背风林草坡、砾地、干谷和泉池。西南湿风、坡面抬升和背风干区串起主线，泉池提供局部湿润对照。 |
 
 青白线为连通外海的格网海陆边界。金线沿现有山脉与丘脊。紫实线取 40 米高程格网上有不同已识别出口的邻域，区分中央、南部出海及西部内流等流域。浅紫虚线沿实际格网下坡方向，估算较大局地汇水区的分水边界。橙色箭头借用全年风雨的 1 月西北风、7 月西南湿风和夏季东南沿海补充水汽；切月同步更新原水量模型的三维水面。
 

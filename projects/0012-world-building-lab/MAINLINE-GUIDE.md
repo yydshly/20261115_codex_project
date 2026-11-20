@@ -1,6 +1,6 @@
 # 山海之间 · 雪岭到深海
 
-[从雪岭开始环境主线](http://127.0.0.1:52932/expedition.html?walk=snow-to-deep#ice-1) · [网页中的建设顺序](http://127.0.0.1:52932/journey.html#mainline-roadmap)
+[从雪岭开始环境主线](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?walk=snow-to-deep#ice-1) · [网页中的建设顺序](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/journey.html#mainline-roadmap)
 
 主线用现代基座已实走的 2,483 米，把地形、水系、地表、植被和时间层串起来。进入一站后，先看场景，听或读讲解，按提示做一次对照，再前往下一站。前往下一站会沿原路线移动，到站停下来。站点下拉框可直接定位；从专题点「返回主线讲解」或关闭专题，都会返回原站和时期。
 
@@ -18,7 +18,7 @@
 
 ## 同一流域的形成剖面
 
-[从雪岭打开 3D 形成剖面](http://127.0.0.1:52932/expedition.html?plan=ridge-bay&station=ridge&month=7#ice-1)。雪岭、源池、中央河谷、苇泽湿地、中央海湾五站共用现有地形和逐月水量收支。顺水线会带入当前月份，主线的「读本站地形剖面」会定位所在站。选择「到本站实地」可以回到对应的步行站。
+[从雪岭打开 3D 形成剖面](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=ridge-bay&station=ridge&month=7#ice-1)。雪岭、源池、中央河谷、苇泽湿地、中央海湾五站共用现有地形和逐月水量收支。顺水线会带入当前月份，主线的「读本站地形剖面」会定位所在站。选择「到本站实地」可以回到对应的步行站。
 
 图中地表线取自真实场景高程。水线、沉积量和淹水分带引用已有试算。苇泽湿地的水面、可淹低滩和植被含水表现会随月份变化。河谷浅槽和海湾加积线是用于解释形成过程的参考形态。
 
@@ -32,7 +32,7 @@
 
 ## 东部冷流带与海雾
 
-东部岩岸前新增冷流带停靠点。固定入口气温和露点，原位切换冷流与较暖海面，观察暖湿空气是否冷却到露点。保持冷流不动，切换向岸风或离岸风，看雾在哪一侧聚集。展开温度带和箭头可分别查看近岸流向和风向，俯看时会保留主线进度。场景采用简化的海气换热和雾输送估算，能见度是渲染参考。[进入冷流与海雾站](http://127.0.0.1:52932/expedition.html?walk=snow-to-deep&station=coastal-fog#ice-1) · [美国国家气象局海雾说明](https://www.weather.gov/safety/fog-water)
+东部岩岸前新增冷流带停靠点。固定入口气温和露点，原位切换冷流与较暖海面，观察暖湿空气是否冷却到露点。保持冷流不动，切换向岸风或离岸风，看雾在哪一侧聚集。展开温度带和箭头可分别查看近岸流向和风向，俯看时会保留主线进度。场景采用简化的海气换热和雾输送估算，能见度是渲染参考。[进入冷流与海雾站](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?walk=snow-to-deep&station=coastal-fog#ice-1) · [美国国家气象局海雾说明](https://www.weather.gov/safety/fog-water)
 
 ## 语音
 

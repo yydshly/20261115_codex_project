@@ -1,6 +1,6 @@
 # 现代环境基座 V1 · 规模、通行与环境过渡
 
-[从雪岭实走到海湾](http://127.0.0.1:52932/expedition.html?walk=snow-to-bay#ice-1) · [在 3D 地理底图复查接缝](http://127.0.0.1:52932/expedition.html?plan=foundation#build-1) · [世界总览](http://127.0.0.1:52932/journey.html#geographic-foundation)
+[从雪岭实走到海湾](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?walk=snow-to-bay#ice-1) · [在 3D 地理底图复查接缝](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=foundation#build-1) · [世界总览](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/journey.html#geographic-foundation)
 
 [第二阶段 · 在同一路线切换史前时间层](BENCHMARK-TIME.md)
 
