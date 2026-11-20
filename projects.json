@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "next_id": 32,
+  "next_id": 35,
   "projects": [
     {
       "id": "0001",
@@ -442,6 +442,35 @@
         "理解与内容：区分参考、素材、生成、动作、成片、三维与Skills，逐项对应真实效果、输入输出、价值、场景和边界。",
         "对我们的价值：把喜欢的效果转成可选择、可修改、可验收的做法，复用已有素材和工作规则；保留四项修改／导出测量及各自口径。",
         "阅读引导：五条任务路线、场景筛选、三库对照和15份阶段记录；使用本轮3200×10440汇总图原件，作者案例、本站实测、共享样片与原理示意分别署名。"
+      ]
+    },
+    {
+      "id": "0034",
+      "order": 32,
+      "slug": "openstreetmap-shekou",
+      "name": "OpenStreetMap 与蛇口城市原型",
+      "summary": "研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。",
+      "repository": null,
+      "status": "validated",
+      "tags": [
+        "OpenStreetMap",
+        "Overture Maps",
+        "实景三维",
+        "城市原型",
+        "WebGL"
+      ],
+      "preview": {
+        "path": "projects/0034-openstreetmap-shekou/assets/openstreetmap-summary.png",
+        "full_path": "projects/0034-openstreetmap-shekou/assets/openstreetmap-summary.png",
+        "alt": "从 OpenStreetMap 到可玩的蛇口：开放地图能提供什么、实际试玩效果、整城实景复刻还需什么",
+        "caption": "项目原创理解图，左为含 OpenStreetMap 数据的蛇口项目底图，中为实际驾驶截图，右为实景和玩法的条件。保留 2160 × 1430 PNG 原图。"
+      },
+      "demo_url": null,
+      "source_url": "https://www.openstreetmap.org/about",
+      "highlights": [
+        "能力与价值：开放地图用于定位道路、建筑占地、岸线和部分商户。海上世界样本的 106 条交通线段均来自 OpenStreetMap，街面外观与高差需要其他资料。",
+        "实际验证：蛇口约 6.7 × 5.6 公里城区骨架和街面漫游，老街至海上世界约 1.32 公里可驾驶路线，跑通停车、下车、骑行让行与步行入场。",
+        "最终理解：地图解决地理布局，实景三维与地面照片解决视觉对应，碰撞和导航支撑玩法。整城一比一复刻仍缺可用于游戏的实景资料。"
       ]
     }
   ]

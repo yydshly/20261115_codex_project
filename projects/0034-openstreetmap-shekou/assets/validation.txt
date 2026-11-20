@@ -1,0 +1,36 @@
+蛇口实景城市项目 · 程序验证
+2026-11-20 的项目快照
+
+市场支线
+.shekou-façade-qa/verify-market.cjs
+{"approachMeters":68.95484821658323,"frames":975,"result":{"station":5.717122549729429,"offset":0.15934230307135164},"car":{"x":1182.3973094934959,"y":1.4562090899251,"z":-449.90676896032204,"yaw":-1.5977150510782374,"speed":2.614166666666562,"steer":0.9616666666666667,"doorSide":-1,"doorAngle":0,"wheelSpin":208.34550781249683}}
+
+老街至海上世界主路线
+.shekou-link-qa/verify.cjs
+{"metres":1317,"simulatedSeconds":160,"peakKph":40,"maxDoor":1.12,"waitingSeconds":"2.6","bikeGap":"2.01","complete":"done","loss":0}
+
+纵坡与沥青面
+.shekou-grade-qa/verify-grade.cjs
+{"samples":329,"asphaltSamples":368,"minGrade":-3.0004842475738744,"maxGrade":2.9170716158996366,"asphaltWorstDelta":0.05858640284786021,"base":6.09}
+
+城区表面
+.shekou-city-world-qa/verify_surface.cjs
+{
+  samples: 4599,
+  roadHeightMax: 0.0183,
+  byRoute: [ 0.0183, 0.0078, 0.0076, 0.0086, 0.0091, 0.0083 ],
+  streetLights: 289
+}
+
+城区漫游路线
+.shekou-city-world-qa/verify_routes.py
+蛇口邮轮母港 海上世界 6053 max 6m grade % 11.4
+海上世界 水湾 2000 max 6m grade % 11.4
+水湾 蛇口老街 1408 max 6m grade % 11.4
+蛇口老街 东角头 1294 max 6m grade % 11.2
+东角头 湾厦 1518 max 6m grade % 11.3
+湾厦 东角头 1523 max 6m grade % 11.3
+Terrain {'vertices': 47, 'heightMax': 2.9, 'maxRaw': 21.88, 'maxFit': 11.38}
+Player radius 2.43 frontage styles {2: 26, 3: 215, 1: 50}
+Dongjiaotou verified 294 fixtures clear of routes and buildings 57 mapped ground-level paths
+Streetscape verified 23 paved crossing spans and 5 shop labels

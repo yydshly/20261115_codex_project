@@ -6,7 +6,7 @@
 
 ## 子项目索引
 
-已收录 **15** 个项目。
+已收录 **16** 个项目。
 
 | 顺序 | 编号 | 子项目 | 简介 | 状态 | 链接 |
 | --- | --- | --- | --- | --- | --- |
@@ -25,6 +25,7 @@
 | 13 | `0021` | [数字人口播制作 · 能力、样片与复用工作流](projects/0021-avatar-video-workflow/README.md) | 从模型与平台的分工出发，用真实样片、完整研究图和可复用后期模板，整理人物、内容、剪辑与三维的制作方法及价值。 | 已验证 | [参考来源](https://x.com/AndyL5cc/status/2121553136615596139) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0021-avatar-video-workflow/index.html) |
 | 14 | `0028` | [创作 Skill · 输入、约束与我们的价值](projects/0028-creator-skill-mechanisms/README.md) | 拆解五套创作 Skill 的输入、处理、输出与约束机制，理解哪些规则、样本和校验值得沉淀为我们自己的方法。 | 研究中 | [参考来源](https://x.com/liyuuuing/status/2121507172580475003) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0028-creator-skill-mechanisms/) |
 | 15 | `0031` | [创作工具总览 · 15库效果、价值与选用](projects/0031-creative-tools-hub/README.md) | 把15项创作库的效果、分工与实测放在一起，按短片、口播、三维和网页任务选工具，沉淀可复用的方法与验证依据。 | 已验证 | [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/) |
+| 16 | `0034` | [OpenStreetMap 与蛇口城市原型](projects/0034-openstreetmap-shekou/README.md) | 研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。 | 已验证 | [参考来源](https://www.openstreetmap.org/about) |
 
 ## 项目图览
 
@@ -287,6 +288,22 @@
 沿用本轮生成的3200×10440完整原图，不重绘或改动像素。12幅不同效果／实测图、GSAP静态构成、Blender连接示意分别标注；Remotion Skills共用Remotion样片证据。
 
 [进入研究](projects/0031-creative-tools-hub/README.md) · [参考来源](https://x.com/fuji_ai_/status/2121898699374911862) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0031-creative-tools-hub/)
+
+### 0034 · OpenStreetMap 与蛇口城市原型
+
+研究 OpenStreetMap 如何提供真实地理布局和路网，并用深圳蛇口验证从城区骨架到驾驶、停车、下车、让行与步行入场的完整路线。
+
+能力与价值：开放地图用于定位道路、建筑占地、岸线和部分商户。海上世界样本的 106 条交通线段均来自 OpenStreetMap，街面外观与高差需要其他资料。
+
+实际验证：蛇口约 6.7 × 5.6 公里城区骨架和街面漫游，老街至海上世界约 1.32 公里可驾驶路线，跑通停车、下车、骑行让行与步行入场。
+
+最终理解：地图解决地理布局，实景三维与地面照片解决视觉对应，碰撞和导航支撑玩法。整城一比一复刻仍缺可用于游戏的实景资料。
+
+[![从 OpenStreetMap 到可玩的蛇口：开放地图能提供什么、实际试玩效果、整城实景复刻还需什么](projects/0034-openstreetmap-shekou/assets/openstreetmap-summary.png)](projects/0034-openstreetmap-shekou/assets/openstreetmap-summary.png)
+
+项目原创理解图，左为含 OpenStreetMap 数据的蛇口项目底图，中为实际驾驶截图，右为实景和玩法的条件。保留 2160 × 1430 PNG 原图。
+
+[进入研究](projects/0034-openstreetmap-shekou/README.md) · [参考来源](https://www.openstreetmap.org/about)
 
 <!-- PROJECTS:END -->
 

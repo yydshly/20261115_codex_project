@@ -29,7 +29,8 @@ DESIGN_ATLAS = '0017-design-reference-atlas'
 BOT_ROLES = '0018-bot-role-research'
 CREATOR_SKILLS = '0028-creator-skill-mechanisms'
 CREATIVE_HUB = '0031-creative-tools-hub'
-STATIC_PROJECTS = {CREATIVE_HUB: 'index.html', CREATOR_SKILLS: 'index.html', BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html'}
+SHEKOU_STUDY = '0034-openstreetmap-shekou'
+STATIC_PROJECTS = {CREATIVE_HUB: 'index.html', CREATOR_SKILLS: 'index.html', BOT_ROLES: 'index.html', DESIGN_ATLAS: 'index.html', ABYSSAL_NOTES: 'index.html',PELICAN_STUDY: 'index.html', VALLEY_GARDEN: 'overview/index.html', WIND_GARDEN: 'index.html', SOURCE_GUIDE: 'index.html', EVERYDAY_WONDERS: 'map.html', AVATAR_WORKFLOW: 'index.html', CANAL_RESEARCH: 'index.html', SHANHE_WORLD: 'index.html', HUMAN_NATURE_STUDY: 'index.html', SHEKOU_STUDY: 'index.html'}
 
 
 def build_static_projects(output):
