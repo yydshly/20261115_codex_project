@@ -2,7 +2,7 @@
 
 ## 晚更新世到现在的地貌遗存
 
-[沿八站查看旧冰缘到陆架古河槽](http://127.0.0.1:52932/expedition.html?plan=legacy#build-1)。从雪岭旧冰缘、冰碛砾脊、冰碛湖，经中央河谷、苇泽湿地、中央河口，到内侧和较外侧陆架。可从三条环境线或「史前气候」进入，切换时期时保留当前观察点的水平坐标。
+[沿八站查看旧冰缘到陆架古河槽](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?plan=legacy#build-1)。从雪岭旧冰缘、冰碛砾脊、冰碛湖，经中央河谷、苇泽湿地、中央河口，到内侧和较外侧陆架。可从三条环境线或「史前气候」进入，切换时期时保留当前观察点的水平坐标。
 
 - 退冰开始时，旧冰碛观察点先露出，附近冰碛湖中心仍处在冰体下面。更晚节点能看到保留下来的盆地、湖面与下游出水溪。
 - 中央河谷保留较宽的旧谷形。现代苇泽的河漫滩、季节性湿地与常年湿地使用原有水文分带，可以沿低滩核对细粒沉积的位置和植被。
@@ -14,7 +14,7 @@
 
 [USGS · 海侵之后的古河谷与细粒沉积](https://pubs.usgs.gov/fs/incised-valleys/) · [NPS · 冰碛、冰缘沉积与融水](https://home.nps.gov/kefj/learn/nature/glacier-terminology.htm)
 
-[在同一座河口切换时期](http://127.0.0.1:52932/expedition.html?walk=snow-to-bay&epoch=interglacial&at=2306#ice-1) · [从雪岭起点出发](http://127.0.0.1:52932/expedition.html?walk=snow-to-bay#ice-1)
+[在同一座河口切换时期](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?walk=snow-to-bay&epoch=interglacial&at=2306#ice-1) · [从雪岭起点出发](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/expedition.html?walk=snow-to-bay#ice-1)
 
 在「雪岭步行线」选择一个观察点，再切换时期。切换保留当前 X/Z 坐标。镜头高度跟随当期地表。当原位置被冰或水覆盖，镜头升到该点上方，方便比较冰缘、岸线和植被。青线标示当期岸线，橙圈标记当期入海口。小地图以现代底图标示位置。
 

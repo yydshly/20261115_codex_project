@@ -17,7 +17,7 @@
 | 5 | `0008` | [鹈鹕骑车研究 · 艺术巡游的价值、方法与扩展](projects/0008-pelican-layout-study/README.md) | 从原作20幕与真实结尾拆解持续主角、整幕美术、三维巡游、情绪承接与整体规划，沉淀艺术统筹、叙事和跨题材创作方法，并汇总《光》《雨》与七种连接的网页效果和未达标教训。 | 已验证 | [参考来源](https://x.com/nft_chen/status/2121616583110115341) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0008-pelican-layout-study/) |
 | 6 | `0009` | [知源 · AI 与开源信息源指南](projects/0009-ai-source-field-guide/README.md) | 把AI与开源平台、作者和项目连成发现→理解→验证→实践的路径，帮助选对工具、核对证据，并积累可复用的项目经验。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [参考来源](https://x.com/yxl44/status/2121581932412895507) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0009-ai-source-field-guide/index.html) |
 | 7 | `0011` | [日常奇想 · 参考影像与故事创作档案](projects/0011-everyday-wonders/README.md) | 从原片提炼日常动作改变世界的创作方法，整理四条方向、七份故事和六项可沉淀能力，供后续选题、分镜与试制复用。 | 已验证 | [参考来源](https://x.com/VidusheWrites/status/2121596512878870615) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0011-everyday-wonders/map.html) |
-| 8 | `0012` | [山海之间 · 多种地理效果与 3D 环境基座](projects/0012-world-building-lab/README.md) | 在同一张可探索的原创 3D 地图中实现多种现代与史前地理效果，包括山脉、冰川、河流、湿地、盐盆、雨林、海岸和深海。沿实景路线对照地形、岩性、气候、水系与植被怎样共同形成这些环境，再用地势与水源推导聚落和交通选址。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) |
+| 8 | `0012` | [山海之间 · 多种地理效果与 3D 环境基座](projects/0012-world-building-lab/README.md) | 在同一张可探索的原创 3D 地图中实现多种现代与史前地理效果，包括山脉、冰川、河流、湿地、盐盆、雨林、海岸和深海。沿实景路线对照地形、岩性、气候、水系与植被怎样共同形成这些环境，再用地势与水源推导聚落和交通选址。 | 已验证 | [原仓库](https://github.com/yydshly/20261115_codex_project) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/world-report.html) |
 | 9 | `0016` | [海的生成 · 海底世界与提示词手记](projects/0016-abyssal-world-notes/README.md) | 研究 Abyssal Garden 可运行、可读源码的程序化海底与验收任务书，沉淀我们独立创作海底世界的七项提示词。 | 已验证 | [原仓库](https://github.com/Noniv/abyssal-garden) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0016-abyssal-world-notes/) |
 | 10 | `0017` | [观式 · 100 个设计与影像网站](projects/0017-design-reference-atlas/README.md) | 把100个设计与影像网站整理成可搜索的参考库：对照真实预览，解释效果、实现原理，以及对庭院三维、短片、研究网页和AI创作的具体价值。 | 已验证 | [参考来源](https://x.com/EianLu/status/2121219503988113557) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0017-design-reference-atlas/) |
 | 11 | `0018` | [定制 Bot · 分工、能力与研究迁移](projects/0018-bot-role-research/README.md) | 以完整信息图和交互图厘清 Bot 身份、工具权限和协作价值，整理交易与研究的讨论，并说明八到五岗位的功能迁移。 | 已验证 | [参考来源](https://x.com/Bober_smart/status/2121686230467285097) · [演示](https://yydshly.github.io/20261115_codex_project/demos/0018-bot-role-research/) |
@@ -169,7 +169,7 @@
 
 环境基座原目标、地图实景、形成逻辑、复用价值与待补缺口。点击查看 1800 × 2860 原图。
 
-[进入研究](projects/0012-world-building-lab/README.md) · [原仓库](https://github.com/yydshly/20261115_codex_project)
+[进入研究](projects/0012-world-building-lab/README.md) · [原仓库](https://github.com/yydshly/20261115_codex_project) · [在线网页](https://yydshly.github.io/20261115_codex_project/demos/0012-world-building-lab/world-report.html)
 
 ### 0016 · 海的生成 · 海底世界与提示词手记
 
